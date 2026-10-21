@@ -1,0 +1,57 @@
+{
+  "generated_at_utc": "2026-10-21T09:44:55.946441+00:00",
+  "deliverable_hashes_sha256": {
+    "01_thai_quran_translation_v4_master.json": "00be09a35aef33e7d30becbb2622e652106c9387a59ef02844ead3321b2ea4d5",
+    "02_thai_quran_translation_v4_annotated.json": "35e6bcb27b73837f8149102cc48274947662242a2f4d6542097aa274e2c11df3",
+    "03_thai_quran_translation_v4_master.csv": "47a51e3b31779af7ad5c3da4c7ea840cae498b01f4b836bad715d92982353814",
+    "04_thai_v4_scholar_review_sheet.csv": "396cf6fe98f8501761a0b19e7df28c0a2cf89f2f20d369cae94e1e2e45347196"
+  },
+  "gates": {
+    "gate_01_canonical_verse_and_surah_count": {
+      "passed": true,
+      "total_ayahs": 6236,
+      "total_surahs": 114
+    },
+    "gate_02_footnote_count_and_token_parity": {
+      "passed": true,
+      "total_footnotes": 7338,
+      "mismatches": []
+    },
+    "gate_03_zero_leaked_markers_in_clean_master": {
+      "passed": true,
+      "leaked_verses": []
+    },
+    "gate_04_zero_empty_strings": {
+      "passed": true,
+      "empty_items": []
+    },
+    "gate_05_zero_corrupt_graphemes_or_html": {
+      "passed": true,
+      "corrupt_items": []
+    },
+    "gate_06_balanced_parentheses": {
+      "passed": true,
+      "unbalanced_items": [],
+      "unbalanced_count": 0
+    },
+    "gate_07_phinthu_and_transliteration_compliance": {
+      "passed": true,
+      "violations": [],
+      "violation_count": 0
+    },
+    "gate_08_zero_known_ocr_typos": {
+      "passed": true,
+      "violations": [],
+      "violation_count": 0
+    },
+    "gate_09_omission_restoration_and_factual_fixes": {
+      "passed": true,
+      "failures": []
+    },
+    "gate_10_production_isolation_untouched": {
+      "passed": true,
+      "dirty_repos": []
+    }
+  },
+  "all_10_gates_passed": true
+}

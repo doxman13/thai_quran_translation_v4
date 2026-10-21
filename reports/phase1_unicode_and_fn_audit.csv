@@ -1,0 +1,36 @@
+﻿ayah_key,context,category,before,after
+8:59->8:60,footnote_reassignment,MISPLACED_FOOTNOTE_MOVED,"8:59 had ['148', '149', '150']",Moved 3 footnotes to 8:60
+10:106->10:107,footnote_reassignment,MISPLACED_FOOTNOTE_MOVED,10:106 had ['102'],Moved 1 footnotes to 10:107
+24:63->24:64,footnote_reassignment,MISPLACED_FOOTNOTE_MOVED,"24:63 had ['133', '134', '135']",Moved 3 footnotes to 24:64
+40:50->40:52,footnote_reassignment,MISPLACED_FOOTNOTE_MOVED,"40:50 had ['64', '65']",Moved 2 footnotes to 40:52
+40:56->40:64,footnote_reassignment,MISPLACED_FOOTNOTE_MOVED,"40:56 had ['78', '79', '80']",Moved 3 footnotes to 40:64
+27:16,inline_footnote_marker,INLINE_FN_TYPO_27_TO_26,และเราได้รับทุกๆ สิ่ง(27),และเราได้รับทุกๆ สิ่ง(26)
+28:7,inline_footnote_marker,INLINE_FN_TYPO_15_TO_16,เป็นหนึ่งในบรรดาร่อซูล”(15),เป็นหนึ่งในบรรดาร่อซูล”(16)
+47:20,inline_footnote_marker,INLINE_FN_TYPO_12_TO_21,จงประสบแก่พวกเขาเถิด(12),จงประสบแก่พวกเขาเถิด(21)
+22:34,inline_footnote_marker,DUPLICATE_INLINE_FN_45_REMOVED,กล่าวพระนามของอัลลอฮ์(45) ต่อสิ่งที่,กล่าวพระนามของอัลลอฮ์ ต่อสิ่งที่
+9:53,inline_footnote_marker,RESTORE_INLINE_FN_127,เป็นพวกที่ละเมิด,เป็นพวกที่ละเมิด(127)
+19:76,inline_footnote_marker,RESTORE_INLINE_FN_69,ในการกลับ(ไปสู่พระองค์),ในการกลับ(ไปสู่พระองค์)(69)
+28:23,inline_footnote_marker,RESTORE_INLINE_FN_51,“เรื่องราวของเธอทั้งสองเป็นมาอย่างไร ?”,“เรื่องราวของเธอทั้งสองเป็นมาอย่างไร ?”(51)
+28:25,inline_footnote_marker,RESTORE_INLINE_FN_55,เดินมาอย่างขวยเขิน,เดินมาอย่างขวยเขิน(55)
+28:31,inline_footnote_marker,RESTORE_INLINE_FN_67,เขาก็ผินหลังกลับและไม่กลับมามองอีก,เขาก็ผินหลังกลับและไม่กลับมามองอีก(67)
+28:79,inline_footnote_marker,RESTORE_INLINE_FN_176,บรรดาผู้ปรารถนาชีวิตแห่งโลกนี้,บรรดาผู้ปรารถนาชีวิตแห่งโลกนี้(176)
+100:11,inline_footnote_marker,RESTORE_INLINE_FN_6,ทรงตระหนักในพวกเขาอย่างแน่นอน,ทรงตระหนักในพวกเขาอย่างแน่นอน(6)
+58:7,footnote_header,DOUBLE_PAREN_FN_HEADER,((10),(10)
+13:41,footnote_43,EMPTY_UPSTREAM_FOOTNOTE_REMOVED,(43) [empty body],[removed empty footnote]
+14:3,footnote_3,DUPLICATED_NEXT_FOOTNOTE_STRIPPED,...ความใคร่ของเขา 4. เพื่อที่จะชี้แจง...,...ความใคร่ของเขา
+2:1,ayah,MUQATTAAT_PARENTHETICAL_STANDARDIZED,อะลีฟ ลาม มีม(6)(อัลลอฮ์ทรงทราบความหมายของอักษรย่อนี้),อะลิฟ ลาม มีม(6)
+7:1,ayah,MUQATTAAT_PARENTHETICAL_STANDARDIZED,อะลิฟ ลาม มีม ศอด(อัลลอฮ์เท่านั้นที่ทราบความหมายของอักษรเหล่านั้น),อะลิฟ ลาม มีม ศอด
+2:260,ayah,DUPLICATE_TONE_MARK,และจงรำลึกถึงขณะที่่อิบรอฮีม,และจงรำลึกถึงขณะที่อิบรอฮีม
+4:23,ayah,STACKED_MISMATCH_TONE_4_23,น้่องชาย,น้องชาย
+5:17,ayah,CORRUPT_GRAPHEME_5_17,บรรดาผู้ืั้ปฏิเสธ,บรรดาผู้ที่ปฏิเสธ
+5:40,ayah,DUPLICATE_TONE_MARK,และจะทรงอภัยโทษแก่ผู้้ที่พระองค์ทรงประสงค์,และจะทรงอภัยโทษแก่ผู้ที่พระองค์ทรงประสงค์
+6:35,ayah,DUPLICATE_VOWEL_OR_KARAN,แน่นอนพระองค์ก็ทรงรวบรวมพวกเขาให้อยู่บนแนวทางทีี่ถูกต้องแล้ว⟦FN:57⟧,แน่นอนพระองค์ก็ทรงรวบรวมพวกเขาให้อยู่บนแนวทางที่ถูกต้องแล้ว⟦FN:57⟧
+6:92,ayah,DUPLICATE_TONE_MARK,ซึ่งอยู่เบื้้องหน้าคัมภีร์นี้และเพื่อที่เจ้าจะได้ตักเตือนแม่แห่งเมืองทั้งหลาย⟦FN:144⟧,ซึ่งอยู่เบื้องหน้าคัมภีร์นี้และเพื่อที่เจ้าจะได้ตักเตือนแม่แห่งเมืองทั้งหลาย⟦FN:144⟧
+21:87,ayah,STACKED_MISMATCH_TONE_21_87,(ที่้เที่ยงแท้),(ที่เที่ยงแท้)
+28:29,ayah,STACKED_MISMATCH_TONE_28_29,อบอุ่นขึ่้น,อบอุ่นขึ้น
+28:84,footnote_185,DISPLACED_VOWEL_FN_28_84,ให้แก่ผู้กระทำความดส่วนผู้กระทำความชั่วนั้นจะถูกตอบแทนเท่าที่เขาได้กระทำไว้ี,ให้แก่ผู้กระทำความดี ส่วนผู้กระทำความชั่วนั้นจะถูกตอบแทนเท่าที่เขาได้กระทำไว้
+30:37,ayah,STACKED_VOWEL_TONE_30_37,แท้จริงการนีี้้ย่อมเป็นสัญญาแก่หมู่ชน,แท้จริงในการนี้ย่อมเป็นสัญญาณแก่หมู่ชน
+33:57,ayah,MISSING_ANG_33_57,บรรดาผู้กล่าวร้ายแก่ัลลอฮ์,บรรดาผู้กล่าวร้ายแก่อัลลอฮ์
+34:38,footnote_74,DUPLICATE_TONE_MARK,ในอายะฮ์นี้ก็ได้กล่าวถึงการลงโทษแก่บรรดาผู้ปฏิเสธศรัทธาเพื่อให้้เป็นที่ประจักษ์ชัดและแตกต่างระหว่างการตอบแทนทั้งสองชนิด,ในอายะฮ์นี้ก็ได้กล่าวถึงการลงโทษแก่บรรดาผู้ปฏิเสธศรัทธาเพื่อให้เป็นที่ประจักษ์ชัดและแตกต่างระหว่างการตอบแทนทั้งสองชนิด
+37:75,ayah,DUPLICATE_VOWEL_OR_KARAN,และโดยแน่นอนนูห์์ได้ร้องขอเรา,และโดยแน่นอนนูห์ได้ร้องขอเรา
+67:27,ayah,DUPLICATE_TONE_MARK,นี่คือสิ่งที่่พวกเจ้าร้องขอ,นี่คือสิ่งที่พวกเจ้าร้องขอ
