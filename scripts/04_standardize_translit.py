@@ -241,9 +241,9 @@ REGEX_REPLACEMENTS = [
     (re.compile(r"อัลลอฮ(?![\u0E3A\u0E4C])"), "อัลลอฮฺ", "BARE_ALLAH_PHINTHU"),
     (re.compile(r"ฟิรเอาน(?![\u0E3A\u0E4C])"), "ฟิรเอานฺ", "BARE_FIRAWN_PHINTHU"),
     (re.compile(r"มลาอิกะฮ(?![\u0E3A\u0E4C])"), "มลาอิกะฮฺ", "BARE_MALAIKAH_PHINTHU"),
-    # Residual Arabic Tā' marbūṭah in waqf (ะฮ์ / ะห์ -> ะฮฺ)
+    # Residual Arabic Tā' marbūṭah in waqf (ะฮ์ / ะห์ -> ะฮฺ), protecting native Thai เคราะห์
     (re.compile(r"ะฮ์"), "ะฮฺ", "RESIDUAL_TA_MARBUTAH_HO_NOKHUK"),
-    (re.compile(r"ะห์"), "ะฮฺ", "RESIDUAL_TA_MARBUTAH_HO_HIP"),
+    (re.compile(r"(?<!เครา)ะห์"), "ะฮฺ", "RESIDUAL_TA_MARBUTAH_HO_HIP"),
     # Accidental double Phinthu cleanup if any
     (re.compile(r"\u0E3A{2,}"), "\u0E3A", "DEDUP_PHINTHU"),
 ]

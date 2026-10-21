@@ -23,7 +23,8 @@ sys.stdout.reconfigure(encoding="utf-8")
 REPO_ROOT = Path(r"H:\gits\thai_quran_translation_v4")
 AUDIT_DIR = Path(r"H:\gits\thai_quran_scholar_audit_v4")
 
-IN_PHASE4_JSON = REPO_ROOT / "data" / "04_tq_standardized.json"
+IN_PHASE6_JSON = REPO_ROOT / "data" / "06_tq_spacing_and_scholar_fixed.json"
+IN_PHASE4_JSON = IN_PHASE6_JSON if IN_PHASE6_JSON.exists() else (REPO_ROOT / "data" / "04_tq_standardized.json")
 IN_PHASE2_CSV = REPO_ROOT / "reports" / "phase2_omissions_restored_log.csv"
 V3_MASTER_JSON = AUDIT_DIR / "final_files" / "01_thai_quran_translation_v3_master.json"
 THAI1_JSON = AUDIT_DIR / "quran_foundation_thai_id51.json"

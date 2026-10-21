@@ -152,6 +152,12 @@ GLOBAL_TYPO_RULES = [
     ("เมื่อแผ่นดินถูให้แผ่กว้าง", "เมื่อแผ่นดินถูกให้แผ่กว้าง", "OCR_MISSING_KO_KAI_84_3"),
     ("ปิดปังไว้", "ปิดบังไว้", "OCR_PO_PLA_FOR_BO_BAIMAI_84_23"),
     ("ต่อัลลอฮ", "ต่ออัลลอฮ", "OCR_MISSING_O_ANG_TO_ALLAH"),
+    ("ไม่เชื่อฟังออัลลอฮ", "ไม่เชื่อฟังอัลลอฮ", "OCR_DOUBLE_O_ANG_ALLAH_33_36"),
+    ("ที่เกรงกลัวออัลลอฮ", "ที่เกรงกลัวอัลลอฮ", "OCR_DOUBLE_O_ANG_ALLAH_35_28"),
+    ("เมืออัลลอฮ", "เมื่ออัลลอฮ", "OCR_MISSING_MAIEK_MUEA_40_12"),
+    ("รอมฏอน", "รอมฎอน", "OCR_TO_PATAK_FOR_DO_CHADA_RAMADAN"),
+    ("อัลกรุอาน", "อัลกุรอาน", "OCR_TRANSPOSED_QURAN"),
+    ("ต้นพุทธา", "ต้นพุทรา", "SPELLING_PHUTSA_JUJUBE"),
     ("เสาเต๊นท์", "เสาเต็นท์", "SPELLING_TENT_89_10"),
     ("จะเข้าไปในเผาไหม้", "จะเข้าไปเผาไหม้", "EXTRA_NAI_92_15"),
     ("ที่กลีบเท้าของมัน", "ที่กีบเท้าของมัน", "OCR_KLIP_FOR_KIP_100_2"),
@@ -171,6 +177,9 @@ def build_safe_pattern(wrong: str, right: str) -> re.Pattern:
     or 'ระองค์' inside 'พระองค์'), build a negative lookbehind/lookahead regex so
     it NEVER matches when the text is already `right`.
     """
+    if wrong == "ต่อัลลอฮ":
+        # Protect 'แต่อัลลอฮ' (which ends in 'ต่อัลลอฮ') from turning into 'แต่ออัลลอฮ'
+        return re.compile(r"(?<!แ)ต่อัลลอฮ")
     idx = right.find(wrong)
     if idx != -1:
         prefix = right[:idx]

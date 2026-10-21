@@ -446,7 +446,6 @@
 3:12,footnote_11,RESIDUAL_TA_MARBUTAH_HO_NOKHUK,ะฮ์,ะฮฺ,1
 3:13,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,2
 3:13,footnote_13,CANONICAL_MATRIX,มักกะฮ์,มักกะฮฺ,1
-3:13,footnote_15,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 3:14,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 3:15,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,2
 3:15,footnote_16,CANONICAL_MATRIX,อายะฮ์,อายะฮฺ,2
@@ -2843,7 +2842,6 @@
 15:51,footnote_30,CANONICAL_MATRIX,มลาอิกะฮ์,มลาอิกะฮฺ,1
 15:69,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 15:72,footnote_47,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
-15:75,ayah,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 15:78,ayah,RESIDUAL_TA_MARBUTAH_HO_NOKHUK,ะฮ์,ะฮฺ,1
 15:78,footnote_49,CANONICAL_MATRIX,ชุไอบ์,ชุอัยบฺ,2
 15:78,footnote_49,RESIDUAL_TA_MARBUTAH_HO_NOKHUK,ะฮ์,ะฮฺ,2
@@ -2924,7 +2922,6 @@
 16:56,footnote_52,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 16:57,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 16:57,footnote_53,CANONICAL_MATRIX,มลาอิกะฮ์,มลาอิกะฮฺ,1
-16:59,footnote_54,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 16:60,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 16:60,footnote_55,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,2
 16:61,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
@@ -3474,7 +3471,6 @@
 21:29,footnote_29,CANONICAL_MATRIX,มลาอิกะฮ์,มลาอิกะฮฺ,1
 21:30,footnote_30,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 21:33,footnote_34,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
-21:35,footnote_35,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 21:36,ayah,CANONICAL_MATRIX,มักกะฮ์,มักกะฮฺ,1
 21:36,footnote_36,CANONICAL_MATRIX,อายะฮ์,อายะฮฺ,2
 21:36,footnote_36,RESIDUAL_TA_MARBUTAH_HO_NOKHUK,ะฮ์,ะฮฺ,1
@@ -3506,7 +3502,6 @@
 21:83,footnote_85,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 21:84,footnote_86,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,2
 21:84,footnote_86,CANONICAL_MATRIX,อับดุลลอฮ์,อับดุลลอฮฺ,1
-21:84,footnote_86,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 21:87,footnote_88,RESIDUAL_TA_MARBUTAH_HO_NOKHUK,ะฮ์,ะฮฺ,1
 21:90,ayah,RESIDUAL_TA_MARBUTAH_HO_NOKHUK,ะฮ์,ะฮฺ,1
 21:91,footnote_91,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
@@ -3724,8 +3719,6 @@
 23:69,footnote_68,CANONICAL_MATRIX,อะมานะฮ์,อะมานะฮฺ,1
 23:71,footnote_70,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 23:72,footnote_72,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
-23:75,footnote_74,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
-23:76,footnote_76,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 23:77,footnote_78,CANONICAL_MATRIX,อาคิเราะฮ์,อาคิเราะฮฺ,1
 23:85,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 23:87,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
@@ -4124,7 +4117,6 @@
 27:46,footnote_68,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,2
 27:47,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 27:47,ayah,RESIDUAL_TA_MARBUTAH_HO_NOKHUK,ะฮ์,ะฮฺ,1
-27:47,footnote_69,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 27:47,footnote_70,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 27:48,footnote_72,CANONICAL_MATRIX,อัลฮิจร์,อัลฮิจรฺ,1
 27:48,footnote_72,RESIDUAL_TA_MARBUTAH_HO_NOKHUK,ะฮ์,ะฮฺ,1
@@ -4187,7 +4179,6 @@
 28:7,footnote_16,CANONICAL_MATRIX,ฟิรเอาน์,ฟิรเอานฺ,1
 28:7,footnote_16,CANONICAL_MATRIX,บนีอิสรออีล,บะนีอิสรออีล,1
 28:8,ayah,CANONICAL_MATRIX,ฟิรอาวน์,ฟิรเอานฺ,2
-28:8,footnote_17,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 28:9,ayah,CANONICAL_MATRIX,ฟิรอาวน์,ฟิรเอานฺ,1
 28:9,footnote_19,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 28:9,footnote_19,CANONICAL_MATRIX,ฟิรเอาน์,ฟิรเอานฺ,1
@@ -4243,7 +4234,6 @@
 28:46,footnote_106,CANONICAL_MATRIX,ร่อซูล,รอซูล,1
 28:46,footnote_106,RESIDUAL_TA_MARBUTAH_HO_NOKHUK,ะฮ์,ะฮฺ,1
 28:47,ayah,CANONICAL_MATRIX,ร่อซูล,รอซูล,1
-28:47,ayah,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 28:48,footnote_109,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 28:48,footnote_110,CANONICAL_MATRIX,เตารอฮ์,เตารอฮฺ,1
 28:49,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
@@ -4694,7 +4684,6 @@
 33:36,footnote_75,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 33:36,footnote_75,CANONICAL_MATRIX,ร่อซูล,รอซูล,1
 33:37,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,5
-33:37,ayah,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 33:37,footnote_76,CANONICAL_MATRIX,ฮิดายะฮ์,ฮิดายะฮฺ,1
 33:37,footnote_77,CANONICAL_MATRIX,ร่อซูล,รอซูล,1
 33:37,footnote_77,CANONICAL_MATRIX,ดียะฮ์,ดียะฮฺ,1
@@ -5079,9 +5068,7 @@
 37:113,footnote_64,CANONICAL_MATRIX,มุอ์มิน,มุอฺมิน,1
 37:113,footnote_64,RESIDUAL_TA_MARBUTAH_HO_NOKHUK,ะฮ์,ะฮฺ,1
 37:114,footnote_65,CANONICAL_MATRIX,ร่อซูล,รอซูล,1
-37:115,ayah,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 37:115,footnote_66,CANONICAL_MATRIX,ฟิรอาวน์,ฟิรเอานฺ,1
-37:115,footnote_66,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 37:116,footnote_67,CANONICAL_MATRIX,ฟิรอาวน์,ฟิรเอานฺ,1
 37:118,footnote_68,CANONICAL_MATRIX,เตารอฮ์,เตารอฮฺ,1
 37:119,footnote_69,CANONICAL_MATRIX,กิยามะฮ์,กิยามะฮฺ,1
@@ -5203,14 +5190,11 @@
 38:41,footnote_41,CANONICAL_MATRIX,ซูเราะฮ์,ซูเราะฮฺ,1
 38:41,footnote_41,CANONICAL_MATRIX,อายะฮ์,อายะฮฺ,1
 38:41,footnote_42,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,2
-38:41,footnote_42,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 38:43,footnote_44,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,2
 38:44,footnote_45,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,4
-38:44,footnote_45,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 38:45,ayah,CANONICAL_MATRIX,ยะอ์กูบ,ยะอฺกูบ,1
 38:47,footnote_46,CANONICAL_MATRIX,อาคิเราะฮ์,อาคิเราะฮฺ,1
 38:47,footnote_46,CANONICAL_MATRIX,อิบาดะฮ์,อิบาดะฮฺ,1
-38:47,footnote_46,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 38:48,ayah,CANONICAL_MATRIX,อัลยะซะอ์,อัลยะซะอฺ,1
 38:48,footnote_47,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,2
 38:51,footnote_48,CANONICAL_MATRIX,ร่อซูล,รอซูล,1
@@ -5461,7 +5445,6 @@
 40:29,footnote_33,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,2
 40:31,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 40:31,ayah,CANONICAL_MATRIX,นูห์,นูฮฺ,1
-40:31,ayah,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 40:31,footnote_35,CANONICAL_MATRIX,นูห์,นูฮฺ,1
 40:32,footnote_36,CANONICAL_MATRIX,กิยามะฮ์,กิยามะฮฺ,1
 40:33,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,2
@@ -5710,8 +5693,6 @@
 42:27,footnote_26,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 42:27,footnote_26,CANONICAL_MATRIX,ฮิกมะฮ์,หิกมะฮฺ,1
 42:29,footnote_28,CANONICAL_MATRIX,มลาอิกะฮ์,มลาอิกะฮฺ,1
-42:30,ayah,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
-42:30,footnote_29,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 42:31,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 42:31,footnote_30,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 42:33,footnote_31,CANONICAL_MATRIX,มุอ์มิน,มุอฺมิน,3
@@ -5735,9 +5716,7 @@
 42:46,ayah,CANONICAL_MATRIX,ฮิดายะฮ์,ฮิดายะฮฺ,1
 42:46,footnote_43,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 42:47,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
-42:48,ayah,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 42:48,footnote_45,CANONICAL_MATRIX,ฮิดายะฮ์,ฮิดายะฮฺ,1
-42:48,footnote_45,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 42:49,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 42:49,footnote_46,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 42:49,footnote_46,CANONICAL_MATRIX,อายะฮ์,อายะฮฺ,1
@@ -5806,7 +5785,6 @@
 43:47,footnote_29,CANONICAL_MATRIX,ร่อซูล,รอซูล,2
 43:47,footnote_29,CANONICAL_MATRIX,ฟิรอาวน์,ฟิรเอานฺ,2
 43:47,footnote_29,CANONICAL_MATRIX,อิบาดะฮ์,อิบาดะฮฺ,1
-43:50,footnote_31,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,2
 43:51,ayah,CANONICAL_MATRIX,ฟิรอาวน์,ฟิรเอานฺ,1
 43:51,footnote_32,CANONICAL_MATRIX,ฟิรอาวน์,ฟิรเอานฺ,1
 43:53,ayah,CANONICAL_MATRIX,มลาอิกะฮ์,มลาอิกะฮฺ,1
@@ -6267,7 +6245,6 @@
 49:5,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 49:5,footnote_7,CANONICAL_MATRIX,ร่อซูลุลลอฮ์,รอซูลุลลอฮฺ,1
 49:5,footnote_7,RESIDUAL_TA_MARBUTAH_HO_NOKHUK,ะฮ์,ะฮฺ,2
-49:6,ayah,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 49:6,footnote_8,CANONICAL_MATRIX,ร่อซูลุลลอฮ์,รอซูลุลลอฮฺ,1
 49:6,footnote_8,CANONICAL_MATRIX,อายะฮ์,อายะฮฺ,2
 49:6,footnote_8,RESIDUAL_TA_MARBUTAH_HO_NOKHUK,ะฮ์,ะฮฺ,1
@@ -6667,9 +6644,7 @@
 57:21,footnote_30,CANONICAL_MATRIX,ร่อซูล,รอซูล,1
 57:21,footnote_31,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 57:22,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
-57:22,ayah,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 57:22,footnote_32,RESIDUAL_TA_MARBUTAH_HO_NOKHUK,ะฮ์,ะฮฺ,1
-57:22,footnote_32,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 57:23,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 57:23,footnote_33,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 57:24,ayah,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
@@ -7485,7 +7460,6 @@
 74:42,footnote_10,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 74:42,footnote_10,CANONICAL_MATRIX,มุอ์มิน,มุอฺมิน,1
 74:47,footnote_11,CANONICAL_MATRIX,กิยามะฮ์,กิยามะฮฺ,1
-74:47,footnote_11,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 74:48,ayah,CANONICAL_MATRIX,ชะฟาอะฮ์,ชะฟาอะฮฺ,2
 74:48,footnote_12,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 74:48,footnote_12,CANONICAL_MATRIX,ชะฟาอะฮ์,ชะฟาอะฮฺ,1
@@ -7638,7 +7612,6 @@
 81:14,footnote_1,CANONICAL_MATRIX,อาคิเราะฮ์,อาคิเราะฮฺ,2
 81:14,footnote_1,CANONICAL_MATRIX,ซูเราะฮ์,ซูเราะฮฺ,2
 81:14,footnote_1,CANONICAL_MATRIX,อายะฮ์,อายะฮฺ,3
-81:16,footnote_2,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 81:19,ayah,CANONICAL_MATRIX,ร่อซูล,รอซูล,1
 81:19,ayah,CANONICAL_MATRIX,ญิบริล,ญิบรีล,1
 81:21,footnote_4,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
@@ -7721,7 +7694,6 @@
 86:4,footnote_1,CANONICAL_MATRIX,อายะฮ์,อายะฮฺ,1
 86:7,footnote_2,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,2
 86:9,footnote_3,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
-86:10,footnote_4,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 86:14,footnote_6,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,2
 86:16,footnote_7,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 86:16,footnote_7,CANONICAL_MATRIX,มักกะฮ์,มักกะฮฺ,1
@@ -7732,7 +7704,6 @@
 87:7,footnote_3,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 87:7,footnote_3,CANONICAL_MATRIX,อายะฮ์,อายะฮฺ,1
 87:10,footnote_5,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
-87:13,footnote_6,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 87:15,footnote_7,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 87:17,footnote_8,CANONICAL_MATRIX,อาคิเราะฮ์,อาคิเราะฮฺ,3
 87:19,footnote_9,CANONICAL_MATRIX,ซูเราะฮ์,ซูเราะฮฺ,1
@@ -7876,7 +7847,6 @@
 99:8,footnote_5,CANONICAL_MATRIX,กิยามะฮ์,กิยามะฮฺ,1
 100:5,footnote_1,CANONICAL_MATRIX,อัลลอฮ์,อัลลอฮฺ,1
 100:5,footnote_1,BARE_ALLAH_PHINTHU,อัลลอฮ,อัลลอฮฺ,2
-100:6,footnote_2,RESIDUAL_TA_MARBUTAH_HO_HIP,ะห์,ะฮฺ,1
 100:8,footnote_4,CANONICAL_MATRIX,อิบาดะฮ์,อิบาดะฮฺ,1
 100:11,footnote_6,CANONICAL_MATRIX,วันกิยามะฮ ,วันกิยามะฮฺ ,1
 101:1,ayah,RESIDUAL_TA_MARBUTAH_HO_NOKHUK,ะฮ์,ะฮฺ,1

@@ -95,7 +95,11 @@
 2:182,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 2:182,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 2:184,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
+2:185,ayah,PASS_3C_OCR_TO_PATAK_FOR_DO_CHADA_RAMADAN,รอมฏอน,รอมฎอน
+2:185,ayah,PASS_3C_OCR_TRANSPOSED_QURAN,อัลกรุอาน,อัลกุรอาน
 2:185,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
+2:185,footnote_264,PASS_3C_OCR_TO_PATAK_FOR_DO_CHADA_RAMADAN,รอมฏอน,รอมฎอน
+2:185,footnote_265,PASS_3C_OCR_TO_PATAK_FOR_DO_CHADA_RAMADAN,รอมฏอน,รอมฎอน
 2:187,footnote_269,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 2:188,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 2:188,footnote_273,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
@@ -156,7 +160,6 @@
 3:20,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 3:23,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 3:25,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-3:26,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 3:28,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 3:29,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 3:30,ayah,PASS_3C_MODERN_ROYAL_INSTITUTE_PRANI,ปราณี,ปรานี
@@ -217,7 +220,6 @@
 3:159,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 3:159,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 3:161,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-3:162,footnote_258,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 3:162,footnote_258,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 3:165,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 3:165,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -278,7 +280,6 @@
 4:85,ayah,PASS_3C_OCR_MISSING_O_ANG_4_85,ช่วยเหลือย่างชั่ว,ช่วยเหลืออย่างชั่ว
 4:86,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 4:87,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-4:95,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 4:96,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 4:98,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 4:101,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
@@ -317,7 +318,6 @@
 5:5,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 5:6,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 5:9,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-5:11,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 5:11,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 5:17,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 5:18,ayah,PASS_3A_SPELLING_FIXES_DICT,มุฮัดมัด,มุฮัมมัด
@@ -337,7 +337,6 @@
 5:66,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 5:68,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 5:69,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-5:70,footnote_175,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 5:71,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 5:75,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 5:75,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -348,6 +347,7 @@
 5:77,footnote_189,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 5:80,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 5:80,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
+5:83,footnote_206,PASS_3C_OCR_TRANSPOSED_QURAN,อัลกรุอาน,อัลกุรอาน
 5:84,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 5:86,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 5:87,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
@@ -362,6 +362,8 @@
 5:103,ayah,PASS_3A_SPELLING_FIXES_DICT,ไม่ใช่ปัญญา,ไม่ใช้ปัญญา
 5:103,footnote_252,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 5:104,ayah,PASS_3A_SPELLING_FIXES_DICT,มาสู้สิ่งที่,มาสู่สิ่งที่
+5:104,footnote_256,PASS_3C_OCR_TRANSPOSED_QURAN,อัลกรุอาน,อัลกุรอาน
+5:105,footnote_262,PASS_3C_OCR_TRANSPOSED_QURAN,อัลกรุอาน,อัลกุรอาน
 5:106,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 5:106,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 5:107,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -372,7 +374,6 @@
 5:110,footnote_284,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 5:111,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 5:114,ayah,PASS_3C_OCR_TONE_FOR_MAITAIKHU,เป้น,เป็น
-5:114,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 5:116,footnote_295,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 5:117,ayah,PASS_3A_SPELLING_FIXES_DICT,ผู้ดูและพวกเขา,ผู้ดูแลพวกเขา
 6:1,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -551,11 +552,9 @@
 7:203,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 8:1,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 8:1,ayah,PASS_3E_QUOTES,"""”",“”
-8:7,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 8:26,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 8:28,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 8:31,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-8:32,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 8:33,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 8:34,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 8:36,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -574,8 +573,6 @@
 8:60,ayah,PASS_3C_OCR_SARA_AE_FOR_E_8_60,หวั่นแกรง,หวั่นเกรง
 8:60,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 8:60,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-8:61,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
-8:67,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 8:70,ayah,PASS_3A_FN_SPLIT_WORD,สิ่ง⟦FN⟧ ที่,สิ่งที่⟦FN⟧
 8:70,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 8:71,footnote_168,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
@@ -673,7 +670,6 @@
 10:69,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 10:71,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 10:72,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-10:72,footnote_63,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 10:74,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 10:75,footnote_67,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 10:78,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -860,6 +856,7 @@
 16:16,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 16:25,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 16:28,ayah,PASS_3E_QUOTES,“”““,“”“”
+16:30,footnote_32,PASS_3C_OCR_TRANSPOSED_QURAN,อัลกรุอาน,อัลกุรอาน
 16:35,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 16:41,footnote_40,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 16:44,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
@@ -880,10 +877,11 @@
 16:72,footnote_74,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 16:75,footnote_75,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 16:76,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-16:76,footnote_76,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 16:77,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 16:86,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
+16:98,ayah,PASS_3C_OCR_TRANSPOSED_QURAN,อัลกรุอาน,อัลกุรอาน
 16:99,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
+16:102,ayah,PASS_3C_OCR_TRANSPOSED_QURAN,อัลกรุอาน,อัลกุรอาน
 16:102,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 16:106,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 16:106,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -934,7 +932,6 @@
 17:83,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 17:84,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 17:85,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-17:88,footnote_108,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 17:89,footnote_109,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 17:90,ayah,PASS_3E_QUOTES,"“""",“”
 17:91,ayah,PASS_3C_OCR_NO_NU_FOR_MO_MA_17_91,ท่านกลางมัน,ท่ามกลางมัน
@@ -969,8 +966,6 @@
 18:16,footnote_18,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 18:18,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 18:21,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-18:22,footnote_29,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
-18:24,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 18:28,footnote_35,PASS_3C_OCR_MISSING_NGO_NGU,วิวอนขอ,วิงวอนขอ
 18:28,footnote_38,PASS_3C_FN_PAREN_AND_QUOTE_18_28,ในหมู่ประชาชาติของ) ฉัน มีผู้ที่พระเจ้าของฉันใช้ฉันให้อดทนต่อตัวของฉันให้อยู่กับพวกเขา,ในหมู่ประชาชาติของฉัน มีผู้ที่พระเจ้าของฉันใช้ฉันให้อดทนต่อตัวของฉันให้อยู่กับพวกเขา”
 18:37,ayah,PASS_3C_OCR_INVERTED_VOWEL_PHU,ผุ้,ผู้
@@ -987,6 +982,7 @@
 18:57,footnote_69,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 18:59,ayah,PASS_3A_SPELLING_FIXES_DICT,กำหนดกำหนดเวลา,กำหนดเวลา
 18:59,footnote_72,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
+18:60,footnote_73,PASS_3C_OCR_TRANSPOSED_QURAN,อัลกรุอาน,อัลกุรอาน
 18:60,footnote_73,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 18:61,footnote_75,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 18:67,ayah,PASS_3A_SPELLING_FIXES_DICT,ร่วมกันฉัน,ร่วมกับฉัน
@@ -1096,7 +1092,6 @@
 21:64,ayah,PASS_3E_QUOTES,””,“”
 21:65,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 21:69,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-21:69,footnote_72,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 21:71,ayah,PASS_3A_SPELLING_FIXES_DICT,หลายชาย,หลานชาย
 21:71,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 21:72,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1130,11 +1125,9 @@
 22:38,ayah,PASS_3A_SPELLING_FIXES_DICT,ไม่ททรง,ไม่ทรง
 22:39,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 22:40,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-22:40,footnote_57,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 22:41,ayah,PASS_3A_SPELLING_FIXES_DICT,บั้นปลายอของ,บั้นปลายของ
 22:46,ayah,PASS_3A_SPELLING_FIXES_DICT,นัยตานั้น,นัยน์ตานั้น
 22:51,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-22:52,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 22:54,ayah,PASS_3A_SPELLING_FIXES_DICT,ทรงเเป็น,ทรงเป็น
 22:54,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 22:63,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1180,7 +1173,6 @@
 24:2,footnote_4,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 24:2,footnote_5,PASS_3C_FN_BIDI_PAREN_24_2,((أم مهزول,(أم مهزول)
 24:12,ayah,PASS_3E_QUOTES,"""""",“”
-24:21,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 24:22,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 24:30,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 24:31,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1322,15 +1314,12 @@
 28:33,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 28:33,ayah,PASS_3E_QUOTES,"“""",“”
 28:35,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-28:44,footnote_100,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 28:48,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 28:48,footnote_110,PASS_3C_SPELLING_WETMON,เวทมนต์,เวทมนตร์
 28:49,footnote_112,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 28:51,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-28:53,footnote_118,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 28:55,ayah,PASS_3A_SPELLING_FIXES_DICT,ศานติ,สันติ
 28:55,ayah,PASS_3C_OCR_TONE_HANG_28_55,ผินหลังออกห้างไป,ผินหลังออกห่างไป
-28:56,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 28:64,ayah,PASS_3A_SPELLING_FIXES_DICT,ไม่ขารับ,ไม่ขานรับ
 28:71,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 28:74,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1342,7 +1331,6 @@
 29:8,ayah,PASS_3A_SPELLING_FIXES_DICT,แก่พวกเข้า,แก่พวกเขา
 29:17,ayah,PASS_3A_SPELLING_FIXES_DICT,บรรดาที่พวกท่านบูชา,บรรดาสิ่งที่พวกท่านบูชา
 29:20,footnote_32,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-29:24,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 29:25,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 29:36,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 29:39,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1361,7 +1349,6 @@
 30:28,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 30:32,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 30:37,ayah,PASS_3C_OCR_KHWANG_30_37,กว้างขว้าง,กว้างขวาง
-30:40,footnote_57,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 30:47,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 31:7,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 31:10,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
@@ -1376,7 +1363,6 @@
 31:33,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 32:2,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 32:9,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-32:10,footnote_19,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 32:11,ayah,PASS_3E_QUOTES,"“""",“”
 32:15,ayah,PASS_3A_SPELLING_FIXES_DICT,พระจ้า,พระเจ้า
 32:15,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1398,13 +1384,12 @@
 33:22,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 33:33,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 33:34,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-33:37,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
+33:36,ayah,PASS_3C_OCR_DOUBLE_O_ANG_ALLAH_33_36,ไม่เชื่อฟังออัลลอฮ,ไม่เชื่อฟังอัลลอฮ
 33:37,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 33:38,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 33:39,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 33:50,footnote_106,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 33:52,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-33:53,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 33:55,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 33:62,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 33:69,footnote_138,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
@@ -1433,11 +1418,11 @@
 34:50,ayah,PASS_3E_QUOTES,"""""",“”
 34:54,footnote_102,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 35:2,ayah,PASS_3C_SPELLING_MANUSAYACHAT,มนุษย์ชาติ,มนุษยชาติ
-35:15,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 35:18,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 35:25,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 35:26,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 35:27,footnote_51,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
+35:28,ayah,PASS_3C_OCR_DOUBLE_O_ANG_ALLAH_35_28,ที่เกรงกลัวออัลลอฮ,ที่เกรงกลัวอัลลอฮ
 35:31,footnote_59,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 35:32,ayah,PASS_3C_OCR_SARA_AE_FOR_E,แป็น,เป็น
 35:36,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1474,7 +1459,6 @@
 37:36,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 37:36,ayah,PASS_3E_QUOTES,““,“”
 37:37,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-37:42,footnote_21,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 37:45,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 37:46,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 37:50,ayah,PASS_3A_SPELLING_FIXES_DICT,หมู่บ้านพวกเขา,หมู่พวกเขา
@@ -1538,7 +1522,6 @@
 39:42,footnote_53,PASS_3E_FN_ENUM_DOT,1) 2) 3),1. 2. 3.
 39:43,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 39:44,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-39:46,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 39:49,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 39:57,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 39:58,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1597,14 +1580,12 @@
 42:3,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 42:3,footnote_2,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 42:7,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-42:9,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 42:10,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 42:12,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 42:16,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 42:23,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 42:24,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 42:26,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-42:27,footnote_26,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 42:34,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 42:50,ayah,PASS_3A_SPELLING_FIXES_DICT,อนุภาพ,อานุภาพ
 42:53,footnote_50,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
@@ -1626,16 +1607,15 @@
 43:81,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 44:4,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 44:8,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-44:31,footnote_15,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 45:14,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 45:16,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 45:16,footnote_16,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-45:19,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 45:22,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 45:23,ayah,PASS_3A_SPELLING_FIXES_DICT,การการฟัง,การฟัง
 45:31,ayah,PASS_3C_REDUNDANT_PHU_45_31,ผู้ปฏิเสธผู้ศรัทธา,ผู้ปฏิเสธศรัทธา
 46:4,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 46:7,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
+46:7,footnote_7,PASS_3C_OCR_TRANSPOSED_QURAN,อัลกรุอาน,อัลกุรอาน
 46:8,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 46:9,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 46:13,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1651,7 +1631,6 @@
 47:20,ayah,PASS_3C_OCR_MAI_EK_THAMMAI_47_20,ทำไม่สักซูเราะฮฺ,ทำไมสักซูเราะฮฺ
 47:21,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 47:22,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-47:26,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 47:27,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 47:32,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 48:3,footnote_1,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
@@ -1663,10 +1642,7 @@
 48:14,footnote_11,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 48:15,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 48:20,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-48:21,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
-48:21,footnote_18,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 49:6,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-49:7,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 49:7,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 49:9,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 49:16,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1698,6 +1674,7 @@
 53:9,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 53:10,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 53:11,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
+53:14,ayah,PASS_3C_SPELLING_PHUTSA_JUJUBE,ต้นพุทธา,ต้นพุทรา
 53:16,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 53:17,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 53:37,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1723,6 +1700,7 @@
 56:17,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 56:19,ayah,PASS_3C_SPELLING_SISA,ศรีษะ,ศีรษะ
 56:27,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
+56:29,footnote_18,PASS_3C_SPELLING_PHUTSA_JUJUBE,ต้นพุทธา,ต้นพุทรา
 56:37,footnote_22,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 56:39,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 56:40,footnote_23,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
@@ -1754,9 +1732,7 @@
 58:16,footnote_22,PASS_3C_SPELLING_LO_SHIELD,เป็นโล่ห์,เป็นโล่
 59:2,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 59:2,footnote_2,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-59:6,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 59:6,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-59:6,footnote_7,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 59:7,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 59:7,footnote_8,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 59:9,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1784,8 +1760,6 @@
 61:5,footnote_4,PASS_3C_OCR_SARA_II_FOR_UE,เพี่อ,เพื่อ
 61:6,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 61:6,footnote_5,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-61:8,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
-61:8,footnote_7,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 61:13,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 62:2,ayah,PASS_3C_SPELLING_KHAMPHIRAPHAP_62_2,ความสุขุมคัมภีร์ภาพ,ความสุขุมคัมภีรภาพ
 62:5,ayah,PASS_3C_SPELLING_TO_PATAK,ปฎิบัติ,ปฏิบัติ
@@ -1793,12 +1767,8 @@
 62:6,ayah,PASS_3C_OCR_SAIRAI_62_6,แล้วไซร์,แล้วไซร้
 62:8,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 62:10,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-63:1,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
-63:1,footnote_1,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 63:2,ayah,PASS_3C_SPELLING_LO_SHIELD,เป็นโล่ห์,เป็นโล่
 63:2,footnote_2,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
-63:11,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
-64:6,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 64:6,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 64:7,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 64:9,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1833,7 +1803,6 @@
 68:28,ayah,PASS_3A_SPELLING_FIXES_DICT,ทำไม่,ทำไม
 68:28,ayah,PASS_3E_QUOTES,"""""",“”
 68:29,ayah,PASS_3E_QUOTES,"""""",“”
-68:50,footnote_15,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 69:1,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 69:2,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 69:3,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1842,6 +1811,7 @@
 69:13,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 69:17,ayah,PASS_3A_SPELLING_FIXES_DICT,บังลังก์,บัลลังก์
 69:17,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
+69:40,ayah,PASS_3C_OCR_TRANSPOSED_QURAN,อัลกรุอาน,อัลกุรอาน
 69:43,footnote_12,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 69:47,footnote_13,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 70:2,ayah,PASS_3A_SPELLING_FIXES_DICT,จาการ,จากการ
@@ -1862,8 +1832,6 @@
 74:3,ayah,PASS_3A_SPELLING_FIXES_DICT,เกียงไกร,เกรียงไกร
 74:7,footnote_2,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 74:29,footnote_4,PASS_3C_OCR_TONE_FOR_MAITAIKHU,เป้น,เป็น
-74:56,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
-74:56,footnote_16,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 76:15,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 76:19,ayah,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 77:21,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
@@ -1881,7 +1849,6 @@
 79:13,ayah,PASS_3A_SPELLING_FIXES_DICT,เสียงก้อน,เสียงก้อง
 80:1,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 81:22,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-81:29,ayah,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 82:11,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 83:21,ayah,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
 84:3,ayah,PASS_3C_OCR_MISSING_KO_KAI_84_3,เมื่อแผ่นดินถูให้แผ่กว้าง,เมื่อแผ่นดินถูกให้แผ่กว้าง
@@ -1917,7 +1884,6 @@
 105:2,footnote_1,PASS_3C_SPELLING_PHAENKAN,แผนการณ์,แผนการ
 105:5,footnote_3,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 106:2,footnote_1,PASS_3E_PAREN_SPACING,paren_spacing,normalized_paren_spacing
-112:3,footnote_3,PASS_3C_OCR_MISSING_O_ANG_TO_ALLAH,ต่อัลลอฮ,ต่ออัลลอฮ
 113:5,footnote_2,PASS_3E_MAIYAMOK_SPACING,ๆ (unspaced), ๆ 
 114:1,ayah,PASS_3C_SPELLING_MANUSAYACHAT,มนุษย์ชาติ,มนุษยชาติ
 114:2,ayah,PASS_3C_SPELLING_MANUSAYACHAT,มนุษย์ชาติ,มนุษยชาติ

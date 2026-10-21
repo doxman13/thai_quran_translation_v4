@@ -91,6 +91,19 @@ FORBIDDEN_TYPOS = (
     "ผู้ืั้",
     "แก่ัลลอฮ",
     "ต่อัลลอฮ",
+    "แต่ออัลลอฮ",
+    "ไม่เชื่อฟังออัลลอฮ",
+    "ที่เกรงกลัวออัลลอฮ",
+    "เมืออัลลอฮ",
+    "เคราะฮฺ",
+    "ปลีกตัวอกจาก",
+    "รอมฏอน",
+    "อัลกรุอาน",
+    "กระนั่นหรือ",
+    "ได้ให้ในการรับรอง",
+    "วิญญาณอันปริสุทธิ์",
+    "อย่าภริยา",
+    "ต้นพุทธา",
     "ได้มายังพวกเขาได้มายังพวกเขา",
     "มุฮัมมัดฉ",
 )
@@ -215,11 +228,18 @@ def main():
 
         # Gate 8 check: 0 Forbidden OCR typos
         for typo in FORBIDDEN_TYPOS:
-            if typo in t_clean:
-                forbidden_typo_hits.append(f"ayah:{ak}:{typo}")
-            for fn in clean_fns:
-                if typo in fn["text"]:
-                    forbidden_typo_hits.append(f"fn:{ak}:{fn['orig_id']}:{typo}")
+            if typo == "ต่อัลลอฮ":
+                if re.search(r"(?<!แ)ต่อัลลอฮ", t_clean):
+                    forbidden_typo_hits.append(f"ayah:{ak}:{typo}")
+                for fn in clean_fns:
+                    if re.search(r"(?<!แ)ต่อัลลอฮ", fn["text"]):
+                        forbidden_typo_hits.append(f"fn:{ak}:{fn['orig_id']}:{typo}")
+            else:
+                if typo in t_clean:
+                    forbidden_typo_hits.append(f"ayah:{ak}:{typo}")
+                for fn in clean_fns:
+                    if typo in fn["text"]:
+                        forbidden_typo_hits.append(f"fn:{ak}:{fn['orig_id']}:{typo}")
 
         # Populate deliverables
         master_list.append({
@@ -359,14 +379,20 @@ def main():
         writer.writeheader()
         writer.writerows(review_rows)
 
+    deliverable_hashes = {
+        OUT_MASTER_JSON.name: sha256_file(OUT_MASTER_JSON),
+        OUT_ANNOTATED_JSON.name: sha256_file(OUT_ANNOTATED_JSON),
+        OUT_MASTER_CSV.name: sha256_file(OUT_MASTER_CSV),
+        OUT_REVIEW_CSV.name: sha256_file(OUT_REVIEW_CSV),
+    }
+    for extra_csv in ("05_pipeline1_human_review_v4_synced.csv", "06_pipeline1_remaining_active_reviews_v4.csv"):
+        extra_path = DELIV_DIR / extra_csv
+        if extra_path.exists():
+            deliverable_hashes[extra_csv] = sha256_file(extra_path)
+
     gates_report = {
         "generated_at_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        "deliverable_hashes_sha256": {
-            OUT_MASTER_JSON.name: sha256_file(OUT_MASTER_JSON),
-            OUT_ANNOTATED_JSON.name: sha256_file(OUT_ANNOTATED_JSON),
-            OUT_MASTER_CSV.name: sha256_file(OUT_MASTER_CSV),
-            OUT_REVIEW_CSV.name: sha256_file(OUT_REVIEW_CSV),
-        },
+        "deliverable_hashes_sha256": deliverable_hashes,
         "gates": {
             "gate_01_canonical_verse_and_surah_count": {
                 "passed": total_ayahs == 6236 and len(surah_set) == 114,
