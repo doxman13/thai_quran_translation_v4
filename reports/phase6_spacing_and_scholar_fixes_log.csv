@@ -2,12 +2,18 @@
 1:1,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 1:2,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 1:6,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+2:1:fn6,FN_TYPO,ซึ้งถูกนำมารวมกัน -> ซึ่งถูกนำมารวมกัน (Wrong tone mark on ซึ่ง)
+2:1:fn6,FN_TYPO,ในการนนี้ -> ในการนี้ (Double No Nu typo)
+2:1:fn6,FN_TYPO,ถูกนำมาระบุบไว้ -> ถูกนำมาระบุไว้ (Extra Bo Baimai in ระบุ)
 2:2,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+2:3:fn7,FN_TYPO,มุงกัร และนะกรี -> มุงกัร และนะกีร (Transposed vowel in Nakir)
 2:3,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:5,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:6,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+2:7:fn11,FN_TYPO,ถูกปิดพนึกไว้ -> ถูกปิดผนึกไว้ (Pho Phan instead of Pho Phung in ปิดผนึก)
 2:8,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:9,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+2:10:fn15,FN_TYPO,โรคแห่งความดื้นรั้น -> โรคแห่งความดื้อรั้น (No Nu instead of O Ang in ดื้อรั้น)
 2:10,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:12,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:13,V3_MICRO_TYPO,ได้ถูกล่าว -> ได้ถูกกล่าว (Restore missing ก in ถูกกล่าว)
@@ -15,17 +21,21 @@
 2:13,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 2:14,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 2:15,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+2:17:fn26,FN_THEOLOGICAL_TYPO,สภาพของผู้ปฏิบัติศรัทธา -> สภาพของผู้ปฏิเสธศรัทธา (ผู้ปฏิบัติศรัทธา -> ผู้ปฏิเสธศรัทธา)
 2:17,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:18,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:19,V3_MICRO_TYPO,ฟ้าคำรน -> ฟ้าคำรณ (Fix spelling ฟ้าคำรณ)
+2:19:fn28,FN_TYPO,เพื่อไม่ให้ได้ยินเสียฟ้าผ่า -> เพื่อไม่ให้ได้ยินเสียงฟ้าผ่า (Missing Ngo Ngu in เสียงฟ้าผ่า)
 2:19,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:20,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+2:21:fn33,FN_TYPO,การให้เอกภาพแเด่อัลลอฮฺ -> การให้เอกภาพแด่อัลลอฮฺ (Double Sara Ae in แด่)
 2:21,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:22,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
 2:23,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:24,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:25,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:26,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (7 space adjustments)
+2:27:fn49,FN_TYPO,ในการเป็นการเป็นพระเจ้าของอัลลอฮฺ -> ในการเป็นพระเจ้าของอัลลอฮฺ (Duplicate ในการเป็น)
 2:27,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:28,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
 2:29,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
@@ -178,6 +188,8 @@
 2:182,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:183,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:184,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
+2:185:fn262,FN_TYPO,ในการดำรงค์ชีวิต -> ในการดำรงชีวิต (Spurious ค์ in ดำรง)
+2:185:fn265,FN_TYPO,ทำให้ผู้ศีลอดรู้สึก -> ทำให้ผู้ถือศีลอดรู้สึก (Missing ถือ in ผู้ถือศีลอด)
 2:185,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
 2:186,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:187,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (10 space adjustments)
@@ -342,6 +354,7 @@
 3:79,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:80,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:81,V3_MICRO_TYPO,เป็นผู้นยืนยัน -> เป็นผู้ยืนยัน (Remove stray น in ผู้นยืนยัน)
+3:81:fn126,V3_FN_PHINTHU,อะฮลุลกิตาบ -> อะฮฺลุลกิตาบ (Ahlul Kitab Phinthu)
 3:81,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:82,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:83,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
@@ -424,6 +437,7 @@
 3:169,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:170,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 3:171,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+3:172:fn275,V3_FN_TYPO,ระหว่าางมักกะฮฺ -> ระหว่างมักกะฮฺ (Double Sara Aa typo)
 3:172,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:173,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:174,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -648,6 +662,7 @@
 5:52,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 5:53,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 5:54,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
+5:55:fn144,V3_FN_SPELLING,ตัฟซีร์ -> ตัฟซีร (Tafsir spelling)
 5:55,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 5:57,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 5:58,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -671,6 +686,7 @@
 5:76,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 5:77,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 5:80,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+5:81:fn200,V3_FN_SPELLING,มุซริก -> มุชริก (Mushrik spelling)
 5:81,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 5:82,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 5:83,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
@@ -1677,6 +1693,7 @@
 18:57,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 18:58,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 18:60,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+18:61:fn74,V3_FN_PHINTHU,อัลติมซาห์ -> อัลติมซาหฺ (Al-Timsah Phinthu)
 18:61,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 18:63,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 18:64,V3_MICRO_TYPO,จึงหวลกลับตาม -> จึงหวนกลับตาม (Fix หวลกลับ -> หวนกลับ)
@@ -1880,6 +1897,7 @@
 22:10,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 22:12,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 22:15,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+22:17:fn20,V3_FN_FACTUAL_ISA,"ผู้ที่เกี่ยวพันกับมูซา อะลัยฮิสสลาม -> คือผู้ที่เกี่ยวพันกับอีซา อะลัยฮิสสลาม (An-Nasara (Christians) -> Isa, not Musa)"
 22:18,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 22:23,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 22:24,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -1968,6 +1986,7 @@
 24:4,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 24:5,V3_MICRO_TYPO,หลักจากนั้น -> หลังจากนั้น (Fix หลักจากนั้น -> หลังจากนั้น)
 24:5,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+24:6:fn14,V3_FN_PHINTHU,โอ้ท่านรอซูลุลลอฮ เมื่อ -> โอ้ท่านรอซูลุลลอฮฺ เมื่อ (Rasulullah Phinthu)
 24:6,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 24:7,V3_MICRO_TYPO,และครั้นที่ห้า -> และครั้งที่ห้า (Fix ครั้นที่ห้า -> ครั้งที่ห้า)
 24:8,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -2257,6 +2276,7 @@
 29:7,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 29:10,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 29:11,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+29:14:fn20,V3_FN_TYPO,ต่ออัลอฮ ตะอาลา -> ต่ออัลลอฮฺ ตะอาลา (Missing Lo Ling in Allah)
 29:15,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 29:16,V3_MICRO_TYPO,เป็นการดีว่าสำหรับ -> เป็นการดีกว่าสำหรับ (Restore missing ก in ดีกว่า)
 29:17,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -2532,6 +2552,7 @@
 38:31,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 38:37,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 38:40,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+38:41:fn41,V3_FN_TRANSLIT,ซูเราะฮฺอัลลัมบิยาอ์ -> ซูเราะฮฺอัลอันบิยาอฺ (Surah Al-Anbiya)
 38:41,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 38:42,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 38:44,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
@@ -2669,6 +2690,8 @@
 41:10,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 41:12,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 41:13,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+41:14:fn11,V3_FN_PHINTHU,ศอและฮได้ -> ศอและฮฺได้ (Salih Phinthu)
+41:14:fn11,V3_FN_TYPO,คู่เคียงกับอัลลฺอฮ์ -> คู่เคียงกับอัลลอฮฺ (Misplaced Phinthu on Lo Ling)
 41:14,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 41:15,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 41:16,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -2926,6 +2949,7 @@
 51:52,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 51:54,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 51:56,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+51:59:fn33,V3_FN_PHINTHU,ท่านรอซูลุลลอฮ ศ็อล -> ท่านรอซูลุลลอฮฺ ศ็อล (Rasulullah Phinthu)
 51:60,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 52:2,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 52:13,V3_MICRO_TYPO,ผลักใสไล่ส่ง -> ผลักไสไล่ส่ง (Fix ผลักใส -> ผลักไส)
@@ -2936,6 +2960,7 @@
 52:26,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 52:27,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 52:28,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+52:33:fn16,V3_FN_TYPO,อัลลกุรอาน -> อัลกุรอาน (Double Lo Ling in Al-Quran)
 52:33,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 52:36,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 52:38,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -2981,6 +3006,7 @@
 54:46,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 54:47,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 54:49,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+54:50:fn27,V3_FN_PHINTHU,ในลูห์มะฮฺฟูซ -> ในลูหฺมะฮฺฟูซ (Lauh Mahfuz Phinthu)
 54:51,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 54:52,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 54:53,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -3040,6 +3066,7 @@
 56:84,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 56:85,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 56:87,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+56:89:fn38,V3_FN_PHINTHU,ในวันกิยามะฮคือ -> ในวันกิยามะฮฺคือ (Qiyamah Phinthu)
 56:91,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 56:93,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 56:96,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
@@ -3060,6 +3087,7 @@
 57:19,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 57:20,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 57:21,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+57:22:fn32,V3_FN_PHINTHU,อัลลูห์ อัลมะฮฺฟูซ -> อัลลูหฺ อัลมะฮฺฟูซ (Al-Lauh Al-Mahfuz Phinthu)
 57:25,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 57:26,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 57:27,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
@@ -3074,12 +3102,16 @@
 58:9,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 58:10,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 58:11,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+58:12:fn18,V3_FN_PHINTHU,ท่านรอซูลุลลอฮ ศ็อล -> ท่านรอซูลุลลอฮฺ ศ็อล (Rasulullah Phinthu)
 58:12,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+58:14:fn20,V3_FN_PHINTHU,ซูเราะฮ อันนิซาอ์ -> ซูเราะฮฺ อันนิซาอฺ (Surah An-Nisa Phinthu)
 58:17,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 58:18,V3_MICRO_TYPO,สาบานต่อพระเจ้า -> สาบานต่อพวกเจ้า (Fix ต่อพระเจ้า -> ต่อพวกเจ้า (كَمَا يَحْلِفُونَ لَكُمْ))
 58:18,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 58:19,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+58:21:fn27,V3_FN_PHINTHU,ที่ลูห์มะหฺฟูซ -> ที่ลูหฺมะฮฺฟูซ (Lauh Mahfuz Phinthu)
 58:21,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+58:22:fn29,V3_FN_PHINTHU,อัลญัรรอห์ -> อัลญัรรอฮฺ (Al-Jarrah Phinthu)
 58:22,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 59:1,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 59:2,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
@@ -3441,6 +3473,7 @@
 96:8,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 96:13,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 96:16,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+97:1:fn1,V3_FN_PHINTHU,อัลลูห์อัลมะฮฺฟูซ -> อัลลูหฺอัลมะฮฺฟูซ (Al-Lauh Al-Mahfuz Phinthu)
 97:1,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 97:4,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 97:5,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -3451,6 +3484,7 @@
 98:8,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 99:8,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 101:4,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+101:9:fn4,V3_FN_PHINTHU,คือฮาวิยะฮหรือ -> คือฮาวิยะฮฺหรือ (Hawiyah Phinthu)
 102:1,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 102:7,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 102:8,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse

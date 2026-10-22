@@ -503,7 +503,44 @@ def main():
                     "detail": f"{wrong} -> {right} ({note})",
                 })
 
-        # Also check footnotes for global fixes (e.g., อินทผลัม, บิดพริ้ว, ถือศิลอด)
+        # Also check footnotes for global fixes and footnote-specific fixes
+        FOOTNOTE_FIXES = [
+            # (target_ak_or_None, target_fn_id_or_None, wrong, right, cat, note)
+            ("22:17", "20", "ผู้ที่เกี่ยวพันกับมูซา อะลัยฮิสสลาม", "คือผู้ที่เกี่ยวพันกับอีซา อะลัยฮิสสลาม", "V3_FN_FACTUAL_ISA", "An-Nasara (Christians) -> Isa, not Musa"),
+            ("3:81", "126", "อะฮลุลกิตาบ", "อะฮฺลุลกิตาบ", "V3_FN_PHINTHU", "Ahlul Kitab Phinthu"),
+            ("3:172", "275", "ระหว่าางมักกะฮฺ", "ระหว่างมักกะฮฺ", "V3_FN_TYPO", "Double Sara Aa typo"),
+            ("5:55", "144", "ตัฟซีร์", "ตัฟซีร", "V3_FN_SPELLING", "Tafsir spelling"),
+            ("5:81", "200", "มุซริก", "มุชริก", "V3_FN_SPELLING", "Mushrik spelling"),
+            ("18:61", "74", "อัลติมซาห์", "อัลติมซาหฺ", "V3_FN_PHINTHU", "Al-Timsah Phinthu"),
+            ("24:6", "14", "โอ้ท่านรอซูลุลลอฮ เมื่อ", "โอ้ท่านรอซูลุลลอฮฺ เมื่อ", "V3_FN_PHINTHU", "Rasulullah Phinthu"),
+            ("29:14", "20", "ต่ออัลอฮ ตะอาลา", "ต่ออัลลอฮฺ ตะอาลา", "V3_FN_TYPO", "Missing Lo Ling in Allah"),
+            ("38:41", "41", "ซูเราะฮฺอัลลัมบิยาอ์", "ซูเราะฮฺอัลอันบิยาอฺ", "V3_FN_TRANSLIT", "Surah Al-Anbiya"),
+            ("41:14", "11", "ศอและฮได้", "ศอและฮฺได้", "V3_FN_PHINTHU", "Salih Phinthu"),
+            ("41:14", "11", "คู่เคียงกับอัลลฺอฮ์", "คู่เคียงกับอัลลอฮฺ", "V3_FN_TYPO", "Misplaced Phinthu on Lo Ling"),
+            ("51:59", "33", "ท่านรอซูลุลลอฮ ศ็อล", "ท่านรอซูลุลลอฮฺ ศ็อล", "V3_FN_PHINTHU", "Rasulullah Phinthu"),
+            ("52:33", "16", "อัลลกุรอาน", "อัลกุรอาน", "V3_FN_TYPO", "Double Lo Ling in Al-Quran"),
+            ("54:50", "27", "ในลูห์มะฮฺฟูซ", "ในลูหฺมะฮฺฟูซ", "V3_FN_PHINTHU", "Lauh Mahfuz Phinthu"),
+            ("56:89", "38", "ในวันกิยามะฮคือ", "ในวันกิยามะฮฺคือ", "V3_FN_PHINTHU", "Qiyamah Phinthu"),
+            ("57:22", "32", "อัลลูห์ อัลมะฮฺฟูซ", "อัลลูหฺ อัลมะฮฺฟูซ", "V3_FN_PHINTHU", "Al-Lauh Al-Mahfuz Phinthu"),
+            ("58:12", "18", "ท่านรอซูลุลลอฮ ศ็อล", "ท่านรอซูลุลลอฮฺ ศ็อล", "V3_FN_PHINTHU", "Rasulullah Phinthu"),
+            ("58:14", "20", "ซูเราะฮ อันนิซาอ์", "ซูเราะฮฺ อันนิซาอฺ", "V3_FN_PHINTHU", "Surah An-Nisa Phinthu"),
+            ("58:21", "27", "ที่ลูห์มะหฺฟูซ", "ที่ลูหฺมะฮฺฟูซ", "V3_FN_PHINTHU", "Lauh Mahfuz Phinthu"),
+            ("58:22", "29", "อัลญัรรอห์", "อัลญัรรอฮฺ", "V3_FN_PHINTHU", "Al-Jarrah Phinthu"),
+            ("97:1", "1", "อัลลูห์อัลมะฮฺฟูซ", "อัลลูหฺอัลมะฮฺฟูซ", "V3_FN_PHINTHU", "Al-Lauh Al-Mahfuz Phinthu"),
+            ("101:9", "4", "คือฮาวิยะฮหรือ", "คือฮาวิยะฮฺหรือ", "V3_FN_PHINTHU", "Hawiyah Phinthu"),
+            ("2:1", "6", "ซึ้งถูกนำมารวมกัน", "ซึ่งถูกนำมารวมกัน", "FN_TYPO", "Wrong tone mark on ซึ่ง"),
+            ("2:1", "6", "ในการนนี้", "ในการนี้", "FN_TYPO", "Double No Nu typo"),
+            ("2:1", "6", "ถูกนำมาระบุบไว้", "ถูกนำมาระบุไว้", "FN_TYPO", "Extra Bo Baimai in ระบุ"),
+            ("2:3", "7", "มุงกัร และนะกรี", "มุงกัร และนะกีร", "FN_TYPO", "Transposed vowel in Nakir"),
+            ("2:7", "11", "ถูกปิดพนึกไว้", "ถูกปิดผนึกไว้", "FN_TYPO", "Pho Phan instead of Pho Phung in ปิดผนึก"),
+            ("2:10", "15", "โรคแห่งความดื้นรั้น", "โรคแห่งความดื้อรั้น", "FN_TYPO", "No Nu instead of O Ang in ดื้อรั้น"),
+            ("2:17", "26", "สภาพของผู้ปฏิบัติศรัทธา", "สภาพของผู้ปฏิเสธศรัทธา", "FN_THEOLOGICAL_TYPO", "ผู้ปฏิบัติศรัทธา -> ผู้ปฏิเสธศรัทธา"),
+            ("2:19", "28", "เพื่อไม่ให้ได้ยินเสียฟ้าผ่า", "เพื่อไม่ให้ได้ยินเสียงฟ้าผ่า", "FN_TYPO", "Missing Ngo Ngu in เสียงฟ้าผ่า"),
+            ("2:21", "33", "การให้เอกภาพแเด่อัลลอฮฺ", "การให้เอกภาพแด่อัลลอฮฺ", "FN_TYPO", "Double Sara Ae in แด่"),
+            ("2:27", "49", "ในการเป็นการเป็นพระเจ้าของอัลลอฮฺ", "ในการเป็นพระเจ้าของอัลลอฮฺ", "FN_TYPO", "Duplicate ในการเป็น"),
+            ("2:185", "262", "ในการดำรงค์ชีวิต", "ในการดำรงชีวิต", "FN_TYPO", "Spurious ค์ in ดำรง"),
+            ("2:185", "265", "ทำให้ผู้ศีลอดรู้สึก", "ทำให้ผู้ถือศีลอดรู้สึก", "FN_TYPO", "Missing ถือ in ผู้ถือศีลอด"),
+        ]
         for fn in rec.get("footnotes", []):
             fn_txt = fn["text"]
             for target_ak, wrong, right, cat, note in SCHOLAR_AND_V3_FIXES:
@@ -514,6 +551,16 @@ def main():
                         "action_type": f"{cat}_FN",
                         "detail": f"{wrong} -> {right} ({note})",
                     })
+            for f_ak, f_id, wrong, right, cat, note in FOOTNOTE_FIXES:
+                if (f_ak is None or f_ak == ak) and (f_id is None or str(fn["id"]) == str(f_id)):
+                    if wrong in fn_txt:
+                        fn_txt = fn_txt.replace(wrong, right)
+                        scholar_fix_count += 1
+                        log_rows.append({
+                            "ayah_key": f"{ak}:fn{fn['id']}",
+                            "action_type": cat,
+                            "detail": f"{wrong} -> {right} ({note})",
+                        })
             fn["text"] = fn_txt
 
         # 2. Deterministic v3 clause-cadence spacing projection
