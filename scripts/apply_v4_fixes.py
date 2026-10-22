@@ -127,24 +127,51 @@ def set_clipboard_text(text: str):
             pass
 
 
-def extract_json_array(raw_text: str) -> list[dict]:
+def extract_fixes_from_text(raw_text: str) -> list[dict]:
     raw = raw_text.strip()
-    # Try finding markdown ```json ... ``` block
+
+    # 1. Try finding JSON Array
     m = re.search(r"```(?:json)?\s*(\[\s*\{.*?\}\s*\])\s*```", raw, re.DOTALL)
     if m:
-        raw = m.group(1)
-    else:
-        # Try finding standalone [ ... ]
-        m2 = re.search(r"(\[\s*\{.*\}\s*\])", raw, re.DOTALL)
-        if m2:
-            raw = m2.group(1)
+        try:
+            data = json.loads(m.group(1))
+            if isinstance(data, list):
+                return data
+        except Exception:
+            pass
 
-    try:
-        data = json.loads(raw)
-        if isinstance(data, list):
-            return data
-    except Exception as e:
-        print(f"Error parsing JSON: {e}")
+    m2 = re.search(r"(\[\s*\{.*\}\s*\])", raw, re.DOTALL)
+    if m2:
+        try:
+            data = json.loads(m2.group(1))
+            if isinstance(data, list):
+                return data
+        except Exception:
+            pass
+
+    # 2. Try line format: [FIX] S:A [TYPE]: 'target' -> 'replacement' (reason)
+    pattern = re.compile(
+        r"\[FIX\]\s*(\d+:\d+)\s*(?:\[(\w+)\])?:\s*['\"](.*?)['\"]\s*->\s*['\"](.*?)['\"]\s*(?:\((.*?)\))?",
+        re.MULTILINE
+    )
+    line_fixes = []
+    for m in pattern.finditer(raw):
+        ak = m.group(1)
+        ftype = m.group(2) or "AUDIT"
+        target = m.group(3)
+        replacement = m.group(4)
+        reason = m.group(5) or ""
+        line_fixes.append({
+            "ayah": ak,
+            "type": ftype,
+            "target": target,
+            "replacement": replacement,
+            "reason": reason.strip(),
+        })
+
+    if line_fixes:
+        return line_fixes
+
     return []
 
 
@@ -178,9 +205,9 @@ def main():
             sys.exit(1)
         print(f"Loaded {len(raw_input)} characters from clipboard.")
 
-    proposed_fixes = extract_json_array(raw_input)
+    proposed_fixes = extract_fixes_from_text(raw_input)
     if not proposed_fixes:
-        print("Failed to find valid JSON array of fixes in the provided input.")
+        print("Failed to find valid fixes (JSON array or [FIX] lines) in the provided input.")
         print("Expected format: [{\"ayah\": \"S:A\", \"type\": \"SPACING\", \"target\": \"...\", \"replacement\": \"...\", \"reason\": \"...\"}]")
         sys.exit(1)
 
