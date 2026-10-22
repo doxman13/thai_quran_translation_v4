@@ -15,7 +15,7 @@ EN2 (Hilali-Khan): In the Name of Allâh, the Most Gracious, the Most Merciful
 --------------------------------------------------------------------------------
 [1:2]
 AR: ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ
-V4: การสรรเสริญทั้งหลายนั้นเป็นสิทธิของอัลลอฮฺพระผู้อภิบาลแห่งสากลโลก
+V4: การสรรเสริญทั้งหลายนั้นเป็นสิทธิของอัลลอฮฺ พระผู้อภิบาลแห่งสากลโลก
 V3: การสรรเสริญทั้งหลายนั้นเป็นสิทธิของอัลลอฮฺ ผู้เป็นพระเจ้าแห่งสากลโลก
 EN1 (Saheeh): [All] praise is [due] to Allāh, Lord of the worlds -
 EN2 (Hilali-Khan): All the praises and thanks be to Allâh, the Lord of the ‘Âlamîn (mankind, jinn and all that exists).
@@ -344,7 +344,7 @@ EN2 (Hilali-Khan): He said: "O Adam! Inform them of their names," and when he ha
 --------------------------------------------------------------------------------
 [2:34]
 AR: وَإِذۡ قُلۡنَا لِلۡمَلَٰٓئِكَةِ ٱسۡجُدُواْ لِأٓدَمَ فَسَجَدُوٓاْ إِلَّآ إِبۡلِيسَ أَبَىٰ وَٱسۡتَكۡبَرَ وَكَانَ مِنَ ٱلۡكَٰفِرِينَ
-V4: และจงรำลึกถึง ขณะที่เราได้กล่าวแก่มลาอิกะฮฺว่า พวกเจ้าจงสุญูด[FN:57]แก่อาดัมเถิด แล้วพวกเขาก็สุญูดกัน นอกจากอิบลีส[FN:58] โดยที่มันไม่ยอมสุญูด และแสดงการโอหัง และมันจึงได้กลายเป็นผู้สิ้นสภาพแห่งการศรัทธา (กาฟิร์)
+V4: และจงรำลึกถึง ขณะที่เราได้กล่าวแก่มลาอิกะฮฺว่า พวกเจ้าจงสุญูด[FN:57]แก่อาดัมเถิด แล้วพวกเขาก็สุญูดกัน นอกจากอิบลีส[FN:58] โดยที่มันไม่ยอมสุญูด และแสดงการโอหัง และมันจึงได้กลายเป็นผู้สิ้นสภาพแห่งการศรัทธา (กาฟิรฺ)
 V3: และจงรำลึกถึง ขณะที่เราได้กล่าวแก่มลาอิกะฮฺว่า พวกเจ้าจงสุยูดแก่อาดัมเถิด แล้วพวกเขาก็สุยูดกัน นอกจากอิบลีส โดยที่มันไม่ยอมสุยูด และแสดงโอหัง และมันจึงได้กลายเป็นผู้สิ้นสภาพแห่งการศรัทธา (กาฟิรฺ)
 EN1 (Saheeh): And [mention] when We said to the angels, "Prostrate before Adam"; so they prostrated, except for Iblees. He refused and was arrogant and became of the disbelievers.
 EN2 (Hilali-Khan): And (remember) when We said to the angels: "Prostrate yourselves before Adam.". And they prostrated except Iblîs (Satan), he refused and was proud and was one of the disbelievers (disobedient to Allâh).
@@ -372,7 +372,7 @@ FN[63]: จนกว่าจะถึงวาระแห่งการสิ
 --------------------------------------------------------------------------------
 [2:37]
 AR: فَتَلَقَّىٰٓ ءَادَمُ مِن رَّبِّهِۦ كَلِمَٰتٖ فَتَابَ عَلَيۡهِۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ
-V4: ครั้นดาอัมได้เรียนรู้คำวิงวอนจากพระผู้อภิบาลของเขา[FN:64] แล้วพระองค์อภัยโทษแก่เขา แท้จริงพระองค์คือผู้ทรงอภัยโทษ ผู้ทรงเมตตาเสมอ
+V4: ครั้นอาดัมได้เรียนรู้คำวิงวอนจากพระผู้อภิบาลของเขา[FN:64] แล้วพระองค์อภัยโทษแก่เขา แท้จริงพระองค์คือผู้ทรงอภัยโทษ ผู้ทรงเมตตาเสมอ
 V3: ภายหลังอาดัมได้เรียนรู้คำวิงวอนจากพระเจ้าของเขา แล้วพระองค์อภัยโทษแก่เขา แท้จริงพระองค์คือผู้ทรงอภัยโทษ ผู้ทรงเมตตาเสมอ
 EN1 (Saheeh): Then Adam received from his Lord [some] words, and He accepted his repentance. Indeed, it is He who is the Accepting of Repentance, the Merciful.
 EN2 (Hilali-Khan): Then Adam received from his Lord Words. And his Lord pardoned him (accepted his repentance). Verily, He is the One Who forgives (accepts repentance), the Most Merciful.

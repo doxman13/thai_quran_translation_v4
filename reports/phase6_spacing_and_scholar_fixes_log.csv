@@ -1,5 +1,6 @@
 ﻿ayah_key,action_type,detail
 1:1,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+1:2,AUDIT_SPACING,อัลลอฮฺพระผู้อภิบาล -> อัลลอฮฺ พระผู้อภิบาล (เว้นวรรคคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue) หน้าพระนามคุณลักษณะตามข้อกำหนด 1.1)
 1:2,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 1:6,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:1:fn6,FN_TYPO,ซึ้งถูกนำมารวมกัน -> ซึ่งถูกนำมารวมกัน (Wrong tone mark on ซึ่ง)
@@ -43,9 +44,11 @@
 2:31,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:32,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:33,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+2:34,AUDIT_SPELLING,(กาฟิร์) -> (กาฟิรฺ) (แก้ไขคำทับศัพท์ตามมาตรฐานการใช้อักษรพินทุ (ฺ) แทนไม้ทัณฑฆาต/การันต์ (์))
 2:34,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:35,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:36,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
+2:37,AUDIT_SPELLING,ครั้นดาอัมได้เรียนรู้ -> ครั้นอาดัมได้เรียนรู้ (แก้ไขการสะกดชื่อนบี อาดัม ที่พิมพ์สลับตำแหน่งอักษรเป็น ดาอัม)
 2:37,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:38,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:39,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)

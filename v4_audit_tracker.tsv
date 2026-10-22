@@ -1,5 +1,5 @@
 chunk_id	juz	chunk_in_juz	range	verses	filename	status	fix_count	fixes_summary	updated_at
-1	1	1	1:1-2:43	50	juz_01_part1_1_1_to_2_43.txt	PENDING	0		
+1	1	1	1:1-2:43	50	juz_01_part1_1_1_to_2_43.txt	DONE	5	1:2 [SPACING]: 'อัลลอฮฺพระผู้อภิบาล'->'อัลลอฮฺ พระผู้อภิบาล'; 2:17 [SPACING]: 'จุดไฟขึ้น⟦FN:24⟧ครั้งเมื่อ'->'จุดไฟขึ้น⟦FN:24⟧ ครั้งเมื่อ'; 2:21 [SPACING]: 'จงเคารพอิบาดะฮฺ⟦FN:33⟧พระผู้อภิบาล'->'จงเคารพอิบาดะฮฺ⟦FN:33⟧ พระผู้อภิบาล'; 2:34 [SPELLING]: '(กาฟิร์)'->'(กาฟิรฺ)'; 2:37 [SPELLING]: 'ครั้นดาอัมได้เรียนรู้'->'ครั้นอาดัมได้เรียนรู้'	2026-10-22 07:00 UTC
 2	1	2	2:44-2:91	48	juz_01_part2_2_44_to_2_91.txt	PENDING	0		
 3	1	3	2:92-2:141	50	juz_01_part3_2_92_to_2_141.txt	PENDING	0		
 4	2	1	2:142-2:176	35	juz_02_part1_2_142_to_2_176.txt	PENDING	0		
