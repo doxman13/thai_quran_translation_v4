@@ -450,12 +450,14 @@
 3:114,V3_MICRO_TYPO,และชนเหล่านี้และอยู่ในหมู่ที่ประพฤติดี -> และชนเหล่านี้แหละอยู่ในหมู่ผู้ที่ประพฤติดี (Fix และอยู่ใน -> แหละอยู่ใน)
 3:115,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:116,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+3:117,AUDIT_SPELLING,"อุปมัยลมซึ่งมีความเย็นจัด -> อุปไมยลมซึ่งมีความเย็นจัด (แก้ไขคำสะกดผิดตามพจนานุกรมฉบับราชบัณฑิตยสถาน คำคู่ของ 'อุปมา' คือ 'อุปไมย' (ต้นฉบับสะกดผิดเป็น อุปมัย จากข้อผิดพลาด OCR)[cite: 1, 2])"
 3:117,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:118,V3_MICRO_TYPO,เอาเพื่อสนิท -> เอาเพื่อนสนิท (Restore missing น in เพื่อนสนิท)
 3:118,V3_MICRO_TYPO,ของพสกเขา -> ของพวกเขา (Fix พสกเขา -> พวกเขา)
 3:119,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:120,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:122,V3_MICRO_TYPO,อัลลอฮฺเป็รนผู้ทรง -> อัลลอฮฺเป็นผู้ทรง (Remove stray ร in เป็รน)
+3:122,AUDIT_SPACING,และแด่อัลลอฮฺมุอฺมินทั้งหลาย -> และแด่อัลลอฮฺ มุอฺมินทั้งหลาย (เว้นวรรคคั่นระหว่างบุพบทวลีกับประธานของประโยค เพื่อไม่ให้พระนามอัลลอฮฺพิมพ์ติดกันเป็นพรืดกับคำว่า มุอฺมินทั้งหลาย (OCR Glue)[cite: 2])
 3:122,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:123,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:125,V3_MICRO_TYPO,ทันทีทันใดขณะนี⟦FN:183⟧ -> ทันทีทันใดขณะนี้⟦FN:183⟧ (Restore Mai Tho in ขณะนี้)
@@ -487,6 +489,7 @@
 3:152,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 3:153,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:154,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
+3:155,AUDIT_OCR_BUG,แท้จริงอัลลอฮฺเป็นทรงอภัยโทษ -> แท้จริงอัลลอฮฺเป็นผู้ทรงอภัยโทษ (เติมคำว่า 'ผู้' ที่ตกหล่นจากไฟล์ต้นฉบับ ทำให้ไวยากรณ์ผิดเพี้ยน ('เป็นทรงอภัยโทษ' -> 'เป็นผู้ทรงอภัยโทษ')[cite: 2])
 3:155,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 3:157,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 3:158,V3_MICRO_TYPO,ถ้าหาพวกเจ้า -> ถ้าหากพวกเจ้า (Restore missing ก in ถ้าหาก)
@@ -502,7 +505,8 @@
 3:168,V3_MICRO_TYPO,"(มุอัมมัด) -> (มุฮัมมัด) (Fix typo (มุอัมมัด) -> (มุฮัมมัด) in 2:142, 3:168, 6:24, 6:63)"
 3:168,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:169,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
-3:170,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
+3:170,AUDIT_OCR_BUG,พวกเขามีปลาบปลื้ม -> พวกเขามีความปลาบปลื้ม (เติมคำว่า 'ความ' ที่ตกหล่นในการแปลงไฟล์ ทำให้ไวยากรณ์สะดุด ('มีปลาบปลื้ม' -> 'มีความปลาบปลื้ม')[cite: 2])
+3:170,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:171,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:172:fn275,V3_FN_TYPO,ระหว่าางมักกะฮฺ -> ระหว่างมักกะฮฺ (Double Sara Aa typo)
 3:172,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
@@ -513,11 +517,13 @@
 3:176,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 3:177,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:178,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+3:180,AUDIT_SPELLING,"(ผู้ทรงกรรมสิทธิ) -> (ผู้ทรงกรรมสิทธิ์) (แก้ไขตัวสะกดคำว่า 'กรรมสิทธิ์' ให้ถูกต้องตามพจนานุกรมฉบับราชบัณฑิตยสถาน (ตกไม้ทัณฑฆาต/การันต์ บน ธิ)[cite: 1, 2])"
 3:180,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 3:181,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (7 space adjustments)
 3:182,V3_MICRO_TYPO,แก่ปวงบ่วงทั้งหลาย -> แก่ปวงบ่าวทั้งหลาย (Fix ปวงบ่วง -> ปวงบ่าว (لِّلْعَبِيدِ))
 3:182,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:183,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+3:184,AUDIT_SPACING,แล้วหากพวกเขาปฏิเสธเจ้าแท้จริง -> แล้วหากพวกเขาปฏิเสธเจ้า แท้จริง (เว้นวรรค 1 เคาะ คั่นระหว่างประโยคเงื่อนไขกับประโยคผลลัพธ์ เพื่อปลดคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue)[cite: 2])
 3:184,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:185,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 3:186,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -544,10 +550,12 @@
 4:4,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 4:5,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 4:6,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
-4:7,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+4:7,AUDIT_SPELLING,"ที่ถูกำหนดอัตราส่วนไว้ -> ที่ถูกกำหนดอัตราส่วนไว้ (แก้ไขคำสะกดผิด/ตัวอักษรตกหล่นจากการพิมพ์ (พยัญชนะ 'ก' ตกหล่น) จาก 'ที่ถูกำหนด' เป็น 'ที่ถูกกำหนด' ตามพจนานุกรมฉบับราชบัณฑิตยสถาน[cite: 1, 2, 5])"
+4:7,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 4:8,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 4:10,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 4:11,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
+4:12,AUDIT_SPACING,"มาจากอัลลอฮฺและอัลลอฮฺเป็นผู้ทรงรอบรู้ -> มาจากอัลลอฮฺ และอัลลอฮฺเป็นผู้ทรงรอบรู้ (เว้นวรรค 1 เคาะ หน้าคำเชื่อม 'และ' เพื่อปลดคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue) ระหว่างพระนามและเริ่มประโยคใหม่[cite: 2, 5])"
 4:13,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 4:14,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 4:15,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)

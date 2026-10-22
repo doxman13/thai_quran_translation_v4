@@ -212,7 +212,7 @@ EN2 (Hilali-Khan): Surely, those who reject Faith (disbelieve in Allâh and in M
 --------------------------------------------------------------------------------
 [3:117]
 AR: مَثَلُ مَا يُنفِقُونَ فِي هَٰذِهِ ٱلۡحَيَوٰةِ ٱلدُّنۡيَا كَمَثَلِ رِيحٖ فِيهَا صِرٌّ أَصَابَتۡ حَرۡثَ قَوۡمٖ ظَلَمُوٓاْ أَنفُسَهُمۡ فَأَهۡلَكَتۡهُۚ وَمَا ظَلَمَهُمُ ٱللَّهُ وَلَٰكِنۡ أَنفُسَهُمۡ يَظۡلِمُونَ
-V4: อุปมาสิ่งที่พวกเขาบริจาคไปในชีวิตความเป็นอยู่แห่งโลกนี้ อุปมัยลมซึ่งมีความเย็นจัด ได้ประสบแก่พืชผลของชนกลุ่มหนึ่งที่อธรรมแก่ตัวเอง แล้วได้ทำลายพืชผลนั้น[FN:173] อัลลอฮฺมิได้ทรงอธรรมแก่พวกเขา แต่ทว่าพวกเขาอธรรมแก่ตัวของพวกเขาเอง
+V4: อุปมาสิ่งที่พวกเขาบริจาคไปในชีวิตความเป็นอยู่แห่งโลกนี้ อุปไมยลมซึ่งมีความเย็นจัด ได้ประสบแก่พืชผลของชนกลุ่มหนึ่งที่อธรรมแก่ตัวเอง แล้วได้ทำลายพืชผลนั้น[FN:173] อัลลอฮฺมิได้ทรงอธรรมแก่พวกเขา แต่ทว่าพวกเขาอธรรมแก่ตัวของพวกเขาเอง
 V3: อุปมาสิ่งที่พวกเขาบริจาคไปในชีวิตความเป็นอยู่แห่งโลกนี้นั้น ดั่งอุปไมยลมซึ่งมีความเย็นจัด ได้ประสบแก่พืชผลของพวกหนึ่งที่อธรรมแก่ตัวเอง แล้วได้ทำลายพืชผลนั้น อัลลอฮฺนั้นมิได้ทรงอธรรมแก่พวกเขา แต่ทว่าพวกเขาอธรรมแก่ตัวของพวกเขาเอง
 EN1 (Saheeh): The example of what they spend in this worldly life is like that of a wind containing frost which strikes the harvest of a people who have wronged themselves [i.e., sinned] and destroys it. And Allāh has not wronged them, but they wrong themselves.
 EN2 (Hilali-Khan): The likeness of what they spend in this world is the likeness of a wind which is extremely cold; it struck the harvest of a people who did wrong against themselves and destroyed it, (i.e. the good deed of a person is only accepted if he is a monotheist and believes in all the Prophets of Allâh, including the Christ عليه السلام and Muhammad صلى الله عليه وسلم). Allâh wronged them not, but they wronged themselves.
@@ -251,7 +251,7 @@ FN[176]: กล่าวคือรอซูลุลลอฮฺได้จ�
 --------------------------------------------------------------------------------
 [3:122]
 AR: إِذۡ هَمَّت طَّآئِفَتَانِ مِنكُمۡ أَن تَفۡشَلَا وَٱللَّهُ وَلِيُّهُمَاۗ وَعَلَى ٱللَّهِ فَلۡيَتَوَكَّلِ ٱلۡمُؤۡمِنُونَ
-V4: จงรำลึกขณะที่สองกลุ่ม[FN:177]ในหมู่พวกเจ้ารู้สึกอ่อนแอและขลาดกลัว[FN:178] และอัลลอฮฺเป็นผู้ทรงคุ้มครองทั้งสองกลุ่มนั้นไว้ และแด่อัลลอฮฺมุอฺมินทั้งหลายจงมอบหมายเถิด
+V4: จงรำลึกขณะที่สองกลุ่ม[FN:177]ในหมู่พวกเจ้ารู้สึกอ่อนแอและขลาดกลัว[FN:178] และอัลลอฮฺเป็นผู้ทรงคุ้มครองทั้งสองกลุ่มนั้นไว้ และแด่อัลลอฮฺ มุอฺมินทั้งหลายจงมอบหมายเถิด
 V3: จงรำลึกขณะที่สองกลุ่มในหมู่พวกเจ้ารู้สึกอ่อนแอและขลาด และอัลลอฮฺเป็นผู้ทรงคุ้มครองทั้งสองกลุ่มนั้นไว้ และแด่อัลลอฮฺนั้น มุมินทั้งหลายจงมอบหมายเถิด
 EN1 (Saheeh): When two parties among you were about to lose courage, but Allāh was their ally; and upon Allāh the believers should rely.
 EN2 (Hilali-Khan): When two parties from among you were about to lose heart, but Allâh was their Walî (Supporter and Protector). And in Allâh should the believers put their trust.
