@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-10-22T09:22:18.869117+00:00",
+  "generated_at_utc": "2026-10-22T10:37:02.467671+00:00",
   "deliverable_hashes_sha256": {
-    "01_thai_quran_translation_v4_master.json": "b905c0bbfb79630168153889db9cb33016042010500dd546bf9ef99c12ff4a7f",
-    "02_thai_quran_translation_v4_annotated.json": "ad1d55347dbfed5477be439e0adada08acd768d9061adf093c723b61b8e881c0",
-    "03_thai_quran_translation_v4_master.csv": "770735c2770e07de8e0364b6a0be3486ab9000f917579f681746566e45930a18",
-    "04_thai_v4_scholar_review_sheet.csv": "233f24745335f1ca6dc4ebca794804f962118798ea05310f552ab0a4eeb32226",
-    "05_pipeline1_human_review_v4_synced.csv": "5a5cd2dde5a5297ab91a5068703b9be295e347d136ba628118d12ac8fb7c49f9",
+    "01_thai_quran_translation_v4_master.json": "7285a55d045c8eb216d11f99328068e2f4b72d2b389b22111dae00062b65e4ce",
+    "02_thai_quran_translation_v4_annotated.json": "cf5a841901ca9a0495687a1292e7ea8699d44f721aa7444650db400525300822",
+    "03_thai_quran_translation_v4_master.csv": "2b7c580351da671c020d2beb07b27684006250d00aebe4711ee5f9f7e13c9059",
+    "04_thai_v4_scholar_review_sheet.csv": "ae347c114c3c758a5175c2e375867b09af7c388053c9b7adb10b34cd5e26eaa4",
+    "05_pipeline1_human_review_v4_synced.csv": "eaafd568d01c52a79110ad866afd7042e4839a5a05d152d7879f7d56d00f2163",
     "06_pipeline1_remaining_active_reviews_v4.csv": "a66afac4ef82bb125ea1aaec4c706c97e5d6b6fc076647967f0aa830c79048d8"
   },
   "gates": {
