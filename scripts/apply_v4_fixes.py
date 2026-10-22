@@ -292,6 +292,13 @@ def main():
         json.dump(manual_fixes, f, ensure_ascii=False, indent=2)
     print(f"\nSaved {added_count} new fixes to {MANUAL_FIXES_JSON} (Total recorded: {len(manual_fixes)})")
 
+    # Update TSV audit tracker
+    try:
+        from v4_tracker import record_applied_fixes
+        record_applied_fixes(validated_fixes)
+    except Exception as e:
+        print(f"[WARN] Failed to update TSV tracker: {e}")
+
     # Re-run pipeline phases to package deliverables
     print("\n--- Re-running Pipeline Phases 6, 5 & 7 ---")
     subprocess.run([sys.executable, str(REPO_ROOT / "scripts" / "06_apply_v3_spacing_and_scholar_sync.py")], check=True)
