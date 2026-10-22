@@ -194,11 +194,13 @@
 2:168,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:169,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:170,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+2:171,AUDIT_CRITICAL,ดังผู้ที่ส่งเสียง⟦FN:238⟧ ที่มันฟังไม่รู้เรื่อง -> ดังผู้ที่ส่งเสียงตวาดสิ่ง⟦FN:238⟧ที่มันฟังไม่รู้เรื่อง (กู้คืนคำแปลของ 'بِمَا' (สิ่ง...) ที่ตกหล่นไป และย้ายตำแหน่งแท็ก [FN:238] ('หมายถึงสัตว์') ให้เกาะกับคำว่า 'สิ่ง' อย่างถูกต้องตามหลักอรรถาธิบายเดิม)
 2:171,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:172,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:173,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:174,STAGE8_REPAIR,บริสุทธิ⟦FN:249⟧ -> บริสุทธิ์⟦FN:249⟧ (Fix missing Thanthakhat in บริสุทธิ์)
 2:174,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
+2:176,AUDIT_SPACING,ในคัมภีร์ย่อมอยู่ -> ในคัมภีร์ ย่อมอยู่ (เว้นวรรค 1 เคาะคั่นระหว่างประธานและกริยาหน้าคำว่า 'ย่อม' เพื่อจังหวะพักสายตาและพักหายใจตามเกณฑ์ 1.1)
 2:176,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:177,V3_MICRO_TYPO,อดทนไนความทุกข์ยาก -> อดทนในความทุกข์ยาก (Fix ไน -> ใน)
 2:177,V3_MICRO_TYPO,ต่อสู่ในสมรภูมิ -> ต่อสู้ในสมรภูมิ (Fix ต่อสู่ -> ต่อสู้)
@@ -213,6 +215,7 @@
 2:185:fn262,FN_TYPO,ในการดำรงค์ชีวิต -> ในการดำรงชีวิต (Spurious ค์ in ดำรง)
 2:185:fn265,FN_TYPO,ทำให้ผู้ศีลอดรู้สึก -> ทำให้ผู้ถือศีลอดรู้สึก (Missing ถือ in ผู้ถือศีลอด)
 2:185,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
+2:186,AUDIT_CRITICAL,ก็ (จงตอบเถิดว่า) แท้จริงนั้นอยู่ใกล้ -> ก็ (จงตอบเถิดว่า) แท้จริงข้านั้นอยู่ใกล้ (คืนสรรพนามของอัลลอฮฺ 'ข้า' (فَإِنِّي) ที่ตกหล่นไปใน V4 เพื่อรักษาความถูกต้องทางเตาฮีดและความหมาย)
 2:186,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:187,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (10 space adjustments)
 2:188,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
@@ -221,6 +224,7 @@
 2:191,V3_MICRO_TYPO,ร้ายแรงยิงกว่า -> ร้ายแรงยิ่งกว่า (Restore Mai Ek in ยิ่งกว่า)
 2:191,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
 2:192,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+2:193,AUDIT_SPACING,จนกว่าการอิบาดะฮฺ ทั้งหลายจะเป็นสิทธิของอัลลอฮฺเท่านั้น -> จนกว่าการอิบาดะฮฺทั้งหลายจะเป็นสิทธิของอัลลอฮฺเท่านั้น (ตัดช่องว่างที่ไม่ถูกต้องกลางวลี 'การอิบาดะฮฺทั้งหลาย' ตามเกณฑ์ 1.3 (ห้ามเคาะวรรคกลางคำประสม))
 2:193,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:194,V3_MICRO_TYPO,ต่อพวกเข้า -> ต่อพวกเจ้า (Fix พวกเข้า -> พวกเจ้า)
 2:194:fn287,V3_FN_TYPO,มิใช้สู้รบ -> มิให้สู้รบ (Fix มิใช้สู้รบ -> มิให้สู้รบ)
@@ -248,6 +252,7 @@
 2:215,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:216,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:217,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (7 space adjustments)
+2:218,AUDIT_SPACING,ในทางของอัลลอฮฺชนเหล่านี้แหละ -> ในทางของอัลลอฮฺ ชนเหล่านี้แหละ (เว้นวรรค 1 เคาะแยกประโยค (OCR Glue) ระหว่างพระนาม 'อัลลอฮฺ' กับขึ้นต้นประโยค 'ชนเหล่านี้แหละ' ตามเกณฑ์ 1.1)
 2:218,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:219,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:220,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
@@ -271,6 +276,7 @@
 2:236,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:237,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:239,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+2:240,AUDIT_CRITICAL,แก่คู่ครองของพวกนาง -> แก่คู่ครองของพวกเขา (แก้ไขสรรพนาม لِّأَزۡوَٰجِهِم ให้ถูกต้องตามสำนวนเดิม (ของพวกเขา) ซึ่งหมายถึงภรรยาของผู้ตาย (บุรุษ) การใช้ 'ของพวกนาง' ทำให้ความหมายของบทบัญญัติพินัยกรรมสลับข้างและผิดไวยากรณ์)
 2:241,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:243,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:244,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
