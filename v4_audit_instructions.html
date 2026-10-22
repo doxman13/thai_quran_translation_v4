@@ -346,9 +346,9 @@
                             <td>ดูจำนวนอายะฮฺและจุดต่างที่จะอัปเดตเข้าเว็บ</td>
                         </tr>
                         <tr style="background: rgba(52, 211, 153, 0.05);">
-                            <td><strong style="color:var(--success);">7. จบ Session: ซิงค์เข้าเว็บ + Git Push ทั้งหมด (คำสั่งเดียว)</strong></td>
+                            <td><strong style="color:var(--success);">7. จบ Session: ซิงค์เข้า Web + App + Git Push ทั้งหมด</strong></td>
                             <td><code>python scripts/sync_v4_to_all.py --push "Audit Juz 1 Chunk 1 done"</code></td>
-                            <td>สร้าง Deliverables ล่าสุด ซิงค์เข้า thai-quran-web และ Push ขึ้น GitHub อัตโนมัติ</td>
+                            <td>แพ็กเกจ Master Deliverables, ซิงค์เข้า thai-quran-web, ซิงค์เข้า thai-quran-app (JSON + SQLite DB), และ Push ทุก Repo</td>
                         </tr>
                     </tbody>
                 </table>
@@ -413,8 +413,8 @@
         <!-- TAB 3: FINISH SESSION -->
         <div id="finish" class="tab-pane">
             <div class="card">
-                <h2>🏁 ขั้นตอนการจบ Session และซิงค์ผลลัพธ์เข้า thai-quran-web</h2>
-                <p>เมื่อคุณตรวจเสร็จสิ้น 1 Chunk, 1 ญุซ หรือต้องการหยุดพักงานประจำวัน ให้ใช้คำสั่ง <strong>Sync & Push แบบคำสั่งเดียว</strong> เพื่อกระจายผลลัพธ์ทั้งหมดเข้าสู่เว็บแอปและ Git Remote อย่างปลอดภัย:</p>
+                <h2>🏁 ขั้นตอนการจบ Session และซิงค์ผลลัพธ์เข้า thai-quran-web และ thai-quran-app</h2>
+                <p>เมื่อคุณตรวจเสร็จสิ้น 1 Chunk, 1 ญุซ หรือต้องการหยุดพักงานประจำวัน ให้ใช้คำสั่ง <strong>Sync & Push แบบคำสั่งเดียว</strong> เพื่อกระจายผลลัพธ์ทั้งหมดเข้าสู่ทั้งเว็บแอป, โมบายแอป และ Git Remote อย่างปลอดภัย:</p>
 
                 <div class="command-block">
                     <div class="command-header">
@@ -442,12 +442,16 @@
                             <td>กระจายข้อความคำแปลและเชิงอรรถที่ผ่านการ Audit ล่าสุด เข้าสู่ <code>thai-quran-web/src/data/thai_v3.json</code> และ <code>thai_footnotes.json</code> โดยตรง</td>
                         </tr>
                         <tr>
-                            <td><strong>3. Git Pull ป้องกันชน</strong></td>
-                            <td>ตรวจสอบและดึง Git ล่าสุดจาก GitHub ของทั้งสอง Repo ก่อนเสมอ</td>
+                            <td><strong>3. Sync เข้า thai-quran-app</strong></td>
+                            <td>อัปเดตไฟล์ JSON <code>assets/thai_v3.json</code>, อัปเดตฐานข้อมูล SQLite <code>assets/quran_offline.db</code> (ตาราง verses คอลัมน์ translation_th), และซิงค์ <code>assets/footnotes/thai_footnotes.json</code></td>
                         </tr>
                         <tr>
-                            <td><strong>4. Git Commit & Push อัตโนมัติ</strong></td>
-                            <td>สั่ง Commit และ Push การเปลี่ยนแปลงทั้งหมดของทั้ง <code>thai_quran_translation_v4</code> และ <code>thai-quran-web</code> ขึ้นสู่ GitHub Origin</td>
+                            <td><strong>4. Git Pull ป้องกันชน</strong></td>
+                            <td>ตรวจสอบและดึง Git ล่าสุดจาก GitHub ของทุก Repo (V4, Web, App) ก่อนเสมอ</td>
+                        </tr>
+                        <tr>
+                            <td><strong>5. Git Commit & Push อัตโนมัติ</strong></td>
+                            <td>สั่ง Commit และ Push การเปลี่ยนแปลงทั้งหมดของทั้ง 3 Repositories (<code>thai_quran_translation_v4</code>, <code>thai-quran-web</code>, <code>thai-quran-app</code>) ขึ้นสู่ GitHub Origin</td>
                         </tr>
                     </tbody>
                 </table>
