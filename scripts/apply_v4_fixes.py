@@ -301,7 +301,7 @@ def main():
     # Re-export affected Juz chunks
     print("\n--- Re-exporting Affected Juz Chunks ---")
     for j in sorted(affected_juzs):
-        subprocess.run([sys.executable, str(REPO_ROOT / "scripts" / "export_v4_audit_chunk.py"), "--juz", str(j)], check=True)
+        subprocess.run([sys.executable, str(REPO_ROOT / "scripts" / "export_v4_audit_chunk.py"), "--juz", str(j), "--subchunks"], check=True)
 
     # Copy log to clipboard
     summary_text = "\n".join(fix_log_lines)

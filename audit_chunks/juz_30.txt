@@ -6,7 +6,6 @@ CRITICAL AUDIT INSTRUCTIONS (RULE ZERO: NO OVERKILL):
 2. Output verified fixes in strict JSON format: [{"ayah": "S:A", "type": "...", "target": "...", "replacement": "...", "reason": "..."}]
 3. If an ayah is accurate and readable, do NOT touch it.
 ================================================================================
-
 [78:1]
 AR: عَمَّ يَتَسَآءَلُونَ
 V4: พวกเขาต่างถามกันถึงเรื่องอะไร ?

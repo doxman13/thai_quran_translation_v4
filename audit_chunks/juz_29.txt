@@ -6,7 +6,6 @@ CRITICAL AUDIT INSTRUCTIONS (RULE ZERO: NO OVERKILL):
 2. Output verified fixes in strict JSON format: [{"ayah": "S:A", "type": "...", "target": "...", "replacement": "...", "reason": "..."}]
 3. If an ayah is accurate and readable, do NOT touch it.
 ================================================================================
-
 [67:1]
 AR: تَبَٰرَكَ ٱلَّذِي بِيَدِهِ ٱلۡمُلۡكُ وَهُوَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٌ
 V4: ความเจริญสุขจงมีแด่พระผู้ซึ่งอำนาจอยู่ในพระหัตถ์ของพระองค์[FN:1] และพระองค์คือผู้ทรงอานุภาพเหนือทุกสิ่งทุกอย่าง[FN:2]

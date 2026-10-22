@@ -6,7 +6,6 @@ CRITICAL AUDIT INSTRUCTIONS (RULE ZERO: NO OVERKILL):
 2. Output verified fixes in strict JSON format: [{"ayah": "S:A", "type": "...", "target": "...", "replacement": "...", "reason": "..."}]
 3. If an ayah is accurate and readable, do NOT touch it.
 ================================================================================
-
 [15:1]
 AR: الٓرۚ تِلۡكَ ءَايَٰتُ ٱلۡكِتَٰبِ وَقُرۡءَانٖ مُّبِينٖ
 V4: อะลีฟ ลาม รออ์ เหล่านี้คือโองการทั้งหลายแห่งคัมภีร์ และเป็นกรุอานอันชัดแจ้ง

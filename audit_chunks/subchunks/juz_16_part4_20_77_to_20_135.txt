@@ -1,0 +1,484 @@
+=== THAIQURAN V4 AUDIT CHUNK: JUZ_16_PART4_20_77_TO_20_135 ===
+Verses in this chunk: 59 (20:77 to 20:135)
+
+CRITICAL AUDIT INSTRUCTIONS (RULE ZERO: NO OVERKILL):
+1. DO NOT rewrite sentences. Only propose fixes for (1) Spacing & Cadence, (2) Spelling & Transliteration, (3) Critical/Theological error.
+2. Output verified fixes in strict JSON format: [{"ayah": "S:A", "type": "...", "target": "...", "replacement": "...", "reason": "..."}]
+3. If an ayah is accurate and readable, do NOT touch it.
+================================================================================
+[20:77]
+AR: وَلَقَدۡ أَوۡحَيۡنَآ إِلَىٰ مُوسَىٰٓ أَنۡ أَسۡرِ بِعِبَادِي فَٱضۡرِبۡ لَهُمۡ طَرِيقٗا فِي ٱلۡبَحۡرِ يَبَسٗا لَّا تَخَٰفُ دَرَكٗا وَلَا تَخۡشَىٰ
+V4: และโดยแน่นอน เราได้วะฮียฺแก่มูซาว่า “จงเดินทางในเวลากลางคืนพร้อมด้วยปวงบ่าวของข้า แล้วฟาดลงในทะเล[FN:56]ให้เป็นทางเดินแห้งแก่พวกเขา เจ้าอย่าได้กลัวว่าจะถูกตามทัน[FN:57] และเจ้าอย่าได้กลัวจมน้ำ”
+V3: และโดยแน่นอน เราได้วะฮียแก่มูซาว่า จงเดินทางในเวลากลางคืนพร้อมด้วยปวงบ่าวของข้า แล้วฟาดลงในทะเลให้เป็นทางเดินแห้งแก่พวกเขา เจ้าอย่าได้กลัวว่าจะถูกตามทัน และเจ้าอย่าได้กลัวจมน้ำ
+EN1 (Saheeh): And We had inspired to Moses, "Travel by night with My servants and strike for them a dry path through the sea; you will not fear being overtaken [by Pharaoh] nor be afraid [of drowning]."
+EN2 (Hilali-Khan): And indeed We revealed to Mûsâ (Moses) (saying): "Travel by night with Ibâdi (My slaves) and strike a dry path for them in the sea, fearing neither to be overtaken [by Fir‘aun (Pharaoh)] nor being afraid (of drowning in the sea)."
+FN[56]: คือจงใช้ไม้เท้าฟาดลงไปบนทะเล เพื่อมันจะกลายเป็นทางเดินที่แห้ง ใช้เดินทางข้ามไปอีกฟากหนึ่ง
+FN[57]: คือกลัวว่าฟิรเอานฺและพลพรรคของเขาจะตามมาทัน
+--------------------------------------------------------------------------------
+[20:78]
+AR: فَأَتۡبَعَهُمۡ فِرۡعَوۡنُ بِجُنُودِهِۦ فَغَشِيَهُم مِّنَ ٱلۡيَمِّ مَا غَشِيَهُمۡ
+V4: ฟิรเอานฺพร้อมด้วยไพร่พลของเขาได้ตามมาทันพวกเขา แล้วน้ำจากทะเลได้ท่วม ทำให้พวกเขาจมน้ำ[FN:58]
+V3: ฟิรเอานฺพร้อมด้วยไพร่พลของเขาได้ตามมาทันพวกเขา แล้วน้ำจากทะเลได้ท่วม ทำให้พวกเขาจมน้ำ
+EN1 (Saheeh): So Pharaoh pursued them with his soldiers, and there covered them from the sea that which covered them,
+EN2 (Hilali-Khan): Then Fir‘aun (Pharaoh) pursued them with his hosts, but the sea-water completely overwhelmed them and covered them up.
+FN[58]: คือสภาพของน้ำทะเลได้ทำให้พวกเขาหวาดกลัว ไม่มีใครรู้ความน่ากลัวของมันนอกจากอัลลอฮฺ
+--------------------------------------------------------------------------------
+[20:79]
+AR: وَأَضَلَّ فِرۡعَوۡنُ قَوۡمَهُۥ وَمَا هَدَىٰ
+V4: และฟิรเอานฺได้ทำให้กลุ่มชนของเขาหลงผิด และมิได้แนะทางที่ถูกต้องให้
+V3: และฟิรเอานฺได้ทำให้กลุ่มชนของเขาหลงผิด และมิได้แนะทางที่ถูกต้องให้
+EN1 (Saheeh): And Pharaoh led his people astray and did not guide [them].
+EN2 (Hilali-Khan): And Fir‘aun (Pharaoh) led his people astray, and he did not guide them.
+--------------------------------------------------------------------------------
+[20:80]
+AR: يَٰبَنِيٓ إِسۡرَٰٓءِيلَ قَدۡ أَنجَيۡنَٰكُم مِّنۡ عَدُوِّكُمۡ وَوَٰعَدۡنَٰكُمۡ جَانِبَ ٱلطُّورِ ٱلۡأَيۡمَنَ وَنَزَّلۡنَا عَلَيۡكُمُ ٱلۡمَنَّ وَٱلسَّلۡوَىٰ
+V4: โอ้วงศ์วานของอิสรออีลเอ๋ย![FN:59] แน่นอนเราได้ช่วยพวกเจ้าให้พ้นจากศัตรูของพวกเจ้า[FN:60] และเราได้สัญญาพวกเจ้าทางด้านขวาของภูเขาฏูร[FN:61] และเราได้ให้อาหารหวานและนกคุ่มแก่พวกเจ้า[FN:62]
+V3: โอ้วงศ์วานของอิสรออีลเอ๋ย แน่นอนเราได้ช่วยพวกเจ้าให้พ้นจากศัตรูของพวกเจ้า และเราได้สัญญาพวกเจ้าทางด้านขวาของภูเขาฏูร และเราได้ให้อาหารหวานและนกคุ่มแก่พวกเจ้า
+EN1 (Saheeh): O Children of Israel, We delivered you from your enemy, and We made an appointment with you at the right side of the mount, and We sent down to you manna and quails,
+EN2 (Hilali-Khan): O Children of Israel! We delivered you from your enemy, and We made a covenant with you on the right side of the Mount, and We sent down to you Al-Manna and quails,
+FN[59]: เป็นการสนทนากับวงศ์วานอิสรออีล หลังจากที่รอดพ้นจากการข้ามทะเล และฟิรเอานฺพร้อมด้วยไพร่พลได้จมน้ำตายไปหมดแล้ว
+FN[60]: คือพวกท่านจงรำลึกถึงความโปรดปรานอันยิ่งใหญ่ของเราที่ให้แก่พวกเจ้า โดยเราได้ช่วยพวกเจ้าให้พ้นจากฟิรเอานฺและไพร่พลของเขา ซึ่งพวกเขาได้ทรมานพวกเจ้าด้วยการลงโทษอย่างหนัก
+FN[61]: คือเราได้สัญญากับมูซาเพื่อสนทนาและให้คัมภีร์เตารอตแก่เขา ทางด้านขวาของภูเขาฏูร
+FN[62]: เราได้ให้ริสกีแก่พวกท่านในดินแดนที่พวกท่านหลงทาง ด้วยอาหารหวานคล้ายน้ำผึ้ง และนกคุ่มซึ่งเป็นนกที่เนื้อของมันอร่อยที่สุด ในการลำดับความโปรดปรานของพระองค์ที่มีต่อบะนีอิสรออีล ได้ดำเนินไปอย่างดีที่สุดคือ เริ่มด้วยความโปรดปรานให้พ้นจากศัตรู ต่อมาก็ด้วยความโปรดปรานของพระองค์ที่มีต่อบะนีอิสรออีล ได้ดำเนินไปอย่างดีที่สุดคือเริ่มด้วยความโปรดปรานทางโลกดุนยา
+--------------------------------------------------------------------------------
+[20:81]
+AR: كُلُواْ مِن طَيِّبَٰتِ مَا رَزَقۡنَٰكُمۡ وَلَا تَطۡغَوۡاْ فِيهِ فَيَحِلَّ عَلَيۡكُمۡ غَضَبِيۖ وَمَن يَحۡلِلۡ عَلَيۡهِ غَضَبِي فَقَدۡ هَوَىٰ
+V4: พวกเจ้าจงกินจากสิ่งที่ดีทั้งหลายที่เราได้ให้เป็นปัจจัยยังชีพแก่พวกเจ้า และพวกเจ้าอย่าได้ฝ่าฝืน มิฉะนั้นความกริ้วของข้าจะเกิดขึ้นแก่พวกเจ้า[FN:63] และผู้ใดที่ความกริ้วของข้าจะเกิดขึ้นแก่เขา แน่นอนเขาจะประสบความพินาศ
+V3: พวกเจ้าจงกินจากสิ่งที่ดีทั้งหลายที่เราได้ให้เป็นปัจจัยยังชีพแก่พวกเจ้า และพวกเจ้าอย่าได้ฝ่าฝืน มิฉะนั้นความกริ้วของข้าจะเกิดขึ้นแก่พวกเจ้า และผู้ใดที่ความกริ้วของข้าเกิดขึ้นแก่เขา แน่นอนเขาจะประสบความพินาศ
+EN1 (Saheeh): [Saying], "Eat from the good things with which We have provided you and do not transgress [or oppress others] therein, lest My anger should descend upon you. And he upon whom My anger descends has certainly fallen [i.e., perished]."
+EN2 (Hilali-Khan): (Saying) eat of the Tayyibât (good lawful things) wherewith We have provided you, and commit no transgression or oppression therein, lest My Anger should justly descend on you. And he on whom My Anger descends, he is indeed perished. [Tafsir At-Tabari]
+FN[63]: คือในยามที่ได้รับริซกีกว้างขวางและยามสุขสบาย พวกท่านอย่าทรยศด้วยการฝ่าฝืนบทบัญญัติของเรา มิฉะนั้นแล้ว การลงโทษจะประสบแก่พวกท่าน
+--------------------------------------------------------------------------------
+[20:82]
+AR: وَإِنِّي لَغَفَّارٞ لِّمَن تَابَ وَءَامَنَ وَعَمِلَ صَٰلِحٗا ثُمَّ ٱهۡتَدَىٰ
+V4: และแท้จริง ข้าเป็นผู้อภัยอย่างมากหลายแก่ผู้ลุแก่โทษ และศรัทธา และประกอบความดีแล้วยึดมั่นอยู่ในแนวทางที่ถูกต้อง[FN:64]
+V3: และแท้จริง ข้าเป็นผู้อภัยอย่างมากหลายแก่ผู้ลุแก่โทษ และศรัทธา และประกอบความดีแล้วยึดมั่นอยู่ในแนวทางที่ถูกต้อง
+EN1 (Saheeh): But indeed, I am the Perpetual Forgiver of whoever repents and believes and does righteousness and then continues in guidance.
+EN2 (Hilali-Khan): And verily, I am indeed forgiving to him who repents, believes (in My Oneness, and associates none in worship with Me) and does righteous good deeds, and then remains constant in doing them, (till his death).
+FN[64]: ในอายะฮฺเป็นการสนับสนุนและเปิดโอกาสให้แก่ผู้ที่ตกอยู่ในห้วงแห่งการหลงผิดและการฝ่าฝืนด้วยการชี้แจงถึงทางออกและอย่าหมดหวัง
+--------------------------------------------------------------------------------
+[20:83]
+AR: ۞ وَمَآ أَعۡجَلَكَ عَن قَوۡمِكَ يَٰمُوسَىٰ
+V4: และอะไรเล่าที่ทำให้เจ้ารีบเร่งออกจากกลุ่มชนของเจ้า โอ้ มูซาเอ๋ย ![FN:65]
+V3: และอะไรเล่าที่ทำให้เจ้ารีบเร่งออกจากกลุ่มชนของเจ้า โอ้ มูซาเอ๋ย
+EN1 (Saheeh): [Allāh said], "And what made you hasten from your people, O Moses?"
+EN2 (Hilali-Khan): "And what made you hasten from your people, O Mûsâ (Moses)?"
+FN[65]: อัลซะมัดซะรีย์กล่าวว่า มูซาได้อยู่กับบรรดาหัวหน้าที่เขาคัดเลือกมาจากพวกของเขาที่ภูเขาฏูร ตามสัญญาที่ถูกกำหนดไว้ แล้วเขาก็รีบล่วงหน้าไปก่อน เพราะใคร่ที่จะรับฟังพระดำรัสของพระเจ้าของเขา
+--------------------------------------------------------------------------------
+[20:84]
+AR: قَالَ هُمۡ أُوْلَآءِ عَلَىٰٓ أَثَرِي وَعَجِلۡتُ إِلَيۡكَ رَبِّ لِتَرۡضَىٰ
+V4: เขากล่าวว่า “พวกเขาเหล่านั้นตามหลังข้าพระองค์มาอยู่แล้ว และข้าพระองค์ได้รีบเร่งมายังพระองค์เท่านั้น โอ้พระผู้อภิบาลของข้าพระองค์ ก็เพื่อให้พระองค์ทรงพอพระทัยเท่านั้น”
+V3: เขากล่าวว่า พวกเขาเหล่านั้นตามหลังข้าพระองค์มาอยู่แล้ว และข้าพระองค์ได้รีบเร่งมายังพระองค์ท่านนั้น โอ้พระเจ้าของข้าพระองค์ ก็เพื่อให้พระองค์ทรงพอพระทัยเท่านั้น
+EN1 (Saheeh): He said, "They are close upon my tracks, and I hastened to You, my Lord, that You be pleased."
+EN2 (Hilali-Khan): He said: "They are close on my footsteps: and I hastened to You, O my Lord, that You might be pleased."
+--------------------------------------------------------------------------------
+[20:85]
+AR: قَالَ فَإِنَّا قَدۡ فَتَنَّا قَوۡمَكَ مِنۢ بَعۡدِكَ وَأَضَلَّهُمُ ٱلسَّامِرِيُّ
+V4: พระองค์ตรัสว่า “แท้จริงเราได้ทดสอบกลุ่มชนของเจ้า หลังจากที่เจ้าได้จากมา และซามิรีย์ก็ได้ทำให้พวกเขาหลงทาง”[FN:66]
+V3: พระองค์ตรัสว่า แท้จริงเราได้ทดสอบกลุ่มชนของเจ้า หลังจากที่เจ้าได้จากมา และซามิรีย์ก็ได้ทำให้พวกเขาหลงทาง
+EN1 (Saheeh): [Allāh] said, "But indeed, We have tried your people after you [departed], and the Sāmirī has led them astray."
+EN2 (Hilali-Khan): (Allâh) said: "Verily We have tried your people in your absence, and As-Sâmirî has led them astray."
+FN[66]: นักตัฟซีรกล่าวว่า ขณะที่มูซากำลังสนทนาอยู่กับพระเจ้าของเขานั้น เขาได้มอบให้ฮารูนพี่ชายของเขาอยู่ร่วมกับบะนีอิสรออีล และใช้ให้เขาทำสัญญากับพวกเขา ให้พำนักอยู่ด้วยความจงรักภักดีต่ออัลลอฮฺ ในขณะนั้นซามิรีย์ได้รวบรวมเครื่องประดับเอามาประกอบเป็นลูกวัว แล้วได้เชิญชวนพวกเขาให้ไปบูชา พวกเขาจึงเฝ้าบูชาอยู่ เหตุการณ์ครั้งนี้เกิดขึ้นหลังจากมูซาได้จากพวกเขาไปเป็นเวลา 20 วัน
+--------------------------------------------------------------------------------
+[20:86]
+AR: فَرَجَعَ مُوسَىٰٓ إِلَىٰ قَوۡمِهِۦ غَضۡبَٰنَ أَسِفٗاۚ قَالَ يَٰقَوۡمِ أَلَمۡ يَعِدۡكُمۡ رَبُّكُمۡ وَعۡدًا حَسَنًاۚ أَفَطَالَ عَلَيۡكُمُ ٱلۡعَهۡدُ أَمۡ أَرَدتُّمۡ أَن يَحِلَّ عَلَيۡكُمۡ غَضَبٞ مِّن رَّبِّكُمۡ فَأَخۡلَفۡتُم مَّوۡعِدِي
+V4: มูซาได้กลับมายังกลุ่มชนของเขาด้วยความกริ้วโกรธเสียใจ[FN:67] เขากล่าวว่า “โอ้กลุ่มชนของฉันเอ๋ย พระเจ้าของพวกท่านมิได้ทรงสัญญากับพวกท่านด้วยสัญญาที่ดีดอกหรือ คำมั่นสัญญานั้นนานเกินไปสำหรับพวกท่านกระนั้นหรือ ? หรือว่าพวกท่านประสงค์ที่จะให้ความกริ้วจากพระเจ้าของพวกท่านเกิดขึ้นแก่พวกท่าน ? พวกท่านจึงได้บิดพลิ้วสัญญาของฉัน”
+V3: มูซาได้กลับมายังกลุ่มชนของเขาด้วยความกริ้วโกรธเสียใจ เขากล่าวว่า โอ้กลุ่มชนของฉันเอ๋ย พระเจ้าของพวกท่านมิได้ทรงสัญญากับพวกท่านด้วยสัญญาที่ดีดอกหรือ คำมั่นสัญญานั้นนานเกินไปสำหรับพวกท่านกระนั้นหรือ หรือว่าพวกท่านประสงค์ที่จะให้ความกริ้วจากพระเจ้าของพวกท่านเกิดขึ้นแก่พวกท่าน พวกท่านจึงได้บิดพริ้วสัญญาของฉัน
+EN1 (Saheeh): So Moses returned to his people, angry and grieved. He said, "O my people, did your Lord not make you a good promise? Then, was the time [of its fulfillment] too long for you, or did you wish that wrath from your Lord descend upon you, so you broke your promise [of obedience] to me?"
+EN2 (Hilali-Khan): Then Mûsâ (Moses) returned to his people in a state of anger and sorrow. He said: "O my people! Did not your Lord promise you a fair promise? Did then the promise seem to you long in coming? Or did you desire that wrath should descend from your Lord on you, that you broke your promise to me (i.e disbelieving in Allâh and worshipping the calf)?"
+FN[67]: คือมูซาได้กลับมาจากภูเขาฏูร หลังจากที่ได้พำนักอยู่ที่นั่นเป็นเวลา 40 วัน ซึ่งเป็นระยะเวลาที่เขาได้รับวะฮีคัมภีร์เตารอต
+--------------------------------------------------------------------------------
+[20:87]
+AR: قَالُواْ مَآ أَخۡلَفۡنَا مَوۡعِدَكَ بِمَلۡكِنَا وَلَٰكِنَّا حُمِّلۡنَآ أَوۡزَارٗا مِّن زِينَةِ ٱلۡقَوۡمِ فَقَذَفۡنَٰهَا فَكَذَٰلِكَ أَلۡقَى ٱلسَّامِرِيُّ
+V4: พวกเขากล่าวว่า “เรามิได้บิดพลิ้วสัญญาของท่านตามความสมัครใจของเราดอก แต่ว่าเราต้องแบกน้ำหนักเครื่องประดับของพรรคพวกอย่างมากมาย[FN:68] เราจึงโยนมันลงไป[FN:69] เช่นเดียวกัน ซามิรีย์ก็ได้โยนมันลงไปด้วย”
+V3: พวกเขากล่าวว่า เรามิได้บิดพริ้วสัญญาของท่านตามความสมัครใจของเราดอก แต่ว่าเราต้องแบกน้ำหนักเครื่องประดับของพรรคพวกอย่างมากมาย เราจึงโยนมันลงไป เช่นเดียวกัน ซามิรีย์ก็ได้โยนมันลงไปด้วย
+EN1 (Saheeh): They said, "We did not break our promise to you by our will, but we were made to carry burdens from the ornaments of the people [of Pharaoh], so we threw them [into the fire], and thus did the Sāmirī throw."
+EN2 (Hilali-Khan): They said: "We broke not the promise to you, of our own will, but we were made to carry the weight of the ornaments of the [Fir‘aun’s (Pharaoh)] people, then we cast them (into the fire), and that was what As-Sâmirî suggested."
+FN[68]: คือเราถูกบังคับให้กระทำเช่นนั้น
+FN[69]: คือโยนเครื่องประดับที่แบกกันมานั้นลงในกองไฟ โดยคำสั่งของซามิรีย์
+--------------------------------------------------------------------------------
+[20:88]
+AR: فَأَخۡرَجَ لَهُمۡ عِجۡلٗا جَسَدٗا لَّهُۥ خُوَارٞ فَقَالُواْ هَٰذَآ إِلَٰهُكُمۡ وَإِلَٰهُ مُوسَىٰ فَنَسِيَ
+V4: แล้วซามิรีย์ก็ได้ทำลูกวัวออกมาเป็นรูปร่างมีเสียงร้อง[FN:70] พวกเขาจึงกล่าวว่า “นี่คือพระเจ้าของพวกท่าน และพระเจ้าของมูซา แต่เขาลืมเสีย”[FN:71]
+V3: แล้วซามิรีย์ก็ได้ทำลูกวัวออกมาเป็นรูปร่างมีเสียงร้อง พวกเขาจึงกล่าวว่า นี่คือพระเจ้าของพวกท่าน และพระเจ้าของมูซา แต่เขาลืมเสีย
+EN1 (Saheeh): And he extracted for them [the statue of] a calf which had a lowing sound, and they said, "This is your god and the god of Moses, but he forgot."
+EN2 (Hilali-Khan): Then he took out (of the fire) for them (a statue of) a calf which seemed to low. They said: "This is your ilâh (god), and the ilâh (god) of Mûsâ (Moses), but he [Mûsâ (Moses)] has forgotten (his god).’"
+FN[70]: คือจากเครื่องประดับเหล่านั้นเขาหลอมเป็นลูกวัว มันไม่มีวิญญาณ แต่มีเสียงร้องคล้ายลูกวัว
+FN[71]: คือมูซาได้ลืมพระเจ้าของเขาไว้ที่นี่ และไปขอพระเจ้าที่ภูเขาฏูร
+--------------------------------------------------------------------------------
+[20:89]
+AR: أَفَلَا يَرَوۡنَ أَلَّا يَرۡجِعُ إِلَيۡهِمۡ قَوۡلٗا وَلَا يَمۡلِكُ لَهُمۡ ضَرّٗا وَلَا نَفۡعٗا
+V4: พวกเขาไม่รู้ดอกหรือว่า มันไม่อาจจะให้คำตอบแก่พวกเขา และมันไม่สามารถจะให้โทษและให้คุณแก่พวกเขาเลย[FN:72]
+V3: พวกเขาไม่รู้ดอกหรือว่า มันไม่อาจจะให้คำตอบแก่พวกเขา และมันไม่สามารถจะให้โทษและให้คุณแก่พวกเขาเลย
+EN1 (Saheeh): Did they not see that it could not return to them any speech [i.e., response] and that it did not possess for them any harm or benefit?
+EN2 (Hilali-Khan): Did they not see that it could not return them a word (for answer), and that it had no power either to harm them or to do them good?
+FN[72]: แล้วมันจะเป็นพระเจ้าได้อย่างไร
+--------------------------------------------------------------------------------
+[20:90]
+AR: وَلَقَدۡ قَالَ لَهُمۡ هَٰرُونُ مِن قَبۡلُ يَٰقَوۡمِ إِنَّمَا فُتِنتُم بِهِۦۖ وَإِنَّ رَبَّكُمُ ٱلرَّحۡمَٰنُ فَٱتَّبِعُونِي وَأَطِيعُوٓاْ أَمۡرِي
+V4: และโดยแน่นอน ฮารูนกล่าวกับพวกเขาก่อนว่า[FN:73] “โอ้กลุ่มชนของฉันเอ๋ย แท้จริงพวกท่านถูกทดสอบให้หลงเสียแล้ว และแท้จริงพระเจ้าของพวกท่านนั้นคือพระผู้ทรงกรุณาปรานี ดังนั้นพวกท่านจงปฏิบัติตามฉัน[FN:74] และจงเชื่อฟังคำสั่งของฉัน[FN:75]”
+V3: และโดยแน่นอน ฮารูนกล่าวกับพวกเขาก่อนว่า โอ้กลุ่มชนของฉันเอ๋ย แท้จริงพวกท่านถูกทดสอบให้หลงเสียแล้ว และแท้จริงพระเจ้าของพวกท่านนั้นคือพระผู้ทรงกรุณาปรานี ดังนั้นพวกท่านจงปฏิบัติตามฉัน และจงเชื่อฟังคำสั่งของฉัน
+EN1 (Saheeh): And Aaron had already told them before [the return of Moses], "O my people, you are only being tested by it, and indeed, your Lord is the Most Merciful, so follow me and obey my order."
+EN2 (Hilali-Khan): And Hârûn (Aaron) indeed had said to them beforehand: "O my people! You are being tried in this, and verily, your Lord is (Allâh) the Most Gracious, so follow me and obey my order."
+FN[73]: คือก่อนที่มูซาจะกลับมายังพวกเขา
+FN[74]: ด้วยการเคารพอิบาดะฮฺอัลลอฮฺ ตะอาลา องค์เดียว
+FN[75]: คือเชื่อฟังคำสั่งของฉันด้วยการเลิกบูชาลูกวัว
+--------------------------------------------------------------------------------
+[20:91]
+AR: قَالُواْ لَن نَّبۡرَحَ عَلَيۡهِ عَٰكِفِينَ حَتَّىٰ يَرۡجِعَ إِلَيۡنَا مُوسَىٰ
+V4: พวกเขากล่าวว่า “เรายังคงจะบูชามันโดยจะจงรักภักดี (ต่อมัน) จนกว่ามูซาจะกลับมาหาพวกเรา”
+V3: พวกเขากล่าวว่า เรายังคงจะบูชามันโดยจะจงรักภักดี (ต่อมัน) จนกว่ามูซาจะกลับมาหาพวกเรา
+EN1 (Saheeh): They said, "We will never cease being devoted to it [i.e., the calf] until Moses returns to us."
+EN2 (Hilali-Khan): They said: "We will not stop worshipping it (i.e. the calf), until Mûsâ (Moses) returns to us."
+--------------------------------------------------------------------------------
+[20:92]
+AR: قَالَ يَٰهَٰرُونُ مَا مَنَعَكَ إِذۡ رَأَيۡتَهُمۡ ضَلُّوٓاْ
+V4: (เมื่อมูซากลับมาแล้ว)[FN:76] เขากล่าวว่า “โอ้ฮารูนเอ๋ย อันใดเล่าที่ยับยั้งท่าน เมื่อท่านเห็นพวกเขาหลงผิด”
+V3: (เมื่อมูซากลับมาแล้ว) เขากล่าวว่า โอ้ฮารูนเอ๋ย อันใดเล่าที่ยับยั้งท่าน เมื่อท่านเห็นพวกเขาหลงผิด
+EN1 (Saheeh): [Moses] said, "O Aaron, what prevented you, when you saw them going astray,
+EN2 (Hilali-Khan): [Mûsâ (Moses)] said: "O Hârûn (Aaron)! What prevented you when you saw them going astray;
+FN[76]: คือ เมื่อมูซากลับมาแล้ว และได้เห็นพวกเขาเฝ้าบูชาลูกวัวอยู่ เขาโกรธมาก ตรงรี่เข้าไปหาฮารูนพี่ชาย มือหนึ่งดึงผมอีกมือหนึ่งดึงเคราแล้วกล่าวว่า มีอะไรมาห้ามท่านหรือ เมื่อท่านเห็นพวกเขากุฟุรต่ออัลลอฮฺ แล้วไม่ห้ามปรามพวกเขา
+--------------------------------------------------------------------------------
+[20:93]
+AR: أَلَّا تَتَّبِعَنِۖ أَفَعَصَيۡتَ أَمۡرِي
+V4: “ทำไมท่านจึงไม่ปฏิบัติตามฉัน” ท่านฝ่าฝืนคำสั่งของฉันกระนั้นหรือ ?”
+V3: ทำไมท่านจึงไม่ปฏิบัติตามฉัน ท่านฝ่าฝืนคำสั่งของฉันกระนั้นหรือ
+EN1 (Saheeh): From following me? Then have you disobeyed my order?"
+EN2 (Hilali-Khan): "That you followed me not (according to my advice to you)? Have you then disobeyed my order?"
+--------------------------------------------------------------------------------
+[20:94]
+AR: قَالَ يَبۡنَؤُمَّ لَا تَأۡخُذۡ بِلِحۡيَتِي وَلَا بِرَأۡسِيٓۖ إِنِّي خَشِيتُ أَن تَقُولَ فَرَّقۡتَ بَيۡنَ بَنِيٓ إِسۡرَٰٓءِيلَ وَلَمۡ تَرۡقُبۡ قَوۡلِي
+V4: ฮารูนกล่าวว่า “โอ้ลูกของแม่ฉันเอ๋ย อย่าดึงเคราและศีรษะของฉันซิ แท้จริงฉันกลัวว่าท่านจะกล่าว (แก่ฉัน) ว่า ท่านได้ก่อการแตกแยกขึ้นในหมู่วงศ์วานอิสรออีล[FN:77] และท่านไม่คอยฟังคำสั่งของฉัน”[FN:78]
+V3: ฮารูนกล่าวว่า โอ้ลูกของแม่ฉันเอ๋ย อย่าดึงเคราและศีรษะของฉันซิ แท้จริงฉันกลัวว่าท่านจะกล่าว (แก่ฉัน) ว่า ท่านได้ก่อการแตกแยกขึ้นในหมู่วงศ์วานอิสรออีล และท่านไม่คอยฟังคำสั่งของฉัน
+EN1 (Saheeh): [Aaron] said, "O son of my mother, do not seize [me] by my beard or by my head. Indeed, I feared that you would say, 'You caused division among the Children of Israel, and you did not observe [or await] my word.'"
+EN2 (Hilali-Khan): He [Hârûn (Aaron)] said: "O son of my mother! Seize (me) not by my beard, nor by my head! Verily, I feared lest you should say: ‘You have caused a division among the Children of Israel, and you have not respected my word!’ "
+FN[77]: ฉันกลัวว่า หากฉันห้ามพวกเขาด้วยกำลัง ก็จะเกิดการฆ่ากันขึ้น แล้วท่านก็จะมาว่าฉันว่า ท่านได้ก่อให้เกิดฟิตนะฮฺขึ้นในระหว่างพวกเขา
+FN[78]: ด้วยเหตุนี้ฉันจึงเห็นว่า ฉันจะไม่ทำอะไรจนกว่าท่านจะกลับมาหาพวกเขา เพื่อท่านจะได้รุ้เห็นเหตุการณ์ด้วยตัวของท่านเอง
+--------------------------------------------------------------------------------
+[20:95]
+AR: قَالَ فَمَا خَطۡبُكَ يَٰسَٰمِرِيُّ
+V4: มูซากล่าวว่า “เจ้าต้องการอะไร โอ้ซามิรีย์เอ๋ย !”
+V3: มูซากล่าวว่า เจ้าต้องการอะไร โอ้ซามิรีย์เอ๋ย
+EN1 (Saheeh): [Moses] said, "And what is your case, O Sāmirī?"
+EN2 (Hilali-Khan): [Mûsâ (Moses)] said: "And what is the matter with you. O Sâmirî? (i.e. why did you do so?)"
+--------------------------------------------------------------------------------
+[20:96]
+AR: قَالَ بَصُرۡتُ بِمَا لَمۡ يَبۡصُرُواْ بِهِۦ فَقَبَضۡتُ قَبۡضَةٗ مِّنۡ أَثَرِ ٱلرَّسُولِ فَنَبَذۡتُهَا وَكَذَٰلِكَ سَوَّلَتۡ لِي نَفۡسِي
+V4: เขากล่าวว่า “ฉันเห็นในสิ่งที่พวกเขามองไม่เห็น ดังนั้นฉันจึงกำเอากอบหนึ่งจากรอยของรอซูล (หมายถึงญิบรีล)[FN:79] แล้วฉันได้โยนมันลงไป และเช่นนั้นแหละจิตใจของฉันได้เห็นดีเห็นงาม”
+V3: เขากล่าวว่า ฉันเห็นในสิ่งที่พวกเขามองไม่เห็น ดังนั้นฉันจึงกำเอากอบหนึ่งจากรอยของรอซูล (หมายถึงญิบรีล) แล้วฉันได้โยนมันลงไป และเช่นนั้นแหละจิตใจของฉันได้เห็นดีเห็นงาม
+EN1 (Saheeh): He said, "I saw what they did not see, so I took a handful [of dust] from the track of the messenger and threw it, and thus did my soul entice me."
+EN2 (Hilali-Khan): (Sâmirî) said: "I saw what they saw not, so I took a handful (of dust) from the (hoof) print of the messenger [Jibrîl’s (Gabriel) horse] and threw it [into the fire in which were put the ornaments of Fir‘aun’s (Pharaoh) people, or into the calf]. Thus my inner-self suggested to me."
+FN[79]: มีรายงานหลายกระแสกล่าวถึงเรื่องนี้ว่า เขา (ซามิรีย์) ได้เห็นญิบรีล อะลัยฮิสสลาม ในสภาพที่ท่านแปลงร่างลงมาในแผ่นดินนี้ แล้วเขาก็ได้กำเอาฝุ่นมากอบหนึ่งจากรอยเท้าของญิบรีล หรือจากรอยเท้าของพาหนะที่ญิบรีลขี่ลงมา แล้วเอาโยนลงไปที่ลูกวัวที่ทำขึ้นมาด้วยทองแท้ ลูกวัวจึงมีเสียงร้องออกมา จากตัฟซีร “ฟิซิลาลิลกุรอาน” ของซัยยิด กุฏบ์
+--------------------------------------------------------------------------------
+[20:97]
+AR: قَالَ فَٱذۡهَبۡ فَإِنَّ لَكَ فِي ٱلۡحَيَوٰةِ أَن تَقُولَ لَا مِسَاسَۖ وَإِنَّ لَكَ مَوۡعِدٗا لَّن تُخۡلَفَهُۥۖ وَٱنظُرۡ إِلَىٰٓ إِلَٰهِكَ ٱلَّذِي ظَلۡتَ عَلَيۡهِ عَاكِفٗاۖ لَّنُحَرِّقَنَّهُۥ ثُمَّ لَنَنسِفَنَّهُۥ فِي ٱلۡيَمِّ نَسۡفًا
+V4: มูซากล่าวว่า “ท่านจงออกไป แท้จริงสำหรับท่านในชีวิตนี้จะได้รับการลงโทษ โดยท่านกล่าวว่า อย่ามาแตะต้องฉัน[FN:80] และแท้จริงสำหรับท่านนั้นมีสัญญาหนึ่ง[FN:81] ท่านจะไม่ถูกทำให้ผิดสัญญา และจงดูพระเจ้าของท่านซึ่งท่านยึดถือบูชามันแน่นอนเราจะเผามัน แล้วเราจะโปรยมันลงในทะเลให้กระจาย”
+V3: มูซากล่าวว่า ท่านจงออกไป แท้จริงสำหรับท่านในชีวิตนี้จะได้รับการลงโทษ โดยท่านกล่าวว่า อย่ามาแตะต้องฉัน และแท้จริงสำหรับท่านนั้นมีสัญญาหนึ่ง ท่านจะไม่ถูกทำให้ผิดสัญญา และจงดูพระเจ้าของท่านซึ่งท่านยึดถือบูชามันแน่นอนเราจะเผามัน แล้วเราจะโปรยมันลงในทะเลให้กระจาย
+EN1 (Saheeh): [Moses] said, "Then go. And indeed, it is [decreed] for you in [this] life to say, 'No contact.' And indeed, you have an appointment [in the Hereafter] you will not fail to keep. And look at your 'god' to which you remained devoted. We will surely burn it and blow it [i.e., its ashes] into the sea with a blast.
+EN2 (Hilali-Khan): Mûsâ (Moses) said: "Then go away! And verily, your (punishment) in this life will be that you will say: "Touch me not (i.e. you will live alone exiled away from mankind); and verily (for a future torment), you have a promise that will not fail. And look at your ilâh (god) to which you have been devoted. We will certainly burn it, and scatter its particles in the sea."
+FN[80]: มูซากล่าวแก่ซามิรีย์ว่า การลงโทษแก่ท่านในโลกนี้คือ ท่านอย่าไปแตะต้องหรืออย่าไปยุ่งกับผู้ใดและก็ไม่มีผู้ใดมาแตะต้องหรือยู่งเกี่ยวกับท่าน ทั้งในทางดีหรือทางชั่ว นี่คือวิธีหนึ่งของการลงโทษในศาสนาของนบีมูซา คือการลงโทษให้อยู่อย่างโดดเดี่ยว
+FN[81]: การลงโทษในโลกอาคิเราะฮฺนั้นคือการตอบแทนจากอัลลอฮฺ ท่านจะผิดสัญญาไม่ได้ หมายถึงจะได้รับการตอบแทนอย่างแน่นอน
+--------------------------------------------------------------------------------
+[20:98]
+AR: إِنَّمَآ إِلَٰهُكُمُ ٱللَّهُ ٱلَّذِي لَآ إِلَٰهَ إِلَّا هُوَۚ وَسِعَ كُلَّ شَيۡءٍ عِلۡمٗا
+V4: แท้จริง พระเจ้าของพวกท่านนั้นคือ อัลลอฮฺ ซึ่งไม่มีพระเจ้าอื่นใดนอกจากพระองค์ พระองค์ทรงแผ่ความรอบรู้ไปยังทุกสิ่ง
+V3: แท้จริง พระเจ้าของพวกท่านนั้นคือ อัลลอฮฺ ซึ่งไม่มีพระเจ้าอื่นใดที่เที่ยงแท้นอกจากพระองค์ พระองค์ทรงแผ่ความรอบรู้ไปยังทุกสิ่ง
+EN1 (Saheeh): Your god is only Allāh, except for whom there is no deity. He has encompassed all things in knowledge."
+EN2 (Hilali-Khan): Your Ilâh (God) is only Allâh, (the One) Lâ ilâha illa Huwa (none has the right to be worshipped but He). He has full knowledge of all things.
+--------------------------------------------------------------------------------
+[20:99]
+AR: كَذَٰلِكَ نَقُصُّ عَلَيۡكَ مِنۡ أَنۢبَآءِ مَا قَدۡ سَبَقَۚ وَقَدۡ ءَاتَيۡنَٰكَ مِن لَّدُنَّا ذِكۡرٗا
+V4: เช่นนี้แหละ เราได้บอกเล่าข่าวคราวที่ได้เกิดขึ้นแต่กาลก่อนแก่เจ้า[FN:82] และแน่นอน เราได้ให้ข้อเตือนสติ[FN:83]จากเราแก่เจ้า
+V3: เช่นนี้แหละ เราได้บอกเล่าข่าวคราวที่ได้เกิดขึ้นแต่กาลก่อนแก่เจ้า และแน่นอน เราได้ให้ข้อเตือนสติจากเราแก่เจ้า
+EN1 (Saheeh): Thus, [O Muḥammad], We relate to you from the news of what has preceded. And We have certainly given you from Us a message [i.e., the Qur’ān].
+EN2 (Hilali-Khan): Thus We relate to you (O Muhammad صلى الله عليه وسلم) some information of what happened before. And indeed We have given you from Us a Reminder (this Qur’ân).
+FN[82]: เราได้บอกเล่าข่าวคราวของมูซากับฟิรเอานฺและเรื่องราวแปลก ๆ และเรายังได้บอกเล่าข่าวคราวของประชาชาติในสมัยก่อน ๆ
+FN[83]: คือคัมภีร์อัลกุรอาน
+--------------------------------------------------------------------------------
+[20:100]
+AR: مَّنۡ أَعۡرَضَ عَنۡهُ فَإِنَّهُۥ يَحۡمِلُ يَوۡمَ ٱلۡقِيَٰمَةِ وِزۡرًا
+V4: ผู้ใดหันหลังให้อัลกุรอาน[FN:84] แท้จริงเขาจะแบกโทษหนักในวันกิยามะฮฺ (อยู่ในนรก)
+V3: ผู้ใดหันหลังให้อัลกุรอาน แท้จริงเขาจะแบกโทษหนักในวันกิยามะฮฺ (อยู่ในนรก)
+EN1 (Saheeh): Whoever turns away from it - then indeed, he will bear on the Day of Resurrection a burden [i.e., great sin],
+EN2 (Hilali-Khan): Whoever turns away from it (this Qur’ân - i.e. does not believe in it, nor acts on its orders), verily, they will bear a heavy burden (of sins) on the Day of Resurrection,
+FN[84]: คือไม่ศรัทธาและไม่ปฏิบัติตามสิ่งที่มีอยู่ในมัน
+--------------------------------------------------------------------------------
+[20:101]
+AR: خَٰلِدِينَ فِيهِۖ وَسَآءَ لَهُمۡ يَوۡمَ ٱلۡقِيَٰمَةِ حِمۡلٗا
+V4: พวกเขาจะพำนักอย่างถาวรอยู่ในนั้น[FN:85] และโทษหนักนั้นเป็นความชั่วช้าสำหรับพวกเขาในวันกิยามะฮฺเสียนี่กระไร !
+V3: พวกเขาจะพำนักอย่างถาวรอยู่ในนั้น และโทษหนักนั้นเป็นความชั่วช้าสำหรับพวกเขาในวันกิยามะฮฺเสียนี่กระไร
+EN1 (Saheeh): [Abiding] eternally therein, and evil it is for them on the Day of Resurrection as a load -
+EN2 (Hilali-Khan): They will abide in that (state in the Fire of Hell) - and evil indeed will it be that load for them on the Day of Resurrection;
+FN[85]: ในการทรมานนั้นด้วยโทษหนักของพวกเขา
+--------------------------------------------------------------------------------
+[20:102]
+AR: يَوۡمَ يُنفَخُ فِي ٱلصُّورِۚ وَنَحۡشُرُ ٱلۡمُجۡرِمِينَ يَوۡمَئِذٖ زُرۡقٗا
+V4: วันซึ่งสังข์จะถูกเป่า และในวันนั้นเราจะรวมนักโทษทั้งหลายที่มีตาสีฟ้าไว้ด้วยกัน[FN:86]
+V3: วันซึ่งสังข์จะถูกเป่า และในวันนั้นเราจะรวมนักโทษทั้งหลายที่มีตาสีฟ้าไว้ด้วยกัน
+EN1 (Saheeh): The Day the Horn will be blown. And We will gather the criminals, that Day, blue-eyed.
+EN2 (Hilali-Khan): The Day when the Trumpet will be blown (the second blowing): that Day, We shall gather the Mujrimûn (criminals, polytheists, sinners, disbelievers in the Oneness of Allâh) blue or blind-eyed with thirst.
+FN[86]: คือนักโทษเหล่านั้นจะมีสภาพนัยน์ตาสีฟ้า หน้าดำ
+--------------------------------------------------------------------------------
+[20:103]
+AR: يَتَخَٰفَتُونَ بَيۡنَهُمۡ إِن لَّبِثۡتُمۡ إِلَّا عَشۡرٗا
+V4: พวกเขาจะกระซิบกระซาบระหว่างกันว่า “พวกท่านมิได้พักในโลกนี้นอกจากเพียง 10 วันเท่านั้น”[FN:87]
+V3: พวกเขาจะกระซิบกระซาบระหว่างกันว่า พวกท่านมิได้พักในโลกนี้นอกจากเพียงสิบวันเท่านั้น
+EN1 (Saheeh): They will murmur among themselves, "You remained not but ten [days in the world]."
+EN2 (Hilali-Khan): They will speak in a very low voice to each other (saying): "You stayed not longer than ten (days)."
+FN[87]: ที่พวกเขากล่าวเช่นนั้นเนื่องเพราะความกลัวและตกใจ
+--------------------------------------------------------------------------------
+[20:104]
+AR: نَّحۡنُ أَعۡلَمُ بِمَا يَقُولُونَ إِذۡ يَقُولُ أَمۡثَلُهُمۡ طَرِيقَةً إِن لَّبِثۡتُمۡ إِلَّا يَوۡمٗا
+V4: เรารู้ดียิ่งในสิ่งที่พวกเขากล่าวกัน เมื่อผู้มีความคิดที่ดียิ่งกล่าวว่า “พวกท่านมิได้พักอยู่ นอกจากเพียงวันเดียวเท่านั้น”
+V3: เรารู้ดียิ่งในสิ่งที่พวกเขากล่าวกัน เมื่อผู้มีความคิดที่ดียิ่งกล่าวว่า พวกท่านมิได้พักอยู่ นอกจากเพียงวันเดียวเท่านั้น
+EN1 (Saheeh): We are most knowing of what they say when the best of them in manner [i.e., wisdom or speech] will say, "You remained not but one day."
+EN2 (Hilali-Khan): We know very well what they will say, when the best among them in knowledge and wisdom will say: "You stayed no longer than a day!"
+--------------------------------------------------------------------------------
+[20:105]
+AR: وَيَسۡـَٔلُونَكَ عَنِ ٱلۡجِبَالِ فَقُلۡ يَنسِفُهَا رَبِّي نَسۡفٗا
+V4: และพวกเขาจะถามเจ้าเกี่ยวกับภูเขา จงกล่าวเถิด (มุฮัมมัด) “พระเจ้าของฉันจะทรงทำให้มันแตกออกเป็นผุยผง ”[FN:88]
+V3: และพวกเขาจะถามเจ้าเกี่ยวกับภูเขา จงกล่าวเถิด (มุฮัมมัด) พระเจ้าของฉันจะทรงทำให้มันแตกออกเป็นผุยผง
+EN1 (Saheeh): And they ask you about the mountains, so say, "My Lord will blow them away with a blast.
+EN2 (Hilali-Khan): And they ask you concerning the mountains: say, "My Lord will blast them and scatter them as particles of dust.
+FN[88]: คือพระเจ้าของฉันจะทำให้มันละเอียดคล้ายทราย แล้วลมก็พัดพามันปลิวว่อนกระจัดกระจายไป
+--------------------------------------------------------------------------------
+[20:106]
+AR: فَيَذَرُهَا قَاعٗا صَفۡصَفٗا
+V4: “แล้วจะทรงปล่อยให้มันเป็นที่ราบโล่งเตียน (ไม่มีต้นไม้และสิ่งก่อสร้าง)”
+V3: แล้วจะทรงปล่อยให้มันเป็นที่ราบโล่งเตียน (ไม่มีต้นไม้และสิ่งก่อสร้าง)
+EN1 (Saheeh): And He will leave it [i.e., the earth] a level plain;
+EN2 (Hilali-Khan): "Then He shall leave them as a level smooth plain.
+--------------------------------------------------------------------------------
+[20:107]
+AR: لَّا تَرَىٰ فِيهَا عِوَجٗا وَلَآ أَمۡتٗا
+V4: “สูเจ้าจะไม่เห็น ณ ที่นั้น ที่ลุ่มและที่ดอน”
+V3: สูเจ้าจะไม่เห็น ณ ที่นั้น ที่ลุ่มและที่ดอน
+EN1 (Saheeh): You will not see therein a depression or an elevation."
+EN2 (Hilali-Khan): "You will see therein nothing crooked or curved."
+--------------------------------------------------------------------------------
+[20:108]
+AR: يَوۡمَئِذٖ يَتَّبِعُونَ ٱلدَّاعِيَ لَا عِوَجَ لَهُۥۖ وَخَشَعَتِ ٱلۡأَصۡوَاتُ لِلرَّحۡمَٰنِ فَلَا تَسۡمَعُ إِلَّا هَمۡسٗا
+V4: วันนั้นพวกเขาจะติดตามผู้ร้องเรียกไปโดยไม่มีการอิดเอื้อนแต่ประการใด[FN:89] เสียงทั้งหลายก็จะค่อย ๆ ลดลงต่อพระผู้ทรงกรุณาปรานี เจ้าจะไม่ได้ยินเสียงใด นอกจากเสียงแผ่วเบา
+V3: วันนั้นพวกเขาจะติดตามผู้ร้องเรียกไปโดยไม่มีการอิดเอื้อนแต่ประการใด เสียงทั้งหลายก็จะค่อย ๆ ลดลงต่อพระผู้ทรงกรุณาปรานี เจ้าจะไม่ได้ยินเสียงใด นอกจากเสียงแผ่วเบา
+EN1 (Saheeh): That Day, they [i.e., everyone] will follow [the call of] the Caller [with] no deviation therefrom, and [all] voices will be stilled before the Most Merciful, so you will not hear except a whisper [of footsteps].
+EN2 (Hilali-Khan): On that Day mankind will follow strictly (the voice of) Allâh’s caller, no crookedness (that is without going to the right or left of that voice) will they show him (Allâh’s caller). And all voices will be humbled for the Most Gracious (Allâh), and nothing shall you hear but the low voice of their footsteps.
+FN[89]: คือจะรีบเดินไปยังทุ่งมะฮฺซัรอย่างเร็ว ไม่ชักช้า
+--------------------------------------------------------------------------------
+[20:109]
+AR: يَوۡمَئِذٖ لَّا تَنفَعُ ٱلشَّفَٰعَةُ إِلَّا مَنۡ أَذِنَ لَهُ ٱلرَّحۡمَٰنُ وَرَضِيَ لَهُۥ قَوۡلٗا
+V4: วันนั้น การชะฟาอะฮฺ[FN:90]จะไม่เกิดประโยชน์อันใด นอกจากผู้ที่พระผู้ทรงกรุณาปรานีทรงอนุญาตแก่เขา และพระองค์ทรงพอพระทัยในคำพูดของเขาเท่านั้น
+V3: วันนั้น การชะฟาอะฮฺจะไม่เกิดประโยชน์อันใด นอกจากผู้ที่พระผู้ทรงกรุณาปรานีทรงอนุญาตแก่เขา และพระองค์ทรงพอพระทัยในคำพูดของเขาเท่านั้น
+EN1 (Saheeh): That Day, no intercession will benefit except [that of] one to whom the Most Merciful has given permission and has accepted his word.
+EN2 (Hilali-Khan): On that day no intercession shall avail, except the one for whom the Most Gracious (Allâh) has given permission and whose word is acceptable to Him.
+FN[90]: การชะฟาอะฮฺ คือ การขอความช่วยเหลือจากผู้มีอำนาจ เพื่อให้ปลดเปลื้องทุกข์ร้อน นี่คือความหมายโดยทั่วไปส่วนการชะฟาอะฮฺในวันอาคิเราะฮฺนั้น เป็นสิทธิ์ของอัลลอฮฺ ตะอาลา องค์เดียว และพระองค์จะทรงให้สิทธิ์นั้นแก่ผู้ที่พระองค์ทรงพอพระทัยเท่านั้น อาทิเช่น ท่านนบีมุฮัมมัด ศ็อลลัลลอฮุอะลัยฮิวะซัลลัม บรรดานบี บรรดาผู้ที่พระองค์ทรงรักใคร่ (เอาลิยาอ์) และบรรดาคนศอและฮฺ อิบนุอับบาส กล่าวว่า คือผู้ที่อยู่ในโลกดถุนยา เป็นผู้ที่กล่าว “ลาอิลาฮะอิลลัลลอฮฺ”
+--------------------------------------------------------------------------------
+[20:110]
+AR: يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡ وَلَا يُحِيطُونَ بِهِۦ عِلۡمٗا
+V4: พระองค์ทรงรอบรู้สิ่งต่าง ๆ ที่อยู่ข้างหน้าพวกเขา และสิ่งต่าง ๆ ที่อยู่ลับหลังพวกเขา และความรู้ของพวกเขาไม่อาจจะเท่าเทียมความรู้ของพระองค์ได้
+V3: พระองค์ทรงรอบรู้สิ่งต่าง ๆ ที่อยู่ข้างหน้าพวกเขา และสิ่งต่าง ๆ ที่อยู่ลับหลังพวกเขา และความรู้ของพวกเขาไม่อาจจะเท่าเทียมความรู้ของพระองค์ได้
+EN1 (Saheeh): He [i.e., Allāh] knows what is [presently] before them and what will be after them, but they do not encompass it [i.e., what He knows] in knowledge.
+EN2 (Hilali-Khan): He (Allâh) knows what happens to them (His creatures) in this world, and what will happen to them (in the Hereafter) but they will never compass anything of His Knowledge.
+--------------------------------------------------------------------------------
+[20:111]
+AR: ۞ وَعَنَتِ ٱلۡوُجُوهُ لِلۡحَيِّ ٱلۡقَيُّومِۖ وَقَدۡ خَابَ مَنۡ حَمَلَ ظُلۡمٗا
+V4: และใบหน้าทั้งหลาย[FN:91]ได้สยบลงต่อพระผู้ทรงเป็นอยู่เสมอ พระผู้ทรงอมตะ และแน่นอน ผู้ที่แบกเอาความอธรรมไว้ (ชิริก) ต้องประสบกับการขาดทุนอย่างแน่นอน
+V3: และใบหน้าทั้งหลายได้สยบลงต่อพระผู้ทรงเป็นอยู่เสมอ พระผู้ทรงอมตะ และแน่นอน ผู้ที่แบกเอาความอธรรมไว้ (ชิริก) ต้องประสบกับการขาดทุนอย่างแน่นอน
+EN1 (Saheeh): And [all] faces will be humbled before the Ever-Living, the Self-Sustaining. And he will have failed who carries injustice.
+EN2 (Hilali-Khan): And (all) faces shall be humbled before (Allâh), Al-Hayyul-Qayyum (the Ever Living, the One Who sustains and protects all that exists). And he who carried (a burden of) wrongdoing (i.e. he who disbelieved in Allâh, ascribed partners to Him, and did deeds of His disobedience), will be indeed a complete failure (on that Day).
+FN[91]: อัลซะมัดซะรีย์ กล่าวว่า ใบหน้าทั้งหลายในที่นี้หมายถึงใบหน้าของผู้ฝ่าฝืน เพราะในวันกิยามะฮฺ เมื่อพวกเขาพบเห็นความผิดหลังความทุกข์ และการสอบสวน ใบหน้าของพวกเขาก็เปลี่ยนไปอยู่ในสภาพที่ต่ำต้อยท้อแท้
+--------------------------------------------------------------------------------
+[20:112]
+AR: وَمَن يَعۡمَلۡ مِنَ ٱلصَّٰلِحَٰتِ وَهُوَ مُؤۡمِنٞ فَلَا يَخَافُ ظُلۡمٗا وَلَا هَضۡمٗا
+V4: และผู้ใดปฏิบัติคุณงามความดีทั้งหลายโดยที่เขาเป็นผู้ศรัทธา เขาจะไม่กลัวความอธรรมและการบั่นทอนใด ๆ[FN:92]
+V3: และผู้ใดปฏิบัติคุณงามความดีทั้งหลายโดยที่เขาเป็นผู้ศรัทธา เขาจะไม่กลัวความอธรรมและการบั่นทอนใด ๆ
+EN1 (Saheeh): But he who does of righteous deeds while he is a believer - he will neither fear injustice nor deprivation.
+EN2 (Hilali-Khan): And he who works deeds of righteousness, while he is a believer (in Islâmic Monotheism), then he will have no fear of injustice, nor of any curtailment (of his reward).
+FN[92]: คือเขาจะไม่กลัวความอธรรม โดยการเพิ่มความชั่วให้แก่เขา หรือถูกลิดรอนความดีของเขาให้ลดน้อยลง
+--------------------------------------------------------------------------------
+[20:113]
+AR: وَكَذَٰلِكَ أَنزَلۡنَٰهُ قُرۡءَانًا عَرَبِيّٗا وَصَرَّفۡنَا فِيهِ مِنَ ٱلۡوَعِيدِ لَعَلَّهُمۡ يَتَّقُونَ أَوۡ يُحۡدِثُ لَهُمۡ ذِكۡرٗا
+V4: และเช่นนั้นแหละ เราได้ให้กุรอานเป็นภาษาอาหรับลงมาแก่เขา และเราได้กล่าวซ้ำในนั้นซึ่งข้อตักเตือน หวังว่าพวกเขาจะมีความยำเกรงหรือเกิดข้อเตือนใจแก่พวกเขา[FN:93]
+V3: และเช่นนั้นแหละ เราได้ให้กุรอานเป็นภาษาอาหรับลงมาแก่เขา และเราได้กล่าวซ้ำในนั้นซึ่งข้อตักเตือน หวังว่าพวกเขาจะมีความยำเกรงหรือเกิดข้อเตือนใจแก่พวกเขา
+EN1 (Saheeh): And thus We have sent it down as an Arabic Qur’ān and have diversified therein the warnings that perhaps they will avoid [sin] or it would cause them remembrance.
+EN2 (Hilali-Khan): And thus We have sent it down as a Qur’ân in Arabic, and have explained therein in detail the warnings, in order that they may fear Allâh, or that it may cause them to have a lesson from it (or to have the honour for believing and acting on its teachings).
+FN[93]: คือเพื่อป้องกันการกุฟุร และการฝ่าฝืน หรือเกิดข้อเตือนใจขึ้นในจิตใจของพวกเขา แล้วพวกเขาก็จะปฏิบัติตามข้อใช้ และปลีกตัวให้ห่างจากข้อห้าม
+--------------------------------------------------------------------------------
+[20:114]
+AR: فَتَعَٰلَى ٱللَّهُ ٱلۡمَلِكُ ٱلۡحَقُّۗ وَلَا تَعۡجَلۡ بِٱلۡقُرۡءَانِ مِن قَبۡلِ أَن يُقۡضَىٰٓ إِلَيۡكَ وَحۡيُهُۥۖ وَقُل رَّبِّ زِدۡنِي عِلۡمٗا
+V4: ดังนั้น อัลลอฮฺคือพระผู้ทรงสูงส่งยิ่ง พระผู้ทรงอำนาจอันแท้จริง และเจ้าอย่ารีบเร่งในการอ่านอัลกุรอาน ก่อนที่วะฮียฺของพระองค์จะจบลง[FN:94] และจงกล่าวเถิด “ข้าแต่พระผู้อภิบาลของข้าพระองค์ ขอพระองค์ทรงโปรดเพิ่มพูนความรู้แก่ข้าพระองค์ด้วย”[FN:95]
+V3: ดังนั้น อัลลอฮฺคือพระผู้ทรงสูงส่งยิ่ง พระผู้ทรงอำนาจอันแท้จริง และเจ้าอย่ารีบเร่งในการอ่านอัลกุรอาน ก่อนที่วะฮีย์ของพระองค์จะจบลง และจงกล่าวเถิด ข้าแต่พระเจ้าของข้าพระองค์ ขอพระองค์ทรงโปรดเพิ่มพูนความรู้แก่ข้าพระองค์ด้วย
+EN1 (Saheeh): So high [above all] is Allāh, the Sovereign, the Truth. And, [O Muḥammad], do not hasten with [recitation of] the Qur’ān before its revelation is completed to you, and say, "My Lord, increase me in knowledge."
+EN2 (Hilali-Khan): Then High above all be Allâh, the True King. And be not in haste (O Muhammad صلى الله عليه وسلم) with the Qur’ân before its revelation is completed to you, and say: "My Lord! Increase me in knowledge."
+FN[94]: คือเมื่อญิบรีลได้อ่านอัลกุรอานแก่สูเจ้า สูเจ้าอย่ารีบเร่งอ่านพร้อมกับเขา จงฟังเขาและอดทนรอจนกระทั่งเขาอ่านเสร็จ แล้วสูเจ้าก็อ่านมัน
+FN[95]: คือให้เพิ่มความรู้ที่เป็นประโยชน์
+--------------------------------------------------------------------------------
+[20:115]
+AR: وَلَقَدۡ عَهِدۡنَآ إِلَىٰٓ ءَادَمَ مِن قَبۡلُ فَنَسِيَ وَلَمۡ نَجِدۡ لَهُۥ عَزۡمٗا
+V4: และโดยแน่นอน เราได้ให้คำมั่นสัญญาแก่อาดัมแต่กาลก่อน[FN:96] แต่เขาได้ลืม และเราไม่พบความมั่นใจ อดทนในตัวเขา
+V3: และโดยแน่นอน เราได้ให้คำมั่นสัญญาแก่อาดัมแต่กาลก่อน แต่เขาได้ลืม และเราไม่พบความมั่นคงอดทนในตัวเขา
+EN1 (Saheeh): And We had already taken a promise from Adam before, but he forgot; and We found not in him determination.
+EN2 (Hilali-Khan): And indeed We made a covenant with Adam before, but he forgot, and We found on his part no firm will-power.
+FN[96]: คือไม่ให้กินผลไม้จากต้นไม้
+--------------------------------------------------------------------------------
+[20:116]
+AR: وَإِذۡ قُلۡنَا لِلۡمَلَٰٓئِكَةِ ٱسۡجُدُواْ لِأٓدَمَ فَسَجَدُوٓاْ إِلَّآ إِبۡلِيسَ أَبَىٰ
+V4: และเมื่อเรากล่าวแก่บรรดามลาอิกะฮฺว่า “จงสุญูดคารวะแก่อาดัม” และพวกเขาได้สุญูด นอกจากอิบลีส มันได้ดื้อดึง[FN:97]
+V3: และเมื่อเรากล่าวแก่บรรดามลาอิกะฮฺว่า จงสุญูดคารวะแก่อาดัม และพวกเขาได้สุญูด นอกจากอิบลีส มันได้ดื้อดึง
+EN1 (Saheeh): And [mention] when We said to the angels, "Prostrate to Adam," and they prostrated, except Iblees; he refused.
+EN2 (Hilali-Khan): And (remember) when We said to the angels: "Prostrate yourselves to Adam." They prostrated themselves (all) except Iblîs (Satan) he refused.
+FN[97]: อัศศอวีย์กล่าวว่า เรื่องนี้ได้กล่าวซ้ำใน 7 ซูเราะฮฺในอัลกุรอาน เป็นการเตือนปวงบ่าวให้ปฏิบัติตามข้อใช้ และละเว้นจากข้อห้าม และเป็นการเตือนให้รำลึกถึงการเป็นศัตรูของอิบลีสต่อบิดาคนแรกของพวกเขา คืออาดัม
+--------------------------------------------------------------------------------
+[20:117]
+AR: فَقُلۡنَا يَٰٓـَٔادَمُ إِنَّ هَٰذَا عَدُوّٞ لَّكَ وَلِزَوۡجِكَ فَلَا يُخۡرِجَنَّكُمَا مِنَ ٱلۡجَنَّةِ فَتَشۡقَىٰٓ
+V4: แล้วเราได้กล่าวว่า “โอ้อาดัมเอ๋ย ! แท้จริงนี่คือศัตรูของเจ้าและของภริยาของเจ้า ดังนั้นอย่าให้มันทำให้เจ้าทั้งสองออกจากสวนสวรรค์[FN:98] แล้วเจ้าจะได้รับความลำบาก”
+V3: แล้วเราได้กล่าวว่า โอ้อาดัมเอ๋ย แท้จริงนี่คือศัตรูของเจ้าและของภริยาของเจ้า ดังนั้นอย่าให้มันทำให้เจ้าทั้งสองออกจากสวนสวรรค์ แล้วเจ้าจะได้รับความลำบาก
+EN1 (Saheeh): So We said, "O Adam, indeed this is an enemy to you and to your wife. Then let him not remove you from Paradise so you would suffer.
+EN2 (Hilali-Khan): Then We said: "O Adam! Verily, this is an enemy to you and to your wife. So let him not get you both out of Paradise, so that you will be distressed.
+FN[98]: คือเจ้าทั้งสองอย่าเชื่อฟังคำล่อลวงของมัน
+--------------------------------------------------------------------------------
+[20:118]
+AR: إِنَّ لَكَ أَلَّا تَجُوعَ فِيهَا وَلَا تَعۡرَىٰ
+V4: “แท้จริงในสวนสวรรค์นั้น เจ้าจะไม่หิว และจะไม่ต้องเปลือยกาย”
+V3: แท้จริงในสวนสวรรค์นั้น เจ้าจะไม่หิว และจะไม่ต้องเปลือยกาย
+EN1 (Saheeh): Indeed, it is [promised] for you not to be hungry therein or be unclothed.
+EN2 (Hilali-Khan): Verily, you have (a promise from Us) that you will never be hungry therein nor naked.
+--------------------------------------------------------------------------------
+[20:119]
+AR: وَأَنَّكَ لَا تَظۡمَؤُاْ فِيهَا وَلَا تَضۡحَىٰ
+V4: “และแท้จริงในสวนสวรรค์นั้น เจ้าจะไม่กระหายน้ำ และจะไม่ตากแดด”
+V3: และแท้จริงในสวนสวรรค์นั้น เจ้าจะไม่กระหายน้ำ และจะไม่ตากแดด
+EN1 (Saheeh): And indeed, you will not be thirsty therein or be hot from the sun."
+EN2 (Hilali-Khan): And you (will) suffer not from thirst therein nor from the sun’s heat.
+--------------------------------------------------------------------------------
+[20:120]
+AR: فَوَسۡوَسَ إِلَيۡهِ ٱلشَّيۡطَٰنُ قَالَ يَٰٓـَٔادَمُ هَلۡ أَدُلُّكَ عَلَىٰ شَجَرَةِ ٱلۡخُلۡدِ وَمُلۡكٖ لَّا يَبۡلَىٰ
+V4: ต่อมาชัยฏอนมารร้ายได้กระซิบกระซาบเขา มันกล่าวว่า “อาดัมเอ๋ย ฉันจะชี้แนะแก่ท่านไปยังต้นไม้ที่อยู่เป็นนิจตลอดกาลและการมีอำนาจที่ไม่สูญสลายเอาไหม?”[FN:99]
+V3: ต่อมาชัยฏอนมารร้ายได้กระซิบกระซาบเขา มันกล่าวว่า อาดัมเอ๋ย ฉันจะชี้แนะแก่ท่านไปยังต้นไม้ที่อยู่เป็นนิจตลอดกาลและการมีอำนาจที่ไม่สูญสลายเอาไหม
+EN1 (Saheeh): Then Satan whispered to him; he said, "O Adam, shall I direct you to the tree of eternity and possession that will not deteriorate?"
+EN2 (Hilali-Khan): Then Shaitân (Satan) whispered to him, saying: "O Adam! Shall I lead you to the Tree of Eternity and to a kingdom that will never waste away?"
+FN[99]: คือผู้ใดกินเข้าไปแล้ว เขาจะมีชีวิตอยู่ยืนนาน ไม่ตาย และมีอำนาจอยู่ตลอดไป นี่คือแผนการล่อลวงของมันโดยทั่วไปแล้วเสมือนเป็นการสั่งสอน แต่เมื่อใดเล่าเจ้าตัวถูกสาปแช่งจะเป็นผู้สั่งสอน ?
+--------------------------------------------------------------------------------
+[20:121]
+AR: فَأَكَلَا مِنۡهَا فَبَدَتۡ لَهُمَا سَوۡءَٰتُهُمَا وَطَفِقَا يَخۡصِفَانِ عَلَيۡهِمَا مِن وَرَقِ ٱلۡجَنَّةِۚ وَعَصَىٰٓ ءَادَمُ رَبَّهُۥ فَغَوَىٰ
+V4: ดังนั้นเขาทั้งสองจึงกินจากต้นไม้นั้น สิ่งพึงสงวนของทั้งสองจึงถูกเผยแก่เขาทั้งสอง เขาทั้งสองจึงเริ่มเอาใบไม้ของสวนนั้นมาปกปิดบนตัวของเขาทั้งสอง และอาดัมได้ฝ่าฝืนพระเจ้าของเขา เขาจึงหลงผิด[FN:100]
+V3: ดังนั้นเขาทั้งสองจึงกินจากต้นไม้นั้น สิ่งพึงสงวนของทั้งสองจึงถูกเผยแก่เขาทั้งสอง เขาทั้งสองจึงเริ่มเอาใบไม้ของสวนนั้นมาปกปิดบนตัวของเขาทั้งสอง และอาดัมได้ฝ่าฝืนพระเจ้าของเขา เขาจึงหลงผิด
+EN1 (Saheeh): And they [i.e., Adam and his wife] ate of it, and their private parts became apparent to them, and they began to fasten over themselves from the leaves of Paradise. And Adam disobeyed his Lord and erred.
+EN2 (Hilali-Khan): Then they both ate of the tree, and so their private parts became manifest to them, and they began to cover themselves with the leaves of the Paradise for their covering. Thus did Adam disobey his Lord, so he went astray.
+FN[100]: คือเขาได้ฝ่าฝืนข้อใช้ของพระเจ้าของเขา ด้วยการกินจากต้นไม้ เขาจึงหลงจากสิ่งที่เขาต้องการคือการอยู่ในสวนสวรรค์ตลอดกาล โดยที่เขาหลงเชื่อคำล่อลวงของศัตรู
+--------------------------------------------------------------------------------
+[20:122]
+AR: ثُمَّ ٱجۡتَبَٰهُ رَبُّهُۥ فَتَابَ عَلَيۡهِ وَهَدَىٰ
+V4: ภายหลังพระผู้อภิบาลของเขาทรงคัดเลือกเขาแล้วทรงอภัยโทษให้แก่เขา และทรงแนะทางที่ถูกต้องให้เขา
+V3: ภายหลังพระเจ้าของเขาทรงคัดเลือกเขาแล้วทรงอภัยโทษให้แก่เขา และทรงแนะทางที่ถูกต้องให้เขา
+EN1 (Saheeh): Then his Lord chose him and turned to him in forgiveness and guided [him].
+EN2 (Hilali-Khan): Then his Lord chose him, and turned to him with forgiveness, and gave him guidance.
+--------------------------------------------------------------------------------
+[20:123]
+AR: قَالَ ٱهۡبِطَا مِنۡهَا جَمِيعَۢاۖ بَعۡضُكُمۡ لِبَعۡضٍ عَدُوّٞۖ فَإِمَّا يَأۡتِيَنَّكُم مِّنِّي هُدٗى فَمَنِ ٱتَّبَعَ هُدَايَ فَلَا يَضِلُّ وَلَا يَشۡقَىٰ
+V4: พระองค์ตรัสว่า “เจ้าทั้งสองจงออกไปจากสวนสวรรค์ทั้งหมด โดยบางคน (ลูกหลาน) ในหมู่พวกเจ้าเป็นศัตรูกับอีกบางคน[FN:101] บางทีเมื่อมีคำแนะนำ (ฮิดายะฮฺ) จากข้ามายังพวกเจ้า แล้วผู้ใดปฏิบัติตามคำแนะนำ (ฮิดายะฮฺ) ของข้า เขาก็จะไม่หลงผิด และจะไม่ได้รับความลำบาก”[FN:102]
+V3: พระองค์ตรัสว่า เจ้าทั้งสองจงออกไปจากสวนสวรรค์ทั้งหมด โดยบางคน (ลูกหลาน) ในหมู่พวกเจ้าเป็นศัตรูกับอีกบางคน บางทีเมื่อมีคำแนะนำ (ฮิดายะฮฺ) จากข้ามายังพวกเจ้า แล้วผู้ใดปฏิบัติตามคำแนะนำ (ฮิดายะฮฺ) ของข้า เขาก็จะไม่หลงผิด และจะไม่ได้รับความลำบาก
+EN1 (Saheeh): [Allāh] said, "Descend from it [i.e., Paradise] - all, [your descendants] being enemies to one another. And if there should come to you guidance from Me - then whoever follows My guidance will neither go astray [in the world] nor suffer [in the Hereafter].
+EN2 (Hilali-Khan): He (Allâh) said: "Get you down (from the Paradise to the earth), both of you, together, some of you are an enemy to some others. Then if there comes to you guidance from Me, then whoever follows My Guidance he shall neither go astray, nor shall be distressed.
+FN[101]: คืออัลลอฮฺ ตรัสแก่อาดัมและเอาวาว่า เจ้าทั้งสองจงออกไปจากสวนสวรรค์ไปยังแผ่นดิน โดยไปอยู่รวมกัน บางคนในหมู่ลูกหลานของเจ้าทั้งสองก็จะเป็นศัตรูต่อกัน เพราะการแสวงหาอาชีพ การมีสภาพแวดล้อมแตกต่างกัน และความต้องการที่แตกต่างกัน
+FN[102]: คือเมื่อมีคัมภีร์และรอซูลจากข้ามายังพวกเจ้า เพื่อชี้แนะพวกเจ้าไปสู่แนวทางที่ถูกต้องแล้ว ผู้ใดยึดมั่นต่อบทบัญญัติของข้าและปฏิบัติตามรอซูลของข้าแล้ว เขาจะไม่หลงทางในโลกดุนยา และจะไม่ได้รับความลำบากในโลกอาคิเราะฮฺ
+--------------------------------------------------------------------------------
+[20:124]
+AR: وَمَنۡ أَعۡرَضَ عَن ذِكۡرِي فَإِنَّ لَهُۥ مَعِيشَةٗ ضَنكٗا وَنَحۡشُرُهُۥ يَوۡمَ ٱلۡقِيَٰمَةِ أَعۡمَىٰ
+V4: “และผู้ใดผินหลังจากการรำลึกถึงข้า แท้จริงสำหรับเขาคือการมีชีวิตอยู่อย่างคับแค้น[FN:103] และเราจะให้เขาฟื้นคืนชีพในวันกิยามะฮฺในสภาพของคนตาบอด”
+V3: และผู้ใดผินหลังจากการรำลึกถึงข้า แท้จริงสำหรับเขาคือการมีชีวิตอยู่อย่างคับแค้น และเราจะให้เขาฟื้นคืนชีพในวันกิยามะฮฺในสภาพของคนตาบอด
+EN1 (Saheeh): And whoever turns away from My remembrance - indeed, he will have a depressed [i.e., difficult] life, and We will gather [i.e., raise] him on the Day of Resurrection blind."
+EN2 (Hilali-Khan): "But whosoever turns away from My Reminder (i.e. neither believes in this Qur’ân nor acts on its teachings.) verily, for him is a life of hardship, and We shall raise him up blind on the Day of Resurrection."
+FN[103]: คือไม่ปฏิบัติตามบัญญัติของข้าแล้ว เขาจะมีชีวิตอยู่อย่างยากแค้น ถึงแม้ชีวิตที่เห็นจากภายนอกจะสุขสบายดีก็ตาม
+--------------------------------------------------------------------------------
+[20:125]
+AR: قَالَ رَبِّ لِمَ حَشَرۡتَنِيٓ أَعۡمَىٰ وَقَدۡ كُنتُ بَصِيرٗا
+V4: เขากล่าวว่า “ข้าแต่พระผู้อภิบาลของข้าพระองค์ ทำไมพระองค์จึงทรงให้ข้าพระองค์ฟื้นคืนชีพขึ้นมาในสภาพของคนตาบอดเล่า ทั้ง ๆ ที่ข้าพระองค์เคยเป็นคนตาดี มองเห็น”[FN:104]
+V3: เขากล่าวว่า ข้าแต่พระเจ้าของข้าพระองค์ ทำไมพระองค์จึงทรงให้ข้าพระองค์ฟื้นคืนชีพขึ้นมาในสภาพของคนตาบอดเล่า ทั้ง ๆ ที่ข้าพระองค์เคยเป็นคนตาดี มองเห็น
+EN1 (Saheeh): He will say, "My Lord, why have you raised me blind while I was [once] seeing?"
+EN2 (Hilali-Khan): He will say: "O my Lord! Why have you raised me up blind, while I had sight (before)."
+FN[104]: คือเขาจะกล่าวว่า โอ้พระเจ้าของข้าพระองค์ ด้วยบาปอันใดพระองค์จึงลงโทษข้าพระองค์ ให้อยู่ในสภาพของคนตาบอด ทั้ง ๆ ที่ในโลกดุนยาข้าพระองค์เป็นคนตาดี
+--------------------------------------------------------------------------------
+[20:126]
+AR: قَالَ كَذَٰلِكَ أَتَتۡكَ ءَايَٰتُنَا فَنَسِيتَهَاۖ وَكَذَٰلِكَ ٱلۡيَوۡمَ تُنسَىٰ
+V4: พระองค์ตรัสว่า “เช่นนั้นแหละ เมื่อโองการทั้งหลายของเราได้มีมายังเจ้า เจ้าก็ทำเป็นลืมมัน และในทำนองเดียวกัน วันนี้เจ้าก็จะถูกลืม”[FN:105]
+V3: พระองค์ตรัสว่า เช่นนั้นแหละ เมื่อโองการทั้งหลายของเราได้มีมายังเจ้า เจ้าก็ทำเป็นลืมมัน และในทำนองเดียวกัน วันนี้เจ้าก็จะถูกลืม
+EN1 (Saheeh): [Allāh] will say, "Thus did Our signs come to you, and you forgot [i.e., disregarded] them; and thus will you this Day be forgotten."
+EN2 (Hilali-Khan): (Allâh) will say: "Like this: Our Ayât (proofs, evidence, verses, lessons, signs, revelations, etc.) came unto you, but you disregarded them (i.e. you left them, did not think deeply in them, and you turned away from them), and so this Day, you will be neglected (in the Hell-fire, away from Allâh’s Mercy)."
+FN[105]: คือเจ้าทำเป็นไม่เห็นเสีย และละเลยมัน เช่นเดียวกัน วันนี้เจ้าจะถูกละเลย และได้รับโทษเป็นการตอบแทนอย่างสาสม
+--------------------------------------------------------------------------------
+[20:127]
+AR: وَكَذَٰلِكَ نَجۡزِي مَنۡ أَسۡرَفَ وَلَمۡ يُؤۡمِنۢ بِـَٔايَٰتِ رَبِّهِۦۚ وَلَعَذَابُ ٱلۡأٓخِرَةِ أَشَدُّ وَأَبۡقَىٰٓ
+V4: และเช่นเดียวกัน เราจะตอบแทนผู้ที่ล่วงละเมิดขอบเขต[FN:106]และไม่ศรัทธาต่อโองการทั้งหลายของพระเจ้า และแน่นอน การลงโทษในปรโลกนั้นสาหัสยิ่ง และยาวนานยิ่ง
+V3: และเช่นเดียวกัน เราจะตอบแทนผู้ที่ล่วงละเมิดขอบเขตและไม่ศรัทธาต่อโองการทั้งหลายของพระเจ้า และแน่นอน การลงโทษในปรโลกนั้นสาหัสยิ่ง และยาวนานยิ่ง
+EN1 (Saheeh): And thus do We recompense he who transgressed and did not believe in the signs of his Lord. And the punishment of the Hereafter is more severe and more enduring.
+EN2 (Hilali-Khan): And thus do We requite him who transgresses beyond bounds [i.e. commits the great sins and disobeys his Lord (Allâh) and believes not in His Messengers, and His revealed Books, like this Qur’an], and believes not in the Ayât (proofs, evidence, verses, lessons, signs, revelations, etc.) of his Lord; and the torment of the Hereafter is far more severe and more lasting.
+FN[106]: คือเราจะลงโทษผู้ที่มั่วสุมอยู่ในเรื่องของตัณหา
+--------------------------------------------------------------------------------
+[20:128]
+AR: أَفَلَمۡ يَهۡدِ لَهُمۡ كَمۡ أَهۡلَكۡنَا قَبۡلَهُم مِّنَ ٱلۡقُرُونِ يَمۡشُونَ فِي مَسَٰكِنِهِمۡۚ إِنَّ فِي ذَٰلِكَ لَأٓيَٰتٖ لِّأُوْلِي ٱلنُّهَىٰ
+V4: ยังมิเป็นที่ประจักษ์ชัดแก่พวกเขาดอกหรือว่า กี่มากน้อยแล้ว เราได้ทำลายประชาชาติก่อนหน้าพวกเขาหลายชั่วศตวรรษ โดยที่พวกเขา (กุฟารมักกะฮฺ) ได้ไปพบเห็นมาในที่พำนักอาศัยของพวกเขา[FN:107] แท้จริงในการลงโทษเช่นนั้นแหละเป็นนิทัศน์อุทาหารณ์สำหรับบรรดาผู้มีสติปัญญา
+V3: ยังมิเป็นที่ประจักษ์ชัดแก่พวกเขาดอกหรือว่า กี่มากน้อยแล้ว เราได้ทำลายประชาชาติก่อนหน้าพวกเขาหลายชั่วศตวรรษ โดยที่พวกเขา (กุฟารมักกะฮฺ) ได้ไปพบเห็นมาในที่พำนักอาศัยของพวกเขา แท้จริงในการลงโทษเช่นนั้นแหละเป็นนิทัศน์อุทาหรณ์สำหรับบรรดาผู้มีสติปัญญา
+EN1 (Saheeh): Then, has it not become clear to them how many generations We destroyed before them as they walk among their dwellings? Indeed in that are signs for those of intelligence.
+EN2 (Hilali-Khan): Is it not a guidance for them (to know) how many generations We have destroyed before them, in whose dwellings they walk? Verily, in this are signs indeed for men of understanding.
+FN[107]: คือพวกเขาได้ไปพบเห็นบ้านเรือนของพวกอ๊าด ษะมูด และได้เห็นมากับตาของพวกเขาเองถึงร่องรอยแห่งความหายนะของพวกเขา ดังนั้นพวกเขาจะไม่ใคร่ครวญพินิจพิจารณาดูบ้างหรือ?
+--------------------------------------------------------------------------------
+[20:129]
+AR: وَلَوۡلَا كَلِمَةٞ سَبَقَتۡ مِن رَّبِّكَ لَكَانَ لِزَامٗا وَأَجَلٞ مُّسَمّٗى
+V4: และหากมิใช่ลิขิตจากพระผู้อภิบาลของเจ้าถูกบันทึกไว้ล่วงหน้าก่อนแล้ว[FN:108] แน่นอน การลงโทษจะเกิดขึ้นทันทีอย่างหลีกเลี่ยงไม่ได้
+V3: และหากมิใช่ลิขิตจากพระเจ้าของเจ้าถูกบันทึกไว้ล่วงหน้าก่อนแล้ว แน่นอน การลงโทษจะเกิดขึ้นทันทีอย่างหลีกเลี่ยงไม่ได้
+EN1 (Saheeh): And if not for a word that preceded from your Lord, it [i.e., punishment] would have been an obligation [due immediately], and [if not for] a specified term [decreed].
+EN2 (Hilali-Khan): And had it not been for a Word that went forth before from your Lord, and a term determined, (their punishment) must necessarily have come (in this world).
+FN[108]: คือหากมิใช่ลิขิตของอัลลอฮฺให้ประวิงการลงโทษแก่พวกเขาไว้ก่อนแล้ว การลงโทษก็จะเกิดแก่พวกเขาอย่างแน่นอน
+--------------------------------------------------------------------------------
+[20:130]
+AR: فَٱصۡبِرۡ عَلَىٰ مَا يَقُولُونَ وَسَبِّحۡ بِحَمۡدِ رَبِّكَ قَبۡلَ طُلُوعِ ٱلشَّمۡسِ وَقَبۡلَ غُرُوبِهَاۖ وَمِنۡ ءَانَآيِٕ ٱلَّيۡلِ فَسَبِّحۡ وَأَطۡرَافَ ٱلنَّهَارِ لَعَلَّكَ تَرۡضَىٰ
+V4: ดังนั้นเจ้าจงอดทนต่อสิ่งที่พวกเขากล่าวร้าย และจงแซ่ซ้องสดุดีด้วยการสรรเสริญพระผู้อภิบาลของเจ้า ก่อนตะวันขึ้นและก่อนตะวันลับลงไป และส่วนหนึ่งจากเวลากลางคืนก็จงแซ่ซ้องสดุดีและปลายช่วงของเวลากลางวัน เพื่อเจ้าจะได้พออกพอใจ[FN:109]
+V3: ดังนั้นเจ้าจงอดทนต่อสิ่งที่พวกเขากล่าวร้าย และจงแซ่ซร้องสดุดีด้วยการสรรเสริญพระเจ้าของเจ้า ก่อนตะวันขึ้นและก่อนตะวันลับลงไป และส่วนหนึ่งจากเวลากลางคืนก็จงแซ่ซร้องสดุดีและปลายช่วงของเวลากลางวัน เพื่อเจ้าจะได้พออกพอใจ
+EN1 (Saheeh): So be patient over what they say and exalt [Allāh] with praise of your Lord before the rising of the sun and before its setting; and during periods of the night [exalt Him] and at the ends of the day, that you may be satisfied.
+EN2 (Hilali-Khan): So bear patiently (O Muhammad صلى الله عليه وسلم) what they say, and glorify the praises of your Lord before the rising of the sun, and before its setting, and during some hours of the night, and at the ends of the day (an indication for the five compulsory congregational prayers), that you may become pleased (with the reward which Allâh shall give you).
+FN[109]: ส่วนใหญ่ของนักตัฟซีรมีความเห็นพ้องกันว่า อายะฮฺนี้บ่งถึงเวลาละหมาดทั้งห้า “ก่อนตะวันขึ้น” หมายถึงละหมาดศุบหฺ “ก่อนการลับของมัน” หมายถึงละหมาดอัศร์ “เวลากลางคืน” หมายถึงละหมาดอิชาอฺ “ปลายช่วงเวลากลางวัน”หมายถึงละหมาดมักริบและดุฮ์ร เพราะเวลาดุฮ์รคือปลายช่วงแรกของเวลากลางวัน และมักริบคือปลายช่วงหลังของเวลากลางวัน
+--------------------------------------------------------------------------------
+[20:131]
+AR: وَلَا تَمُدَّنَّ عَيۡنَيۡكَ إِلَىٰ مَا مَتَّعۡنَا بِهِۦٓ أَزۡوَٰجٗا مِّنۡهُمۡ زَهۡرَةَ ٱلۡحَيَوٰةِ ٱلدُّنۡيَا لِنَفۡتِنَهُمۡ فِيهِۚ وَرِزۡقُ رَبِّكَ خَيۡرٞ وَأَبۡقَىٰ
+V4: และเจ้าจงอย่าทอดสายตาของเจ้าไปยังสิ่งที่เราได้ให้ความเพลิดเพลินแก่บุคคลประเภทต่าง ๆ ของพวกกุฟฟาร ซึ่งความสุขสำราญในโลกดุนยา เพื่อเราจะได้ทดสอบพวกเขาในการนี้ และการตอบแทนของพระเจ้านั้นดียิ่งกว่าและจีรังยิ่งกว่า[FN:110]
+V3: และเจ้าจงอย่าทอดสายตาของเจ้าไปยังสิ่งที่เราได้ให้ความเพลิดเพลินแก่บุคคลประเภทต่าง ๆ ของพวกกุฟฟาร ซึ่งความสุขสำราญในโลกดุนยา เพื่อเราจะได้ทดสอบพวกเขาในการนี้ และการตอบแทนของพระเจ้านั้นดียิ่งกว่าและจีรังยิ่งกว่า
+EN1 (Saheeh): And do not extend your eyes toward that by which We have given enjoyment to [some] categories of them, [its being but] the splendor of worldly life by which We test them. And the provision of your Lord is better and more enduring.
+EN2 (Hilali-Khan): And strain not your eyes in longing for the things We have given for enjoyment to various groups of them (polytheists and disbelievers in the Oneness of Allâh), the splendour of the life of this world, that We may test them thereby. But the provision (good reward in the Hereafter) of your Lord is better and more lasting.
+FN[110]: คืออย่าไปมองดูสิ่งที่เราได้ให้ความรื่นรมย์แก่พวกกุฟฟาร อันความสุขสบายประเภทต่าง ๆ ของโลกดุนยา และความเพริศแพร้วที่จอมปลอม
+--------------------------------------------------------------------------------
+[20:132]
+AR: وَأۡمُرۡ أَهۡلَكَ بِٱلصَّلَوٰةِ وَٱصۡطَبِرۡ عَلَيۡهَاۖ لَا نَسۡـَٔلُكَ رِزۡقٗاۖ نَّحۡنُ نَرۡزُقُكَۗ وَٱلۡعَٰقِبَةُ لِلتَّقۡوَىٰ
+V4: และเจ้าจงใช้ครอบครัวของเจ้า[FN:111]ให้ทำละหมาด และจงอดทนในการปฏิบัติ เรามิได้ขอเครื่องยังชีพจากเจ้า[FN:112] เราต่างหากเป็นผู้ให้เครื่องยังชีพแก่เจ้า และบั้นปลายนั้นสำหรับผู้ที่มีความยำเกรง[FN:113]
+V3: และเจ้าจงใช้ครอบครัวของเจ้าให้ทำละหมาด และจงอดทนในการปฏิบัติ เรามิได้ขอเครื่องยังชีพจากเจ้า เราต่างหากเป็นผู้ให้เครื่องยังชีพแก่เจ้า และบั้นปลายนั้นสำหรับผู้ที่มีความยำเกรง
+EN1 (Saheeh): And enjoin prayer upon your family [and people] and be steadfast therein. We ask you not for provision; We provide for you, and the [best] outcome is for [those of] righteousness.
+EN2 (Hilali-Khan): And enjoin As-Salât (the prayer) on your family, and be patient in offering them [i.e. the Salât (prayers)]. We ask not of you a provision (i.e. to give Us something: money): We provide for you. And the good end (i.e. Paradise) is for the Muttaqûn (the pious - See V.2:2).
+FN[111]: คือจงใช้ครอบครัวและประชาชาติของสูเจ้
+FN[112]: คือเรามิได้บังคับเจ้าให้หาเครื่องยังชีพแก่ตัวเจ้า และครอบครัวของเจ้า แต่เราต่างหากที่จะคุ้มครอง ให้เครื่องยังชีพแก่เจ้าและครอบครัวของเจ้า
+FN[113]: อิบนุกะษีรกล่าวว่า บั้นปลายที่ดีนั้นคือสวนสวรรค์ สำหรับผู้ที่มีความยำเกรงอัลลอฮฺ
+--------------------------------------------------------------------------------
+[20:133]
+AR: وَقَالُواْ لَوۡلَا يَأۡتِينَا بِـَٔايَةٖ مِّن رَّبِّهِۦٓۚ أَوَلَمۡ تَأۡتِهِم بَيِّنَةُ مَا فِي ٱلصُّحُفِ ٱلۡأُولَىٰ
+V4: และพวกเขากล่าวว่า “ทำไมเขาจึงไม่นำสัญญาณหนึ่งจากพระเจ้าของเขามาให้เรา”[FN:114] หรือว่าหลักฐานอันชัดแจ้งที่ปรากฏอยู่ในคัมภีร์ต่าง ๆ สมัยก่อนนั้น มิได้มีมายังพวกเขาดอกหรือ?[FN:115]
+V3: และพวกเขากล่าวว่า ทำไมเขาจึงไม่นำสัญญาณหนึ่งจากพระเจ้าของเขามาให้เรา หรือว่าหลักฐานอันชัดแจ้งที่ปรากฏอยู่ในคัมภีร์ต่าง ๆ สมัยก่อนนั้น มิได้มีมายังพวกเขาดอกหรือ
+EN1 (Saheeh): And they say, "Why does he not bring us a sign from his Lord?" Has there not come to them evidence of what was in the former scriptures?
+EN2 (Hilali-Khan): They say: "Why does he not bring us a sign (proof) from his Lord?" Has there not come to them the proof of that which is (written) in the former papers [Scriptures, i.e. the Taurât (Torah), and the Injeel (Gospel), about the coming of the Prophet Muhammad صلى الله عليه وسلم]?
+FN[114]: พวกมุชริกูนกล่าวว่า ทำไมจึงไม่นำสิ่งมหัศจรรย์ที่ชี้แนะถึงสัจจะของเขามาให้เรา?
+FN[115]: ไม่เป็นการพอเพียงแก่พวกเขาดอกหรือ ที่อัลกุรอานสิ่งมหัศจรรย์ได้ถูกประทานแก่มุฮัมมัด ศ็อลลัลลอฮุอะลัยฮิวะซัลลัม ซึ่งประมวลไว้ด้วยข่าวคราวของประชาชาติในอดีต
+--------------------------------------------------------------------------------
+[20:134]
+AR: وَلَوۡ أَنَّآ أَهۡلَكۡنَٰهُم بِعَذَابٖ مِّن قَبۡلِهِۦ لَقَالُواْ رَبَّنَا لَوۡلَآ أَرۡسَلۡتَ إِلَيۡنَا رَسُولٗا فَنَتَّبِعَ ءَايَٰتِكَ مِن قَبۡلِ أَن نَّذِلَّ وَنَخۡزَىٰ
+V4: และหากเราทำลายพวกเขาด้วยการลงโทษก่อนการให้อัลกุรอานลงมา[FN:116] แน่นอนพวกเขาก็กล่าวว่า ข้าแต่พระผู้อภิบาลของเรา ทำไมพระองค์ท่านจึงไม่ส่งรอซูลมายังพวกเรา เพื่อเราจะได้ปฏิบัติตามโองการของพระองค์ท่าน ก่อนที่เราจะได้รับความต่ำต้อยและความอัปยศ[FN:117]
+V3: และหากเราทำลายพวกเขาด้วยการลงโทษก่อนการให้อัลกุรอานลงมา แน่นอนพวกเขาก็กล่าวว่า ข้าแต่พระเจ้าของเรา ทำไมพระองค์ท่านจึงไม่ส่งรอซูลมายังพวกเรา เพื่อเราจะได้ปฏิบัติตามโองการของพระองค์ท่าน ก่อนที่เราจะได้รับความต่ำต้อยและความอัปยศ
+EN1 (Saheeh): And if We had destroyed them with a punishment before him, they would have said, "Our Lord, why did You not send to us a messenger so we could have followed Your verses [i.e., teachings] before we were humiliated and disgraced?"
+EN2 (Hilali-Khan): And if We had destroyed them with a torment before this (i.e. Messenger Muhammad صلى الله عليه وسلم and the Qur’ân), they would surely have said: "Our Lord! If only You had sent us a Messenger, we should certainly have followed Your Ayât (proofs, evidence, verses, lessons, signs, revelations, etc.), before we were humiliated and disgraced."
+FN[116]: และการส่งรอซูลมุฮัมมัด ศ็อลลัลลอฮุอะลัยฮิวะซัลลัม มายังพวกเขา
+FN[117]: นักตัฟซีรกล่าวว่า อัลลอฮฺ ตะอาลา ทรงประสงค์ที่จะชี้แจงว่า ไม่มีข้ออ้างแก่ผู้ใดต่ออัลลอฮฺอีกแล้ว หลังจากการส่งบรรดารอซูล และประทานคัมภีร์ต่าง ๆ มายังมวลมนุษย์
+--------------------------------------------------------------------------------
+[20:135]
+AR: قُلۡ كُلّٞ مُّتَرَبِّصٞ فَتَرَبَّصُواْۖ فَسَتَعۡلَمُونَ مَنۡ أَصۡحَٰبُ ٱلصِّرَٰطِ ٱلسَّوِيِّ وَمَنِ ٱهۡتَدَىٰ
+V4: จงกล่าวเถิดมุฮัมมัด “ ทุกคนเป็นผู้คอย[FN:118] ดังนั้น พวกท่านจงคอยเถิด แล้วพวกท่านจะได้รู้ว่าใครคือพวกที่อยู่ในแนวทางอันเที่ยงตรง และใครคือผู้ที่อยู่ในแนวทางที่ถูกต้อง”
+V3: จงกล่าวเถิดมุฮัมมัด ทุกคนเป็นผู้คอย ดังนั้น พวกท่านจงคอยเถิด แล้วพวกท่านจะได้รู้ว่าใครคือพวกที่อยู่ในแนวทางอันเที่ยงตรง และใครคือผู้ที่อยู่ในแนวทางที่ถูกต้อง
+EN1 (Saheeh): Say, "Each [of us] is waiting; so wait. For you will know who are the companions of the sound path and who is guided."
+EN2 (Hilali-Khan): Say (O Muhammad صلى الله عليه وسلم): "Each one (believer and disbeliever.) is waiting, so wait you too; and you shall know who are they that are on the Straight and Even Path (i.e. Allâh’s religion of Islâmic Monotheism), and who are they that have let themselves be guided (on the Right Path).
+FN[118]: คือคอยการหมุนเวียนของกาลเวลา
+--------------------------------------------------------------------------------

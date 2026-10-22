@@ -1,0 +1,292 @@
+=== THAIQURAN V4 AUDIT CHUNK: JUZ_16_PART1_18_75_TO_18_110 ===
+Verses in this chunk: 36 (18:75 to 18:110)
+
+CRITICAL AUDIT INSTRUCTIONS (RULE ZERO: NO OVERKILL):
+1. DO NOT rewrite sentences. Only propose fixes for (1) Spacing & Cadence, (2) Spelling & Transliteration, (3) Critical/Theological error.
+2. Output verified fixes in strict JSON format: [{"ayah": "S:A", "type": "...", "target": "...", "replacement": "...", "reason": "..."}]
+3. If an ayah is accurate and readable, do NOT touch it.
+================================================================================
+[18:75]
+AR: ۞ قَالَ أَلَمۡ أَقُل لَّكَ إِنَّكَ لَن تَسۡتَطِيعَ مَعِيَ صَبۡرٗا
+V4: เขากล่าวว่า “ฉันมิได้บอกหรือว่า แท้จริงท่านจะไม่สามารถมีความอดทนร่วมกับฉันได้”
+V3: เขากล่าวว่า ฉันมิได้บอกหรือว่า แท้จริงท่านจะไม่สามารถมีความอดทนร่วมกับฉันได้
+EN1 (Saheeh): [Al-Khiḍr] said, "Did I not tell you that with me you would never be able to have patience?"
+EN2 (Hilali-Khan): (Khidr) said: "Did I not tell you that you can have no patience with me?"
+--------------------------------------------------------------------------------
+[18:76]
+AR: قَالَ إِن سَأَلۡتُكَ عَن شَيۡءِۭ بَعۡدَهَا فَلَا تُصَٰحِبۡنِيۖ قَدۡ بَلَغۡتَ مِن لَّدُنِّي عُذۡرٗا
+V4: เขา (มูซา) กล่าวว่า “หากฉันถามสิ่งใดจากท่านหลังจากนี้ ท่านอย่าคบฉันเป็นเพื่อนร่วมทางอีกเลย แน่นอน ท่านมีข้อแก้ตัวจากฉันพอแล้ว”[FN:83]
+V3: เขา (มูซา) กล่าวว่า หากฉันถามสิ่งใดจากท่านหลังจากนี้ ท่านอย่าคบฉันเป็นเพื่อนร่วมทางอีกเลย แน่นอน ท่านมีข้อแก้ตัวจากฉันพอแล้ว
+EN1 (Saheeh): [Moses] said, "If I should ask you about anything after this, then do not keep me as a companion. You have obtained from me an excuse."
+EN2 (Hilali-Khan): [Mûsâ (Moses)] said: "If I ask you anything after this, keep me not in your company, you have received an excuse from me."
+FN[83]: คือท่านได้ยอมรับข้อแก้ตัวแก่ฉันแล้ว ในการเลิกคบฉันเป็นเพื่อนร่วมทางถึง 2 ครั้ง ดังนั้นท่านมีข้อแก้ตัวแก่ฉันแล้วเพราะฉันผิดสัญญากับท่านถึงสามครั้ง
+--------------------------------------------------------------------------------
+[18:77]
+AR: فَٱنطَلَقَا حَتَّىٰٓ إِذَآ أَتَيَآ أَهۡلَ قَرۡيَةٍ ٱسۡتَطۡعَمَآ أَهۡلَهَا فَأَبَوۡاْ أَن يُضَيِّفُوهُمَا فَوَجَدَا فِيهَا جِدَارٗا يُرِيدُ أَن يَنقَضَّ فَأَقَامَهُۥۖ قَالَ لَوۡ شِئۡتَ لَتَّخَذۡتَ عَلَيۡهِ أَجۡرٗا
+V4: ดังนั้นทั้งสองจึงออกเดินทางต่อไป จนกระทั่งเมื่อทั้งสองพบชาวเมืองหนึ่งทั้งสองได้ขออาหารจากชาวเมืองนั้น[FN:84] แต่พวกเขาปฏิเสธที่จะต้อนรับเขาทั้งสอง ต่อมาเขาทั้งสองได้พบกำแพงแห่งหนึ่งกำลังจะพังลงมา แล้วเขาก็ทำให้มันตรง เขา (มูซา) กล่าวว่า “ถ้าท่านประสงค์ แน่นอนท่านจะเอาค่าแรงตอบแทนสำหรับมันได้”[FN:85]
+V3: ดังนั้นทั้งสองจึงออกเดินทางต่อไป จนกระทั่งเมื่อทั้งสองพบชาวเมืองหนึ่งทั้งสองได้ขออาหารจากชาวเมืองนั้น แต่พวกเขาปฏิเสธที่จะต้อนรับเขาทั้งสอง ต่อมาเขาทั้งสองได้พบกำแพงแห่งหนึ่งกำลังจะพังลงมา แล้วเขาก็ทำให้มันตรง เขา (มูซา) กล่าวว่า ถ้าท่านประสงค์ แน่นอนท่านจะเอาค่าแรงตอบแทนสำหรับมันได้
+EN1 (Saheeh): So they set out, until when they came to the people of a town, they asked its people for food, but they refused to offer them hospitality. And they found therein a wall about to collapse, so he [i.e., al-Khiḍr] restored it. [Moses] said, "If you wished, you could have taken for it a payment."
+EN2 (Hilali-Khan): Then they both proceeded, till, when they came to the people of a town, they asked them for food, but they refused to entertain them. Then they found therein a wall about to collapse and he (Khidr) set it up straight. [Mûsâ (Moses)] said: If you had wished, surely, you could have taken wages for it!"
+FN[84]: อิบนุอับบาสกล่าว เป็นชาวเมืองอัฏฏอกียะฮฺ ชาวเมืองนั้นเป็นคนตระหนี่ ไม่ต้อนรับแขกและไม่เผื่อแผ่เจือจุนแก่คนหิวโหย
+FN[85]: คือเอาค่าแรงเป็นค่าจ้าง เพื่อไปซื้ออาหารมาได้
+--------------------------------------------------------------------------------
+[18:78]
+AR: قَالَ هَٰذَا فِرَاقُ بَيۡنِي وَبَيۡنِكَۚ سَأُنَبِّئُكَ بِتَأۡوِيلِ مَا لَمۡ تَسۡتَطِع عَّلَيۡهِ صَبۡرًا
+V4: เขากล่าวว่า “นี่คือการแยกกันระหว่างฉันกับท่าน[FN:86] ฉันจะบอกท่านถึงความหมายที่ท่านไม่สามารถมีความอดทนในสิ่งนั้น ๆ ได้”
+V3: เขากล่าวว่า นี่คือการแยกกันระหว่างฉันกับท่าน ฉันจะบอกท่านถึงความหมายที่ท่านไม่สามารถมีความอดทนในสิ่งนั้น ๆ ได้
+EN1 (Saheeh): [Al-Khiḍr] said, "This is parting between me and you. I will inform you of the interpretation of that about which you could not have patience.
+EN2 (Hilali-Khan): (Khidr) said: "This is the parting between me and you, I will tell you the interpretation of (those) things over which you were unable to hold patience.
+FN[86]: ถึงเวลาแล้วที่เราจะแยกจากกัน ตามสัญญาที่ท่านได้ให้ไว้
+--------------------------------------------------------------------------------
+[18:79]
+AR: أَمَّا ٱلسَّفِينَةُ فَكَانَتۡ لِمَسَٰكِينَ يَعۡمَلُونَ فِي ٱلۡبَحۡرِ فَأَرَدتُّ أَنۡ أَعِيبَهَا وَكَانَ وَرَآءَهُم مَّلِكٞ يَأۡخُذُ كُلَّ سَفِينَةٍ غَصۡبٗا
+V4: ส่วนเรื่องของเรือเดินทะเลนั้น มันเป็นของพวกผู้ขัดสนทำงานอยู่ในทะเล ฉันตั้งใจจะทำให้มันมีตำหนิ เพราะเบื้องหลังพวกเขานั้นมีกษัตริย์องค์หนึ่งคอยยึดเรือดี ๆ ทุกลำ โดยใช้อำนาจ[FN:87]
+V3: ส่วนเรื่องของเรือเดินทะเลนั้น มันเป็นของพวกผู้ขัดสนทำงานอยู่ในทะเล ฉันตั้งใจจะทำให้มันมีตำหนิ เพราะเบื้องหลังพวกเขานั้นมีกษัตริย์องค์หนึ่งคอยยึดเรือดี ๆ ทุกลำ โดยใช้อำนาจ
+EN1 (Saheeh): As for the ship, it belonged to poor people working at sea. So I intended to cause defect in it as there was after them a king who seized every [good] ship by force.
+EN2 (Hilali-Khan): "As for the ship, it belonged to Masâkîn (poor people) working in the sea. So I wished to make a defective damage in it, as there was a king behind them who seized every ship by force.
+FN[87]: คือยึดเรืองดี ๆ ทุกลำที่ไม่มีตำหนิ
+--------------------------------------------------------------------------------
+[18:80]
+AR: وَأَمَّا ٱلۡغُلَٰمُ فَكَانَ أَبَوَاهُ مُؤۡمِنَيۡنِ فَخَشِينَآ أَن يُرۡهِقَهُمَا طُغۡيَٰنٗا وَكُفۡرٗا
+V4: “และส่วนเรื่องของเด็กนั้นก็คือ พ่อแม่ของเขาเป็นผู้ศรัทธา เรากลัวว่าเขาจะเคี่ยวเข็ญให้ทั้งสองตกอยู่ในการละเมิดและปฏิเสธศรัทธา”[FN:88]
+V3: และส่วนเรื่องของเด็กนั้นก็คือ พ่อแม่ของเขาเป็นผู้ศรัทธา เรากลัวว่าเขาจะเคี่ยวเข็ญให้ทั้งสองตกอยู่ในการละเมิดและปฏิเสธศรัทธา
+EN1 (Saheeh): And as for the boy, his parents were believers, and we feared that he would overburden them by transgression and disbelief.
+EN2 (Hilali-Khan): "And as for the boy, his parents were believers, and we feared lest he should oppress them by rebellion and disbelief.
+FN[88]: ส่วนเด็กที่ฉันฆ่านั้นเป็นกาฟิรและคนเลว
+--------------------------------------------------------------------------------
+[18:81]
+AR: فَأَرَدۡنَآ أَن يُبۡدِلَهُمَا رَبُّهُمَا خَيۡرٗا مِّنۡهُ زَكَوٰةٗ وَأَقۡرَبَ رُحۡمٗا
+V4: “ดังนั้นเราปรารถนา (ฆ่าเขาโดยหวัง) ว่าพระผู้อภิบาลของทั้งสองจะทรงเปลี่ยนลูกที่ดีกว่าให้แก่ทั้งสอง มีความบริสุทธิ์กว่าและใกล้ชิดต่อความเมตตา (แก่ทั้งสอง)”
+V3: ดังนั้นเราปรารถนา (ฆ่าเขาโดยหวัง) ว่าพระผู้เป็นเจ้าของทั้งสองจะทรงเปลี่ยนลูกที่ดีกว่าให้แก่ทั้งสอง มีความบริสุทธิ์กว่าและใกล้ชิดต่อความเมตตา (แก่ทั้งสอง)
+EN1 (Saheeh): So we intended that their Lord should substitute for them one better than him in purity and nearer to mercy.
+EN2 (Hilali-Khan): "So we intended that their Lord should change him for them for one better in righteousness and nearer to mercy.
+--------------------------------------------------------------------------------
+[18:82]
+AR: وَأَمَّا ٱلۡجِدَارُ فَكَانَ لِغُلَٰمَيۡنِ يَتِيمَيۡنِ فِي ٱلۡمَدِينَةِ وَكَانَ تَحۡتَهُۥ كَنزٞ لَّهُمَا وَكَانَ أَبُوهُمَا صَٰلِحٗا فَأَرَادَ رَبُّكَ أَن يَبۡلُغَآ أَشُدَّهُمَا وَيَسۡتَخۡرِجَا كَنزَهُمَا رَحۡمَةٗ مِّن رَّبِّكَۚ وَمَا فَعَلۡتُهُۥ عَنۡ أَمۡرِيۚ ذَٰلِكَ تَأۡوِيلُ مَا لَمۡ تَسۡطِع عَّلَيۡهِ صَبۡرٗا
+V4: “และส่วนเรื่องของกำแพงนั้น มันเป็นของเด็กผู้ชายกำพร้าสองคนที่อยู่ในเมือง และใต้กำแพงนั้นมีขุมทรัพย์ของเขาทั้งสอง[FN:89] และพ่อของเด็กทั้งสองก็เป็นคนดี ดังนั้น พระผู้อภิบาลของท่านทรงประสงค์ที่จะให้เด็กทั้งสองบรรลุสู่ความเป็นผู้ใหญ่ และจะให้เด็กทั้งสองเอาขุมทรัพย์ของทั้งสองออกมาเอง[FN:90] เป็นความเมตตาจากพระผู้อภิบาลของท่าน และฉันมิได้ทำสิ่งนั้นตามความพอใจของฉัน นั่นคือความหมายที่ท่านไม่สามารถมีความอดทนในสิ่งนั้น ๆ ได้”
+V3: และส่วนเรื่องของกำแพงนั้น มันเป็นของเด็กผู้ชายกำพร้าสองคนที่อยู่ในเมือง และใต้กำแพงนั้นมีขุมทรัพย์ของเขาทั้งสอง และพ่อของเด็กทั้งสองก็เป็นคนดี ดังนั้น พระผู้เป็นเจ้าของท่านทรงประสงค์ที่จะให้เด็กทั้งสองบรรลุสู่ความเป็นผู้ใหญ่ และจะให้เด็กทั้งสองเอาขุมทรัพย์ของทั้งสองออกมาเอง เป็นความเมตตาจากพระผู้เป็นเจ้าของท่าน และฉันมิได้ทำสิ่งนั้นตามความพอใจของฉัน นั่นคือความหมายที่ท่านไม่สามารถมีความอดทนในสิ่งนั้น ๆ ได้
+EN1 (Saheeh): And as for the wall, it belonged to two orphan boys in the city, and there was beneath it a treasure for them, and their father had been righteous. So your Lord intended that they reach maturity and extract their treasure, as a mercy from your Lord. And I did it not of my own accord. That is the interpretation of that about which you could not have patience."
+EN2 (Hilali-Khan): "And as for the wall, it belonged to two orphan boys in the town; and there was under it a treasure belonging to them; and their father was a righteous man, and your Lord intended that they should attain their age of full strength and take out their treasure as a mercy from your Lord. And I did them not of my own accord. That is the interpretation of those (things) over which you could not hold patience."
+FN[89]: ถ้าปล่อยให้กำแพงพังลงมา ขุมทรัพย์ก็จะประจักษ์ออกมา เด็กทั้งสองไม่สามารถป้องกันขุมทรัพย์นั้นได้
+FN[90]: โดยที่เด็กทั้งสองสามารถคุ้มกันขุมทรัพย์นั้นได้ ณ ที่นี้ความลับได้ถูกเผยออกมา อันหนึ่งจากเคล็ดลับแห่งการกระทำเช่นนั้นของบ่าวที่ศอลิหฺ เช่นเดียวกับที่มันได้ถูกเผยออกมา โดยที่พระองค์จะไม่ทรงเปิดเผยให้ผู้ใด นอกจากที่พระองค์ทรงพอพระทัยเท่านั้น นี่แหละคือเรื่องราวของมูซากับบ่าวที่ศอลิหฺ จึงมีความสัมพันธ์กับเรื่องชาวถ้ำตรงที่ว่า ปล่อยให้เรื่องของสิ่งพ้นญาณวิสัยเป็นสิทธิ์ของอัลลอฮฺองค์เดียวซึ่งพระองค์ทรงจัดเตรียมเรื่องต่าง ๆ ด้วยหิกมะฮฺของพระองค์
+--------------------------------------------------------------------------------
+[18:83]
+AR: وَيَسۡـَٔلُونَكَ عَن ذِي ٱلۡقَرۡنَيۡنِۖ قُلۡ سَأَتۡلُواْ عَلَيۡكُم مِّنۡهُ ذِكۡرًا
+V4: และพวกเขาถามเจ้าเกี่ยวกับซุลก็อรนัยนฺ[FN:91] จงกล่าวเถิด “ฉันจะเล่าเรื่องของเขาแก่พวกท่าน”
+V3: และพวกเขาถามเจ้าเกี่ยวกับซุลก็อรนัยนฺ จงกล่าวเถิด ฉันจะเล่าเรื่องของเขาแก่พวกท่าน
+EN1 (Saheeh): And they ask you, [O Muḥammad], about Dhul-Qarnayn. Say, "I will recite to you about him a report."
+EN2 (Hilali-Khan): And they ask you about Dhul-Qarnain. Say: "I shall recite to you something of his story."
+FN[91]: กล่าวกันว่า เป็นกษัตริย์มุสลิมแห่งเยเมน ที่เรียกกันว่า “ซุลก็อรนัยนฺ” ก็เพราะเขามีอำนาจปกครองดินแดนจากตะวันออกจรดตะวันตก
+--------------------------------------------------------------------------------
+[18:84]
+AR: إِنَّا مَكَّنَّا لَهُۥ فِي ٱلۡأَرۡضِ وَءَاتَيۡنَٰهُ مِن كُلِّ شَيۡءٖ سَبَبٗا
+V4: แท้จริงเราได้ให้อำนาจแก่เขาในแผ่นดิน และเราให้เขาทุกสิ่งที่เขาต้องการ[FN:92]
+V3: แท้จริงเราได้ให้อำนาจแก่เขาในแผ่นดิน และเราได้ให้เขาทุกสิ่งที่เขาต้องการ
+EN1 (Saheeh): Indeed, We established him upon the earth, and We gave him from everything a way [i.e., means].
+EN2 (Hilali-Khan): Verily, We established him in the earth, and We gave him the means of everything.
+FN[92]: นักตัฟซีรกล่าวว่า ซุลก็อรนัยนฺมีอำนาจปกครองในสมัยระหว่างนบีอีซากับนบีมุฮัมมัด มีรายงานว่าบุคคลที่มีอำนาจปกครองแผ่นดินมีอยู่ 4 คน เป็นมุอฺมิน 2 คน กาฟิร 2 คน ที่เป็นมุอฺมินคือ นบีสุลัยมานกับซุลก็อรนัยนฺ ส่วนกาฟิร 2 คนคือ นัมรู้ด และบัดตันศิร
+--------------------------------------------------------------------------------
+[18:85]
+AR: فَأَتۡبَعَ سَبَبًا
+V4: ดังนั้น เขาจึงมุ่งไปทางหนึ่ง (ทางทิศตะวันตก)
+V3: ดังนั้น เขาจึงมุ่งไปทางหนึ่ง (ทางตะวันตก)
+EN1 (Saheeh): So he followed a way
+EN2 (Hilali-Khan): So he followed a way.
+--------------------------------------------------------------------------------
+[18:86]
+AR: حَتَّىٰٓ إِذَا بَلَغَ مَغۡرِبَ ٱلشَّمۡسِ وَجَدَهَا تَغۡرُبُ فِي عَيۡنٍ حَمِئَةٖ وَوَجَدَ عِندَهَا قَوۡمٗاۖ قُلۡنَا يَٰذَا ٱلۡقَرۡنَيۡنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمۡ حُسۡنٗا
+V4: จนกระทั่งเมื่อเขาไปถึงดินแดนที่ดวงอาทิตย์ตก เขาพบมันตกลงในน้ำขุ่นดำ[FN:93] และพบชนหมู่หนึ่ง ณ ที่นั่น เรากล่าวว่า (อัลลอฮฺทรงดลใจเขา) “โอ้ ซุลก็อรนัยนฺ เจ้าจะลงโทษพวกเขา[FN:94]หรือทำความดีต่อพวกเขา”
+V3: จนกระทั่งเมื่อเขาไปถึงดินแดนที่ดวงอาทิตย์ตก เขาพบมันตกลงในน้ำขุ่นดำ และพบชนหมู่หนึ่ง ณ ที่นั้น เรากล่าวว่า (อัลลอฮฺทรงดลใจเขา) โอ้ ซุลก็อรนัยนฺ เจ้าจงลงโทษพวกเขาหรือทำความดีต่อพวกเขา
+EN1 (Saheeh): Until, when he reached the setting of the sun [i.e., the west], he found it [as if] setting in a body of dark water, and he found near it a people. We [i.e., Allāh] said, "O Dhul-Qarnayn, either you punish [them] or else adopt among them [a way of] goodness."
+EN2 (Hilali-Khan): Until, when he reached the setting place of the sun, he found it setting in a spring of black muddy (or hot) water. And he found near it a people. We (Allâh) said (by inspiration): "O Dhul-Qarnain! Either you punish them, or treat them with kindness."
+FN[93]: คือดวงอาทิตย์ ณ สถานที่นั้น เพราะเขายืนอยู่ในบริเวณนั้น มิได้หมายความว่ามันตกลงไปในน้ำขุ่นดำจริง ๆ เพราะผู้ที่ยืนอยู่กลางทะเลทรายจะเห็นว่าดวงอาทิตย์ตกท่ามกลางทะเลทราย
+FN[94]: นักตัฟซิรอธิบายว่า ชนหมู่นั้นเป็นพวกปฏิเสธศรัทธา อัลลอฮฺ ตะอาลา ทรงให้เขาเลือกปฏิบัติเอา ระหว่างให้ลงโทษพวกเขาด้วยการฆ่า หรือเรียกร้องเชิญชวนพวกเขาไปสู่อิสลาม แล้วทำดีกับพวกเขา
+--------------------------------------------------------------------------------
+[18:87]
+AR: قَالَ أَمَّا مَن ظَلَمَ فَسَوۡفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابٗا نُّكۡرٗا
+V4: เขากล่าวว่า “ส่วนผู้ที่อธรรมนั้น เราจะลงโทษเขา แล้วเขาจะถูกนำกลับไปยังพระผู้เป็นเจ้าของเขา ดังนั้นพระองค์จะทรงลงโทษเขาซึ่งการลงโทษอย่างรุนแรง
+V3: เขากล่าวว่า ส่วนผู้ที่อธรรมนั้น เราจะลงโทษเขา แล้วเขาจะถูกนำกลับไปยังพระผู้เป็นเจ้าของเขา ดังนั้นพระองค์จะทรงลงโทษเขาซึ่งการลงโทษอย่างรุนแรง
+EN1 (Saheeh): He said, "As for one who wrongs, we will punish him. Then he will be returned to his Lord, and He will punish him with a terrible punishment [i.e., Hellfire].
+EN2 (Hilali-Khan): He said: "As for him (a disbeliever in the Oneness of Allâh) who does wrong, we shall punish him, and then he will be brought back unto his Lord, Who will punish him with a terrible torment (Hell).
+--------------------------------------------------------------------------------
+[18:88]
+AR: وَأَمَّا مَنۡ ءَامَنَ وَعَمِلَ صَٰلِحٗا فَلَهُۥ جَزَآءً ٱلۡحُسۡنَىٰۖ وَسَنَقُولُ لَهُۥ مِنۡ أَمۡرِنَا يُسۡرٗا
+V4: “และส่วนผู้ศรัทธาและประกอบความดีนั้น สำหรับเขาคือการตอบแทนที่ดี และเราจะพูดกับเขาในกิจการงานของเราอย่างง่าย ๆ”
+V3: และส่วนผู้ศรัทธาและประกอบความดีนั้น สำหรับเขาคือการตอบแทนที่ดี และเราจะพูดกับเขาในกิจการงานของเราอย่างง่าย ๆ
+EN1 (Saheeh): But as for one who believes and does righteousness, he will have a reward of the best [i.e., Paradise], and we [i.e., Dhul-Qarnayn] will speak to him from our command with ease."
+EN2 (Hilali-Khan): "But as for him who believes (in Allâh’s Oneness) and works righteousness, he shall have the best reward, (Paradise), and we (Dhul-Qarnain) shall speak unto him mild words (as instructions)."
+--------------------------------------------------------------------------------
+[18:89]
+AR: ثُمَّ أَتۡبَعَ سَبَبًا
+V4: แล้วเขาได้มุ่งไปอีกทางหนึ่ง (ทางตะวันออก)
+V3: แล้วเขาได้มุ่งไปอีกทางหนึ่ง (ทางตะวันออก)
+EN1 (Saheeh): Then he followed a way
+EN2 (Hilali-Khan): Then he followed another way,
+--------------------------------------------------------------------------------
+[18:90]
+AR: حَتَّىٰٓ إِذَا بَلَغَ مَطۡلِعَ ٱلشَّمۡسِ وَجَدَهَا تَطۡلُعُ عَلَىٰ قَوۡمٖ لَّمۡ نَجۡعَل لَّهُم مِّن دُونِهَا سِتۡرٗا
+V4: จนกระทั่งเมื่อเขาไปถึงดินแดนที่ตะวันขึ้น[FN:95] เขาพบมันขึ้นเหนือกลุ่มชนหนึ่ง เรามิได้ทำที่กำบังแดดให้แก่พวกเขา[FN:96]
+V3: จนกระทั่งเมื่อเขาไปถึงดินแดนที่ตะวันขึ้น เขาพบมันขึ้นเหนือกลุ่มชนหนึ่ง เรามิได้ทำที่กำบังแดดให้แก่พวกเขา
+EN1 (Saheeh): Until, when he came to the rising of the sun [i.e., the east], he found it rising on a people for whom We had not made against it any shield.
+EN2 (Hilali-Khan): Until, when he came to the rising place of the sun, he found it rising on a people for whom We (Allâh) had provided no shelter against the sun.
+FN[95]: ที่กล่าวไว้ว่า เมื่อเขาไปถึงดินแดนที่ตะวันตก ณ ที่นี้ก็เช่นเดียวกันคือ เมื่อเขาเดินทางไปถึงดินแดนที่ตะวันขึ้นจุดมุ่งหมายก็คือทางขึ้นของตะวันออกในสายตาของผู้มอง อัลกุรอานมิได้กำหนดสถานที่ไว้อย่างแน่นอน
+FN[96]: คือเป็นดินแดนที่โล่งเตียน เปิดเผย ไม่มีตีกรามบ้านช่อง และไม่มีต้นไม้เป็นที่กำบัง
+--------------------------------------------------------------------------------
+[18:91]
+AR: كَذَٰلِكَۖ وَقَدۡ أَحَطۡنَا بِمَا لَدَيۡهِ خُبۡرٗا
+V4: เช่นนั้นแหละ เราหยั่งรู้ข่าวคราวที่เกี่ยวกับเขา
+V3: เช่นนั้นแหละ เราหยั่งรู้ข่าวคราวที่เกี่ยวกับเขา
+EN1 (Saheeh): Thus. And We had encompassed [all] that he had in knowledge.
+EN2 (Hilali-Khan): So (it was)! And We knew all about him (Dhul-Qarnain).
+--------------------------------------------------------------------------------
+[18:92]
+AR: ثُمَّ أَتۡبَعَ سَبَبًا
+V4: แล้วเขาได้มุ่งไปอีกทางหนึ่ง (ไปทางเหนือ)[FN:97]
+V3: แล้วเขาได้มุ่งไปอีกทางหนึ่ง (ไปทางเหนือ)
+EN1 (Saheeh): Then he followed a way.
+EN2 (Hilali-Khan): Then he followed (another) way,
+FN[97]: เขาออกเดินทางไปยังแหล่งที่สาม คือระหว่างตะวันออกกับตะวันตก คือมุ่งสู่ทางเหนือที่มีภูเขาสูง ๆ
+--------------------------------------------------------------------------------
+[18:93]
+AR: حَتَّىٰٓ إِذَا بَلَغَ بَيۡنَ ٱلسَّدَّيۡنِ وَجَدَ مِن دُونِهِمَا قَوۡمٗا لَّا يَكَادُونَ يَفۡقَهُونَ قَوۡلٗا
+V4: จนกระทั่งเมื่อเขาไปถึงบริเวณระหว่างภูผาทั้งสอง[FN:98] เขาได้พบชนกลุ่มหนึ่งที่เชิงภูผาทั้งสองนั้น ซึ่งพวกเขาเกือบจะไม่เข้าใจคำพูดกันเลย[FN:99]
+V3: จนกระทั่งเมื่อเขาไปถึงบริเวณระหว่างภูผาทั้งสอง เขาได้พบชนกลุ่มหนึ่งที่เชิงภูผาทั้งสองนั้น ซึ่งพวกเขาเกือบจะไม่เข้าใจคำพูดกันเลย
+EN1 (Saheeh): Until, when he reached [a pass] between two mountains, he found beside them a people who could hardly understand [his] speech.
+EN2 (Hilali-Khan): Until, when he reached between two mountains, he found, before (near) them (those two mountains), a people who scarcely understood a word.
+FN[98]: เมื่อไปถึงอาณาบริเวณที่มีภูเขาใหญ่ 2 ลูก
+FN[99]: ชนหมู่นั้นพูดหลายภาษา ทำความเข้าใจกันยาก
+--------------------------------------------------------------------------------
+[18:94]
+AR: قَالُواْ يَٰذَا ٱلۡقَرۡنَيۡنِ إِنَّ يَأۡجُوجَ وَمَأۡجُوجَ مُفۡسِدُونَ فِي ٱلۡأَرۡضِ فَهَلۡ نَجۡعَلُ لَكَ خَرۡجًا عَلَىٰٓ أَن تَجۡعَلَ بَيۡنَنَا وَبَيۡنَهُمۡ سَدّٗا
+V4: พวกเขากล่าวว่า “โอ้ซุลก็อรนัยนฺ แท้จริงยะอฺญูจและมะอฺญูจนั้นเป็นผู้บ่อนทำลายในแผ่นดินนี้ ดังนั้น เราขอมอบบรรณาการแก่ท่าน เพื่อท่านจะได้สร้างกำแพงกั้นระหว่างพวกเรากับพวกเขา”[FN:100]
+V3: พวกเขากล่าวว่า โอ้ซุลก็อรนัยนฺ แท้จริงยะอฺญูจและมะอฺญูจนั้นเป็นผู้บ่อนทำลายในแผ่นดินนี้ ดังนั้น เราขอมอบบรรณาการแก่ท่าน เพื่อท่านจะได้สร้างกำแพงกั้นระหว่างพวกเรากับพวกเขา
+EN1 (Saheeh): They said, "O Dhul-Qarnayn, indeed Gog and Magog are [great] corrupters in the land. So may we assign for you an expenditure that you might make between us and them a barrier?"
+EN2 (Hilali-Khan): They said: "O Dhul-Qarnain! Verily Ya’jûj and Ma’jûj (Gog and Magog) are doing great mischief in the land. Shall we then pay you a tribute in order that you might erect a barrier between us and them?"
+FN[100]: ซุลก็อรนัยมีความเห็นว่า วิธีที่ง่ายและดีที่สุดในการสร้างกำแพงนั้นคือ ปิดทางผ่านระหว่างภูเขาทั้งสองลูก
+--------------------------------------------------------------------------------
+[18:95]
+AR: قَالَ مَا مَكَّنِّي فِيهِ رَبِّي خَيۡرٞ فَأَعِينُونِي بِقُوَّةٍ أَجۡعَلۡ بَيۡنَكُمۡ وَبَيۡنَهُمۡ رَدۡمًا
+V4: เขากล่าวว่า “สิ่งที่พระผู้อภิบาลของฉันได้ให้อำนาจแก่ฉันดียิ่งกว่า ดังนั้น พวกท่านจงช่วยฉันด้วยกำลัง ฉันจะสร้างกำแพงแน่นหนากั้นระหว่างพวกท่านกับพวกเขา”
+V3: เขากล่าวว่า สิ่งที่พระผู้เป็นเจ้าของฉันได้ให้อำนาจแก่ฉันดียิ่งกว่า ดังนั้น พวกท่านจงช่วยฉันด้วยกำลัง ฉันจะสร้างกำแพงแน่นหนากั้นระหว่างพวกท่านกับพวกเขา
+EN1 (Saheeh): He said, "That in which my Lord has established me is better [than what you offer], but assist me with strength [i.e., manpower]; I will make between you and them a dam.
+EN2 (Hilali-Khan): He said: "That (wealth, authority and power) in which my Lord had established me is better (than your tribute). So help me with strength (of men), I will erect between you and them a barrier.
+--------------------------------------------------------------------------------
+[18:96]
+AR: ءَاتُونِي زُبَرَ ٱلۡحَدِيدِۖ حَتَّىٰٓ إِذَا سَاوَىٰ بَيۡنَ ٱلصَّدَفَيۡنِ قَالَ ٱنفُخُواْۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارٗا قَالَ ءَاتُونِيٓ أُفۡرِغۡ عَلَيۡهِ قِطۡرٗا
+V4: “พวกท่านจงเอาเหล็กท่อนโต ๆ มาให้ฉัน” จนกระทั่งเมื่อเขาทำให้บริเวณภูผาทั้งสองราบเรียบ เขาก็กล่าวว่า “จงเป่ามันด้วยเครื่องเป่าลม” จนกระทั่งเมื่อเขาทำให้มันร้อนเป็นไฟ เขากล่าวว่า “ปล่อยให้ฉันเททองแดงหลอมลงไปบนมัน”[FN:101]
+V3: พวกท่านจงเอาเหล็กท่อนโต ๆ มาให้ฉัน จนกระทั่งเมื่อเขาทำให้บริเวณภูผาทั้งสองราบเรียบ เขาก็กล่าวว่า จงเป่ามันด้วยเครื่องเป่าลม จนกระทั่งเมื่อเขาทำให้มันร้อนเป็นไฟ เขากล่าวว่า ปล่อยให้ฉันเททองแดงหลอมลงไปบนมัน
+EN1 (Saheeh): Bring me bars of iron" - until, when he had leveled [them] between the two mountain walls, he said, "Blow [with bellows]," until when he had made it [like] fire, he said, "Bring me, that I may pour over it molten copper."
+EN2 (Hilali-Khan): "Give me pieces (blocks) of iron;" then, when he had filled up the gap between the two mountain-cliffs, he said: "Blow;" then when he had made them (red as) fire, he said: "Bring me molten copper to pour over them."
+FN[101]: เขาใช้ให้ชาวบ้านนำเหล็กท่อนโต ๆ มาวางเรียงเป็นกองพะเนินสูง แล้วจุดไฟเผาเหล็กจนร้องแดง หลังจากนั้นให้เอาทองแดงหลอมเทราดบนเหล็ก แล้วมันจะแข็งกล้า ในสมัยปัจจุบันก็ได้ค้นพบว่า การผสมทองแดงส่วนหนึ่งเข้ากับธาตุเหล็ก จะทำให้เหล็กมีความแข็งกล้าและทนทาน
+--------------------------------------------------------------------------------
+[18:97]
+AR: فَمَا ٱسۡطَٰعُوٓاْ أَن يَظۡهَرُوهُ وَمَا ٱسۡتَطَٰعُواْ لَهُۥ نَقۡبٗا
+V4: ดังนั้น พวกเขา (ยะอฺญูจและมะอฺญูจ) ไม่สามารถจะข้ามมันได้ และไม่สามารถจะขุดโพรงผ่านมันได้[FN:102]
+V3: ดังนั้น พวกเขา (ยะอฺญูจและมะอฺญูจ) ไม่สามารถจะข้ามมันได้ และไม่สามารถจะขุดโพรงผ่านมันได้
+EN1 (Saheeh): So they [i.e., Gog and Magog] were unable to pass over it, nor were they able [to effect] in it any penetration.
+EN2 (Hilali-Khan): So they [Ya’jûj and Ma’jûj (Gog and Magog)] could not scale it or dig through it.
+FN[102]: ด้วยการทำประตูเหล็กดังกล่าว พวกบ่อนทำลายคือยะอญูจ จึงไม่สามารถจะปืนป่ายข้ามไปได้เพราะความสูงและความลื่นเป็นมันของเหล็ก ในเวลาเดียวกันก็ไม่สามารถจะขุดเจาะประตูเหล็กได้ เพราะความแข็งกล้าของเหล็กนั่นเอง
+--------------------------------------------------------------------------------
+[18:98]
+AR: قَالَ هَٰذَا رَحۡمَةٞ مِّن رَّبِّيۖ فَإِذَا جَآءَ وَعۡدُ رَبِّي جَعَلَهُۥ دَكَّآءَۖ وَكَانَ وَعۡدُ رَبِّي حَقّٗا
+V4: เขากล่าวว่า “นี่คือความเมตตาจากพระผู้เป็นเจ้าของฉัน ดังนั้น เมื่อสัญญาของพระผู้เป็นเจ้าของฉันมาถึง[FN:103] พระองค์จะทรงทำให้มันพังทลาย และสัญญาของพระผู้เป็นเจ้าของฉันนั้นเป็นจริงเสมอ”
+V3: เขากล่าวว่า นี่คือความเมตตาจากพระผู้เป็นเจ้าของฉัน ดังนั้น เมื่อสัญญาของพระผู้เป็นเจ้าของฉันมาถึง พระองค์จะทรงทำให้มันพังทลาย และสัญญาของพระผู้เป็นเจ้าของฉันนั้นเป็นจริงเสมอ
+EN1 (Saheeh): [Dhul-Qarnayn] said, "This is a mercy from my Lord; but when the promise of my Lord comes [i.e., approaches], He will make it level, and ever is the promise of my Lord true."
+EN2 (Hilali-Khan): (Dhul-Qarnain) said: "This is a mercy from my Lord, but when the Promise of my Lord comes, He shall level it down to the ground. And the Promise of my Lord is ever true."
+FN[103]: คือเมื่อยะฮฺญูจและมะอฺญูจออกมา นั่นคือสัญญาณแห่งวันใกล้กิยามะฮฺจะเกิดขึ้น และประตูเหล็กที่ซุลก็อรนัยนฺได้ทำไว้นั้นก็จะพังราบเรียบ
+--------------------------------------------------------------------------------
+[18:99]
+AR: ۞ وَتَرَكۡنَا بَعۡضَهُمۡ يَوۡمَئِذٖ يَمُوجُ فِي بَعۡضٖۖ وَنُفِخَ فِي ٱلصُّورِ فَجَمَعۡنَٰهُمۡ جَمۡعٗا
+V4: และวันนั้นเราได้ปล่อยให้บางส่วนของพวกเขาปะทะกับอีกบางส่วน และสังข์จะถูกเป่าขึ้น[FN:104] แล้วเราจะรวมพวกเขาทั้งหมด
+V3: และวันนั้นเราได้ปล่อยให้บางส่วนของพวกเขาปะทะกับอีกบางส่วน และสังข์จะถูกเป่าขึ้น แล้วเราจะรวมพวกเขาทั้งหมด
+EN1 (Saheeh): And We will leave them that day surging over each other, and [then] the Horn will be blown, and We will assemble them in [one] assembly.
+EN2 (Hilali-Khan): And on that Day [i.e. the Day Ya’jûj and Ma’jûj (Gog and Magog) will come out], We shall leave them to surge like waves on one another; and the Trumpet will be blown, and We shall collect them (the creatures) all together.
+FN[104]: ในวันกิยามะฮฺมนุษย์จะเดินชนกัน เพราะความมากมายของพวกเขานั่นเอง แล้วสังข์จะถูกเป่าขึ้นเป็นครั้งที่สอง ในวันนั้นมนุษย์จะมารวมกันในสถานที่เดียวกัน เพื่อการสอบสวนและการตอบแทน
+--------------------------------------------------------------------------------
+[18:100]
+AR: وَعَرَضۡنَا جَهَنَّمَ يَوۡمَئِذٖ لِّلۡكَٰفِرِينَ عَرۡضًا
+V4: และวันนั้นเราจะนำนรกญะฮันนัม มาเปิดเผยแก่พวกปฏิเสธศรัทธา
+V3: และวันนั้นเราจะนำนรกญะฮันนัม มาเปิดเผยแก่พวกปฏิเสธศรัทธา
+EN1 (Saheeh): And We will present Hell that Day to the disbelievers, on display -
+EN2 (Hilali-Khan): And on that Day We shall present Hell to the disbelievers, plain to view -
+--------------------------------------------------------------------------------
+[18:101]
+AR: ٱلَّذِينَ كَانَتۡ أَعۡيُنُهُمۡ فِي غِطَآءٍ عَن ذِكۡرِي وَكَانُواْ لَا يَسۡتَطِيعُونَ سَمۡعًا
+V4: คือบรรดาผู้ที่ดวงตาของพวกเขาถูกปกปิดจากการรำลึกถึงข้า และพวกเขาไม่สามารถจะได้ยิน[FN:105]
+V3: คือบรรดาผู้ที่ดวงตาของพวกเขาถูกปกปิดจากการรำลึกถึงข้า และพวกเขาไม่สามารถจะได้ยิน
+EN1 (Saheeh): Those whose eyes had been within a cover [removed] from My remembrance, and they were not able to hear.
+EN2 (Hilali-Khan): (To) those whose eyes had been under a covering from My Reminder (this Qur’ân), and who could not bear to hear (it).
+FN[105]: คือบรรดาผู้ที่ (ในโลกดุนยา) ดวงตาของเขาบอด ไม่พิจารณาใคร่ครวญถึงหลักฐานต่าง ๆ แห่งเดชานุภาพของอัลลอฮฺ และความเป็นเอกภาพของพระองค์ และไม่สามารถจะรับฟังพจนารถของอัลลอฮฺ ตะอาลา เพราะความมืดของหัวใจของพวกเขา
+--------------------------------------------------------------------------------
+[18:102]
+AR: أَفَحَسِبَ ٱلَّذِينَ كَفَرُوٓاْ أَن يَتَّخِذُواْ عِبَادِي مِن دُونِيٓ أَوۡلِيَآءَۚ إِنَّآ أَعۡتَدۡنَا جَهَنَّمَ لِلۡكَٰفِرِينَ نُزُلٗا
+V4: บรรดาผู้ปฏิเสธศรัทธาได้คิดแล้วหรือว่า พวกเขาจะยึดเอาปวงบ่าวของข้าอื่นจากข้าเป็นผู้คุ้มครองได้[FN:106] แท้จริง เราได้เตรียมนรกญะฮันนัมไว้เป็นที่พำนัก สำหรับบรรดาผู้ปฏิเสธศรัทธาแล้ว
+V3: บรรดาผู้ปฏิเสธศรัทธาได้คิดแล้วหรือว่า พวกเขาจะยึดเอาปวงบ่าวของข้าอื่นจากข้าเป็นผู้คุ้มครองได้ แท้จริง เราได้เตรียมนรกญะฮันนัมไว้เป็นที่พำนัก สำหรับบรรดาผู้ปฏิเสธศรัทธาแล้ว
+EN1 (Saheeh): Then do those who disbelieve think that they can take My servants instead of Me as allies? Indeed, We have prepared Hell for the disbelievers as a lodging.
+EN2 (Hilali-Khan): Do then those who disbelieved think that they can take My slaves [i.e., the angels, Allâh’s Messengers, ‘Îsâ (Jesus), son of Maryam (Mary)] as Auliyâ’ (lords, gods, protectors) besides Me? Verily, We have prepared Hell as an entertainment for the disbelievers (in the Oneness of Allâh - Islâmic Monotheism).
+FN[106]: ปวงบ่าวของข้าอื่นจากข้า เช่น มลาอิกะฮฺ อุไซร์ และมะซีหฺอิบนุมัรฺยัม เป็นต้น
+--------------------------------------------------------------------------------
+[18:103]
+AR: قُلۡ هَلۡ نُنَبِّئُكُم بِٱلۡأَخۡسَرِينَ أَعۡمَٰلًا
+V4: จงกล่าวเถิดมุฮัมมัด “เราจะแจ้งแก่พวกท่านไหม ถึงบรรดาผู้ที่ขาดทุนยิ่งในการงาน?”
+V3: จงกล่าวเถิด (มุฮัมมัด) เราจะแจ้งแก่พวกท่านไหม ถึงบรรดาผู้ที่ขาดทุนยิ่งในการงาน
+EN1 (Saheeh): Say, [O Muḥammad], "Shall we [believers] inform you of the greatest losers as to [their] deeds?
+EN2 (Hilali-Khan): Say (O Muhammad صلى الله عليه وسلم): "Shall We tell you the greatest losers in respect of (their) deeds?
+--------------------------------------------------------------------------------
+[18:104]
+AR: ٱلَّذِينَ ضَلَّ سَعۡيُهُمۡ فِي ٱلۡحَيَوٰةِ ٱلدُّنۡيَا وَهُمۡ يَحۡسَبُونَ أَنَّهُمۡ يُحۡسِنُونَ صُنۡعًا
+V4: “คือบรรดาผู้ที่การขวนขวายของพวกเขาสูญสิ้นไปในการมีชีวิตในโลกนี้[FN:107] และพวกเขาคิดว่า แท้จริงพวกเขาปฏิบัติความดีแล้ว”
+V3: คือบรรดาผู้ที่การขวนขวายของพวกเขาสูญสิ้นไปในการมีชีวิตในโลกนี้ และพวกเขาคิดว่า แท้จริงพวกเขาปฏิบัติความดีแล้ว
+EN1 (Saheeh): [They are] those whose effort is lost in worldly life, while they think that they are doing well in work."
+EN2 (Hilali-Khan): "Those whose efforts have been wasted in this life while they thought that they were acquiring good by their deeds.
+FN[107]: คือการงานของพวกเขาเป็นโมฆะ และสูญหายในการมีชีวิตอยู่ในโลกนี้ เพราะการปฏิเสธศรัทธากับการจงรักภักดีจะอยู่ร่วมกันไม่ได้
+--------------------------------------------------------------------------------
+[18:105]
+AR: أُوْلَٰٓئِكَ ٱلَّذِينَ كَفَرُواْ بِـَٔايَٰتِ رَبِّهِمۡ وَلِقَآئِهِۦ فَحَبِطَتۡ أَعۡمَٰلُهُمۡ فَلَا نُقِيمُ لَهُمۡ يَوۡمَ ٱلۡقِيَٰمَةِ وَزۡنٗا
+V4: เขาเหล่านั้นคือบรรดาผู้ปฏิเสธศรัทธาต่อโองการทั้งหลายของพระผู้อภิบาลของพวกเขา[FN:108] และการพบกับพระองค์ ดังนั้น การงานของพวกเขาจึงไร้ผล และในวันกิยามะฮฺเราจะไม่ให้มันมีค่าแก่พวกเขาเลย[FN:109]
+V3: เขาเหล่านั้นคือบรรดาผู้ปฏิเสธศรัทธาต่อโองการทั้งหลายของพระผู้เป็นเจ้าของพวกเขา และการพบปะกับพระองค์ ดังนั้น การงานของพวกเขาจึงไร้ผล และในวันกิยามะฮฺเราจะไม่ให้มันมีค่าแก่พวกเขาเลย
+EN1 (Saheeh): Those are the ones who disbelieve in the verses of their Lord and in [their] meeting Him, so their deeds have become worthless; and We will not assign to them on the Day of Resurrection any weight [i.e., importance].
+EN2 (Hilali-Khan): "They are those who deny the Ayât (proofs, evidence, verses, lessons, signs, revelations, etc.) of their Lord and the Meeting with Him (in the Hereafter). So their works are in vain, and on the Day of Resurrection, We shall assign no weight for them.
+FN[108]: คือปฏิเสธศรัทธาต่ออัลกุรอาน ต่อวันฟื้นคืนชีพ
+FN[109]: พวกเขาจะไม่มีคุณค่าและน้ำหนักอย่างใดเลย ณ ที่อัลลอฮฺ
+--------------------------------------------------------------------------------
+[18:106]
+AR: ذَٰلِكَ جَزَآؤُهُمۡ جَهَنَّمُ بِمَا كَفَرُواْ وَٱتَّخَذُوٓاْ ءَايَٰتِي وَرُسُلِي هُزُوًا
+V4: นั่นแหละการตอบแทนของพวกเขาคือนรกญะฮันนัม เนื่องจากพวกเขาปฏิเสธศรัทธา และพวกเขายึดเอาโองการทั้งหลายของข้า และบรรดารอซูลของข้า เป็นที่ล้อเลียน
+V3: นั่นแหละการตอบแทนของพวกเขาคือนรกญะฮันนัม เนื่องจากพวกเขาปฏิเสธศรัทธา และพวกเขายึดเอาโองการทั้งหลายของข้า และบรรดารอซูลของข้า เป็นที่ล้อเลียน
+EN1 (Saheeh): That is their recompense - Hell - for what they denied and [because] they took My signs and My messengers in ridicule.
+EN2 (Hilali-Khan): "That shall be their recompense, Hell; because they disbelieved and took My Ayât (proofs, evidence, verses, lessons, signs, revelations, etc.) and My Messengers by way of jest and mockery.
+--------------------------------------------------------------------------------
+[18:107]
+AR: إِنَّ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ كَانَتۡ لَهُمۡ جَنَّٰتُ ٱلۡفِرۡدَوۡسِ نُزُلًا
+V4: แท้จริงบรรดาผู้ศรัทธาและปฏิบัติความดี สำหรับพวกเขานั้นคือสวนสวรรค์ชั้นฟิรเดาสฺ เป็นที่พำนัก[FN:110]
+V3: แท้จริงบรรดาผู้ศรัทธาและปฏิบัติความดี สำหรับพวกเขานั้นคือสวนสวรรค์ชั้นฟิรเดาสฺ เป็นที่พำนัก
+EN1 (Saheeh): Indeed, those who have believed and done righteous deeds - they will have the Gardens of Paradise as a lodging,
+EN2 (Hilali-Khan): "Verily those who believe (in the Oneness of Allâh - Islâmic Monotheism) and do righteous deeds, shall have the Gardens of Al-Firdaus (Paradise) for their entertainment.
+FN[110]: คือสวรรค์ชั้นสูงสุดและยอดเยี่ยมที่สุด
+--------------------------------------------------------------------------------
+[18:108]
+AR: خَٰلِدِينَ فِيهَا لَا يَبۡغُونَ عَنۡهَا حِوَلٗا
+V4: พวกเขาพำนักอย่างถาวรอยู่ในนั้น พวกเขาไม่ประสงค์จะเปลี่ยนที่จากมัน
+V3: พวกเขาพำนักอย่างถาวรอยู่ในนั้น พวกเขาไม่ประสงค์จะเปลี่ยนที่จากมัน
+EN1 (Saheeh): Wherein they abide eternally. They will not desire from it any transfer.
+EN2 (Hilali-Khan): "Wherein they shall dwell (forever). No desire will they have for removal therefrom."
+--------------------------------------------------------------------------------
+[18:109]
+AR: قُل لَّوۡ كَانَ ٱلۡبَحۡرُ مِدَادٗا لِّكَلِمَٰتِ رَبِّي لَنَفِدَ ٱلۡبَحۡرُ قَبۡلَ أَن تَنفَدَ كَلِمَٰتُ رَبِّي وَلَوۡ جِئۡنَا بِمِثۡلِهِۦ مَدَدٗا
+V4: จงกล่าวเถิดมุฮัมมัด “หากว่าทะเลเป็นน้ำหมึกสำหรับบันทึกพจนารถของพระผู้อภิบาลของฉัน แน่นอน ทะเลจะเหือดแห้งก่อนที่คำกล่าวของพระผู้อภิบาลของฉันหมดสิ้นไป และแม้ว่าเราจะนำมันเยี่ยงนั้นมาเป็นน้ำหมึกอีกก็ตาม[FN:111]
+V3: จงกล่าวเถิด (มุฮัมมัด) หากว่าทะเลเป็นน้ำหมึกสำหรับบันทึกพจนารถของพระผู้เป็นเจ้าของฉัน แน่นอน ทะเลจะเหือดแห้งก่อนที่คำกล่าวของพระผู้เป็นเจ้าของฉันหมดสิ้นไป และแม้ว่าเราจะนำมันเยี่ยงนั้นมาเป็นน้ำหมึกอีกก็ตาม
+EN1 (Saheeh): Say, "If the sea were ink for [writing] the words of my Lord, the sea would be exhausted before the words of my Lord were exhausted, even if We brought the like of it in [continual] supplement."
+EN2 (Hilali-Khan): Say (O Muhammad صلى الله عليه وسلم to mankind): "If the sea were ink for (writing) the Words of my Lord, surely, the sea would be exhausted before the Words of my Lord would be finished, even if We brought (another sea) like it for its aid."
+FN[111]: ถึงแม้ว่าจะนำน้ำทะเลซึ่งเปรียบเทียบเป็นน้ำหมึกมาเพิ่มขึ้นอีกกี่เท่าตัวก็ตาม ก็ไม่สามารถบันทึกคำกล่าวหรือพจนารถของพระองค์ให้หมดได้
+--------------------------------------------------------------------------------
+[18:110]
+AR: قُلۡ إِنَّمَآ أَنَا۠ بَشَرٞ مِّثۡلُكُمۡ يُوحَىٰٓ إِلَيَّ أَنَّمَآ إِلَٰهُكُمۡ إِلَٰهٞ وَٰحِدٞۖ فَمَن كَانَ يَرۡجُواْ لِقَآءَ رَبِّهِۦ فَلۡيَعۡمَلۡ عَمَلٗا صَٰلِحٗا وَلَا يُشۡرِكۡ بِعِبَادَةِ رَبِّهِۦٓ أَحَدَۢا
+V4: จงกล่าวเถิดมุฮัมมัด “แท้จริงฉันเป็นเพียงสามัญชนคนหนึ่งเยี่ยงพวกท่าน มีวะฮียฺแก่ฉันว่า แท้จริงพระเจ้าของพวกท่านนั้นคือพระเจ้าองค์เดียว ดังนั้นผู้ใดหวังที่จะพบพระผู้เป็นเจ้าของเขา[FN:112] ก็ให้เขาประกอบการงานที่ดี[FN:113] และอย่าตั้งผู้ใดเป็นภาคีในการเคารพภักดีต่อพระผู้เป็นเจ้าของเขาเลย”[FN:114]
+V3: จงกล่าวเถิด (มุฮัมมัด) แท้จริงฉันเป็นเพียงสามัญชนคนหนึ่งเยี่ยงพวกท่าน มีวะฮียฺแก่ฉันว่า แท้จริงพระเจ้าของพวกท่านนั้นคือพระเจ้าองค์เดียว ดังนั้นผู้ใดหวังที่จะพบพระผู้เป็นเจ้าของเขา ก็ให้เขาประกอบการงานที่ดี และอย่าตั้งผู้ใดเป็นภาคีในการเคารพภักดีต่อพระผู้เป็นเจ้าของเขาเลย
+EN1 (Saheeh): Say, "I am only a man like you, to whom has been revealed that your god is one God. So whoever would hope for the meeting with his Lord - let him do righteous work and not associate in the worship of his Lord anyone."
+EN2 (Hilali-Khan): Say (O Muhammad صلى الله عليه وسلم): "I am only a man like you. It has been revealed to me that your Ilâh (God) is One Ilâh (God - i.e. Allâh). So whoever hopes for the Meeting with his Lord, let him work righteousness and associate none as a partner in the worship of his Lord."
+FN[112]: หวังที่จะได้รับผลบุญการตอนแทน และกลัวการลงโทษของพระองค์
+FN[113]: คือให้ความบริสุทธิ์ในการอิบาดะฮฺต่อพระองค์
+FN[114]: คืออย่างอวดอ้างผลงานของเขา และอย่างหวังในสิ่งที่เขาได้กระทำไปเพื่อใครอื่น นอกจากเพื่อพระพักตร์ของอัลลอฮฺ และเพื่อความโปรดปรานของพระองค์
+--------------------------------------------------------------------------------

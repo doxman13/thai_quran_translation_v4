@@ -6,7 +6,6 @@ CRITICAL AUDIT INSTRUCTIONS (RULE ZERO: NO OVERKILL):
 2. Output verified fixes in strict JSON format: [{"ayah": "S:A", "type": "...", "target": "...", "replacement": "...", "reason": "..."}]
 3. If an ayah is accurate and readable, do NOT touch it.
 ================================================================================
-
 [21:1]
 AR: ٱقۡتَرَبَ لِلنَّاسِ حِسَابُهُمۡ وَهُمۡ فِي غَفۡلَةٖ مُّعۡرِضُونَ
 V4: เวลาแห่งการคิดบัญชีของมนุษย์ได้ใกล้เข้ามาแล้ว โดยที่พวกเขาอยู่ในสภาพหลงลืม[FN:1] เป็นผู้ผินหลังให้

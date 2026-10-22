@@ -6,7 +6,6 @@ CRITICAL AUDIT INSTRUCTIONS (RULE ZERO: NO OVERKILL):
 2. Output verified fixes in strict JSON format: [{"ayah": "S:A", "type": "...", "target": "...", "replacement": "...", "reason": "..."}]
 3. If an ayah is accurate and readable, do NOT touch it.
 ================================================================================
-
 [4:148]
 AR: ۞ لَّا يُحِبُّ ٱللَّهُ ٱلۡجَهۡرَ بِٱلسُّوٓءِ مِنَ ٱلۡقَوۡلِ إِلَّا مَن ظُلِمَۚ وَكَانَ ٱللَّهُ سَمِيعًا عَلِيمًا
 V4: อัลลอฮฺไม่ทรงชอบการใช้เสียงดังในถ้อยคำที่เลวร้าย[FN:342] นอกจากผู้ที่ถูกข่มเหง[FN:343] และอัลลอฮฺเป็นผู้ทรงได้ยิน ทรงรอบรู้

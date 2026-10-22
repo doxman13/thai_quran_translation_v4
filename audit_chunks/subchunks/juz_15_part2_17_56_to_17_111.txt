@@ -1,0 +1,470 @@
+=== THAIQURAN V4 AUDIT CHUNK: JUZ_15_PART2_17_56_TO_17_111 ===
+Verses in this chunk: 56 (17:56 to 17:111)
+
+CRITICAL AUDIT INSTRUCTIONS (RULE ZERO: NO OVERKILL):
+1. DO NOT rewrite sentences. Only propose fixes for (1) Spacing & Cadence, (2) Spelling & Transliteration, (3) Critical/Theological error.
+2. Output verified fixes in strict JSON format: [{"ayah": "S:A", "type": "...", "target": "...", "replacement": "...", "reason": "..."}]
+3. If an ayah is accurate and readable, do NOT touch it.
+================================================================================
+[17:56]
+AR: قُلِ ٱدۡعُواْ ٱلَّذِينَ زَعَمۡتُم مِّن دُونِهِۦ فَلَا يَمۡلِكُونَ كَشۡفَ ٱلضُّرِّ عَنكُمۡ وَلَا تَحۡوِيلًا
+V4: จงกล่าวเถิดมุฮัมมัด “พวกท่านจงวิงวอนบรรดาสิ่งที่พวกท่านกล่าวอ้างอื่นจากพระองค์[FN:61] พวกมันไม่มีอำนาจที่จะปลดเปลื้องความทุกข์ยากและเปลี่ยนแปลงมันจากพวกท่านได้”
+V3: จงกล่าวเถิด (มุฮัมมัด) พวกท่านจงเรียกร้องบรรดาสิ่งที่พวกท่านกล่าวอ้างอื่นจากพระองค์ พวกมันไม่มีอำนาจที่จะปลดเปลื้องความทุกข์ยากและเปลี่ยนแปลงมันจากพวกท่านได้
+EN1 (Saheeh): Say, "Invoke those you have claimed [as gods] besides Him, for they do not possess the [ability for] removal of adversity from you or [for its] transfer [to someone else]."
+EN2 (Hilali-Khan): Say (O Muhammad صلى الله عليه و سلم): "Call upon those - besides Him - whom you pretend [to be gods like angels, ‘Îsâ (Jesus), ‘Uzair (Ezra), and others.]. They have neither the power to remove the adversity from you nor even to shift it from you to another person."
+FN[61]: คือพระเจ้าหลายองค์หรือเจว็ด อัลหะซันกล่าวว่า หมายถึงมลาอิกะฮฺ อีซาและอุซัยรฺ เพราะพวกเขากล่าวว่า เหล่านั้นสามารถช่วยเหลือพวกเขาได้ ณ ที่อัลลอฮฺ
+--------------------------------------------------------------------------------
+[17:57]
+AR: أُوْلَٰٓئِكَ ٱلَّذِينَ يَدۡعُونَ يَبۡتَغُونَ إِلَىٰ رَبِّهِمُ ٱلۡوَسِيلَةَ أَيُّهُمۡ أَقۡرَبُ وَيَرۡجُونَ رَحۡمَتَهُۥ وَيَخَافُونَ عَذَابَهُۥٓۚ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحۡذُورٗا
+V4: เหล่านั้นที่พวกเขาวิงวอนนั้น พวกมันก็ยังหวังที่จะหาทางเข้าสู่พระผู้อภิบาลของพวกมันว่า ผู้ใดในหมู่พวกมันจะเข้าใกล้ที่สุด และพวกมันยังหวังในความเมตตาของพระองค์ และกลัวการลงโทษของพระองค์ แท้จริงการลงโทษของพระผู้อภิบาลของเจ้านั้นควรน่าระวัง[FN:62]
+V3: เหล่านั้นที่พวกเขาวิงวอนนั้น พวกมันก็ยังหวังที่จะหาทางเข้าสู่พระเจ้าของพวกมันว่า ผู้ใดในหมู่พวกมันจะเข้าใกล้ที่สุด และพวกมันยังหวังในความเมตตาของพระองค์ และกลัวการลงโทษของพระองค์ แท้จริงการลงโทษของพระเจ้าของเจ้านั้นควรน่าระวัง
+EN1 (Saheeh): Those whom they invoke seek means of access to their Lord, [striving as to] which of them would be nearest, and they hope for His mercy and fear His punishment. Indeed, the punishment of your Lord is ever feared.
+EN2 (Hilali-Khan): Those whom they call upon [like ‘Îsâ (Jesus) - son of Maryam (Mary), ‘Uzair (Ezra), angel] desire (for themselves) means of access to their Lord (Allâh), as to which of them should be the nearest; and they [‘Îsâ (Jesus), ‘Uzair (Ezra), angels and others] hope for His Mercy and fear His Torment. Verily, the Torment of your Lord is (something) to be afraid of!
+FN[62]: บรรดาพระเจ้าหรือเจว็ดเหล่านั้น พวกมันเองก็ยังวิ่งเข้าหาพระเจ้าของมัน เพื่อหวังในความโปรดปรานของพระองค์ เพราะพวกมันกลัวการลงโทษของพระองค์ แต่ทำไมเล่าพวกเขาจึงเคารพบูชา และวิงวอนขอความช่วยเหลือจากมัน
+--------------------------------------------------------------------------------
+[17:58]
+AR: وَإِن مِّن قَرۡيَةٍ إِلَّا نَحۡنُ مُهۡلِكُوهَا قَبۡلَ يَوۡمِ ٱلۡقِيَٰمَةِ أَوۡ مُعَذِّبُوهَا عَذَابٗا شَدِيدٗاۚ كَانَ ذَٰلِكَ فِي ٱلۡكِتَٰبِ مَسۡطُورٗا
+V4: และไม่มีหมู่บ้านใดเว้นแต่เราเป็นผู้ทำลายมันก่อนถึงวันกิยามะฮฺ หรือเป็นผู้ลงโทษมันด้วยการลงโทษอย่างสาหัส[FN:63] นั่นมันได้ถูกบันทึกไว้แล้วในบันทึก
+V3: และไม่มีหมู่บ้านใดเว้นแต่เราเป็นผู้ทำลายมันก่อนถึงวันกิยามะฮฺ หรือเป็นผู้ลงโทษมันด้วยการลงโทษอย่างสาหัส นั่นมันได้ถูกบันทึกไว้แล้วในบันทึก
+EN1 (Saheeh): And there is no city but that We will destroy it before the Day of Resurrection or punish it with a severe punishment. That has ever been in the Register inscribed.
+EN2 (Hilali-Khan): And there is not a town (population) but We shall destroy it before the Day of Resurrection, or punish it with a severe torment. That is written in the Book (of Our Decrees)
+FN[63]: คือจะถูกทำลายอย่างถอนรากถอนโคน หรือชาวเมืองผู้ดื้อดึงฝ่าฝืนจะถูกลงโทษเป็นราย ๆ ไป
+--------------------------------------------------------------------------------
+[17:59]
+AR: وَمَا مَنَعَنَآ أَن نُّرۡسِلَ بِٱلۡأٓيَٰتِ إِلَّآ أَن كَذَّبَ بِهَا ٱلۡأَوَّلُونَۚ وَءَاتَيۡنَا ثَمُودَ ٱلنَّاقَةَ مُبۡصِرَةٗ فَظَلَمُواْ بِهَاۚ وَمَا نُرۡسِلُ بِٱلۡأٓيَٰتِ إِلَّا تَخۡوِيفٗا
+V4: ไม่มีสิ่งใดยับยั้งเราโดยที่เราจะส่งสัญญาณต่าง ๆ เว้นแต่ว่าพวกสมัยก่อน ๆ ได้ปฏิเสธมัน[FN:64] และเราได้ให้อูฐตัวเมียเป็นที่ประจักษ์แจ้งแก่พวกษะมูด[FN:65] แต่พวกเขาได้ทารุณมัน และเรามิได้ส่งสัญญาณต่าง ๆ เพื่ออื่นใด เว้นแต่เพื่อเป็นการเตือนสำทับเท่านั้น
+V3: ไม่มีสิ่งใดยับยั้งเราโดยที่เราจะส่งสัญญาณต่าง ๆ เว้นแต่ว่าพวกสมัยก่อน ๆ ได้ปฏิเสธมัน และเราได้ให้อูฐตัวเมียเป็นที่ประจักษ์แจ้งแก่พวกษะมูด แต่พวกเขาได้ทารุณมัน และเรามิได้ส่งสัญญาณต่าง ๆ เพื่ออื่นใด เว้นแต่เพื่อเป็นการเตือนสำทับเท่านั้น
+EN1 (Saheeh): And nothing has prevented Us from sending signs [i.e., miracles] except that the former peoples denied them. And We gave Thamūd the she-camel as a visible sign, but they wronged her. And We send not the signs except as a warning.
+EN2 (Hilali-Khan): And nothing stops Us from sending the Ayât (proofs, evidence, signs) but that the people of old denied them. And We sent the she-camel to Thamûd as a clear sign, but they did her wrong. And We sent not the signs except to warn, and to make them afraid (of destruction).
+FN[64]: บรรดานักตัฟซีรกล่าวว่า พวกมุชริกีนได้ขอร้องให้ท่านรอซูลุลลอฮฺ ศ็อลลัลลอฮุอะลัยฮิวะซัลลัม นำปาฏิหาริย์ต่าง ๆ มา เช่น ขอให้ภูเขาศ่อฟาเป็นทอง และขอให้ภูเขามากหลายนั้นกลายเป็นที่ราบเรียบ อัลลอฮฺ ตะอาลา จึงบอกพวกเขาว่า หากพระองค์ทรงตอบรับสิ่งที่พวกเขาขอร้องนั้น แล้วพวกเขาไม่ยอมศรัทธา ก็เป็นการสมควรที่จะถูกลงโทษอย่างถอนรากถอนโคน แต่ด้วยหิกมะฮฺของพระองค์ พระองค์จึงผ่อนผัน ประวิงเวลาให้พวกเขา เพราะพระองค์ทรงรู้ดีว่า แน่นอนจะมีบางคนในหมู่พวกเขาและลูกหลานของพวกเขาศรัทธาต่อพระองค์ ด้วยเหตุนี้พระองค์จึงไม่ตอบรับข้อเรียกร้องของพวกเขา
+FN[65]: คือพระองค์ได้ส่งอูฐตัวเมียมาให้ชนชาติของนบีศอและฮฺ เป็นการแสดงถึงสัญญาณอันแจ้งชัดหรือปาฏิหาริย์อันเด่นชัด แต่พวกเขาได้ฆ่าทารุณมัน
+--------------------------------------------------------------------------------
+[17:60]
+AR: وَإِذۡ قُلۡنَا لَكَ إِنَّ رَبَّكَ أَحَاطَ بِٱلنَّاسِۚ وَمَا جَعَلۡنَا ٱلرُّءۡيَا ٱلَّتِيٓ أَرَيۡنَٰكَ إِلَّا فِتۡنَةٗ لِّلنَّاسِ وَٱلشَّجَرَةَ ٱلۡمَلۡعُونَةَ فِي ٱلۡقُرۡءَانِۚ وَنُخَوِّفُهُمۡ فَمَا يَزِيدُهُمۡ إِلَّا طُغۡيَٰنٗا كَبِيرٗا
+V4: และจงรำลึกเมื่อเรากล่าวแก่เจ้าว่า แท้จริงพระผู้อภิบาลของเจ้าทรงรอบรู้ในเรื่องของมนุษย์ และมิได้ทำให้การฝันซึ่งเราได้เจ้าเห็นเพื่ออื่นใด เว้นแต่เพื่อเป็นการทดสอบแก่มนุษย์[FN:66] และต้นไม้ (ซักกูม) ที่ถูกสาปในอัลกุรอาน และเราได้ทำให้พวกเขาหวาดกลัว ดังนั้นมันมิได้เพิ่มสิ่งใดแก่พวกเขา นอกจากการดื้อรั้นมาก[FN:67]
+V3: และจงรำลึกเมื่อเรากล่าวแก่เจ้าว่า แท้จริงพระเจ้าของเจ้าทรงรอบรู้ในเรื่องของมนุษย์ และเรามิได้ทำให้การฝันซึ่งเราได้ให้เจ้าเห็นเพื่ออื่นใด เว้นแต่เพื่อเป็นการทดสอบแก่มนุษย์ และต้นไม้ (ซักกูม) ที่ถูกสาปในอัลกุรอาน และเราได้ทำให้พวกเขาหวาดกลัว ดังนั้นมันมิได้เพิ่มสิ่งใดแก่พวกเขา นอกจากการดื้อรั้นมาก
+EN1 (Saheeh): And [remember, O Muḥammad], when We told you, "Indeed, your Lord has encompassed the people." And We did not make the sight which We showed you except as a trial for the people, as was the accursed tree [mentioned] in the Qur’ān. And We threaten [i.e., warn] them, but it increases them not except in great transgression.
+EN2 (Hilali-Khan): And (remember) when We told you: "Verily! Your Lord has encompassed mankind (i.e. they are in His Grip)." And We made not the vision which we showed you (O Muhammad as an actual eye-witness and not as a dream on the night of Al-Isrâ’) but a trial for mankind, and (likewise) the accursed tree (Zaqqûm, mentioned) in the Qur’ân. We warn and make them afraid but it only increases them in naught save great disbelief, oppression and disobedience to Allâh.
+FN[66]: คือการที่พระองค์ทรงให้ท่านนบีมุฮัมมัด ศ็อลลัลลอฮุอะลัยฮิวะซัลลัม ได้เห็นด้วยตาของท่านเองในคืนอัลเมียะอ์ราจญ์ซึ่งสิ่งประหลาดมากหลายบนแผ่นดินและชั้นฟ้า ทั้งนี้ก็เพื่อเป็นการทดสอบการอีมานของชาวมักกะฮฺนั่นเอง
+FN[67]: พระองค์ทรงเตือน พวกมุชริกีนด้วยการลงโทษนานาชนิด แต่พวกเขาก็หาได้เข็ดหลาบหรือสำนึกตัวไม่ หากแต่พวกเขากลับทวีความดื้อรั้นและความยโสมากขึ้น
+--------------------------------------------------------------------------------
+[17:61]
+AR: وَإِذۡ قُلۡنَا لِلۡمَلَٰٓئِكَةِ ٱسۡجُدُواْ لِأٓدَمَ فَسَجَدُوٓاْ إِلَّآ إِبۡلِيسَ قَالَ ءَأَسۡجُدُ لِمَنۡ خَلَقۡتَ طِينٗا
+V4: และจงรำลึกเมื่อเรากล่าวแก่มลาอิกะฮฺว่า “จงสุญูดต่ออาดัม”[FN:68] ดังนั้นพวกเขาได้สุญูดเว้นแต่อิบลีส มันกล่าวว่า “ฉันจะสุญูดต่อผู้ที่พระองค์ทรงสร้างจากดินกระนั้นหรือ ?”
+V3: และจงรำลึกเมื่อเรากล่าวแก่มลาอิกะฮฺว่า จงสุญูดต่ออาดัม ดังนั้นพวกเขาได้สุญูดเว้นแต่อิบลีส มันกล่าวว่า ฉันจะสุญูดต่อผู้ที่พระองค์ทรงสร้างจากดินกระนั้นหรือ
+EN1 (Saheeh): And [mention] when We said to the angels, "Prostrate to Adam," and they prostrated, except for Iblees. He said, "Should I prostrate to one You created from clay?"
+EN2 (Hilali-Khan): And (remember) when We said to the angels: "Prostrate yourselves unto Adam." They prostrated themselves except Iblîs (Satan). He said: "Shall I prostrate myself to one whom You created from clay?"
+FN[68]: เป็นการสุญูดเพื่อให้เกียรติ มิใช่สุญูดอิบาดะฮฺ
+--------------------------------------------------------------------------------
+[17:62]
+AR: قَالَ أَرَءَيۡتَكَ هَٰذَا ٱلَّذِي كَرَّمۡتَ عَلَيَّ لَئِنۡ أَخَّرۡتَنِ إِلَىٰ يَوۡمِ ٱلۡقِيَٰمَةِ لَأَحۡتَنِكَنَّ ذُرِّيَّتَهُۥٓ إِلَّا قَلِيلٗا
+V4: มันกล่าวว่า “พระองค์ทรงเห็นแล้วมิใช่หรือ เขาผู้นี้ที่พระองค์ทรงให้เกียรติมากกว่าฉัน หากพระองค์ทรงโปรดประวิงเวลาแก่ฉันจนถึงวันกิยามะฮฺ แน่นอนฉันจะทำลายล้างลูกหลานของเขาให้หมดสิ้น เว้นแต่เพียงเล็กน้อย”
+V3: มันกล่าวว่า พระองค์ทรงเห็นแล้วมิใช่หรือ เขาผู้นี้ที่พระองค์ทรงให้เกียรติมากกว่าฉัน หากพระองค์โปรดประวิงเวลาแก่ฉันจนถึงวันกิยามะฮฺ แน่นอนฉันจะทำลายล้างลูกหลานของเขาให้หมดสิ้น เว้นแต่เพียงเล็กน้อย
+EN1 (Saheeh): [Iblees] said, "Do You see this one whom You have honored above me? If You delay me [i.e., my death] until the Day of Resurrection, I will surely destroy his descendants, except for a few."
+EN2 (Hilali-Khan): [Iblîs (Satan)] said: "See this one whom You have honoured above me, if You give me respite (keep me alive) to the Day of Resurrection, I will surely seize and mislead his offspring (by sending them astray) all but a few!"
+--------------------------------------------------------------------------------
+[17:63]
+AR: قَالَ ٱذۡهَبۡ فَمَن تَبِعَكَ مِنۡهُمۡ فَإِنَّ جَهَنَّمَ جَزَآؤُكُمۡ جَزَآءٗ مَّوۡفُورٗا
+V4: พระองค์ตรัสว่า “เจ้าจงไปให้พ้น[FN:69] ดังนั้นผู้ใดในหมู่พวกเขาปฏิบัติตามเจ้า แท้จริงนรกคือการตอบแทนของพวกเจ้า เป็นการตอบแทนที่สมบูรณ์”
+V3: พระองค์ตรัสว่า เจ้าจงไปให้พ้น ดังนั้นผู้ใดในหมู่พวกเขาปฏิบัติตามเจ้า แท้จริงนรกคือการตอบแทนของพวกเจ้า เป็นการตอบแทนที่สมบูรณ์
+EN1 (Saheeh): [Allāh] said, "Go, for whoever of them follows you, indeed Hell will be the recompense of [all of] you - an ample recompense.
+EN2 (Hilali-Khan): (Allâh) said: "Go, and whosoever of them follows you, surely Hell will be the recompense of you (all) - an ample recompense.
+FN[69]: เป็นสำนวนขับไล่ที่จะลดเกียรติของผู้ถูกขับไล่
+--------------------------------------------------------------------------------
+[17:64]
+AR: وَٱسۡتَفۡزِزۡ مَنِ ٱسۡتَطَعۡتَ مِنۡهُم بِصَوۡتِكَ وَأَجۡلِبۡ عَلَيۡهِم بِخَيۡلِكَ وَرَجِلِكَ وَشَارِكۡهُمۡ فِي ٱلۡأَمۡوَٰلِ وَٱلۡأَوۡلَٰدِ وَعِدۡهُمۡۚ وَمَا يَعِدُهُمُ ٱلشَّيۡطَٰنُ إِلَّا غُرُورًا
+V4: “และเจ้าจงยั่วยวนผู้ที่เจ้าสามารถทำให้เขาหลงในหมู่พวกเขาด้วยเสียงของเจ้า[FN:70] และชักชวนพวกเขาให้เห็นพ้องด้วยม้าของเจ้าและด้วยเท้าของเจ้า[FN:71] และจงร่วมกับพวกเขาในทรัพย์สินและลูกหลาน[FN:72] และจงสัญญาพวกเขา ”และชัยฏอนมิได้ให้สัญญาใด ๆ แก่พวกเขา เว้นแต่เป็นการหลอกลวงเท่านั้น[FN:73]
+V3: และเจ้าจงยั่วยวนผู้ที่เจ้าสามารถทำให้เขาหลงในหมู่พวกเขาด้วยเสียงของเจ้า และชักชวนพวกเขาให้เห็นพ้องด้วยด้วยม้าของเจ้าและด้วยเท้าของเจ้า และจงร่วมกับพวกเขาในทรัพย์สินและลูกหลาน และจงสัญญาพวกเขา และชัยฏอนมิได้ให้สัญญาใด ๆ แก่พวกเขา เว้นแต่เป็นการหลอกลวงเท่านั้น
+EN1 (Saheeh): And incite [to senselessness] whoever you can among them with your voice and assault them with your horses and foot soldiers and become a partner in their wealth and their children and promise them." But Satan does not promise them except delusion.
+EN2 (Hilali-Khan): "And befool them gradually those whom you can among them with your voice (i.e. songs, music, and any other call for Allâh’s disobedience), make assaults on them with your cavalry and your infantry, share with them wealth and children (by tempting them to earn money by illegal ways - usury, or by committing illegal sexual intercourse), and make promises to them." But Satan promises them nothing but deceit.
+FN[70]: คือล่อลวงให้เขาหลง อิบนุอับบาสกล่าวว่า ด้วยเสียงของมันคือการเรียกร้องเชิญชวนของมันทุกอย่าง ที่จะนำไปสู่การฝ่าฝืนอัลลอฮฺ ตะอาลา มุญาฮิดกล่าวว่า เสียงของมันคือเสียงเพลง เสียงดนตรี และการละเล่นต่าง ๆ
+FN[71]: การชักชวนของมันพร้อมด้วยลูกน้องและสมัครพรรคพวกของมัน จะโดยทางยานพาหนะหรือการเดินด้วยเท้าก็ตาม
+FN[72]: จงร่วมกับพวกเขา (หมายถึงมนุษย์) คือเป็นหุ้นส่วนกับพวกเขาในทรัพย์สิน สนับสนุนให้เขาแสวงหาอาชีพในทางทุจริตในทางหะรอมและใช้จ่ายไปในทางที่เป็นมะอ์ศิยัต ส่วนการเป็นหุ้นส่วนในลูกหลานก็คือ สนับสนุนให้มีการสังคมที่ปะปนกันระหว่างชายกับหญิง จนกระทั่งนำไปสู่การกระทำที่ไม่ถูกต้องตามบัญญัติศาสนา และเกิดลูกหลานจากการซินามากขึ้น
+FN[73]: คือสัญญาที่ยั่วยวนและให้ความหวังที่เลื่อนลอย เช่น สัญญาว่าพวกเจว็ดจะให้ความช่วยเหลือได้ สัญญาว่าจะร่ำรวยจากทรัพย์สินที่หะรอม ฯลฯ
+--------------------------------------------------------------------------------
+[17:65]
+AR: إِنَّ عِبَادِي لَيۡسَ لَكَ عَلَيۡهِمۡ سُلۡطَٰنٞۚ وَكَفَىٰ بِرَبِّكَ وَكِيلٗا
+V4: “แท้จริงปวงบ่าวของข้านั้น เจ้าไม่มีอำนาจใด ๆ เหนือพวกเขา และพอเพียงแล้วที่พระผู้อภิบาลของเจ้าเป็นผู้คุ้มครอง”[FN:74]
+V3: แท้จริงปวงบ่าวของข้านั้น เจ้าไม่มีอำนาจใด ๆ เหนือพวกเขา และพอเพียงแล้วที่พระเจ้าของเจ้าเป็นผู้คุ้มครอง
+EN1 (Saheeh): Indeed, over My [believing] servants there is for you no authority. And sufficient is your Lord as Disposer of affairs.
+EN2 (Hilali-Khan): "Verily, My slaves (i.e. the true believers of Islâmic Monotheism) - you have no authority over them. And All-Sufficient is your Lord as a Guardian."
+FN[74]: คือบ่าวของพระองค์ที่จงรักภักดีและมีความบริสุทธิ์ใจต่อพระองค์ เขาเหล่านั้น พวกชัยฏอนไม่มีอำนาจที่จะไปเกลี้ยกล่อมให้เป็นพวกของมันได้ เพราะพระองค์ทรงคุ้มครองรักษาพวกเขาอยู่
+--------------------------------------------------------------------------------
+[17:66]
+AR: رَّبُّكُمُ ٱلَّذِي يُزۡجِي لَكُمُ ٱلۡفُلۡكَ فِي ٱلۡبَحۡرِ لِتَبۡتَغُواْ مِن فَضۡلِهِۦٓۚ إِنَّهُۥ كَانَ بِكُمۡ رَحِيمٗا
+V4: พระผู้อภิบาลของพวกเจ้าคือผู้ทรงให้เรือแล่นตามท้องทะเล เพื่อพวกเจ้าจะได้แสวงหาความโปรดปรานของพระองค์[FN:75] แท้จริงพระองค์เป็นผู้ทรงเมตตาแก่พวกเจ้าเสมอ
+V3: พระเจ้าของพวกเจ้าคือผู้ทรงให้เรือแล่นตามท้องทะเล เพื่อพวกเจ้าจะได้แสวงหาความโปรดปรานของพระองค์ แท้จริงพระองค์เป็นผู้ทรงเมตตาแก่พวกเจ้าเสมอ
+EN1 (Saheeh): It is your Lord who drives the ship for you through the sea that you may seek of His bounty. Indeed, He is ever, to you, Merciful.
+EN2 (Hilali-Khan): Your Lord is He Who drives the ship for you through the sea, in order that you may seek of His Bounty. Truly He is Ever Most Merciful towards you.
+FN[75]: คือแสวงหาริซกีของเขาในการเดินทาง และการทำมาค้าขาย
+--------------------------------------------------------------------------------
+[17:67]
+AR: وَإِذَا مَسَّكُمُ ٱلضُّرُّ فِي ٱلۡبَحۡرِ ضَلَّ مَن تَدۡعُونَ إِلَّآ إِيَّاهُۖ فَلَمَّا نَجَّىٰكُمۡ إِلَى ٱلۡبَرِّ أَعۡرَضۡتُمۡۚ وَكَانَ ٱلۡإِنسَٰنُ كَفُورًا
+V4: และเมื่อทุกข์ภัยประสบแก่พวกเจ้าในท้องทะเล ผู้ที่พวกเจ้าวิงวอนขอก็จะสูญหายไปเว้นแต่พระองค์เท่านั้น[FN:76] ต่อมาเมื่อพระองค์ทรงช่วยให้พวกเจ้ารอดพ้นขึ้นบกพวกเจ้าก็หันหลังออกไป และมนุษย์นั้นเป็นผู้เนรคุณเสมอ[FN:77]
+V3: และเมื่อทุกขภัยประสบแก่พวกเจ้าในท้องทะเล ผู้ที่พวกเจ้าวิงวอนขอก็จะสูญหายไปเว้นแต่พระองค์เท่านั้น ต่อมาเมื่อพระองค์ทรงช่วยให้พวกเจ้ารอดพ้นขึ้นบกพวกเจ้าก็หันหลังออกไป และมนุษย์นั้นเป็นผู้เนรคุณเสมอ
+EN1 (Saheeh): And when adversity touches you at sea, lost are [all] those you invoke except for Him. But when He delivers you to the land, you turn away [from Him]. And ever is man ungrateful.
+EN2 (Hilali-Khan): And when harm touches you upon the sea, those that you call upon vanish from you except Him (Allâh Alone). But when He brings you safe to land, you turn away (from Him). And man is ever ungrateful.
+FN[76]: คือพวกเจว็ดที่พวกเขาเคารพบูชาอยู่ก็ได้หายไปจากความนึกคิดของพวกเขา ในสภาพเช่นนี้มนุษย์ไม่มีทางเลือกอื่นใดนอกจากหันหน้าเข้าหาอัลลอฮฺ ตะอาลา องค์เดียวเท่านั้น
+FN[77]: มนุษย์นั้นเนรคุณต่อความโปรดปรานแห่งพระผู้ทรงเมตตา
+--------------------------------------------------------------------------------
+[17:68]
+AR: أَفَأَمِنتُمۡ أَن يَخۡسِفَ بِكُمۡ جَانِبَ ٱلۡبَرِّ أَوۡ يُرۡسِلَ عَلَيۡكُمۡ حَاصِبٗا ثُمَّ لَا تَجِدُواْ لَكُمۡ وَكِيلًا
+V4: พวกเจ้าจะปลอดภัยละหรือ หากพระองค์จะทรงให้ริมฝั่งนั้นถล่มลงไปกับพวกเจ้า[FN:78] หรือจะทรงส่งลมหอบกรวดกระหน่ำลงมาใส่พวกเจ้า แล้วพวกเจ้าจะไม่พบผู้ใดเป็นผู้คุ้มครองพวกเจ้าเลย
+V3: พวกเจ้าจะปลอดภัยละหรือ หากพระองค์จะทรงให้ริมฝั่งนั้นถล่มลงไปกับพวกเจ้า หรือจะทรงส่งลมหอบกรวดกระหน่ำลงมาใส่พวกเจ้า แล้วพวกเจ้าจะไม่พบผู้ใดเป็นผู้คุ้มครองพวกเจ้าเลย
+EN1 (Saheeh): Then do you feel secure that [instead] He will not cause a part of the land to swallow you or send against you a storm of stones? Then you would not find for yourselves an advocate.
+EN2 (Hilali-Khan): Do you then feel secure that He will not cause a side of the land to swallow you up, or that He will not send against you a violent sand-storm? Then, you shall find no Wakîl (guardian - one to guard you from the torment).
+FN[78]: เมื่อพวกท่านรอดพ้นจากการจมน้ำตายในน่านน้ำ แล้วจะมาพบกับแผ่นดินสูบอีก ถ้าหากพระองค์ทรงประสงค์จะกระทำเช่นนั้น พวกท่านจะปลอดภัยละหรือ ?
+--------------------------------------------------------------------------------
+[17:69]
+AR: أَمۡ أَمِنتُمۡ أَن يُعِيدَكُمۡ فِيهِ تَارَةً أُخۡرَىٰ فَيُرۡسِلَ عَلَيۡكُمۡ قَاصِفٗا مِّنَ ٱلرِّيحِ فَيُغۡرِقَكُم بِمَا كَفَرۡتُمۡ ثُمَّ لَا تَجِدُواْ لَكُمۡ عَلَيۡنَا بِهِۦ تَبِيعٗا
+V4: หรือพวกเจ้าจะปลอดภัยละหรือ หากพระองค์จะทรงนำพวกเจ้ากลับไปในนั้นอีกครั้งหนึ่ง[FN:79] แล้วทรงส่งลมพายุร้ายกระหน่ำพวกเจ้า แล้วให้พวกเจ้าจมน้ำตายเพราะพวกเจ้าเนรคุณ หลังจากนั้นพวกเจ้าก็จะไม่พบผู้ใดแก้แค้นแทนเรา
+V3: หรือพวกเจ้าจะปลอดภัยละหรือ หากพระองค์จะทรงนำพวกเจ้ากลับไปในนั้นอีกครั้งหนึ่ง แล้วทรงส่งลมพายุร้ายกระหน่ำพวกเจ้า แล้วให้พวกเจ้าจมน้ำตายเพราะพวกเจ้าเนรคุณ หลังจากนั้นพวกเจ้าก็จะไม่พบผู้ใดแก้แค้นแทนเรา
+EN1 (Saheeh): Or do you feel secure that He will not send you back into it [i.e., the sea] another time and send upon you a hurricane of wind and drown you for what you denied? Then you would not find for yourselves against Us an avenger.
+EN2 (Hilali-Khan): Or do you feel secure that He will not send you back a second time to sea and send against you a hurricane of wind and drown you because of your disbelief? Then you will not find any avenger therein against Us.
+FN[79]: คือพระองค์จะทรงนำพวกท่านกลับไปในทะเลอีกครั้งหนึ่ง
+--------------------------------------------------------------------------------
+[17:70]
+AR: ۞ وَلَقَدۡ كَرَّمۡنَا بَنِيٓ ءَادَمَ وَحَمَلۡنَٰهُمۡ فِي ٱلۡبَرِّ وَٱلۡبَحۡرِ وَرَزَقۡنَٰهُم مِّنَ ٱلطَّيِّبَٰتِ وَفَضَّلۡنَٰهُمۡ عَلَىٰ كَثِيرٖ مِّمَّنۡ خَلَقۡنَا تَفۡضِيلٗا
+V4: และโดยแน่นอน เราได้ให้เกียรติแก่ลูกหลานของอาดัม[FN:80] และเราได้บรรทุกพวกเขาทั้งทางบกและทางทะเล และได้ให้ปัจจัยยังชีพที่ดีทั้งหลายแก่พวกเขา[FN:81] และเราได้ให้พวกเขาดีเด่นอย่างมีเกียรติเหนือกว่าผู้ที่เราได้ให้บังเกิดมาเป็นส่วนใหญ่
+V3: และโดยแน่นอน เราได้ให้เกียรติแก่ลูกหลานของอาดัม และเราได้บรรทุกพวกเขาทั้งทางบกและทางทะเล และได้ให้ปัจจัยยังชีพที่ดีทั้งหลายแก่พวกเขา และเราได้ให้พวกเขาดีเด่นอย่างมีเกียรติเหนือกว่าผู้ที่เราได้ให้บังเกิดมาเป็นส่วนใหญ่
+EN1 (Saheeh): And We have certainly honored the children of Adam and carried them on the land and sea and provided for them of the good things and preferred them over much of what We have created, with [definite] preference.
+EN2 (Hilali-Khan): And indeed We have honoured the Children of Adam, and We have carried them on land and sea, and have provided them with At-Tayyibât (lawful good things), and have preferred them above many of those whom We have created with a marked preferment.
+FN[80]: คือให้เกียรติเหนือกว่าบรรดามัคลูกทั้งหลาย ด้วยการประทานสติปัญญา วิชาความรู้ การพูด การสนทนาและให้ทุกสิ่งทุกอย่างในจักรวาลเป็นประโยชน์แก่พวกเขา
+FN[81]: คืออาหารและเครื่องดื่มที่มีรสชาติดี
+--------------------------------------------------------------------------------
+[17:71]
+AR: يَوۡمَ نَدۡعُواْ كُلَّ أُنَاسِۭ بِإِمَٰمِهِمۡۖ فَمَنۡ أُوتِيَ كِتَٰبَهُۥ بِيَمِينِهِۦ فَأُوْلَٰٓئِكَ يَقۡرَءُونَ كِتَٰبَهُمۡ وَلَا يُظۡلَمُونَ فَتِيلٗا
+V4: วันที่เราจะเรียกร้องมหาชนทั้งหลาย[FN:82]พร้อมด้วยบันทึกของพวกเขา ดังนั้นผู้ใดที่บันทึกของเขาถูกยื่นให้ทางขวาของเขา[FN:83] เขาเหล่านั้นก็จะได้อ่านบันทึกของพวกเขา[FN:84] โดยที่พวกเขาจะไม่ถูกอธรรมแม้แต่น้อย[FN:85]
+V3: วันที่เราจะเรียกร้องมหาชนทั้งหลายพร้อมด้วยบันทึกของพวกเขา ดังนั้นผู้ใดที่บันทึกของเขาถูกยื่นให้ทางขวาของเขา เขาเหล่านั้นก็จะได้อ่านบันทึกของพวกเขา โดยที่พวกเขาจะไม่ถูกอธรรมแม้แต่น้อย
+EN1 (Saheeh): [Mention, O Muḥammad], the Day We will call forth every people with their record [of deeds]. Then whoever is given his record in his right hand - those will read their records, and injustice will not be done to them, [even] as much as a thread [inside the date seed].
+EN2 (Hilali-Khan): (And remember) the Day when We shall call together call human beings with their (respective) Imâm [their Prophets, or their records of good and bad deeds, or their Holy Books like the Qur’ân, the Taurât (Torah), the Injeel (Gospel), the leaders whom the people followed in this world.]. So whosoever is given his record in his right hand, such will read their records, and they will not be dealt with unjustly in the least.
+FN[82]: คือวันฟื้นคืนชีพที่มนุษย์ทั้งมวลจะไปรวมกันที่ทุ่งมะฮฺชัร
+FN[83]: คือบรรดาผู้ที่มีความสุข หมายถึงผู้ที่มองเห็นการณ์ไกล ผู้มีสติปัญญา และผู้ยำเกรงอัลลอฮฺ ตะอาลา
+FN[84]: อ่านความดีงามของพวกเขาด้วยความดีใจ เพราะพวกเขาได้รับบันทึกของพวกเขาทางเบื้องขวา
+FN[85]: ผลตอบแทนแห่งการงานของพวกเขา จะไม่ถูก ลดหย่อนหรือบกพร่องแต่ประการใด
+--------------------------------------------------------------------------------
+[17:72]
+AR: وَمَن كَانَ فِي هَٰذِهِۦٓ أَعۡمَىٰ فَهُوَ فِي ٱلۡأٓخِرَةِ أَعۡمَىٰ وَأَضَلُّ سَبِيلٗا
+V4: และผู้ใดบอดในโลกนี้[FN:86] ดังนั้นเขาก็จะตาบอดในอาคิเราะฮฺด้วย และหลงทางอย่างไกลยิ่ง[FN:87]
+V3: และผู้ใดบอดในโลกนี้ ดังนั้นเขาก็จะบอดในปรโลกด้วย และหลงทางอย่างไกลยิ่ง
+EN1 (Saheeh): And whoever is blind in this [life] will be blind in the Hereafter and more astray in way.
+EN2 (Hilali-Khan): And whoever is blind in this world (i.e., does not see Allâh’s Signs and believes not in Him), will be blind in the Hereafter, and more astray from the Path.
+FN[86]: คือบอดทางใจ เขาจะไม่พบทางเดินไปสู่สัจธรรมและความดีเลย
+FN[87]: ในปรโลกเขาจะตาบอดและหลงทางที่ไกลยิ่ง จากทางแห่งความสันติสุขและความรอดพ้น
+--------------------------------------------------------------------------------
+[17:73]
+AR: وَإِن كَادُواْ لَيَفۡتِنُونَكَ عَنِ ٱلَّذِيٓ أَوۡحَيۡنَآ إِلَيۡكَ لِتَفۡتَرِيَ عَلَيۡنَا غَيۡرَهُۥۖ وَإِذٗا لَّٱتَّخَذُوكَ خَلِيلٗا
+V4: และหากว่าพวกเขาจะทำให้เจ้าหลงไปจากที่เราได้วะฮียฺแก่เจ้า เพื่อเจ้าจะได้กุสิ่งอื่นขึ้นแก่เรา[FN:88] และเมื่อนั้นแหละ พวกเขาก็จะคบเจ้าเป็นเพื่อนสนิท
+V3: และหากว่าพวกเขาจะทำให้เจ้าหลงไปจากที่เราได้วะฮียฺแก่เจ้า เพื่อเจ้าจะได้กุสิ่งอื่นขึ้นแก่เรา และเมื่อนั้นแหละ พวกเขาก็จะคบเจ้าเป็นเพื่อนสนิท
+EN1 (Saheeh): And indeed, they were about to tempt you away from that which We revealed to you in order to [make] you invent about Us something else; and then they would have taken you as a friend.
+EN2 (Hilali-Khan): Verily, they were about to tempt you away from that which We have revealed (the Qur’ân) unto you (O Muhammad صلى الله عليه و سلم), to fabricate something other than it against Us, and then they would certainly have taken you a Khalîl (an intimate friend)!
+FN[88]: เพื่อให้เจ้านำสิ่งอื่นจากที่อัลลอฮฺทรงวะฮีแก่เจ้า และเป็นการผิดจากที่พระองค์ทรงบัญชา
+--------------------------------------------------------------------------------
+[17:74]
+AR: وَلَوۡلَآ أَن ثَبَّتۡنَٰكَ لَقَدۡ كِدتَّ تَرۡكَنُ إِلَيۡهِمۡ شَيۡـٔٗا قَلِيلًا
+V4: และหากว่าเรามิได้ให้เจ้าตั้งมั่นอยู่บนความจริงแล้ว โดยแน่นอนยิ่ง เจ้าอาจจะโน้มเอียงไปทางพวกเขาบ้างเล็กน้อย
+V3: และหากว่าเรามิได้ให้เจ้าตั้งมั่นอยู่บนความจริงแล้ว โดยแน่นอนยิ่ง เจ้าอาจจะโน้มเอียงไปทางพวกเขาบ้างเล็กน้อย
+EN1 (Saheeh): And if We had not strengthened you, you would have almost inclined to them a little.
+EN2 (Hilali-Khan): And had We not made you stand firm, you would nearly have inclined to them a little.
+--------------------------------------------------------------------------------
+[17:75]
+AR: إِذٗا لَّأَذَقۡنَٰكَ ضِعۡفَ ٱلۡحَيَوٰةِ وَضِعۡفَ ٱلۡمَمَاتِ ثُمَّ لَا تَجِدُ لَكَ عَلَيۡنَا نَصِيرٗا
+V4: ถ้าเช่นนั้น แน่นอนเราก็จะให้เจ้าลิ้มรส (การลงโทษ) สองเท่าในชีวิตนี้ และสองเท่าเมื่อยามตาย[FN:89] แล้วเจ้าจะไม่พบผู้ช่วยเหลือแก่เจ้าให้พ้นจาก (การลงโทษของ) เรา
+V3: ถ้าเช่นนั้น แน่นอนเราก็จะให้เจ้าลิ้มรส (การลงโทษ) สองเท่าในชีวิตนี้ และสองเท่าเมื่อยามตาย แล้วเจ้าจะไม่พบผู้ช่วยเหลือแก่เจ้าให้พ้นจาก (การลงโทษของ) เรา
+EN1 (Saheeh): Then [if you had], We would have made you taste double [punishment in] life and double [after] death. Then you would not find for yourself against Us a helper.
+EN2 (Hilali-Khan): In that case We would have made you taste a double portion (of punishment) in this life and a double portion (of punishment) after death. And then you would have found none to help you against Us.
+FN[89]: คือจะได้รับโทษสองเท่าทั้งในโลกนี้และปรโลก ความมุ่งหมายของอายะฮฺนี้คือ ชี้แจงถึงความโปรดปรานของอัลลอฮฺที่มีต่อท่านรอซูล ศ็อลลัลลอฮุอะลัยฮิวะซัลลัม ในการให้ตั้งอยู่บนสัจธรรม และคุ้มครองให้พ้นจากการล่อลวงของพวกมุชริกีน
+--------------------------------------------------------------------------------
+[17:76]
+AR: وَإِن كَادُواْ لَيَسۡتَفِزُّونَكَ مِنَ ٱلۡأَرۡضِ لِيُخۡرِجُوكَ مِنۡهَاۖ وَإِذٗا لَّا يَلۡبَثُونَ خِلَٰفَكَ إِلَّا قَلِيلٗا
+V4: และหากพวกเขายุแหย่ให้เจ้าออกจากแผ่นดิน เพื่อขับไล่เจ้าออกไป และเมื่อนั้นพวกเขาจะไม่พำนักอยู่นานหลังจากเจ้า (ออกไปแล้ว) เว้นแต่ช่วงเวลาเพียงเล็กน้อยเท่านั้น[FN:90]
+V3: และหากพวกเขายุแหย่ให้เจ้าออกจากแผ่นดิน เพื่อขับไล่เจ้าออกไป และเมื่อนั้นพวกเขาจะไม่พำนักอยู่นานหลังจากเจ้า (ออกไปแล้ว) เว้นแต่ช่วงเวลาเพียงเล็กน้อยเท่านั้น
+EN1 (Saheeh): And indeed, they were about to provoke [i.e., drive] you from the land [i.e., Makkah] to evict you therefrom. And then [when they do], they will not remain [there] after you, except for a little.
+EN2 (Hilali-Khan): And verily they were about to frighten you so much as to drive you out from the land. But in that case they would not have stayed (therein) after you, except for a little while.
+FN[90]: ก้อตาดะฮฺ กล่าวว่า ชาวมักกะฮฺตั้งใจที่จะขับท่านนบี ศ็อลลัลลอฮุอะลัยฮิวะซัลลัม ออกจากมักกะฮฺ หากพวกเขาทำเช่นนั้น พวกเขาจะได้รับโทษทันที แต่ทว่าอัลลอฮฺ ตะอาลา ทรงยับยั้งเอาไว้ จนกระทั่งพระองค์ทรงบัญชาให้ท่านออกจากนครมักกะฮฺ โดยอพยพไปตั้งภูมิลำเนาใหม่ ณ นครมะดีนะฮฺ
+--------------------------------------------------------------------------------
+[17:77]
+AR: سُنَّةَ مَن قَدۡ أَرۡسَلۡنَا قَبۡلَكَ مِن رُّسُلِنَاۖ وَلَا تَجِدُ لِسُنَّتِنَا تَحۡوِيلًا
+V4: นี่คือแนวทางของผู้ที่เราได้ส่งเขามาก่อนเจ้าจากบรรดารอซูลของเรา และเจ้าจะไม่พบการเปลี่ยนแปลงในแนวทางของเราแต่ประการใด[FN:91]
+V3: นี่คือแนวทางของผู้ที่เราได้ส่งเขามาก่อนเจ้าจากบรรดารอซูลของเรา และเจ้าจะไม่พบการเปลี่ยนแปลงในแนวทางของเราแต่ประการใด
+EN1 (Saheeh): [That is Our] established way for those We had sent before you of Our messengers; and you will not find in Our way any alteration.
+EN2 (Hilali-Khan): (This was Our) Sunnah (rule or way) with the Messengers We sent before you (O Muhammad صلى الله عليه و سلم), and you will not find any alteration in Our Sunnah (rule or way).
+FN[91]: พวกมุชริกีนได้ใช้ความพยายามหลายรูปแบบ เช่น การต่อรองของพวกเขาต่อท่านนบี โดยพวกเขาจะเคารพอิบาดะฮฺพระเจ้าของเขา (คืออัลลอฮฺ) เป็นการแลกเปลี่ยนกับการขอร้องให้ท่านนบีละทิ้งการประณามพระเจ้าของพวกเขา และสิ่งที่บรรพบุรุษของพวกเขาเคารพบูชาอยู่ และการต่อรองของบางคนในหมู่พวกเขา ที่จะให้ดินแดนของพวกเขาเป็นดินแดนศักดิ์สิทธิ์ถูกหวงห้าม และการต่อรองโดยขอร้องให้บรรดาผู้นำของพวกเขา มีสถานที่ชุมนุมโดยเฉพาะ อื่นจากที่ชุมนุมของพวกยากจนขัดสนของพวกมุสลิมีน
+--------------------------------------------------------------------------------
+[17:78]
+AR: أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمۡسِ إِلَىٰ غَسَقِ ٱلَّيۡلِ وَقُرۡءَانَ ٱلۡفَجۡرِۖ إِنَّ قُرۡءَانَ ٱلۡفَجۡرِ كَانَ مَشۡهُودٗا
+V4: จงดำรงการละหมาดไว้ตั้งแต่ตะวันคล้อยจนพลบค่ำ และการอ่านยามรุ่งอรุณ[FN:92] จริงการอ่านยามรุ่งอรุณนั้นเป็นพยานยืนยันเสมอ
+V3: จงดำรงการละหมาดไว้ตั้งแต่ตะวันคล้อยจนพลบค่ำ และการอ่านยามรุ่งอรุณ แท้จริงการอ่านยามรุ่งอรุณนั้นเป็นพยานยืนยันเสมอ
+EN1 (Saheeh): Establish prayer at the decline of the sun [from its meridian] until the darkness of the night and [also] the Qur’ān [i.e., recitation] of dawn. Indeed, the recitation of dawn is ever witnessed.
+EN2 (Hilali-Khan): Perform As-Salât (Iqamât-as-Salât) from mid-day till the darkness of the night (i.e. the Zuhr, ‘Asr, Maghrib and ‘Ishâ’ prayers), and recite the Qur’ân in the early dawn (i.e. the morning prayer). Verily, the recitation of the Qur’ân in the early dawn is ever witnessed (attended by the angels in charge of mankind of the day and the night).
+FN[92]: ที่ใช้สำนวน “การอ่านยามรุ่งอรุณ” ก็เพราะว่าการละหมาดเวลาฟัจรฺนั้นชอบให้อ่านต้นยาว ๆ ในอายะฮฺนี้ เป็นการชี้แนะถึงเวลาละหมาดที่ถูกกำหนดไว้ คือละหมาดตั้งแต่ตะวันคล้อย หมายถึงละหมาดซุฮ์ริ และอัลอัศรฺ พลบค่ำหมายถึงเวลามักริบ และอิชาอฺ ยามรุ่งอรุณหมายถึงละหมาดศุบฮ์
+--------------------------------------------------------------------------------
+[17:79]
+AR: وَمِنَ ٱلَّيۡلِ فَتَهَجَّدۡ بِهِۦ نَافِلَةٗ لَّكَ عَسَىٰٓ أَن يَبۡعَثَكَ رَبُّكَ مَقَامٗا مَّحۡمُودٗا
+V4: และจากบางส่วนของกลางคืนเจ้าจงตื่นขึ้นมาละหมาดในเวลาของมัน เป็นการสมัครใจสำหรับเจ้า หวังว่าพระผู้อภิบาลของเจ้าจะทรงให้เจ้าได้รับตำแหน่งที่ถูกสรรเสริญ[FN:93]
+V3: และจากบางส่วนของกลางคืนเจ้าจงตื่นขึ้นมาละหมาดในเวลาของมัน เป็นการสมัครใจสำหรับเจ้า หวังว่าพระเจ้าของเจ้าจะทรงให้เจ้าได้รับตำแหน่งที่ถูกสรรเสริญ
+EN1 (Saheeh): And from [part of] the night, pray with it [i.e., recitation of the Qur’ān] as additional [worship] for you; it is expected that your Lord will resurrect you to a praised station.
+EN2 (Hilali-Khan): And in some parts of the night (also) offer the Salât (prayer) with it (i.e. recite the Qur’ân in the prayer), as an additional prayer (Tahajjud optional prayer - Nawâfil) for you (O Muhammad صلى الله عليه و سلم). It may be that your Lord will raise you to Maqâm Mahmûd (a station of praise and glory, i.e. the honour of intercession on the Day of Resurrection.).
+FN[93]: ในวันกิยามะฮฺ คือตำแหน่งชะฟาอะฮฺอันยิ่งใหญ่
+--------------------------------------------------------------------------------
+[17:80]
+AR: وَقُل رَّبِّ أَدۡخِلۡنِي مُدۡخَلَ صِدۡقٖ وَأَخۡرِجۡنِي مُخۡرَجَ صِدۡقٖ وَٱجۡعَل لِّي مِن لَّدُنكَ سُلۡطَٰنٗا نَّصِيرٗا
+V4: และจงกล่าวว่า “ข้าแต่พระผู้อภิบาลของข้าพระองค์ ได้ทรงโปรดนำข้าพระองค์เข้าตามทางเข้าที่ชอบธรรม และได้ทรงโปรดนำข้าพระองค์ออกตามทางออกที่ชอบธรรม[FN:94] และทรงโปรดให้ข้าพระองค์มีอำนาจที่เข้มแข็ง ซึ่งได้รับการช่วยเหลือจากพระองค์”[FN:95]
+V3: และจงกล่าวว่า ข้าแต่พระเจ้าของข้าพระองค์ โปรดนำข้าพระองค์เข้าตามทางเข้าที่ชอบธรรม และโปรดนำข้าพระองค์ออกตามทางออกที่ชอบธรรม และโปรดให้ข้าพระองค์มีอำนาจที่เข้มแข็ง ซึ่งได้รับการช่วยเหลือจากพระองค์
+EN1 (Saheeh): And say, "My Lord, cause me to enter a sound entrance and to exit a sound exit and grant me from Yourself a supporting authority."
+EN2 (Hilali-Khan): And say (O Muhammad صلى الله عليه و سلم): My Lord! Let my entry (to the city of Al-Madinah) be good, and (likewise) my exit (from the city of Makkah) be good. And grant me from You an authority to help me (or a firm sign or a proof).
+FN[94]: ทางเข้าที่ชอบธรรมและทางออกที่ชอบธรรม
+FN[95]: หมายถึงการทำกิจกรรมทุกอย่างในการเริ่มและการสิ้นสุด ในครั้งแรกและครั้งสุดท้ายเพื่อต่อต้านศัตรูของพระองค์ และเพื่อทำให้ศาสนาของพระองค์ได้รับเกียรติ
+--------------------------------------------------------------------------------
+[17:81]
+AR: وَقُلۡ جَآءَ ٱلۡحَقُّ وَزَهَقَ ٱلۡبَٰطِلُۚ إِنَّ ٱلۡبَٰطِلَ كَانَ زَهُوقٗا
+V4: และจงกล่าวเถิด “เมื่อความจริง”[FN:96] ปรากฏขึ้นและความเท็จย่อมมลายไป[FN:97] แท้จริงความเท็จนั้นย่อมมลายไปเสมอ[FN:98]
+V3: และจงกล่าวเถิด เมื่อความจริงปรากฏขึ้นและความเท็จย่อมมลายไป แท้จริงความเท็จนั้นย่อมมลายไปเสมอ
+EN1 (Saheeh): And say, "Truth has come, and falsehood has departed. Indeed is falsehood, [by nature], ever bound to depart."
+EN2 (Hilali-Khan): And say: "Truth (i.e. Islâmic Monotheism or this Qur’ân or Jihâd against polytheists) has come and Bâtil (falsehood, i.e. Satan or polytheism) has vanished. Surely Bâtil is ever bound to vanish."
+FN[96]: คืออัลอิสลาม
+FN[97]: คือการปฏิเสธศรัทธาและการเคารพบูชาเจว็ดและรูปปั้น
+FN[98]: มีรายงานว่า เมื่อท่านนบี ศ็อลลัลลอฮุอะลัยฮิวะซัลลัม ได้เข้านครมักกะฮฺ ซึ่งเป็นปีพิชิตมักกะฮฺนั้น ปรากฏว่ารอบ ๆ อัลกะอฺบะฮฺมีรูปปั้นอยู่ 360 ชิ้น ท่านได้เอาไม้เท้าที่ถืออยู่จิ้มหน้ารูปปั้นและใช้ให้ทำลายให้หมดสิ้นพลางท่านกล่าวว่า “เมื่อความจริงปรากฏขึ้นและความเท็จย่อมมลาย แท้จริงความเท็จนั้นย่อมมลายไปเสมอ”
+--------------------------------------------------------------------------------
+[17:82]
+AR: وَنُنَزِّلُ مِنَ ٱلۡقُرۡءَانِ مَا هُوَ شِفَآءٞ وَرَحۡمَةٞ لِّلۡمُؤۡمِنِينَ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارٗا
+V4: และเราได้ให้ส่วนหนึ่งจากอัลกุรอานลงมา[FN:99]ซึ่งเป็นการบำบัดและความเมตตาแก่บรรดาผู้ศรัทธา[FN:100] และมันมิได้เพิ่มอันใดแก่พวกอธรรม นอกจากการขาดทุนเท่านั้น
+V3: และเราได้ให้ส่วนหนึ่งจากอัลกุรอานลงมาซึ่งเป็นการบำบัดและความเมตตาแก่บรรดาผู้ศรัทธา และมันมิได้เพิ่มอันใดแก่พวกอธรรม นอกจากการขาดทุนเท่านั้น
+EN1 (Saheeh): And We send down of the Qur’ān that which is healing and mercy for the believers, but it does not increase the wrongdoers except in loss.
+EN2 (Hilali-Khan): And We send down of the Qur’ân that which is a healing and a mercy to those who believe (in Islâmic Monotheism and act on it), and it increases the Zâlimûn (polytheists and wrong-doers) nothing but loss.
+FN[99]: โองการต่าง ๆ ของอัลกุรอาน
+FN[100]: เป็นการบำบัดจิตใจให้พ้นจากโรคแห่งความอวิชชาและความหลงผิด และทำลายล้างสนิมที่เกาะกินจิตใจให้พ้นจากความใคร่ใฝ่ต่ำ ตัณหา ความสกปรก การตระหนี่ และการอิจฉา
+--------------------------------------------------------------------------------
+[17:83]
+AR: وَإِذَآ أَنۡعَمۡنَا عَلَى ٱلۡإِنسَٰنِ أَعۡرَضَ وَنَـَٔا بِجَانِبِهِۦ وَإِذَا مَسَّهُ ٱلشَّرُّ كَانَ يَـُٔوسٗا
+V4: และเมื่อเราให้ความโปรดปรานแก่มนุษย์ เขาเหินห่างและปลีกตัวออกไปข้าง ๆ[FN:101] และเมื่อความชั่วประสบแก่เขา เขาก็เบื่อหน่ายหมดอาลัย
+V3: และเมื่อเราให้ความโปรดปรานแก่มนุษย์ เขาเหินห่างและปลีกตัวออกไปข้าง ๆ และเมื่อความชั่วประสบแก่เขา เขาก็เบื่อหน่ายหมดอาลัย
+EN1 (Saheeh): And when We bestow favor upon man [i.e., the disbeliever], he turns away and distances himself; and when evil touches him, he is ever despairing.
+EN2 (Hilali-Khan): And when We bestow Our Grace on man (the disbeliever), he turns away and becomes arrogant (far away from the Right Path). And when evil touches him, he is in great despair.
+FN[101]: เช่น การมีสุขภาพแข็งแรง มีความปลอดภัย และมีทรัพย์สินเงินทอง
+--------------------------------------------------------------------------------
+[17:84]
+AR: قُلۡ كُلّٞ يَعۡمَلُ عَلَىٰ شَاكِلَتِهِۦ فَرَبُّكُمۡ أَعۡلَمُ بِمَنۡ هُوَ أَهۡدَىٰ سَبِيلٗا
+V4: จงกล่าวเถิด (มุฮัมมัด) “ทุกคนจะกระทำตามรูปแบบของเขา[FN:102] ฉะนั้นพระผู้อภิบาลของพวกท่านทรงรู้ดียิ่งถึงผู้ที่เขาได้รับแนวทางอย่างถูกต้อง”
+V3: จงกล่าวเถิด (มุฮัมมัด) ทุกคนจะกระทำตามรูปแบบของเขา ฉะนั้นพระเจ้าของพวกท่านทรงรู้ดียิ่งถึงผู้ที่เขาได้รับแนวทางที่ถูกต้อง
+EN1 (Saheeh): Say, "Each works according to his manner, but your Lord is most knowing of who is best guided in way."
+EN2 (Hilali-Khan): Say (O Muhammad صلى الله عليه و سلم to mankind): "Each one does according to Shakilatihi (i.e. his way or his religion or his intentions.), and your Lord knows best of him whose path (religion) is right."
+FN[102]: คือจะดำเนินตามแนวทางของเขา คือผู้ที่อยู่ในแนวทางที่ถูกต้องก็จะปฏิบัติการงานที่ดี ส่วนผู้ที่อยู่ในทางหลงผิด ก็จะปฏิบัติการงานที่ชั่วและเลวร้าย
+--------------------------------------------------------------------------------
+[17:85]
+AR: وَيَسۡـَٔلُونَكَ عَنِ ٱلرُّوحِۖ قُلِ ٱلرُّوحُ مِنۡ أَمۡرِ رَبِّي وَمَآ أُوتِيتُم مِّنَ ٱلۡعِلۡمِ إِلَّا قَلِيلٗا
+V4: และพวกเขาจะถามเจ้า เกี่ยวกับวิญญาณ จงกล่าวเถิดว่า “เรื่องวิญญาณนั้นเป็นไปตามพระบัญชาของพระผู้อภิบาลของฉัน[FN:103] และพวกท่านจะไม่ได้รับความรู้ใด ๆ เว้นแต่เพียงเล็กน้อยเท่านั้น”
+V3: และพวกเขาจะถามเจ้า เกี่ยวกับวิญญาณ จงกล่าวเถิดว่า เรื่องวิญญาณนั้นเป็นไปตามพระบัญชาของพระเจ้าของฉัน และพวกท่านจะไม่ได้รับความรู้ใด ๆ เว้นแต่เพียงเล็กน้อยเท่านั้น
+EN1 (Saheeh): And they ask you, [O Muḥammad], about the soul. Say, "The soul is of the affair [i.e., concern] of my Lord. And you [i.e., mankind] have not been given of knowledge except a little."
+EN2 (Hilali-Khan): And they ask you (O Muhammad صلى الله عليه و سلم) concerning the Rûh (the Spirit); Say: "The Rûh (the Spirit) is one of the things, the knowledge of which is only with my Lord. And of knowledge, you (mankind) have been given only a little."
+FN[103]: คือเป็นสิ่งเร้นลับซึ่งไม่มีใครจะล่วงรู้ได้ นอกจากพระองค์
+--------------------------------------------------------------------------------
+[17:86]
+AR: وَلَئِن شِئۡنَا لَنَذۡهَبَنَّ بِٱلَّذِيٓ أَوۡحَيۡنَآ إِلَيۡكَ ثُمَّ لَا تَجِدُ لَكَ بِهِۦ عَلَيۡنَا وَكِيلًا
+V4: และหากเราประสงค์ แน่นอนเราจะเอาสิ่งซึ่งเราได้วะฮียฺแก่เจ้าไปเสีย[FN:104] และเจ้าจะไม่พบผู้คุ้มครองคนใดเหนือเราในเรื่องนี้สำหรับเจ้า[FN:105]
+V3: และหากเราประสงค์ แน่นอนเราจะเอาสิ่งซึ่งเราได้วะฮียฺแก่เจ้าไปเสีย และเจ้าจะไม่พบผู้คุ้มครองคนใดเหนือเราในเรื่องนี้สำหรับเจ้า
+EN1 (Saheeh): And if We willed, We could surely do away with that which We revealed to you. Then you would not find for yourself concerning it an advocate against Us.
+EN2 (Hilali-Khan): And if We willed, We could surely take away that which We have revealed to you (i.e. this Qur’ân). Then you would find no protector for you against Us in that respect.
+FN[104]: คืออัลกุรอานที่อยู่ในหัวอกของท่านรอซูลุลลอฮฺ ศ็อลลัลลอฮุอะลัยฮิวะซัลลัม
+FN[105]: คือจะไม่พบผู้ใดเป็นตัวแทนเพื่อนำเอาวะฮีกลับมา หลังจากที่เราได้เอามันไปจากเจ้า
+--------------------------------------------------------------------------------
+[17:87]
+AR: إِلَّا رَحۡمَةٗ مِّن رَّبِّكَۚ إِنَّ فَضۡلَهُۥ كَانَ عَلَيۡكَ كَبِيرٗا
+V4: นอกจากมันเป็นพระเมตตาจากพระเจ้าของเจ้า[FN:106] แท้จริงความโปรดปรานของพระองค์ที่มีต่อเจ้านั้นใหญ่หลวงนัก[FN:107]
+V3: แต่ว่ามันเป็นพระเมตตาจากพระเจ้าของเจ้า แท้จริงความโปรดปรานของพระองค์ที่มีต่อเจ้านั้นใหญ่หลวงนัก
+EN1 (Saheeh): Except [We have left it with you] as a mercy from your Lord. Indeed, His favor upon you has ever been great.
+EN2 (Hilali-Khan): Except as a Mercy from your Lord. Verily His Grace unto you (O Muhammad صلى الله عليه و سلم) is ever great.
+FN[106]: ดังนั้น เราจึงปล่อยให้มันถูกเก็บรักษาไว้ในทรวงอกของเจ้า และทรวงอกของบรรดาสาวกของเจ้า
+FN[107]: โดยการประทานอัลกุรอานแก่เจ้า และประทานอัลมะกอมอัลมะฮฺมูดแก่เจ้า และให้เจ้าเป็นรอซูลคนสุดท้ายและเป็นนายของกลุ่มชนสมัยแรกและสมัยสุดท้าย
+--------------------------------------------------------------------------------
+[17:88]
+AR: قُل لَّئِنِ ٱجۡتَمَعَتِ ٱلۡإِنسُ وَٱلۡجِنُّ عَلَىٰٓ أَن يَأۡتُواْ بِمِثۡلِ هَٰذَا ٱلۡقُرۡءَانِ لَا يَأۡتُونَ بِمِثۡلِهِۦ وَلَوۡ كَانَ بَعۡضُهُمۡ لِبَعۡضٖ ظَهِيرٗا
+V4: จงกล่าวเถิดมุฮัมมัด แน่นอนหากมนุษย์และญินรวมกันที่จะนำมาเช่นอัลกุรอานนี้ พวกเขาไม่อาจจะนำมาเช่นนั้นได้ และแม้ว่าบางคนในหมู่พวกเขาเป็นผู้ช่วยเหลือแก่อีกบางคนก็ตาม[FN:108]
+V3: จงกล่าวเถิด (มุฮัมมัด) แน่นอนหากมนุษย์และญินรวมกันที่จะนำมาเช่นอัลกุรอานนี้ พวกเขาไม่อาจจะนำมาเช่นนั้นได้ และแม้ว่าบางคนในหมู่พวกเขาเป็นผู้ช่วยเหลือแก่อีกบางคนก็ตาม
+EN1 (Saheeh): Say, "If mankind and the jinn gathered in order to produce the like of this Qur’ān, they could not produce the like of it, even if they were to each other assistants."
+EN2 (Hilali-Khan): Say: "If the mankind and the jinn were together to produce the like of this Qur’ân, they could not produce the like thereof, even if they helped one another."
+FN[108]: อัลกุรอานเป็นสิ่งที่อยู่เหนือความสามารถของมนุษย์และญิน ที่คิดจะเลียนแบบ ต่อเติม ตัดทอน และบิดเบือน ได้มีความพยายามของมนุษย์ตั้งแต่ยุคแรกจนกระทั่งถึงปัจจุบัน เพื่อกระทำการดังกล่าว ถึงแม้จะมีมนุษย์บางคนหลงผิดเชื่อฟังไปบ้างก็ตาม แต่อัลลอฮฺ ซุบฮานะฮูวะตะอาลา จะทรงคุ้มครองปกป้องรักษาคัมภีร์ของพระองค์ ให้พ้นจากการกระทำดังกล่าว จวบจนกระทั่งถึงวันกิยามะฮฺอย่างแน่นอน
+--------------------------------------------------------------------------------
+[17:89]
+AR: وَلَقَدۡ صَرَّفۡنَا لِلنَّاسِ فِي هَٰذَا ٱلۡقُرۡءَانِ مِن كُلِّ مَثَلٖ فَأَبَىٰٓ أَكۡثَرُ ٱلنَّاسِ إِلَّا كُفُورٗا
+V4: และโดยแน่นอนเราได้อธิบายแก่มนุษย์แล้ว จากทุกอุทาหรณ์ในอัลกุรอานนี้[FN:109] แต่ส่วนมากของมนุษย์ปฏิเสธไม่ยอมรับ นอกจากการไม่ศรัทธา
+V3: และโดยแน่นอนเราได้อธิบายแก่มนุษย์แล้ว จากทุกอุทาหรณ์ในอัลกุรอานนี้ แต่ส่วนมากของมนุษย์ปฏิเสธไม่ยอมรับ นอกจากการไม่ศรัทธา
+EN1 (Saheeh): And We have certainly diversified for the people in this Qur’ān from every [kind of] example, but most of the people refused except disbelief.
+EN2 (Hilali-Khan): And indeed We have fully explained to mankind, in this Qur’ân, every kind of similitude, but most of mankind refuse (the truth and accept nothing) but disbelief.
+FN[109]: คือเราได้ชี้แจงอย่างชัดแจ้งแก่พวกเขาแล้วซึ่งข้อเท็จจริง ด้วยโองการต่าง ๆ บทเรียนและอุทาหรณ์ ตลอดจนการชี้แนะชักชวนให้ทำความดี และการกล่าวตักเตือนให้ละเว้นความชั่ว
+--------------------------------------------------------------------------------
+[17:90]
+AR: وَقَالُواْ لَن نُّؤۡمِنَ لَكَ حَتَّىٰ تَفۡجُرَ لَنَا مِنَ ٱلۡأَرۡضِ يَنۢبُوعًا
+V4: และพวกเขากล่าวว่า “เราจะไม่ศรัทธาต่อท่าน จนกว่าท่านจะทำให้แผ่นดินแตกออกเป็นลำธารแก่เรา”
+V3: และพวกเขากล่าวว่า เราจะไม่ศรัทธาต่อท่าน จนกว่าท่านจะทำให้แผ่นดินแตกออกเป็นลำธารแก่เรา
+EN1 (Saheeh): And they say, "We will not believe you until you break open for us from the ground a spring
+EN2 (Hilali-Khan): And they say: "We shall not believe in you (O Muhammad صلى الله عليه و سلم), until you cause a spring to gush forth from the earth for us;
+--------------------------------------------------------------------------------
+[17:91]
+AR: أَوۡ تَكُونَ لَكَ جَنَّةٞ مِّن نَّخِيلٖ وَعِنَبٖ فَتُفَجِّرَ ٱلۡأَنۡهَٰرَ خِلَٰلَهَا تَفۡجِيرًا
+V4: “หรือให้ท่านมีสวนอินทผาลัมและองุ่น ให้มันแยกเป็นลำน้ำหลายสาย พวยพุ่งออกมาท่ามกลางมัน”
+V3: หรือให้ท่านมีสวนอินทผลัมและองุ่น ให้มันแยกเป็นลำน้ำหลายสาย พวยพุ่งออกมาท่านกลางมัน
+EN1 (Saheeh): Or [until] you have a garden of palm trees and grapes and make rivers gush forth within them in force [and abundance]
+EN2 (Hilali-Khan): "Or you have a garden of date-palms and grapes, and cause rivers to gush forth in their midst abundantly;
+--------------------------------------------------------------------------------
+[17:92]
+AR: أَوۡ تُسۡقِطَ ٱلسَّمَآءَ كَمَا زَعَمۡتَ عَلَيۡنَا كِسَفًا أَوۡ تَأۡتِيَ بِٱللَّهِ وَٱلۡمَلَٰٓئِكَةِ قَبِيلًا
+V4: “หรือท่านทำให้ชั้นฟ้าหล่นลงมาบนพวกเราเป็นเสี่ยง ๆ ตามที่ท่านอ้าง หรือนำอัลลอฮฺ และมลาอิกะฮฺมาให้เราเห็นต่อหน้า”[FN:110]
+V3: หรือท่านทำให้ชั้นฟ้าหล่นลงมาบนพวกเราเป็นเสี่ยง ๆ ตามที่ท่านอ้าง หรือนำอัลลอฮฺ และมลาอิกะฮฺมาให้เราเห็นต่อหน้า
+EN1 (Saheeh): Or you make the heaven fall upon us in fragments as you have claimed or you bring Allāh and the angels before [us]
+EN2 (Hilali-Khan): "Or you cause the heaven to fall upon us in pieces, as you have pretended, or you bring Allâh and the angels before (us) face to face;
+FN[110]: พวกมุชริกีนมักกะฮฺเสนอเงื่อนไขเพื่อศรัทธาต่อมุฮัมมัด คือ (1) จะต้องให้ดินแดนมักกะฮฺมีธารน้ำ (2) มีสวนอินทผาลัมและสวนองุ่น (3) มีแม่น้ำลำธารไหลอยู่ตลอดเวลา (4) หรือให้ชั้นฟ้าหล่นลงมาทับพวกเขาเป็นเสี่ยง ๆ (5) หรือนำอัลลอฮฺและมลาอิกะฮฺมาให้พวกเขาได้เห็น
+--------------------------------------------------------------------------------
+[17:93]
+AR: أَوۡ يَكُونَ لَكَ بَيۡتٞ مِّن زُخۡرُفٍ أَوۡ تَرۡقَىٰ فِي ٱلسَّمَآءِ وَلَن نُّؤۡمِنَ لِرُقِيِّكَ حَتَّىٰ تُنَزِّلَ عَلَيۡنَا كِتَٰبٗا نَّقۡرَؤُهُۥۗ قُلۡ سُبۡحَانَ رَبِّي هَلۡ كُنتُ إِلَّا بَشَرٗا رَّسُولٗا
+V4: “หรือให้ท่านมีบ้านที่ประดับประดาไว้หนึ่งหลัง หรือท่านขึ้นไปบนชั้นฟ้า และเราจะไม่ศรัทธาสำหรับการขึ้นไปของท่าน จนกว่าท่านจะนำคัมภีร์เล่มหนึ่งลงมาให้เราได้อ่าน” จงกล่าวเถิด “มหาบริสุทธิ์แห่งพระผู้อภิบาลของฉัน ฉันมิได้เป็นอื่นใด นอกจากเป็นมนุษย์ เป็นรอซูล”[FN:111]
+V3: หรือให้ท่านมีบ้านที่ประดับประดาไว้หนึ่งหลัง หรือท่านขึ้นไปบนชั้นฟ้า และเราจะไม่ศรัทธาสำหรับการขึ้นไปของท่าน จนกว่าท่านจะนำคัมภีร์เล่มหนึ่งลงมาให้เราได้อ่าน จงกล่าวเถิด มหาบริสุทธิ์แห่งพระเจ้าของฉัน ฉันมิได้เป็นอื่นใด นอกจากเป็นมนุษย์ เป็นรอซูล
+EN1 (Saheeh): Or you have a house of ornament [i.e., gold] or you ascend into the sky. And [even then], we will not believe in your ascension until you bring down to us a book we may read." Say, "Exalted is my Lord! Was I ever but a human messenger?"
+EN2 (Hilali-Khan): "Or you have a house of Zukhruf (like silver and pure gold), or you ascend up into the sky, and even then we will put no faith in your ascension until you bring down for us a Book that we would read." Say (O Muhammad صلى الله عليه و سلم): "Glorified (and Exalted) be my Lord [(Allâh) above all that evil they (polytheists) associate with Him]! Am I anything but a man, sent as a Messenger?"
+FN[111]: ข้อเสนอแนะและข้อเรียกร้องต่าง ๆ ที่พวกมุชริกีนกล่าวมาทั้งหมดนั้น เป็นการแสดงให้เห็นถึงความโง่เง่าและความดื้อรั้นต่อกฎสภาวะของอัลลอฮฺในการสร้างมนุษย์ เพราะมุฮัมมัดมิได้เป็นพระเจ้าที่พวกเขาจะเรียกร้องเอาสิ่งที่พวกเขาต้องการ เพื่อที่จะศรัทธาหากแต่มุฮัมมัดเป็นเพียงมนุษย์ธรรมดา และเป็นรอซูลของพระองค์
+--------------------------------------------------------------------------------
+[17:94]
+AR: وَمَا مَنَعَ ٱلنَّاسَ أَن يُؤۡمِنُوٓاْ إِذۡ جَآءَهُمُ ٱلۡهُدَىٰٓ إِلَّآ أَن قَالُوٓاْ أَبَعَثَ ٱللَّهُ بَشَرٗا رَّسُولٗا
+V4: และไม่มีสิ่งใดที่จะห้ามมนุษย์ให้พวกเขาศรัทธา เมื่อแนวทางที่ถูกต้องมายังพวกเขาแล้ว นอกจากพวกเขาจะกล่าวว่า “อัลลอฮฺทรงแต่งตั้งมนุษย์ธรรมดาเป็นรอซูลกระนั้นหรือ?”[FN:112]
+V3: และไม่มีสิ่งใดที่จะห้ามมนุษย์ให้พวกเขาศรัทธา เมื่อแนวทางที่ถูกต้องมายังพวกเขาแล้ว นอกจากพวกเขาจะกล่าวว่า อัลลอฮฺทรงแต่งตั้งมนุษย์ธรรมดาเป็นรอซูลกระนั้นหรือ
+EN1 (Saheeh): And what prevented the people from believing when guidance came to them except that they said, "Has Allāh sent a human messenger?"
+EN2 (Hilali-Khan): And nothing prevented men from believing when the guidance came to them, except that they said: "Has Allâh sent a man as (His) Messenger?"
+FN[112]: หลังจากที่สิ่งปาฏิหาริย์ได้ปรากฏเป็นที่กระจ่างแจ้งแล้ว พวกมุชริกีนก็พยายามบ่ายเบี่ยงหาข้ออ้างอื่น ๆ มากล่าวอีก นั่นก็คือทำไมอัลลอฮฺจึงทรงแต่งตั้งมนุษย์ธรรมดามาเป็นรอซูล ทำไมไม่ส่งมลาอิกะฮฺมาเล่า ดังนั้น อัลลอฮฺจึงตอบพวกเขาในอายะฮฺต่อมา คืออายะฮฺที่ 95 และว่าเป็นการพอเพียงแล้วที่อัลลอฮฺทรงเป็นพยาน ในการเป็นรอซูลของมุฮัมมัด ศ็อลลัลลอฮุอะลัยฮิวะซัลลัม ถึงแม้พวกเขาจะไม่ศรัทธาก็ตาม
+--------------------------------------------------------------------------------
+[17:95]
+AR: قُل لَّوۡ كَانَ فِي ٱلۡأَرۡضِ مَلَٰٓئِكَةٞ يَمۡشُونَ مُطۡمَئِنِّينَ لَنَزَّلۡنَا عَلَيۡهِم مِّنَ ٱلسَّمَآءِ مَلَكٗا رَّسُولٗا
+V4: จงกล่าวเถิด (มุฮัมมัด) “หากมลาอิกะฮฺเดินสัญจรอย่างสงบในแผ่นดิน แน่นอน เราจะส่งมะลักหนึ่งลงมาจากฟากฟ้า เป็นรอซูลแก่พวกเขา”
+V3: จงกล่าวเถิด (มุฮัมมัด) หากมลาอิกะฮฺเดินสัญจรอย่างสงบในแผ่นดิน แน่นอน เราจะส่งมะลักหนึ่งลงมาจากฟากฟ้า เป็นรอซูลแก่พวกเขา
+EN1 (Saheeh): Say, "If there were upon the earth angels walking securely, We would have sent down to them from the heaven an angel [as a] messenger."
+EN2 (Hilali-Khan): Say: "If there were on the earth, angels walking about in peace and security, We should certainly have sent down for them from the heaven an angel as a Messenger."
+--------------------------------------------------------------------------------
+[17:96]
+AR: قُلۡ كَفَىٰ بِٱللَّهِ شَهِيدَۢا بَيۡنِي وَبَيۡنَكُمۡۚ إِنَّهُۥ كَانَ بِعِبَادِهِۦ خَبِيرَۢا بَصِيرٗا
+V4: จงกล่าวเถิด (มุฮัมมัด) “พอเพียงแล้วที่อัลลอฮฺทรงเป็นพยานระหว่างฉันและพวกท่าน แท้จริงพระองค์เป็นผู้ทรงรอบรู้ ทรงมองเห็นปวงบ่าวของพระองค์”
+V3: จงกล่าวเถิด (มุฮัมมัด) พอเพียงแล้วที่อัลลอฮฺทรงเป็นพยานระหว่างฉันและพวกท่าน แท้จริงพระองค์เป็นผู้ทรงรอบรู้ ทรงมองเห็นปวงบ่าวของพระองค์
+EN1 (Saheeh): Say, "Sufficient is Allāh as Witness between me and you. Indeed He is ever, concerning His servants, Aware and Seeing."
+EN2 (Hilali-Khan): Say: "Sufficient is Allâh for a witness between me and you. Verily He is Ever the All-Knower, the All-Seer of His slaves."
+--------------------------------------------------------------------------------
+[17:97]
+AR: وَمَن يَهۡدِ ٱللَّهُ فَهُوَ ٱلۡمُهۡتَدِۖ وَمَن يُضۡلِلۡ فَلَن تَجِدَ لَهُمۡ أَوۡلِيَآءَ مِن دُونِهِۦۖ وَنَحۡشُرُهُمۡ يَوۡمَ ٱلۡقِيَٰمَةِ عَلَىٰ وُجُوهِهِمۡ عُمۡيٗا وَبُكۡمٗا وَصُمّٗاۖ مَّأۡوَىٰهُمۡ جَهَنَّمُۖ كُلَّمَا خَبَتۡ زِدۡنَٰهُمۡ سَعِيرٗا
+V4: และผู้ใดที่อัลลอฮฺทรงแนะแนวทาง เขาก็จะเป็นผู้อยู่ในแนวทางที่ถูกต้อง และผู้ใดที่อัลลอฮฺทรงให้หลงทางแล้ว ดังนั้นสูเจ้าจะไม่พบอีกเลยสำหรับพวกเขา ซึ่งบรรดาผู้คุ้มครองอื่นจากพระองค์ และเราจะชุมนุมพวกเขาในวันกิยามะฮฺ ถูกลากคว่ำหน้า[FN:113] โดยมีสภาพเป็นคนตาบอด เป็นใบ้และหูหนวก[FN:114] ที่พำนักของพวกเขาคือนรกญะฮันนัม ทุกครั้งที่มันมอดเราได้เพิ่มการเผาไหม้ลุกโชนแก่พวกเขา
+V3: และผู้ใดที่อัลลอฮฺทรงแนะแนวทาง เขาก็จะเป็นผู้อยู่ในแนวทางที่ถูกต้อง และผู้ใดที่อัลลอฮฺทรงให้หลงทางแล้ว ดังนั้นสูเจ้าจะไม่พบอีกเลยสำหรับพวกเขา ซึ่งบรรดาผู้คุ้มครองอื่นจากพระองค์ และเราจะชุมนุมพวกเขาในวันกิยามะฮฺ ถูกลากคว่ำหน้า โดยมีสภาพเป็นคนตาบอด เป็นใบ้และหูหนวก ที่พำนักของพวกเขาคือนรกญะฮันนัม ทุกครั้งที่มันมอดเราได้เพิ่มการเผาไหม้ให้ลุกโชนแก่พวกเขา
+EN1 (Saheeh): And whoever Allāh guides - he is the [rightly] guided; and whoever He sends astray - you will never find for them protectors besides Him, and We will gather them on the Day of Resurrection [fallen] on their faces - blind, dumb and deaf. Their refuge is Hell; every time it subsides, We increase [for] them blazing fire.
+EN2 (Hilali-Khan): And he whom Allâh guides, he is led aright; but he whom He sends astray, for such you will find no Auliyâ’ (helpers and protectors), besides Him, and We shall gather them together on the Day of Resurrection on their faces,blind, dumb and deaf; their abode will be Hell; whenever it abates, We shall increase for them the fierceness of the Fire.
+FN[113]: คือจะถูกจับขาลากไปลงนรก
+FN[114]: หมายถึงปราศจากความรู้สึก คืออยู่ในสภาพที่ไม่เห็น ไม่พูด ไม่ได้ยิน เมื่อได้ลงไปในนรกแล้วความรู้สึกต่าง ๆ เหล่านั้นจะกลับคืนมา
+--------------------------------------------------------------------------------
+[17:98]
+AR: ذَٰلِكَ جَزَآؤُهُم بِأَنَّهُمۡ كَفَرُواْ بِـَٔايَٰتِنَا وَقَالُوٓاْ أَءِذَا كُنَّا عِظَٰمٗا وَرُفَٰتًا أَءِنَّا لَمَبۡعُوثُونَ خَلۡقٗا جَدِيدًا
+V4: นั่นคือการตอบแทนของพวกเขา โดยแท้จริง พวกเขาปฏิเสธศรัทธาต่อโองการทั้งหลายของเรา และพวกเขากล่าวว่า “เมื่อเราเป็นกระดูกและเปื่อยยุ่ยแล้ว แน่นอนเราจะถูกให้ฟื้นขึ้นเพื่อกำเนิดใหม่ได้อย่างไร ?”
+V3: นั่นคือการตอบแทนของพวกเขา โดยแน่นอน พวกเขาปฏิเสธศรัทธาต่อโองการทั้งหลายของเรา และพวกเขากล่าวว่า เมื่อเราเป็นกระดูกและร่วนยุ่ยแล้ว แท้จริงเราจะถูกให้ฟื้นขึ้นเพื่อกำเนิดใหม่ได้อย่างไร
+EN1 (Saheeh): That is their recompense because they disbelieved in Our verses and said, "When we are bones and crumbled particles, will we [truly] be resurrected [in] a new creation?"
+EN2 (Hilali-Khan): That is their recompense, because they denied Our Ayât (proofs, evidence, verses, lessons, signs, revelations, etc.) and said: "When we are bones and fragments, shall we really be raised up as a new creation?"
+--------------------------------------------------------------------------------
+[17:99]
+AR: ۞ أَوَلَمۡ يَرَوۡاْ أَنَّ ٱللَّهَ ٱلَّذِي خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَ قَادِرٌ عَلَىٰٓ أَن يَخۡلُقَ مِثۡلَهُمۡ وَجَعَلَ لَهُمۡ أَجَلٗا لَّا رَيۡبَ فِيهِ فَأَبَى ٱلظَّٰلِمُونَ إِلَّا كُفُورٗا
+V4: พวกเขาไม่เห็นดอกหรือว่า แท้จริงอัลลอฮฺผู้ทรงสร้างชั้นฟ้าทั้งหลายและแผ่นดิน[FN:115] พระองค์เป็นผู้ทรงอานุภาพที่จะสร้างเยี่ยงพวกเขา และทรงกำหนดเวลาหนึ่งสำหรับพวกเขา ไม่มีการสงสัยใด ๆ ในนั้น แต่พวกอธรรมปฏิเสธไม่ยอมรับ นอกจากการไม่ศรัทธา
+V3: พวกเขาไม่เห็นดอกหรือว่า แท้จริงอัลลอฮฺผู้ทรงสร้างชั้นฟ้าทั้งหลายและแผ่นดิน พระองค์เป็นผู้ทรงอานุภาพที่จะสร้างเยี่ยงพวกเขา และทรงกำหนดเวลาหนึ่งสำหรับพวกเขา ไม่มีการสงสัยใด ๆ ในนั้น แต่พวกอธรรมปฏิเสธไม่ยอมรับ นอกจากการไม่ศรัทธา
+EN1 (Saheeh): Do they not see that Allāh, who created the heavens and earth, is [the one] Able to create the likes of them? And He has appointed for them a term, about which there is no doubt. But the wrongdoers refuse except disbelief.
+EN2 (Hilali-Khan): See they not that Allâh, Who created the heavens and the earth, is Able to create the like of them. And He has decreed for them an appointed term, whereof there is no doubt. But the Zâlimûn (polytheists and wrong-doers) refuse (the truth - the Message of Islâmic Monotheism, and accept nothing) but disbelief.
+FN[115]: กล่าวคือ พวกมุชริกีนไม่เห็นดอกหรือว่า อัลลอฮฺผู้ทรงยิ่งใหญ่ผู้ทรงเดชานุภาพ ผู้ทรงสร้างจักรวาลอันยิ่งใหญ่ รวมทั้งชั้นฟ้าทั้งหลายและแผ่นดิน พระองค์ย่อมสามารถที่จะให้เรือนร่างของมนุษย์กลับคืนมาอีกครั้งหนึ่ง หลังจากสูญสิ้นไปแล้วอย่างแน่นอน
+--------------------------------------------------------------------------------
+[17:100]
+AR: قُل لَّوۡ أَنتُمۡ تَمۡلِكُونَ خَزَآئِنَ رَحۡمَةِ رَبِّيٓ إِذٗا لَّأَمۡسَكۡتُمۡ خَشۡيَةَ ٱلۡإِنفَاقِۚ وَكَانَ ٱلۡإِنسَٰنُ قَتُورٗا
+V4: จงกล่าวเถิด (มุฮัมมัด) “หากพวกท่านครอบครองขุมแห่งความเมตตาของพระผู้อภิบาลของฉัน เมื่อนั้นพวกท่านก็จะหน่วงเหนี่ยวมันไว้[FN:116]เพราะกลัวการบริจาค และมนุษย์นั้นเป็นคนตระหนี่”
+V3: จงกล่าวเถิด (มุฮัมมัด) หากพวกท่านครอบครองขุมแห่งความเมตตาของพระเจ้าของฉัน เมื่อนั้นพวกท่านก็จะหน่วงเหนี่ยวมันไว้เพราะกลัวการบริจาค และมนุษย์นั้นเป็นคนตระหนี่
+EN1 (Saheeh): Say [to them], "If you possessed the depositories of the mercy of my Lord, then you would withhold out of fear of spending." And ever has man been stingy.
+EN2 (Hilali-Khan): Say (to the disbelievers): "If you possessed the treasure of the Mercy of my Lord (wealth, money, provision.), then you would surely hold back (from spending) for fear of (being exhausted), and man is ever miserly!"
+FN[116]: คือพวกท่านจะตระหนี่ ไม่ยอมบริจาค เพราะกลัวจะหมด
+--------------------------------------------------------------------------------
+[17:101]
+AR: وَلَقَدۡ ءَاتَيۡنَا مُوسَىٰ تِسۡعَ ءَايَٰتِۭ بَيِّنَٰتٖۖ فَسۡـَٔلۡ بَنِيٓ إِسۡرَٰٓءِيلَ إِذۡ جَآءَهُمۡ فَقَالَ لَهُۥ فِرۡعَوۡنُ إِنِّي لَأَظُنُّكَ يَٰمُوسَىٰ مَسۡحُورٗا
+V4: และโดยแน่นอน เราได้ให้แก่มูซาสัญญาณต่าง ๆ อันแจ่มชัด 9 ประการ[FN:117] ดังนั้น เจ้าจงถามวงศ์วานของอิสรออีล เมื่อเขา (มูซา) มายังพวกเขา ฟิรเอานฺได้พูดกับเขาว่า “โอ้ มูซาเอ๋ย แท้จริงฉันคิดว่าท่านถูกเวทมนตร์อย่างแน่นอน”[FN:118]
+V3: และโดยแน่นอน เราได้ให้แก่มูซาสัญญาณต่าง ๆ อันแจ่มชัดเก้าประการ ดังนั้น เจ้าจงถามวงศ์วานของอิสรออีล เมื่อเขา (มูซา) มายังพวกเขา ฟิรเอานฺได้พูดกับเขาว่า โอ้ มูซาเอ๋ย แท้จริงฉันคิดว่าท่านถูกเวทมนตร์อย่างแน่นอน
+EN1 (Saheeh): And We had certainly given Moses nine evident signs, so ask the Children of Israel [about] when he came to them and Pharaoh said to him, "Indeed I think, O Moses, that you are affected by magic."
+EN2 (Hilali-Khan): And indeed We gave Mûsâ (Moses) nine clear signs. Ask then the Children of Israel, when he came to them, then Fir‘aun (Pharaoh) said to him: "O Mûsâ (Moses)! I think you are indeed bewitched."
+FN[117]: สัญญาณ 9 ประการคือ ไม้เท้า มือ น้ำท่วม ตั๊กแตน เหา กบ เลือด การแยกออกของทะเล และความแห้งแล้ง
+FN[118]: อัลลอฮฺ ตะอาลา ตรัสในที่นี้ว่า ความมากมายของสิ่งมหัศจรรย์หรือปาฏิหาริย์มิได้ทำให้เกิดการอีมานในจิตใจของผู้ที่ดื้อรั้น ดังเช่นฟิรเอานฺ ซึ่งอัลลอฮฺ ตะอาลา ได้ทรงให้สัญญาณต่าง ๆ แก่มูซาถึง 9 ประการ แต่ฟิรเอานฺและพรรคพวกของเขาก็หาได้ศรัทธาต่อมูซาไม่
+--------------------------------------------------------------------------------
+[17:102]
+AR: قَالَ لَقَدۡ عَلِمۡتَ مَآ أَنزَلَ هَٰٓؤُلَآءِ إِلَّا رَبُّ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ بَصَآئِرَ وَإِنِّي لَأَظُنُّكَ يَٰفِرۡعَوۡنُ مَثۡبُورٗا
+V4: เขากล่าวว่า “โดยแน่นอนท่านย่อมรู้ดีว่าไม่มีผู้ใดประทานสิ่งเหล่านี้ นอกจากพระเจ้าแห่งชั้นฟ้าทั้งหลายและแผ่นดินเพื่อเป็นพยาน และแท้จริงฉันคิดว่าแน่นอนท่าน โอ้ ฟิรเอานฺเอ๋ย เป็นผู้หายนะแล้ว”
+V3: เขากล่าวว่า โดยแน่นอนท่านย่อมรู้ดีว่าไม่มีผู้ใดประทานสิ่งเหล่านี้ นอกจากพระเจ้าแห่งชั้นฟ้าทั้งหลายและแผ่นดินเพื่อเป็นพยาน และแท้จริงฉันคิดว่าแน่นอนท่าน โอ้ ฟิรเอานฺเอ๋ย เป็นผู้หายนะแล้ว
+EN1 (Saheeh): [Moses] said, "You have already known that none has sent down these [signs] except the Lord of the heavens and the earth as evidence, and indeed I think, O Pharaoh, that you are destroyed."
+EN2 (Hilali-Khan): [Mûsâ (Moses)] said: "Verily, you know that these signs have been sent down by none but the Lord of the heavens and the earth (as clear evidence i.e. proofs of Allâh’s Oneness and His Omnipotence.). And I think you are, indeed, O Fir‘aun (Pharaoh) doomed to destruction (away from all good)!"
+--------------------------------------------------------------------------------
+[17:103]
+AR: فَأَرَادَ أَن يَسۡتَفِزَّهُم مِّنَ ٱلۡأَرۡضِ فَأَغۡرَقۡنَٰهُ وَمَن مَّعَهُۥ جَمِيعٗا
+V4: ดังนั้น เขา (ฟิรเอานฺ) ต้องการที่จะย้ายพวกเขาออกไปจากแผ่นดิน[FN:119] ฉะนั้น เราจึงให้เขาจมน้ำตายและผู้ที่อยู่ร่วมกับเขาทั้งหมด
+V3: ดังนั้น เขา (ฟิรเอานฺ) ต้องการที่จะย้ายพวกเขาออกไปจากแผ่นดิน ฉะนั้น เราจึงให้เขาและผู้ที่อยู่ร่วมกับเขาทั้งหมดจมน้ำตาย
+EN1 (Saheeh): So he intended to drive them from the land, but We drowned him and those with him all together.
+EN2 (Hilali-Khan): So he resolved to turn them out of the land (of Egypt). But We drowned him and all who were with him.
+FN[119]: คือฟิรเอานฺต้องการจะขับไล่มูซาและชนชาติของเขาออกจากดินแดนอียิปต์
+--------------------------------------------------------------------------------
+[17:104]
+AR: وَقُلۡنَا مِنۢ بَعۡدِهِۦ لِبَنِيٓ إِسۡرَٰٓءِيلَ ٱسۡكُنُواْ ٱلۡأَرۡضَ فَإِذَا جَآءَ وَعۡدُ ٱلۡأٓخِرَةِ جِئۡنَا بِكُمۡ لَفِيفٗا
+V4: และเราได้กล่าวแก่วงศ์วานของอิสรออีลหลังจากเขาว่า[FN:120] “จงพำนักอยู่ในดินแดนนี้”[FN:121] ดังนั้นเมื่อสัญญาแห่งวันอาคิเราะฮฺได้มาถึง เราจะนำพวกเจ้าทั้งหมดมารวมไว้ด้วยกัน”[FN:122]
+V3: และเราได้กล่าวแก่วงศ์วานของอิสรออีลหลังจากเขาว่า จงพำนักอยู่ในดินแดนนี้ ดังนั้นเมื่อสัญญาแห่งวันอาคิเราะฮฺได้มาถึง เราจะนำพวกเจ้าทั้งหมดมารวมไว้ด้วยกัน
+EN1 (Saheeh): And We said after him [i.e., Pharaoh] to the Children of Israel, "Dwell in the land, and when there comes the promise [i.e., appointment] of the Hereafter, We will bring you forth in [one] gathering."
+EN2 (Hilali-Khan): And We said to the Children of Israel after him: "Dwell in the land, then, when the final and the last promise comes near [i.e. the Day of Resurrection or the descent of Christ [‘Îsâ (Jesus), son of Maryam (Mary) عليهما السلام on the earth], We shall bring you altogether as mixed crowd (gathered out of various nations). (Tafsir Al-Qurtubî,).
+FN[120]: หลังจากฟิรเอานฺและพรรคพวกของเขาได้จมน้ำตายแล้ว
+FN[121]: คือดินแดนอียิปต์
+FN[122]: คือ เราจะนำพวกท่านออกจากหลุมฝังศพไปยังทุ่งมะฮฺชัร เดินรวมไปกันหมดมีทั้งมุอฺมินและกาฟิร คนดีและคนเลว
+--------------------------------------------------------------------------------
+[17:105]
+AR: وَبِٱلۡحَقِّ أَنزَلۡنَٰهُ وَبِٱلۡحَقِّ نَزَلَۗ وَمَآ أَرۡسَلۡنَٰكَ إِلَّا مُبَشِّرٗا وَنَذِيرٗا
+V4: และด้วยความจริง เราได้ประทานมัน (อัลกุรอาน) ลงมา และด้วยความจริงมันได้ลงมา และเรามิได้ส่งเจ้าเพื่ออื่นใด นอกจากเพื่อเป็นผู้แจ้งข่าวดี และเป็นผู้ตักเตือน[FN:123]
+V3: และด้วยความจริง เราได้ประทานมัน (อัลกุรอาน) ลงมา และด้วยความจริงมันได้ลงมา และเรามิได้ส่งเจ้าเพื่ออื่นใด นอกจากเพื่อเป็นผู้แจ้งข่าวดี และเป็นผู้ตักเตือน
+EN1 (Saheeh): And with the truth We have sent it [i.e., the Qur’ān] down, and with the truth it has descended. And We have not sent you, [O Muḥammad], except as a bringer of good tidings and a warner.
+EN2 (Hilali-Khan): And with truth We have sent it down (i.e. the Qur’ân), and with truth it has descended. And We have sent you (O Muhammad صلى الله عليه و سلم) as nothing but a bearer of glad tidings (of Paradise for those who follow your Message of Islâmic Monotheism), and a warner (of Hell-fire for those who refuse to follow your Message of Islâmic Monotheism).
+FN[123]: คือเพื่อแจ้งข่าวดีด้วยสวนสวรรค์แก่ผู้ที่เชื่อฟัง จงรักภักดี และตักเตือนด้วยนรกญะฮันนัมแก่ผู้ที่ดื้อรั้นและฝ่าฝืน
+--------------------------------------------------------------------------------
+[17:106]
+AR: وَقُرۡءَانٗا فَرَقۡنَٰهُ لِتَقۡرَأَهُۥ عَلَى ٱلنَّاسِ عَلَىٰ مُكۡثٖ وَنَزَّلۡنَٰهُ تَنزِيلٗا
+V4: และอัลกุรอาน เราได้แยกมันไว้อย่างชัดเจน เพื่อเจ้าจะได้อ่านมันแก่มนุษย์อย่างช้า ๆ และเราได้ประทานมันลงมาเป็นขั้นตอน[FN:124]
+V3: และอัลกุรอาน เราได้แยกมันไว้อย่างชัดเจน เพื่อเจ้าจะได้อ่านมันแก่มนุษย์อย่างช้า ๆ และเราได้ประทานมันลงมาเป็นขั้นตอน
+EN1 (Saheeh): And [it is] a Qur’ān which We have separated [by intervals] that you might recite it to the people over a prolonged period. And We have sent it down progressively.
+EN2 (Hilali-Khan): And (it is) a Qur’ân which We have divided (into parts), in order that you might recite it to men at intervals. And We have revealed it by stages (in 23 years).
+FN[124]: คือประทานลงมาเป็นระยะ ๆ สอดคล้องกับสถานการณ์และผลประโยชน์ เพื่อมนุษย์จะได้อ่านอย่างช้า ๆ และท่องจำได้ง่าย
+--------------------------------------------------------------------------------
+[17:107]
+AR: قُلۡ ءَامِنُواْ بِهِۦٓ أَوۡ لَا تُؤۡمِنُوٓاْۚ إِنَّ ٱلَّذِينَ أُوتُواْ ٱلۡعِلۡمَ مِن قَبۡلِهِۦٓ إِذَا يُتۡلَىٰ عَلَيۡهِمۡ يَخِرُّونَۤ لِلۡأَذۡقَانِۤ سُجَّدٗاۤ
+V4: จงกล่าวเถิด (มุฮัมมัด) “พวกท่านจะศรัทธาในมันหรือไม่ศรัทธาก็ตาม[FN:125] แท้จริงบรรดาผู้ได้รับความรู้ก่อนหน้ามันนั้น เมื่อมันได้ถูกอ่านแก่พวกเขา พวกเขาจะหมอบราบลง ใบหน้าจรดพื้นเพื่อสุญด”[FN:126]
+V3: จงกล่าวเถิด (มุฮัมมัด) พวกท่านจะศรัทธาในมันหรือไม่ศรัทธาก็ตาม แท้จริงบรรดาผู้ได้รับความรู้ก่อนหน้ามันนั้น เมื่อมันได้ถูกอ่านแก่พวกเขา พวกเขาจะหมอบราบลง ใบหน้าจรดพื้นเพื่อสุญูด
+EN1 (Saheeh): Say, "Believe in it or do not believe." Indeed, those who were given knowledge before it - when it is recited to them, they fall upon their faces in prostration,
+EN2 (Hilali-Khan): Say (O Muhammad صلى الله عليه و سلم to them): "Believe in it (the Qur’ân) or do not believe (in it). Verily those who were given knowledge before it (the Jews and the Christians like ‘Abdullâh bin Salâm and Salmân Al-Farisî), when it is recited to them, fall down on their faces in humble prostration."
+FN[125]: เพราะการอีมานของพวกท่านต่ออัลกุรอาน จะไม่เพิ่มความสมบูรณ์ให้มันแต่ประการใด และการไม่ศรัทธาต่อมันก็จะไม่ทำให้อัลกุรอานขาดตกบกพร่องแต่ประการใด
+FN[126]: อัรรอซีย์กล่าวว่า ประโยชน์ของการกล่าวซ้ำนี้ เพราะสถานะแตกต่างกันคือ สถานะการหมอบราบลงจรดคางของพวกเขาเพื่อสุญูด กับสถานะของพวกเขาร้องไห้ เมื่อได้ยินการอ่านอัลกุรอาน และทำให้พวกเขาเพิ่มการนบนอบถ่อมตัวต่ออัลลอฮฺ ตะอาลา
+--------------------------------------------------------------------------------
+[17:108]
+AR: وَيَقُولُونَ سُبۡحَٰنَ رَبِّنَآ إِن كَانَ وَعۡدُ رَبِّنَا لَمَفۡعُولٗا
+V4: และพวกเขาจะกล่าวว่า “มหาบริสุทธิ์แห่งพระผู้อภิบาลของเรา สัญญาของพระผู้อภิบาลของเรานั้นแน่นอน ย่อมถูกปฏิบัติให้ครบถ้วน”
+V3: และพวกเขาจะกล่าวว่า มหาบริสุทธิ์แห่งพระเจ้าของเรา สัญญาของพระเจ้าของเรานั้นแน่นอน ย่อมถูกปฏิบัติให้ครบถ้วน
+EN1 (Saheeh): And they say, "Exalted is our Lord! Indeed, the promise of our Lord has been fulfilled."
+EN2 (Hilali-Khan): And they say: "Glory be to our Lord! Truly, the Promise of our Lord must be fulfilled."
+--------------------------------------------------------------------------------
+[17:109]
+AR: وَيَخِرُّونَ لِلۡأَذۡقَانِ يَبۡكُونَ وَيَزِيدُهُمۡ خُشُوعٗا ۩
+V4: และพวกเขาจะหมอบราบลง ใบหน้าจรดพื้นพลางร้องไห้ และมันจะเพิ่มการสำรวมแก่พวกเขา
+V3: และพวกเขาจะหมอบราบลง ใบหน้าจรดพื้นพลางร้องไห้ และมันจะเพิ่มการสำรวมแก่พวกเขา
+EN1 (Saheeh): And they fall upon their faces weeping, and it [i.e., the Qur’ān] increases them in humble submission.
+EN2 (Hilali-Khan): And they fall down on their faces weeping and it increases their humility.
+--------------------------------------------------------------------------------
+[17:110]
+AR: قُلِ ٱدۡعُواْ ٱللَّهَ أَوِ ٱدۡعُواْ ٱلرَّحۡمَٰنَۖ أَيّٗا مَّا تَدۡعُواْ فَلَهُ ٱلۡأَسۡمَآءُ ٱلۡحُسۡنَىٰۚ وَلَا تَجۡهَرۡ بِصَلَاتِكَ وَلَا تُخَافِتۡ بِهَا وَٱبۡتَغِ بَيۡنَ ذَٰلِكَ سَبِيلٗا
+V4: จงกล่าวเถิด (มุฮัมมัด) “พวกท่านจงเรียกอัลลอฮฺหรือจงเรียกอัรเราะฮฺมานเถิด อันใดก็ตามที่เจ้าเรียก สำหรับพระองค์นั้นพระนามสวยงามยิ่ง[FN:127] และอย่ายกเสียงดังในเวลาละหมาดของเจ้า[FN:128] และอย่าลดให้ค่อยเช่นกัน[FN:129] แต่จงแสวงหาทางระหว่างนั้น (ปานกลาง)”
+V3: จงกล่าวเถิด (มุฮัมมัด) พวกท่านจงเรียกอัลลอฮฺหรือจงเรียกอัรเราะหฺมานเถิด อันใดก็ตามที่เจ้าเรียก สำหรับพระองค์นั้นพระนามสวยงามยิ่ง และอย่ายกเสียงดังในเวลาละหมาดของเจ้า และอย่าลดให้ค่อยเช่นกัน แต่จงแสวงหาทางระหว่างนั้น (ปานกลาง)
+EN1 (Saheeh): Say, "Call upon Allāh or call upon the Most Merciful [ar-Raḥmān]. Whichever [name] you call - to Him belong the best names." And do not recite [too] loudly in your prayer or [too] quietly but seek between that an [intermediate] way.
+EN2 (Hilali-Khan): Say (O Muhammad صلى الله عليه و سلم): "Invoke Allâh or invoke the Most Gracious (Allâh), by whatever name you invoke Him (it is the same), for to Him belong the Best Names. And offer your Salât (prayer) neither aloud nor in a low voice, but follow a way between.
+FN[127]: “อัลลอฮฺ” และ “อัรเราะฮฺมาน” คือพระนามของพระองค์ พระนามใดที่พวกท่านวิงวอนขอก็ใช้ได้ทั้งนั้น เพราะเป็นพระนามที่สวยงามยิ่งของพระองค์ นักตัฟซีรอธิบายว่า สาเหตุแห่งการประทานอายะฮฺนี้คือ พวกกุฟฟารเมื่อได้ยินท่านนบี ศ็อลลัลลอฮุอะลัยฮิวะซัลลัม กล่าววิงวอนว่า “ยาอัลลอฮฺ ยาเราะฮฺมาน” พวกเขากล่าวว่า มุฮัมมัดใช้ให้เราวิงวอนต่อพระเจ้าองค์เดียว แต่นี่เขาวิงวอนต่อพระเจ้าสององค์ อายะฮฺนี้จึงถูกประทานลงมาเพื่อชี้แจงว่า พระนามทั้งสองคือพระนามเดียวกัน
+FN[128]: เพราะเมื่อพวกมุชริกีนได้ยินเข้า พวกเขาจะประณามอัลกุรอานและผู้ที่ประทานมันลงมา
+FN[129]: โดยที่จะทำให้ผู้ที่อยู่ข้างหลังท่านไม่ได้ยินการอ่านของท่าน
+--------------------------------------------------------------------------------
+[17:111]
+AR: وَقُلِ ٱلۡحَمۡدُ لِلَّهِ ٱلَّذِي لَمۡ يَتَّخِذۡ وَلَدٗا وَلَمۡ يَكُن لَّهُۥ شَرِيكٞ فِي ٱلۡمُلۡكِ وَلَمۡ يَكُن لَّهُۥ وَلِيّٞ مِّنَ ٱلذُّلِّۖ وَكَبِّرۡهُ تَكۡبِيرَۢا
+V4: และจงกล่าวเถิด (มุฮัมมัด) “การสรรเสริญทั้งมวลเป็นของอัลลอฮฺ ซึ่งไม่ทรงตั้งพระบุตรและไม่มีภาคีใด ๆ ร่วมกับพระองค์ในอำนาจ และไม่มีผู้ช่วยเหลือใด ๆ แก่พระองค์ให้พ้นจากความต่ำต้อย และจงให้ความเกรียงไกรแด่พระองค์อย่างกึกก้อง”[FN:130]
+V3: และจงกล่าวเถิด (มุฮัมมัด) การสรรเสริญทั้งมวลเป็นของอัลลอฮฺ ซึ่งไม่ทรงตั้งพระบุตรและไม่มีภาคีใด ๆ ร่วมกับพระองค์ในอำนาจ และไม่มีผู้ช่วยเหลือใด ๆ แก่พระองค์ให้พ้นจากความต่ำต้อย และจงให้ความเกรียงไกรแด่พระองค์อย่างกึกก้อง
+EN1 (Saheeh): And say, "Praise to Allāh, who has not taken a son and has had no partner in [His] dominion and has no [need of a] protector out of weakness; and glorify Him with [great] glorification."
+EN2 (Hilali-Khan): And say: "All the praises and thanks be to Allâh, Who has not begotten a son (or offspring), and Who has no partner in (His) Dominion, nor He is low to have a Walî (helper, protector or supporter). And magnify Him with all magnificence, [Allâhu-Akbar (Allâh is the Most Great)]."
+FN[130]: จงให้ความยิ่งใหญ่อย่างสมบูรณ์แก่พระเจ้าของท่าน และจงกล่าวรำลึกถึงพระองค์ด้วยคุณลักษณะแห่งผู้ทรงอำนาจ ผู้ทรงเกริกก้อง ผู้ทรงยิ่งใหญ่ ผู้ทรงสมบูรณ์ยิ่ง ซูเราะฮฺนี้จบลงด้วยการสรรเสริญอัลลอฮฺ เช่นเดียวกับตอนเริ่ม และยืนยันความเป็นเอกภาพของพระองค์ โดยปราศจากพระบุตรและการตั้งภาคี และให้ความบริสุทธิ์แด่พระองค์ จากการมีผู้ช่วยเหลือหรือสนับสนุน พระองค์คือ ผู้ทรงสูงส่งผู้ทรงยิ่งใหญ่
+--------------------------------------------------------------------------------

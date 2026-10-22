@@ -3,11 +3,13 @@
 """
 scripts/export_v4_audit_chunk.py
 Exports ThaiQuran v4 verses alongside Arabic Uthmani, Thai v3, 2 English translations
-(Saheeh International & Hilali-Khan), and Footnotes for Juz-by-Juz LLM audit.
+(Saheeh International & Hilali-Khan), and Footnotes for Juz-by-Juz or Subchunk LLM audit.
 
 Usage:
   python scripts/export_v4_audit_chunk.py --juz 1
+  python scripts/export_v4_audit_chunk.py --juz 1 --subchunks
   python scripts/export_v4_audit_chunk.py --all
+  python scripts/export_v4_audit_chunk.py --all --subchunks
   python scripts/export_v4_audit_chunk.py --surah 2
 """
 
@@ -28,6 +30,8 @@ EN_HILALI_PATH = Path(r"H:\gits\thai-quran-web\src\data\en_hilali_khan.json")
 
 OUT_DIR = REPO_ROOT / "audit_chunks"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
+SUBCHUNK_DIR = OUT_DIR / "subchunks"
+SUBCHUNK_DIR.mkdir(parents=True, exist_ok=True)
 
 JUZ_BOUNDARIES = {
     1: ("1:1", "2:141"),
@@ -61,6 +65,70 @@ JUZ_BOUNDARIES = {
     29: ("67:1", "77:50"),
     30: ("78:1", "114:6"),
 }
+
+# The 127 Gold Standard Sub-Chunks (averaging 35-50 verses each, proven from WBW project)
+SUBCHUNKS_127 = [
+    # Juz 1
+    (1, "1:1-2:43"), (1, "2:44-2:91"), (1, "2:92-2:141"),
+    # Juz 2
+    (2, "2:142-2:176"), (2, "2:177-2:218"), (2, "2:219-2:252"),
+    # Juz 3
+    (3, "2:253-2:286"), (3, "3:1-3:45"), (3, "3:46-3:92"),
+    # Juz 4
+    (4, "3:93-3:148"), (4, "3:149-3:200"), (4, "4:1-4:23"),
+    # Juz 5
+    (5, "4:24-4:65"), (5, "4:66-4:104"), (5, "4:105-4:147"),
+    # Juz 6
+    (6, "4:148-4:176"), (6, "5:1-5:40"), (6, "5:41-5:81"),
+    # Juz 7
+    (7, "5:82-5:120"), (7, "6:1-6:58"), (7, "6:59-6:110"),
+    # Juz 8
+    (8, "6:111-6:165"), (8, "7:1-7:46"), (8, "7:47-7:87"),
+    # Juz 9
+    (9, "7:88-7:147"), (9, "7:148-7:206"), (9, "8:1-8:40"),
+    # Juz 10
+    (10, "8:41-8:75"), (10, "9:1-9:45"), (10, "9:46-9:92"),
+    # Juz 11
+    (11, "9:93-9:129"), (11, "10:1-10:60"), (11, "10:61-10:109"), (11, "11:1-11:5"),
+    # Juz 12
+    (12, "11:6-11:60"), (12, "11:61-11:123"), (12, "12:1-12:52"),
+    # Juz 13
+    (13, "12:53-12:111"), (13, "13:1-13:43"), (13, "14:1-14:52"),
+    # Juz 14
+    (14, "15:1-15:99"), (14, "16:1-16:64"), (14, "16:65-16:128"),
+    # Juz 15
+    (15, "17:1-17:55"), (15, "17:56-17:111"), (15, "18:1-18:74"),
+    # Juz 16
+    (16, "18:75-18:110"), (16, "19:1-19:98"), (16, "20:1-20:76"), (16, "20:77-20:135"),
+    # Juz 17
+    (17, "21:1-21:50"), (17, "21:51-21:112"), (17, "22:1-22:41"), (17, "22:42-22:78"),
+    # Juz 18
+    (18, "23:1-23:62"), (18, "23:63-23:118"), (18, "24:1-24:34"), (18, "24:35-24:64"), (18, "25:1-25:20"),
+    # Juz 19
+    (19, "25:21-25:77"), (19, "26:1-26:104"), (19, "26:105-26:227"), (19, "27:1-27:55"),
+    # Juz 20
+    (20, "27:56-27:93"), (20, "28:1-28:43"), (20, "28:44-28:88"), (20, "29:1-29:45"),
+    # Juz 21
+    (21, "29:46-29:69"), (21, "30:1-30:60"), (21, "31:1-31:34"), (21, "32:1-32:30"), (21, "33:1-33:30"),
+    # Juz 22
+    (22, "33:31-33:73"), (22, "34:1-34:54"), (22, "35:1-35:45"), (22, "36:1-36:27"),
+    # Juz 23
+    (23, "36:28-36:83"), (23, "37:1-37:82"), (23, "37:83-37:182"), (23, "38:1-38:88"), (23, "39:1-39:31"),
+    # Juz 24
+    (24, "39:32-39:75"), (24, "40:1-40:40"), (24, "40:41-40:85"), (24, "41:1-41:46"),
+    # Juz 25
+    (25, "41:47-41:54"), (25, "42:1-42:53"), (25, "43:1-43:89"), (25, "44:1-44:59"), (25, "45:1-45:37"),
+    # Juz 26
+    (26, "46:1-46:35"), (26, "47:1-47:38"), (26, "48:1-48:29"), (26, "49:1-49:18"), (26, "50:1-50:45"), (26, "51:1-51:30"),
+    # Juz 27
+    (27, "51:31-51:60"), (27, "52:1-52:49"), (27, "53:1-53:62"), (27, "54:1-54:55"), (27, "55:1-55:78"), (27, "56:1-56:96"), (27, "57:1-57:29"),
+    # Juz 28
+    (28, "58:1-58:22"), (28, "59:1-59:24"), (28, "60:1-60:13"), (28, "61:1-61:14"), (28, "62:1-62:11"), (28, "63:1-63:11"), (28, "64:1-64:18"), (28, "65:1-65:12"), (28, "66:1-66:12"),
+    # Juz 29
+    (29, "67:1-67:30"), (29, "68:1-68:52"), (29, "69:1-69:52"), (29, "70:1-70:44"), (29, "71:1-71:28"), (29, "72:1-72:28"), (29, "73:1-73:20"), (29, "74:1-74:56"), (29, "75:1-75:40"), (29, "76:1-76:31"), (29, "77:1-77:50"),
+    # Juz 30
+    (30, "78:1-82:19"), (30, "83:1-89:30"), (30, "90:1-100:11"), (30, "101:1-114:6"),
+]
 
 FN_TOKEN_RE = re.compile(r"⟦FN:(\d+)⟧")
 
@@ -100,9 +168,9 @@ def load_all_datasets():
     return v4_records, v4_map, v3_map, ar_map, en_saheeh, en_hilali
 
 
-def export_chunk(chunk_name: str, ak_list: list[str], data_maps: tuple) -> Path:
+def export_chunk(chunk_name: str, ak_list: list[str], data_maps: tuple, out_folder: Path = OUT_DIR) -> Path:
     _, v4_map, v3_map, ar_map, en_saheeh, en_hilali = data_maps
-    out_file = OUT_DIR / f"{chunk_name}.txt"
+    out_file = out_folder / f"{chunk_name}.txt"
 
     lines = []
     lines.append(f"=== THAIQURAN V4 AUDIT CHUNK: {chunk_name.upper()} ===")
@@ -113,7 +181,6 @@ def export_chunk(chunk_name: str, ak_list: list[str], data_maps: tuple) -> Path:
     lines.append("2. Output verified fixes in strict JSON format: [{\"ayah\": \"S:A\", \"type\": \"...\", \"target\": \"...\", \"replacement\": \"...\", \"reason\": \"...\"}]")
     lines.append("3. If an ayah is accurate and readable, do NOT touch it.")
     lines.append("================================================================================")
-    lines.append("")
 
     for ak in ak_list:
         v4_rec = v4_map.get(ak)
@@ -153,36 +220,54 @@ def export_chunk(chunk_name: str, ak_list: list[str], data_maps: tuple) -> Path:
     return out_file
 
 
+def export_subchunks_for_juz(target_juz: int, all_keys: list[str], data_maps: tuple):
+    juz_subchunks = [sc for sc in SUBCHUNKS_127 if sc[0] == target_juz]
+    for idx, (_, r_str) in enumerate(juz_subchunks, 1):
+        st, en = r_str.split("-")
+        clean_r_str = r_str.replace(":", "_").replace("-", "_to_")
+        chunk_name = f"juz_{target_juz:02d}_part{idx}_{clean_r_str}"
+        chunk_keys = [k for k in all_keys if is_in_range(k, st, en)]
+        export_chunk(chunk_name, chunk_keys, data_maps, out_folder=SUBCHUNK_DIR)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Export ThaiQuran v4 audit chunks for LLM review")
     parser.add_argument("--juz", type=int, choices=range(1, 31), help="Juz number (1-30)")
     parser.add_argument("--surah", type=int, choices=range(1, 115), help="Surah number (1-114)")
     parser.add_argument("--all", action="store_true", help="Export all 30 Juz")
+    parser.add_argument("--subchunks", action="store_true", help="Export 35-50 verse subchunks (127 chunks)")
     args = parser.parse_args()
 
     data_maps = load_all_datasets()
     v4_records = data_maps[0]
-
     all_keys = [r["ayah_key"] for r in v4_records]
 
     if args.juz:
+        # Export whole Juz file
         st, en = JUZ_BOUNDARIES[args.juz]
         juz_keys = [k for k in all_keys if is_in_range(k, st, en)]
-        export_chunk(f"juz_{args.juz:02d}", juz_keys, data_maps)
+        export_chunk(f"juz_{args.juz:02d}", juz_keys, data_maps, out_folder=OUT_DIR)
+        if args.subchunks:
+            export_subchunks_for_juz(args.juz, all_keys, data_maps)
+
     elif args.surah:
         surah_keys = [k for k in all_keys if parse_key(k)[0] == args.surah]
-        export_chunk(f"surah_{args.surah:03d}", surah_keys, data_maps)
+        export_chunk(f"surah_{args.surah:03d}", surah_keys, data_maps, out_folder=OUT_DIR)
+
     elif args.all:
         for j in range(1, 31):
             st, en = JUZ_BOUNDARIES[j]
             juz_keys = [k for k in all_keys if is_in_range(k, st, en)]
-            export_chunk(f"juz_{j:02d}", juz_keys, data_maps)
+            export_chunk(f"juz_{j:02d}", juz_keys, data_maps, out_folder=OUT_DIR)
+            if args.subchunks:
+                export_subchunks_for_juz(j, all_keys, data_maps)
     else:
-        # Default: export Juz 1 for immediate trial
-        print("No specific argument provided. Exporting Juz 1 by default (use --all or --juz N).")
+        # Default: export Juz 1 and its subchunks
+        print("Defaulting to Juz 1 (with subchunks). Use --all or --juz N for others.")
         st, en = JUZ_BOUNDARIES[1]
         juz_keys = [k for k in all_keys if is_in_range(k, st, en)]
-        export_chunk("juz_01", juz_keys, data_maps)
+        export_chunk("juz_01", juz_keys, data_maps, out_folder=OUT_DIR)
+        export_subchunks_for_juz(1, all_keys, data_maps)
 
 
 if __name__ == "__main__":

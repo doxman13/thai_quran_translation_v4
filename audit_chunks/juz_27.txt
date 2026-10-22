@@ -6,7 +6,6 @@ CRITICAL AUDIT INSTRUCTIONS (RULE ZERO: NO OVERKILL):
 2. Output verified fixes in strict JSON format: [{"ayah": "S:A", "type": "...", "target": "...", "replacement": "...", "reason": "..."}]
 3. If an ayah is accurate and readable, do NOT touch it.
 ================================================================================
-
 [51:31]
 AR: ۞ قَالَ فَمَا خَطۡبُكُمۡ أَيُّهَا ٱلۡمُرۡسَلُونَ
 V4: เขากล่าวว่า ดังนั้นความมุ่งหมายของพวกท่านคืออะไรเล่า โอ้ บรรดาทูตเอ๋ย?[FN:19]

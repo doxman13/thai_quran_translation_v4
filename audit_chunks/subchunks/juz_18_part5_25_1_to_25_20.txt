@@ -1,0 +1,172 @@
+=== THAIQURAN V4 AUDIT CHUNK: JUZ_18_PART5_25_1_TO_25_20 ===
+Verses in this chunk: 20 (25:1 to 25:20)
+
+CRITICAL AUDIT INSTRUCTIONS (RULE ZERO: NO OVERKILL):
+1. DO NOT rewrite sentences. Only propose fixes for (1) Spacing & Cadence, (2) Spelling & Transliteration, (3) Critical/Theological error.
+2. Output verified fixes in strict JSON format: [{"ayah": "S:A", "type": "...", "target": "...", "replacement": "...", "reason": "..."}]
+3. If an ayah is accurate and readable, do NOT touch it.
+================================================================================
+[25:1]
+AR: تَبَارَكَ ٱلَّذِي نَزَّلَ ٱلۡفُرۡقَانَ عَلَىٰ عَبۡدِهِۦ لِيَكُونَ لِلۡعَٰلَمِينَ نَذِيرًا
+V4: ความจำเริญยิ่งแด่พระองค์ ผู้ทรงประทานอัลฟุรกอน[FN:1]แก่บ่าวของพระองค์ (มุฮัมมัด) เพื่อเขาจะได้เป็นผู้ตักเตือนแก่ปวงชน[FN:2]
+V3: ความจำเริญยิ่งแด่พระองค์ ผู้ทรงประทานอัลฟุรกอนแก่บ่าวของพระองค์ (มุฮัมมัด) เพื่อเขาจะได้เป็นผู้ตักเตือนแก่ปวงบ่าวทั้งมวล
+EN1 (Saheeh): Blessed is He who sent down the Criterion upon His Servant that he may be to the worlds a warner -
+EN2 (Hilali-Khan): Blessed be He Who sent down the criterion (of right and wrong, i.e. this Qur’ân) to His slave (Muhammad صلى الله عليه وسلم) that he may be a warner to the ‘Âlamîn (mankind and jinn).
+FN[1]: คืออัลกุรอานุลกะรีม ที่แยกระหว่างความจริงกับความเท็จ
+FN[2]: คือเป็นนบีของมนุษยชาติทั้งมวล และเตือนสำทับพวกเขาถึงการลงโทษของอัลลอฮฺ
+--------------------------------------------------------------------------------
+[25:2]
+AR: ٱلَّذِي لَهُۥ مُلۡكُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ وَلَمۡ يَتَّخِذۡ وَلَدٗا وَلَمۡ يَكُن لَّهُۥ شَرِيكٞ فِي ٱلۡمُلۡكِ وَخَلَقَ كُلَّ شَيۡءٖ فَقَدَّرَهُۥ تَقۡدِيرٗا
+V4: สำหรับพระองค์เป็นผู้ครอบครองบรรดาชั้นฟ้าและแผ่นดิน และพระองค์จะไม่ตั้งผู้ใดเป็นพระบุตร และสำหรับพระองค์นั้นไม่มีหุ้นส่วนร่วมกับพระองค์ในการครองอำนาจ[FN:3] และพระองค์ทรงให้บังเกิดทุกสิ่ง แล้วทรงกำหนดมันให้เป็นไปตามกฎสภาวะ[FN:4]
+V3: สำหรับพระองค์เป็นผู้ครอบครองบรรดาชั้นฟ้าและแผ่นดิน และพระองค์จะไม่ตั้งผู้ใดเป็นพระบุตร และสำหรับพระองค์นั้นไม่มีหุ้นส่วนร่วมกับพระองค์ในการครองอำนาจ และพระองค์ทรงให้บังเกิดทุกสิ่ง แล้วทรงกำหนดมันให้เป็นไปตามกฎสภาวะ
+EN1 (Saheeh): He to whom belongs the dominion of the heavens and the earth and who has not taken a son and has not had a partner in dominion and has created each thing and determined it with [precise] determination.
+EN2 (Hilali-Khan): He to Whom belongs the dominion of the heavens and the earth, and Who has begotten no son (children or offspring) and for Whom there is no partner in the dominion. He has created everything, and has measured it exactly according to its due measurements.
+FN[3]: ไม่มีพระเจ้าอื่นใดเป็นภาคีร่วมกับพระองค์
+FN[4]: คือให้บังเกิดทุกสิ่งด้วยอานุภาพตามขั้นตอนที่พระองค์ทรงกำหนด
+--------------------------------------------------------------------------------
+[25:3]
+AR: وَٱتَّخَذُواْ مِن دُونِهِۦٓ ءَالِهَةٗ لَّا يَخۡلُقُونَ شَيۡـٔٗا وَهُمۡ يُخۡلَقُونَ وَلَا يَمۡلِكُونَ لِأَنفُسِهِمۡ ضَرّٗا وَلَا نَفۡعٗا وَلَا يَمۡلِكُونَ مَوۡتٗا وَلَا حَيَوٰةٗ وَلَا نُشُورٗا
+V4: พวกเขาได้เคารพบูชาพระเจ้าอื่น ๆ จากพระองค์[FN:5] โดยที่พระเจ้าเหล่านั้นมิได้สร้างสิ่งใด ทั้ง ๆ ที่พวกเขาถูกสร้างขึ้นมา และพวกเขาไม่มีอำนาจที่จะให้โทษและให้คุณแก่ตัวเองได้ และพวกเขาไม่มีอำนาจควบคุมความตายและความเป็นและการฟื้นคืนชีพ[FN:6]
+V3: พวกเขาได้เคารพบูชาพระเจ้าอื่น ๆ จากพระองค์ โดยที่พระเจ้าเหล่านั้นมิได้สร้างสิ่งใด ทั้ง ๆ ที่พวกเขาถูกสร้างขึ้นมา และพวกเขาไม่มีอำนาจที่จะให้โทษและให้คุณแก่ตัวเองได้ และพวกเขาไม่มีอำนาจควบคุมความตายและความเป็นและการฟื้นคืนชีพ
+EN1 (Saheeh): But they have taken besides Him gods which create nothing, while they are created, and possess not for themselves any harm or benefit and possess not [power to cause] death or life or resurrection.
+EN2 (Hilali-Khan): Yet they have taken besides Him other alîhâh (gods) who created nothing but are themselves created, and possess neither harm nor benefit for themselves, and possess no power (of causing) death, nor (of giving) life, nor of raising the dead.
+FN[5]: คือพวกมุชริกีนได้เคารพบูชารูปปั้นต่าง ๆ อื่นจากพระองค์
+FN[6]: คือไม่สามารถที่จะให้ผู้ใดมีชีวิตขึ้นมา หรือให้ผู้ใดฟื้นคืนชีพขึ้นมาอีก
+--------------------------------------------------------------------------------
+[25:4]
+AR: وَقَالَ ٱلَّذِينَ كَفَرُوٓاْ إِنۡ هَٰذَآ إِلَّآ إِفۡكٌ ٱفۡتَرَىٰهُ وَأَعَانَهُۥ عَلَيۡهِ قَوۡمٌ ءَاخَرُونَۖ فَقَدۡ جَآءُو ظُلۡمٗا وَزُورٗا
+V4: และบรรดาผู้ปฏิเสธศรัทธากล่าวว่า “แท้จริงอัลกุรอานนี้มิใช่อันใด นอกจากการโกหกที่มุฮัมมัดได้กุขึ้นเอง และหมู่ชนอื่น ๆ ได้ช่วยเขาในเรื่องนี้”[FN:7] ดังนั้น แน่นอนพวกเขาได้นำมาซึ่งความอยุติธรรมและการโกหก
+V3: และบรรดาผู้ปฏิเสธศรัทธากล่าวว่า แท้จริงอัลกุรอานนี้มิใช่อันใด นอกจากการโกหกที่มุฮัมมัดได้กุขึ้นเอง และหมู่ชนอื่น ๆ ได้ช่วยเขาในเรื่องนี้ ดังนั้น แน่นอนพวกเขาได้นำมาซึ่งความอยุติธรรมและการโกหก
+EN1 (Saheeh): And those who disbelieve say, "This [Qur’ān] is not except a falsehood he invented, and another people assisted him in it." But they have committed an injustice and a lie.
+EN2 (Hilali-Khan): Those who disbelieve say: "This (the Qur’ân) is nothing but a lie that he (Muhammad صلى الله عليه وسلم) has invented, and others have helped him at it. In fact they have produced an unjust wrong (thing) and a lie."
+FN[7]: หมู่ชนอื่น ๆ หมายถึงพวกอะฮฺลุลกิตาบ
+--------------------------------------------------------------------------------
+[25:5]
+AR: وَقَالُوٓاْ أَسَٰطِيرُ ٱلۡأَوَّلِينَ ٱكۡتَتَبَهَا فَهِيَ تُمۡلَىٰ عَلَيۡهِ بُكۡرَةٗ وَأَصِيلٗا
+V4: และพวกเขา[FN:8]กล่าวว่า “อัลกุรอานเป็นนิยายของประชาชาติสมัยก่อน ๆ ที่เขียนกันขึ้น แล้วถูกนำมาอ่านให้ฟัง (จนจำได้) ทั้งเวลาเช้าและเวลาเย็น”
+V3: และพวกเขากล่าวว่า อัลกุรอานเป็นนิยายของประชาชาติสมัยก่อน ๆ ที่เขียนกันขึ้น แล้วถูกนำมาอ่านให้ขึ้นใจ ทั้งเวลาเช้าและเวลาเย็น
+EN1 (Saheeh): And they say, "Legends of the former peoples which he has written down, and they are dictated to him morning and afternoon."
+EN2 (Hilali-Khan): And they say: "Tales of the ancients, which he has written down: and they are dictated to him morning and afternoon."
+FN[8]: อิบนุอับบาสกล่าวว่า ผู้ที่กล่าวนั้นหมายถึง “อันนัฏร์ อิบนุลฮาริซ” และพวกของเขา
+--------------------------------------------------------------------------------
+[25:6]
+AR: قُلۡ أَنزَلَهُ ٱلَّذِي يَعۡلَمُ ٱلسِّرَّ فِي ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۚ إِنَّهُۥ كَانَ غَفُورٗا رَّحِيمٗا
+V4: จงกล่าวเถิด (มุฮัมมัด)[FN:9] “ผู้ทรงรอบรู้ความลับในชั้นฟ้าทั้งหลายและแผ่นดินเป็นผู้ประทานมันลง แท้จริงพระองค์เป็นผู้ทรงอภัย ผู้ทรงเมตตาเสมอ”
+V3: จงกล่าวเถิด (มุฮัมมัด) ผู้ทรงรอบรู้ความลับในชั้นฟ้าทั้งหลายและแผ่นดินเป็นผู้ประทานมันลงมา แท้จริงพระองค์เป็นผู้ทรงอภัย ผู้ทรงเมตตาเสมอ
+EN1 (Saheeh): Say, [O Muḥammad], "It has been revealed by He who knows [every] secret within the heavens and the earth. Indeed, He is ever Forgiving and Merciful."
+EN2 (Hilali-Khan): Say: "It (this Qur’ân) has been sent down by Him (Allâh) (the Real Lord of the heavens and earth) Who knows the secret of the heavens and the earth. Truly, He is Oft-Forgiving, Most Merciful."
+FN[9]: เป็นการตอบโต้การกล่าวอ้างของพวกเขา
+--------------------------------------------------------------------------------
+[25:7]
+AR: وَقَالُواْ مَالِ هَٰذَا ٱلرَّسُولِ يَأۡكُلُ ٱلطَّعَامَ وَيَمۡشِي فِي ٱلۡأَسۡوَاقِ لَوۡلَآ أُنزِلَ إِلَيۡهِ مَلَكٞ فَيَكُونَ مَعَهُۥ نَذِيرًا
+V4: และพวกเขากล่าวว่า “อะไรกันกับรอซูลคนนี้! เขากินอาหารและเดินในตลาด[FN:10] ทำไมจึงไม่มีมะลักถูกส่งมากับเขา เพื่อจะได้เป็นผู้ตักเตือนร่วมกับเขา”[FN:11]
+V3: และพวกเขากล่าวว่า อะไรกันกับรอซูลคนนี้ เขากินอาหารและเดินในตลาด ทำไมจึงไม่มีมะลักถูกส่งมากับเขา เพื่อจะได้เป็นผู้ตักเตือนร่วมกับเขา
+EN1 (Saheeh): And they say, "What is this messenger that eats food and walks in the markets? Why was there not sent down to him an angel so he would be with him a warner?
+EN2 (Hilali-Khan): And they say: "Why does this Messenger (Muhammad صلى الله عليه وسلم) eat food, and walk about in the markets (as we). Why is not an angel sent down to him to be a warner with him?
+FN[10]: คือรอซูลคนนี้กินอาหารเหมือนเรากิน และออกเดินในตลาดเพื่อหาเลี้ยงชีพเหมือนพวกเรา
+FN[11]: เพื่อจะได้เป็นพยานแห่งความจริง ตามที่เขากล่าวอ้าง
+--------------------------------------------------------------------------------
+[25:8]
+AR: أَوۡ يُلۡقَىٰٓ إِلَيۡهِ كَنزٌ أَوۡ تَكُونُ لَهُۥ جَنَّةٞ يَأۡكُلُ مِنۡهَاۚ وَقَالَ ٱلظَّٰلِمُونَ إِن تَتَّبِعُونَ إِلَّا رَجُلٗا مَّسۡحُورًا
+V4: “หรือมีคลังสมบัติถูกโยนลงมาให้เขา[FN:12] หรือให้เขามีสวนแห่งหนึ่งเพื่อเขาจะได้กินสิ่งที่มีอยู่ในนั้นจากมัน” และบรรดาผู้อธรรมกล่าวขึ้นว่า “พวกท่านมิได้ปฏิบัติตามผู้ใด นอกจากชายผู้ถูกอาคมเท่านั้น”[FN:13]
+V3: หรือมีคลังสมบัติถูกโยนลงมาให้เขา หรือให้เขามีสวนแห่งหนึ่งเพื่อเขาจะได้กินสิ่งที่มีอยู่ในนั้นจากมัน และบรรดาผู้อธรรมกล่าวขึ้นว่า พวกท่านมิได้ปฏิบัติตามผู้ใด นอกจากชายผู้ถูกอาคมเท่านั้น
+EN1 (Saheeh): Or [why is not] a treasure presented to him [from heaven], or does he [not] have a garden from which he eats?" And the wrongdoers say, "You follow not but a man affected by magic."
+EN2 (Hilali-Khan): "Or (why) has not a treasure been granted to him, or why has he not a garden whereof he may eat?" And the Zâlimûn (polytheists and wrong-doers) say: "You follow none but a man bewitched."
+FN[12]: เพื่อที่จะช่วยให้เขาไม่ต้องทำมาหาเลี้ยงชีพเช่นสามัญชน
+FN[13]: หมายถึงมุฮัมมัดถูกเวทมนตร์คาถา ทำให้สติฟั่นเฟือน แล้วอ้างว่าเป็นรอซูล
+--------------------------------------------------------------------------------
+[25:9]
+AR: ٱنظُرۡ كَيۡفَ ضَرَبُواْ لَكَ ٱلۡأَمۡثَٰلَ فَضَلُّواْ فَلَا يَسۡتَطِيعُونَ سَبِيلٗا
+V4: จงดูเถิด! พวกเขาได้เปรียบเปรยตัวอย่างต่าง ๆ แก่เจ้า (มุฮัมมัด) อย่างไร? พวกเขาจึงหลงทาง แล้วพวกเขาก็ไม่สามารถจะพบทางแห่งความจริงได้[FN:14]
+V3: จงดูเถิด พวกเขาได้เปรียบเปรยตัวอย่างต่าง ๆ แก่เจ้า (มุฮัมมัด) อย่างไร พวกเขาจึงหลงทาง แล้วพวกเขาก็ไม่สามารถจะพบทางแห่งความจริงได้
+EN1 (Saheeh): Look how they strike for you comparisons; but they have strayed, so they cannot [find] a way.
+EN2 (Hilali-Khan): See how they coin similitudes for you, so they have gone astray, and they cannot find a (Right) Path.
+FN[14]: คือหลงทางด้วยการปฏิเสธไม่ยอมศรัทธาและปฏิเสธการเป็นรอซูลของมุฮัมมัดด้วย การเปรียบเปรยของพวกเขาก็เป็นการขัดกัน เพราะบางครั้งพวกเขากล่าวหาว่า มุฮัมมัดเป็นกวี บางครั้งก็ว่าเป็นนักมายากล และบางครั้งก็ว่าเป็นคนบ้า
+--------------------------------------------------------------------------------
+[25:10]
+AR: تَبَارَكَ ٱلَّذِيٓ إِن شَآءَ جَعَلَ لَكَ خَيۡرٗا مِّن ذَٰلِكَ جَنَّٰتٖ تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُ وَيَجۡعَل لَّكَ قُصُورَۢا
+V4: ความจำเริญยิ่งแด่พระองค์ ผู้ซึ่งหากพระองค์ทรงประสงค์จะให้เจ้ามีดียิ่งกว่านั้น คือ มีสวนหลากหลาย ณ เบื้องล่างมีลำน้ำหลายสายไหลผ่าน และทรงให้เจ้ามีปราสาทหลายหลัง[FN:15]
+V3: ความจำเริญยิ่งแด่พระองค์ ผู้ซึ่งหากพระองค์ทรงประสงค์จะให้เจ้ามีดียิ่งกว่านั้น คือ มีสวนหลากหลาย ณ เบื้องล่างมีลำน้ำหลายสายไหลผ่าน และทรงให้เจ้ามีวังหลายหลัง
+EN1 (Saheeh): Blessed is He who, if He willed, could have made for you [something] better than that - gardens beneath which rivers flow - and could make for you palaces.
+EN2 (Hilali-Khan): Blessed be He Who, if He wills will assign you better than (all) that - Gardens under which rivers flow (Paradise) and will assign you palaces (i.e. in Paradise).
+FN[15]: ข้อเสนอแนะต่าง ๆ ที่พวกมุชริกีนได้เสนอไว้ในอายะฮฺก่อน ๆ นั้นหากอัลลอฮฺตะอาลาทรงประสงค์จะประทานให้แก่นบีของพระองค์แล้ว พระองค์ก็จะประทานให้ดียิ่งกว่าที่พวกเขาวาดภาพไว้เสียอีก ดังที่พระองค์ทรงกล่าวไว้ในอายะฮฺนี้
+--------------------------------------------------------------------------------
+[25:11]
+AR: بَلۡ كَذَّبُواْ بِٱلسَّاعَةِۖ وَأَعۡتَدۡنَا لِمَن كَذَّبَ بِٱلسَّاعَةِ سَعِيرًا
+V4: แต่ว่าพวกเขาปฏิเสธวันอวสาน และเราได้เตรียมไฟอันร้อนแรงไว้สำหรับผู้ปฏิเสธวันอวสาน
+V3: แต่ว่าพวกเขาปฏิเสธวันอวสาน และเราได้เตรียมไฟอันร้อนแรงไว้สำหรับผู้ปฏิเสธวันอวสาน
+EN1 (Saheeh): But they have denied the Hour, and We have prepared for those who deny the Hour a Blaze.
+EN2 (Hilali-Khan): Nay, they deny the Hour (the Day of Resurrection), and for those who deny the Hour, We have prepared a flaming Fire (i.e. Hell).
+--------------------------------------------------------------------------------
+[25:12]
+AR: إِذَا رَأَتۡهُم مِّن مَّكَانِۭ بَعِيدٖ سَمِعُواْ لَهَا تَغَيُّظٗا وَزَفِيرٗا
+V4: เมื่อนรกญะฮันนัมเห็นพวกเขาจากที่ไกล ๆ[FN:16] พวกเขาก็จะได้ยินเสียงคุไหม้และเสียงเดือดพล่านของมัน
+V3: เมื่อนรกญะฮันนัมเห็นพวกเขาจากที่ไกล ๆ พวกเขาจะได้ยินเสียงคุไหม้และเสียงเดือดพล่านของมัน
+EN1 (Saheeh): When it [i.e., the Hellfire] sees them from a distant place, they will hear its fury and roaring.
+EN2 (Hilali-Khan): When it (Hell) sees them from a far place, they will hear its raging and its roaring.
+FN[16]: นักอธิบายอัลกุรอานกล่าวว่าเป็นระยะทางไกลถึง 500ปี
+--------------------------------------------------------------------------------
+[25:13]
+AR: وَإِذَآ أُلۡقُواْ مِنۡهَا مَكَانٗا ضَيِّقٗا مُّقَرَّنِينَ دَعَوۡاْ هُنَالِكَ ثُبُورٗا
+V4: และเมื่อพวกเขาถูกโยนลงไปในสถานที่แคบ ในสภาพที่ถูกมัดมือติดกับลำคอ ณ ที่นั้น พวกเขาจะวิงวอนขอความพินาศให้แก่ตัวเขา
+V3: และเมื่อพวกเขาถูกโยนลงไปในสถานที่แคบ ในสภาพที่ถูกมัดมือติดกับลำคอ ณ ที่นั้น พวกเขาจะวิงวอนขอความพินาศให้แก่ตัวเขา
+EN1 (Saheeh): And when they are thrown into a narrow place therein bound in chains, they will cry out thereupon for destruction.
+EN2 (Hilali-Khan): And when they shall be thrown into a narrow place thereof, chained together, they will exclaim therein for destruction.
+--------------------------------------------------------------------------------
+[25:14]
+AR: لَّا تَدۡعُواْ ٱلۡيَوۡمَ ثُبُورٗا وَٰحِدٗا وَٱدۡعُواْ ثُبُورٗا كَثِيرٗا
+V4: “ในวันนี้เจ้าอย่าได้วิงวอนขอความพินาศเพียงครั้งเดียว แต่จงวิงวอนขอความพินาศหลาย ๆ ครั้ง”[FN:17]
+V3: ในวันนี้เจ้าอย่าได้วิงวอนขอความพินาศเพียงครั้งเดียว แต่จงวิงวอนขอความพินาศหลาย ๆ ครั้ง
+EN1 (Saheeh): [They will be told], "Do not cry this Day for one destruction but cry for much destruction."
+EN2 (Hilali-Khan): Exclaim not today for one destruction, but exclaim for many destructions.
+FN[17]: มีเสียงกล่าวแก่พวกเขาเช่นนั้น
+--------------------------------------------------------------------------------
+[25:15]
+AR: قُلۡ أَذَٰلِكَ خَيۡرٌ أَمۡ جَنَّةُ ٱلۡخُلۡدِ ٱلَّتِي وُعِدَ ٱلۡمُتَّقُونَۚ كَانَتۡ لَهُمۡ جَزَآءٗ وَمَصِيرٗا
+V4: จงกล่าวเถิด (มุฮัมมัด) “สิ่งนั้น[FN:18]ดีกว่าหรือว่าสวนสวรรค์ชั่วนิรันดร์ ที่บรรดาผู้ยำเกรงถูกสัญญาไว้ว่า สำหรับพวกเขาจะได้รับการตอบแทนและทางกลับที่ดี”
+V3: จงกล่าวเถิด (มุฮัมมัด) สิ่งนั้นดีกว่าหรือว่าสวนสวรรค์ชั่วนิรันดร์ ที่บรรดาผู้ยำเกรงถูกสัญญาไว้ว่า สำหรับพวกเขาจะได้รับการตอบแทนและทางกลับที่ดี
+EN1 (Saheeh): Say, "Is that better or the Garden of Eternity which is promised to the righteous? It will be for them a reward and destination.
+EN2 (Hilali-Khan): Say: (O Muhammad صلى الله عليه وسلم) "Is that (torment) better or the Paradise of Eternity which is promised to the Muttaqûn (the pious - See V.2:2)?" It will be theirs as a reward and as a final destination.
+FN[18]: คือไฟอันร้อนแรง
+--------------------------------------------------------------------------------
+[25:16]
+AR: لَّهُمۡ فِيهَا مَا يَشَآءُونَ خَٰلِدِينَۚ كَانَ عَلَىٰ رَبِّكَ وَعۡدٗا مَّسۡـُٔولٗا
+V4: “สำหรับพวกเขาในสวนสวรรค์นั้น จะได้รับสิ่งที่พวกเขาประสงค์ โดยพำนักอยู่ตลอดกาล มันเป็นสัญญาที่ถูกวอนขอต่อพระเจ้าของเจ้า”[FN:19]
+V3: สำหรับพวกเขาในสวนสวรรค์นั้น จะได้รับสิ่งที่พวกเขาประสงค์ โดยพำนักอยู่ตลอดกาล มันเป็นสัญญาที่ถูกวอนขอต่อพระเจ้าของเจ้า
+EN1 (Saheeh): For them therein is whatever they wish, [while] abiding eternally. It is ever upon your Lord a promise [worthy to be] requested.
+EN2 (Hilali-Khan): For them there will be therein all that they desire, and they will abide (there forever). It is a promise binding upon your Lord that must be fulfilled.
+FN[19]: เป็นสัญญาอันแท้จริงต่อพระเจ้าของเจ้า
+--------------------------------------------------------------------------------
+[25:17]
+AR: وَيَوۡمَ يَحۡشُرُهُمۡ وَمَا يَعۡبُدُونَ مِن دُونِ ٱللَّهِ فَيَقُولُ ءَأَنتُمۡ أَضۡلَلۡتُمۡ عِبَادِي هَٰٓؤُلَآءِ أَمۡ هُمۡ ضَلُّواْ ٱلسَّبِيلَ
+V4: และวันที่พระองค์ทรงรวบรวมพวกเขาและบรรดาผู้ที่พวกเขาเคารพภักดีอื่นจากอัลลอฮฺ[FN:20] แล้วพระองค์ตรัสขึ้นว่า “พวกเจ้าทำให้บรรดาบ่าวของข้าเหล่านั้นหลงทางกระนั้นหรือ? หรือว่าพวกเขาหลงทางกันเอง?”
+V3: และวันที่พระองค์ทรงรวบรวมพวกเขาและบรรดาผู้ที่พวกเขาเคารพภักดีอื่นจากอัลลอฮฺ แล้วพระองค์ตรัสขึ้นว่า พวกเจ้าทำให้บรรดาบ่าวของข้าเหล่านั้นหลงทางกระนั้นหรือ หรือว่าพวกเขาหลงทางกันเอง
+EN1 (Saheeh): And [mention] the Day He will gather them and that which they worship besides Allāh and will say, "Did you mislead these, My servants, or did they [themselves] stray from the way?"
+EN2 (Hilali-Khan): And on the Day when He will gather them together and that which they worship besides Allâh [idols, angels, pious men, saints]. He will say: "Was it you who misled these My slaves or did they (themselves) stray from the (Right) Path?"
+FN[20]: คือวันกิยามะฮฺ ซึ่งพระองค์จะทรงรวมพวกกุฟฟาร บรรดาเจว็ด และสิ่งที่ถูกบูชาทั้งหลายอื่นจากอัลลอฮฺ เช่น มลาอิกะฮฺ อีซา และอุไซร์
+--------------------------------------------------------------------------------
+[25:18]
+AR: قَالُواْ سُبۡحَٰنَكَ مَا كَانَ يَنۢبَغِي لَنَآ أَن نَّتَّخِذَ مِن دُونِكَ مِنۡ أَوۡلِيَآءَ وَلَٰكِن مَّتَّعۡتَهُمۡ وَءَابَآءَهُمۡ حَتَّىٰ نَسُواْ ٱلذِّكۡرَ وَكَانُواْ قَوۡمَۢا بُورٗا
+V4: พวกเขากล่าวว่า “มหาบริสุทธิ์พระองค์ท่าน ไม่เป็นการบังควรแก่พวกเรา ที่พวกเราจะยึดถือผู้คุ้มครองอื่น ๆ นอกจากพระองค์ แต่ทว่าพระองค์ได้ทรงประทานปัจจัยยังชีพให้แก่พวกเขา และบรรพบุรุษของพวกเขา จนกระทั่งพวกเขาได้ลืมต่อการรำลึก และพวกเขาได้เป็นหมู่ชนที่วิบัติ”
+V3: พวกเขากล่าวว่า มหาบริสุทธิ์พระองค์ท่าน ไม่เป็นการบังควรแก่พวกเรา ที่พวกเราจะยึดถือผู้คุ้มครองอื่น ๆ นอกจากพระองค์ แต่ทว่าพระองค์ได้ทรงประทานปัจจัยให้แก่พวกเขา และบรรพบุรุษของพวกเขา จนกระทั่งพวกเขาได้ลืมต่อการรำลึก และพวกเขาได้เป็นหมู่ชนที่วิบัติ
+EN1 (Saheeh): They will say, "Exalted are You! It was not for us to take besides You any allies [i.e., protectors]. But You provided comforts for them and their fathers until they forgot the message and became a people ruined."
+EN2 (Hilali-Khan): They will say: "Glorified be You! It was not for us to take any Auliyâ’ (Protectors, Helpers) besides You, but You gave them and their fathers comfort till they forgot the warning, and became a lost people (doomed to total loss).
+--------------------------------------------------------------------------------
+[25:19]
+AR: فَقَدۡ كَذَّبُوكُم بِمَا تَقُولُونَ فَمَا تَسۡتَطِيعُونَ صَرۡفٗا وَلَا نَصۡرٗاۚ وَمَن يَظۡلِم مِّنكُمۡ نُذِقۡهُ عَذَابٗا كَبِيرٗا
+V4: แน่นอน พวกเขา (ที่ถูกเคารพบูชา) ได้ปฏิเสธพวกเจ้าในสิ่งที่พวกเจ้ากล่าว[FN:21] ดังนั้น พวกเจ้าจึงไม่สามารถเลี่ยงมิให้มีการลงโทษ และไม่สามารถจะให้ความช่วยเหลือได้[FN:22] และผู้ใดในหมู่พวกเจ้ากระทำผิด เราจะให้เขาลิ้มรสการลงโทษอันมหันต์
+V3: แน่นอน พวกเขาได้ปฏิเสธพวกเจ้าในสิ่งที่พวกเจ้ากล่าว ดังนั้น พวกเจ้าจึงไม่สามารถเลี่ยงมิให้มีการลงโทษ และไม่สามารถจะให้ความช่วยเหลือได้ และผู้ใดในหมู่พวกเจ้ากระทำผิด เราจะให้เขาลิ้มรสการลงโทษอันมหันต์
+EN1 (Saheeh): So they will deny you, [disbelievers], in what you say, and you cannot avert [punishment] or [find] help. And whoever commits injustice among you - We will make him taste a great punishment.
+EN2 (Hilali-Khan): Thus they (false gods - all deities other than Allâh) will belie you (polytheists) regarding what you say (that they are gods besides Allâh): then you can neither avert (the punishment), nor get help. And whoever among you does wrong (i.e. sets up rivals to Allâh), We shall make him taste a great torment.
+FN[21]: อัลลอฮฺ ตะอาลา ทรงสั่งสอนพวกกุฟฟารว่า พวกที่ถูกเคารพบูชาได้ปฏิเสธพวกเจ้าต่อคำกล่าวของพวกเจ้าที่ว่า พวกเขาเป็นพระเจ้า
+FN[22]: ไม่สามารถปกป้องจากการลงโทษ หรือช่วยตัวเองให้พ้นจากการลงโทษได้
+--------------------------------------------------------------------------------
+[25:20]
+AR: وَمَآ أَرۡسَلۡنَا قَبۡلَكَ مِنَ ٱلۡمُرۡسَلِينَ إِلَّآ إِنَّهُمۡ لَيَأۡكُلُونَ ٱلطَّعَامَ وَيَمۡشُونَ فِي ٱلۡأَسۡوَاقِۗ وَجَعَلۡنَا بَعۡضَكُمۡ لِبَعۡضٖ فِتۡنَةً أَتَصۡبِرُونَۗ وَكَانَ رَبُّكَ بَصِيرٗا
+V4: และเรามิได้ส่งคนใดจากบรรดารอซูลก่อนหน้าเจ้า นอกจากพวกเขาจะรับประทานอาหารอย่างสามัญชน และเดินท่องไปในตลาด[FN:23] และเราได้ทำให้บางคนในพวกเจ้าเป็นการทดสอบแก่อีกบางคน[FN:24] เพื่อดูว่าพวกเจ้าจะอดทนไหม ? และพระเจ้าของเจ้านั้นทรงเห็นทุกอย่าง
+V3: และเรามิได้ส่งคนใดจากบรรดารอซูลก่อนหน้าเจ้า นอกจากพวกเขาจะรับประทานอาหารอย่างสามัญชน และเดินท่องไปในตลาด และเราได้ทำให้บางคนในพวกเจ้าเป็นการทดสอบแก่อีกบางคน เพื่อดูว่าพวกเจ้าจะอดทนไหม และพระเจ้าของเจ้านั้นทรงเห็นทุกอย่าง
+EN1 (Saheeh): And We did not send before you, [O Muḥammad], any of the messengers except that they ate food and walked in the markets. And We have made some of you [people] as trial for others - will you have patience? And ever is your Lord, Seeing.
+EN2 (Hilali-Khan): And We never sent before you (O Muhammad صلى الله عليه وسلم) any of the Messengers but verily, they ate food and walked in the markets. And We have made some of you as a trial for others: will you have patience? And your Lord is Ever All-Seer (of everything).
+FN[23]: เดินท่องไปในตลาดเพื่อแสวงหาปัจจัยและการค้า และนี่คือแนวทางของบรรดารอซูลก่อนหน้าเจ้า
+FN[24]: คืออัลลอฮฺทรงทดสอบคนรวยให้จนลง คนมีเกียรติให้ตกต่ำลง และคนมีสุขภาพดีให้เจ็บป่วย สิ่งเหล่านี้เพื่อเป็นการทดสอบความอดทนของพวกเจ้า และการอีมานของพวกเจ้า ว่าพวกเจ่าจะขอบคุณหรือเนรคุณ
+--------------------------------------------------------------------------------
