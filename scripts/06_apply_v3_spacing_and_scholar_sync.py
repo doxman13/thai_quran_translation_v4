@@ -40,6 +40,7 @@ OUT_PHASE6_JSON = REPO_ROOT / "data" / "06_tq_spacing_and_scholar_fixed.json"
 OUT_PHASE6_LOG = REPO_ROOT / "reports" / "phase6_spacing_and_scholar_fixes_log.csv"
 OUT_SYNCED_REVIEW_CSV = REPO_ROOT / "deliverables" / "05_pipeline1_human_review_v4_synced.csv"
 OUT_ACTIVE_REVIEW_CSV = REPO_ROOT / "deliverables" / "06_pipeline1_remaining_active_reviews_v4.csv"
+MANUAL_AUDIT_FIXES_JSON = REPO_ROOT / "data" / "v4_manual_audit_fixes.json"
 
 FN_TOKEN_RE = re.compile(r"⟦FN:\d+⟧")
 
@@ -725,6 +726,11 @@ def main():
                 if r.get("repair_direction") == "RESTORED_FROM_ARABIC_AND_V3_INTO_V4":
                     phase2_keys.add(r["ayah_key"])
 
+    manual_audit_fixes = []
+    if MANUAL_AUDIT_FIXES_JSON.exists():
+        with open(MANUAL_AUDIT_FIXES_JSON, "r", encoding="utf-8") as f:
+            manual_audit_fixes = json.load(f)
+
     log_rows = []
     scholar_fix_count = 0
     exact_spacing_count = 0
@@ -747,6 +753,22 @@ def main():
                 log_rows.append({
                     "ayah_key": ak,
                     "action_type": cat,
+                    "detail": f"{wrong} -> {right} ({note})",
+                })
+
+        # Apply manual audit fixes from Gemini Chat audit flow
+        for mf in manual_audit_fixes:
+            target_ak = mf.get("ayah")
+            wrong = mf.get("target")
+            right = mf.get("replacement")
+            cat = mf.get("type", "MANUAL_AUDIT")
+            note = mf.get("reason", "")
+            if target_ak == ak and wrong and right and wrong in t_tok:
+                t_tok = t_tok.replace(wrong, right)
+                scholar_fix_count += 1
+                log_rows.append({
+                    "ayah_key": ak,
+                    "action_type": f"AUDIT_{cat}",
                     "detail": f"{wrong} -> {right} ({note})",
                 })
 
