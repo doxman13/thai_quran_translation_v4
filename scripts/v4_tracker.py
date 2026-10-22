@@ -13,6 +13,8 @@ Usage:
   python scripts/v4_tracker.py --reset          # Re-initialize tracker from scratch
 """
 
+from __future__ import annotations
+
 import argparse
 import csv
 import json
@@ -22,9 +24,13 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-REPO_ROOT = Path(r"H:\gits\thai_quran_translation_v4")
+REPO_ROOT = Path(__file__).resolve().parent.parent
 TRACKER_TSV_PATH = REPO_ROOT / "v4_audit_tracker.tsv"
 V4_DATA_PATH = REPO_ROOT / "data" / "06_tq_spacing_and_scholar_fixed.json"
+
+SCRIPTS_DIR = Path(__file__).resolve().parent
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
 from export_v4_audit_chunk import SUBCHUNKS_127, is_in_range, parse_key
 

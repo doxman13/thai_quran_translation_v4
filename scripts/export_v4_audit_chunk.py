@@ -13,6 +13,8 @@ Usage:
   python scripts/export_v4_audit_chunk.py --surah 2
 """
 
+from __future__ import annotations
+
 import argparse
 import json
 import re
@@ -21,12 +23,13 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-REPO_ROOT = Path(r"H:\gits\thai_quran_translation_v4")
+REPO_ROOT = Path(__file__).resolve().parent.parent
+PARENT_ROOT = REPO_ROOT.parent
 V4_DATA_PATH = REPO_ROOT / "data" / "06_tq_spacing_and_scholar_fixed.json"
-V3_DATA_PATH = Path(r"H:\gits\thai_quran_scholar_audit_v4\final_files\01_thai_quran_translation_v3_master.json")
-AR_DATA_PATH = Path(r"H:\gits\thai_quran_scholar_audit_v4\step2_tri_lingual_master.json")
-EN_SAHEEH_PATH = Path(r"H:\gits\thai-quran-web\src\data\en_saheeh.json")
-EN_HILALI_PATH = Path(r"H:\gits\thai-quran-web\src\data\en_hilali_khan.json")
+V3_DATA_PATH = PARENT_ROOT / "thai_quran_scholar_audit_v4" / "final_files" / "01_thai_quran_translation_v3_master.json"
+AR_DATA_PATH = PARENT_ROOT / "thai_quran_scholar_audit_v4" / "step2_tri_lingual_master.json"
+EN_SAHEEH_PATH = PARENT_ROOT / "thai-quran-web" / "src" / "data" / "en_saheeh.json"
+EN_HILALI_PATH = PARENT_ROOT / "thai-quran-web" / "src" / "data" / "en_hilali_khan.json"
 
 OUT_DIR = REPO_ROOT / "audit_chunks"
 OUT_DIR.mkdir(parents=True, exist_ok=True)

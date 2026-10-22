@@ -1,9 +1,15 @@
 {
-  "project": "ThaiQuran v4 Standardized Translation Audit",
-  "version": "4.0",
+  "project": "ThaiQuran Master V3 Synthesis Audit",
+  "version": "3.0-synthesis",
+  "architecture": {
+    "supreme_truth": "Arabic Uthmani (AR) + English Saheeh / Hilali-Khan",
+    "base_text": "Master V3 (King Fahd Complex revised, vetted text)",
+    "fixer_reference": "ThaiQuran.com (supplies missing clauses and 7,338 footnotes)"
+  },
   "guidelines": {
-    "rule_zero": "DO NOT OVERKILL. Do not rewrite sentences. Only fix spacing, spelling, and objective theological/grammatical errors.",
-    "spacing": "Separate clauses with single space. Space before and after Maiyamok (ๆ), parentheses (), and quotes. Never space inside Thai compound words.",
+    "rule_zero": "DO NOT OVERKILL. Do not rewrite natural, accurate Thai sentences. Preserve King Fahd phrasing unless there is an Arabic omission, factual defect, or genuine typo.",
+    "de_overkill_spacing": "Thai is written continuously without spaces between words. Remove unnecessary, unnatural, or chopped-up spaces. Keep spaces ONLY for natural breath pauses, dialogue breaks, list items, or clause boundaries. Never space inside compound words.",
+    "footnote_placement": "Verify that [FN:N] markers sit at the END of the concept or phrase they explain (e.g. after the full term 'อะลิฟ ลาม มีม[FN:1]', not mid-word or awkwardly placed).",
     "spelling": "Follow Royal Institute Thai dictionary and standard Islamic transliteration with Phinthu (ฺ)."
   },
   "canonical_terms": {

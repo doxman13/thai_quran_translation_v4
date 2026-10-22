@@ -10,6 +10,8 @@ Validates `data/05_tq_upgrades_cataloged.json` against all 10 quality gates and 
   - reports/phase7_quality_gates_report.json
 """
 
+from __future__ import annotations
+
 import csv
 import datetime
 import hashlib
@@ -21,7 +23,8 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-REPO_ROOT = Path(r"H:\gits\thai_quran_translation_v4")
+REPO_ROOT = Path(__file__).resolve().parent.parent
+PARENT_ROOT = REPO_ROOT.parent
 IN_PHASE5_JSON = REPO_ROOT / "data" / "05_tq_upgrades_cataloged.json"
 IN_PHASE2_CSV = REPO_ROOT / "reports" / "phase2_omissions_restored_log.csv"
 
@@ -318,9 +321,9 @@ def main():
 
     # Gate 10 check: Production repositories untouched
     prod_repos = [
-        Path(r"H:\gits\thai_quran_scholar_audit_v4"),
-        Path(r"H:\gits\thai-quran-web"),
-        Path(r"H:\gits\thai-quran-app"),
+        PARENT_ROOT / "thai_quran_scholar_audit_v4",
+        PARENT_ROOT / "thai-quran-web",
+        PARENT_ROOT / "thai-quran-app",
     ]
     gate10_dirty = []
     for pr in prod_repos:

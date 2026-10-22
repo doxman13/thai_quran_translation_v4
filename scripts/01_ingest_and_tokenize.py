@@ -5,6 +5,8 @@ Phase 1: Ingestion, Native Footnote Tokenization & Deep Thai Unicode Hygiene
 Repository: H:\\gits\\thai_quran_translation_v4
 """
 
+from __future__ import annotations
+
 import csv
 import hashlib
 import json
@@ -16,8 +18,9 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-REPO_ROOT = Path(r"H:\gits\thai_quran_translation_v4")
-RAW_SOURCE_EXTERNAL = Path(r"H:\gits\thai_quran_scholar_audit_v4\thaiquran_scraper\quran_thai_by_surah.json")
+REPO_ROOT = Path(__file__).resolve().parent.parent
+PARENT_ROOT = REPO_ROOT.parent
+RAW_SOURCE_EXTERNAL = PARENT_ROOT / "thai_quran_scholar_audit_v4" / "thaiquran_scraper" / "quran_thai_by_surah.json"
 RAW_SOURCE_LOCAL = REPO_ROOT / "data" / "00_tq_raw_source.json"
 OUT_PHASE1_JSON = REPO_ROOT / "data" / "01_tq_ingested_tokenized.json"
 OUT_PHASE1_CSV = REPO_ROOT / "reports" / "phase1_unicode_and_fn_audit.csv"

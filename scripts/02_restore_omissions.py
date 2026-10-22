@@ -7,6 +7,8 @@ while preserving all inline ⟦FN:N⟧ native footnote tokens, and logs reverse 
 ThaiQuran.com already fixed severe defects present in thai_v3 (such as 35:4 and 2:162).
 """
 
+from __future__ import annotations
+
 import csv
 import json
 import re
@@ -15,11 +17,12 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-REPO_ROOT = Path(r"H:\gits\thai_quran_translation_v4")
+REPO_ROOT = Path(__file__).resolve().parent.parent
+PARENT_ROOT = REPO_ROOT.parent
 IN_PHASE1_JSON = REPO_ROOT / "data" / "01_tq_ingested_tokenized.json"
 OUT_PHASE2_JSON = REPO_ROOT / "data" / "02_tq_omissions_restored.json"
 OUT_PHASE2_CSV = REPO_ROOT / "reports" / "phase2_omissions_restored_log.csv"
-V3_MASTER_JSON = Path(r"H:\gits\thai_quran_scholar_audit_v4\final_files\01_thai_quran_translation_v3_master.json")
+V3_MASTER_JSON = PARENT_ROOT / "thai_quran_scholar_audit_v4" / "final_files" / "01_thai_quran_translation_v3_master.json"
 
 # 28 surgical clause restorations (preserving ⟦FN:N⟧ tokens)
 CLAUSE_RESTORATIONS = [

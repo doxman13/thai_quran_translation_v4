@@ -7,6 +7,8 @@ Quranic Phinthu (ฺ U+0E3A) across all 6,236 Ayahs, 7,339 Footnotes, and 114 Su
 preserving 100% of native ⟦FN:N⟧ tokens.
 """
 
+from __future__ import annotations
+
 import csv
 import json
 import re
@@ -15,7 +17,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-REPO_ROOT = Path(r"H:\gits\thai_quran_translation_v4")
+REPO_ROOT = Path(__file__).resolve().parent.parent
 IN_PHASE3_JSON = REPO_ROOT / "data" / "03_tq_typos_remediated.json"
 OUT_PHASE4_JSON = REPO_ROOT / "data" / "04_tq_standardized.json"
 OUT_PHASE4_CSV = REPO_ROOT / "reports" / "phase4_translit_change_log.csv"

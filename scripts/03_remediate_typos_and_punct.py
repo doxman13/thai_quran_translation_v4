@@ -6,6 +6,8 @@ Applies verified typo fixes across all 6,236 Ayahs and 7,339 Footnotes while pre
 100% of native ⟦FN:N⟧ tokens.
 """
 
+from __future__ import annotations
+
 import csv
 import json
 import re
@@ -14,11 +16,12 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-REPO_ROOT = Path(r"H:\gits\thai_quran_translation_v4")
+REPO_ROOT = Path(__file__).resolve().parent.parent
+PARENT_ROOT = REPO_ROOT.parent
 IN_PHASE2_JSON = REPO_ROOT / "data" / "02_tq_omissions_restored.json"
 OUT_PHASE3_JSON = REPO_ROOT / "data" / "03_tq_typos_remediated.json"
 OUT_PHASE3_CSV = REPO_ROOT / "reports" / "phase3_typos_remediation_log.csv"
-SPELLING_FIXES_JSON = Path(r"H:\gits\thaiquranchecker\spelling_fixes.json")
+SPELLING_FIXES_JSON = PARENT_ROOT / "thaiquranchecker" / "spelling_fixes.json"
 
 # Terms handled in Phase 4 (Transliteration & Phinthu Standardization) or skipped because ambiguous
 SKIP_IN_PHASE3_SF = {

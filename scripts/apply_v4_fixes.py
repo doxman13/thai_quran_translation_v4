@@ -12,6 +12,8 @@ Usage:
   python scripts/apply_v4_fixes.py --clipboard
 """
 
+from __future__ import annotations
+
 import argparse
 import json
 import re
@@ -22,9 +24,13 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-REPO_ROOT = Path(r"H:\gits\thai_quran_translation_v4")
+REPO_ROOT = Path(__file__).resolve().parent.parent
 V4_DATA_PATH = REPO_ROOT / "data" / "06_tq_spacing_and_scholar_fixed.json"
 MANUAL_FIXES_JSON = REPO_ROOT / "data" / "v4_manual_audit_fixes.json"
+
+SCRIPTS_DIR = Path(__file__).resolve().parent
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
 
 FN_BRACKET_RE = re.compile(r"\[FN:(\d+)\]")
 FN_TOKEN_RE = re.compile(r"⟦FN:\d+⟧")
@@ -77,6 +83,16 @@ def find_juz(ak: str) -> int:
 
 
 def get_clipboard_text() -> str:
+    # 1. macOS pbpaste
+    if sys.platform == "darwin":
+        try:
+            res = subprocess.run(["pbpaste"], capture_output=True, text=True, encoding="utf-8")
+            if res.returncode == 0:
+                return res.stdout
+        except Exception:
+            pass
+
+    # 2. Tkinter cross-platform
     try:
         import tkinter as tk
         root = tk.Tk()
@@ -87,6 +103,7 @@ def get_clipboard_text() -> str:
     except Exception:
         pass
 
+    # 3. Windows PowerShell Get-Clipboard
     if sys.platform == "win32":
         try:
             res = subprocess.run(
@@ -99,10 +116,29 @@ def get_clipboard_text() -> str:
                 return res.stdout
         except Exception:
             pass
+
+    # 4. Linux xclip / wl-paste fallback
+    for cmd in (["wl-paste"], ["xclip", "-selection", "clipboard", "-o"]):
+        try:
+            res = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
+            if res.returncode == 0:
+                return res.stdout
+        except Exception:
+            pass
+
     return ""
 
 
 def set_clipboard_text(text: str):
+    # 1. macOS pbcopy
+    if sys.platform == "darwin":
+        try:
+            subprocess.run(["pbcopy"], input=text, text=True, encoding="utf-8", check=True)
+            return
+        except Exception:
+            pass
+
+    # 2. Tkinter cross-platform
     try:
         import tkinter as tk
         root = tk.Tk()
@@ -115,6 +151,7 @@ def set_clipboard_text(text: str):
     except Exception:
         pass
 
+    # 3. Windows PowerShell Set-Clipboard
     if sys.platform == "win32":
         try:
             subprocess.run(
@@ -123,6 +160,15 @@ def set_clipboard_text(text: str):
                 text=True,
                 encoding="utf-8"
             )
+            return
+        except Exception:
+            pass
+
+    # 4. Linux wl-copy / xclip fallback
+    for cmd in (["wl-copy"], ["xclip", "-selection", "clipboard"]):
+        try:
+            subprocess.run(cmd, input=text, text=True, encoding="utf-8", check=True)
+            return
         except Exception:
             pass
 
@@ -247,6 +293,9 @@ def main():
         # Check exact target match & Uniqueness
         target_occurrences = t_tok.count(target_norm)
         if target_occurrences == 0:
+            if replacement_norm in t_tok:
+                print(f"[ALREADY APPLIED] {ak} [{fix_type}]: '{replacement_norm}' is already present in this verse.")
+                continue
             errors.append(f"Fix #{idx} ({ak}): Target substring '{target_norm}' not found in current verse text:\n    Actual: '{t_tok}'")
             continue
         elif target_occurrences > 1:
@@ -288,6 +337,10 @@ def main():
             print(f"  [ERROR] {err}")
         print(f"\n{len(errors)} errors found. Aborting without applying changes.")
         sys.exit(1)
+
+    if not validated_fixes:
+        print("\nAll proposed fixes from clipboard are already applied in the current dataset. Nothing to change!")
+        return
 
     print(f"All {len(validated_fixes)} fixes passed 100% of safety guardrails!")
 

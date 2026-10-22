@@ -16,6 +16,8 @@ Outputs:
   - deliverables/06_pipeline1_remaining_active_reviews_v4.csv
 """
 
+from __future__ import annotations
+
 import csv
 import difflib
 import io
@@ -27,8 +29,9 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-REPO_ROOT = Path(r"H:\gits\thai_quran_translation_v4")
-AUDIT_DIR = Path(r"H:\gits\thai_quran_scholar_audit_v4")
+REPO_ROOT = Path(__file__).resolve().parent.parent
+PARENT_ROOT = REPO_ROOT.parent
+AUDIT_DIR = PARENT_ROOT / "thai_quran_scholar_audit_v4"
 
 IN_PHASE4_JSON = REPO_ROOT / "data" / "04_tq_standardized.json"
 IN_PHASE2_CSV = REPO_ROOT / "reports" / "phase2_omissions_restored_log.csv"
@@ -756,22 +759,6 @@ def main():
                     "detail": f"{wrong} -> {right} ({note})",
                 })
 
-        # Apply manual audit fixes from Gemini Chat audit flow
-        for mf in manual_audit_fixes:
-            target_ak = mf.get("ayah")
-            wrong = mf.get("target")
-            right = mf.get("replacement")
-            cat = mf.get("type", "MANUAL_AUDIT")
-            note = mf.get("reason", "")
-            if target_ak == ak and wrong and right and wrong in t_tok:
-                t_tok = t_tok.replace(wrong, right)
-                scholar_fix_count += 1
-                log_rows.append({
-                    "ayah_key": ak,
-                    "action_type": f"AUDIT_{cat}",
-                    "detail": f"{wrong} -> {right} ({note})",
-                })
-
         # Apply footnote fixes
         for fn in rec.get("footnotes", []):
             fn_txt = fn["text"]
@@ -823,6 +810,22 @@ def main():
                         "action_type": "PARTIAL_V3_CLAUSE_SPACING_PROJECTED",
                         "detail": f"Projected verified v3 clause spacing across matching clauses ({chg} space adjustments)",
                     })
+
+        # 3. Apply manual audit fixes from Gemini Chat audit flow (Highest Priority Human Verification)
+        for mf in manual_audit_fixes:
+            target_ak = mf.get("ayah")
+            wrong = mf.get("target")
+            right = mf.get("replacement")
+            cat = mf.get("type", "MANUAL_AUDIT")
+            note = mf.get("reason", "")
+            if target_ak == ak and wrong and right and wrong in t_tok:
+                t_tok = t_tok.replace(wrong, right)
+                scholar_fix_count += 1
+                log_rows.append({
+                    "ayah_key": ak,
+                    "action_type": f"AUDIT_{cat}",
+                    "detail": f"{wrong} -> {right} ({note})",
+                })
 
         # Verify 100% ⟦FN:N⟧ token preservation
         new_fns = FN_TOKEN_RE.findall(t_tok)

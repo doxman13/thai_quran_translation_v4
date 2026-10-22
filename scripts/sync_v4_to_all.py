@@ -14,6 +14,8 @@ Usage:
   python scripts/sync_v4_to_all.py --push "Message" # Sync + Git Commit & Push all repos
 """
 
+from __future__ import annotations
+
 import argparse
 import json
 import sqlite3
@@ -24,9 +26,10 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-REPO_ROOT = Path(r"H:\gits\thai_quran_translation_v4")
-WEB_ROOT = Path(r"H:\gits\thai-quran-web")
-APP_ROOT = Path(r"H:\gits\thai-quran-app")
+REPO_ROOT = Path(__file__).resolve().parent.parent
+PARENT_ROOT = REPO_ROOT.parent
+WEB_ROOT = PARENT_ROOT / "thai-quran-web"
+APP_ROOT = PARENT_ROOT / "thai-quran-app"
 
 V4_MASTER_JSON = REPO_ROOT / "deliverables" / "01_thai_quran_translation_v4_master.json"
 

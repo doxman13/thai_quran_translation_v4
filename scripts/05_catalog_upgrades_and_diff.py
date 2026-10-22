@@ -9,6 +9,8 @@ Outputs:
   - reports/thai_v4_vs_v3_full_diff.html
 """
 
+from __future__ import annotations
+
 import csv
 import difflib
 import html
@@ -20,8 +22,9 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-REPO_ROOT = Path(r"H:\gits\thai_quran_translation_v4")
-AUDIT_DIR = Path(r"H:\gits\thai_quran_scholar_audit_v4")
+REPO_ROOT = Path(__file__).resolve().parent.parent
+PARENT_ROOT = REPO_ROOT.parent
+AUDIT_DIR = PARENT_ROOT / "thai_quran_scholar_audit_v4"
 
 IN_PHASE6_JSON = REPO_ROOT / "data" / "06_tq_spacing_and_scholar_fixed.json"
 IN_PHASE4_JSON = IN_PHASE6_JSON if IN_PHASE6_JSON.exists() else (REPO_ROOT / "data" / "04_tq_standardized.json")

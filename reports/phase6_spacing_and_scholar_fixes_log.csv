@@ -1,7 +1,7 @@
 ﻿ayah_key,action_type,detail
 1:1,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
-1:2,AUDIT_SPACING,อัลลอฮฺพระผู้อภิบาล -> อัลลอฮฺ พระผู้อภิบาล (เว้นวรรคคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue) หน้าพระนามคุณลักษณะตามข้อกำหนด 1.1)
 1:2,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+1:2,AUDIT_SPACING,อัลลอฮฺพระผู้อภิบาล -> อัลลอฮฺ พระผู้อภิบาล (เว้นวรรคคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue) หน้าพระนามคุณลักษณะตามข้อกำหนด 1.1)
 1:6,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:1:fn6,FN_TYPO,ซึ้งถูกนำมารวมกัน -> ซึ่งถูกนำมารวมกัน (Wrong tone mark on ซึ่ง)
 2:1:fn6,FN_TYPO,ในการนนี้ -> ในการนี้ (Double No Nu typo)
@@ -24,6 +24,7 @@
 2:15,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:17:fn26,FN_THEOLOGICAL_TYPO,สภาพของผู้ปฏิบัติศรัทธา -> สภาพของผู้ปฏิเสธศรัทธา (ผู้ปฏิบัติศรัทธา -> ผู้ปฏิเสธศรัทธา)
 2:17,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+2:17,AUDIT_SPACING,จุดไฟขึ้น⟦FN:24⟧ครั้งเมื่อ -> จุดไฟขึ้น⟦FN:24⟧ ครั้งเมื่อ (เว้นวรรค 1 เคาะหลังเครื่องหมายเชิงอรรถเพื่อแบ่งช่วงประโยคเงื่อนไข/กาลานุประโยค (Clause Cadence) ตามข้อกำหนด 1.2 และ 2.4)
 2:18,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:19,V3_MICRO_TYPO,ฟ้าคำรน -> ฟ้าคำรณ (Fix spelling ฟ้าคำรณ)
 2:19:fn28,FN_TYPO,เพื่อไม่ให้ได้ยินเสียฟ้าผ่า -> เพื่อไม่ให้ได้ยินเสียงฟ้าผ่า (Missing Ngo Ngu in เสียงฟ้าผ่า)
@@ -31,6 +32,7 @@
 2:20,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:21:fn33,FN_TYPO,การให้เอกภาพแเด่อัลลอฮฺ -> การให้เอกภาพแด่อัลลอฮฺ (Double Sara Ae in แด่)
 2:21,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
+2:21,AUDIT_SPACING,จงเคารพอิบาดะฮฺ⟦FN:33⟧พระผู้อภิบาล -> จงเคารพอิบาดะฮฺ⟦FN:33⟧ พระผู้อภิบาล (เว้นวรรค 1 เคาะหลังเครื่องหมายเชิงอรรถและหน้าพระนามคุณลักษณะ เพื่อแยกหน่วยความหมายและจังหวะพักอ่าน (OCR Glue))
 2:22,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
 2:23,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:24,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -44,12 +46,12 @@
 2:31,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:32,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:33,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
-2:34,AUDIT_SPELLING,(กาฟิร์) -> (กาฟิรฺ) (แก้ไขคำทับศัพท์ตามมาตรฐานการใช้อักษรพินทุ (ฺ) แทนไม้ทัณฑฆาต/การันต์ (์))
 2:34,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
+2:34,AUDIT_SPELLING,(กาฟิร์) -> (กาฟิรฺ) (แก้ไขคำทับศัพท์ตามมาตรฐานการใช้อักษรพินทุ (ฺ) แทนไม้ทัณฑฆาต/การันต์ (์))
 2:35,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:36,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
-2:37,AUDIT_SPELLING,ครั้นดาอัมได้เรียนรู้ -> ครั้นอาดัมได้เรียนรู้ (แก้ไขการสะกดชื่อนบี อาดัม ที่พิมพ์สลับตำแหน่งอักษรเป็น ดาอัม)
 2:37,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+2:37,AUDIT_SPELLING,ครั้นดาอัมได้เรียนรู้ -> ครั้นอาดัมได้เรียนรู้ (แก้ไขการสะกดชื่อนบี อาดัม ที่พิมพ์สลับตำแหน่งอักษรเป็น ดาอัม)
 2:38,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:39,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:40,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
@@ -69,8 +71,8 @@
 2:57,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:58,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:60,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
-2:61,AUDIT_SPELLING,"ความดื้อดันของพวกเขา -> ความดื้อรั้นของพวกเขา (แก้ไขคำสะกดผิด ""ดื้อดัน"" เป็น ""ดื้อรั้น"" ตามพจนานุกรมฉบับราชบัณฑิตยสถานและ rules.json)"
 2:61,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
+2:61,AUDIT_SPELLING,"ความดื้อดันของพวกเขา -> ความดื้อรั้นของพวกเขา (แก้ไขคำสะกดผิด ""ดื้อดัน"" เป็น ""ดื้อรั้น"" ตามพจนานุกรมฉบับราชบัณฑิตยสถานและ rules.json)"
 2:62,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 2:64,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:65,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -82,8 +84,8 @@
 2:72:fn120,V3_FN_TYPO,ถูกล่าวหา -> ถูกกล่าวหา (Fix ถูกล่าวหา -> ถูกกล่าวหา)
 2:72,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:73,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
+2:74,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
 2:74,AUDIT_SPACING,และแท้จริงจากบรรดาหินนั้นมีส่วนที่ทลายลง -> และแท้จริงจากบรรดาหินนั้น มีส่วนที่ทลายลง (เว้นวรรคแบ่งช่วงประโยคย่อย (Clause Cadence) ให้สอดคล้องกับโครงสร้างประโยคคู่ขนานตามข้อกำหนด 1.2)
-2:74,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (7 space adjustments)
 2:75,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:76,V3_MICRO_TYPO,ได้พบแบบรรดา -> ได้พบกับบรรดา (Fix ได้พบแบ -> ได้พบกับ)
 2:76,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
@@ -91,25 +93,26 @@
 2:79,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
 2:80,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:81,AUDIT_SPACING,"ชนเหล่านี้คือชาวนรกโดยที่ -> ชนเหล่านี้คือชาวนรก โดยที่ (เว้นวรรคคั่นหน้าอนุประโยค ""โดยที่"" (Clause Cadence) เพื่อจังหวะพักอ่านตามข้อกำหนด 1.2)"
-2:81,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:82,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:83,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:84,SCHOLAR_SHEET_TO_FIX,ได้ให้ในการรับรอง -> ได้ให้การรับรอง (Chareef Row 48: remove stray ใน)
 2:84,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
-2:85,AUDIT_SPACING,"พวกเจ้าก็ไถ่ตัวพวกเขาโดยที่ -> พวกเจ้าก็ไถ่ตัวพวกเขา โดยที่ (เว้นวรรคคั่นหน้าอนุประโยค ""โดยที่"" (Clause Cadence) เพื่อจังหวะพักอ่านตามข้อกำหนด 1.2)"
 2:85,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
+2:85,AUDIT_SPACING,"พวกเจ้าก็ไถ่ตัวพวกเขาโดยที่ -> พวกเจ้าก็ไถ่ตัวพวกเขา โดยที่ (เว้นวรรคคั่นหน้าอนุประโยค ""โดยที่"" (Clause Cadence) เพื่อจังหวะพักอ่านตามข้อกำหนด 1.2)"
 2:86,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:87,SCHOLAR_SHEET_TO_FIX,ได้ให้คัมภีร์มูซา -> ได้ให้คัมภีร์แก่มูซา (Chareef Row 51: restore missing preposition แก่)
 2:87,V3_MICRO_TYPO,วิญญาณอันปริสุทธิ์ -> วิญญาณอันบริสุทธิ์ (Fix ปริสุทธิ์ -> บริสุทธิ์)
 2:87,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (7 space adjustments)
+2:87,AUDIT_SPACING,"แก่ อีซาบุตรของมัรฺยัม -> แก่อีซาบุตรของมัรฺยัม (ลบช่องว่างที่ไม่ถูกต้องระหว่างคำบุพบท ""แก่"" กับชื่อนบี ""อีซา"" ตามหลักอักขรวิธีไทย)"
 2:88,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+2:88,AUDIT_SPACING,"อัลลอฮฺ ทรงขับไล่พวกเขา -> อัลลอฮฺทรงขับไล่พวกเขา (ลบช่องว่างผิดตำแหน่งระหว่างพระนาม ""อัลลอฮฺ"" กับคำกริยา ""ทรงขับไล่"" เพื่อความต่อเนื่องของประโยค)"
 2:90,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:91:fn140,V3_FN_TYPO,สิ้งที่ -> สิ่งที่ (Fix สิ้งที่ -> สิ่งที่)
 2:91,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 2:92,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
-2:93,AUDIT_SPELLING,ภูเขาฎูร์ -> ภูเขาฏูร (แก้ไขการสะกดชื่อภูเขา ฏูร (الطور) ให้ถูกต้องตามหลักสัทอักษร (ใช้ ฏ-ปฏัก และไม่มีไม้ทัณฑฆาต) สอดคล้องกับอายะฮฺ 2:63)
 2:93:fn143,V3_FN_TYPO,สิ้งกำบังแดด -> สิ่งกำบังแดด (Fix สิ้งกำบังแดด -> สิ่งกำบังแดด)
 2:93,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
+2:93,AUDIT_SPELLING,ภูเขาฎูร์ -> ภูเขาฏูร (แก้ไขการสะกดชื่อภูเขา ฏูร (الطور) ให้ถูกต้องตามหลักสัทอักษร (ใช้ ฏ-ปฏัก และไม่มีไม้ทัณฑฆาต) สอดคล้องกับอายะฮฺ 2:63)
 2:94,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:95,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:96,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
@@ -133,15 +136,15 @@
 2:113,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:114,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:115,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
-2:117,AUDIT_SPELLING,พระองค์ผู้ทรงเนรมิตรชั้นฟ้า -> พระองค์ผู้ทรงเนรมิตชั้นฟ้า (แก้ไขคำสะกดผิด เนรมิตร เป็น เนรมิต ตามพจนานุกรมฉบับราชบัณฑิตยสถาน)
 2:117,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+2:117,AUDIT_SPELLING,พระองค์ผู้ทรงเนรมิตรชั้นฟ้า -> พระองค์ผู้ทรงเนรมิตชั้นฟ้า (แก้ไขคำสะกดผิด เนรมิตร เป็น เนรมิต ตามพจนานุกรมฉบับราชบัณฑิตยสถาน)
 2:118,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:119,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
+2:120,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
 2:120,AUDIT_SPELLING,และชาวยิวและชาวคริสต์นั่น จะไม่พอใจ -> และชาวยิวและชาวคริสต์นั้น จะไม่พอใจ (แก้ไขคำผิด นั่น เป็น นั้น ตามหลักไวยากรณ์และต้นฉบับเดิม)
 2:120,AUDIT_CRITICAL,หลังจากที่มีความรู้มายังแล้ว -> หลังจากที่มีความรู้มายังเจ้าแล้ว (แก้ไขข้อความตกหล่นจากต้นฉบับ โดยเพิ่มคำว่า เจ้า (جَاءَكَ) เพื่อให้ประโยคสมบูรณ์)
-2:120,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (7 space adjustments)
+2:121,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:121,AUDIT_SPACING,แก่พวกเขาโดยที่พวกเขาอ่าน -> แก่พวกเขา โดยที่พวกเขาอ่าน (เว้นวรรคคั่นหน้าอนุประโยค โดยที่ เพื่อจังหวะพักอ่านตามข้อกำหนด 1.2)
-2:121,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 2:122,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:123,V3_MICRO_TYPO,และพ+วกเจ้า -> และพวกเจ้า (Remove stray + inside พวกเจ้า)
 2:123,STAGE8_REPAIR,"และค่าไถ่ถอนใด ๆ ก็หาได้รับประโยชน์แก่ชีวิตนั้นไม่ถูกรับ⟦FN:182⟧และ ทั้งการขอให้ความช่วยเหลือใด ๆ ก็หาได้ยังประโยชน์แก่ชีวิตนั้นแก่ชีวิตนั้นไม่⟦FN:183⟧ -> และค่าไถ่ถอนใด ๆ จากชีวิตนั้นก็จะไม่ถูกรับ⟦FN:182⟧ และทั้งการขอให้ความช่วยเหลือใด ๆ ก็หาได้ยังประโยชน์แก่ชีวิตนั้นไม่⟦FN:183⟧ (Repair corrupted clause, duplicate phrases and spacing in 2:123)"
@@ -178,6 +181,7 @@
 2:151,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:153,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:154,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
+2:154,AUDIT_SPACING,พวกเขาตาย⟦FN:222⟧หามิได้ -> พวกเขาตาย⟦FN:222⟧ หามิได้ (เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถ [FN:222] เพื่อขึ้นช่วงประโยคใหม่ตามเกณฑ์ 2.4 และป้องกันการอ่านติดกันเป็นสำนวน 'ตายหามิได้' ซึ่งทำให้ความหมายบิดเบือน)
 2:155,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:156,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:157,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -187,6 +191,7 @@
 2:160,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 2:161,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:162,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+2:162,AUDIT_SPACING,ตลอดกาลโดยที่การลงโทษ -> ตลอดกาล โดยที่การลงโทษ (เว้นวรรค 1 เคาะแยกช่วงประโยค (Clause-Level Cadence) ระหว่างการพำนักอยู่ตลอดกาลกับประโยคบอกสภาพการลงโทษ (1.2))
 2:164,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:165,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
 2:166,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
@@ -194,43 +199,48 @@
 2:168,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:169,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:170,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
-2:171,AUDIT_CRITICAL,ดังผู้ที่ส่งเสียง⟦FN:238⟧ ที่มันฟังไม่รู้เรื่อง -> ดังผู้ที่ส่งเสียงตวาดสิ่ง⟦FN:238⟧ที่มันฟังไม่รู้เรื่อง (กู้คืนคำแปลของ 'بِمَا' (สิ่ง...) ที่ตกหล่นไป และย้ายตำแหน่งแท็ก [FN:238] ('หมายถึงสัตว์') ให้เกาะกับคำว่า 'สิ่ง' อย่างถูกต้องตามหลักอรรถาธิบายเดิม)
 2:171,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+2:171,AUDIT_CRITICAL,ดังผู้ที่ส่งเสียง⟦FN:238⟧ ที่มันฟังไม่รู้เรื่อง -> ดังผู้ที่ส่งเสียงตวาดสิ่ง⟦FN:238⟧ที่มันฟังไม่รู้เรื่อง (กู้คืนคำแปลของ 'بِمَا' (สิ่ง...) ที่ตกหล่นไป และย้ายตำแหน่งแท็ก [FN:238] ('หมายถึงสัตว์') ให้เกาะกับคำว่า 'สิ่ง' อย่างถูกต้องตามหลักอรรถาธิบายเดิม)
 2:172,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:173,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:174,STAGE8_REPAIR,บริสุทธิ⟦FN:249⟧ -> บริสุทธิ์⟦FN:249⟧ (Fix missing Thanthakhat in บริสุทธิ์)
 2:174,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
-2:176,AUDIT_SPACING,ในคัมภีร์ย่อมอยู่ -> ในคัมภีร์ ย่อมอยู่ (เว้นวรรค 1 เคาะคั่นระหว่างประธานและกริยาหน้าคำว่า 'ย่อม' เพื่อจังหวะพักสายตาและพักหายใจตามเกณฑ์ 1.1)
 2:176,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
+2:176,AUDIT_SPACING,ในคัมภีร์ย่อมอยู่ -> ในคัมภีร์ ย่อมอยู่ (เว้นวรรค 1 เคาะคั่นระหว่างประธานและกริยาหน้าคำว่า 'ย่อม' เพื่อจังหวะพักสายตาและพักหายใจตามเกณฑ์ 1.1)
 2:177,V3_MICRO_TYPO,อดทนไนความทุกข์ยาก -> อดทนในความทุกข์ยาก (Fix ไน -> ใน)
 2:177,V3_MICRO_TYPO,ต่อสู่ในสมรภูมิ -> ต่อสู้ในสมรภูมิ (Fix ต่อสู่ -> ต่อสู้)
 2:177,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (11 space adjustments)
+2:177,AUDIT_SPACING,และในความเดือดร้อน⟦FN:252⟧และขณะ -> และในความเดือดร้อน⟦FN:252⟧ และขณะ (เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถ [FN:252] ตามเกณฑ์ 2.4)
 2:178,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
+2:178,AUDIT_SPACING,และให้ชำระแก่เขาโดยดี⟦FN:255⟧นั่นคือการผ่อนปรน -> และให้ชำระแก่เขาโดยดี⟦FN:255⟧ นั่นคือการผ่อนปรน (เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถ [FN:255] เพื่อขึ้นช่วงประโยคใหม่ตามเกณฑ์ 2.4)
 2:179,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:180,V3_MICRO_TYPO,ได้ถูกำหนด -> ได้ถูกกำหนด (Restore missing ก in ถูกกำหนด)
 2:182,STAGE8_REPAIR,แล้ว แล้วเขาได้ประนีประนอม -> แล้วเขาได้ประนีประนอม (Remove duplicate แล้ว (Chareef to fix))
 2:182,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+2:182,AUDIT_SPACING,ผู้ทรงอภัยผู้ทรงเมตตาเสมอ -> ผู้ทรงอภัย ผู้ทรงเมตตาเสมอ (เว้นวรรค 1 เคาะคั่นระหว่างสองพระนามคุณลักษณะของอัลลอฮฺ (OCR Glue) ตามเกณฑ์ 1.1)
 2:183,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:184,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:185:fn262,FN_TYPO,ในการดำรงค์ชีวิต -> ในการดำรงชีวิต (Spurious ค์ in ดำรง)
 2:185:fn265,FN_TYPO,ทำให้ผู้ศีลอดรู้สึก -> ทำให้ผู้ถือศีลอดรู้สึก (Missing ถือ in ผู้ถือศีลอด)
 2:185,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
-2:186,AUDIT_CRITICAL,ก็ (จงตอบเถิดว่า) แท้จริงนั้นอยู่ใกล้ -> ก็ (จงตอบเถิดว่า) แท้จริงข้านั้นอยู่ใกล้ (คืนสรรพนามของอัลลอฮฺ 'ข้า' (فَإِنِّي) ที่ตกหล่นไปใน V4 เพื่อรักษาความถูกต้องทางเตาฮีดและความหมาย)
 2:186,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
+2:186,AUDIT_CRITICAL,ก็ (จงตอบเถิดว่า) แท้จริงนั้นอยู่ใกล้ -> ก็ (จงตอบเถิดว่า) แท้จริงข้านั้นอยู่ใกล้ (คืนสรรพนามของอัลลอฮฺ 'ข้า' (فَإِنِّي) ที่ตกหล่นไปใน V4 เพื่อรักษาความถูกต้องทางเตาฮีดและความหมาย)
 2:187,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (10 space adjustments)
 2:188,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:189,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+2:189,AUDIT_SPACING,สำหรับมนุษย์⟦FN:279⟧และสำหรับประกอบพิธีฮัจญ์ -> สำหรับมนุษย์⟦FN:279⟧ และสำหรับประกอบพิธีฮัจญ์ (เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถ [FN:279] ตามเกณฑ์ 2.4)
 2:190,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:191,V3_MICRO_TYPO,ร้ายแรงยิงกว่า -> ร้ายแรงยิ่งกว่า (Restore Mai Ek in ยิ่งกว่า)
 2:191,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
 2:192,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
-2:193,AUDIT_SPACING,จนกว่าการอิบาดะฮฺ ทั้งหลายจะเป็นสิทธิของอัลลอฮฺเท่านั้น -> จนกว่าการอิบาดะฮฺทั้งหลายจะเป็นสิทธิของอัลลอฮฺเท่านั้น (ตัดช่องว่างที่ไม่ถูกต้องกลางวลี 'การอิบาดะฮฺทั้งหลาย' ตามเกณฑ์ 1.3 (ห้ามเคาะวรรคกลางคำประสม))
 2:193,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
+2:193,AUDIT_SPACING,จนกว่าการอิบาดะฮฺ ทั้งหลายจะเป็นสิทธิของอัลลอฮฺเท่านั้น -> จนกว่าการอิบาดะฮฺทั้งหลายจะเป็นสิทธิของอัลลอฮฺเท่านั้น (ตัดช่องว่างที่ไม่ถูกต้องกลางวลี 'การอิบาดะฮฺทั้งหลาย' ตามเกณฑ์ 1.3 (ห้ามเคาะวรรคกลางคำประสม))
 2:194,V3_MICRO_TYPO,ต่อพวกเข้า -> ต่อพวกเจ้า (Fix พวกเข้า -> พวกเจ้า)
 2:194:fn287,V3_FN_TYPO,มิใช้สู้รบ -> มิให้สู้รบ (Fix มิใช้สู้รบ -> มิให้สู้รบ)
 2:194,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:195,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:196,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (8 space adjustments)
+2:196,AUDIT_CRITICAL,ดังกล่าวนั้นสำหรับที่ครอบครัวของเขา -> ดังกล่าวนั้นสำหรับผู้ที่ครอบครัวของเขา (คืนคำว่า 'ผู้' ในคำว่า 'สำหรับผู้ที่' (แปลจาก لِمَن) ที่ตกหล่นไปใน V4 ตามสำนวนดั้งเดิม)
 2:197,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:198,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:199,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -239,6 +249,7 @@
 2:201,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:202,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:203,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+2:203,AUDIT_SPACING,ถึงอัลลอฮฺ⟦FN:306⟧ในบรรดาวัน -> ถึงอัลลอฮฺ⟦FN:306⟧ ในบรรดาวัน (เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถ [FN:306] ตามเกณฑ์ 2.4)
 2:204,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:205,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:207,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -252,8 +263,8 @@
 2:215,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:216,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:217,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (7 space adjustments)
-2:218,AUDIT_SPACING,ในทางของอัลลอฮฺชนเหล่านี้แหละ -> ในทางของอัลลอฮฺ ชนเหล่านี้แหละ (เว้นวรรค 1 เคาะแยกประโยค (OCR Glue) ระหว่างพระนาม 'อัลลอฮฺ' กับขึ้นต้นประโยค 'ชนเหล่านี้แหละ' ตามเกณฑ์ 1.1)
 2:218,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+2:218,AUDIT_SPACING,ในทางของอัลลอฮฺชนเหล่านี้แหละ -> ในทางของอัลลอฮฺ ชนเหล่านี้แหละ (เว้นวรรค 1 เคาะแยกประโยค (OCR Glue) ระหว่างพระนาม 'อัลลอฮฺ' กับขึ้นต้นประโยค 'ชนเหล่านี้แหละ' ตามเกณฑ์ 1.1)
 2:219,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:220,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:221,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
@@ -264,6 +275,7 @@
 2:225,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:226,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:227,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
+2:227,AUDIT_CRITICAL,แน่นอนอัลลอฮฺผู้ทรงได้ยิน -> แน่นอนอัลลอฮฺเป็นผู้ทรงได้ยิน (คืนคำว่า 'เป็น' ที่ตกหล่นไปใน V4 (จากเดิมใน V3 'แน่นอนอัลลอฮฺเป็นผู้ทรงได้ยิน') เพื่อให้ประโยคมีภาคแสดง (Khabar) สมบูรณ์ตามต้นฉบับ فَإِنَّ ٱللَّهَ سَمِيعٌ)
 2:228,V3_MICRO_TYPO,และพวกนางนั้นจะได้นรับ -> และพวกนางนั้นจะได้รับ (Remove stray น in จะได้นรับ)
 2:228,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:229,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
@@ -285,6 +297,7 @@
 2:247,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:248,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
 2:249,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (10 space adjustments)
+2:249,AUDIT_SPACING,กับญาลูต⟦FN:399⟧และไพร่พล -> กับญาลูต⟦FN:399⟧ และไพร่พล (เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถ [FN:399] หน้าสันธานเชื่อม 'และ' ตามเกณฑ์ 2.4)
 2:250,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:251,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
 2:252,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -298,20 +311,21 @@
 2:258,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 2:259,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 2:260,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
-2:261,AUDIT_SPACING,ในทางของอัลลอฮฺดังอุปมัย -> ในทางของอัลลอฮฺ ดังอุปมัย (เว้นวรรคแยกช่วงประโยคและปลดคำที่พิมพ์ติดกัน (OCR Glue))
+2:260,AUDIT_SPACING,เจ้ามิได้เชื่อ ดอกหรือ? -> เจ้ามิได้เชื่อดอกหรือ? (ลบวรรคเกินระหว่างคำกริยากับอนุภาคคำถาม (ดอกหรือ))
 2:261,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+2:261,AUDIT_SPACING,ในทางของอัลลอฮฺดังอุปมัย -> ในทางของอัลลอฮฺ ดังอุปมัย (เว้นวรรคแยกช่วงประโยคและปลดคำที่พิมพ์ติดกัน (OCR Glue))
 2:262,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:264,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 2:265,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:266,V3_MICRO_TYPO,อินทผลัม -> อินทผาลัม (Standardize spelling อินทผาลัม)
 2:266,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+2:268,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:268,AUDIT_SPACING,และอัลลอฮฺเป็นผู้ทรงกว้างขวางผู้ทรงรอบรู้ -> และอัลลอฮฺเป็นผู้ทรงกว้างขวาง ผู้ทรงรอบรู้ (เว้นวรรคคั่นระหว่างพระนามคุณลักษณะ (Cadence / OCR Glue))
-2:268,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:270,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:271,V3_MICRO_TYPO,บางส่วนจากาบรรดา -> บางส่วนจากบรรดา (Remove stray า in จากาบรรดา)
 2:271:fn471,V3_FN_DUPLICATE,คิดจะบริจาค คิดจะบริจาคบ้าง -> คิดจะบริจาคบ้าง (Remove duplicate phrase in 2:271 fn 471)
+2:273,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 2:273,AUDIT_THEOLOGICAL,โดยที่พวกเขาสามารถจะเดินทางไปในดินแดนอื่น ๆ ได้ -> โดยที่พวกเขาไม่สามารถจะเดินทางไปในดินแดนอื่น ๆ ได้ (แก้ไขการตกคำปฏิเสธ (لَا يَสۡتَطِيعُونَ) ซึ่งทำให้ความหมายกลับด้านตรงข้ามกับตัวบทอัลกุรอาน)
-2:273,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 2:274,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 2:275,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 2:277,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
@@ -321,8 +335,8 @@
 2:282:fn501,V3_FN_TYPO,เจ้าหน้าหนี้ -> เจ้าหนี้ (Fix เจ้าหน้าหนี้ -> เจ้าหนี้)
 2:282,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (15 space adjustments)
 2:283,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
-2:284,AUDIT_THEOLOGICAL,แล้วพระองค์จะทรงอภัยโทษแก่ผู้ที่พระองค์ทรงประสงค์⟦FN:503⟧ และอัลลอฮฺเป็นผู้ทรงเดชานุภาพ -> แล้วพระองค์จะทรงอภัยโทษแก่ผู้ที่พระองค์ทรงประสงค์ และจะทรงลงโทษผู้ที่พระองค์ทรงประสงค์⟦FN:503⟧ และอัลลอฮฺเป็นผู้ทรงเดชานุภาพ (เพิ่มข้อความที่ตกหล่นขาดหายไปจากตัวบทอัลกุรอาน (وَيُعَذِّบُ مَن يَشَآءُ = และจะทรงลงโทษผู้ที่พระองค์ทรงประสงค์))
 2:284,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
+2:284,AUDIT_THEOLOGICAL,แล้วพระองค์จะทรงอภัยโทษแก่ผู้ที่พระองค์ทรงประสงค์⟦FN:503⟧ และอัลลอฮฺเป็นผู้ทรงเดชานุภาพ -> แล้วพระองค์จะทรงอภัยโทษแก่ผู้ที่พระองค์ทรงประสงค์ และจะทรงลงโทษผู้ที่พระองค์ทรงประสงค์⟦FN:503⟧ และอัลลอฮฺเป็นผู้ทรงเดชานุภาพ (เพิ่มข้อความที่ตกหล่นขาดหายไปจากตัวบทอัลกุรอาน (وَيُعَذِّบُ مَن يَشَآءُ = และจะทรงลงโทษผู้ที่พระองค์ทรงประสงค์))
 2:285,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 2:286,AUDIT_THEOLOGICAL,โปรดอย่าเอาโทษแก่เราเลย หากพวกเราลืม -> โปรดอย่าเอาโทษแก่พวกเราเลย หากพวกเราลืม (แก้ไขสรรพนามบ่าวในบทดุอาอ์พหูพจน์เป็น 'แก่พวกเรา' เพื่อรักษาความบริสุทธิ์ทางเตาฮีดและไม่ปะปนกับสรรพนามของอัลลอฮฺ)
 2:286,AUDIT_SPACING,และโปรดได้ทรงอภัยแก่พวกเราและยกโทษให้แก่พวกเรา -> และโปรดได้ทรงอภัยแก่พวกเรา และยกโทษให้แก่พวกเรา (เว้นวรรคคั่นระหว่างประโยคย่อยในบทดุอาอ์ (Cadence))
@@ -331,20 +345,21 @@
 3:3,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 3:4,AUDIT_SPACING,ของอัลลอฮฺพวกเขาจะได้รับโทษ -> ของอัลลอฮฺ พวกเขาจะได้รับโทษ (เว้นวรรคแยกช่วงประโยคและปลดคำที่พิมพ์ติดกัน (OCR Glue))
 3:5,AUDIT_THEOLOGICAL,และทั้งไม่มีฟากฟ้าด้วย -> และทั้งไม่มีในฟากฟ้าด้วย (เติมคำว่า 'ใน' ที่ตกหล่นไปจากตัวบทอาหรับ (وَلَا فِي ٱلسَّمَاءِ) เพื่อป้องกันความหมายเพี้ยนเป็นไม่มีฟากฟ้า)
-3:7,AUDIT_THEOLOGICAL,ที่ที่พระผู้อภิบาลของเราทั้งสิ้น -> ที่ที่พระผู้อภิบาลของพวกเราทั้งสิ้น (แก้ไขสรรพนามบ่าวในคำพูดพหูพจน์ (رَبَّنَا) เป็น 'ของพวกเรา' เพื่อรักษาความบริสุทธิ์ทางเตาฮีด)
 3:7,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (7 space adjustments)
+3:7,AUDIT_THEOLOGICAL,ที่ที่พระผู้อภิบาลของเราทั้งสิ้น -> ที่ที่พระผู้อภิบาลของพวกเราทั้งสิ้น (แก้ไขสรรพนามบ่าวในคำพูดพหูพจน์ (رَبَّنَا) เป็น 'ของพวกเรา' เพื่อรักษาความบริสุทธิ์ทางเตาฮีด)
 3:8,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 3:9,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:10,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:11,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:13,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
-3:14,AUDIT_SPACING,และอัลลอฮฺณ พระองค์ -> และอัลลอฮฺ ณ พระองค์ (เคาะเว้นวรรคปลดคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue))
 3:14,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
-3:15,AUDIT_SPACING,ไหม?สำหรับบรรดาผู้ที่ยำเกรงนั้น -> ไหม? สำหรับบรรดาผู้ที่ยำเกรงนั้น (เคาะเว้นวรรคหลังเครื่องหมายคำถามตามมาตรฐานการเว้นวรรคตอน)
+3:14,AUDIT_SPACING,และอัลลอฮฺณ พระองค์ -> และอัลลอฮฺ ณ พระองค์ (เคาะเว้นวรรคปลดคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue))
 3:15,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
+3:15,AUDIT_SPACING,ไหม?สำหรับบรรดาผู้ที่ยำเกรงนั้น -> ไหม? สำหรับบรรดาผู้ที่ยำเกรงนั้น (เคาะเว้นวรรคหลังเครื่องหมายคำถามตามมาตรฐานการเว้นวรรคตอน)
 3:16,V3_MICRO_TYPO,แห่งไฟรก -> แห่งไฟนรก (Restore missing น in ไฟนรก)
 3:17,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:19,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
+3:19,AUDIT_SPACING,ณ อัลลอฮฺคืออัลอิสลาม -> ณ อัลลอฮฺ คืออัลอิสลาม (เคาะเว้นวรรคปลดคำที่พิมพ์ติดกัน (OCR Glue))
 3:20,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
 3:21,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:22,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
@@ -362,36 +377,37 @@
 3:33,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:35,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:36,V3_MICRO_TYPO,เพศชายนั้นจะเหมือนกันเพศหญิง -> เพศชายนั้นจะเหมือนกับเพศหญิง (Fix เหมือนกันเพศหญิง -> เหมือนกับเพศหญิง)
-3:37,AUDIT_SPACING,เธอได้สิ่งนี้มาอย่างไร?นางกล่าวว่า -> เธอได้สิ่งนี้มาอย่างไร? นางกล่าวว่า (เคาะเว้นวรรคหลังเครื่องหมายคำถามก่อนขึ้นประโยคคำตอบของบทสนทนา)
 3:37,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
+3:37,AUDIT_SPACING,เธอได้สิ่งนี้มาอย่างไร?นางกล่าวว่า -> เธอได้สิ่งนี้มาอย่างไร? นางกล่าวว่า (เคาะเว้นวรรคหลังเครื่องหมายคำถามก่อนขึ้นประโยคคำตอบของบทสนทนา)
 3:38,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:39,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (7 space adjustments)
 3:40,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
-3:41,AUDIT_THEOLOGICAL,ทั้งในเวลายืนและเวลาเช้า -> ทั้งในเวลาเย็นและเวลาเช้า (แก้ไขข้อผิดพลาด OCR วิปริตอย่างร้ายแรง จาก 'เวลายืน' เป็น 'เวลาเย็น' ตามตัวบทอาหรับ بِٱلۡعَشِيِّ (ยามเย็น))
 3:41,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
+3:41,AUDIT_THEOLOGICAL,ทั้งในเวลายืนและเวลาเช้า -> ทั้งในเวลาเย็นและเวลาเช้า (แก้ไขข้อผิดพลาด OCR วิปริตอย่างร้ายแรง จาก 'เวลายืน' เป็น 'เวลาเย็น' ตามตัวบทอาหรับ بِٱلۡعَشِيِّ (ยามเย็น))
 3:42,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:43,V3_MICRO_TYPO,ร่วมกับรรดา -> ร่วมกับบรรดา (Restore missing บ in กับบรรดา)
 3:43,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:44,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
-3:45,AUDIT_SPACING,มัรฺยัมเอ๋ย ! แท้จริง -> มัรฺยัมเอ๋ย! แท้จริง (ลบวรรคเกินหน้าเครื่องหมายอัศเจรีย์ (!) ให้ติดสนิทกับคำหน้า)
 3:45,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
+3:45,AUDIT_SPACING,มัรฺยัมเอ๋ย ! แท้จริง -> มัรฺยัมเอ๋ย! แท้จริง (ลบวรรคเกินหน้าเครื่องหมายอัศเจรีย์ (!) ให้ติดสนิทกับคำหน้า)
 3:46,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
-3:47,AUDIT_SPACING,เมื่อพระองค์ทรงชี้ขาดงานใดแล้ว? พระองค์ก็เพียงประกาศิต -> เมื่อพระองค์ทรงชี้ขาดงานใดแล้ว พระองค์ก็เพียงประกาศิต (ลบเครื่องหมายคำถาม (?) ที่ติดมาผิดตำแหน่งกลางประโยคเงื่อนไข (OCR Glitch))
 3:47,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+3:47,AUDIT_SPACING,เมื่อพระองค์ทรงชี้ขาดงานใดแล้ว? พระองค์ก็เพียงประกาศิต -> เมื่อพระองค์ทรงชี้ขาดงานใดแล้ว พระองค์ก็เพียงประกาศิต (ลบเครื่องหมายคำถาม (?) ที่ติดมาผิดตำแหน่งกลางประโยคเงื่อนไข (OCR Glitch))
 3:48,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
-3:49,AUDIT_THEOLOGICAL,(โดยที่เขาจะกล่าวว่า) แท้จริงนั้นได้นำสัญญาณหนึ่ง -> (โดยที่เขาจะกล่าวว่า) แท้จริงฉันได้นำสัญญาณหนึ่ง (แก้ไขคำผิดจากการพิมพ์/OCR จาก 'แท้จริงนั้น' เป็น 'แท้จริงฉัน' ตามตัวบทอาหรับ أَنِّي (แท้จริงฉัน))
 3:49,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
+3:49,AUDIT_THEOLOGICAL,(โดยที่เขาจะกล่าวว่า) แท้จริงนั้นได้นำสัญญาณหนึ่ง -> (โดยที่เขาจะกล่าวว่า) แท้จริงฉันได้นำสัญญาณหนึ่ง (แก้ไขคำผิดจากการพิมพ์/OCR จาก 'แท้จริงนั้น' เป็น 'แท้จริงฉัน' ตามตัวบทอาหรับ أَنِّي (แท้จริงฉัน))
 3:51,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 3:52,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:55,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
+3:55,AUDIT_SPACING,โอ้อีซา ! ข้าจะเป็น -> โอ้อีซา! ข้าจะเป็น (ลบวรรคเกินหน้าเครื่องหมายอัศเจรีย์ (!) ให้ติดสนิทกับคำหน้า)
+3:56,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:56,AUDIT_SPELLING,ส่วนบรรดาผู้ที่ปฏิเสธศรัทธาน ข้าจะลงโทษ -> ส่วนบรรดาผู้ที่ปฏิเสธศรัทธานั้น ข้าจะลงโทษ (แก้ไขคำตกหล่นจาก 'ปฏิเสธศรัทธาน' เป็น 'ปฏิเสธศรัทธานั้น' ตามสำนวนมาตรฐานเดิม)
-3:56,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:57,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
-3:59,AUDIT_SPACING,ณ อัลลอฮฺดั่งอุปมัย -> ณ อัลลอฮฺ ดั่งอุปมัย (เว้นวรรคปลดคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue) หลังพระนามอัลลอฮฺ)
 3:59,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+3:59,AUDIT_SPACING,ณ อัลลอฮฺดั่งอุปมัย -> ณ อัลลอฮฺ ดั่งอุปมัย (เว้นวรรคปลดคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue) หลังพระนามอัลลอฮฺ)
 3:60,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
+3:61,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
 3:61,AUDIT_SPELLING,โดยที่เราจะขอให้ละฮฺนัด⟦FN:90⟧ ของอัลลอฮฺ -> โดยที่เราจะขอให้ละอฺนัต⟦FN:90⟧ ของอัลลอฮฺ (แก้ไขการสะกดศัพท์ทับศัพท์ لَعْنَة ให้ถูกต้องตามหลักพินทุ (ละอฺนัต) สอดคล้องกับอายะฮฺ 3:87 และ 3:88)
-3:61,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
 3:62,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:63,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:64,V3_MICRO_TYPO,ไม่เคาระสักการะ -> ไม่เคารพสักการะ (Fix เคาระ -> เคารพ)
@@ -403,18 +419,19 @@
 3:72,V3_MICRO_TYPO,ในตอนสุท้าย -> ในตอนสุดท้าย (Restore missing ด in สุดท้าย)
 3:72,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:73,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
+3:75,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:75,AUDIT_THEOLOGICAL,ไม่มีทางใดที่เป็นโทษแก่เราได้⟦FN:114⟧ -> ไม่มีทางใดที่เป็นโทษแก่พวกเราได้⟦FN:114⟧ (แก้ไขสรรพนามบุรุษที่ 1 พหูพจน์ของมนุษย์ (عَلَيۡنَا) จาก 'แก่เรา' เป็น 'แก่พวกเรา' ตามหลักเตาฮีด เพื่อไม่ให้ปะปนกับสรรพนามของอัลลอฮฺ)
-3:75,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:76,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:77,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:78,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
 3:79,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:80,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:81,V3_MICRO_TYPO,เป็นผู้นยืนยัน -> เป็นผู้ยืนยัน (Remove stray น in ผู้นยืนยัน)
-3:81,AUDIT_THEOLOGICAL,และข้าก็อยู่ในหมู่เป็นพยานร่วมกับพวกเจ้าด้วย -> และข้าก็อยู่ในหมู่ผู้เป็นพยานร่วมกับพวกเจ้าด้วย (เติมคำว่า 'ผู้' ที่ตกหล่นไปจากตัวบท (مِّنَ ٱلشَّٰهِدِينَ = ในหมู่ผู้เป็นพยาน))
 3:81:fn126,V3_FN_PHINTHU,อะฮลุลกิตาบ -> อะฮฺลุลกิตาบ (Ahlul Kitab Phinthu)
 3:81,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
+3:81,AUDIT_THEOLOGICAL,และข้าก็อยู่ในหมู่เป็นพยานร่วมกับพวกเจ้าด้วย -> และข้าก็อยู่ในหมู่ผู้เป็นพยานร่วมกับพวกเจ้าด้วย (เติมคำว่า 'ผู้' ที่ตกหล่นไปจากตัวบท (مِّنَ ٱلشَّٰهِدِينَ = ในหมู่ผู้เป็นพยาน))
 3:82,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
+3:82,AUDIT_SPELLING,ชนเหล่านั้นและ พวกเขาคือผู้ละเมิด -> ชนเหล่านั้นแหละ พวกเขาคือผู้ละเมิด (แก้ไขคำพิมพ์ผิดจาก 'และ' เป็น 'แหละ' (ชนเหล่านั้นแหละ))
 3:83,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 3:84,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 3:86,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
@@ -437,6 +454,7 @@
 3:103,V3_MICRO_TYPO,ที่มีแต่พวกเจ้า -> ที่มีแด่พวกเจ้า (Fix ที่มีแต่ -> ที่มีแด่)
 3:103,V3_MICRO_TYPO,เพื่อว่าเพวกเจ้า -> เพื่อว่าพวกเจ้า (Remove stray Sara E in เพวกเจ้า)
 3:103,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
+3:103,AUDIT_SPACING,ในทำนองนั้นแหละอัลลอฮฺจะทรงแจกแจง -> ในทำนองนั้นแหละ อัลลอฮฺจะทรงแจกแจง (เว้นวรรคแยกพระนามอัลลอฮฺออกจากคำช่วยท้ายประโยค (แหละ) เพื่อปลดคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue)[cite: 2])
 3:104,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:105,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:107,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -450,15 +468,15 @@
 3:114,V3_MICRO_TYPO,และชนเหล่านี้และอยู่ในหมู่ที่ประพฤติดี -> และชนเหล่านี้แหละอยู่ในหมู่ผู้ที่ประพฤติดี (Fix และอยู่ใน -> แหละอยู่ใน)
 3:115,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:116,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
-3:117,AUDIT_SPELLING,"อุปมัยลมซึ่งมีความเย็นจัด -> อุปไมยลมซึ่งมีความเย็นจัด (แก้ไขคำสะกดผิดตามพจนานุกรมฉบับราชบัณฑิตยสถาน คำคู่ของ 'อุปมา' คือ 'อุปไมย' (ต้นฉบับสะกดผิดเป็น อุปมัย จากข้อผิดพลาด OCR)[cite: 1, 2])"
 3:117,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+3:117,AUDIT_SPELLING,"อุปมัยลมซึ่งมีความเย็นจัด -> อุปไมยลมซึ่งมีความเย็นจัด (แก้ไขคำสะกดผิดตามพจนานุกรมฉบับราชบัณฑิตยสถาน คำคู่ของ 'อุปมา' คือ 'อุปไมย' (ต้นฉบับสะกดผิดเป็น อุปมัย จากข้อผิดพลาด OCR)[cite: 1, 2])"
 3:118,V3_MICRO_TYPO,เอาเพื่อสนิท -> เอาเพื่อนสนิท (Restore missing น in เพื่อนสนิท)
 3:118,V3_MICRO_TYPO,ของพสกเขา -> ของพวกเขา (Fix พสกเขา -> พวกเขา)
 3:119,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:120,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:122,V3_MICRO_TYPO,อัลลอฮฺเป็รนผู้ทรง -> อัลลอฮฺเป็นผู้ทรง (Remove stray ร in เป็รน)
-3:122,AUDIT_SPACING,และแด่อัลลอฮฺมุอฺมินทั้งหลาย -> และแด่อัลลอฮฺ มุอฺมินทั้งหลาย (เว้นวรรคคั่นระหว่างบุพบทวลีกับประธานของประโยค เพื่อไม่ให้พระนามอัลลอฮฺพิมพ์ติดกันเป็นพรืดกับคำว่า มุอฺมินทั้งหลาย (OCR Glue)[cite: 2])
 3:122,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+3:122,AUDIT_SPACING,และแด่อัลลอฮฺมุอฺมินทั้งหลาย -> และแด่อัลลอฮฺ มุอฺมินทั้งหลาย (เว้นวรรคคั่นระหว่างบุพบทวลีกับประธานของประโยค เพื่อไม่ให้พระนามอัลลอฮฺพิมพ์ติดกันเป็นพรืดกับคำว่า มุอฺมินทั้งหลาย (OCR Glue)[cite: 2])
 3:123,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:125,V3_MICRO_TYPO,ทันทีทันใดขณะนี⟦FN:183⟧ -> ทันทีทันใดขณะนี้⟦FN:183⟧ (Restore Mai Tho in ขณะนี้)
 3:125,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
@@ -489,8 +507,8 @@
 3:152,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 3:153,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:154,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
-3:155,AUDIT_OCR_BUG,แท้จริงอัลลอฮฺเป็นทรงอภัยโทษ -> แท้จริงอัลลอฮฺเป็นผู้ทรงอภัยโทษ (เติมคำว่า 'ผู้' ที่ตกหล่นจากไฟล์ต้นฉบับ ทำให้ไวยากรณ์ผิดเพี้ยน ('เป็นทรงอภัยโทษ' -> 'เป็นผู้ทรงอภัยโทษ')[cite: 2])
 3:155,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
+3:155,AUDIT_OCR_BUG,แท้จริงอัลลอฮฺเป็นทรงอภัยโทษ -> แท้จริงอัลลอฮฺเป็นผู้ทรงอภัยโทษ (เติมคำว่า 'ผู้' ที่ตกหล่นจากไฟล์ต้นฉบับ ทำให้ไวยากรณ์ผิดเพี้ยน ('เป็นทรงอภัยโทษ' -> 'เป็นผู้ทรงอภัยโทษ')[cite: 2])
 3:157,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 3:158,V3_MICRO_TYPO,ถ้าหาพวกเจ้า -> ถ้าหากพวกเจ้า (Restore missing ก in ถ้าหาก)
 3:158,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -505,8 +523,8 @@
 3:168,V3_MICRO_TYPO,"(มุอัมมัด) -> (มุฮัมมัด) (Fix typo (มุอัมมัด) -> (มุฮัมมัด) in 2:142, 3:168, 6:24, 6:63)"
 3:168,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:169,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+3:170,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 3:170,AUDIT_OCR_BUG,พวกเขามีปลาบปลื้ม -> พวกเขามีความปลาบปลื้ม (เติมคำว่า 'ความ' ที่ตกหล่นในการแปลงไฟล์ ทำให้ไวยากรณ์สะดุด ('มีปลาบปลื้ม' -> 'มีความปลาบปลื้ม')[cite: 2])
-3:170,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:171,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 3:172:fn275,V3_FN_TYPO,ระหว่าางมักกะฮฺ -> ระหว่างมักกะฮฺ (Double Sara Aa typo)
 3:172,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
@@ -517,14 +535,14 @@
 3:176,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 3:177,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:178,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
-3:180,AUDIT_SPELLING,"(ผู้ทรงกรรมสิทธิ) -> (ผู้ทรงกรรมสิทธิ์) (แก้ไขตัวสะกดคำว่า 'กรรมสิทธิ์' ให้ถูกต้องตามพจนานุกรมฉบับราชบัณฑิตยสถาน (ตกไม้ทัณฑฆาต/การันต์ บน ธิ)[cite: 1, 2])"
 3:180,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
+3:180,AUDIT_SPELLING,"(ผู้ทรงกรรมสิทธิ) -> (ผู้ทรงกรรมสิทธิ์) (แก้ไขตัวสะกดคำว่า 'กรรมสิทธิ์' ให้ถูกต้องตามพจนานุกรมฉบับราชบัณฑิตยสถาน (ตกไม้ทัณฑฆาต/การันต์ บน ธิ)[cite: 1, 2])"
 3:181,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (7 space adjustments)
 3:182,V3_MICRO_TYPO,แก่ปวงบ่วงทั้งหลาย -> แก่ปวงบ่าวทั้งหลาย (Fix ปวงบ่วง -> ปวงบ่าว (لِّلْعَبِيدِ))
 3:182,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:183,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
-3:184,AUDIT_SPACING,แล้วหากพวกเขาปฏิเสธเจ้าแท้จริง -> แล้วหากพวกเขาปฏิเสธเจ้า แท้จริง (เว้นวรรค 1 เคาะ คั่นระหว่างประโยคเงื่อนไขกับประโยคผลลัพธ์ เพื่อปลดคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue)[cite: 2])
 3:184,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
+3:184,AUDIT_SPACING,แล้วหากพวกเขาปฏิเสธเจ้าแท้จริง -> แล้วหากพวกเขาปฏิเสธเจ้า แท้จริง (เว้นวรรค 1 เคาะ คั่นระหว่างประโยคเงื่อนไขกับประโยคผลลัพธ์ เพื่อปลดคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue)[cite: 2])
 3:185,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 3:186,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 3:187,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
@@ -540,8 +558,10 @@
 3:195,V3_MICRO_TYPO,ว่า แท้จจริง ข้า -> ว่า แท้จริง ข้า (Remove doubled จ in แท้จจริง)
 3:195,V3_MICRO_TYPO,บรรดาผู้ทีอพยพ -> บรรดาผู้ที่อพยพ (Restore Mai Ek in ผู้ที่)
 3:195,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
+3:195,AUDIT_OCR_BUG,แน่นอนข้าจะลบล้างให้พ้นจากพวกเขา และแน่นอน ซึ่งบรรดาความผิดของพวกเขา -> แน่นอนข้าจะลบล้างให้พ้นจากพวกเขา ซึ่งบรรดาความผิดของพวกเขา (ลบคำว่า 'และแน่นอน' ที่แทรกเบิ้ลซ้ำซ้อนจากบั๊กการพิมพ์/OCR ทำให้โครงสร้างประโยคสะดุดและคลาดเคลื่อนจากตัวบทเดิม (لَأُكَفِّرَنَّ عَنۡهُمۡ سَيِّـَٔاتِهِمۡ)[cite: 2])
 3:196,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:197,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+3:197,AUDIT_OCR_BUG,แล้วที่อยู่ของพวกคือญะฮันนัม -> แล้วที่อยู่ของพวกเขาคือญะฮันนัม (เติมคำสรรพนาม 'เขา' ที่ตกหล่นจากการแปลงไฟล์ (مَأۡوَىٰهُمۡ - ที่อยู่ของพวกเขา) ป้องกันคำวิปริต ('ของพวกคือ')[cite: 2])
 3:198,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 3:199,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
 4:1,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
@@ -550,8 +570,8 @@
 4:4,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 4:5,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 4:6,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
+4:7,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 4:7,AUDIT_SPELLING,"ที่ถูกำหนดอัตราส่วนไว้ -> ที่ถูกกำหนดอัตราส่วนไว้ (แก้ไขคำสะกดผิด/ตัวอักษรตกหล่นจากการพิมพ์ (พยัญชนะ 'ก' ตกหล่น) จาก 'ที่ถูกำหนด' เป็น 'ที่ถูกกำหนด' ตามพจนานุกรมฉบับราชบัณฑิตยสถาน[cite: 1, 2, 5])"
-4:7,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (4 space adjustments)
 4:8,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 4:10,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 4:11,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (6 space adjustments)
@@ -570,6 +590,7 @@
 4:23,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (3 space adjustments)
 4:24,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 4:25,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (8 space adjustments)
+4:25,AUDIT_SPELLING,เป็นผู้ทรงรอบรู้ยิ่งที่ในการศรัทธาของพวกเจ้า -> เป็นผู้ทรงรอบรู้ยิ่งในการศรัทธาของพวกเจ้า (แก้ไขคำพิมพ์เกินจากความผิดพลาดในการแปลงไฟล์ ('ยิ่งที่ใน' -> 'ยิ่งใน'))
 4:29,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 4:30,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 4:32,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -581,6 +602,7 @@
 4:38,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 4:40,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
 4:42,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+4:42,AUDIT_CRITICAL,และดื้อดึงต่อรอซูลประสงค์ (รวมกันปฏิเสธ และการฝ่าฝืนรอซูล) หากว่าแผ่นดิน -> และดื้อดึงต่อรอซูลต่างก็ปรารถนา หากว่าแผ่นดิน (ตัดข้อความอธิบายที่แทรกปนเข้ามาในตัวบทอายะฮฺโดยผิดพลาด และคืนสำนวนแปลมาตรฐานเดิมตามต้นฉบับ ('ต่างก็ปรารถนา'))
 4:43,V3_MICRO_TYPO,กำลังมันเมาอยู่ -> กำลังมึนเมาอยู่ (Fix มันเมา -> มึนเมา)
 4:43,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
 4:45,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
@@ -598,6 +620,7 @@
 4:56,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 4:57,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 4:58,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (2 space adjustments)
+4:58,AUDIT_TAWHID,แท้จริงอัลลอฮฺเป็นผู้ทรงได้ยิน และได้เห็น -> แท้จริงอัลลอฮฺเป็นผู้ทรงได้ยิน และทรงเห็น (แก้ไขการตกคำราชาศัพท์ในพระนามคุณลักษณะของอัลลอฮฺ ('และได้เห็น' -> 'และทรงเห็น'))
 4:59,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (5 space adjustments)
 4:61,V3_MICRO_TYPO,เมื่อถูกล่าว -> เมื่อถูกกล่าว (Restore missing ก in ถูกกล่าว)
 4:61:fn171,V3_FN_TYPO,"ท่านบี -> ท่านนบี (Fix ท่านบี -> ท่านนบี (4:61, 9:90, 11:40, 13:30))"
@@ -606,6 +629,7 @@
 4:63,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 4:64,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 4:65,PARTIAL_V3_CLAUSE_SPACING_PROJECTED,Projected verified v3 clause spacing across matching clauses (1 space adjustments)
+4:65,AUDIT_CRITICAL,จากสิ่งที่เจ้าได้ตัดสินใจและพวกเขายอมจำนนด้วยดี -> จากสิ่งที่เจ้าได้ตัดสินไป และพวกเขายอมจำนนด้วยดี (แก้ไขคำแปลผิดเพี้ยนจาก OCR ('ตัดสินใจ' -> 'ตัดสินไป' ให้ตรงตามความหมายของ قَضَيْتَ) พร้อมเว้นวรรคคั่นประโยคหน้าคำว่า 'และ')
 4:66,V3_MICRO_TYPO,และเป็นสี่งที่ -> และเป็นสิ่งที่ (Fix สี่ง -> สิ่ง)
 4:66,EXACT_V3_SPACING_PROJECTED,Projected verified v3 clause spacing onto 100% character-identical v4 verse
 4:69,STAGE8_REPAIR,โดยดุษฏี -> โดยดุษฎี (Fix spelling ดุษฏี -> ดุษฎี)

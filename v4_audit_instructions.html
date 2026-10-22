@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>คู่มือปฏิบัติการตรวจทานและคำสั่งซิงค์ระบบ ThaiQuran v4 (V4 Audit & Sync Guide)</title>
+    <title>คู่มือปฏิบัติการตรวจทานและคำสั่งซิงค์ระบบ Master V3 Synthesis (V3 Audit & Sync Guide)</title>
     <style>
         :root {
             --bg-primary: #0f172a;
@@ -280,26 +280,100 @@
             font-weight: 700;
             margin-right: 0.5rem;
         }
+
+        /* OS Switcher Toolbar */
+        .os-switcher {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(90deg, rgba(30, 41, 59, 0.9), rgba(24, 34, 52, 0.9));
+            border: 1px solid var(--border-color);
+            border-radius: 0.6rem;
+            padding: 0.65rem 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .os-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .os-buttons {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .os-btn {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 0.35rem 0.85rem;
+            border-radius: 0.4rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .os-btn:hover {
+            color: var(--text-main);
+            border-color: var(--accent);
+        }
+
+        .os-btn.active {
+            background-color: rgba(56, 189, 248, 0.2);
+            color: var(--accent);
+            border-color: var(--accent);
+            box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
+        }
+
+        body.os-mac .cmd-win {
+            display: none !important;
+        }
+
+        body.os-win .cmd-mac {
+            display: none !important;
+        }
     </style>
 </head>
 
-<body>
+<body class="os-mac">
     <div class="container">
         <header>
             <h1>
-                📖 ThaiQuran v4 Audit & Sync Operations Guide
-                <span class="badge badge-success">⚡ 127 Chunks Pipeline</span>
-                <span class="badge badge-purple">🛡️ Safety Guardrails 100%</span>
+                📖 Master V3 Synthesis Audit & Sync Guide
+                <span class="badge badge-success">⚡ 127 Gold Chunks</span>
+                <span class="badge badge-purple">🛡️ V3 Base + TQ Ref</span>
             </h1>
-            <p>คู่มือคำสั่งปฏิบัติการตรวจทานวรรคตอน อักขรวิธี และคำสั่งซิงค์ผลลัพธ์กระจายเข้าสู่ thai-quran-web อัตโนมัติเมื่อสิ้นสุดแต่ละ Session</p>
+            <p>คู่มือคำสั่งปฏิบัติการตรวจทานวรรคตอน อักขรวิธี และตำแหน่งเชิงอรรถ โดยใช้ V3 เป็นฐานข้อความบริสุทธิ์ และ ThaiQuran เป็นตัวเสริมข้อความและเชิงอรรถ</p>
         </header>
+
+        <!-- OS Switcher Toolbar -->
+        <div class="os-switcher">
+            <div class="os-title">
+                <span>🖥️ โครงสร้างระบบปฏิบัติการที่กำลังใช้งาน (Active OS):</span>
+            </div>
+            <div class="os-buttons">
+                <button class="os-btn active" id="btn-os-mac" onclick="setOS('mac')">🍎 macOS / Linux (zsh / Terminal)</button>
+                <button class="os-btn" id="btn-os-win" onclick="setOS('win')">🪟 Windows (PowerShell)</button>
+            </div>
+        </div>
 
         <!-- Tab Navigation -->
         <div class="tab-nav">
             <button class="tab-btn active" onclick="switchTab('cheatsheet')">⚡ สรุปคำสั่งด่วน (Cheat Sheet)</button>
-            <button class="tab-btn" onclick="switchTab('workflow')">🔄 ขั้นตอนการตรวจทาน (Daily Audit Loop)</button>
-            <button class="tab-btn" onclick="switchTab('finish')">🏁 คำสั่งจบ Session & ซิงค์เข้า Web</button>
-            <button class="tab-btn" onclick="switchTab('rules')">🛡️ กฎเหล็กและข้อควรระวัง (Rule Zero)</button>
+            <button class="tab-btn" onclick="switchTab('workflow')">🔄 ขั้นตอนการตรวจทาน (Audit Loop)</button>
+            <button class="tab-btn" onclick="switchTab('rules')">🛡️ กฎเหล็ก 3 ข้อ (Paramount Rules)</button>
+            <button class="tab-btn" onclick="switchTab('finish')">🏁 จบ Session & ซิงค์เข้า Web</button>
         </div>
 
         <!-- TAB 1: CHEAT SHEET -->
@@ -309,46 +383,59 @@
                 <table>
                     <thead>
                         <tr>
-                            <th style="width: 32%;">การปฏิบัติงาน</th>
-                            <th style="width: 48%;">คำสั่ง PowerShell / Terminal</th>
-                            <th style="width: 20%;">ฟังก์ชันการทำงาน</th>
+                            <th style="width: 28%;">การปฏิบัติงาน</th>
+                            <th style="width: 50%;">คำสั่ง Terminal (macOS: python3 / Windows: python)</th>
+                            <th style="width: 22%;">ฟังก์ชันการทำงาน</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td><strong>1. ตรวจสอบความคืบหน้า (Dashboard)</strong></td>
-                            <td><code>python scripts/v4_tracker.py</code></td>
-                            <td>ดู % ความคืบหน้า และไฟล์ที่ต้องตรวจถัดไป</td>
+                            <td><strong>1. ตรวจสอบความคืบหน้า (Tracker Status)</strong></td>
+                            <td>
+                                <code class="cmd-mac">python3 scripts/v3_tracker.py status</code>
+                                <code class="cmd-win">python scripts/v3_tracker.py status</code>
+                            </td>
+                            <td>แสดงตารางความคืบหน้า 127 Chunks ทั่วทั้ง 30 ญุซ</td>
                         </tr>
                         <tr>
-                            <td><strong>2. ตรวจสอบสถานะเฉพาะญุซ (เช่น ญุซ 1)</strong></td>
-                            <td><code>python scripts/v4_tracker.py --juz 1</code></td>
-                            <td>แสดงตาราง Chunks ในญุซที่เลือก</td>
+                            <td><strong>2. ส่งออก Subchunks (กรณีต้องการสร้างใหม่)</strong></td>
+                            <td>
+                                <code class="cmd-mac">python3 scripts/export_v3_audit_chunk.py --juz 1 --subchunks</code>
+                                <code class="cmd-win">python scripts/export_v3_audit_chunk.py --juz 1 --subchunks</code>
+                            </td>
+                            <td>ส่งออกไฟล์ Subchunks พร้อมคำสั่ง Prompt ในตัว</td>
                         </tr>
                         <tr>
                             <td><strong>3. ปรับใช้ผลแก้ไขจาก Clipboard</strong><br /><small style="color:var(--text-muted);">(หลัง Copy ผลจาก Gemini Chat)</small></td>
-                            <td><code>python scripts/apply_v4_fixes.py</code></td>
-                            <td>เช็ก Safety Gates, บันทึก Fixes, อัปเดต TSV Tracker ทันที</td>
+                            <td>
+                                <code class="cmd-mac">python3 scripts/apply_v3_fixes.py</code>
+                                <code class="cmd-win">python scripts/apply_v3_fixes.py</code>
+                            </td>
+                            <td>ตรวจ Safety Gates, แก้ไข 01_v3_base_master.json, บันทึก Log, และ Re-export อัตโนมัติ</td>
                         </tr>
                         <tr>
                             <td><strong>4. ทดสอบความปลอดภัยก่อน (Dry-Run)</strong></td>
-                            <td><code>python scripts/apply_v4_fixes.py --dry-run</code></td>
-                            <td>ตรวจสอบความถูกต้องโดยยังไม่แก้ไฟล์จริง</td>
+                            <td>
+                                <code class="cmd-mac">python3 scripts/apply_v3_fixes.py --dry-run</code>
+                                <code class="cmd-win">python scripts/apply_v3_fixes.py --dry-run</code>
+                            </td>
+                            <td>ตรวจสอบความถูกต้องโดยยังไม่บันทึกไฟล์จริง</td>
                         </tr>
                         <tr>
-                            <td><strong>5. บันทึก Chunk ที่ "ถูกต้อง 100% ไม่พบจุดผิด"</strong></td>
-                            <td><code>python scripts/v4_tracker.py --mark 1 1 DONE "สำนวนสมบูรณ์"</code></td>
-                            <td>เปลี่ยนสถานะ Chunk เป็น DONE เมื่อไม่มีจุดแก้</td>
-                        </tr>
-                        <tr>
-                            <td><strong>6. พรีวิวซิงค์เข้าเว็บก่อน (Dry-Run)</strong></td>
-                            <td><code>python scripts/sync_v4_to_all.py --dry-run</code></td>
-                            <td>ดูจำนวนอายะฮฺและจุดต่างที่จะอัปเดตเข้าเว็บ</td>
+                            <td><strong>5. บันทึก Chunk ที่เสร็จสมบูรณ์</strong></td>
+                            <td>
+                                <code class="cmd-mac">python3 scripts/v3_tracker.py mark 1 DONE</code>
+                                <code class="cmd-win">python scripts/v3_tracker.py mark 1 DONE</code>
+                            </td>
+                            <td>เปลี่ยนสถานะ Chunk เป็น DONE ใน Tracker TSV</td>
                         </tr>
                         <tr style="background: rgba(52, 211, 153, 0.05);">
-                            <td><strong style="color:var(--success);">7. จบ Session: ซิงค์เข้า Web + App + Git Push ทั้งหมด</strong></td>
-                            <td><code>python scripts/sync_v4_to_all.py --push "Audit Juz 1 Chunk 1 done"</code></td>
-                            <td>แพ็กเกจ Master Deliverables, ซิงค์เข้า thai-quran-web, ซิงค์เข้า thai-quran-app (JSON + SQLite DB), และ Push ทุก Repo</td>
+                            <td><strong style="color:var(--success);">6. จบ Session: Git Commit & Push</strong></td>
+                            <td>
+                                <code class="cmd-mac">git add . && git commit -m "Audit Juz 1 Part 1 verified" && git push</code>
+                                <code class="cmd-win">git add . ; git commit -m "Audit Juz 1 Part 1 verified" ; git push</code>
+                            </td>
+                            <td>บันทึกผลงานการ Audit ขึ้นสู่ GitHub Origin</td>
                         </tr>
                     </tbody>
                 </table>
@@ -360,138 +447,176 @@
             <div class="card">
                 <h2>🔄 วงรอบการตรวจทานประจำวัน (Step-by-Step Audit Workflow)</h2>
 
-                <h3><span class="step-number">1</span>เริ่ม Session: เช็กความคืบหน้าและเปิดไฟล์ถัดไป</h3>
-                <p>เปิด PowerShell ในโฟลเดอร์ <code>H:\gits\thai_quran_translation_v4</code> แล้วรันคำสั่งเช็กสถานะ:</p>
-                <div class="command-block">
-                    <div class="command-header">
-                        <span>PowerShell</span>
-                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                <h3><span class="step-number">1</span>เริ่ม Session: เช็กความคืบหน้า</h3>
+                
+                <div class="cmd-mac">
+                    <p>เปิด <strong>Terminal (zsh)</strong> ในโฟลเดอร์โครงการ แล้วรันคำสั่งเช็กสถานะ:</p>
+                    <div class="command-block">
+                        <div class="command-header">
+                            <span>🍎 Terminal (macOS / zsh)</span>
+                            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        </div>
+                        <pre>cd ~/Documents/gits/thai_quran_translation_v4
+python3 scripts/v3_tracker.py status</pre>
                     </div>
-                    <pre>python scripts/v4_tracker.py</pre>
                 </div>
-                <p>ระบบจะบอกว่าไฟล์ถัดไปที่ต้องตรวจคือไฟล์ใด เช่น <code>audit_chunks/subchunks/juz_01_part1_1_1_to_2_43.txt</code></p>
 
-                <h3><span class="step-number">2</span>ส่งให้ Gemini Chat ตรวจทาน</h3>
+                <div class="cmd-win">
+                    <p>เปิด <strong>PowerShell</strong> ในโฟลเดอร์โครงการ แล้วรันคำสั่งเช็กสถานะ:</p>
+                    <div class="command-block">
+                        <div class="command-header">
+                            <span>🪟 PowerShell (Windows)</span>
+                            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                        </div>
+                        <pre>cd H:\gits\thai_quran_translation_v4
+python scripts/v3_tracker.py status</pre>
+                    </div>
+                </div>
+
+                <h3><span class="step-number">2</span>เปิดไฟล์ Subchunk และส่งเข้า Gemini Chat</h3>
                 <ol>
-                    <li>เปิดหน้าต่าง Gemini Chat แล้วแนบไฟล์คู่มือ <code>rules/V4_STANDARDIZED_RULES.md</code> (แนบครั้งเดียวใน Session)</li>
-                    <li>แนบหรือวางเนื้อหาของ Subchunk ที่ต้องการตรวจ (เช่น <code>juz_01_part1_1_1_to_2_43.txt</code>)</li>
-                    <li>พิมพ์ข้อความสั่ง: <em>"โปรดตรวจทานชิ้นข้อมูลนี้ตามคู่มือที่แนบ และส่งคืนผลลัพธ์เฉพาะรายการแก้ไข"</em></li>
+                    <li>เปิดไฟล์ Subchunk จากโฟลเดอร์ <code>audit_chunks/subchunks/</code> (เช่น <code>juz_01_part1_1_1_to_2_43.txt</code>)</li>
+                    <li>ก๊อบปี้เนื้อหาทั้งหมดในไฟล์ไปวางใน Gemini Chat</li>
+                    <li><em>หมายเหตุ: ในหัวไฟล์มีคำสั่ง Master Audit Prompt บรรจุอยู่เรียบร้อยแล้ว ไม่ต้องพิมพ์คำสั่งเพิ่ม!</em></li>
                 </ol>
 
                 <h3><span class="step-number">3</span>นำผลลัพธ์มาบันทึกเข้าระบบ</h3>
-                <p>เมื่อ Gemini Chat ตอบกลับมา ให้ <strong>Copy ข้อความผลลัพธ์ไว้ใน Clipboard</strong> แล้วสั่งรัน:</p>
-                <div class="command-block">
+                <p class="cmd-mac">เมื่อ Gemini ตอบกลับมา ให้ <strong>Copy ข้อความ JSON ไว้ใน Clipboard (กด ⌘ Cmd + C)</strong> แล้วสั่งรันใน Terminal:</p>
+                <p class="cmd-win">เมื่อ Gemini ตอบกลับมา ให้ <strong>Copy ข้อความ JSON ไว้ใน Clipboard (กด Ctrl + C)</strong> แล้วสั่งรันใน PowerShell:</p>
+                
+                <div class="command-block cmd-mac">
                     <div class="command-header">
-                        <span>PowerShell</span>
+                        <span>🍎 Terminal (macOS / zsh)</span>
                         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
                     </div>
-                    <pre>python scripts/apply_v4_fixes.py</pre>
+                    <pre>python3 scripts/apply_v3_fixes.py</pre>
+                </div>
+                
+                <div class="command-block cmd-win">
+                    <div class="command-header">
+                        <span>🪟 PowerShell (Windows)</span>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    </div>
+                    <pre>python scripts/apply_v3_fixes.py</pre>
                 </div>
 
                 <div class="callout success">
-                    <strong>🛡️ สิ่งที่ระบบทำให้อัตโนมัติในขั้นตอนนี้:</strong><br />
-                    1. ตรวจสอบว่าคำค้นหา (target) ตรงกับข้อความจริง 100% หรือไม่<br />
-                    2. ดักจับและปฏิเสธหากคำค้นหากำกวม (ปรากฏซ้ำมากกว่า 1 จุดในอายะฮฺเดียวกัน)<br />
-                    3. ตรวจสอบว่าไม่มีการตัดเชิงอรรถ [FN:X] ตกหล่น<br />
-                    4. บันทึกผลลงในฐานข้อมูลประวัติถาวร <code>data/v4_manual_audit_fixes.json</code><br />
-                    5. อัปเดตตารางติดตาม <code>v4_audit_tracker.tsv</code> (ปรับสถานะเป็น DONE และบันทึกสรุปจุดแก้)<br />
-                    6. Re-export ไฟล์ Chunk นั้นใหม่ทันที
+                    <strong>🛡️ กลไกความปลอดภัยอัตโนมัติ:</strong><br />
+                    1. <strong>Direct Clipboard Parsing:</strong> บน macOS ดึงผ่าน <code>pbpaste</code> / บน Windows ดึงผ่าน <code>PowerShell Get-Clipboard</code> อัตโนมัติ<br />
+                    2. <strong>Exact Substring Matching:</strong> ตรวจสอบว่า target ตรงกับข้อความจริงใน V3 100%<br />
+                    3. <strong>Context Lock:</strong> ปฏิเสธทันทีหาก target มีคำซ้ำหลายจุดในอายะฮฺเดียวกัน เพื่อความปลอดภัย<br />
+                    4. <strong>Balanced Parentheses:</strong> วงเล็บเปิดและปิดต้องเท่ากัน<br />
+                    5. <strong>Clean Handling:</strong> หากตอบกลับ <code>[]</code> (ไม่มีจุดแก้) สคริปต์จะรายงานว่า Chunk สมบูรณ์สะอาด 100%
                 </div>
 
-                <h3><span class="step-number">4</span>กรณีอายะฮฺถูกต้องดีแล้ว (0 จุดแก้)</h3>
-                <p>หาก Gemini ยืนยันว่าไม่มีจุดผิด ให้สั่ง Mark ว่าตรวจเสร็จแล้วด้วยคำสั่ง:</p>
-                <div class="command-block">
+                <h3><span class="step-number">4</span>ทำเครื่องหมาย Chunk ว่า DONE</h3>
+                <div class="command-block cmd-mac">
                     <div class="command-header">
-                        <span>PowerShell</span>
+                        <span>🍎 Terminal (macOS / zsh)</span>
                         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
                     </div>
-                    <pre>python scripts/v4_tracker.py --mark 1 1 DONE "ตรวจทานแล้ว สำนวนสมบูรณ์ ไม่พบจุดผิด"</pre>
+                    <pre>python3 scripts/v3_tracker.py mark 1 DONE</pre>
+                </div>
+
+                <div class="command-block cmd-win">
+                    <div class="command-header">
+                        <span>🪟 PowerShell (Windows)</span>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    </div>
+                    <pre>python scripts/v3_tracker.py mark 1 DONE</pre>
                 </div>
             </div>
         </div>
 
-        <!-- TAB 3: FINISH SESSION -->
-        <div id="finish" class="tab-pane">
-            <div class="card">
-                <h2>🏁 ขั้นตอนการจบ Session และซิงค์ผลลัพธ์เข้า thai-quran-web และ thai-quran-app</h2>
-                <p>เมื่อคุณตรวจเสร็จสิ้น 1 Chunk, 1 ญุซ หรือต้องการหยุดพักงานประจำวัน ให้ใช้คำสั่ง <strong>Sync & Push แบบคำสั่งเดียว</strong> เพื่อกระจายผลลัพธ์ทั้งหมดเข้าสู่ทั้งเว็บแอป, โมบายแอป และ Git Remote อย่างปลอดภัย:</p>
-
-                <div class="command-block">
-                    <div class="command-header">
-                        <span>PowerShell (คำสั่งหลักเมื่อเลิกงานหรือจบ Session)</span>
-                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-                    </div>
-                    <pre>python scripts/sync_v4_to_all.py --push "Audit Juz 1 Part 1 completed: applied verified spacing fixes"</pre>
-                </div>
-
-                <h3>⚙️ ลำดับการทำงานอัตโนมัติภายในคำสั่งนี้:</h3>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>ขั้นตอน</th>
-                            <th>รายละเอียดการประมวลผล</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>1. Rebuild Master Deliverables</strong></td>
-                            <td>รัน Phase 6, 5 และ 7 เพื่อคำนวณและแพ็กเกจไฟล์ Master Deliverables ล่าสุด (รวมถึง 01_thai_quran_translation_v4_master.json)</td>
-                        </tr>
-                        <tr>
-                            <td><strong>2. Sync เข้า thai-quran-web</strong></td>
-                            <td>กระจายข้อความคำแปลและเชิงอรรถที่ผ่านการ Audit ล่าสุด เข้าสู่ <code>thai-quran-web/src/data/thai_v3.json</code> และ <code>thai_footnotes.json</code> โดยตรง</td>
-                        </tr>
-                        <tr>
-                            <td><strong>3. Sync เข้า thai-quran-app</strong></td>
-                            <td>อัปเดตไฟล์ JSON <code>assets/thai_v3.json</code>, อัปเดตฐานข้อมูล SQLite <code>assets/quran_offline.db</code> (ตาราง verses คอลัมน์ translation_th), และซิงค์ <code>assets/footnotes/thai_footnotes.json</code></td>
-                        </tr>
-                        <tr>
-                            <td><strong>4. Git Pull ป้องกันชน</strong></td>
-                            <td>ตรวจสอบและดึง Git ล่าสุดจาก GitHub ของทุก Repo (V4, Web, App) ก่อนเสมอ</td>
-                        </tr>
-                        <tr>
-                            <td><strong>5. Git Commit & Push อัตโนมัติ</strong></td>
-                            <td>สั่ง Commit และ Push การเปลี่ยนแปลงทั้งหมดของทั้ง 3 Repositories (<code>thai_quran_translation_v4</code>, <code>thai-quran-web</code>, <code>thai-quran-app</code>) ขึ้นสู่ GitHub Origin</td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <div class="callout warning">
-                    <strong>💡 ต้องการตรวจสอบก่อนซิงค์จริง?</strong><br />
-                    คุณสามารถเติมแฟล็ก <code>--dry-run</code> เพื่อดูพรีวิวก่อนได้ว่ามีอายะฮฺและเชิงอรรถกี่จุดที่จะถูกอัปเดตเข้าสู่เว็บ โดยยังไม่มีการแก้ไขไฟล์จริง:
-                    <div class="command-block" style="margin-top:0.5rem;">
-                        <pre>python scripts/sync_v4_to_all.py --dry-run</pre>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- TAB 4: RULES & SAFETY -->
+        <!-- TAB 3: RULES & SAFETY -->
         <div id="rules" class="tab-pane">
             <div class="card">
-                <h2>🛡️ กฎเหล็กและข้อควรระวังสำคัญ (Rule Zero & Guardrails)</h2>
+                <h2>🛡️ กฎเหล็ก 3 ข้อสำคัญ (Three Paramount Audit Rules)</h2>
 
                 <div class="callout warning">
-                    <strong>คำเตือนสูงสุด (Rule Zero: ห้าม Overkill / ห้ามรื้อสำนวนโดยไม่จำเป็น):</strong><br />
-                    อัลกุรอานแปลไทยฉบับสมาคมนักเรียนเก่าอาหรับฯ (King Fahad Complex) เป็นมรดกทางวิชาการศาสนาที่ผ่านการตรวจทานทางชะรีอะฮฺมาแล้วอย่างยาวนาน <strong>ห้ามแก้ไขเพียงเพราะความชอบส่วนตัว หรือต้องการเปลี่ยนคำไวพจน์</strong> หากสำนวนเดิมถูกต้องตามหลักภาษาและสื่อความหมายได้สมบูรณ์แล้ว ให้คงเดิมไว้เสมอ
+                    <strong>1. กฎข้อศูนย์ (Rule Zero - No Overkill):</strong><br />
+                    อัลกุรอานแปลไทยฉบับสมาคมนักเรียนเก่าอาหรับฯ (King Fahd Complex) เป็นมรดกทางวิชาการศาสนาที่ผ่านการกลั่นกรองทางชะรีอะฮฺมาอย่างยาวนาน <strong>ห้ามแก้ไขเพียงเพราะความชอบส่วนตัว หรือต้องการเปลี่ยนคำไวพจน์ (Synonyms)</strong> หากสำนวนเดิมถูกต้องตามหลักภาษาและสื่อความหมายตรงกับตัวบทภาษาอาหรับแล้ว ให้คงเดิมไว้เสมอ
                 </div>
 
-                <h3>4 เสาหลักของการตรวจทาน V4:</h3>
-                <ul>
-                    <li><strong>1. การเว้นวรรคตอน (Spacing & Cadence):</strong> ปลดคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue) เช่น <code>อัลลอฮฺพระผู้อภิบาล</code> $\rightarrow$ <code>อัลลอฮฺ พระผู้อภิบาล</code> และเว้นวรรคช่วงประโยคให้อ่านสบายตา</li>
-                    <li><strong>2. สถาปัตยกรรมวรรคตอน:</strong> ไม้ยมก (ๆ) ต้องเคาะหน้า-หลัง, วงเล็บ (...) ต้องเคาะนอก ไม่เคาะใน, เชิงอรรถ [FN:X] ต้องชิดกับคำและห้ามทำหล่นเด็ดขาด</li>
-                    <li><strong>3. ตารางอักขรวิธีพินทุ (ฺ):</strong> อัลลอฮฺ, รอซูล, นบี, มลาอิกะฮฺ, อัลกุรอาน, กาฟิรฺ ฯลฯ และคำไทยตามราชบัณฑิตฯ (เช่น อินทผาลัม ให้คงมีสระอาไว้ตามขนบอัลกุรอาน)</li>
-                    <li><strong>4. หลักเตาฮีดและความบริสุทธิ์ของสรรพนาม:</strong> Majestic We ใช้ "เรา" (ห้ามใช้ "พวกเรา"), บทดุอาอ์บ่าวใช้ "โอ้พระผู้อภิบาลของพวกเรา", ปลดราชาศัพท์ออกจากกาเฟรและรูปปั้น, ดักจับบั๊ก "ที่ทำการ" บนคำว่า ณ พระองค์</li>
-                </ul>
+                <div class="callout success">
+                    <strong>2. การลดการเว้นวรรคฟุ่มเฟือย (De-Overkill Spacing):</strong><br />
+                    ภาษาไทยเขียนคำต่อเนื่องกันโดยธรรมชาติ <strong>ห้ามเคาะวรรคย่อยสะเปะสะปะหรือตัดคำประสมให้ขาดออกจากกัน</strong> (เช่น <code>การ ลงโทษ</code> $\rightarrow$ <code>การลงโทษ</code>, <code>ประชา ชน</code> $\rightarrow$ <code>ประชาชน</code>) คงการเคาะวรรคไว้เฉพาะช่วงจังหวะพักหายใจในการอ่าน (Cadence), รอยต่อประโยค (Clause Boundaries), หรือหน้าบทสนทนา (“...”) เท่านั้น
+                </div>
 
-                <h3>⚠️ กฎล็อกตำแหน่งคำ (Context Anchor Rule):</h3>
-                <p>หากคำที่ต้องการแก้มีคำซ้ำกันในอายะฮฺเดียวกัน <strong>ห้ามระบุคำเดี่ยว ๆ โดด ๆ</strong> ให้ใส่คำแวดล้อมข้างหน้าหรือข้างหลังมาด้วย 1–2 คำ เพื่อให้จุดนั้นเป็นเอกลักษณ์เพียงจุดเดียวในอายะฮฺ มิฉะนั้นระบบจะปฏิเสธการแก้ไขทันทีเพื่อความปลอดภัย</p>
+                <div class="callout">
+                    <strong>3. การตรวจสอบตำแหน่งเชิงอรรถ (Footnote Placement Check):</strong><br />
+                    เครื่องหมายเชิงอรรถ <code>[FN:X]</code> ต้องอยู่ <strong>ท้ายสุดของคำศัพท์ วลี หรือประโยคที่ต้องการอธิบายเสมอ</strong><br />
+                    ❌ ไม่วางคั่นกลางคำหรือกลางชื่อ เช่น <code>อะลิฟ[1] ลาม มีม</code><br />
+                    ✅ ต้องวางชิดติดท้ายวลีที่อธิบาย เช่น <code>อะลิฟ ลาม มีม[FN:1]</code>
+                </div>
+
+                <h3>🏛️ สถาปัตยกรรม 3 ระดับแห่งความจริง:</h3>
+                <ul>
+                    <li><strong>1. ภาษาอาหรับอุษมานีย์ (AR):</strong> คือแหล่งความจริงสูงสุด โดยมี <code>EN1</code> Saheeh International และ <code>EN2</code> Hilali-Khan เป็นสมอยึดความหมาย</li>
+                    <li><strong>2. Master V3 (BASE):</strong> เป็นข้อความฐานหลัก เพราะสะอาดและปราศจากบั๊ก OCR เดิมของฉบับพิมพ์ยุคแรก</li>
+                    <li><strong>3. ThaiQuran (REF / Fixer):</strong> นำมาใช้เสริมคำที่ตกหล่นของ V3 และผสานเชิงอรรถ 7,338 รายการ (ห้ามนำคำสะกดผิดของฉบับเก่ามาทับคำที่ถูกต้องของ V3)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- TAB 4: FINISH SESSION -->
+        <div id="finish" class="tab-pane">
+            <div class="card">
+                <h2>🏁 ขั้นตอนการจบ Session</h2>
+                <p>เมื่อตรวจเสร็จสิ้นในแต่ละรอบ ให้สั่ง Commit และ Push ขึ้นสู่ Git Remote:</p>
+
+                <div class="command-block cmd-mac">
+                    <div class="command-header">
+                        <span>🍎 Terminal (macOS / zsh)</span>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    </div>
+                    <pre>cd ~/Documents/gits/thai_quran_translation_v4
+git add .
+git commit -m "Audit: verified subchunk progress in Juz"
+git push origin v3_synthesis_audit</pre>
+                </div>
+
+                <div class="command-block cmd-win">
+                    <div class="command-header">
+                        <span>🪟 PowerShell (Windows)</span>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    </div>
+                    <pre>cd H:\gits\thai_quran_translation_v4
+git add .
+git commit -m "Audit: verified subchunk progress in Juz"
+git push origin v3_synthesis_audit</pre>
+                </div>
             </div>
         </div>
 
     </div>
 
     <script>
+        function setOS(os) {
+            document.body.classList.remove('os-mac', 'os-win');
+            document.body.classList.add('os-' + os);
+            document.querySelectorAll('.os-btn').forEach(b => b.classList.remove('active'));
+            const activeBtn = document.getElementById('btn-os-' + os);
+            if (activeBtn) activeBtn.classList.add('active');
+            try {
+                localStorage.setItem('thaiquran_preferred_os', os);
+            } catch (e) {}
+        }
+
+        // Auto-detect OS on page load
+        (function initOS() {
+            let saved = null;
+            try {
+                saved = localStorage.getItem('thaiquran_preferred_os');
+            } catch (e) {}
+            if (saved === 'mac' || saved === 'win') {
+                setOS(saved);
+                return;
+            }
+            const isMac = /Mac|iPhone|iPad|iPod/i.test(navigator.userAgent) || /Mac/i.test(navigator.platform);
+            setOS(isMac ? 'mac' : 'win');
+        })();
+
         function switchTab(tabId) {
             document.querySelectorAll('.tab-pane').forEach(el => el.classList.remove('active'));
             document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
@@ -507,19 +632,43 @@
 
         function copyCode(btn) {
             const pre = btn.closest('.command-block').querySelector('pre');
-            if (pre) {
-                navigator.clipboard.writeText(pre.innerText.trim()).then(() => {
-                    const originalText = btn.innerText;
-                    btn.innerText = 'Copied! ✓';
-                    btn.style.backgroundColor = 'var(--success)';
-                    btn.style.color = '#0f172a';
-                    setTimeout(() => {
-                        btn.innerText = originalText;
-                        btn.style.backgroundColor = '';
-                        btn.style.color = '';
-                    }, 2000);
-                });
+            if (!pre) return;
+            const text = pre.innerText.trim();
+
+            const onSuccess = () => {
+                const originalText = btn.innerText;
+                btn.innerText = 'Copied! ✓';
+                btn.style.backgroundColor = 'var(--success)';
+                btn.style.color = '#0f172a';
+                setTimeout(() => {
+                    btn.innerText = originalText;
+                    btn.style.backgroundColor = '';
+                    btn.style.color = '';
+                }, 2000);
+            };
+
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(text).then(onSuccess).catch(() => fallbackCopy(text, onSuccess));
+            } else {
+                fallbackCopy(text, onSuccess);
             }
+        }
+
+        function fallbackCopy(text, callback) {
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            ta.style.position = 'fixed';
+            ta.style.opacity = '0';
+            document.body.appendChild(ta);
+            ta.focus();
+            ta.select();
+            try {
+                document.execCommand('copy');
+                callback();
+            } catch (e) {
+                alert('โปรดกดคัดลอกด้วยตนเอง (⌘+C หรือ Ctrl+C)');
+            }
+            document.body.removeChild(ta);
         }
     </script>
 </body>
