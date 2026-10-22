@@ -217,9 +217,16 @@ def main():
         rec = v4_map[ak]
         t_tok = rec["translation_tokenized"]
 
-        # Check exact target match
-        if target_norm not in t_tok:
+        # Check exact target match & Uniqueness
+        target_occurrences = t_tok.count(target_norm)
+        if target_occurrences == 0:
             errors.append(f"Fix #{idx} ({ak}): Target substring '{target_norm}' not found in current verse text:\n    Actual: '{t_tok}'")
+            continue
+        elif target_occurrences > 1:
+            errors.append(
+                f"Fix #{idx} ({ak}): Target substring '{target_norm}' is AMBIGUOUS (appears {target_occurrences} times in this verse)!\n"
+                f"    Please include 1-2 adjacent context words in 'target' and 'replacement' to anchor it uniquely."
+            )
             continue
 
         # Check simulated text
