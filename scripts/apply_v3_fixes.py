@@ -202,17 +202,41 @@ def main():
     else:
         print("Reading fixes from clipboard...")
         raw_input = get_clipboard_text()
-        if not raw_input.strip():
-            print("Clipboard is empty. Copy the JSON fixes block from Gemini and run this script again.")
-            print("Or use: python scripts/apply_v3_fixes.py --file <path_to_json>")
-            sys.exit(1)
-        print(f"Loaded {len(raw_input)} characters from clipboard.")
+        if raw_input:
+            print(f"Loaded {len(raw_input)} characters from clipboard.")
+            is_valid, proposed_fixes = extract_fixes_from_text(raw_input)
+        else:
+            is_valid, proposed_fixes = False, []
 
-    is_valid, proposed_fixes = extract_fixes_from_text(raw_input)
+        # Fallback to local fixes.json or data/proposed_fixes.json if clipboard didn't provide valid fixes
+        if not is_valid:
+            fallback_candidates = [
+                REPO_ROOT / "fixes.json",
+                REPO_ROOT / "data" / "proposed_fixes.json",
+                Path("fixes.json")
+            ]
+            for candidate in fallback_candidates:
+                if candidate.exists() and candidate.stat().st_size > 0:
+                    try:
+                        with open(candidate, "r", encoding="utf-8") as f:
+                            cand_text = f.read()
+                        c_valid, c_fixes = extract_fixes_from_text(cand_text)
+                        if c_valid:
+                            print(f"[INFO] Successfully loaded {len(c_fixes)} fixes from fallback file: {candidate.name}")
+                            raw_input = cand_text
+                            is_valid, proposed_fixes = c_valid, c_fixes
+                            break
+                    except Exception:
+                        pass
+
     if not is_valid:
-        print("Failed to find valid fixes in the provided input.")
+        print("\nFailed to find valid fixes in the clipboard or fallback files (fixes.json).")
         print("Expected format: [{\"ayah\": \"S:A\", \"type\": \"...\", \"target\": \"...\", \"replacement\": \"...\", \"reason\": \"...\"}]")
         print("Or if all verses in chunk are verified clean: []")
+        print("\nHow to supply fixes:")
+        print("  1. Copy JSON to clipboard (Cmd+C) and run: python3 scripts/apply_v3_fixes.py")
+        print("  2. Save fixes to 'fixes.json' and run:     python3 scripts/apply_v3_fixes.py")
+        print("  3. Pass file directly:                   python3 scripts/apply_v3_fixes.py -f path/to/fixes.json")
         sys.exit(1)
 
     if not proposed_fixes:

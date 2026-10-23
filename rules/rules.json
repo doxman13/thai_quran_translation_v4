@@ -9,7 +9,7 @@
   "guidelines": {
     "rule_zero": "DO NOT OVERKILL. Do not rewrite natural, accurate Thai sentences. Preserve King Fahd phrasing unless there is an Arabic omission, factual defect, or genuine typo.",
     "de_overkill_spacing": "Thai is written continuously without spaces between words. Remove unnecessary, unnatural, or chopped-up spaces. Keep spaces ONLY for natural breath pauses, dialogue breaks, list items, or clause boundaries. Never space inside compound words.",
-    "footnote_placement": "Verify that [FN:N] markers sit at the END of the concept or phrase they explain (e.g. after the full term 'อะลิฟ ลาม มีม[FN:1]', not mid-word or awkwardly placed).",
+    "footnote_placement": "Verify that [FN:N] markers sit at the END of the concept or phrase they explain (e.g. after the full term 'อะลิฟ ลาม มีม[FN:1]', not mid-word). No space before [FN:N]. Do NOT mechanically add a space after [FN:N] if the sentence continues naturally in Thai; keep spaces after [FN:N] ONLY for natural clause/sentence boundaries.",
     "spelling": "Follow Royal Institute Thai dictionary and standard Islamic transliteration with Phinthu (ฺ)."
   },
   "canonical_terms": {
