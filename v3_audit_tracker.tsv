@@ -1,7 +1,7 @@
 chunk_id	juz	chunk_in_juz	range	verses	filename	status	fix_count	fixes_summary	updated_at
 1	1	1	1:1-2:43	45	juz_01_part1_1_1_to_2_43.txt	DONE	0		2026-10-23 10:49 UTC
 2	1	2	2:44-2:91	48	juz_01_part2_2_44_to_2_91.txt	DONE	0		2026-10-23 10:59 UTC
-3	1	3	2:92-2:141	50	juz_01_part3_2_92_to_2_141.txt	PENDING	0		
+3	1	3	2:92-2:141	50	juz_01_part3_2_92_to_2_141.txt	DONE	0		2026-10-23 11:50 UTC
 4	2	1	2:142-2:176	35	juz_02_part1_2_142_to_2_176.txt	PENDING	0		
 5	2	2	2:177-2:218	42	juz_02_part2_2_177_to_2_218.txt	PENDING	0		
 6	2	3	2:219-2:252	34	juz_02_part3_2_219_to_2_252.txt	PENDING	0		
