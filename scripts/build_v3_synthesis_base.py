@@ -357,6 +357,79 @@ def main():
             "replacement": "และโปรดทรงให้มั่นคงซึ่งเท้าของพวกข้าพระองค์",
             "reason": "Correct pronoun in prayer to plural 'ของพวกข้าพระองค์' for أَقۡدَامَنَا."
         },
+        # --- Chunk 7 Verified Fixes ---
+        {
+            "ayah": "2:253",
+            "target": "แก่อีซาบุตรของมัรยัม[FN:3]",
+            "replacement": "แก่อีซา บุตรของมัรฺยัม[FN:3]",
+            "reason": "Standardize transliteration 'มัรฺยัม' with phinthu and add space before 'บุตรของ'."
+        },
+        {
+            "ayah": "2:256",
+            "target": "ปฏิเสธศรัทธาต่ออัฎฎอฆูต[FN:3]",
+            "replacement": "ปฏิเสธศรัทธาต่ออัฏฏอฆูต[FN:3]",
+            "reason": "Standardize transliteration 'อัฏฏอฆูต' with ฏ-ปฏัก for ط."
+        },
+        {
+            "ayah": "2:257",
+            "target": "ก็คืออัฎฎอฆูต[FN:2]",
+            "replacement": "ก็คืออัฏฏอฆูต[FN:2]",
+            "reason": "Standardize transliteration 'อัฏฏอฆูต' with ฏ-ปฏัก for ط."
+        },
+        {
+            "ayah": "2:260",
+            "target": "และจงรำลึกถึงขณะที่ที่อิบรอฮีมกล่าวว่า",
+            "replacement": "และจงรำลึกถึงขณะที่อิบรอฮีมกล่าวว่า",
+            "reason": "Remove duplicated OCR word 'ที่'."
+        },
+        {
+            "ayah": "2:260",
+            "target": "เจ้ามิได้เชื่อ ดอกหรือ",
+            "replacement": "เจ้ามิได้เชื่อดอกหรือ",
+            "reason": "De-Overkill Spacing."
+        },
+        {
+            "ayah": "2:265",
+            "target": "ก็มีฝนปรอย[FN:3] ๆ และอัลลอฮฺนั้น",
+            "replacement": "ก็มีฝนปรอย ๆ[FN:3] และอัลลอฮฺนั้น",
+            "reason": "Move footnote tag after maiyamok 'ๆ'."
+        },
+        {
+            "ayah": "2:267",
+            "target": "จากบรรดาสิ่งดี[FN:1] ๆ ของสิ่งที่พวกเจ้าได้แสวงหาไว้",
+            "replacement": "จากบรรดาสิ่งดี ๆ[FN:1] ของสิ่งที่พวกเจ้าได้แสวงหาไว้",
+            "reason": "Move footnote tag after maiyamok 'ๆ'."
+        },
+        {
+            "ayah": "2:268",
+            "target": "และอัลลอฮฺนั้น ทรงสัญญา",
+            "replacement": "และอัลลอฮฺนั้นทรงสัญญา",
+            "reason": "De-Overkill Spacing."
+        },
+        {
+            "ayah": "2:275",
+            "target": "ชัยฏอนทำร้ายเขา ทรงตัว[FN:2]",
+            "replacement": "ชัยฏอนทำร้ายเขาทรงตัว[FN:2]",
+            "reason": "De-Overkill Spacing (remove OCR chopped space)."
+        },
+        {
+            "ayah": "2:284",
+            "target": "แล้วพระองค์จะทรงอภัยโทษแก่ผู้ที่พระองค์ทรงประสงค์[FN:1] และอัลลอฮฺนั้นเป็นผู้ทรงเดชานุภาพเหนือทุกสิ่งทุกอย่าง",
+            "replacement": "แล้วพระองค์จะทรงอภัยโทษแก่ผู้ที่พระองค์ทรงประสงค์ และจะทรงลงโทษผู้ที่พระองค์ทรงประสงค์[FN:1] และอัลลอฮฺนั้นเป็นผู้ทรงเดชานุภาพเหนือทุกสิ่งทุกอย่าง",
+            "reason": "Restore dropped clause 'และจะทรงลงโทษผู้ที่พระองค์ทรงประสงค์' for وَيُعَذِّبُ مَن يَشَآءُ (corroborated by footnote 1 and printed text)."
+        },
+        {
+            "ayah": "2:286",
+            "target": "โปรดอย่าเอาโทษแก่เราเลยหากพวกเราลืมหรือผิดพลาดไป",
+            "replacement": "โปรดอย่าเอาโทษแก่พวกเราเลย หากพวกเราลืมหรือผิดพลาดไป",
+            "reason": "Correct pronoun in prayer to plural 'แก่พวกเรา' for لَا تُؤَاخِذۡนَا and space before condition 'หาก'."
+        },
+        {
+            "ayah": "2:286",
+            "target": "แก่พวกเรา[FN:2]เช่นเดียวกับที่พระองค์",
+            "replacement": "แก่พวกเรา[FN:2] เช่นเดียวกับที่พระองค์",
+            "reason": "Footnote spacing before comparative clause 'เช่นเดียวกับ'."
+        },
         {
             "ayah": "2:268",
             "target": "ชัยฎอนนั้น",
