@@ -373,7 +373,7 @@
             <button class="tab-btn active" onclick="switchTab('cheatsheet')">⚡ สรุปคำสั่งด่วน (Cheat Sheet)</button>
             <button class="tab-btn" onclick="switchTab('workflow')">🔄 ขั้นตอนการตรวจทาน (Audit Loop)</button>
             <button class="tab-btn" onclick="switchTab('rules')">🛡️ กฎเหล็ก 3 ข้อ (Paramount Rules)</button>
-            <button class="tab-btn" onclick="switchTab('finish')">🏁 จบ Session & ซิงค์เข้า Web</button>
+            <button class="tab-btn" onclick="switchTab('finish')">🚀 ทยอย Sync ขึ้น Production (Gradual Sync)</button>
         </div>
 
         <!-- TAB 1: CHEAT SHEET -->
@@ -570,42 +570,151 @@ python scripts/v3_tracker.py status</pre>
             </div>
         </div>
 
-        <!-- TAB 4: FINISH SESSION -->
+        <!-- TAB 4: PRODUCTION SYNC -->
         <div id="finish" class="tab-pane">
             <div class="card">
-                <h2>🚀 ทยอย Sync ขึ้น Production และจบ Session</h2>
-                <p>คุณสามารถทยอย Sync ข้อความอายะฮฺที่ผ่านการตรวจสอบเรียบร้อยแล้ว เข้าสู่เว็บ (thai-quran-web) และแอป (thai-quran-app) ได้ตลอดเวลา:</p>
+                <h2>🚀 1. คำสั่งสำหรับทยอย Sync ขึ้น Production (Gradual Sync)</h2>
+                <p>คุณสามารถเปิด Terminal และรันคำสั่งนี้ได้ตลอดเวลา เพื่อทยอยส่งผลการตรวจทานที่สมบูรณ์ขึ้นสู่ระบบ Production (Web & App):</p>
 
-                <h3>Option A: ทยอย Sync เฉพาะ Chunk ที่ตรวจเสร็จแล้ว (Gradual Sync)</h3>
                 <div class="command-block cmd-mac">
                     <div class="command-header">
-                        <span>🍎 Terminal (macOS / zsh)</span>
+                        <span>🍎 Terminal (macOS / zsh) — รันจากโฟลเดอร์ thai_quran_translation_v4</span>
                         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
                     </div>
-                    <pre>python3 scripts/sync_v3_to_all.py</pre>
-                </div>
-                <div class="command-block cmd-win">
-                    <div class="command-header">
-                        <span>🪟 PowerShell (Windows)</span>
-                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-                    </div>
-                    <pre>python scripts/sync_v3_to_all.py</pre>
+                    <pre># รันจากโฟลเดอร์ thai_quran_translation_v4
+python3 scripts/sync_v3_to_all.py</pre>
                 </div>
 
-                <h3>Option B: Sync ทั้งหมดพร้อม Git Push อัตโนมัติทุก Repositories</h3>
-                <div class="command-block cmd-mac">
-                    <div class="command-header">
-                        <span>🍎 Terminal (macOS / zsh)</span>
-                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-                    </div>
-                    <pre>python3 scripts/sync_v3_to_all.py --push "Audit: Sync verified progress to production"</pre>
-                </div>
                 <div class="command-block cmd-win">
                     <div class="command-header">
-                        <span>🪟 PowerShell (Windows)</span>
+                        <span>🪟 PowerShell (Windows) — รันจากโฟลเดอร์ thai_quran_translation_v4</span>
                         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
                     </div>
-                    <pre>python scripts/sync_v3_to_all.py --push "Audit: Sync verified progress to production"</pre>
+                    <pre># รันจากโฟลเดอร์ thai_quran_translation_v4
+python scripts/sync_v3_to_all.py</pre>
+                </div>
+
+                <h3>⚙️ ตัวเลือกคำสั่งที่มีให้ใช้งาน:</h3>
+                <div style="overflow-x: auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 26%;">การใช้งาน</th>
+                                <th style="width: 38%;">คำสั่ง Terminal</th>
+                                <th style="width: 36%;">พฤติกรรมการทำงาน</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background: rgba(52, 211, 153, 0.08);">
+                                <td>
+                                    <strong>ทยอย Sync ตามที่ตรวจเสร็จ</strong><br />
+                                    <span class="badge badge-success">แนะนำ (Recommended)</span>
+                                </td>
+                                <td>
+                                    <div class="cmd-mac">
+                                        <code>python3 scripts/sync_v3_to_all.py</code>
+                                    </div>
+                                    <div class="cmd-win">
+                                        <code>python scripts/sync_v3_to_all.py</code>
+                                    </div>
+                                </td>
+                                <td>
+                                    ตรวจ <code>v3_audit_tracker.tsv</code> อัตโนมัติ และ Sync เฉพาะ Chunk ที่มีสถานะ <strong>DONE</strong> เท่านั้น<br />
+                                    <small style="color: var(--success);">🛡️ (Chunk ที่ยังไม่ตรวจจะไม่ถูกแตะต้อง ปลอดภัย 100%)</small>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Sync ระบุรายญุซอฺ</strong></td>
+                                <td>
+                                    <div class="cmd-mac">
+                                        <code>python3 scripts/sync_v3_to_all.py --juz 1</code>
+                                    </div>
+                                    <div class="cmd-win">
+                                        <code>python scripts/sync_v3_to_all.py --juz 1</code>
+                                    </div>
+                                </td>
+                                <td>Sync ทุกอายะฮฺใน ญุซอฺ ที่ระบุ (เช่น <code>--juz 1</code> หรือ <code>--juz 2</code>)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>ทดสอบตรวจสอบส่วนต่างก่อน (Dry-Run)</strong></td>
+                                <td>
+                                    <div class="cmd-mac">
+                                        <code>python3 scripts/sync_v3_to_all.py --dry-run</code>
+                                    </div>
+                                    <div class="cmd-win">
+                                        <code>python scripts/sync_v3_to_all.py --dry-run</code>
+                                    </div>
+                                </td>
+                                <td>พรีวิวดูว่ามีอายะฮฺไหนเปลี่ยนบ้าง โดยยังไม่เขียนทับไฟล์จริง</td>
+                            </tr>
+                            <tr style="background: rgba(56, 189, 248, 0.08);">
+                                <td><strong>Sync พร้อม Push ขึ้น GitHub ทุก Repo</strong></td>
+                                <td>
+                                    <div class="cmd-mac">
+                                        <code>python3 scripts/sync_v3_to_all.py --push "Sync Juz 1 to production"</code>
+                                    </div>
+                                    <div class="cmd-win">
+                                        <code>python scripts/sync_v3_to_all.py --push "Sync Juz 1 to production"</code>
+                                    </div>
+                                </td>
+                                <td>Sync ไฟล์ Web + App และสั่ง Git Commit & Push ให้ทั้ง 3 Repositories โดยอัตโนมัติ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h2 style="margin-top: 2rem;">📦 2. สิ่งที่ระบบจะอัปเดตให้อัตโนมัติในคำสั่งเดียว</h2>
+                <p>เมื่อรันคำสั่ง <code>sync_v3_to_all.py</code> ระบบจะกระจายข้อมูลบทแปลและเชิงอรรถไปยังเป้าหมายทั้งหมดในครั้งเดียว:</p>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.25rem; margin: 1.25rem 0;">
+                    <!-- WEB CARD -->
+                    <div style="background: rgba(30, 41, 59, 0.7); border: 1px solid var(--border-color); border-radius: 0.6rem; padding: 1.25rem;">
+                        <h3 style="color: var(--accent); margin-top: 0; display: flex; align-items: center; justify-content: space-between;">
+                            <span>🌐 1. thai-quran-web</span>
+                            <span class="badge">Production Web</span>
+                        </h3>
+                        <ul style="margin-left: 1.25rem; margin-top: 0.75rem;">
+                            <li>
+                                <code>thai_v3.json</code><br />
+                                <span style="color: var(--text-muted); font-size: 0.85rem;">→ อัปเดตตัวบทแปลหลักแบบ Plain text</span>
+                            </li>
+                            <li style="margin-top: 0.5rem;">
+                                <code>thai_footnotes.json</code><br />
+                                <span style="color: var(--text-muted); font-size: 0.85rem;">→ อัปเดตตัวบทแบบ Annotated [1], [2] พร้อมเนื้อหาเชิงอรรถฉบับสมบูรณ์</span>
+                            </li>
+                            <li style="margin-top: 0.5rem;">
+                                <code>transparency_errata_catalog.json</code><br />
+                                <span style="color: var(--text-muted); font-size: 0.85rem;">→ แค็ตตาล็อกบันทึกจุดแก้ไขโปร่งใส (Errata Catalog) สำหรับหน้าเว็บ</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- APP CARD -->
+                    <div style="background: rgba(30, 41, 59, 0.7); border: 1px solid var(--border-color); border-radius: 0.6rem; padding: 1.25rem;">
+                        <h3 style="color: var(--purple); margin-top: 0; display: flex; align-items: center; justify-content: space-between;">
+                            <span>📱 2. thai-quran-app</span>
+                            <span class="badge badge-purple">Mobile App</span>
+                        </h3>
+                        <ul style="margin-left: 1.25rem; margin-top: 0.75rem;">
+                            <li>
+                                <code>thai_v3.json</code><br />
+                                <span style="color: var(--text-muted); font-size: 0.85rem;">→ อัปเดตตัวบทแปล</span>
+                            </li>
+                            <li style="margin-top: 0.5rem;">
+                                <code>thai_footnotes.json</code><br />
+                                <span style="color: var(--text-muted); font-size: 0.85rem;">→ อัปเดตเชิงอรรถ</span>
+                            </li>
+                            <li style="margin-top: 0.5rem;">
+                                <code>quran_offline.db</code><br />
+                                <span style="color: var(--text-muted); font-size: 0.85rem;">→ อัปเดตคอลัมน์ <code>translation_th</code> ในตาราง SQLite ออฟไลน์โดยตรง</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="callout success">
+                    <strong>🛡️ ความโปร่งใสสู่สาธารณะ (Public Transparency & Errata Catalog):</strong><br />
+                    ทุกจุดแก้ไขที่ผ่านการกลั่นกรอง (เช่น การกู้ข้อความภาษาอาหรับที่ตกหล่นใน 2:165 หรือแก้ไขตัวสะกดผิดจาก OCR ใน 2:143) จะถูกรวบรวมลงใน <code>deliverables/v3_transparency_errata_catalog.md</code> และ <code>.json</code> เพื่อแสดงความโปร่งใสต่อสาธารณชน ให้ผู้ใช้งานสามารถตรวจสอบย้อนกลับและเทียบกับข้อผิดพลาดที่มีอยู่ในเว็บไซต์อื่น ๆ (เช่น Quran.com) ได้ตลอดเวลา
                 </div>
             </div>
         </div>
