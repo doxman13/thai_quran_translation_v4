@@ -7,18 +7,18 @@ CRITICAL AUDIT INSTRUCTIONS (READ CAREFULLY):
 2. DE-OVERKILL SPACING: Remove unnecessary, unnatural, or chopped-up spaces.
    Thai is written continuously without spaces between words.
    Keep spaces ONLY for natural breath pauses, dialogue breaks, list items, or clause boundaries.
-3. BASE TEXT IS V3. V4 (AUDITED REF) IS THE SCHOLAR-AUDITED KNOWLEDGE BASE:
-   - V3 (BASE) is our clean, authentic King Fahd text base.
-   - V4 (AUDITED REF) is our previous scholar-audited reference containing verified printed corrections, restored omissions, and clean footnote placements.
-   - Look closely at V4 (AUDITED REF): When V3 drops a word or has an OCR glitch, V4 often contains the authentic printed reading (e.g. 3:99 'คดเคี้ยว', 2:165, 2:284).
-   - If V4 fixes an omission, typo, or footnote placement from the printed Mushaf: ADOPT V4's fix into V3!
-   - Apply Rule Zero: If V3 is already accurate and V4 is merely a synonym rewrite, PRESERVE V3.
+3. MULTIMODAL PRINTED MUSHAF (1990) & V4 (AJARN ASMAN / THAIQURAN SCHOLAR REF):
+   - BASE: V3 is our clean King Fahd digital base.
+   - PRINTED MUSHAF (PDF): The attached PDF slice is from the authentic 1990 King Fahd Printed Quran.
+     Cross-check against the scanned pages! If V3 dropped a word/syllable (e.g. 3:99 'คดเคี้ยว', 2:174 'ของ'), RESTORE IT!
+   - V4 SCHOLAR REF: V4 represents the scholar-reviewed edition by ThaiQuran in consultation with Ajarn Asman Meesomboon.
+     When V4 remedies ambiguities, grammar, or awkward phrasing from the 1990 print (e.g. 3:156 'อยู่ ณ ที่เรา', 3:169 'หามิได้', 3:196 'ล่อลวง'), ADOPT V4's enhancement!
 4. FOOTNOTE PLACEMENT & SPACING:
    - Placement: Verify that [FN:N] markers sit at the END of the concept/phrase they explain (e.g. after the full term 'อะลิฟ ลาม มีม[FN:1]', not mid-word or awkwardly placed).
    - No Space Before: [FN:N] must be glued directly to the preceding word without spaces.
-   - NO MECHANICAL SPACING AFTER: Thai is written continuously. Do NOT mechanically insert spaces after [FN:N] if the sentence continues naturally in Thai (e.g. DO NOT space in 'ตัวของพวกเจ้าเอง[FN:1]ออกจากหมู่บ้าน' or 'อาหารชนิดเดียว[FN:1]อีกต่อไปได้'). Add/keep spaces after [FN:N] ONLY for natural clause/sentence boundaries (e.g. before 'และ', 'หรือ', 'ดังนั้น', 'เพื่อว่า', 'ครั้งเมื่อ', or dialogue quotes '“...”').
+   - NO MECHANICAL SPACING AFTER: Thai is written continuously. Do NOT mechanically insert spaces after [FN:N] if the sentence continues naturally in Thai. Add/keep spaces after [FN:N] ONLY for natural clause/sentence boundaries (e.g. before 'และ', 'หรือ', 'ดังนั้น', 'เพื่อว่า', 'ครั้งเมื่อ', or dialogue quotes '“...”').
 5. CANONICAL TRANSLITERATION & TYPO CHECKLIST:
-   - Standardize transliteration: 'ชัยฏอน' (always use ฏ-ปฏัก, never ฎ-ชฎา), 'มลาอิกะฮฺ', 'อิบรอฮีม', 'อิสมาอีล', 'อิสฮาก', 'ยะอฺกูบ', 'มูซา', 'อีซา', 'นูฮฺ'.
+   - Standardize transliteration: 'ชัยฏอน' (always use ฏ-ปฏัก, never ฎ-ชฎา), 'มลาอิกะฮฺ', 'อิบรอฮีม', 'อิสมาอีล', 'อิสฮาก', 'ยะอฺกูบ', 'มูซา', 'อีซา', 'นูฮฺ', 'ซะบูร' (no pinthu).
    - Fix historical OCR typos: 'กระนั้นหรือ' (never 'กระนั่นหรือ'), 'ดื้อรั้น' (never 'ดื้อดัน'), 'ผาสุก' (never 'ผาสุข'), 'กัมปนาท' (never 'กำปนาท'), 'บิดพลิ้ว' (never 'บิดพริ้ว'), 'นัยน์ตา' (never 'นัยตา'), 'ศีรษะ' (never 'ศรีษะ').
 6. OUTPUT STRICT JSON FORMAT ONLY:
 [
@@ -31,6 +31,30 @@ CRITICAL AUDIT INSTRUCTIONS (READ CAREFULLY):
   }
 ]
 If all verses in this chunk are accurate and readable, output: []
+
+================================================================================
+AUTOMATED PRE-AUDIT WATCH LIST (PRE-SCANNED FOR THIS CHUNK):
+The automated scanner flagged 19 potential items to verify:
+  - [4:3] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'า[FN:...]ในหม'
+  - [4:3] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'หญิงที่ดีๆสำหรับพวกเจ้าจากหมู่' absent in V3. Verify against Arabic text.
+  - [4:4] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ของนาง[FN:...]ด'
+  - [4:6] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'า[FN:...]ด'
+  - [4:8] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'น[FN:...]ให'
+  - [4:11] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'บ[FN:...]เท'
+  - [4:11] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'เขา[FN:...]ได'
+  - [4:11] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'เขา[FN:...]ได'
+  - [4:12] [V4_SCHOLAR_CATEGORY_ALERT] V4 categorized as [CLAUSE_OMISSION_RESTORED]. Potential restored clause or correction over V3.
+  - [4:12] [FOOTNOTE_SYNTAX_ANOMALY] Footnote tag adjacent to or splitting mai-yamok (ๆ): ['ๆ[FN:5] เป']
+  - [4:12] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'บมรดก[FN:...]ในฐานะเป'
+  - [4:12] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'น[FN:...]จะได'
+  - [4:12] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'คำสั่งที่มาจากอัลลอฮและอัลลอฮเป็น' absent in V3. Verify against Arabic text.
+  - [4:13] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'อขอบเขต[FN:...]ของอ'
+  - [4:15] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'งลามก[FN:...]จากในหม'
+  - [4:15] [POTENTIAL_WORD_TRUNCATION] V3 has 'จาก' while TQ/V4 has 'จากบรรดาสตรีของพวกเจ้านั้นจง'. Verify if OCR dropped 'บรรดาสตรีของพวกเจ้านั้นจง'.
+  - [4:16] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'กระทำการลามก[FN:...]น'
+  - [4:19] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'งลามก[FN:...]อ'
+  - [4:23] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'อมารดา[FN:...]ของพวกเจ'
+--> INSTRUCTION: Explicitly verify these flagged items against the attached printed PDF and Arabic text!
 ================================================================================
 [4:1]
 AR: يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُواْ رَبَّكُمُ ٱلَّذِي خَلَقَكُم مِّن نَّفۡسٖ وَٰحِدَةٖ وَخَلَقَ مِنۡهَا زَوۡجَهَا وَبَثَّ مِنۡهُمَا رِجَالٗا كَثِيرٗا وَنِسَآءٗۚ وَٱتَّقُواْ ٱللَّهَ ٱلَّذِي تَسَآءَلُونَ بِهِۦ وَٱلۡأَرۡحَامَۚ إِنَّ ٱللَّهَ كَانَ عَلَيۡكُمۡ رَقِيبٗا | ١

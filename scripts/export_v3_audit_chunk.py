@@ -27,6 +27,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.append(str(Path(__file__).resolve().parent))
+from scan_chunk_diffs import scan_verse
+
 sys.stdout.reconfigure(encoding="utf-8")
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -34,6 +37,7 @@ PARENT_ROOT = REPO_ROOT.parent
 
 BASE_DATA_PATH = REPO_ROOT / "data" / "01_v3_base_master.json"
 V4_DATA_PATH = REPO_ROOT / "deliverables" / "02_thai_quran_translation_v4_annotated.json"
+TQ_DATA_PATH = REPO_ROOT / "data" / "01_tq_ingested_tokenized.json"
 AR_DATA_PATH = PARENT_ROOT / "thai_quran_scholar_audit_v4" / "step2_tri_lingual_master.json"
 EN_SAHEEH_PATH = PARENT_ROOT / "thai-quran-web" / "src" / "data" / "en_saheeh.json"
 EN_HILALI_PATH = PARENT_ROOT / "thai-quran-web" / "src" / "data" / "en_hilali_khan.json"
@@ -174,11 +178,17 @@ def load_all_datasets():
     with open(EN_HILALI_PATH, "r", encoding="utf-8") as f:
         en_hilali = json.load(f)
 
-    return base_records, base_map, ar_map, en_saheeh, en_hilali, v4_map
+    tq_map = {}
+    if TQ_DATA_PATH.exists():
+        with open(TQ_DATA_PATH, "r", encoding="utf-8") as f:
+            tq_records = json.load(f)
+        tq_map = {r["ayah_key"]: r for r in tq_records}
+
+    return base_records, base_map, ar_map, en_saheeh, en_hilali, v4_map, tq_map
 
 
 def export_chunk(chunk_name: str, ak_list: list[str], data_maps: tuple, out_folder: Path = OUT_DIR) -> Path:
-    base_records, base_map, ar_map, en_saheeh, en_hilali, v4_map = data_maps
+    base_records, base_map, ar_map, en_saheeh, en_hilali, v4_map, tq_map = data_maps
     out_file = out_folder / f"{chunk_name}.txt"
 
     lines = []
@@ -191,18 +201,18 @@ def export_chunk(chunk_name: str, ak_list: list[str], data_maps: tuple, out_fold
     lines.append("2. DE-OVERKILL SPACING: Remove unnecessary, unnatural, or chopped-up spaces.")
     lines.append("   Thai is written continuously without spaces between words.")
     lines.append("   Keep spaces ONLY for natural breath pauses, dialogue breaks, list items, or clause boundaries.")
-    lines.append("3. BASE TEXT IS V3. V4 (AUDITED REF) IS THE SCHOLAR-AUDITED KNOWLEDGE BASE:")
-    lines.append("   - V3 (BASE) is our clean, authentic King Fahd text base.")
-    lines.append("   - V4 (AUDITED REF) is our previous scholar-audited reference containing verified printed corrections, restored omissions, and clean footnote placements.")
-    lines.append("   - Look closely at V4 (AUDITED REF): When V3 drops a word or has an OCR glitch, V4 often contains the authentic printed reading (e.g. 3:99 'คดเคี้ยว', 2:165, 2:284).")
-    lines.append("   - If V4 fixes an omission, typo, or footnote placement from the printed Mushaf: ADOPT V4's fix into V3!")
-    lines.append("   - Apply Rule Zero: If V3 is already accurate and V4 is merely a synonym rewrite, PRESERVE V3.")
+    lines.append("3. MULTIMODAL PRINTED MUSHAF (1990) & V4 (AJARN ASMAN / THAIQURAN SCHOLAR REF):")
+    lines.append("   - BASE: V3 is our clean King Fahd digital base.")
+    lines.append("   - PRINTED MUSHAF (PDF): The attached PDF slice is from the authentic 1990 King Fahd Printed Quran.")
+    lines.append("     Cross-check against the scanned pages! If V3 dropped a word/syllable (e.g. 3:99 'คดเคี้ยว', 2:174 'ของ'), RESTORE IT!")
+    lines.append("   - V4 SCHOLAR REF: V4 represents the scholar-reviewed edition by ThaiQuran in consultation with Ajarn Asman Meesomboon.")
+    lines.append("     When V4 remedies ambiguities, grammar, or awkward phrasing from the 1990 print (e.g. 3:156 'อยู่ ณ ที่เรา', 3:169 'หามิได้', 3:196 'ล่อลวง'), ADOPT V4's enhancement!")
     lines.append("4. FOOTNOTE PLACEMENT & SPACING:")
     lines.append("   - Placement: Verify that [FN:N] markers sit at the END of the concept/phrase they explain (e.g. after the full term 'อะลิฟ ลาม มีม[FN:1]', not mid-word or awkwardly placed).")
     lines.append("   - No Space Before: [FN:N] must be glued directly to the preceding word without spaces.")
-    lines.append("   - NO MECHANICAL SPACING AFTER: Thai is written continuously. Do NOT mechanically insert spaces after [FN:N] if the sentence continues naturally in Thai (e.g. DO NOT space in 'ตัวของพวกเจ้าเอง[FN:1]ออกจากหมู่บ้าน' or 'อาหารชนิดเดียว[FN:1]อีกต่อไปได้'). Add/keep spaces after [FN:N] ONLY for natural clause/sentence boundaries (e.g. before 'และ', 'หรือ', 'ดังนั้น', 'เพื่อว่า', 'ครั้งเมื่อ', or dialogue quotes '“...”').")
+    lines.append("   - NO MECHANICAL SPACING AFTER: Thai is written continuously. Do NOT mechanically insert spaces after [FN:N] if the sentence continues naturally in Thai. Add/keep spaces after [FN:N] ONLY for natural clause/sentence boundaries (e.g. before 'และ', 'หรือ', 'ดังนั้น', 'เพื่อว่า', 'ครั้งเมื่อ', or dialogue quotes '“...”').")
     lines.append("5. CANONICAL TRANSLITERATION & TYPO CHECKLIST:")
-    lines.append("   - Standardize transliteration: 'ชัยฏอน' (always use ฏ-ปฏัก, never ฎ-ชฎา), 'มลาอิกะฮฺ', 'อิบรอฮีม', 'อิสมาอีล', 'อิสฮาก', 'ยะอฺกูบ', 'มูซา', 'อีซา', 'นูฮฺ'.")
+    lines.append("   - Standardize transliteration: 'ชัยฏอน' (always use ฏ-ปฏัก, never ฎ-ชฎา), 'มลาอิกะฮฺ', 'อิบรอฮีม', 'อิสมาอีล', 'อิสฮาก', 'ยะอฺกูบ', 'มูซา', 'อีซา', 'นูฮฺ', 'ซะบูร' (no pinthu).")
     lines.append("   - Fix historical OCR typos: 'กระนั้นหรือ' (never 'กระนั่นหรือ'), 'ดื้อรั้น' (never 'ดื้อดัน'), 'ผาสุก' (never 'ผาสุข'), 'กัมปนาท' (never 'กำปนาท'), 'บิดพลิ้ว' (never 'บิดพริ้ว'), 'นัยน์ตา' (never 'นัยตา'), 'ศีรษะ' (never 'ศรีษะ').")
     lines.append("6. OUTPUT STRICT JSON FORMAT ONLY:")
     lines.append('[')
@@ -215,6 +225,24 @@ def export_chunk(chunk_name: str, ak_list: list[str], data_maps: tuple, out_fold
     lines.append('  }')
     lines.append(']')
     lines.append("If all verses in this chunk are accurate and readable, output: []")
+    lines.append("")
+    lines.append("================================================================================")
+    lines.append("AUTOMATED PRE-AUDIT WATCH LIST (PRE-SCANNED FOR THIS CHUNK):")
+    chunk_watch_list = []
+    for ak in ak_list:
+        v3_row = base_map.get(ak)
+        tq_row = tq_map.get(ak, {})
+        v4_row = v4_map.get(ak, {})
+        if v3_row:
+            chunk_watch_list.extend(scan_verse(v3_row, tq_row, v4_row))
+
+    if chunk_watch_list:
+        lines.append(f"The automated scanner flagged {len(chunk_watch_list)} potential items to verify:")
+        for it in chunk_watch_list:
+            lines.append(f"  - [{it['ayah']}] [{it['type']}] {it['detail']}")
+        lines.append("--> INSTRUCTION: Explicitly verify these flagged items against the attached printed PDF and Arabic text!")
+    else:
+        lines.append("  [✓] No suspicious truncations, syntax anomalies, or scholar omission alerts detected.")
     lines.append("================================================================================")
 
     for ak in ak_list:
@@ -286,6 +314,7 @@ def export_subchunks_for_juz(target_juz: int, all_keys: list[str], data_maps: tu
 
 def main():
     parser = argparse.ArgumentParser(description="Export Master V3 audit chunks for Gemini review")
+    parser.add_argument("--chunk", type=int, help="Export specific subchunk by ID (1-127)")
     parser.add_argument("--juz", type=int, choices=range(1, 31), help="Juz number (1-30)")
     parser.add_argument("--surah", type=int, choices=range(1, 115), help="Surah number (1-114)")
     parser.add_argument("--all", action="store_true", help="Export all 30 Juz")
@@ -296,7 +325,30 @@ def main():
     base_records = data_maps[0]
     all_keys = [r["ayah_key"] for r in base_records]
 
-    if args.juz:
+    if args.chunk:
+        if not (1 <= args.chunk <= len(SUBCHUNKS_127)):
+            print(f"Error: Chunk {args.chunk} out of range (1-{len(SUBCHUNKS_127)}).")
+            sys.exit(1)
+        juz_num, r_str = SUBCHUNKS_127[args.chunk - 1]
+        st, en = r_str.split("-")
+        clean_r_str = r_str.replace(":", "_").replace("-", "_to_")
+        # Find index in that juz
+        juz_subchunks = [d for d in SUBCHUNKS_127 if d[0] == juz_num]
+        idx_in_juz = juz_subchunks.index((juz_num, r_str)) + 1
+        chunk_name = f"juz_{juz_num:02d}_part{idx_in_juz}_{clean_r_str}"
+        chunk_keys = [k for k in all_keys if is_in_range(k, st, en)]
+        txt_path = export_chunk(chunk_name, chunk_keys, data_maps, out_folder=SUBCHUNK_DIR)
+        print(f"[OK] Exported Subchunk {args.chunk}: {txt_path}")
+        
+        # Also auto-extract printed PDF slice
+        try:
+            import subprocess
+            pdf_script = REPO_ROOT / "scripts" / "extract_chunk_pdf.py"
+            subprocess.run([sys.executable, str(pdf_script), "--chunk", str(args.chunk)], check=True)
+        except Exception as e:
+            print(f"[WARN] Failed to auto-extract PDF: {e}")
+
+    elif args.juz:
         st, en = JUZ_BOUNDARIES[args.juz]
         juz_keys = [k for k in all_keys if is_in_range(k, st, en)]
         export_chunk(f"juz_{args.juz:02d}", juz_keys, data_maps, out_folder=OUT_DIR)
