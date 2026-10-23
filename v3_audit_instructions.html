@@ -261,7 +261,10 @@
                 </div>
 
                 <div class="callout">
-                    <strong>3. ตรวจสอบตำแหน่งเชิงอรรถ (Footnote Placement Check):</strong> ตรวจสอบว่าเครื่องหมาย <code>[FN:X]</code> วางอยู่ท้ายสุดของวลีหรือคำศัพท์ที่อธิบายเสมอ (เช่น <code>อะลิฟ ลาม มีม[FN:1]</code> ไม่ใช่ <code>อะลิฟ[1] ลาม มีม</code>)
+                    <strong>3. ตรวจสอบตำแหน่งเชิงอรรถและการเว้นวรรค (Footnote Placement & Spacing):</strong><br />
+                    • เครื่องหมายเชิงอรรถ <code>[FN:X]</code> ต้องอยู่ <strong>ท้ายสุดของคำศัพท์ วลี หรือประโยคที่ต้องการอธิบายเสมอ</strong> (เช่น <code>อะลิฟ ลาม มีม[FN:1]</code> ไม่ใช่ <code>อะลิฟ[1] ลาม มีม</code>)<br />
+                    • <strong>ด้านหน้า:</strong> ต้องติดสนิทกับคำข้างหน้า ห้ามเคาะวรรคหน้าแท็ก<br />
+                    • <strong>ด้านหลัง (ห้ามเคาะวรรคพร่ำเพรื่อ - No Mechanical Spacing):</strong> ห้ามเคาะวรรคหลังแท็กหากคำถัดไปยังเป็นกลุ่มคำหรือประโยคเดียวกันตามธรรมชาติภาษาไทย (เช่น <code>ตัวของพวกเจ้าเอง[FN:1]ออกจากหมู่บ้าน</code>, <code>อาหารชนิดเดียว[FN:1]อีกต่อไปได้</code>) เว้นวรรค 1 เคาะเฉพาะเมื่อเป็นรอยต่อทางไวยากรณ์ตามธรรมชาติ (เช่น ขึ้นอนุประโยคใหม่ด้วย <code>และ</code>, <code>หรือ</code>, <code>เพื่อว่า</code> หรือหน้าบทสนทนา)
                 </div>
             </div>
         </div>
@@ -318,8 +321,10 @@ python3 scripts/v3_tracker.py status</pre>
    - If V3 accurately conveys AR: DO NOT TOUCH IT.
    - If V3 has an Arabic defect (dropped clause, missing word): Check TQ. If TQ is accurate, patch V3 using TQ.
    - If BOTH V3 & TQ have an error against Arabic: Propose scholarly correction based on Arabic.
-4. FOOTNOTE PLACEMENT CHECK:
-   Verify that [FN:N] markers sit at the END of the concept/phrase they explain (e.g. after the full term 'อะลิฟ ลาม มีม[FN:1]', not mid-word or awkwardly placed).
+4. FOOTNOTE PLACEMENT & SPACING:
+   - Placement: Verify that [FN:N] markers sit at the END of the concept/phrase they explain (e.g. after the full term 'อะลิฟ ลาม มีม[FN:1]', not mid-word or awkwardly placed).
+   - No Space Before: [FN:N] must be glued directly to the preceding word without any space.
+   - NO MECHANICAL SPACING AFTER: Thai is written continuously. Do NOT mechanically insert a space after [FN:N] if the sentence continues naturally in Thai (e.g. DO NOT space in 'ตัวของพวกเจ้าเอง[FN:1]ออกจากหมู่บ้าน' or 'อาหารชนิดเดียว[FN:1]อีกต่อไปได้'). Add/keep a space after [FN:N] ONLY for natural clause/sentence boundaries (e.g. before 'และ', 'หรือ', 'ดังนั้น', 'เพื่อว่า', 'ครั้งเมื่อ', or dialogue quotes '“...”').
 5. OUTPUT STRICT JSON FORMAT ONLY:
 [
   {
