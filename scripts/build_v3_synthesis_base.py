@@ -228,6 +228,55 @@ def main():
             "replacement": "พวกเจ้าจงอย่าตายเป็นอันขาด",
             "reason": "Correct OCR error: 'อย่ายอมตาม' -> 'อย่าตาย' for فَلَا تَمُوتُنَّ."
         },
+        # --- Chunk 5 Verified Fixes ---
+        {
+            "ayah": "2:177",
+            "target": "ความเดือดร้อน[FN:2]และขณะต่อสู้",
+            "replacement": "ความเดือดร้อน[FN:2] และขณะต่อสู้",
+            "reason": "Footnote spacing before conjunction 'และ'."
+        },
+        {
+            "ayah": "2:178",
+            "target": "โดยดี[FN:3]นั้นคือการผ่อนปรน",
+            "replacement": "โดยดี[FN:3] นั่นคือการผ่อนปรน",
+            "reason": "Footnote spacing and correction 'นั้นคือ' -> 'นั่นคือ' for ذَٰلِكَ."
+        },
+        {
+            "ayah": "2:182",
+            "target": "(โดยเจตนา) แล้ว แล้ว เขาได้ประนีประนอม",
+            "replacement": "(โดยเจตนา) แล้วเขาได้ประนีประนอม",
+            "reason": "Remove OCR/typesetter duplicated 'แล้ว'."
+        },
+        {
+            "ayah": "2:187",
+            "target": "เครื่องนุ่มห่มของพวกเจ้า",
+            "replacement": "เครื่องนุ่งห่มของพวกเจ้า",
+            "reason": "Correct OCR typo 'เครื่องนุ่มห่ม' -> 'เครื่องนุ่งห่ม'."
+        },
+        {
+            "ayah": "2:189",
+            "target": "จงกล่าวเถิดมันคือ",
+            "replacement": "จงกล่าวเถิด มันคือ",
+            "reason": "Cadence spacing after command."
+        },
+        {
+            "ayah": "2:189",
+            "target": "สำหรับมนุษย์[FN:3]และสำหรับประกอบพิธีฮัจญ์",
+            "replacement": "สำหรับมนุษย์[FN:3] และสำหรับประกอบพิธีฮัจญ์",
+            "reason": "Footnote spacing before conjunction 'และ'."
+        },
+        {
+            "ayah": "2:193",
+            "target": "การอิบาดะฮทั้งหลาย",
+            "replacement": "การอิบาดะฮฺทั้งหลาย",
+            "reason": "Standardize transliteration phinthu in อิบาดะฮฺ."
+        },
+        {
+            "ayah": "2:215",
+            "target": "แท้จริงอัลลอฮฺ ทรงรู้ดี",
+            "replacement": "แท้จริงอัลลอฮฺทรงรู้ดี",
+            "reason": "De-Overkill Spacing."
+        },
         {
             "ayah": "2:268",
             "target": "ชัยฎอนนั้น",
