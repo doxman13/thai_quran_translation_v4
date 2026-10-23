@@ -912,7 +912,7 @@ FN[2]: คือความผิดอื่นจากการให้ม�
 --------------------------------------------------------------------------------
 [4:117]
 AR: إِن يَدۡعُونَ مِن دُونِهِۦٓ إِلَّآ إِنَٰثٗا وَإِن يَدۡعُونَ إِلَّا شَيۡطَٰنٗا مَّرِيدٗا | ١١٧
-V3 (BASE): พวกเขาจะไม่วิงวอนขออื่นจากพระองค์ นอกจากเจว็ดหญิง[FN:1] และพวกเขาจะไม่วิงวอน นอกจากชัยฏอนที่ดื้อดันเท่านั้น[FN:2]
+V3 (BASE): พวกเขาจะไม่วิงวอนขออื่นจากพระองค์ นอกจากเจว็ดหญิง[FN:1] และพวกเขาจะไม่วิงวอน นอกจากชัยฏอนที่ดื้อรั้นเท่านั้น[FN:2]
 TQ (REF):  พวกเขาจะไม่วิงวอนขออื่นจากพระองค์นอกจากเจว็ดหญิง[FN:294] และพวกเขาจะไม่วิงวอนนอกจากชัยฏอนที่ดื้อรั้นเท่านั้น[FN:295]
 EN1 (Saheeh): They call upon instead of Him none but female [deities], and they [actually] call upon none but a rebellious Satan,
 EN2 (Hilali-Khan): They (all those who worship others than Allâh) invoke nothing but female deities besides Him (Allâh), and they invoke nothing but Shaitân (Satan), a persistent rebel!
