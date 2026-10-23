@@ -631,6 +631,14 @@ def main():
     total_fns = 0
     patches_applied_count = 0
 
+    # 2.5 Load validated manual audit fixes if file exists
+    MANUAL_FIXES_PATH = REPO_ROOT / "data" / "v3_manual_audit_fixes.json"
+    manual_fixes_by_ayah = {}
+    if MANUAL_FIXES_PATH.exists():
+        with open(MANUAL_FIXES_PATH, "r", encoding="utf-8") as f:
+            for fix in json.load(f):
+                manual_fixes_by_ayah.setdefault(fix["ayah"], []).append(fix)
+
     for item in v3_list:
         surah = item["surah"]
         ayah = item["ayah"]
@@ -653,6 +661,21 @@ def main():
             for patch in patch_by_ayah[ak]:
                 tgt = patch["target"]
                 rep = patch["replacement"]
+                applied = False
+                if tgt in v3_text:
+                    v3_text = v3_text.replace(tgt, rep)
+                    applied = True
+                if tgt in annotated_v3:
+                    annotated_v3 = annotated_v3.replace(tgt, rep)
+                    applied = True
+                if applied:
+                    patches_applied_count += 1
+
+        # 2.5 Apply manual audit fixes
+        if ak in manual_fixes_by_ayah:
+            for fix in manual_fixes_by_ayah[ak]:
+                tgt = fix["target"]
+                rep = fix["replacement"]
                 applied = False
                 if tgt in v3_text:
                     v3_text = v3_text.replace(tgt, rep)
