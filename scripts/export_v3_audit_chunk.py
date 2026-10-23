@@ -33,6 +33,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 PARENT_ROOT = REPO_ROOT.parent
 
 BASE_DATA_PATH = REPO_ROOT / "data" / "01_v3_base_master.json"
+V4_DATA_PATH = REPO_ROOT / "deliverables" / "02_thai_quran_translation_v4_annotated.json"
 AR_DATA_PATH = PARENT_ROOT / "thai_quran_scholar_audit_v4" / "step2_tri_lingual_master.json"
 EN_SAHEEH_PATH = PARENT_ROOT / "thai-quran-web" / "src" / "data" / "en_saheeh.json"
 EN_HILALI_PATH = PARENT_ROOT / "thai-quran-web" / "src" / "data" / "en_hilali_khan.json"
@@ -158,6 +159,12 @@ def load_all_datasets():
 
     base_map = {r["ayah_key"]: r for r in base_records}
 
+    v4_map = {}
+    if V4_DATA_PATH.exists():
+        with open(V4_DATA_PATH, "r", encoding="utf-8") as f:
+            v4_records = json.load(f)
+        v4_map = {r["ayah_key"]: r for r in v4_records}
+
     with open(AR_DATA_PATH, "r", encoding="utf-8") as f:
         ar_data = json.load(f)
     ar_map = {f"{x['surah']}:{x['ayah']}": x["arabic"] for x in ar_data}
@@ -167,11 +174,11 @@ def load_all_datasets():
     with open(EN_HILALI_PATH, "r", encoding="utf-8") as f:
         en_hilali = json.load(f)
 
-    return base_records, base_map, ar_map, en_saheeh, en_hilali
+    return base_records, base_map, ar_map, en_saheeh, en_hilali, v4_map
 
 
 def export_chunk(chunk_name: str, ak_list: list[str], data_maps: tuple, out_folder: Path = OUT_DIR) -> Path:
-    base_records, base_map, ar_map, en_saheeh, en_hilali = data_maps
+    base_records, base_map, ar_map, en_saheeh, en_hilali, v4_map = data_maps
     out_file = out_folder / f"{chunk_name}.txt"
 
     lines = []
@@ -184,10 +191,12 @@ def export_chunk(chunk_name: str, ak_list: list[str], data_maps: tuple, out_fold
     lines.append("2. DE-OVERKILL SPACING: Remove unnecessary, unnatural, or chopped-up spaces.")
     lines.append("   Thai is written continuously without spaces between words.")
     lines.append("   Keep spaces ONLY for natural breath pauses, dialogue breaks, list items, or clause boundaries.")
-    lines.append("3. BASE TEXT IS V3. Arabic (AR) is the SUPREME SOURCE OF TRUTH.")
-    lines.append("   - If V3 accurately conveys AR: DO NOT TOUCH IT.")
-    lines.append("   - If V3 has an Arabic defect (dropped clause, missing word): Check TQ. If TQ is accurate, patch V3 using TQ.")
-    lines.append("   - If BOTH V3 & TQ have an error against Arabic: Propose scholarly correction based on Arabic.")
+    lines.append("3. BASE TEXT IS V3. V4 (AUDITED REF) IS THE SCHOLAR-AUDITED KNOWLEDGE BASE:")
+    lines.append("   - V3 (BASE) is our clean, authentic King Fahd text base.")
+    lines.append("   - V4 (AUDITED REF) is our previous scholar-audited reference containing verified printed corrections, restored omissions, and clean footnote placements.")
+    lines.append("   - Look closely at V4 (AUDITED REF): When V3 drops a word or has an OCR glitch, V4 often contains the authentic printed reading (e.g. 3:99 'คดเคี้ยว', 2:165, 2:284).")
+    lines.append("   - If V4 fixes an omission, typo, or footnote placement from the printed Mushaf: ADOPT V4's fix into V3!")
+    lines.append("   - Apply Rule Zero: If V3 is already accurate and V4 is merely a synonym rewrite, PRESERVE V3.")
     lines.append("4. FOOTNOTE PLACEMENT & SPACING:")
     lines.append("   - Placement: Verify that [FN:N] markers sit at the END of the concept/phrase they explain (e.g. after the full term 'อะลิฟ ลาม มีม[FN:1]', not mid-word or awkwardly placed).")
     lines.append("   - No Space Before: [FN:N] must be glued directly to the preceding word without spaces.")
@@ -224,6 +233,15 @@ def export_chunk(chunk_name: str, ak_list: list[str], data_maps: tuple, out_fold
         if not v3_display:
             v3_display = v3_base
 
+        v4_rec = v4_map.get(ak)
+        if v4_rec:
+            v4_ann = v4_rec.get("translation_annotated", "")
+            v4_cat = v4_rec.get("v4_vs_v3_category", "")
+            v4_display = FN_BRACKET_RE.sub(r"[FN:\1]", v4_ann)
+        else:
+            v4_display = ""
+            v4_cat = ""
+
         tq_ref = rec.get("tq_reference", "")
         tq_tok = rec.get("tq_tokenized", "")
         tq_display = FN_TOKEN_RE.sub(r"[FN:\1]", tq_tok) if tq_tok else tq_ref
@@ -234,8 +252,11 @@ def export_chunk(chunk_name: str, ak_list: list[str], data_maps: tuple, out_fold
         if ar_txt:
             lines.append(f"AR: {ar_txt}")
         lines.append(f"V3 (BASE): {v3_display}")
+        if v4_display:
+            tag = f" [{v4_cat}]" if v4_cat and v4_cat != "IDENTICAL_TO_V3" else ""
+            lines.append(f"V4 (AUDITED REF){tag}: {v4_display}")
         if tq_display:
-            lines.append(f"TQ (REF):  {tq_display}")
+            lines.append(f"TQ (RAW REF):  {tq_display}")
         if saheeh_txt:
             lines.append(f"EN1 (Saheeh): {saheeh_txt}")
         if hilali_txt:
