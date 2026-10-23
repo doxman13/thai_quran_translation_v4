@@ -11,7 +11,7 @@ chunk_id	juz	chunk_in_juz	range	verses	filename	status	fix_count	fixes_summary	u
 10	4	1	3:93-3:148	56	juz_04_part1_3_93_to_3_148.txt	DONE	0		2026-10-23 14:50 UTC
 11	4	2	3:149-3:200	52	juz_04_part2_3_149_to_3_200.txt	DONE	7	3:154(อยู่ในหัวอก), 3:156(อยู่ ณ ที่เรา), 3:163(FN), 3:169(หามิได้), 3:170(FN), 3:184(ซะบูร), 3:196(ล่อลวง)	2026-10-24 00:07 UTC
 12	4	3	4:1-4:23	23	juz_04_part3_4_1_to_4_23.txt	DONE	6	4:7(กำหนด), 4:15(spacing), 4:16(spacing), 4:17(แหละที่), 4:23(FN4/5), 4:23(FN7)	2026-10-24 00:25 UTC
-13	5	1	4:24-4:65	42	juz_05_part1_4_24_to_4_65.txt	DONE	7	4:29(spacing), 4:32(spacing), 4:34(FN6), 4:36(spacing), 4:47(spacing), 4:54(spacing), 4:65(พระผู้อภิบาล)	2026-10-24 00:50 UTC
+13	5	1	4:24-4:65	42	juz_05_part1_4_24_to_4_65.txt	DONE	6	4:29(spacing), 4:32(spacing), 4:34(FN6), 4:36(spacing), 4:47(spacing), 4:54(spacing)	2026-10-24 00:50 UTC
 14	5	2	4:66-4:104	39	juz_05_part2_4_66_to_4_104.txt	PENDING	0		
 15	5	3	4:105-4:147	43	juz_05_part3_4_105_to_4_147.txt	PENDING	0		
 16	6	1	4:148-4:176	29	juz_06_part1_4_148_to_4_176.txt	PENDING	0		
