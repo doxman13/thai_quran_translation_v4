@@ -15,7 +15,10 @@ CRITICAL AUDIT INSTRUCTIONS (READ CAREFULLY):
    - Placement: Verify that [FN:N] markers sit at the END of the concept/phrase they explain (e.g. after the full term 'อะลิฟ ลาม มีม[FN:1]', not mid-word or awkwardly placed).
    - No Space Before: [FN:N] must be glued directly to the preceding word without spaces.
    - NO MECHANICAL SPACING AFTER: Thai is written continuously. Do NOT mechanically insert spaces after [FN:N] if the sentence continues naturally in Thai (e.g. DO NOT space in 'ตัวของพวกเจ้าเอง[FN:1]ออกจากหมู่บ้าน' or 'อาหารชนิดเดียว[FN:1]อีกต่อไปได้'). Add/keep spaces after [FN:N] ONLY for natural clause/sentence boundaries (e.g. before 'และ', 'หรือ', 'ดังนั้น', 'เพื่อว่า', 'ครั้งเมื่อ', or dialogue quotes '“...”').
-5. OUTPUT STRICT JSON FORMAT ONLY:
+5. CANONICAL TRANSLITERATION & TYPO CHECKLIST:
+   - Standardize transliteration: 'ชัยฏอน' (always use ฏ-ปฏัก, never ฎ-ชฎา), 'มลาอิกะฮฺ', 'อิบรอฮีม', 'อิสมาอีล', 'อิสฮาก', 'ยะอฺกูบ', 'มูซา', 'อีซา', 'นูฮฺ'.
+   - Fix historical OCR typos: 'กระนั้นหรือ' (never 'กระนั่นหรือ'), 'ดื้อรั้น' (never 'ดื้อดัน'), 'ผาสุก' (never 'ผาสุข'), 'กัมปนาท' (never 'กำปนาท'), 'บิดพลิ้ว' (never 'บิดพริ้ว'), 'นัยน์ตา' (never 'นัยตา'), 'ศีรษะ' (never 'ศรีษะ').
+6. OUTPUT STRICT JSON FORMAT ONLY:
 [
   {
     "ayah": "S:A",
