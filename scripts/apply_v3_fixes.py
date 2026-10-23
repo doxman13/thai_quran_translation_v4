@@ -367,6 +367,13 @@ def main():
     print(f"\nSuccessfully applied {len(validated_fixes)} fixes to {BASE_DATA_PATH}")
     print(f"Total fixes recorded in {MANUAL_FIXES_JSON}: {len(existing_log)}")
 
+    # Automatically refresh the public Transparency & Errata Catalog
+    try:
+        from generate_errata_catalog import main as update_catalog
+        update_catalog()
+    except Exception as e:
+        pass
+
     # Re-export affected Juz chunks (only if explicitly requested via --re-export)
     if args.re_export:
         print("\nRe-exporting affected Juz and Subchunks...")

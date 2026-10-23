@@ -325,6 +325,14 @@ def main():
     sync_to_web(selected, dry_run=args.dry_run)
     sync_to_app(selected, dry_run=args.dry_run)
 
+    # Automatically refresh public transparency catalog
+    if not args.dry_run:
+        try:
+            from generate_errata_catalog import main as update_catalog
+            update_catalog()
+        except Exception:
+            pass
+
     if args.dry_run:
         print("\n[DRY-RUN COMPLETE] No files were modified.")
         return
