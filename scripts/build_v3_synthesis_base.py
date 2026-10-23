@@ -430,6 +430,135 @@ def main():
             "replacement": "แก่พวกเรา[FN:2] เช่นเดียวกับที่พระองค์",
             "reason": "Footnote spacing before comparative clause 'เช่นเดียวกับ'."
         },
+        # --- Chunk 8 Verified Fixes ---
+        {
+            "ayah": "3:3",
+            "target": "เพื่อยืนยันคัมภีร์ที่อยู่เบื้องหน้า[FN:2]คัมภีร์นั้น และ",
+            "replacement": "เพื่อยืนยันคัมภีร์ที่อยู่เบื้องหน้าคัมภีร์นั้น[FN:2] และ",
+            "reason": "Move footnote tag after complete noun phrase."
+        },
+        {
+            "ayah": "3:4",
+            "target": "แท้จริง บรรดาผู้ปฏิเสธศรัทธา",
+            "replacement": "แท้จริงบรรดาผู้ปฏิเสธศรัทธา",
+            "reason": "De-Overkill Spacing after แท้จริง."
+        },
+        {
+            "ayah": "3:8",
+            "target": "ความจริงเลยหลังจากที่พระองค์",
+            "replacement": "ความจริงเลย หลังจากที่พระองค์",
+            "reason": "Cadence spacing before temporal clause หลังจากที่."
+        },
+        {
+            "ayah": "3:25",
+            "target": "ไม่มีการสงสัยใด[FN:2] ๆ",
+            "replacement": "ไม่มีการสงสัยใด ๆ[FN:2]",
+            "reason": "Move footnote tag after maiyamok 'ๆ'."
+        },
+        {
+            "ayah": "3:33",
+            "target": "อาดัม และนูหฺ และวงศ์วานของอิบรอฮีม",
+            "replacement": "อาดัม และนูฮฺ และวงศ์วานของอิบรอฮีม",
+            "reason": "Standardize transliteration นูฮฺ with ฮ-นกฮูก."
+        },
+        {
+            "ayah": "3:34",
+            "target": "เป็นเผ่าพันธ์ซึ่งสืบเชื้อสาย",
+            "replacement": "เป็นเผ่าพันธุ์ซึ่งสืบเชื้อสาย",
+            "reason": "Correct Thai dictionary spelling เผ่าพันธุ์."
+        },
+        {
+            "ayah": "3:39",
+            "target": "อยู่ในอัลมิหฺรอบว่า[FN:2] แท้จริง",
+            "replacement": "อยู่ในอัลมิหฺรอบ[FN:2]ว่า แท้จริง",
+            "reason": "Move footnote tag after place noun อัลมิหฺรอบ."
+        },
+        # --- Chunk 9 Verified Fixes ---
+        {
+            "ayah": "3:49",
+            "target": "เป็นศาสนฑูตไปยังวงศ์วานอีสรออีล",
+            "replacement": "เป็นศาสนทูตไปยังวงศ์วานอิสรออีล",
+            "reason": "Correct Thai typo ศาสนทูต and standardize transliteration อิสรออีล."
+        },
+        {
+            "ayah": "3:50",
+            "target": "พึงยำเกรงอันลอฮฺเถิด",
+            "replacement": "พึงยำเกรงอัลลอฮฺเถิด",
+            "reason": "Correct severe OCR typo อันลอฮฺ -> อัลลอฮฺ."
+        },
+        {
+            "ayah": "3:62",
+            "target": "และแท้จริงอัลลอฮฺ คือผู้ทรงเดชานุภาพ",
+            "replacement": "และแท้จริงอัลลอฮฺคือผู้ทรงเดชานุภาพ",
+            "reason": "De-Overkill Spacing before คือ."
+        },
+        {
+            "ayah": "3:64",
+            "target": "เท่าเทียมกัน[FN:1] ระหว่างเราและพวกท่าน",
+            "replacement": "เท่าเทียมกัน[FN:1]ระหว่างเราและพวกท่าน",
+            "reason": "Continuous phrasing without unnecessary space after FN."
+        },
+        {
+            "ayah": "3:80",
+            "target": "และพวกเขาจะไม่ใช้พวกเจ้า",
+            "replacement": "และเขาจะไม่ใช้พวกเจ้า",
+            "reason": "Correct singular 3rd person pronoun เขา for وَلَا يَأۡمُرَكُمۡ referring to the Prophet."
+        },
+        {
+            "ayah": "3:84",
+            "target": "และอิสหาก",
+            "replacement": "และอิสฮาก",
+            "reason": "Standardize transliteration อิสฮาก with ฮ-นกฮูก."
+        },
+        {
+            "ayah": "3:87",
+            "target": "จากมะอิกะฮฺ",
+            "replacement": "จากมลาอิกะฮฺ",
+            "reason": "Correct OCR typo มะอิกะฮฺ -> มลาอิกะฮฺ."
+        },
+        {
+            "ayah": "3:88",
+            "target": "จะไม่ถูกประวิง[FN:1] อีกด้วย",
+            "replacement": "จะไม่ถูกประวิง[FN:1]อีกด้วย",
+            "reason": "No unnecessary space after FN within continuous clause."
+        },
+        # --- Chunk 10 Verified Fixes ---
+        {
+            "ayah": "3:99",
+            "target": "ให้ทางของอัลลอฮฺคด ทั้ง[FN:1] ๆ ที่",
+            "replacement": "ให้ทางของอัลลอฮฺคดเคี้ยว[FN:1] ทั้ง ๆ ที่",
+            "reason": "Restore missing syllable 'เคี้ยว' to make 'คดเคี้ยว' for عِوَجٗา as verified in printed King Fahd Mushaf and FN 1, and move FN after noun phrase."
+        },
+        {
+            "ayah": "3:103",
+            "target": "และจำรำลึกถึงความเมตตา",
+            "replacement": "และจงรำลึกถึงความเมตตา",
+            "reason": "Correct OCR typo จำ -> จง for وَٱذۡكُرُواْ."
+        },
+        {
+            "ayah": "3:103",
+            "target": "ในทำนองนั้นแหละอัลลอฮฺ",
+            "replacement": "ในทำนองนั้นแหละ อัลลอฮฺ",
+            "reason": "Cadence spacing after conjunction phrase ในทำนองนั้นแหละ."
+        },
+        {
+            "ayah": "3:119",
+            "target": "ถึงรู้เถิดว่า พวกเจ้านี้แหละ",
+            "replacement": "พึงรู้เถิดว่า พวกเจ้านี้แหละ",
+            "reason": "Correct OCR typo ถึงรู้เถิดว่า -> พึงรู้เถิดว่า for هَٰٓأَنتُمۡ."
+        },
+        {
+            "ayah": "3:125",
+            "target": "และพวกเขาจะ[FN:2]มายังพวกเจ้า",
+            "replacement": "และพวกเขา[FN:2]จะมายังพวกเจ้า",
+            "reason": "Move footnote tag after pronoun พวกเขา."
+        },
+        {
+            "ayah": "3:137",
+            "target": "ซึ่งแนวทางต่าง[FN:1] ๆ ดังนั้นพวกเจ้า",
+            "replacement": "ซึ่งแนวทางต่าง ๆ[FN:1] ดังนั้นพวกเจ้า",
+            "reason": "Move footnote tag after maiyamok 'ๆ'."
+        },
         {
             "ayah": "2:268",
             "target": "ชัยฎอนนั้น",
