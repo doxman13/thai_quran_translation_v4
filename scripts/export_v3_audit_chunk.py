@@ -207,6 +207,7 @@ def export_chunk(chunk_name: str, ak_list: list[str], data_maps: tuple, out_fold
     lines.append("     Cross-check against the scanned pages! If V3 dropped a word/syllable (e.g. 3:99 'คดเคี้ยว', 2:174 'ของ'), RESTORE IT!")
     lines.append("   - V4 SCHOLAR REF: V4 represents the scholar-reviewed edition by ThaiQuran in consultation with Ajarn Asman Meesomboon.")
     lines.append("     When V4 remedies ambiguities, grammar, or awkward phrasing from the 1990 print (e.g. 3:156 'อยู่ ณ ที่เรา', 3:169 'หามิได้', 3:196 'ล่อลวง'), ADOPT V4's enhancement!")
+    lines.append("   - THEOLOGICAL PRECISION (TAWHID): When V4 translates 'رَبّ' (Rabb) as 'พระผู้อภิบาล' (The Sustainer/Nurturer), ADOPT V4's 'พระผู้อภิบาล' to honor Tawhid ar-Rububiyyah! Keep 'พระเจ้า' for 'إِلَـٰه' (Ilah - The Worshipped God).")
     lines.append("4. FOOTNOTE PLACEMENT & SPACING:")
     lines.append("   - Placement: Verify that [FN:N] markers sit at the END of the concept/phrase they explain (e.g. after the full term 'อะลิฟ ลาม มีม[FN:1]', not mid-word or awkwardly placed).")
     lines.append("   - No Space Before: [FN:N] must be glued directly to the preceding word without spaces.")
