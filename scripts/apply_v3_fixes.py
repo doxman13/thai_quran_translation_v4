@@ -199,6 +199,7 @@ def main():
             with open(file_path, "r", encoding="utf-8") as f:
                 raw_input = f.read()
             print(f"Loaded {len(raw_input)} characters from file: {file_path}")
+        is_valid, proposed_fixes = extract_fixes_from_text(raw_input)
     else:
         print("Reading fixes from clipboard...")
         raw_input = get_clipboard_text()
