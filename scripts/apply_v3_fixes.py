@@ -302,11 +302,11 @@ def main():
         return
 
     print(f"All {len(validated_fixes)} fixes passed 100% of safety guardrails!")
+    for vf in validated_fixes:
+        print(f"[FIX] {vf['ayah']} [{vf['type']}]: '{vf['target']}' -> '{vf['replacement']}' ({vf['reason']})")
 
     if args.dry_run:
-        print("[DRY-RUN] No files modified.")
-        for idx, vf in enumerate(validated_fixes, 1):
-            print(f"  [{idx}] {vf['ayah']} [{vf['type']}]: '{vf['target']}' -> '{vf['replacement']}' ({vf['reason']})")
+        print("\n[DRY-RUN] No files modified.")
         return
 
     # Apply fixes into database
