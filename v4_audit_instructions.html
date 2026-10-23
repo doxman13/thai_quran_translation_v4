@@ -429,13 +429,24 @@
                             </td>
                             <td>เปลี่ยนสถานะ Chunk เป็น DONE ใน Tracker TSV</td>
                         </tr>
-                        <tr style="background: rgba(52, 211, 153, 0.05);">
-                            <td><strong style="color:var(--success);">6. จบ Session: Git Commit & Push</strong></td>
+                        <tr style="background: rgba(14, 165, 233, 0.08);">
+                            <td><strong style="color:var(--primary-light, #38bdf8);">6. ทยอย Sync ขึ้น Production (Live Web & App)</strong></td>
                             <td>
-                                <code class="cmd-mac">git add . && git commit -m "Audit Juz 1 Part 1 verified" && git push</code>
-                                <code class="cmd-win">git add . ; git commit -m "Audit Juz 1 Part 1 verified" ; git push</code>
+                                <code class="cmd-mac">python3 scripts/sync_v3_to_all.py</code>
+                                <code class="cmd-win">python scripts/sync_v3_to_all.py</code>
+                                <div style="font-size: 0.8rem; margin-top: 4px; color: var(--text-muted);">
+                                    หรือระบุรายญุซอฺ: <code>python3 scripts/sync_v3_to_all.py --juz 1</code>
+                                </div>
                             </td>
-                            <td>บันทึกผลงานการ Audit ขึ้นสู่ GitHub Origin</td>
+                            <td>อัปเดตบทแปล & เชิงอรรถฉบับตรวจแล้วเข้าสู่ thai-quran-web และ thai-quran-app (JSON + SQLite DB) ทันที</td>
+                        </tr>
+                        <tr style="background: rgba(52, 211, 153, 0.05);">
+                            <td><strong style="color:var(--success);">7. จบ Session: Git Commit & Push ทุก Repos</strong></td>
+                            <td>
+                                <code class="cmd-mac">python3 scripts/sync_v3_to_all.py --push "Audit: Sync Juz 1 to production"</code>
+                                <code class="cmd-win">python scripts/sync_v3_to_all.py --push "Audit: Sync Juz 1 to production"</code>
+                            </td>
+                            <td>Sync ข้อมูลพร้อม Commit & Push ขึ้น GitHub ทั้ง 3 Repositories โดยอัตโนมัติ</td>
                         </tr>
                     </tbody>
                 </table>
@@ -562,29 +573,39 @@ python scripts/v3_tracker.py status</pre>
         <!-- TAB 4: FINISH SESSION -->
         <div id="finish" class="tab-pane">
             <div class="card">
-                <h2>🏁 ขั้นตอนการจบ Session</h2>
-                <p>เมื่อตรวจเสร็จสิ้นในแต่ละรอบ ให้สั่ง Commit และ Push ขึ้นสู่ Git Remote:</p>
+                <h2>🚀 ทยอย Sync ขึ้น Production และจบ Session</h2>
+                <p>คุณสามารถทยอย Sync ข้อความอายะฮฺที่ผ่านการตรวจสอบเรียบร้อยแล้ว เข้าสู่เว็บ (thai-quran-web) และแอป (thai-quran-app) ได้ตลอดเวลา:</p>
 
+                <h3>Option A: ทยอย Sync เฉพาะ Chunk ที่ตรวจเสร็จแล้ว (Gradual Sync)</h3>
                 <div class="command-block cmd-mac">
                     <div class="command-header">
                         <span>🍎 Terminal (macOS / zsh)</span>
                         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
                     </div>
-                    <pre>cd ~/Documents/gits/thai_quran_translation_v4
-git add .
-git commit -m "Audit: verified subchunk progress in Juz"
-git push origin v3_synthesis_audit</pre>
+                    <pre>python3 scripts/sync_v3_to_all.py</pre>
                 </div>
-
                 <div class="command-block cmd-win">
                     <div class="command-header">
                         <span>🪟 PowerShell (Windows)</span>
                         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
                     </div>
-                    <pre>cd H:\gits\thai_quran_translation_v4
-git add .
-git commit -m "Audit: verified subchunk progress in Juz"
-git push origin v3_synthesis_audit</pre>
+                    <pre>python scripts/sync_v3_to_all.py</pre>
+                </div>
+
+                <h3>Option B: Sync ทั้งหมดพร้อม Git Push อัตโนมัติทุก Repositories</h3>
+                <div class="command-block cmd-mac">
+                    <div class="command-header">
+                        <span>🍎 Terminal (macOS / zsh)</span>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    </div>
+                    <pre>python3 scripts/sync_v3_to_all.py --push "Audit: Sync verified progress to production"</pre>
+                </div>
+                <div class="command-block cmd-win">
+                    <div class="command-header">
+                        <span>🪟 PowerShell (Windows)</span>
+                        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    </div>
+                    <pre>python scripts/sync_v3_to_all.py --push "Audit: Sync verified progress to production"</pre>
                 </div>
             </div>
         </div>
