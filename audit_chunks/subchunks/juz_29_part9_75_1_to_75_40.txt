@@ -42,7 +42,7 @@ FN[1]: ข้าขอสาบานต่อวันแห่งการฟ�
 --------------------------------------------------------------------------------
 [75:3]
 AR: أَيَحۡسَبُ ٱلۡإِنسَٰنُ أَلَّن نَّجۡمَعَ عِظَامَهُۥ | ٣
-V3 (BASE): มนุษย์คิดหรือว่า เราจะไม่รวบรวมกระดูกของเขากระนั้นหรือ ?[FN:1]
+V3 (BASE): มนุษย์คิดหรือว่า เราจะไม่รวบรวมกระดูกของเขากระนั้นหรือ[FN:1]
 TQ (REF):  มนุษย์คิดหรือว่า เราจะไม่รวบรวมกระดูกของเขากระนั้นหรือ ?[FN:2]
 EN1 (Saheeh): Does man think that We will not assemble his bones?
 EN2 (Hilali-Khan): Does man (a disbeliever) think that We shall not assemble his bones?
@@ -93,7 +93,7 @@ EN2 (Hilali-Khan): And the sun and moon will be joined together (by going one in
 --------------------------------------------------------------------------------
 [75:10]
 AR: يَقُولُ ٱلۡإِنسَٰنُ يَوۡمَئِذٍ أَيۡنَ ٱلۡمَفَرُّ | ١٠
-V3 (BASE): วันนั้น มนุษย์จะกล่าวขึ้นว่า ไหนเล่าทางหนี ?[FN:1]
+V3 (BASE): วันนั้น มนุษย์จะกล่าวขึ้นว่า ไหนเล่าทางหนี[FN:1]
 TQ (REF):  วันนั้นมนุษย์จะกล่าวขึ้นว่าไหนเล่าทางหนี ?[FN:4]
 EN1 (Saheeh): Man will say on that Day, "Where is the [place of] escape?"
 EN2 (Hilali-Khan): On that Day man will say: "Where (is the refuge) to flee?"
@@ -123,7 +123,7 @@ FN[1]: เป็นการตอบปฏิเสธ เมื่อถาม
 --------------------------------------------------------------------------------
 [75:14]
 AR: بَلِ ٱلۡإِنسَٰنُ عَلَىٰ نَفۡسِهِۦ بَصِيرَةٞ | ١٤
-V3 (BASE): เปล่าเลย ! มนุษย์นั้นเป็นพยานต่อตัวของเขาเอง[FN:1]
+V3 (BASE): เปล่าเลย มนุษย์นั้นเป็นพยานต่อตัวของเขาเอง[FN:1]
 TQ (REF):  เปล่าเลย ! มนุษย์นั้นเป็นพยานต่อตัวของเขาเอง[FN:6]
 EN1 (Saheeh): Rather, man, against himself, will be a witness,
 EN2 (Hilali-Khan): Nay! Man will be a witness against himself [as his body parts (skin, hands, legs, etc.) will speak about his deeds],
@@ -311,7 +311,7 @@ EN2 (Hilali-Khan): And made of him two sexes, male and female.
 --------------------------------------------------------------------------------
 [75:40]
 AR: أَلَيۡسَ ذَٰلِكَ بِقَٰدِرٍ عَلَىٰٓ أَن يُحۡـِۧيَ ٱلۡمَوۡتَىٰ | ٤٠
-V3 (BASE): ดังนั้น พระองค์จะไม่สามารถที่จะให้คนตายมีชีวิตขึ้นมาอีก กระนั้นหรือ ?[FN:1]
+V3 (BASE): ดังนั้น พระองค์จะไม่สามารถที่จะให้คนตายมีชีวิตขึ้นมาอีก กระนั้นหรือ[FN:1]
 TQ (REF):  ดังนั้น พระองค์จะไม่สามารถที่จะให้คนตายมีชีวิตขึ้นมาอีกกระนั้นหรือ ?[FN:12]
 EN1 (Saheeh): Is not that [Creator] Able to give life to the dead?
 EN2 (Hilali-Khan): Is not He (Allâh Who does that) Able to give life to the dead? (Yes! He is Able to do all things).

@@ -183,6 +183,7 @@ def main():
     parser.add_argument("--file", "-f", type=str, help="Path to JSON file containing proposed fixes")
     parser.add_argument("--clipboard", "-c", action="store_true", help="Read fixes from system clipboard (default)")
     parser.add_argument("--dry-run", action="store_true", help="Validate fixes without modifying files")
+    parser.add_argument("--re-export", action="store_true", default=False, help="Re-export affected chunks (disabled by default to avoid mutating chunks during audit)")
     args = parser.parse_args()
 
     raw_input = ""
@@ -341,13 +342,15 @@ def main():
     print(f"\nSuccessfully applied {len(validated_fixes)} fixes to {BASE_DATA_PATH}")
     print(f"Total fixes recorded in {MANUAL_FIXES_JSON}: {len(existing_log)}")
 
-    # Re-export affected Juz chunks
-    print("\nRe-exporting affected Juz and Subchunks...")
-    for j in sorted(affected_juzs):
-        cmd = [sys.executable, str(REPO_ROOT / "scripts" / "export_v3_audit_chunk.py"), "--juz", str(j), "--subchunks"]
-        subprocess.run(cmd, check=True)
-
-    print("\nAll affected chunks re-exported successfully!")
+    # Re-export affected Juz chunks (only if explicitly requested via --re-export)
+    if args.re_export:
+        print("\nRe-exporting affected Juz and Subchunks...")
+        for j in sorted(affected_juzs):
+            cmd = [sys.executable, str(REPO_ROOT / "scripts" / "export_v3_audit_chunk.py"), "--juz", str(j), "--subchunks"]
+            subprocess.run(cmd, check=True)
+        print("\nAll affected chunks re-exported successfully!")
+    else:
+        print("\n[INFO] Chunk re-export skipped to maintain audit chunk stability. (Pass --re-export if you wish to re-export).")
 
 
 if __name__ == "__main__":

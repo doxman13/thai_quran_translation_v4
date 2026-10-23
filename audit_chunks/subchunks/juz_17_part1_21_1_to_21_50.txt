@@ -35,7 +35,7 @@ FN[1]: คือมัวเมาอยู่ในเรื่องตัณ�
 --------------------------------------------------------------------------------
 [21:2]
 AR: مَا يَأۡتِيهِم مِّن ذِكۡرٖ مِّن رَّبِّهِم مُّحۡدَثٍ إِلَّا ٱسۡتَمَعُوهُ وَهُمۡ يَلۡعَبُونَ | ٢
-V3 (BASE): ไม่มีข้อตักเตือนใหม่ ๆ จากพระผู้อภิบาลของเขามายังพวกเขา เว้นแต่ว่าพวกเขารับฟังมัน และพวกเขาล้อเล่นไปด้วย[FN:1]
+V3 (BASE): ไม่มีข้อตักเตือนใหม่ ๆ จากพระเจ้าของเขามายังพวกเขา เว้นแต่ว่าพวกเขารับฟังมัน และพวกเขาล้อเล่นไปด้วย[FN:1]
 TQ (REF):  ไม่มีข้อตักเตือนใหม่ ๆ จากพระผู้อภิบาลของเขามายังพวกเขา เว้นแต่ว่าพวกเขารับฟังมันและพวกเขาล้อเล่นไปด้วย[FN:2]
 EN1 (Saheeh): No mention [i.e., revelation] comes to them anew from their Lord except that they listen to it while they are at play
 EN2 (Hilali-Khan): Comes not unto them an admonition (a chapter of the Qur’ân) from their Lord as a recent revelation but they listen to it while they play
@@ -43,7 +43,7 @@ FN[1]: คือรับฟังพร้อมกับเหยียดห�
 --------------------------------------------------------------------------------
 [21:3]
 AR: لَاهِيَةٗ قُلُوبُهُمۡۗ وَأَسَرُّواْ ٱلنَّجۡوَى ٱلَّذِينَ ظَلَمُواْ هَلۡ هَٰذَآ إِلَّا بَشَرٞ مِّثۡلُكُمۡۖ أَفَتَأۡتُونَ ٱلسِّحۡرَ وَأَنتُمۡ تُبۡصِرُونَ | ٣
-V3 (BASE): จิตใจของพวกเขาเผลอเรอ[FN:1] และบรรดาผู้อธรรมต่างกระซิบกระซาบระหว่างกันว่า เขา (มุฮัมมัด) นี้มิใช่ใครอื่น นอกจากเป็นสามัญชนเยี่ยงพวกท่าน[FN:2] พวกท่านจะยอมรับมายากล ทั้ง ๆ ที่พวกท่านรู้เห็นอยู่ว่ามันเป็นมายากลกระนั้นหรือ ?[FN:3]
+V3 (BASE): จิตใจของพวกเขาเผลอเรอ[FN:1] และบรรดาผู้อธรรมต่างกระซิบกระซาบระหว่างกันว่า เขา (มุฮัมมัด) นี้มิใช่ใครอื่น นอกจากเป็นสามัญชนเยี่ยงพวกท่าน[FN:2] พวกท่านจะยอมรับมายากล ทั้ง ๆ ที่พวกท่านรู้เห็นอยู่ว่ามันเป็นมายากลกระนั้นหรือ[FN:3]
 TQ (REF):  จิตใจของพวกเขาเผลอเรอ[FN:3] และบรรดาผู้อธรรมต่างกระซิบกระซาบระหว่างกันว่า เขา(มุฮัมมัด) นี้มิใช่ใครอื่น นอกจากเป็นสามัญชนเยี่ยงพวกท่าน[FN:4] พวกท่านจะยอมรับมายากล ทั้ง ๆ ที่พวกท่านรู้เห็นอยู่ว่ามันเป็นมายากลกระนั้นหรือ ?[FN:5]
 EN1 (Saheeh): With their hearts distracted. And those who do wrong conceal their private conversation, [saying], "Is this [Prophet] except a human being like you? So would you approach magic while you are aware [of it]?"
 EN2 (Hilali-Khan): With their hearts occupied (with evil things). Those who do wrong, conceal their private counsels, (saying): "Is this (Muhammad صلى الله عليه وسلم) more than a human being like you? Will you submit to magic while you see it?"
@@ -53,7 +53,7 @@ FN[3]: มายากลในที่นี้ในทัศนะของ�
 --------------------------------------------------------------------------------
 [21:4]
 AR: قَالَ رَبِّي يَعۡلَمُ ٱلۡقَوۡلَ فِي ٱلسَّمَآءِ وَٱلۡأَرۡضِۖ وَهُوَ ٱلسَّمِيعُ ٱلۡعَلِيمُ | ٤
-V3 (BASE): เขา (มุฮัมมัด) กล่าวว่า “พระผู้อภิบาลของฉันทรงรอบรู้ทุกคำพูด ทั้งในชั้นฟ้าและแผ่นดิน และพระองค์เป็นผู้ทรงได้ยิน เป็นผู้ทรงรอบรู้”[FN:1]
+V3 (BASE): เขา (มุฮัมมัด) กล่าวว่า พระเจ้าของฉันทรงรอบรู้ทุกคำพูด ทั้งในชั้นฟ้าและแผ่นดิน และพระองค์เป็นผู้ทรงได้ยิน เป็นผู้ทรงรอบรู้[FN:1]
 TQ (REF):  เขา(มุฮัมมัด) กล่าวว่า “พระผู้อภิบาลของฉันทรงรอบรู้ทุกคำพูด ทั้งในชั้นฟ้าและแผ่นดิน และพระองค์เป็นผู้ทรงได้ยิน เป็นผู้ทรงรอบรู้”[FN:6]
 EN1 (Saheeh): He [the Prophet (ﷺ)] said, "My Lord knows whatever is said throughout the heaven and earth, and He is the Hearing, the Knowing."
 EN2 (Hilali-Khan): He (Muhammad صلى الله عليه وسلم) said: "My Lord knows (every) word (spoken) in the heavens and on earth. And He is the All-Hearer, the All-Knower."
@@ -61,7 +61,7 @@ FN[1]: ในการนี้เป็นการขู่และเตื�
 --------------------------------------------------------------------------------
 [21:5]
 AR: بَلۡ قَالُوٓاْ أَضۡغَٰثُ أَحۡلَٰمِۭ بَلِ ٱفۡتَرَىٰهُ بَلۡ هُوَ شَاعِرٞ فَلۡيَأۡتِنَا بِـَٔايَةٖ كَمَآ أُرۡسِلَ ٱلۡأَوَّلُونَ | ٥
-V3 (BASE): แต่ทว่าพวกเขากล่าวว่า “มันเป็นความฝันที่สับสน หากแต่ว่าเขาได้เสกสรรปั้นแต่งมันขึ้น หากแต่ว่าเขาเป็นกวี[FN:1] ถ้าเช่นนั้น ให้เขานำหลักฐานหนึ่งมาแสดงแก่เรา เช่นเดียวกับบุคคลในยุคก่อน ๆ ได้ถูกส่งมา”[FN:2]
+V3 (BASE): แต่ทว่าพวกเขากล่าวว่า มันเป็นความฝันที่สับสน หากแต่ว่าเขาได้เสกสรรปั้นแต่งมันขึ้น หากแต่ว่าเขาเป็นกวี[FN:1] ถ้าเช่นนั้น ให้เขานำหลักฐานหนึ่งมาแสดงแก่เรา เช่นเดียวกับบุคคลในยุคก่อน ๆ ได้ถูกส่งมา[FN:2]
 TQ (REF):  แต่ทว่าพวกเขากล่าวว่า “มันเป็นความฝันที่สับสน หากแต่ว่าเขาได้เสกสรรปั้นแต่งมันขึ้นหาก แต่ว่าเขาเป็นกวี[FN:7] ถ้าเช่นนั้น ให้เขานำหลักฐานหนึ่งมาแสดงแก่เรา เช่นเดียวกับบุคคลในยุคก่อนๆ ได้ถูกส่งมา”[FN:8]
 EN1 (Saheeh): But they say, "[The revelation is but] a mixture of false dreams; rather, he has invented it; rather, he is a poet. So let him bring us a sign just as the previous [messengers] were sent [with miracles]."
 EN2 (Hilali-Khan): Nay, they say: "These (revelations of the Qur’ân which are revealed to Muhammad صلى الله عليه وسلم) are mixed up false dreams! Nay, he has invented them! - Nay, he is a poet! Let him then bring us an Ayâh (sign as a proof) like the ones (Prophets) the former were sent (with)!"
@@ -70,7 +70,7 @@ FN[2]: คือให้มุฮัมมัดนำสิ่งปาฏิ�
 --------------------------------------------------------------------------------
 [21:6]
 AR: مَآ ءَامَنَتۡ قَبۡلَهُم مِّن قَرۡيَةٍ أَهۡلَكۡنَٰهَآۖ أَفَهُمۡ يُؤۡمِنُونَ | ٦
-V3 (BASE): ไม่มีชาวเมืองใดก่อนหน้าพวกเขา (มุชริกีนมักกะฮฺ) ซึ่งเราได้ทำลายมัน (ชาวเมืองนั้น) ได้ศรัทธา แล้วพวกเขา (มุชริกีนมักกะฮฺ) จะศรัทธากระนั้นหรือ?[FN:1]
+V3 (BASE): ไม่มีชาวเมืองใดก่อนหน้าพวกเขา (มุชริกีนมักกะฮฺ) ซึ่งเราได้ทำลายมัน (ชาวเมืองนั้น) ได้ศรัทธา แล้วพวกเขา (มุชริกีนมักกะฮฺ) จะศรัทธากระนั้นหรือ[FN:1]
 TQ (REF):  ไม่มีชาวเมืองใดก่อนหน้าพวกเขา(มุชริกีนมักกะฮ์) ซึ่งเราได้ทำลายมัน (ชาวเมืองนั้น) ได้ศรัทธาแล้วพวกเขา (มุชริกีนมักกะฮ์) จะศรัทธากระนั้นหรือ?[FN:9]
 EN1 (Saheeh): Not a [single] city which We destroyed believed before them, so will they believe?
 EN2 (Hilali-Khan): Not one of the towns (populations), of those which We destroyed, believed before them (though We sent them signs): will they then believe?
@@ -78,7 +78,7 @@ FN[1]: ก่อนหน้าพวกมุชริกีนมักกะ�
 --------------------------------------------------------------------------------
 [21:7]
 AR: وَمَآ أَرۡسَلۡنَا قَبۡلَكَ إِلَّا رِجَالٗا نُّوحِيٓ إِلَيۡهِمۡۖ فَسۡـَٔلُوٓاْ أَهۡلَ ٱلذِّكۡرِ إِن كُنتُمۡ لَا تَعۡلَمُونَ | ٧
-V3 (BASE): เรามิได้ส่งผู้ใดมาก่อนเจ้า นอกจากเป็นผู้ช่วย ซึ่งเราวะฮียฺแก่พวกเขา ดังนั้นพวกเจ้า (ชาวมักกะฮฺ) จงถามบรรดาผู้รู้เถิด หากพวกเจ้าไม่รู้[FN:1]
+V3 (BASE): และเรามิได้ส่งผู้ใดก่อนหน้าเจ้า นอกจากมนุษย์เพศซึ่งเราวะฮียฺแก่พวกเขา ดังนั้นพวกเจ้า (ชาวมักกะฮฺ) จงถามบรรดาผู้รู้เถิด หากพวกเจ้าไม่รู้[FN:1]
 TQ (REF):  เรามิได้ส่งผู้ใดมาก่อนเจ้านอกจากเป็นผู้ช่วย ซึ่งเราวะฮีย์แก่พวกเขา ดังนั้น พวกเจ้า(ชาวมักกะฮ์) จงถามบรรดาผู้รู้เถิด หากพวกเจ้าไม่รู้[FN:10]
 EN1 (Saheeh): And We sent not before you, [O Muḥammad], except men to whom We revealed [the message], so ask the people of the message [i.e., former scriptures] if you do not know.
 EN2 (Hilali-Khan): And We sent not before you (O Muhammad صلى الله عليه وسلم) but men to whom We revealed. So ask the people of the Reminder [Scriptures - the Taurât (Torah), the Injeel (Gospel)] if you do not know.
@@ -94,7 +94,7 @@ FN[1]: คือบรรดานบีนั้นกินและดื่�
 --------------------------------------------------------------------------------
 [21:9]
 AR: ثُمَّ صَدَقۡنَٰهُمُ ٱلۡوَعۡدَ فَأَنجَيۡنَٰهُمۡ وَمَن نَّشَآءُ وَأَهۡلَكۡنَا ٱلۡمُسۡرِفِينَ | ٩
-V3 (BASE): และเราได้ทำให้สัญญาเป็นที่ประจักษ์จริงแก่พวกเขาแล้ว และเราได้ให้พวกเขารอดพ้น และผู้ที่ประสงค์[FN:1] และเราได้ทำลายผู้ปฏิเสธละเมิดฝ่าฝืน
+V3 (BASE): และเราได้ทำให้สัญญาเป็นที่ประจักษ์จริงแก่พวกเขา และเราได้ให้พวกเขารอดพ้น และผู้ที่ประสงค์[FN:1] และเราได้ทำลายผู้ปฏิเสธละเมิดฝ่าฝืน
 TQ (REF):  และเราได้ทำให้สัญญาเป็นที่ประจักษ์จริงแก่พวกเขาแล้ว และเราได้ให้พวกเขารอดพ้นและผู้ที่ประสงค์[FN:12] และเราได้ทำลายผู้ปฏิเสธ ละเมิดฝ่าฝืน
 EN1 (Saheeh): Then We fulfilled for them the promise, and We saved them and whom We willed and destroyed the transgressors.
 EN2 (Hilali-Khan): Then We fulfilled to them the promise. So We saved them and those whom We willed, but We destroyed Al-Musrifûn (i.e. disbelievers in Allah, in His Messengers, extravagants, transgressors of Allâh’s limits by committing crimes, oppressions, polytheism and sins).
@@ -106,7 +106,7 @@ V3 (BASE): เราขอสาบานว่า[FN:1] แท้จริง�
 TQ (REF):  เราขอสาบานว่า[FN:13] แท้จริงเราได้ให้คัมภีร์อัลกุรอานมายังพวกเจ้า ในนั้นมีข้อเตือนสติแก่พวกเจ้า[FN:14] พวกเจ้าไม่ใช้สติปัญญาคิดบ้างดอกหรือ
 EN1 (Saheeh): We have certainly sent down to you a Book [i.e., the Qur’ān] in which is your mention. Then will you not reason?
 EN2 (Hilali-Khan): Indeed, We have sent down for you (O mankind) a Book (the Qur’ân) in which there is Dhikrukum,(your Reminder or an honour for you i.e. honour for the one who follows the teaching of the Qur’ân and acts on its teachings). Will you not then understand?
-FN[1]: อักษร ลาม ใช้สำหรับสาบาน เรียกว่า “ลามคอสัม”
+FN[1]: อักษร ลาม ใช้สำหรับสาบาน เรียกว่า เรียกว่า “ลามคอสัม”
 FN[2]: คือเป็นคัมภีร์ที่ไม่มีคัมภีร์อื่นใดเสมอเหมือน นับได้ว่าเป็นเกียรติแก่พวกท่าน เพราะมันเป็นภาษาของพวกท่าน
 --------------------------------------------------------------------------------
 [21:11]
@@ -125,7 +125,7 @@ EN2 (Hilali-Khan): Then, when they perceived (saw) Our Torment (coming), behold,
 --------------------------------------------------------------------------------
 [21:13]
 AR: لَا تَرۡكُضُواْ وَٱرۡجِعُوٓاْ إِلَىٰ مَآ أُتۡرِفۡتُمۡ فِيهِ وَمَسَٰكِنِكُمۡ لَعَلَّكُمۡ تُسۡـَٔلُونَ | ١٣
-V3 (BASE): (มลาอิกะฮฺพูดกับพวกนั้นว่า) “พวกท่านอย่าวิ่งหนีซิ และจงกลับไปยังสิ่งที่พวกท่านได้รับความสำราญ และยังที่พักของพวกท่าน เพื่อว่าพวกท่านจะได้ถูกสอบถามสิ่งที่เกิดขึ้นแก่ท่าน”[FN:1]
+V3 (BASE): (มลาอิกะฮฺพูดกับพวกนั้นว่า) พวกท่านอย่าวิ่งหนีซิ และจงกลับไปยังสิ่งที่พวกท่านได้รับความสำราญ และยังที่พักของพวกท่าน เพื่อว่าพวกท่านจะได้ถูกสอบถามสิ่งที่เกิดขึ้นแก่ท่าน[FN:1]
 TQ (REF):  (มลาอิกะฮ์พูดกับพวกนั้นว่า) “พวกท่านอย่าวิ่งหนีซิ และจงกลับไปยังสิ่งที่พวกท่านได้รับความสำราญ และยังที่พักของพวกท่าน เพื่อว่าพวกท่านจะได้ถูกสอบถามสิ่งที่เกิดขึ้นแก่ท่าน”[FN:15]
 EN1 (Saheeh): [Some angels said], "Do not flee but return to where you were given luxury and to your homes - perhaps you will be questioned."
 EN2 (Hilali-Khan): Flee not, but return to that wherein you lived a luxurious life, and to your homes, in order that you may be questioned.
@@ -133,7 +133,7 @@ FN[1]: ทั้งหมดนี้เป็นการเย้ยหยั�
 --------------------------------------------------------------------------------
 [21:14]
 AR: قَالُواْ يَٰوَيۡلَنَآ إِنَّا كُنَّا ظَٰلِمِينَ | ١٤
-V3 (BASE): พวกเขากล่าวว่า “โอ้ ความหายนะที่เกิดขึ้นแก่เรา แท้จริงเรานั้นเป็นผู้อธรรม”[FN:1]
+V3 (BASE): พวกเขากล่าวว่า โอ้ ความหายนะที่เกิดขึ้นแก่เรา แท้จริงเรานั้นเป็นผู้อธรรม[FN:1]
 TQ (REF):  พวกเขากล่าวว่า “โอ้ ความหายนะที่เกิดขึ้นแก่เรา แท้จริงเรานั้นเป็นผู้อธรรม”[FN:16]
 EN1 (Saheeh): They said, "O woe to us! Indeed, we were wrongdoers."
 EN2 (Hilali-Khan): They cried: "Woe to us! Certainly we have been Zâlimûn (polytheists, wrong-doers and disbelievers in the Oneness of Allâh)."
@@ -160,7 +160,7 @@ V3 (BASE): หากเราปรารถนาที่จะเอาเป
 TQ (REF):  หากเราปรารถนาที่จะเอาเป็นเครื่องเล่นสนุกสนาน เราก็จะเอามันจากที่มีอยู่ที่เรา หากเราปรารถนาจะกระทำเช่นนั้น[FN:18]
 EN1 (Saheeh): Had We intended to take a diversion, We could have taken it from [what is] with Us - if [indeed] We were to do so.
 EN2 (Hilali-Khan): Had We intended to take a pastime (i.e. a wife or a son), We could surely have taken it from Us, if We were going to do (that).
-FN[1]: หากเราทำเช่นนั้นเป็นการขัดกับหิกมะฮฺของเรา ดังนั้นเราจึงไม่ทำมัน
+FN[1]: หากเราทำเช่นนั้นเป็นการขัดกับฮิกมะฮฺของเรา ดังนั้นเราจึงไม่ทำมัน
 --------------------------------------------------------------------------------
 [21:18]
 AR: بَلۡ نَقۡذِفُ بِٱلۡحَقِّ عَلَى ٱلۡبَٰطِلِ فَيَدۡمَغُهُۥ فَإِذَا هُوَ زَاهِقٞۚ وَلَكُمُ ٱلۡوَيۡلُ مِمَّا تَصِفُونَ | ١٨
@@ -211,7 +211,7 @@ FN[2]: คือถูกสอบสวนในการงานของพ�
 --------------------------------------------------------------------------------
 [21:24]
 AR: أَمِ ٱتَّخَذُواْ مِن دُونِهِۦٓ ءَالِهَةٗۖ قُلۡ هَاتُواْ بُرۡهَٰنَكُمۡۖ هَٰذَا ذِكۡرُ مَن مَّعِيَ وَذِكۡرُ مَن قَبۡلِيۚ بَلۡ أَكۡثَرُهُمۡ لَا يَعۡلَمُونَ ٱلۡحَقَّۖ فَهُم مُّعۡرِضُونَ | ٢٤
-V3 (BASE): พวกเขาได้ยึดถือบรรดาพระเจ้า นอกจากพระองค์กระนั้นหรือ? จงกล่าวเถิดมุฮัมมัด “ขอให้พวกท่านนำหลักฐานของพวกท่านมา[FN:1] นี่คือคัมภีร์ที่อยู่กับฉัน (อัลกุรอาน) และคัมภีร์ที่มีอยู่ก่อนหน้าฉัน (เตารอตและอินญีล)”[FN:2] แต่ว่าส่วนใหญ่ของพวกเขาไม่รู้ความจริง พวกเขาจึงผินหลังเมินห่าง
+V3 (BASE): พวกเขาได้ยึดถือบรรดาพระเจ้า นอกจากพระองค์กระนั้นหรือ จงกล่าวเถิดมุฮัมมัด ขอให้พวกท่านนำหลักฐานของพวกท่านมา[FN:1] นี่คือคัมภีร์ที่อยู่กับฉัน (อัลกุรอาน) และคัมภีร์ที่มีอยู่ก่อนหน้าฉัน (เตารอตและอินญีล)[FN:2] แต่ว่าส่วนใหญ่ของพวกเขาไม่รู้ความจริง พวกเขาจึงผินหลังเมินห่าง
 TQ (REF):  พวกเขาได้ยึดถือบรรดาพระเจ้า นอกจากพระองค์กระนั้นหรือ? จงกล่าวเถิดมุฮัมมัด “ขอให้พวกท่านนำหลักฐานของพวกท่านมา[FN:24] นี่คือคัมภีร์ที่อยู่กับฉัน (อัลกุรอาน) และคัมภีร์ที่มีอยู่ก่อนหน้าฉัน (เตารอตและอินญีล)”[FN:25] แต่ว่าส่วนใหญ่ของพวกเขาไม่รู้ความจริง พวกเขาจึงผินหลังเมินห่าง
 EN1 (Saheeh): Or have they taken gods besides Him? Say, [O Muḥammad], "Produce your proof. This [Qur’ān] is the message for those with me and the message of those before me." But most of them do not know the truth, so they are turning away.
 EN2 (Hilali-Khan): Or have they taken for worship (other) âlihah (gods) besides Him? Say: "Bring your proof." This (the Qur’ân) is the Reminder for those with me and the Reminder for those before me. But most of them know not the Truth, so they are averse.
@@ -227,7 +227,7 @@ EN2 (Hilali-Khan): And We did not send any Messenger before you (O Muhammad صل
 --------------------------------------------------------------------------------
 [21:26]
 AR: وَقَالُواْ ٱتَّخَذَ ٱلرَّحۡمَٰنُ وَلَدٗاۗ سُبۡحَٰنَهُۥۚ بَلۡ عِبَادٞ مُّكۡرَمُونَ | ٢٦
-V3 (BASE): และพวกเขา (มุชริกูน) กล่าวว่า “พระผู้ทรงกรุณาปรานีทรงยึดมลาอิกะฮฺเป็นพระบุตร”[FN:1] มหาบริสุทธิ์แห่งพระองค์ แต่ว่าพวกเขา (มลาอิกะฮฺ) เป็นบ่าวผู้มีเกียรติ[FN:2]
+V3 (BASE): และพวกเขา (มุชริกูน) กล่าวว่า พระผู้ทรงกรุณาปรานีทรงยึดมลาอิกะฮฺเป็นพระบุตร[FN:1] มหาบริสุทธิ์แห่งพระองค์ แต่ว่าพวกเขา (มลาอิกะฮฺ) เป็นบ่าวผู้มีเกียรติ[FN:2]
 TQ (REF):  และพวกเขา(มุชริกูน) กล่าวว่า "พระผู้ทรงกรุณาปรานีทรงยึดมลาอิกะฮ์เป็นพระบุตร”[FN:26] มหาบริสุทธิ์แห่งพระองค์ แต่ว่าพวกเขา(มลาอิกะฮ์) เป็นบ่าวผู้มีเกียรติ[FN:27]
 EN1 (Saheeh): And they say, "The Most Merciful has taken a son." Exalted is He! Rather, they are [but] honored servants.
 EN2 (Hilali-Khan): And they say: "The Most Gracious (Allâh) has begotten a son (or children)." Glory to Him! They [whom they call children of Allâh i.e. the angels, ‘Îsâ (Jesus) - son of Maryam (Mary), ‘Uzair (Ezra)], are but honoured slaves.
@@ -236,7 +236,7 @@ FN[2]: มลาอิกะฮฺเป็นบ่าวผู้มีเก�
 --------------------------------------------------------------------------------
 [21:27]
 AR: لَا يَسۡبِقُونَهُۥ بِٱلۡقَوۡلِ وَهُم بِأَمۡرِهِۦ يَعۡمَلُونَ | ٢٧
-V3 (BASE): พวกเขา (มลาอิกะฮฺ) จะไม่ชิงกล่าวคำพูดก่อนพระองค์ และพวกเขาปฏิบัติตามพระบัญชาของพระองค์[FN:1]
+V3 (BASE): พวกเขาจะไม่ชิงกล่าวคำพูดก่อนพระองค์ และพวกเขาปฏิบัติตามพระบัญชาของพระองค์[FN:1]
 TQ (REF):  พวกเขา(มลาอิกะฮ์) จะไม่ชิงกล่าวคำพูดก่อนพระองค์ และพวกเขาปฏิบัติตามพระบัญชาของพระองค์[FN:28]
 EN1 (Saheeh): They cannot precede Him in word, and they act by His command.
 EN2 (Hilali-Khan): They speak not until He has spoken, and they act on His Command.
@@ -251,7 +251,7 @@ EN2 (Hilali-Khan): He knows what is before them, and what is behind them, and th
 --------------------------------------------------------------------------------
 [21:29]
 AR: ۞ وَمَن يَقُلۡ مِنۡهُمۡ إِنِّيٓ إِلَٰهٞ مِّن دُونِهِۦ فَذَٰلِكَ نَجۡزِيهِ جَهَنَّمَۚ كَذَٰلِكَ نَجۡزِي ٱلظَّٰلِمِينَ | ٢٩
-V3 (BASE): และผู้ใดในหมู่พวกเขาที่กล่าวว่า[FN:1] “แท้จริงฉันคือพระเจ้าอื่นจากพระองค์” เขาผู้นั้นเราจะตอบแทนลงโทษด้วยนรก เช่นนั้นแหละเราตอบแทนบรรดาผู้อธรรม”
+V3 (BASE): และผู้ใดในหมู่พวกเขาที่กล่าวว่า[FN:1] แท้จริงฉันคือพระเจ้าอื่นจากพระองค์ เขาผู้นั้นเราจะตอบแทนลงโทษด้วยนรก เช่นนั้นแหละเราตอบแทนบรรดาผู้อธรรม
 TQ (REF):  และผู้ใดในหมู่พวกเขาที่กล่าวว่า[FN:29] “แท้จริง ฉันคือพระเจ้าอื่นจากพระองค์” เขาผู้นั้นเราจะตอบแทนลงโทษด้วยนรก เช่นนั้นแหละเราตอบแทนบรรดาผู้อธรรม”
 EN1 (Saheeh): And whoever of them should say, "Indeed, I am a god besides Him" - that one We would recompense with Hell. Thus do We recompense the wrongdoers.
 EN2 (Hilali-Khan): And if any of them should say: "Verily, I am an ilâh (a god) besides Him (Allâh)," such a one We should recompense with Hell. Thus We recompense the Zâlimûn (polytheists and wrong-doers).
@@ -268,7 +268,7 @@ FN[2]: คือเราได้ทำให้น้ำเป็นแหล�
 --------------------------------------------------------------------------------
 [21:31]
 AR: وَجَعَلۡنَا فِي ٱلۡأَرۡضِ رَوَٰسِيَ أَن تَمِيدَ بِهِمۡ وَجَعَلۡنَا فِيهَا فِجَاجٗا سُبُلٗا لَّعَلَّهُمۡ يَهۡتَدُونَ | ٣١
-V3 (BASE): และเราได้ทำให้เทือกเขามั่นคงในแผ่นดินเพื่อมันจะไม่ทำให้เขาโคลงเคลง และเราได้ทำให้หุบเขาเป็นทางกว้างในแผ่นดินนั้น เพื่อว่าพวกเขาจะได้สัญจรอย่างถูกต้อง[FN:1]
+V3 (BASE): และเราได้ทำให้เทือกเขามั่นคงในแผ่นดินเพื่อมันจะมิได้หวั่นไหวไปกับพวกเขา และเราได้ทำให้หุบเขาเป็นทางกว้างในแผ่นดินนั้น เพื่อว่าพวกเขาจะได้ใช้เป็นทางเดินอย่างถูกต้อง[FN:1]
 TQ (REF):  และเราได้ทำให้เทือกเขามั่นคงในแผ่นดิน เพื่อมันจะไม่ทำให้เขาโคลงเคลง และเราได้ทำให้หุบเขาเป็นทางกว้างในแผ่นดินนั้น เพื่อว่าพวกเขาจะได้สัญจรอย่างถูกต้อง[FN:32]
 EN1 (Saheeh): And We placed within the earth firmly set mountains, lest it should shift with them, and We made therein [mountain] passes [as] roads that they might be guided.
 EN2 (Hilali-Khan): And We have placed on the earth firm mountains, lest it should shake with them, and We placed therein broad highways for them to pass through, that they may be guided.
@@ -307,7 +307,7 @@ FN[1]: คือทดสอบด้วยเคราะห์กรรมแ�
 --------------------------------------------------------------------------------
 [21:36]
 AR: وَإِذَا رَءَاكَ ٱلَّذِينَ كَفَرُوٓاْ إِن يَتَّخِذُونَكَ إِلَّا هُزُوًا أَهَٰذَا ٱلَّذِي يَذۡكُرُ ءَالِهَتَكُمۡ وَهُم بِذِكۡرِ ٱلرَّحۡمَٰنِ هُمۡ كَٰفِرُونَ | ٣٦
-V3 (BASE): และเมื่อบรรดาผู้ปฏิเสธศรัทธา (กุฟฟารมักกะฮฺ) พบเห็นเจ้า พวกเขาก็ถือเอาเจ้าเป็นที่ล้อเลียน[FN:1] “คนนี้นะหรือที่กล่าวตำหนิพระเจ้าของพวกท่าน” ทั้ง ๆ ที่พวกเขาก็กล่าวตำหนิพระผู้ทรงกรุณาปรานี โดยพวกเขาเป็นผู้ปฏิเสธศรัทธา
+V3 (BASE): และเมื่อบรรดาผู้ปฏิเสธศรัทธา (กุฟฟารมักกะฮฺ) พบเห็นเจ้า พวกเขาก็ถือเอาเจ้าเป็นที่ล้อเลียน[FN:1] คนนี้นะหรือที่กล่าวตำหนิพระเจ้าของพวกท่าน ทั้ง ๆ ที่พวกเขาก็กล่าวตำหนิพระผู้ทรงกรุณาปรานี โดยพวกเขาเป็นผู้ปฏิเสธศรัทธา
 TQ (REF):  และเมื่อบรรดาผู้ปฏิเสธศรัทธา(กุฟฟารมักกะฮ์) พบเห็นเจ้า พวกเขาก็ถือเอาเจ้าเป็นที่ล้อเลียน[FN:36] “คนนี้นะหรือที่กล่าวตำหนิพระเจ้าของพวกท่าน” ทั้งๆ ที่พวกเขาก็กล่าวตำหนิพระผู้ทรงกรุณาปรานี โดยพวกเขาเป็นผู้ปฏิเสธศรัทธา
 EN1 (Saheeh): And when those who disbelieve see you, [O Muḥammad], they take you not except in ridicule, [saying], "Is this the one who mentions [i.e., insults] your gods?" And they are, at the mention of the Most Merciful, disbelievers.
 EN2 (Hilali-Khan): And when those who disbelieved (in the Oneness of Allâh) see you (O Muhammad صلى الله عليه وسلم), they take you not except for mockery (saying): "Is this the one who talks (badly) about your gods?" While they disbelieve at the mention of the Most Gracious (Allâh). [Tafsir Al-Qurtubî].
@@ -323,7 +323,7 @@ FN[1]: อิบนุกะษีร กล่าวว่า เคล็ด�
 --------------------------------------------------------------------------------
 [21:38]
 AR: وَيَقُولُونَ مَتَىٰ هَٰذَا ٱلۡوَعۡدُ إِن كُنتُمۡ صَٰدِقِينَ | ٣٨
-V3 (BASE): และพวกเขากล่าวว่า “เมื่อใดเล่าสัญญานี้จะเกิดขึ้น หากพวกท่าน[FN:1]เป็นผู้สัตย์จริง”
+V3 (BASE): และพวกเขากล่าวว่า เมื่อใดเล่าสัญญานี้จะเกิดขึ้น หากพวกท่าน[FN:1]เป็นผู้สัตย์จริง
 TQ (REF):  และพวกเขากล่าวว่า “เมื่อใดเล่าสัญญานี้จะเกิดขึ้น หากพวกท่าน[FN:38] เป็นผู้สัตย์จริง”
 EN1 (Saheeh): And they say, "When is this promise, if you should be truthful?"
 EN2 (Hilali-Khan): And they say: "When will this promise (come to pass), if you are truthful."
@@ -351,11 +351,11 @@ V3 (BASE): และโดยแน่นอน บรรดารอซูล�
 TQ (REF):  และโดยแน่นอน บรรดาร่อซูลก่อนหน้าเจ้าได้ถูกเย้ยหยันมาแล้ว แล้วการลงโทษได้ประสบแก่บรรดาผู้ที่เย้ยหยันต่อบรรดาร่อซูล ในสิ่งที่พวกเขาได้เย้ยหยัน[FN:41]
 EN1 (Saheeh): And already were messengers ridiculed before you, but those who mocked them were enveloped by what they used to ridicule.
 EN2 (Hilali-Khan): Indeed, (many) Messengers were mocked before you (O Muhammad صلى الله عليه وسلم), but the scoffers were surrounded by that, whereat they used to mock.
-FN[1]: อะบูหัยยานกล่าวว่า อายะฮฺนี้เป็นการปลอบโยนท่านรอซูลลุลลอฮ์ ศ็อลลัลอลฮุอะลัยฮิวะซัลลัม
+FN[1]: อะบูหัยยานกล่าวว่า อายะฮฺนี้เป็นการปลอบโยนท่านรอซูลลุลลอฮฺ ศ็อลลัลอลฮุอะลัยฮิวะซัลลัม
 --------------------------------------------------------------------------------
 [21:42]
 AR: قُلۡ مَن يَكۡلَؤُكُم بِٱلَّيۡلِ وَٱلنَّهَارِ مِنَ ٱلرَّحۡمَٰنِۚ بَلۡ هُمۡ عَن ذِكۡرِ رَبِّهِم مُّعۡرِضُونَ | ٤٢
-V3 (BASE): จงกล่าวเถิด (มุฮัมมัด) “ใครเล่าจะรักษาพวกท่าน ในเวลากลางคืนและกลางวันจากพระผู้ทรงกรุณาปรานี”[FN:1] แต่ทว่าพวกเขาเป็นผู้ผินหลังให้การรำลึกถึงพระเจ้าของพวกเขา
+V3 (BASE): จงกล่าวเถิดมุฮัมมัด ใครเล่าจะคุ้มกันรักษาพวกท่าน ในเวลากลางคืนและกลางวันจากพระผู้ทรงกรุณาปรานี[FN:1] แต่ทว่าพวกเขาเป็นผู้ผินหลังให้การรำลึกถึงพระเจ้าของพวกเขา
 TQ (REF):  จงกล่าวเถิด(มุฮัมมัด) “ใครเล่าจะรักษาพวกท่าน ในเวลากลางคืนและกลางวัน จากพระผู้ทรงกรุณาปรานี”[FN:42] แต่ทว่าพวกเขาเป็นผู้ผินหลังให้การรำลึกถึงพระเจ้าของพวกเขา
 EN1 (Saheeh): Say, "Who can protect you at night or by day from the Most Merciful?" But they are, from the remembrance of their Lord, turning away.
 EN2 (Hilali-Khan): Say: "Who can guard and protect you in the night or in the day from the (punishment of the) Most Gracious (Allâh)?" Nay, but they turn away from the remembrance of their Lord.
@@ -372,7 +372,7 @@ FN[2]: ในกรณีเช่นนี้แล้วพวกเขาจ�
 --------------------------------------------------------------------------------
 [21:44]
 AR: بَلۡ مَتَّعۡنَا هَٰٓؤُلَآءِ وَءَابَآءَهُمۡ حَتَّىٰ طَالَ عَلَيۡهِمُ ٱلۡعُمُرُۗ أَفَلَا يَرَوۡنَ أَنَّا نَأۡتِي ٱلۡأَرۡضَ نَنقُصُهَا مِنۡ أَطۡرَافِهَآۚ أَفَهُمُ ٱلۡغَٰلِبُونَ | ٤٤
-V3 (BASE): แต่ทว่า เราได้ให้ความสุขสบายแก่พวกเขาและบรรพบุรุษของพวกเขาจนกระทั่งพวกเขามีอายุยั่งยืน พวกเขาไม่เห็นดอกหรือว่า แท้จริงเราได้มายังแผ่นดินเพื่อทำให้มันคับแคบลงจากขอบเขตของมัน[FN:1] แล้วพวกเขาจะเป็นผู้ชนะอีกหรือ?[FN:2]
+V3 (BASE): แต่ทว่า เราได้ให้ความสุขสบายแก่พวกเขาและบรรพบุรุษของพวกเขาจนกระทั่งพวกเขามีอายุยั่งยืน พวกเขาไม่เห็นดอกหรือว่า แท้จริงเราได้มายังแผ่นดินเพื่อทำให้มันคับแคบลงจากขอบเขตของมัน[FN:1] แล้วพวกเขาจะเป็นผู้ชนะอีกหรือ[FN:2]
 TQ (REF):  แต่ทว่า เราได้ให้ความสุขสำรายแก่พวกเขาและบรรพบุรุษของพวกเขา จนกระทั่งพวกเขามีอายุยั่งยืน พวกเขาไม่เห็นดอกหรือว่า แท้จริง เราได้มายังแผ่นดินเพื่อทำให้มันคับแคบลงจากขอบเขตของมัน[FN:45] แล้วพวกเขาจะเป็นผู้ชนะอีกหรือ?[FN:46]
 EN1 (Saheeh): But, [on the contrary], We have provided good things for these [disbelievers] and their fathers until life was prolonged for them. Then do they not see that We set upon the land, reducing it from its borders? Is it they who will overcome?
 EN2 (Hilali-Khan): Nay, We gave the luxuries of this life to these men and their fathers until the period grew long for them. See they not that We gradually reduce the land (in their control) from its outlying borders? Is it then they who will overcome?
@@ -381,16 +381,16 @@ FN[2]: คือใครจะเป็นผู้ชนะกันแน่ 
 --------------------------------------------------------------------------------
 [21:45]
 AR: قُلۡ إِنَّمَآ أُنذِرُكُم بِٱلۡوَحۡيِۚ وَلَا يَسۡمَعُ ٱلصُّمُّ ٱلدُّعَآءَ إِذَا مَا يُنذَرُونَ | ٤٥
-V3 (BASE): จงกล่าวเถิด (มุฮัมมัด) “แท้จริงฉันเพียงตักเตือนพวกท่านด้วยวะฮียฺเท่านั้น”[FN:1] แต่คนหูหนวกไม่ได้ยินเสียงเรียกร้อง เมื่อพวกเขาถูกตักเตือน[FN:2]
+V3 (BASE): จงกล่าวเถิด (มุฮัมมัด) แท้จริงฉันเพียงตักเตือนพวกท่านด้วยวะฮียฺเท่านั้น[FN:1] แต่คนหูหนวกไม่ได้ยินเสียงเรียกร้อง เมื่อพวกเขาถูกตักเตือน[FN:2]
 TQ (REF):  จงกล่าวเถิด(มุฮัมมัด) “แท้จริงฉันเพียงตักเตือนพวกท่านด้วยวะฮีย์เท่านั้น”[FN:47] แต่คนหูหนวกไม่ได้ยินเสียงเรียกร้อง เมื่อพวกเขาถูกตักเตือน[FN:48]
 EN1 (Saheeh): Say, "I only warn you by revelation." But the deaf do not hear the call when they are warned.
 EN2 (Hilali-Khan): Say (O Muhammad صلى الله عليه وسلم): "I warn you only by the revelation (from Allâh and not by the opinion of the religious scholars and others). But the deaf (who follow the religious scholars and others blindly) will not hear the call, (even) when they are warned [i.e. one should follow only the Qur’ân and the Sunnah (legal ways, orders, acts of worship, and the statements of Prophet Muhammad صلى الله عليه وسلم, as the companions of the Prophet صلى الله عليه وسلم did)].
-FN[1]: คือเป็นวะฮียฺมาจากพระเจ้า ฉันมิได้คิดขึ้นเอ
+FN[1]: คือเป็นวะฮีย์มาจากพระเจ้า ฉันมิได้คิดขึ้นเอ
 FN[2]: เพราะความงี่เง่าและการดื้อดันของพวกเขา จึงเปรียบเสมือนคนหูหนวก
 --------------------------------------------------------------------------------
 [21:46]
 AR: وَلَئِن مَّسَّتۡهُمۡ نَفۡحَةٞ مِّنۡ عَذَابِ رَبِّكَ لَيَقُولُنَّ يَٰوَيۡلَنَآ إِنَّا كُنَّا ظَٰلِمِينَ | ٤٦
-V3 (BASE): และหากการลงโทษเพียงเล็กน้อยจากพระผู้อภิบาลของเจ้าประสบกับพวกเขา แน่นอนพวกเขาก็จะกล่าวว่า “โอ้ความหายนะแก่เรา แท้จริงเราเป็นผู้อธรรม”[FN:1]
+V3 (BASE): และหากการลงโทษเพียงเล็กน้อยจากพระเจ้าของเจ้าประสบกับพวกเขา แน่นอนพวกเขาก็จะกล่าวว่า โอ้ความหายนะแก่เรา แท้จริงเราเป็นผู้อธรรม[FN:1]
 TQ (REF):  และหากการลงโทษเพียงเล็กน้อยจากพระผู้อภิบาลของเจ้าประสบกับพวกเขา แน่นอนพวกเขาก็จะกล่าวว่า “โอ้ความหายนะแก่เรา แท้จริงเราเป็นผู้อธรรม”[FN:49]
 EN1 (Saheeh): And if [as much as] a whiff of the punishment of your Lord should touch them, they would surely say, "O woe to us! Indeed, we have been wrongdoers."
 EN2 (Hilali-Khan): And if a breath (minor calamity) of the Torment of your Lord touches them, they will surely cry: "Woe unto us! Indeed we have been Zâlimûn (polytheists and wrong-doers)."

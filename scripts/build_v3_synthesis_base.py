@@ -25,7 +25,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 PARENT_ROOT = REPO_ROOT.parent
 
 V3_SRC_PATH = PARENT_ROOT / "thai_quran_scholar_audit_v4" / "final_files" / "01_thai_quran_translation_v3_master.json"
-WEB_FNS_PATH = PARENT_ROOT / "thai-quran-web" / "src" / "data" / "thai_footnotes.json"
+WEB_FNS_PATH = PARENT_ROOT / "thai-quran-web" / "src" / "data" / "thai_footnotes_v3_legacy.json"
 TQ_INGESTED_PATH = REPO_ROOT / "data" / "01_tq_ingested_tokenized.json"
 
 OUT_V3_BASE = REPO_ROOT / "data" / "01_v3_base_master.json"
@@ -83,14 +83,24 @@ def main():
             "reason": "Restore missing verb clause for فَأْذَنُوا۟ بِحَرْبٍۢ مِّنَ ٱللَّهِ."
         },
         "2:185": {
-            "target": "เดือนรอมฏอน ซึ่งอัลกรุอานได้ถูกประทานลงมาในเดือนนั้น",
-            "replacement": "เดือนรอมฎอน ซึ่งอัลกุรอานได้ถูกประทานลงมาในเดือนนั้น",
-            "reason": "Standardize canonical spelling รอมฎอน and อัลกุรอาน."
+            "target": "รอมฏอน",
+            "replacement": "รอมฎอน",
+            "reason": "Standardize canonical spelling รอมฎอน."
         },
-        "2:37": {
-            "target": "ครั้นดาอัมได้เรียนรู้",
-            "replacement": "ครั้นอาดัมได้เรียนรู้",
-            "reason": "Fix typo ดาอัม -> อาดัม in annotated text."
+        "11:94": {
+            "target": "ชุอัยบ์",
+            "replacement": "ชุอัยบฺ",
+            "reason": "Standardize transliteration of Ayn."
+        },
+        "19:6": {
+            "target": "ยะอ์กูบ",
+            "replacement": "ยะอฺกูบ",
+            "reason": "Standardize transliteration of Ayn."
+        },
+        "34:15": {
+            "target": "สะบะอ์",
+            "replacement": "สะบะอฺ",
+            "reason": "Standardize transliteration of Ayn."
         }
     }
 

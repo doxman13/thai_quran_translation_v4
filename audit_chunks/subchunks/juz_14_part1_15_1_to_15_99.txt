@@ -57,7 +57,7 @@ EN2 (Hilali-Khan): And never did We destroy a township but there was a known dec
 --------------------------------------------------------------------------------
 [15:5]
 AR: مَّا تَسۡبِقُ مِنۡ أُمَّةٍ أَجَلَهَا وَمَا يَسۡتَـٔۡخِرُونَ | ٥
-V3 (BASE): ไม่มีประชาชาติใดจะร่าเริงกำหนดการลงโทษได้[FN:1] และไม่อาจจะทำให้ล่าช้ากว่ากำหนดได้
+V3 (BASE): ไม่มีประชาชาติใดจะเร่งกำหนดการลงโทษได้[FN:1] และไม่อาจจะทำให้ล่าช้ากว่ากำหนดได้
 TQ (REF):  ไม่มีประชาชาติใดจะร่าเริงกำหนดการลงโทษได้[FN:3] และไม่อาจจะทำให้ล่าช้ากว่ากำหนดได้
 EN1 (Saheeh): No nation will precede its term, nor will they remain thereafter.
 EN2 (Hilali-Khan): No nation can advance its term, nor delay it.
@@ -73,7 +73,7 @@ FN[1]: พวกกุฟฟารชาวกุเรชกล่าวแก�
 --------------------------------------------------------------------------------
 [15:7]
 AR: لَّوۡ مَا تَأۡتِينَا بِٱلۡمَلَٰٓئِكَةِ إِن كُنتَ مِنَ ٱلصَّٰدِقِينَ | ٧
-V3 (BASE): “ทำไมท่านไม่นำมลาอิกะฮฺมาที่เรา[FN:1] หากท่านอยู่ในหมู่ผู้สัตย์จริง”
+V3 (BASE): ทำไมท่านไม่นำมลาอิกะฮฺมาที่เรา[FN:1] หากท่านอยู่ในหมู่ผู้สัตย์จริง
 TQ (REF):  “ทำไมท่านไม่นำมลาอิกะฮ์มาที่เรา[FN:5] หากท่านอยู่ในหมู่ผู้สัตย์จริง”
 EN1 (Saheeh): Why do you not bring us the angels, if you should be among the truthful?"
 EN2 (Hilali-Khan): "Why do you not bring angels to us if you are of the truthful?"
@@ -122,7 +122,7 @@ V3 (BASE): พวกเขาจะไม่ศรัทธาต่ออัล
 TQ (REF):  พวกเขาจะไม่ศรัทธาต่ออัลกุรอาน และแน่นอนแบบอย่างของคนรุ่นก่อนๆ ได้ล่วงลับไปแล้ว[FN:8]
 EN1 (Saheeh): They will not believe in it, while there has already occurred the precedent of the former peoples.
 EN2 (Hilali-Khan): They would not believe in it (the Qur’ân); and already the example of (Allâh’s punishment of) the ancients (who disbelieved) has gone forth.
-FN[1]: คือกฎเกณฑ์ของอัลลอฮฺในการให้พวกปฏิเสธศรัทธาประสบความพินาศ
+FN[1]: คือกฏเกณฑ์ของอัลลอฮฺในการให้พวกปฏิเสธศรัทธาประสบความพินาศ
 --------------------------------------------------------------------------------
 [15:14]
 AR: وَلَوۡ فَتَحۡنَا عَلَيۡهِم بَابٗا مِّنَ ٱلسَّمَآءِ فَظَلُّواْ فِيهِ يَعۡرُجُونَ | ١٤
@@ -164,7 +164,7 @@ FN[1]: แอบฟังข่าวจากชั้นฟ้า มันต
 --------------------------------------------------------------------------------
 [15:19]
 AR: وَٱلۡأَرۡضَ مَدَدۡنَٰهَا وَأَلۡقَيۡنَا فِيهَا رَوَٰسِيَ وَأَنۢبَتۡنَا فِيهَا مِن كُلِّ شَيۡءٖ مَّوۡزُونٖ | ١٩
-V3 (BASE): และแผ่นดินนั้นเราได้แผ่มันออกไป และเราได้ทำให้มีเทือกเขาเป็นที่ยึดอย่างมั่นคง[FN:1] และเราได้ให้ทุกสิ่งงอกเงยอย่างสมดุล[FN:2]
+V3 (BASE): และแผ่นดินนั้นเราได้แผ่มันออกไป และเราได้ทำให้มีเทือกเขาเป็นที่ยึดอย่างมั่นคง[FN:1] และเราได้ให้ทุกสิ่งงอกเงยอย่างสมดุลย์[FN:2]
 TQ (REF):  และแผ่นดินนั้นเราได้แผ่มันออกไป และเราได้ทำให้มีเทือกเขาเป็นที่ยึดอย่างมั่นคง[FN:12] และเราได้ให้ทุกสิ่งงอกเงยอย่างสมดุล[FN:13]
 EN1 (Saheeh): And the earth - We have spread it and cast therein firmly set mountains and caused to grow therein [something] of every well-balanced thing.
 EN2 (Hilali-Khan): And the earth We have spread out, and have placed therein firm mountains, and caused to grow therein all kinds of things in due proportion.
@@ -189,7 +189,7 @@ FN[1]: ให้เป็นไปตามความต้องการแ�
 --------------------------------------------------------------------------------
 [15:22]
 AR: وَأَرۡسَلۡنَا ٱلرِّيَٰحَ لَوَٰقِحَ فَأَنزَلۡنَا مِنَ ٱلسَّمَآءِ مَآءٗ فَأَسۡقَيۡنَٰكُمُوهُ وَمَآ أَنتُمۡ لَهُۥ بِخَٰزِنِينَ | ٢٢
-V3 (BASE): และเราได้ส่งลมผสมเกสร แล้วเราได้ให้น้ำลงมาจากฟ้า แล้วเราได้ให้พวกเจ้าดื่มมัน[FN:1] และพวกเจ้าก็มิได้เป็นผู้สะสมมันไว้
+V3 (BASE): และเราได้ส่งลมผสมเกสร แล้วเราได้ให้น้ำลงมาจากฟากฟ้า แล้วเราได้ให้พวกเจ้าดื่มมัน[FN:1] และพวกเจ้าก็มิได้เป็นผู้สะสมมันไว้
 TQ (REF):  และเราได้ส่งลมผสมเกสร แล้วเราได้ให้น้ำลงมาจากฟ้า แล้วเราได้ให้พวกเจ้าดื่มมัน[FN:16] และพวกเจ้าก็มิได้เป็นผู้สะสมมันไว้
 EN1 (Saheeh): And We have sent the fertilizing winds and sent down water from the sky and given you drink from it. And you are not its retainers.
 EN2 (Hilali-Khan): And We send the winds fertilizing (to fill heavily the clouds with water), then cause the water (rain) to descend from the sky, and We give it to you to drink, and it is not you who are the owners of its stores [i.e. to give water to whom you like or to withhold it from whom you like].
@@ -239,7 +239,7 @@ EN2 (Hilali-Khan): And (remember) when your Lord said to the angels: "I am going
 --------------------------------------------------------------------------------
 [15:29]
 AR: فَإِذَا سَوَّيۡتُهُۥ وَنَفَخۡتُ فِيهِ مِن رُّوحِي فَقَعُواْ لَهُۥ سَٰجِدِينَ | ٢٩
-V3 (BASE): “ดังนั้น เมื่อข้าได้ทำให้เขามีรูปร่างสมส่วนและเป่าวิญญาณจากข้าเข้าไปในตัวเขา[FN:1] ฉะนั้นพวกเจ้าจงก้มลงสุญูดต่อเขา”[FN:2]
+V3 (BASE): ดังนั้น เมื่อข้าได้ทำให้เขามีรูปร่างสมส่วนและเป่าวิญญาณจากข้าเข้าไปในตัวเขา[FN:1] ฉะนั้นพวกเจ้าจงก้มลงสุญูดต่อเขา[FN:2]
 TQ (REF):  “ดังนั้น เมื่อข้าได้ทำให้เขามีรูปร่างสมส่วนและเป่าวิญญาณจากข้าเข้าไปในตัวเขา[FN:17] ฉะนั้น พวกเจ้าจงก้มลงสุญูดต่อเขา”[FN:18]
 EN1 (Saheeh): And when I have proportioned him and breathed into him of My [created] soul, then fall down to him in prostration."
 EN2 (Hilali-Khan): "So, when I have fashioned him completely and breathed into him (Adam) the soul which I created for him, then fall (you) down prostrating yourselves unto him."
@@ -277,7 +277,7 @@ EN2 (Hilali-Khan): [Iblîs (Satan)] said: "I am not the one to prostrate myself 
 --------------------------------------------------------------------------------
 [15:34]
 AR: قَالَ فَٱخۡرُجۡ مِنۡهَا فَإِنَّكَ رَجِيمٞ | ٣٤
-V3 (BASE): พระองค์ตรัสว่า “ดังนั้นเจ้าจงออกไปจากที่นี่[FN:1] แท้จริงเจ้าเป็นผู้ถูกขับไล่”
+V3 (BASE): พระองค์ตรัสว่า ดังนั้นเจ้าจงออกไปจากที่นี่[FN:1] แท้จริงเจ้าเป็นผู้ถูกขับไล่
 TQ (REF):  พระองค์ตรัสว่า “ดังนั้นเจ้าจงออกไปจากที่นี่[FN:20] แท้จริงเจ้าเป็นผู้ถูกขับไล่"
 EN1 (Saheeh): [Allāh] said, "Then depart from it, for indeed, you are expelled.
 EN2 (Hilali-Khan): (Allâh) said: "Then, get out from here, for verily, you are Rajîm (an outcast or a cursed one)." [Tafsîr At-Tabarî]
@@ -313,7 +313,7 @@ EN2 (Hilali-Khan): "Till the Day of the time appointed."
 --------------------------------------------------------------------------------
 [15:39]
 AR: قَالَ رَبِّ بِمَآ أَغۡوَيۡتَنِي لَأُزَيِّنَنَّ لَهُمۡ فِي ٱلۡأَرۡضِ وَلَأُغۡوِيَنَّهُمۡ أَجۡمَعِينَ | ٣٩
-V3 (BASE): มันกล่าวว่า “โอ้พระผู้อภิบาลของข้าพระองค์ โดยที่พระองค์ทรงให้ข้าพระองค์หลงผิดไปแล้วแน่นอน ข้าพระองค์ก็จะทำให้เป็นที่เพริศแพร้วแก่พวกเขาในแผ่นดินนี้[FN:1] และแน่นอนข้าพระองค์จะทำให้พวกเขาทั้งหมดหลงผิด
+V3 (BASE): มันกล่าวว่า โอ้พระเจ้าของข้าพระองค์ โดยที่พระองค์ทรงให้ข้าพระองค์หลงผิดไปแล้วแน่นอน ข้าพระองค์ก็จะทำให้เป็นที่เพริศแพร้วแก่พวกเขาในแผ่นดินนี้[FN:1] และแน่นอนข้าพระองค์จะทำให้พวกเขาทั้งหมดหลงผิด
 TQ (REF):  มันกล่าวว่า “โอ้พระผู้อภิบาลของข้าพระองค์ โดยที่พระองค์ทรงให้ข้าพระองค์หลงผิดไปแล้วแน่นอน ข้าพระองค์ก็จะทำให้เป็นที่เพริศแพร้วแก่พวกเขาในแผ่นดินนี้[FN:21] และแน่นอนข้าพระองค์จะทำให้พวกเขาทั้งหมดหลงผิด
 EN1 (Saheeh): [Iblees] said, "My Lord, because You have put me in error, I will surely make [disobedience] attractive to them [i.e., mankind] on earth, and I will mislead them all
 EN2 (Hilali-Khan): [Iblîs (Satan)] said: "O my Lord! Because you misled me, I shall indeed adorn the path of error for them (mankind) on the earth, and I shall mislead them all.
@@ -321,7 +321,7 @@ FN[1]: คือจะล่อลวงลูกหลานของอาด�
 --------------------------------------------------------------------------------
 [15:40]
 AR: إِلَّا عِبَادَكَ مِنۡهُمُ ٱلۡمُخۡلَصِينَ | ٤٠
-V3 (BASE): “เว้นแต่ปวงบ่าวของพระองค์ ในหมู่พวกเขาที่มีใจบริสุทธิ์เท่านั้น”[FN:1]
+V3 (BASE): เว้นแต่ปวงบ่าวของพระองค์ ในหมู่พวกเขาที่มีใจบริสุทธิ์เท่านั้น[FN:1]
 TQ (REF):  “เว้นแต่ปวงบ่าวของพระองค์ ในหมู่พวกเขาที่มีใจบริสุทธิ์เท่านั้น”[FN:22]
 EN1 (Saheeh): Except, among them, Your chosen servants."
 EN2 (Hilali-Khan): "Except Your chosen, (guided) slaves among them."
@@ -336,7 +336,7 @@ EN2 (Hilali-Khan): (Allâh) said: "This is the Way which will lead straight to M
 --------------------------------------------------------------------------------
 [15:42]
 AR: إِنَّ عِبَادِي لَيۡسَ لَكَ عَلَيۡهِمۡ سُلۡطَٰنٌ إِلَّا مَنِ ٱتَّبَعَكَ مِنَ ٱلۡغَاوِينَ | ٤٢
-V3 (BASE): “แท้จริงปวงบ่าวของข้า[FN:1] เจ้าจะไม่มีอำนาจใด ๆ เหนือพวกเขา เว้นแต่ผู้ที่เชื่อฟังเจ้าในหมู่ผู้หลงผิดเท่านั้น”[FN:2]
+V3 (BASE): แท้จริงปวงบ่าวของข้า[FN:1] เจ้าจะไม่มีอำนาจใด ๆ เหนือพวกเขา เว้นแต่ผู้ที่เชื่อฟังเจ้าในหมู่ผู้หลงผิดเท่านั้น[FN:2]
 TQ (REF):  “แท้จริง ปวงบ่าวของข้า[FN:23] เจ้าจะไม่มีอำนาจใด ๆ เหนือพวกเขา เว้นแต่ผู้ที่เชื่อฟังเจ้าในหมู่ผู้หลงผิดเท่านั้น”[FN:24]
 EN1 (Saheeh): Indeed, My servants - no authority will you have over them, except those who follow you of the deviators.
 EN2 (Hilali-Khan): "Certainly, you shall have no authority over My slaves, except those who follow you of the Ghâwûn (Mushrikûn and those who go astray, criminals, polytheists, and evil-doers).
@@ -375,7 +375,7 @@ EN2 (Hilali-Khan): "(It will be said to them): ‘Enter therein (Paradise), in p
 --------------------------------------------------------------------------------
 [15:47]
 AR: وَنَزَعۡنَا مَا فِي صُدُورِهِم مِّنۡ غِلٍّ إِخۡوَٰنًا عَلَىٰ سُرُرٖ مُّتَقَٰبِلِينَ | ٤٧
-V3 (BASE): และเราได้ขจัดความเคืองแค้นที่มีอยู่ในหัวอกของพวกเขา[FN:1] ให้กลายเป็นพี่น้องกัน โดยพำนักอยู่บนเตียงหันหน้าเข้าหากัน
+V3 (BASE): และเราได้ขจัดความขุ่นแค้นที่มีอยู่ในหัวอกของพวกเขา[FN:1] ให้กลายเป็นพี่น้องกัน โดยพำนักอยู่บนเตียงหันหน้าเข้าหากัน
 TQ (REF):  และเราได้ขจัดความเคืองแค้นที่มีอยู่ในหัวอกของพวกเขา[FN:27] ให้กลายเป็นพี่น้องกัน โดยพำนักอยู่บนเตียงหันหน้าเข้าหากัน
 EN1 (Saheeh): And We will remove whatever is in their breasts of resentment, [so they will be] brothers, on thrones facing each other.
 EN2 (Hilali-Khan): "And We shall remove from their breasts any deep feeling of bitterness (that they may have). (So they will be like) brothers facing each other on thrones.
@@ -414,7 +414,7 @@ FN[1]: คือมลาอิกะฮฺซึ่ง อัลลอฮฺ �
 --------------------------------------------------------------------------------
 [15:52]
 AR: إِذۡ دَخَلُواْ عَلَيۡهِ فَقَالُواْ سَلَٰمٗا قَالَ إِنَّا مِنكُمۡ وَجِلُونَ | ٥٢
-V3 (BASE): เมื่อพวกเขาเข้าไปหาเขา[FN:1] (อิบรอฮีม) แล้วกล่าวว่า “ศานติ” เขากล่าวว่า “แท้จริงเรากลัวพวกท่าน”[FN:2]
+V3 (BASE): เมื่อพวกเขาเข้าไปหาเขา[FN:1] (อิบรอฮีม) แล้วกล่าวว่า ศานติ เขากล่าวว่า แท้จริงเรากลัวพวกท่าน[FN:2]
 TQ (REF):  เมื่อพวกเขาเข้าไปหาเขา[FN:31] (อิบรอฮีม) แล้วกล่าวว่า “ศานติ” เขากล่าวว่า “แท้จริงเรากลัวพวกท่าน”[FN:32]
 EN1 (Saheeh): When they entered upon him and said, "Peace." [Abraham] said, "Indeed, we are fearful [i.e., apprehensive] of you."
 EN2 (Hilali-Khan): When they entered unto him, and said: Salâm (peace)! [Ibrâhîm (Abraham)] said: "Indeed! We are afraid of you."
@@ -423,7 +423,7 @@ FN[2]: ทั้งนี้ก็เพราะเมื่ออิบรอ�
 --------------------------------------------------------------------------------
 [15:53]
 AR: قَالُواْ لَا تَوۡجَلۡ إِنَّا نُبَشِّرُكَ بِغُلَٰمٍ عَلِيمٖ | ٥٣
-V3 (BASE): พวกเรากล่าวว่า “ท่านอย่ากลัว แท้จริงเราขอแจ้งข่าวดีแก่ท่าน เกี่ยวกับเด็กคนหนึ่งที่มีความรู้”[FN:1]
+V3 (BASE): พวกเขากล่าวว่า ท่านอย่ากลัว แท้จริงเราขอแจ้งข่าวดีแก่ท่าน เกี่ยวกับเด็กคนหนึ่งที่มีความรู้[FN:1]
 TQ (REF):  พวกเรากล่าวว่า “ท่านอย่ากลัว แท้จริงเราขอแจ้งข่าวดีแก่ท่าน เกี่ยวกับเด็กคนหนึ่งที่มีความรู้”[FN:33]
 EN1 (Saheeh): [The angels] said, "Fear not. Indeed, we give you good tidings of a learned boy."
 EN2 (Hilali-Khan): They (the angels) said: "Do not be afraid! We give you glad tidings of a boy (son) possessing much knowledge and wisdom."
@@ -431,7 +431,7 @@ FN[1]: คืออิสฮาก
 --------------------------------------------------------------------------------
 [15:54]
 AR: قَالَ أَبَشَّرۡتُمُونِي عَلَىٰٓ أَن مَّسَّنِيَ ٱلۡكِبَرُ فَبِمَ تُبَشِّرُونَ | ٥٤
-V3 (BASE): เขากล่าวว่า “พวกท่านมาแจ้งข่าวดีแก่ฉันเมื่อความชราภาพได้ประสบแก่ฉันแล้วกระนั้นหรือ? แล้วเรื่องอะไรเล่าที่พวกท่านจะแจ้งข่าวดีแก่ฉัน!?”[FN:1]
+V3 (BASE): เขากล่าวว่า พวกท่านมาแจ้งข่าวดีแก่ฉันเมื่อความชราภาพได้ประสบแก่ฉันแล้วกระนั้นหรือ แล้วเรื่องอะไรเล่าที่พวกท่านจะแจ้งข่าวดีแก่ฉัน[FN:1]
 TQ (REF):  เขากล่าวว่า “พวกท่านมาแจ้งข่าวดีแก่ฉัน เมื่อความชราภาพได้ประสบแก่ฉันแล้วกระนั้นหรือ? แล้วเรื่องอะไรเล่าที่พวกท่านจะแจ้งข่าวดีแก่ฉัน!?”[FN:34]
 EN1 (Saheeh): He said, "Have you given me good tidings although old age has come upon me? Then of what [wonder] do you inform?"
 EN2 (Hilali-Khan): [Ibrâhîm (Abraham)] said: "Do you give me glad tidings (of a son) when old age has overtaken me? Of what then is your news?"
@@ -460,7 +460,7 @@ EN2 (Hilali-Khan): [Ibrâhîm (Abraham) again] said: "What then is the business 
 --------------------------------------------------------------------------------
 [15:58]
 AR: قَالُوٓاْ إِنَّآ أُرۡسِلۡنَآ إِلَىٰ قَوۡمٖ مُّجۡرِمِينَ | ٥٨
-V3 (BASE): พวกเขากล่าวว่า “แท้จริงเราถูกส่งมายังกลุ่มชนผู้ทำผิด”[FN:1]
+V3 (BASE): พวกเขากล่าวว่า แท้จริงเราถูกส่งมายังกลุ่มชนผู้ทำผิด[FN:1]
 TQ (REF):  พวกเขากล่าวว่า “แท้จริงเราถูกส่งมายังกลุ่มชนผู้ทำผิด”[FN:35]
 EN1 (Saheeh): They said, "Indeed, we have been sent to a people of criminals,
 EN2 (Hilali-Khan): They (the angels) said: "We have been sent to a people who are Mujrimûn (criminals, disbelievers, polytheists, sinners).
@@ -475,7 +475,7 @@ EN2 (Hilali-Khan): "(All) except the family of Lût (Lot). Them all we are surel
 --------------------------------------------------------------------------------
 [15:60]
 AR: إِلَّا ٱمۡرَأَتَهُۥ قَدَّرۡنَآ إِنَّهَا لَمِنَ ٱلۡغَٰبِرِينَ | ٦٠
-V3 (BASE): “เว้นแต่ภริยาของเขา เราได้กำหนดไว้แล้วว่า แท้จริงนางจะอยู่ในหมู่ผู้ล่วงไปแล้ว”[FN:1]
+V3 (BASE): เว้นแต่ภริยาของเขา เราได้กำหนดไว้แล้วว่า แท้จริงนางจะอยู่ในหมู่ผู้ล่วงไปแล้ว[FN:1]
 TQ (REF):  “เว้นแต่ภริยาของเขา เราได้กำหนดไว้แล้วว่า แท้จริงนางจะอยู่ในหมู่ผู้ล่วงไปแล้ว”[FN:36]
 EN1 (Saheeh): Except his wife." We [i.e., Allāh] decreed that she is of those who remain behind.
 EN2 (Hilali-Khan): "Except his wife, of whom We have decreed that she shall be of those who remain behind (i.e. she will be destroyed)."
@@ -490,7 +490,7 @@ EN2 (Hilali-Khan): Then, when the Messengers (the angels) came unto the family o
 --------------------------------------------------------------------------------
 [15:62]
 AR: قَالَ إِنَّكُمۡ قَوۡمٞ مُّنكَرُونَ | ٦٢
-V3 (BASE): เขา (บริวารของลูฏ) กล่าวว่า “แท้จริงพวกท่านเป็นกลุ่มชนที่ไม่คุ้นหน้า”[FN:1]
+V3 (BASE): เขา (บริวารของลูฏ) กล่าวว่า แท้จริงพวกท่านเป็นกลุ่มชนที่ไม่คุ้นหน้า[FN:1]
 TQ (REF):  เขา (บริวารของลูฏ) กล่าวว่า “แท้จริงพวกท่านเป็นกลุ่มชนที่ไม่คุ้นหน้า”[FN:37]
 EN1 (Saheeh): He said, "Indeed, you are people unknown."
 EN2 (Hilali-Khan): He said: "Verily! You are people unknown to me."
@@ -498,7 +498,7 @@ FN[1]: ฉันไม่รู้จักพวกท่าน และท่
 --------------------------------------------------------------------------------
 [15:63]
 AR: قَالُواْ بَلۡ جِئۡنَٰكَ بِمَا كَانُواْ فِيهِ يَمۡتَرُونَ | ٦٣
-V3 (BASE): พวกเขากล่าวว่า “แต่ว่าเรามาหาท่าน (ลูฏ) ด้วยเรื่องที่พวกเขาสงสัยกันอยู่[FN:1]
+V3 (BASE): พวกเขากล่าวว่า แต่ว่าเรามาหาท่าน (ลูฏ) ด้วยเรื่องที่พวกเขาสงสัยกันอยู่[FN:1]
 TQ (REF):  พวกเขากล่าวว่า “แต่ว่าเรามาหาท่าน (ลูฏ) ด้วยเรื่องที่พวกเขาสงสัยกันอยู่[FN:38]
 EN1 (Saheeh): They said, "But we have come to you with that about which they were disputing,
 EN2 (Hilali-Khan): They said: "Nay, we have come to you with that (torment) which they have been doubting.
@@ -506,7 +506,7 @@ FN[1]: การลงโทษที่ได้มีการสัญญา�
 --------------------------------------------------------------------------------
 [15:64]
 AR: وَأَتَيۡنَٰكَ بِٱلۡحَقِّ وَإِنَّا لَصَٰدِقُونَ | ٦٤
-V3 (BASE): “และเรามาหาท่านด้วยเรื่องจริง[FN:1] และแท้จริงเราเป็นผู้ซื่อสัตย์อย่างแน่นอน”
+V3 (BASE): และเรามาหาท่านด้วยเรื่องจริง[FN:1] และแท้จริงเราเป็นผู้ซื่อสัตย์อย่างแน่นอน
 TQ (REF):  “และเรามาหาท่านด้วยเรื่องจริง[FN:39] และแท้จริงเราเป็นผู้ซื่อสัตย์อย่างแน่นอน"
 EN1 (Saheeh): And we have come to you with truth, and indeed, we are truthful.
 EN2 (Hilali-Khan): "And we have brought you the truth (the news of the destruction of your nation) and certainly, we tell the truth.
@@ -514,7 +514,7 @@ FN[1]: เพื่อยืนยันถึงการลงโทษ
 --------------------------------------------------------------------------------
 [15:65]
 AR: فَأَسۡرِ بِأَهۡلِكَ بِقِطۡعٖ مِّنَ ٱلَّيۡلِ وَٱتَّبِعۡ أَدۡبَٰرَهُمۡ وَلَا يَلۡتَفِتۡ مِنكُمۡ أَحَدٞ وَٱمۡضُواْ حَيۡثُ تُؤۡمَرُونَ | ٦٥
-V3 (BASE): “ดังนั้น ท่านจงเดินทางไปกับครอบครัวของท่าน ในช่วงเวลากลางคืน และจงตามหลังพวกเขา และอย่าให้ผู้ใดในหมู่พวกท่านเหลียวหลัง[FN:1] และจงเดินต่อไปตามที่พวกท่านถูกบัญชา”[FN:2]
+V3 (BASE): ดังนั้น ท่านจงเดินทางไปกับครอบครัวของท่าน ในช่วงเวลากลางคืน และจงตามหลังพวกเขา และอย่าให้ผู้ใดในหมู่พวกท่านเหลียวหลัง[FN:1] และจงเดินต่อไปตามที่พวกท่านถูกบัญชา[FN:2]
 TQ (REF):  “ดังนั้น ท่านจงเดินทางไปกับครอบครัวของท่าน ในช่วงเวลากลางคืน และจงตามหลังพวกเขา และอย่าให้ผู้ใดในหมู่พวกท่านเหลียวหลัง[FN:40] และจงเดินต่อไปตามที่พวกท่านถูกบัญชา”[FN:41]
 EN1 (Saheeh): So set out with your family during a portion of the night and follow behind them and let not anyone among you look back and continue on to where you are commanded."
 EN2 (Hilali-Khan): "Then travel in a part of the night with your family, and you go behind them in the rear, and let no one amongst you look back, but go on to where you are ordered."
@@ -554,7 +554,7 @@ EN2 (Hilali-Khan): "And fear Allâh and disgrace me not."
 --------------------------------------------------------------------------------
 [15:70]
 AR: قَالُوٓاْ أَوَلَمۡ نَنۡهَكَ عَنِ ٱلۡعَٰلَمِينَ | ٧٠
-V3 (BASE): พวกเขากล่าวว่า “และเรามิได้ห้ามท่านเกี่ยวกับการต้อนรับแขกดอกหรือ?”[FN:1]
+V3 (BASE): พวกเขากล่าวว่า และเรามิได้ห้ามท่านเกี่ยวกับการต้อนรับแขกดอกหรือ[FN:1]
 TQ (REF):  พวกเขากล่าวว่า “และเรามิได้ห้ามท่านเกี่ยวกับการต้อนรับแขกดอกหรือ?”[FN:45]
 EN1 (Saheeh): They said, "Have we not forbidden you from [protecting] people?"
 EN2 (Hilali-Khan): They (people of the city) said: "Did we not forbid you from entertaining (or protecting) any of the ‘Âlamîn (people, foreigners and strangers from us)?"
@@ -562,7 +562,7 @@ FN[1]: อัรรอซีย์กล่าวว่า ความหมา
 --------------------------------------------------------------------------------
 [15:71]
 AR: قَالَ هَٰٓؤُلَآءِ بَنَاتِيٓ إِن كُنتُمۡ فَٰعِلِينَ | ٧١
-V3 (BASE): ลูฏกล่าวว่า “เขาเหล่านี้คือลูกสาวของฉัน หากพวกท่านจำเป็นต้องกระทำ?”[FN:1]
+V3 (BASE): ลูฏกล่าวว่า เขาเหล่านี้คือลูกสาวของฉัน หากพวกท่านจำเป็นต้องกระทำ[FN:1]
 TQ (REF):  ลูฏกล่าวว่า “เขาเหล่านี้คือลูกสาวของฉันหากพวกท่านจำเป็นต้องกระทำ?”[FN:46]
 EN1 (Saheeh): [Lot] said, "These are my daughters - if you would be doers [of lawful marriage]."
 EN2 (Hilali-Khan): [Lût (Lot)] said: "These (the girls of the nation) are my daughters (to marry lawfully), if you must act (so)."
@@ -618,7 +618,7 @@ V3 (BASE): และกระนั้นก็ดี ชาวอัลอั�
 TQ (REF):  และกระนั้นก็ดี ชาวอัลอัยกะฮ์[FN:49] เป็นผู้อธรรมอย่างแน่นอน
 EN1 (Saheeh): And the companions of the thicket [i.e., the people of Madyan] were [also] wrongdoers,
 EN2 (Hilali-Khan): And the Dwellers in the Wood [i.e. the people of Madyan (Midian) to whom Prophet Shu‘aib (عليه السلام) was sent by Allâh), were also Zâlimûn (polytheists and wrong-doers).
-FN[1]: อัลอัยกะฮฺคือต้นไม้หนาทึบ ชาวฮัลอัยกะฮฺคือชนชาติของนบีชุอัยบฺ สัญลักษณ์ของพวกนี้คือปฏิเสธศรัทธาต่อนบีชุอัยบฺ เป็นนักปล้นสะดมและโกงการชั่ง ตวง วัด
+FN[1]: อัลอัยกะฮฺคือต้นไม้หนาทึบ ชาวฮัลอัยกะฮฺคือชนชาติของนบีชุไอบ์ สัญลักษณ์ของพวกนี้คือปฏิเสธศรัทธาต่อนบีชุไอบ์ เป็นนักปล้นสะดมและโกงการชั่ง ตวง วัด
 --------------------------------------------------------------------------------
 [15:79]
 AR: فَٱنتَقَمۡنَا مِنۡهُمۡ وَإِنَّهُمَا لَبِإِمَامٖ مُّبِينٖ | ٧٩
@@ -627,7 +627,7 @@ TQ (REF):  ดังนั้นเราได้ลงโทษพวกเข
 EN1 (Saheeh): So We took retribution from them, and indeed, both [cities] are on a clear highway.
 EN2 (Hilali-Khan): So, We took vengeance on them. They are both on an open highway, plain to see.
 FN[1]: อัลลอฮฺ ตะอาลา ทำลายพวกเขาโดยให้เกิดการสั่นสะเทือนและมีกลุ่มเมฆ นักตัฟซีรกล่าวว่า ความร้อนอย่างรุนแรงได้เกิดขึ้นแก่พวกเขาเป็นเวลา 7 วัน จนเกือบจะทนไม่ได้ แล้วอัลลอฮฺได้ส่งก้อนเมฆมาให้พวกเขาเสมือนกับเป็นที่ร่ม พวกเขาได้ไปรวมตัวกันอยู่ใต้ร่มของก้อนเมฆ ต่อมาอัลลอฮฺได้ทำให้ไฟเผาพวกเขาทั้งหมด
-FN[2]: คือชนชาติของลูฏและชุอัยบฺ
+FN[2]: คือชนชาติของลูฏและชุไอบ์
 --------------------------------------------------------------------------------
 [15:80]
 AR: وَلَقَدۡ كَذَّبَ أَصۡحَٰبُ ٱلۡحِجۡرِ ٱلۡمُرۡسَلِينَ | ٨٠
@@ -635,7 +635,7 @@ V3 (BASE): และโดยแน่นอน ชาวอัลฮิจร�
 TQ (REF):  และโดยแน่นอน ชาวอัลฮิจร์ได้ปฏิเสธบรรดาร่อซูล[FN:52]
 EN1 (Saheeh): And certainly did the companions of al-Ḥijr [i.e., the Thamūd] deny the messengers.
 EN2 (Hilali-Khan): And verily, the dwellers of Al-Hijr (the rocky tract) denied the Messengers.
-FN[1]: อัลฮิจรฺเป็นที่ราบในหุบเขา อยู่ระหว่างนครมะดีนะฮฺกับประเทศชาม ชาวฮิจร์สืบเชื้อมาจากพวกษะมูด พวกนี้ไม่ศรัทธาต่อนบีศอและฮฺ
+FN[1]: อัลฮิจร์เป็นที่ราบในหุบเขา อยู่ระหว่างนครมะดีนะฮฺกับประเทศชาม ชาวฮิจร์สืบเชื้อมาจากพวกษะมูด พวกนี้ไม่ศรัทธาต่อนบีศอและฮฺ
 --------------------------------------------------------------------------------
 [15:81]
 AR: وَءَاتَيۡنَٰهُمۡ ءَايَٰتِنَا فَكَانُواْ عَنۡهَا مُعۡرِضِينَ | ٨١
@@ -673,7 +673,7 @@ V3 (BASE): และเรามิได้สร้างชั้นฟ้า
 TQ (REF):  และเรามิได้สร้างชั้นฟ้าทั้งหลายและแผ่นดิน และสิ่งที่อยู่ระหว่างทั้งสองนั้น เพื่ออื่นใดเว้นแต่เป็นความจริง[FN:55] และแท้จริงวันกิยามะฮ์จะมีมาอย่างแน่นอน ดังนั้นเจ้าจงอภัยด้วยการอภัยที่ดี
 EN1 (Saheeh): And We have not created the heavens and earth and that between them except in truth. And indeed, the Hour is coming; so forgive with gracious forgiveness.
 EN2 (Hilali-Khan): And We created not the heavens and the earth and all that is between them except with truth, and the Hour is surely coming, so overlook (O Muhammad صلى الله عليه و سلم) their faults with gracious forgiveness. [This was before the ordainment of Jihâd - holy fighting in Allâh’s cause].
-FN[1]: ดังนั้น ด้วยหิกมะฮฺของพระองค์ คือการลงโทษผู้ปฏิเสธศรัทธาทั้งหลาย เพื่อมิให้ความเสียหายเกิดขึ้นอีก
+FN[1]: ดังนั้น ด้วยฮิกมะฮฺของพระองค์ คือการลงโทษผู้ปฏิเสธศรัทธาทั้งหลาย เพื่อมิให้ความเสียหายเกิดขึ้นอีก
 --------------------------------------------------------------------------------
 [15:86]
 AR: إِنَّ رَبَّكَ هُوَ ٱلۡخَلَّٰقُ ٱلۡعَلِيمُ | ٨٦
@@ -692,7 +692,7 @@ FN[1]: คือซูเราะฮฺอัลฟาติฮะฮฺ
 --------------------------------------------------------------------------------
 [15:88]
 AR: لَا تَمُدَّنَّ عَيۡنَيۡكَ إِلَىٰ مَا مَتَّعۡنَا بِهِۦٓ أَزۡوَٰجٗا مِّنۡهُمۡ وَلَا تَحۡزَنۡ عَلَيۡهِمۡ وَٱخۡفِضۡ جَنَاحَكَ لِلۡمُؤۡمِنِينَ | ٨٨
-V3 (BASE): อย่าทอดสายตาทั้งสองของเจ้าไปยังสิ่งที่เราได้ให้ความเพลิดเพลินแก่บุคคลประเภทต่าง ๆ ของพวกเขา (กุฟฟาร)[FN:1] และอย่าเสียใจแทนพวกเขา[FN:2] และจงลดปีกของเจ้าให้ต่ำต่อบรรดาผู้ศรัทธา[FN:3]
+V3 (BASE): อย่าทอดสายตาทั้งสองของเจ้าไปยังสิ่งที่เราได้ให้ความเพลิดเพลินแก่บุคคลประเภทต่าง ๆ ของพวกเขา[FN:1] และอย่าเสียใจแทนพวกเขา[FN:2] และจงลดปีกของเจ้าให้ต่ำต่อบรรดาผู้ศรัทธา[FN:3]
 TQ (REF):  อย่าทอดสายตาทั้งสองของเจ้าไปยังสิ่งที่เราได้ให้ความเพลิดเพลินแก่บุคคลประเภทต่างๆ ของพวกเขา(กุฟฟาร)[FN:57] และอย่าเสียใจแทนพวกเขา[FN:58] และจงลดปีกของเจ้าให้ต่ำต่อบรรดาผู้ศรัทธา[FN:59]
 EN1 (Saheeh): Do not extend your eyes toward that by which We have given enjoyment to [certain] categories of them [i.e., the disbelievers], and do not grieve over them. And lower your wing [i.e., show kindness] to the believers.
 EN2 (Hilali-Khan): Look not with your eyes ambitiously at what We have bestowed on certain classes of them (the disbelievers), nor grieve over them. And lower your wings for the believers (be courteous to the fellow-believers).

@@ -27,7 +27,7 @@ If all verses in this chunk are accurate and readable, output: []
 ================================================================================
 [2:142]
 AR: ۞ سَيَقُولُ ٱلسُّفَهَآءُ مِنَ ٱلنَّاسِ مَا وَلَّىٰهُمۡ عَن قِبۡلَتِهِمُ ٱلَّتِي كَانُواْ عَلَيۡهَاۚ قُل لِّلَّهِ ٱلۡمَشۡرِقُ وَٱلۡمَغۡرِبُۚ يَهۡدِي مَن يَشَآءُ إِلَىٰ صِرَٰطٖ مُّسۡتَقِيمٖ | ١٤٢
-V3 (BASE): บรรดาผู้โฉดเขลา[FN:1]ในหมู่มนุษย์จะกล่าวว่า อะไรเล่าที่ทำให้พวกเขา[FN:2]หันออกไปจากกิบลัตของพวกเขา[FN:3]ที่พวกเขาเคยผินไป[FN:4] จงกล่าวเถิด (มุฮัมมัด) ว่า ทิศตะวันออกและทิศตะวันตกนั้นเป็นสิทธิของอัลลอฮฺเท่านั้น พระองค์จะทรงแนะนำผู้ที่พระองค์ทรงประสงค์ไปสู่ทางอันเที่ยงตรง
+V3 (BASE): บรรดาผู้โฉดเขลา[FN:1]ในหมู่มนุษย์นั้นจะกล่าวว่า อะไรเล่าที่ทำให้พวกเขา[FN:2]หันออกไปจากกิบลัตของพวกเขา[FN:3]ที่พวกเขาเคยผินไป[FN:4] จงกล่าวเถิด (มุฮัมมัด) ว่า ทิศตะวันออกและทิศตะวันตกนั้นเป็นสิทธิของอัลลอฮฺเท่านั้น พระองค์จะทรงแนะนำผู้ที่พระองค์ทรงประสงค์ไปสู่ทางอันเที่ยงตรง
 TQ (REF):  บรรดาผู้โฉดเขลา[FN:203] ในหมู่มนุษย์จะกล่าวว่า อะไรเล่าที่ทำให้พวกเขา[FN:204] หันออกไปจากกิบลัตของพวกเขา[FN:205] ที่พวกเขาเคยผินไป[FN:206] จงกล่าวเถิด(มุอัมมัด) ว่าทิศตะวันออกและทิศตะวันตกนั้นเป็นสิทธิของอัลลอฮ์เท่านั้น พระองค์จะทรงแนะนำผู้ที่พระองค์ทรงประสงค์ไปสู่ทางอันเที่ยงตรง
 EN1 (Saheeh): The foolish among the people will say, "What has turned them away from their qiblah, which they used to face?" Say, "To Allāh belongs the east and the west. He guides whom He wills to a straight path."
 EN2 (Hilali-Khan): The fools among the people (pagans, hypocrites, and Jews) will say, "What has turned them (Muslims) from their Qiblah [prayer direction (towards Jerusalem)] to which they used to face in prayer." Say, (O Muhammad صلى الله عليه وسلم) "To Allâh belong both, east and the west. He guides whom He wills to the Straight Way."
@@ -38,7 +38,7 @@ FN[4]: หมายถึงท่านนบี และบรรดามุ
 --------------------------------------------------------------------------------
 [2:143]
 AR: وَكَذَٰلِكَ جَعَلۡنَٰكُمۡ أُمَّةٗ وَسَطٗا لِّتَكُونُواْ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيۡكُمۡ شَهِيدٗاۗ وَمَا جَعَلۡنَا ٱلۡقِبۡلَةَ ٱلَّتِي كُنتَ عَلَيۡهَآ إِلَّا لِنَعۡلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيۡهِۚ وَإِن كَانَتۡ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَٰنَكُمۡۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٞ رَّحِيمٞ | ١٤٣
-V3 (BASE): และในทำนองเดียวกัน เราได้ให้พวกเจ้าเป็นประชาชาติที่เป็นกลาง เพื่อพวกเจ้าจะได้เป็นสักขีพยานแก่มนุษย์ทั้งหลาย และรอซูล[FN:1]ก็จะเป็นสักขีพยานแด่พวกเจ้า และเรามิได้ให้มีกิบลัตที่เจ้าเคยผินไป นอกจากเพื่อเราจะได้รู้ว่าใครบ้างที่จะปฏิบัติตามรอซูล จากผู้ที่กำลังหันส้นเท้าทั้งสองของเขากลับ[FN:2] และแท้จริงการเปลี่ยนแปลงกิบลัตนั้นเป็นเรื่องใหญ่[FN:3] นอกจากแก่บรรดาผู้ที่อัลลอฮฺได้ทรงแนะนำเท่านั้น และใช่ว่าอัลลอฮฺนั้นจะทำให้การศรัทธาของพวกเจ้าสูญไปก็หาไม่ แท้จริงอัลลอฮฺเป็นผู้ทรงกรุณาปรานี ผู้ทรงเมตตาแก่มนุษย์เสมอ
+V3 (BASE): และในทำนองเดียวกัน เราได้ให้พวกเจ้าเป็นประชาชาติที่เป็นกลาง เพื่อพวกเจ้าจะได้เป็นสักขีพยานแก่มนุษย์ทั้งหลาย และรอซูล[FN:1]ก็จะเป็นสักขีพยานแก่พวกเจ้า และเรามิได้ให้มีขึ้นซึ่งกิบลัตที่เจ้าเคยผินไป นอกจากเพื่อเราจะได้รู้ว่าใครบ้างที่จะปฏิบัติตามรอซูล จากผู้ที่กำลังหันสันเท้าทั้งสองของเขากลับ[FN:2] และแท้จริงการเปลี่ยนแปลงกิบลัตนั้นเป็นเรื่องใหญ่[FN:3] นอกจากแก่บรรดาผู้ที่อัลลอฮฺได้ทรงแนะนำเท่านั้น และใช่ว่าอัลลอฮฺนั้นจะทำให้การศรัทธาของพวกเจ้าสูญไปก็หาไม่ แท้จริงอัลลอฮฺเป็นผู้ทรงกรุณา ทรงเมตตาแก่มนุษย์เสมอ
 TQ (REF):  และในทำนองเดียวกัน เราได้ให้พวกเจ้าเป็นประชาชาติที่เป็นกลาง เพื่อพวกเจ้าจะได้เป็นสักขีพยานแก่มนุษย์ทั้งหลาย และร่อซูล[FN:207] ก็จะเป็นสักขีพยานแด่พวกเจ้า และเรามิได้ให้มีกิบลัตที่เจ้าเคยผินไป นอกจากเพื่อเราจะได้รู้ว่าใครบ้างที่จะปฏิบัติตามร่อซูล จากผู้ที่กำลังหันสันเท้าทั้งสองของเขากลับ[FN:208] และแท้จริงการเปลี่ยนแปลงกิบลัตนั้นเป็นเรื่องใหญ่[FN:209] นอกจากแก่บรรดาผู้ที่อัลลอฮ์ได้ทรงแนะนำเท่านั้น และใช่ว่าอัลลอฮ์นั้นจะทำให้การศรัทธาของพวกเจ้าสูญไปก็หาไม่ แท้จริงอัลลอฮ์เป็นผู้ทรงกรุณาปราณี ผู้ทรงเมตตาแก่มนุษย์เสมอ
 EN1 (Saheeh): And thus We have made you a median [i.e., just] community that you will be witnesses over the people and the Messenger will be a witness over you. And We did not make the qiblah which you used to face except that We might make evident who would follow the Messenger from who would turn back on his heels. And indeed, it is difficult except for those whom Allāh has guided. And never would Allāh have caused you to lose your faith [i.e., your previous prayers]. Indeed Allāh is, to the people, Kind and Merciful.
 EN2 (Hilali-Khan): Thus We have made you [true Muslims - real believers of Islâmic Monotheism, true followers of Prophet Muhammad صلى الله عليه وسلم and his Sunnah (legal ways)], a just (and the best) nation, that you be witnesses over mankind and the Messenger (Muhammad صلى الله عليه وسلم) be a witness over you. And We made the Qiblah (prayer direction towards Jerusalem) which you used to face, only to test those who followed the Messenger (Muhammad صلى الله عليه وسلم) from those who would turn on their heels (i.e. disobey the Messenger). Indeed it was great (heavy) except for those whom Allâh guided. And Allâh would never make your faith (prayers) to be lost (i.e. your prayers offered towards Jerusalem). Truly, Allâh is full of Kindness, the Most Merciful towards mankind.
@@ -48,7 +48,7 @@ FN[3]: เพราะทำให้ผู้ที่มีศรัทธา�
 --------------------------------------------------------------------------------
 [2:144]
 AR: قَدۡ نَرَىٰ تَقَلُّبَ وَجۡهِكَ فِي ٱلسَّمَآءِۖ فَلَنُوَلِّيَنَّكَ قِبۡلَةٗ تَرۡضَىٰهَاۚ فَوَلِّ وَجۡهَكَ شَطۡرَ ٱلۡمَسۡجِدِ ٱلۡحَرَامِۚ وَحَيۡثُ مَا كُنتُمۡ فَوَلُّواْ وُجُوهَكُمۡ شَطۡرَهُۥۗ وَإِنَّ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ لَيَعۡلَمُونَ أَنَّهُ ٱلۡحَقُّ مِن رَّبِّهِمۡۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا يَعۡمَلُونَ | ١٤٤
-V3 (BASE): แท้จริงเราเห็นใบหน้าของเจ้าแหงนไปในฟากฟ้าบ่อยครั้ง แน่นอนเราให้เจ้าผินไปยังทิศ[FN:1]ที่เจ้าพึงใจ ดังนั้นเจ้าจงผินใบหน้าของเจ้าไปทางมัสยิดิลฮะรอมเถิด และที่ใดก็ตามที่พวกเจ้าปรากฏอยู่ ก็จงผินใบหน้าของพวกเจ้าไปทางทิศนั้น[FN:2] และแท้จริงบรรดาผู้ที่ได้รับคัมภีร์[FN:3]นั้น ย่อมรู้ดีว่ามัน[FN:4]คือความจริงที่มาจากพระผู้อภิบาลของพวกเขา และอัลลอฮฺไม่ทรงละเลยในสิ่งที่พวกเขากระทำกัน
+V3 (BASE): แท้จริงเราเห็นใบหน้าของเจ้าแหงนไปในฟากฟ้าบ่อยครั้ง แน่นอนเราให้เจ้าผินไปยังทิศ[FN:1]ที่เจ้าพึงใจ ดังนั้นเจ้าจงผินใบหน้าของเจ้าไปทางมัสยิดิลฮะรอมเถิด และที่ใดก็ตามที่พวกเจ้าปรากฏอยู่ ก็จงผินใบหน้าของพวกเจ้าไปทางทิศนั้น[FN:2] และแท้จริงบรรดาผู้ที่ได้รับคัมภีร์[FN:3]นั้น ย่อมรู้ดีว่ามัน[FN:4]คือความจริงที่มาจากพระเจ้าของพวกเขา และอัลลอฮฺนั้นไม่ทรงเผลอในสิ่งที่พวกเขากระทำกัน
 TQ (REF):  แท้จริง เราเห็นใบหน้าของเจ้าแหงนไปในฟากฟ้าบ่อยครั้ง แน่นอนเราให้เจ้าผินไปยังทิศ[FN:210] ที่เจ้าพึงใจ ดังนั้น เจ้าจงผินใบหน้าของเจ้าไปทางมัสยิดิลฮะรอมเถิด และที่ใดก็ตามที่พวกเจ้าปรากฏอยู่ ก็จงผินใบหน้าของพวกเจ้าไปทางทิศนั้น[FN:211] และแท้จริงบรรดาผู้ที่ได้รับคัมภีร์[FN:212] นั้นย่อมรู้ดีว่ามัน[FN:213] คือความจริงที่มาจากพระผู้อภิบาลของพวกเขา และอัลลอฮ์ไม่ทรงละเลยในสิ่งที่พวกเขากระทำกัน
 EN1 (Saheeh): We have certainly seen the turning of your face, [O Muḥammad], toward the heaven, and We will surely turn you to a qiblah with which you will be pleased. So turn your face [i.e., yourself] toward al-Masjid al-Ḥarām. And wherever you [believers] are, turn your faces [i.e., yourselves] toward it [in prayer]. Indeed, those who have been given the Scripture [i.e., the Jews and the Christians] well know that it is the truth from their Lord. And Allāh is not unaware of what they do.
 EN2 (Hilali-Khan): Verily! We have seen the turning of your (Muhammad’s صلى الله عليه وسلم) face towards the heaven. Surely, We shall turn you to a Qiblah (prayer direction) that shall please you, so turn your face in the direction of Al-Masjid-al-Harâm (at Makkah). And wheresoever you people are, turn your faces (in prayer) in that direction. Certainly, the people who were given the Scripture (i.e. Jews and the Christians) know well that, that (your turning towards the direction of the Ka‘bah at Makkah in prayers) is the truth from their Lord. And Allâh is not unaware of what they do.
@@ -59,7 +59,7 @@ FN[4]: การผินไปสู่มัสยิดฮะรอม
 --------------------------------------------------------------------------------
 [2:145]
 AR: وَلَئِنۡ أَتَيۡتَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ بِكُلِّ ءَايَةٖ مَّا تَبِعُواْ قِبۡلَتَكَۚ وَمَآ أَنتَ بِتَابِعٖ قِبۡلَتَهُمۡۚ وَمَا بَعۡضُهُم بِتَابِعٖ قِبۡلَةَ بَعۡضٖۚ وَلَئِنِ ٱتَّبَعۡتَ أَهۡوَآءَهُم مِّنۢ بَعۡدِ مَا جَآءَكَ مِنَ ٱلۡعِلۡمِ إِنَّكَ إِذٗا لَّمِنَ ٱلظَّٰلِمِينَ | ١٤٥
-V3 (BASE): และแน่นอน ถ้าหากเจ้าได้นำหลักฐานทุกอย่างมาแสดงแก่บรรดาผู้ได้รับคัมภีร์ พวกเขาก็จะไม่ตามกิบลัตของเจ้า[FN:1] และเจ้าก็มิใช่จะเป็นผู้ตามกิบลัตของพวกเขา และบางกลุ่มในพวกเขาเองก็มิใช่จะเป็นผู้ตามกิบลัตของอีกบางกลุ่ม[FN:2] และถ้าหากเจ้าไปปฏิบัติตามอารมณ์ของพวกเขา หลังจากที่มีความรู้มายังเจ้าแล้ว แน่นอน ทันใดนั้น เจ้าก็อยู่ในหมู่ผู้อธรรม
+V3 (BASE): และแน่นอน ถ้าหากเจ้าได้นำหลักฐานทุกอย่างมาแสดงแก่บรรดาผู้ได้รับคัมภีร์ พวกเขาก็ไม่ตามกิบลัตของเจ้า[FN:1] และเจ้าก็มิใช่จะเป็นผู้ตามกิบลัตของพวกเขา และบางกลุ่มในพวกเขาเองก็มิใช่จะเป็นผู้ตามกิบลัตของอีกบางกลุ่ม[FN:2] และถ้าหากเจ้าไปปฏิบัติตามความใคร่ของพวกเขา หลังจากที่มีความรู้มายังเจ้าแล้ว แน่นอน ทันใดนั้น เจ้าก็อยู่ในหมู่ผู้อธรรม
 TQ (REF):  และแน่นอน ถ้าหากเจ้าได้นำหลักฐานทุกอย่างมาแสดงแก่บรรดาผู้ได้รับคัมภีร์ พวกเขาก็จะไม่ตามกิบลัตของเจ้า[FN:214] และเจ้าก็มิใช่จะเป็นผู้ตามกิบลัตของพวกเขา และบางกลุ่มในพวกเขาเองก็มิใช่จะเป็นผู้ตามกิบลัตของอีกบางกลุ่ม[FN:215] และถ้าหากเจ้าไปปฏิบัติตามอารมณ์ของพวกเขา หลังจากที่มีความรู้มายังเจ้าแล้ว แน่นอนทันใดนั้น เจ้าก็อยู่ในหมู่ผู้อธรรม
 EN1 (Saheeh): And if you brought to those who were given the Scripture every sign, they would not follow your qiblah. Nor will you be a follower of their qiblah. Nor would they be followers of one another's qiblah. So if you were to follow their desires after what has come to you of knowledge, indeed, you would then be among the wrongdoers.
 EN2 (Hilali-Khan): And even if you were to bring to the people of the Scripture (Jews and Christians) all the Ayât (proofs, evidence, verses, lessons, signs, revelations, etc.), they would not follow your Qiblah (prayer direction), nor are you going to follow their Qiblah (prayer direction). And they will not follow each other’s Qiblah (prayer direction). Verily, if you follow their desires after that which you have received of knowledge (from Allâh), then indeed you will be one of the Zâlimûn (polytheists, wrong-doers).
@@ -68,7 +68,7 @@ FN[2]: ยิวและคริสเตียน ต่างก็ไม่
 --------------------------------------------------------------------------------
 [2:146]
 AR: ٱلَّذِينَ ءَاتَيۡنَٰهُمُ ٱلۡكِتَٰبَ يَعۡرِفُونَهُۥ كَمَا يَعۡرِفُونَ أَبۡنَآءَهُمۡۖ وَإِنَّ فَرِيقٗا مِّنۡهُمۡ لَيَكۡتُمُونَ ٱلۡحَقَّ وَهُمۡ يَعۡلَمُونَ | ١٤٦
-V3 (BASE): บรรดาผู้ที่เราได้ให้คัมภีร์แก่พวกเขานั้น พวกเขาย่อมรู้จักเขา[FN:1]ดี เหมือนกับที่พวกเขารู้จักลูก ๆ ของเขาเอง และแท้จริงกลุ่มหนึ่งจากพวกเขาปิดบังความจริง[FN:2]ไว้ ทั้ง ๆ ที่พวกเขารู้กันอยู่
+V3 (BASE): บรรดาผู้ที่เราได้ให้คัมภีร์แก่พวกเขานั้น พวกเขาย่อมรู้จักเขา[FN:1]ดี เหมือนกับที่พวกเขารู้จักลูก ๆ ของเขาเอง และแท้จริงกลุ่มหนึ่งจากพวกเขานั้นปิดบังความจริง[FN:2]ไว้ ทั้ง ๆ ที่พวกเขารู้กันอยู่
 TQ (REF):  บรรดาผู้ที่เราได้ให้ คัมภีร์แก่พวกเขานั้น พวกเขาย่อมรู้จักเขา[FN:216] ดีเหมือนกับที่พวกเขารู้จักลูกๆ ของเขาเอง และแท้จริงกลุ่มหนึ่งจากพวกเขาปิดบังความจริง[FN:217] ไว้ทั้ง ๆ ที่พวกเขารู้กันอยู่
 EN1 (Saheeh): Those to whom We gave the Scripture know him [i.e., Prophet Muḥammad (ﷺ)] as they know their own sons. But indeed, a party of them conceal the truth while they know [it].
 EN2 (Hilali-Khan): Those to whom We gave the Scripture (Jews and Christians) recognise him (Muhammad صلى الله عليه وسلم or the Ka‘bah at Makkah) as they recognise their sons. But verily, a party of them conceal the truth while they know it - [i.e. the qualities of Muhammad صلى الله عليه وسلم which are written in the Taurât (Torah) and the Injeel (Gospel)].
@@ -92,7 +92,7 @@ FN[1]: คือนบีอิบรอฮีม และนบีอิสม
 --------------------------------------------------------------------------------
 [2:149]
 AR: وَمِنۡ حَيۡثُ خَرَجۡتَ فَوَلِّ وَجۡهَكَ شَطۡرَ ٱلۡمَسۡجِدِ ٱلۡحَرَامِۖ وَإِنَّهُۥ لَلۡحَقُّ مِن رَّبِّكَۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعۡمَلُونَ | ١٤٩
-V3 (BASE): และจากที่ใดก็ตามที่เจ้าได้ออกไป ก็จงผินหน้าของเจ้าไปทางอัลมัสยิดิลฮะรอม และแท้จริงนั้นมัน[FN:1]คือความจริงที่มาจากพระผู้อภิบาลของเจ้า และอัลลอฮฺนั้นไม่เป็นผู้ทรงละเลยในสิ่งที่พวกเจ้ากระทำกันอยู่
+V3 (BASE): และจากที่ใดก็ตามที่เจ้าได้ออกไป ก็จงผินหน้าของเจ้าไปทางอัลมัสยิดิลฮะรอม และแท้จริงนั้นมัน[FN:1]คือความจริงที่มาจากพระเจ้าของเจ้า และอัลลอฮฺนั้นไม่เป็นผู้ทรงเผลอในสิ่งที่พวกเจ้ากระทำกันอยู่
 TQ (REF):  และจากที่ใดก็ตามที่เจ้าได้ออกไป ก็จงผินหน้าของเจ้าไปทางอัลมัสยิดิลฮะรอม และแท้จริงนั้น มัน[FN:219] คือความจริงที่มาจากพระผู้อภิบาลของเจ้า และอัลลอฮ์นั้นไม่เป็นผู้ทรงละเลยในสิ่งที่พวกเจ้ากระทำกั้นอยู่
 EN1 (Saheeh): So from wherever you go out [for prayer, O Muḥammad], turn your face toward al-Masjid al-Ḥarām, and indeed, it is the truth from your Lord. And Allāh is not unaware of what you do.
 EN2 (Hilali-Khan): And from wheresoever you start forth (for prayers), turn your face in the direction of Al-Masjid-Al-Harâm (at Makkah), that is indeed the truth from your Lord. And Allâh is not unaware of what you do.
@@ -100,7 +100,7 @@ FN[1]: การผินไปทางอัลมัสยิดิลฮะ�
 --------------------------------------------------------------------------------
 [2:150]
 AR: وَمِنۡ حَيۡثُ خَرَجۡتَ فَوَلِّ وَجۡهَكَ شَطۡرَ ٱلۡمَسۡجِدِ ٱلۡحَرَامِۚ وَحَيۡثُ مَا كُنتُمۡ فَوَلُّواْ وُجُوهَكُمۡ شَطۡرَهُۥ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيۡكُمۡ حُجَّةٌ إِلَّا ٱلَّذِينَ ظَلَمُواْ مِنۡهُمۡ فَلَا تَخۡشَوۡهُمۡ وَٱخۡشَوۡنِي وَلِأُتِمَّ نِعۡمَتِي عَلَيۡكُمۡ وَلَعَلَّكُمۡ تَهۡتَدُونَ | ١٥٠
-V3 (BASE): และจากที่ใดก็ตามที่เจ้าออกไป ก็จงผินหน้าของเจ้าไปทางอัลมัสยิดิลฮะรอม และที่ใดก็ตามที่พวกเจ้าปรากฏอยู่ ก็จงผินหน้าของพวกเจ้าไปทางนั้น[FN:1] เพื่อว่าจะได้ไม่เป็นข้ออ้างใด ๆ แก่หมู่ชนที่แย้งกับพวกเจ้าได้ นอกจากบรรดาผู้อธรรมในหมู่ของพวกเขาเท่านั้น ดังนั้นพวกเจ้าจงอย่ากลัวพวกเขา แต่จงกลัวข้าเถิด และเพื่อที่ข้าจะได้ให้ความกรุณาของข้าครบถ้วนแก่พวกเจ้า และเพื่อว่าพวกเจ้าจะได้รับแนวทางอันถูกต้อง
+V3 (BASE): และจากที่ใดก็ตามที่เจ้าออกไป ก็จงผินหน้าของเจ้าไปทางอัลมัสยิดิลฮะรอม และที่ใดก็ตามที่พวกเจ้าปรากฏอยู่ ก็จงผินหน้าของพวกเจ้าไปทางนั้น[FN:1] เพื่อว่าจะได้ไม่เป็นข้ออ้างใด ๆ แก่หมู่ชนที่แย้งพวกเจ้าได้ นอกจากบรรดาผู้อธรรมในหมู่ของพวกเขาเท่านั้น ดังนั้นพวกเจ้าจงอย่ากลัวพวกเขา แต่จงกลัวข้าเถิด และเพื่อที่ข้าจะได้ให้ความกรุณาของข้าครบถ้วนแก่พวกเจ้า และเพื่อว่าพวกเจ้าจะได้รับแนวทางอันถูกต้อง
 TQ (REF):  และจากที่ใดก็ตามที่เจ้าออกไป ก็จงผินหน้าของเจ้าไปทางอัลมัสยิดิลฮะรอม และที่ใดก็ตามที่พวกเจ้าปรากฏอยู่ ก็จงผินหน้าของพวกเจ้าไปทางนั้น[FN:220] เพื่อว่าจะได้ไม่เป็นข้ออ้างใดๆ แก่หมู่ชนที่แย้งกับพวกเจ้าได้ นอกจากบรรดาผู้อธรรมในหมู่ของพวกเขาเท่านั้น ดังนั้นพวกเจ้าจงอย่ากลัวพวกเขาแต่จงกลัวข้าเถิด และเพื่อที่ข้าจะได้ให้ความกรุณาของข้าครบถ้วนแก่พวกเจ้า และเพื่อว่าพวกเจ้าจะได้รับแนวทางอันถูกต้อง
 EN1 (Saheeh): And from wherever you go out [for prayer], turn your face toward al-Masjid al-Ḥarām. And wherever you [believers] may be, turn your faces toward it in order that the people will not have any argument against you, except for those of them who commit wrong; so fear them not but fear Me. And [it is] so I may complete My favor upon you and that you may be guided,
 EN2 (Hilali-Khan): And from wheresoever you start forth (for prayers), turn your face in the direction of Al-Masjid-Al-Harâm (at Makkah), and wheresoever you are, turn your faces towards it (when you pray) so that men may have no argument against you except those of them that are wrong-doers, so fear them not, but fear Me! - And so that I may complete My Blessings on you and that you may be guided.
@@ -130,7 +130,7 @@ EN2 (Hilali-Khan): O you who believe! Seek help in patience and As-Salât (the p
 --------------------------------------------------------------------------------
 [2:154]
 AR: وَلَا تَقُولُواْ لِمَن يُقۡتَلُ فِي سَبِيلِ ٱللَّهِ أَمۡوَٰتُۢۚ بَلۡ أَحۡيَآءٞ وَلَٰكِن لَّا تَشۡعُرُونَ | ١٥٤
-V3 (BASE): และพวกเจ้าอย่ากล่าวแก่ผู้ที่ถูกฆ่าในทางของอัลลอฮฺว่า พวกเขาตาย[FN:1]หามิได้ พวกเขายังมีชีวิตอยู่[FN:2] แต่ทว่าพวกเจ้าไม่รู้สึก
+V3 (BASE): และจงอย่ากล่าวแก่บรรดาผู้ที่ถูกฆ่าในทางของอัลลอฮฺว่า พวกเขาตาย[FN:1]หามิได้ พวกเขามีชีวิตอยู่[FN:2] แต่ทว่าพวกเจ้าไม่รู้สึก
 TQ (REF):  และพวกเจ้าอย่ากล่าวแก่ผู้ที่ถูกฆ่าในทางของอัลลอฮ์ว่าพวกเขาตาย[FN:222] หามิได้พวกเขายังมีชีวิตอยู่[FN:223] แต่ทว่าพวกเจ้าไม่รู้สึก
 EN1 (Saheeh): And do not say about those who are killed in the way of Allāh, "They are dead." Rather, they are alive, but you perceive [it] not.
 EN2 (Hilali-Khan): And say not of those who are killed in the Way of Allâh, "They are dead." Nay, they are living, but you perceive (it) not.
@@ -146,7 +146,7 @@ EN2 (Hilali-Khan): And certainly, We shall test you with something of fear, hung
 --------------------------------------------------------------------------------
 [2:156]
 AR: ٱلَّذِينَ إِذَآ أَصَٰبَتۡهُم مُّصِيبَةٞ قَالُوٓاْ إِنَّا لِلَّهِ وَإِنَّآ إِلَيۡهِ رَٰجِعُونَ | ١٥٦
-V3 (BASE): คือบรรดาผู้ที่เมื่อมีทุกข์ภัยมาประสบแก่พวกเขา[FN:1] พวกเขาก็กล่าวว่า แท้จริงพวกเราเป็นกรรมสิทธิ์ของอัลลอฮฺ และแท้จริงพวกเราจะกลับไปยังพระองค์
+V3 (BASE): คือบรรดาผู้ที่เมื่อมีเคราะห์ร้ายมาประสบแก่พวกเขา[FN:1] พวกเขาก็กล่าวว่า แท้จริงพวกเราเป็นกรรมสิทธิ์ของอัลลอฮฺ และแท้จริงพวกเราจะกลับไปยังพระองค์
 TQ (REF):  คือบรรดาผู้ที่เมื่อมีทุกข์ภัยมาประสบแก่พวกเขา[FN:224] พวกเขาก็กล่าวว่า แท้จริง พวกเราเป็นกรรมสิทธิ์ของอัลลอฮ์และแท้จริงพวกเราจะกลับไปยังพระองค์
 EN1 (Saheeh): Who, when disaster strikes them, say, "Indeed we belong to Allāh, and indeed to Him we will return."
 EN2 (Hilali-Khan): Who, when afflicted with calamity, say: "Truly! To Allâh we belong and truly, to Him we shall return."
@@ -170,7 +170,7 @@ FN[2]: คือทรงประทานรางวัลให้
 --------------------------------------------------------------------------------
 [2:159]
 AR: إِنَّ ٱلَّذِينَ يَكۡتُمُونَ مَآ أَنزَلۡنَا مِنَ ٱلۡبَيِّنَٰتِ وَٱلۡهُدَىٰ مِنۢ بَعۡدِ مَا بَيَّنَّٰهُ لِلنَّاسِ فِي ٱلۡكِتَٰبِ أُوْلَٰٓئِكَ يَلۡعَنُهُمُ ٱللَّهُ وَيَلۡعَنُهُمُ ٱللَّٰعِنُونَ | ١٥٩
-V3 (BASE): แท้จริงบรรดาผู้ที่ปิดบังหลักฐานอันชัดเจน[FN:1] และทางนำอันถูกต้องที่เราได้ให้ลงมาหลังจากที่เราได้ชี้แจงมันไว้แล้วในคัมภีร์สำหรับมนุษย์นั้น ชนเหล่านี้แหละ อัลลอฮฺจะทรงขับไล่พวกเขาให้พ้นจากความเมตตาของพระองค์ และผู้สาปแช่งทั้งหลายก็จะสาปแช่งพวกเขาด้วย
+V3 (BASE): แท้จริงบรรดาผู้ที่ปิดบังหลักฐานอันชัดเจน[FN:1] และข้อแนะนำอันถูกต้องที่เราได้ให้ลงมาหลังจากที่เราได้ชี้แจงมันไว้แล้วในคัมภีร์สำหรับมนุษย์นั้น ชนเหล่านี้แหละ อัลลอฮฺจะทรงขับไล่พวกเขาให้พ้นจากความเมตตาของพระองค์ และผู้สาปแช่งทั้งหลายก็จะสาปแช่งพวกเขาด้วย
 TQ (REF):  แท้จริงบรรดาผู้ที่ปิดบังหลักฐานอันชัดเจน[FN:227] และทางนำอันถูกต้องที่เราได้ให้ลงมาหลังจากที่เราได้ชีแจงมันไว้แล้วในคัมภีร์สำหรับมนุษย์นั้น ชนเหล่านี้แหละอัลลอฮ์จะทรงขับไล่พวกเขาให้พ้นจากความเมตตาของพระองค์ และผู้สาปแช่งทั้งหลายก็จะสาปแช่งพวกเขาด้วย
 EN1 (Saheeh): Indeed, those who conceal what We sent down of clear proofs and guidance after We made it clear for the people in the Scripture - those are cursed by Allāh and cursed by those who curse,
 EN2 (Hilali-Khan): Verily, those who conceal the clear proofs, evidence and the guidance, which We have sent down, after We have made it clear for the people in the Book, they are the ones cursed by Allâh and cursed by the cursers.
@@ -178,7 +178,7 @@ FN[1]: หมายถึงอะฮฺลุลกิตาบ
 --------------------------------------------------------------------------------
 [2:160]
 AR: إِلَّا ٱلَّذِينَ تَابُواْ وَأَصۡلَحُواْ وَبَيَّنُواْ فَأُوْلَٰٓئِكَ أَتُوبُ عَلَيۡهِمۡ وَأَنَا ٱلتَّوَّابُ ٱلرَّحِيمُ | ١٦٠
-V3 (BASE): นอกจากผู้ที่สำนึกผิดกลับเนื้อกลับตัว และปรับปรุงแก้ไข และชี้แจงสิ่งที่ปกปิดไว้[FN:1] ชนเหล่านี้ ข้าจะอภัยโทษให้แก่พวกเขา และข้าคือผู้อภัยโทษ และผู้ทรงเมตตาเสมอ
+V3 (BASE): นอกจากผู้ที่สำนึกผิดกลับเนื้อกลับตัว และปรับปรุงแก้ไข และชี้แจงสิ่งที่ปกปิดไว้[FN:1] ชนเหล่านี้ ข้าจะอภัยโทษให้แก่พวกเขา และข้าคือผู้อภัยโทษ และเมตตาเสมอ
 TQ (REF):  นอกจากผู้ที่สำนึกผิดกลับเนื้อกลับตัว และปรับปรุงแก้ไขและชี้แจงสิ่งที่ปกปิดไว้[FN:228] ชนเหล่านี้ข้าจะอภัยโทษให้แก่พวกเขา และข้าคือ ผู้อภัยโทษและผู้ทรงเมตตาเสมอ
 EN1 (Saheeh): Except for those who repent and correct themselves and make evident [what they concealed]. Those - I will accept their repentance, and I am the Accepting of Repentance, the Merciful.
 EN2 (Hilali-Khan): Except those who repent and do righteous deeds, and openly declare (the truth which they concealed). These, I will accept their repentance. And I am the One Who accepts repentance, the Most Merciful.
@@ -217,7 +217,7 @@ FN[2]: คือแผ่นดินแห้งแล้งปราศจา�
 --------------------------------------------------------------------------------
 [2:165]
 AR: وَمِنَ ٱلنَّاسِ مَن يَتَّخِذُ مِن دُونِ ٱللَّهِ أَندَادٗا يُحِبُّونَهُمۡ كَحُبِّ ٱللَّهِۖ وَٱلَّذِينَ ءَامَنُوٓاْ أَشَدُّ حُبّٗا لِّلَّهِۗ وَلَوۡ يَرَى ٱلَّذِينَ ظَلَمُوٓاْ إِذۡ يَرَوۡنَ ٱلۡعَذَابَ أَنَّ ٱلۡقُوَّةَ لِلَّهِ جَمِيعٗا وَأَنَّ ٱللَّهَ شَدِيدُ ٱلۡعَذَابِ | ١٦٥
-V3 (BASE): และในหมู่มนุษย์ มีผู้ที่ยึดถือบรรดาภาคี[FN:1]อื่นจากอัลลอฮฺ ซึ่งพวกเขารักภาคีเหล่านั้น เช่นเดียวกับรักอัลลอฮฺ แต่บรรดาผู้ศรัทธานั้นเป็นผู้ที่รักอัลลอฮฺมากยิ่งกว่า และหากบรรดาผู้อธรรมจะได้เห็น ขณะที่พวกเขาเห็นการลงโทษอยู่นั้น (แน่นอนพวกเขาจะต้องตระหนักดีว่า) แท้จริงพลังทั้งมวลเป็นของอัลลอฮฺ และแท้จริงอัลลอฮฺเป็นผู้ทรงลงโทษที่รุนแรง
+V3 (BASE): และในหมู่มนุษย์นั้น มีผู้ที่ยึดถือบรรดาภาคี[FN:1]อื่นจากอัลลอฮฺ ซึ่งพวกเขารักภาคีเหล่านั้น เช่นเดียวกับรักอัลลอฮฺ แต่บรรดาผู้ศรัทธานั้นเป็นผู้ที่รักอัลลอฮฺมากยิ่งกว่า และหากบรรดาผู้อธรรมจะได้เห็น ขณะที่พวกเขาเห็นการลงโทษอยู่นั้น (แน่นอนพวกเขาจะต้องตระหนักดีว่า) แท้จริงอัลลอฮฺนั้นเป็นผู้ทรงลงโทษที่รุนแรง
 TQ (REF):  และในหมู่มนุษย์ มีผู้ที่ยึดถือบรรดาภาคี[FN:232] อื่นจากอัลลอฮ์ซึ่งพวกเขารักภาคีเหล่านั้นเช่นเดียวกับรักอัลลอฮ์แต่บรรดาผู้ศรัทธานั้นเป็นผู้ที่รักอัลลอฮ์มากยิ่งกว่าและหากบรรดาผู้อธรรมจะได้เห็น ขณะที่พวกเขาเห็นการลงโทษอยู่นั้น (แน่นอนพวกเขาจะต้องตระหนักดีว่า) แท้จริงพลังทั้งมวลเป็นของอัลลอฮ์ และแท้จริงอัลลอ์เป็นผู้ทรงลงโทษที่รุนแรง
 EN1 (Saheeh): And [yet], among the people are those who take other than Allāh as equals [to Him]. They love them as they [should] love Allāh. But those who believe are stronger in love for Allāh. And if only they who have wronged would consider [that] when they see the punishment, [they will be certain] that all power belongs to Allāh and that Allāh is severe in punishment.
 EN2 (Hilali-Khan): And of mankind are some who take (for worship) others besides Allâh as rivals (to Allâh). They love them as they love Allâh. But those who believe, love Allâh more (than anything else). If only, those who do wrong could see, when they will see the torment, that all power belongs to Allâh and that Allâh is Severe in punishment.
@@ -225,7 +225,7 @@ FN[1]: หมายถึงมนุษย์ มลาอิกะฮฺ ญ�
 --------------------------------------------------------------------------------
 [2:166]
 AR: إِذۡ تَبَرَّأَ ٱلَّذِينَ ٱتُّبِعُواْ مِنَ ٱلَّذِينَ ٱتَّبَعُواْ وَرَأَوُاْ ٱلۡعَذَابَ وَتَقَطَّعَتۡ بِهِمُ ٱلۡأَسۡبَابُ | ١٦٦
-V3 (BASE): (และ) ขณะที่บรรดาผู้ถูกตาม[FN:1]ได้ปลีกตัวออกจากบรรดาผู้ตาม และขณะที่พวกเขาเห็นการลงโทษ และบรรดาสัมพันธภาพที่มีต่อกันได้ขาดสะบั้นลง[FN:2]
+V3 (BASE): (และ) ขณะที่บรรดาผู้ถูกตาม[FN:1]ได้ปลีกตัวออกจากบรรดาผู้ตาม และขณะที่พวกเขาเห็นการลงโทษ และขณะที่บรรดาสัมพันธภาพที่มีต่อกันได้ขาดสะบั้นลง[FN:2]
 TQ (REF):  (และ) ขณะที่บรรดาผู้ถูกตาม[FN:233] ได้ปลีกตัวออกจากบรรดาผู้ตาม และขณะที่พวกเขาเห็นการลงโทษและบรรดาสัมพันธภาพที่มีต่อกันได้ขาดสะบั้นลง[FN:234]
 EN1 (Saheeh): [And they should consider that] when those who have been followed disassociate themselves from those who followed [them], and they [all] see the punishment, and cut off from them are the ties [of relationship],
 EN2 (Hilali-Khan): When those who were followed, disown (declare themselves innocent of) those who followed (them), and they see the torment, then all their relations will be cut off from them.
@@ -242,7 +242,7 @@ FN[1]: กลับไปสู่โลก
 --------------------------------------------------------------------------------
 [2:168]
 AR: يَٰٓأَيُّهَا ٱلنَّاسُ كُلُواْ مِمَّا فِي ٱلۡأَرۡضِ حَلَٰلٗا طَيِّبٗا وَلَا تَتَّبِعُواْ خُطُوَٰتِ ٱلشَّيۡطَٰنِۚ إِنَّهُۥ لَكُمۡ عَدُوّٞ مُّبِينٌ | ١٦٨
-V3 (BASE): มนุษย์เอ๋ย! จงบริโภคสิ่งอนุมัติที่ดี ๆ จากสิ่งที่อยู่ในแผ่นดิน และจงอย่าตามบรรดาก้าวเดินของชัยฏอน[FN:1] แท้จริงมันคือศัตรูที่ชัดแจ้งของพวกเจ้า
+V3 (BASE): มนุษย์เอ๋ย จงบริโภคสิ่งอนุมัติที่ดี ๆ จากสิ่งที่อยู่ในแผ่นดิน และจงอย่าตามบรรดาก้าวเดินของชัยฏอน[FN:1] แท้จริงมันคือศัตรูที่ชัดแจ้งของพวกเขา
 TQ (REF):  มนุษย์เอ๋ย! จงบริโภคสิ่งอนุมัติที่ดีๆ จากสิ่งที่อยู่ในแผ่นดินและจงอย่าตามบรรดาก้าวเดินของชัยฏอน[FN:236] แท้จริงมันคือศัตรูที่ชัดแจ้งของพวกเจ้า
 EN1 (Saheeh): O mankind, eat from whatever is on earth [that is] lawful and good and do not follow the footsteps of Satan. Indeed, he is to you a clear enemy.
 EN2 (Hilali-Khan): O mankind! Eat of that which is lawful and good on the earth, and follow not the footsteps of Shaitan (Satan). Verily, he is to you an open enemy.
@@ -257,7 +257,7 @@ EN2 (Hilali-Khan): He [Shaitân (Satan)] commands you only what is evil and Fahs
 --------------------------------------------------------------------------------
 [2:170]
 AR: وَإِذَا قِيلَ لَهُمُ ٱتَّبِعُواْ مَآ أَنزَلَ ٱللَّهُ قَالُواْ بَلۡ نَتَّبِعُ مَآ أَلۡفَيۡنَا عَلَيۡهِ ءَابَآءَنَآۚ أَوَلَوۡ كَانَ ءَابَآؤُهُمۡ لَا يَعۡقِلُونَ شَيۡـٔٗا وَلَا يَهۡتَدُونَ | ١٧٠
-V3 (BASE): และเมื่อได้ถูกกล่าวแก่พวกเขาว่า จงปฏิบัติตามสิ่งที่อัลลอฮฺได้ทรงประทานลงมาเถิด พวกเขาก็กล่าวว่า มิได้ เราจะปฏิบัติสิ่งที่เราได้พบบรรดาบรรพบุรุษของเราเคยปฏิบัติมาเท่านั้น และแม้ได้ปรากฏว่าบรรพบุรุษของพวกเขาไม่เข้าใจสิ่งใด และทั้งไม่ได้รับแนวทางอันถูกต้องก็ตามกระนั้นหรือ?[FN:1]
+V3 (BASE): และเมื่อได้มีการกล่าวแก่พวกเขาว่า จงปฏิบัติตามสิ่งที่อัลลอฮฺได้ทรงประทานมาเถิด พวกเขาก็กล่าวว่า มิได้ เราจะปฏิบัติสิ่งที่เราได้พบบรรดาบรรพบุรุษของเราเคยปฏิบัติมาเท่านั้น และแม้ได้ปรากฏว่าบรรพบุรุษของพวกเขาไม่เข้าใจสิ่งใด และทั้งไม่ได้รับแนวทางอันถูกต้องกระนั้นหรือ[FN:1]
 TQ (REF):  และเมื่อได้ถูกกล่าวแก่พวกเขาว่าจงปฏิบัติตามสิ่งที่อัลลอฮ์ได้ทรงประทานลงมาเถิด พวกเขาก็กล่าวว่า มิได้ เราจะปฏิบัติสิ่งที่เราได้พบบรรดาบรรพบุรุษของเราเคยปฏิบัติมาเท่านั้น และแม้ได้ปรากฏว่าบรรพบุรุษของพวกเขาไม่เข้าใจสิ่งใด และทั้งไม่ได้รับแนวทางอันถูกต้องก็ตามกระนั้นหรือ?[FN:237]
 EN1 (Saheeh): And when it is said to them, "Follow what Allāh has revealed," they say, "Rather, we will follow that which we found our fathers doing." Even though their fathers understood nothing, nor were they guided?
 EN2 (Hilali-Khan): When it is said to them: "Follow what Allâh has sent down." They say: "Nay! We shall follow what we found our fathers following." (Would they do that!) even though their fathers did not understand anything nor were they guided?
@@ -265,7 +265,7 @@ FN[1]: อัลลอฮฺทรงถามว่า แม้ว่าบร
 --------------------------------------------------------------------------------
 [2:171]
 AR: وَمَثَلُ ٱلَّذِينَ كَفَرُواْ كَمَثَلِ ٱلَّذِي يَنۡعِقُ بِمَا لَا يَسۡمَعُ إِلَّا دُعَآءٗ وَنِدَآءٗۚ صُمُّۢ بُكۡمٌ عُمۡيٞ فَهُمۡ لَا يَعۡقِلُونَ | ١٧١
-V3 (BASE): และอุปมาบรรดาผู้ที่ปฏิเสธศรัทธานั้น ดังผู้ที่ส่งเสียง[FN:1] ที่มันฟังไม่รู้เรื่อง นอกจากเสียงเรียกและเสียงตะโกนเท่านั้น (พวกเขาคือ) คนหูหนวก เป็นใบ้ ตาบอด[FN:2] ดังนั้นพวกเขาจึงไม่เข้าใจ
+V3 (BASE): และอุปมาบรรดาผู้ที่ปฏิเสธศรัทธานั้น ดังผู้ที่ส่งเสียง[FN:1]ตวาดสิ่งที่มันฟังไม่รู้เรื่อง นอกจากเสียงเรียกและเสียงตะโกนเท่านั้น พวกเขาคือคนหูหนวก เป็นใบ้ ตาบอด[FN:2] ดังนั้นพวกเขาจึงไม่เข้าใจ
 TQ (REF):  และอุปมาบรรดาผู้ที่ปฏิเสธศรัทธานั้นดังผู้ที่ส่งเสียง[FN:238] ที่มันฟังไม่รู้เรื่อง นอกจากเสียงเรียกและเสียงตะโกนเท่านั้น (พวกเขาคือ) คนหูหนวก เป็นใบ้ ตาบอด[FN:239] ดังนั้นพวกเขาจึงไม่เข้าใจ
 EN1 (Saheeh): The example of those who disbelieve is like that of one who shouts at what hears nothing but calls and cries [i.e., cattle or sheep] - deaf, dumb and blind, so they do not understand.
 EN2 (Hilali-Khan): And the example of those who disbelieve is as that of him who shouts to those (flock of sheep) that hears nothing but calls and cries. (They are) deaf, dumb and blind. So they do not understand. (Tafsîr Al-Qurtubi )
@@ -274,7 +274,7 @@ FN[2]: หมายถึงพวกเขาประหนึ่งคนห�
 --------------------------------------------------------------------------------
 [2:172]
 AR: يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ كُلُواْ مِن طَيِّبَٰتِ مَا رَزَقۡنَٰكُمۡ وَٱشۡكُرُواْ لِلَّهِ إِن كُنتُمۡ إِيَّاهُ تَعۡبُدُونَ | ١٧٢
-V3 (BASE): บรรดาผู้ศรัทธาทั้งหลาย จงบริโภคสิ่งที่เราได้ให้เป็นปัจจัยยังชีพแก่พวกเจ้า จากสิ่งดี ๆ ทั้งหลาย และจงขอบคุณอัลลอฮฺเถิด[FN:1] หากเฉพาะพระองค์เท่านั้นที่พวกเจ้าจักเป็นผู้เคารพภักดี
+V3 (BASE): บรรดาผู้ศรัทธาทั้งหลาย จงบริโภคสิ่งที่เราได้ให้เป็นปัจจัยยังชีพแก่พวกเจ้า จากสิ่งดี ๆ ทั้งหลาย และจงขอบคุณอัลลอฮฺเถิด[FN:1] หากเฉพาะพระองค์เท่านั้นที่พวกเจ้าจักเป็นผู้เคารพสักการะ
 TQ (REF):  บรรดาผู้ศรัทธาทั้งหลาย จงบริโภคสิ่งที่เราได้ให้เป็นปัจจัยยังชีพแก่พวกเจ้าจากสิ่งดีๆ ทั้งหลาย และจงขอบคุณอัลลอฮ์เถิด[FN:240] หากเฉพาะพระองค์เท่านั้น ที่พวกเจ้าจักเป็นผู้เคารพภักดี
 EN1 (Saheeh): O you who have believed, eat from the good [i.e., lawful] things which We have provided for you and be grateful to Allāh if it is [indeed] Him that you worship.
 EN2 (Hilali-Khan): O you who believe (in the Oneness of Allâh - Islâmic Monotheism)! Eat of the lawful things that We have provided you with, and be grateful to Allâh, if it is indeed He Whom you worship.
@@ -282,7 +282,7 @@ FN[1]: ให้ปฏิบัติตามบัญญัติของพ�
 --------------------------------------------------------------------------------
 [2:173]
 AR: إِنَّمَا حَرَّمَ عَلَيۡكُمُ ٱلۡمَيۡتَةَ وَٱلدَّمَ وَلَحۡمَ ٱلۡخِنزِيرِ وَمَآ أُهِلَّ بِهِۦ لِغَيۡرِ ٱللَّهِۖ فَمَنِ ٱضۡطُرَّ غَيۡرَ بَاغٖ وَلَا عَادٖ فَلَآ إِثۡمَ عَلَيۡهِۚ إِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٌ | ١٧٣
-V3 (BASE): ที่จริงที่พระองค์ทรงห้ามพวกเจ้า (รับประทาน) สัตว์ที่ตายเอง และเลือด[FN:1] และเนื้อสุกร[FN:2] และสัตว์ที่ถูกเปล่งเสียงที่มันเพื่ออื่นจากอัลลอฮฺ[FN:3] แล้วผู้ใดอยู่ในความคับขัน[FN:4] โดยมิใช่ผู้เสาะแสวงหา[FN:5] และมิใช่เป็นผู้ละเมิดขอบเขตแล้วไซร้[FN:6] ก็ไม่มีบาปใด ๆ แก่เขา แท้จริงอัลลอฮฺเป็นผู้ทรงอภัยโทษ ผู้ทรงเมตตาเสมอ
+V3 (BASE): ที่จริงที่พระองค์ทรงห้ามพวกเจ้านั้นเพียงแต่สัตว์ที่ตายเอง และเลือด[FN:1] และเนื้อสุกร[FN:2] และสัตว์ที่ถูกเปล่งเสียงที่มันเพื่ออื่นจากอัลลอฮฺ[FN:3] และผู้ใดได้รับความคับขัน[FN:4] โดยมิใช่ผู้เสาะแสวงหา[FN:5] และมิใช่ผู้ละเมิดขอบเขตแล้วไซร้[FN:6] ก็ไม่มีบาปใด ๆ แก่เขา แท้จริงอัลลอฮฺเป็นผู้ทรงอภัยโทษ ผู้ทรงเมตตาเสมอ
 TQ (REF):  ที่จริงที่พระองค์ทรงห้ามพวกเจ้า(รับประทาน)สัตว์ที่ตายเองและเลือด[FN:241] และเนื้อสุกร[FN:242] และสัตว์ที่ถูกเปล่งเสียงที่มันเพื่ออื่นจากอัลลอฮ์[FN:243] แล้วผู้ใดอยู่ในความคับขัน[FN:244] โดยมิใช่ผู้เสาะแสวงหา[FN:245] และมิใช่เป็นผู้ละเมิดขอบเขตแล้วไซร้[FN:246] ก็ไม่มีบาปใดๆ แก่เขา แท้จริงอัลลอฮ์เป็นผู้ทรงอภัยโทษ ผู้ทรงเมตตาเสมอ
 EN1 (Saheeh): He has only forbidden to you dead animals, blood, the flesh of swine, and that which has been dedicated to other than Allāh. But whoever is forced [by necessity], neither desiring [it] nor transgressing [its limit], there is no sin upon him. Indeed, Allāh is Forgiving and Merciful.
 EN2 (Hilali-Khan): He has forbidden you only the Maitah (dead animals), and blood, and the flesh of swine, and that which is slaughtered as a sacrifice for others than Allâh (or has been slaughtered for idols, on which Allâh’s Name has not been mentioned while slaughtering). But if one is forced by necessity without wilful disobedience nor transgressing due limits, then there is no sin on him. Truly, Allâh is Oft-Forgiving, Most Merciful.
@@ -295,7 +295,7 @@ FN[6]: เมื่อบริโภคแล้วก็บริโภคพ�
 --------------------------------------------------------------------------------
 [2:174]
 AR: إِنَّ ٱلَّذِينَ يَكۡتُمُونَ مَآ أَنزَلَ ٱللَّهُ مِنَ ٱلۡكِتَٰبِ وَيَشۡتَرُونَ بِهِۦ ثَمَنٗا قَلِيلًا أُوْلَٰٓئِكَ مَا يَأۡكُلُونَ فِي بُطُونِهِمۡ إِلَّا ٱلنَّارَ وَلَا يُكَلِّمُهُمُ ٱللَّهُ يَوۡمَ ٱلۡقِيَٰمَةِ وَلَا يُزَكِّيهِمۡ وَلَهُمۡ عَذَابٌ أَلِيمٌ | ١٧٤
-V3 (BASE): แท้จริงบรรดาผู้ที่ปิดบังสิ่งซึ่งเป็นส่วนหนึ่งของคัมภีร์[FN:1]ที่อัลลอฮฺได้ทรงประทานลงมาและนำสิ่งนั้นไปแลกเปลี่ยนกับราคาอันเล็กน้อย[FN:2] ชนเหล่านั้นมิได้กินอะไรเข้าไปในท้องของพวกเขา นอกจากไฟเท่านั้น และในวันกิยามะฮฺ อัลลอฮฺจะไม่ทรงตรัสกับพวกเขา และจะไม่ทรงทำให้พวกเขาบริสุทธิ์[FN:3] และพวกเขาจะได้รับการลงโทษอันเจ็บแสบ
+V3 (BASE): แท้จริงบรรดาผู้ที่ปิดบังสิ่งซึ่งเป็นส่วนหนึ่งของคัมภีร์[FN:1]ที่อัลลอฮฺได้ทรงประทานลงมาและนำสิ่งนั้นไปแลกเปลี่ยนกับราคาอันเล็กน้อย[FN:2] ชนเหล่านั้นมิได้กินอะไรเข้าไปในท้องพวกเขา นอกจากไฟเท่านั้น และในวันกิยามะฮฺ อัลลอฮฺจะไม่ทรงพูดแก่พวกเขา และจะไม่ทรงทำให้พวกเขาบริสุทธิ์[FN:3] และพวกเขาจะได้รับการลงโทษอันเจ็บแสบ
 TQ (REF):  แท้จริงบรรดาผู้ที่ปิดบังสิ่งซึ่งเป็นส่วนหนึ่งของคัมภีร์[FN:247] ที่อัลลอฮ์ได้ทรงประทานลงมาและนำสิ่งนั้นไปแลกเปลี่ยนกับราคาอันเล็กน้อย[FN:248] ชนเหล่านั้น มิได้กินอะไรเข้าไปในท้องของพวกเขานอกจากไฟเท่านั้น และในวันกิยามะฮ์ อัลลอฮ์จะไม่ทรงตรัสกับพวกเขา และจะไม่ทรงทำให้พวกเขาบริสุทธิ[FN:249] และพวกเขาจะได้รับการลงโทษอันเจ็บแสบ
 EN1 (Saheeh): Indeed, they who conceal what Allāh has sent down of the Book and exchange it for a small price - those consume not into their bellies except the Fire. And Allāh will not speak to them on the Day of Resurrection, nor will He purify them. And they will have a painful punishment.
 EN2 (Hilali-Khan): Verily, those who conceal what Allâh has sent down of the Book, and purchase a small gain therewith (of worldly things), they eat into their bellies nothing but fire. Allâh will not speak to them on the Day of Resurrection, nor purify them, and theirs will be a painful torment.
@@ -305,7 +305,7 @@ FN[3]: คือจะไม่ทรงทำให้พวกเขาบร�
 --------------------------------------------------------------------------------
 [2:175]
 AR: أُوْلَٰٓئِكَ ٱلَّذِينَ ٱشۡتَرَوُاْ ٱلضَّلَٰلَةَ بِٱلۡهُدَىٰ وَٱلۡعَذَابَ بِٱلۡمَغۡفِرَةِۚ فَمَآ أَصۡبَرَهُمۡ عَلَى ٱلنَّارِ | ١٧٥
-V3 (BASE): ชนเหล่านั้น คือผู้ที่นำเอาแนวทางที่ถูกต้องไปแลกเปลี่ยนกับแนวทางที่หลงผิด และเอาการอภัยโทษไปแลกเปลี่ยนกับการลงโทษ อะไรหนอที่ทำให้พวกนั้นทนต่อไฟนรกได้[FN:1]
+V3 (BASE): ชนเหล่านี้คือผู้ที่นำเอาแนวทางที่ถูกต้องไปแลกเปลี่ยนกับแนวทางที่หลงผิด และเอาการอภัยโทษไปแลกเปลี่ยนกับการลงโทษ พวกเขาช่างทนต่อไฟนรกเสียนี่กระไร[FN:1]
 TQ (REF):  ชนเหล่านั้น คือผู้ที่นำเอาแนวทางที่ถูกต้องไปแลกเปลี่ยนกับแนวทางที่หลงผิด และเอาการอภัยโทษไปแลกเปลี่ยนกับการลงโทษ อะไรหนอที่ทำให้พวกนั้นทนต่อไฟนรกได้[FN:250]
 EN1 (Saheeh): Those are the ones who have exchanged guidance for error and forgiveness for punishment. How patient they are for [i.e., in pursuit of] the Fire!
 EN2 (Hilali-Khan): Those are they who have purchased error at the price of Guidance, and torment at the price of Forgiveness. So how bold they are (for evil deeds which will push them) to the Fire.

@@ -27,7 +27,7 @@ If all verses in this chunk are accurate and readable, output: []
 ================================================================================
 [11:1]
 AR: الٓرۚ كِتَٰبٌ أُحۡكِمَتۡ ءَايَٰتُهُۥ ثُمَّ فُصِّلَتۡ مِن لَّدُنۡ حَكِيمٍ خَبِيرٍ | ١
-V3 (BASE): อะลีฟ ลาม รอ[FN:1] คัมภีร์ที่โองการทั้งหลายของมันถูกทำให้รัดกุมมีระเบียบ แล้วถูกจำแนกเรื่องต่าง ๆ[FN:2] อย่างชัดแจ้ง จากพระผู้ทรงปรีชาญาณ ผู้ทรงรอบรู้เชี่ยวชาญ
+V3 (BASE): อะลีฟ ลาม รอฺ[FN:1] คัมภีร์ที่โองการทั้งหลายของมันถูกทำให้รัดกุมมีระเบียบ แล้วถูกจำแนกเรื่องต่าง[FN:2] ๆ อย่างชัดแจ้ง จากพระผู้ทรงปรีชาญาณ ผู้ทรงรอบรู้เชี่ยวชาญ
 TQ (REF):  อะลีฟ ลาม รอ[FN:1] คัมภีร์ที่โองการทั้งหลายของมันถูกทำให้รัดกุมมีระเบียบ แล้วถูกจำแนกเรื่องต่างๆ[FN:2] อย่างชัดแจ้ง จากพระผู้ทรงปรีชาญาณ ผู้ทรงรอบรู้เชี่ยวชาญ
 EN1 (Saheeh): Alif, Lām, Rā. [This is] a Book whose verses are perfected and then presented in detail from [one who is] Wise and Aware
 EN2 (Hilali-Khan): Alif-Lâm-Râ. [These letters are one of the miracles of the Qur’ân and none but Allâh (Alone) knows their meanings]. (This is) a Book, the Verses whereof are perfected (in every sphere of knowledge), and then explained in detail from One (Allâh) Who is All-Wise Well-Acquainted (with all things).
@@ -36,7 +36,7 @@ FN[2]: คือเรื่องที่เกี่ยวกับสิ่�
 --------------------------------------------------------------------------------
 [11:2]
 AR: أَلَّا تَعۡبُدُوٓاْ إِلَّا ٱللَّهَۚ إِنَّنِي لَكُم مِّنۡهُ نَذِيرٞ وَبَشِيرٞ | ٢
-V3 (BASE): เพื่อพวกท่านต้องไม่เคารพภักดีผู้ใดนอกจากอัลลอฮฺ แท้จริงฉันได้รับการแต่งตั้งจากพระองค์มายังพวกท่าน เพื่อเป็นผู้ตักเตือนและผู้แจ้งข่าว[FN:1]
+V3 (BASE): เพื่อพวกท่านจะได้ไม่เคารพภักดีผู้ใดนอกจากอัลลอฮฺ แท้จริงฉันได้รับการแต่งตั้งจากพระองค์มายังพวกท่าน เพื่อเป็นผู้ตักเตือนและผู้แจ้งข่าวดี[FN:1]
 TQ (REF):  เพื่อพวกท่านต้องไม่เคารพภักดีผู้ใดนอกจากอัลลอฮ์แท้จริงฉันได้รับการแต่งตั้งจากพระองค์มายังพวกท่าน เพื่อเป็นผู้ตักเตือน และผู้แจ้งข่าว[FN:3]
 EN1 (Saheeh): [Through a messenger, saying], "Do not worship except Allāh. Indeed, I am to you from Him a warner and a bringer of good tidings,"
 EN2 (Hilali-Khan): (Saying) worship none but Allâh. Verily, I (Muhammad صلى الله عليه و سلم) am unto you from Him a warner and a bringer of glad tidings.
