@@ -228,6 +228,43 @@ def main():
             "replacement": "พวกเจ้าจงอย่าตายเป็นอันขาด",
             "reason": "Correct OCR error: 'อย่ายอมตาม' -> 'อย่าตาย' for فَلَا تَمُوتُنَّ."
         },
+        # --- Chunk 4 Verified Fixes ---
+        {
+            "ayah": "2:143",
+            "target": "หันสันเท้าทั้งสองของเขากลับ",
+            "replacement": "หันส้นเท้าทั้งสองของเขากลับ",
+            "reason": "Correct OCR typo: ส้นเท้า for عَقِبَيۡهِ."
+        },
+        {
+            "ayah": "2:154",
+            "target": "พวกเขาตาย[FN:1]หามิได้",
+            "replacement": "พวกเขาตาย[FN:1] หามิได้",
+            "reason": "Footnote spacing before negation 'หามิได้' (بَلۡ)."
+        },
+        {
+            "ayah": "2:165",
+            "target": "(แน่นอนพวกเขาจะต้องตระหนักดีว่า) แท้จริงอัลลอฮฺนั้นเป็นผู้ทรงลงโทษที่รุนแรง",
+            "replacement": "(แน่นอนพวกเขาจะต้องตระหนักดีว่า) แท้จริงพลังทั้งมวลเป็นของอัลลอฮฺ และแท้จริงอัลลอฮฺนั้นเป็นผู้ทรงลงโทษที่รุนแรง",
+            "reason": "Restore dropped clause 'แท้จริงพลังทั้งมวลเป็นของอัลลอฮฺ และ' for أَنَّ ٱلۡقُوَّةَ لِلَّهِ جَمِيعٗา."
+        },
+        {
+            "ayah": "2:168",
+            "target": "แท้จริงมันคือศัตรูที่ชัดแจ้งของพวกเขา",
+            "replacement": "แท้จริงมันคือศัตรูที่ชัดแจ้งของพวกเจ้า",
+            "reason": "Correct pronoun to 2nd person plural 'ของพวกเจ้า' for لَكُمۡ."
+        },
+        {
+            "ayah": "2:171",
+            "target": "ดังผู้ที่ส่งเสียง[FN:1]ตวาดสิ่งที่มันฟังไม่รู้เรื่อง",
+            "replacement": "ดังผู้ที่ส่งเสียงตวาดสิ่งที่มันฟังไม่รู้เรื่อง[FN:1]",
+            "reason": "Move footnote tag from mid-verb to end of clause."
+        },
+        {
+            "ayah": "2:176",
+            "target": "นั้นก็เพราะว่าอัลลอฮฺ",
+            "replacement": "นั่นก็เพราะว่าอัลลอฮฺ",
+            "reason": "Correct OCR typo: นั่น for ذَٰلِكَ."
+        },
         # --- Chunk 5 Verified Fixes ---
         {
             "ayah": "2:177",
@@ -276,6 +313,49 @@ def main():
             "target": "แท้จริงอัลลอฮฺ ทรงรู้ดี",
             "replacement": "แท้จริงอัลลอฮฺทรงรู้ดี",
             "reason": "De-Overkill Spacing."
+        },
+        # --- Chunk 6 Verified Fixes ---
+        {
+            "ayah": "2:221",
+            "target": "และอัลลอฮฺนั้น ทรงเชิญชวน",
+            "replacement": "และอัลลอฮฺนั้นทรงเชิญชวน",
+            "reason": "De-Overkill Spacing."
+        },
+        {
+            "ayah": "2:231",
+            "target": "อัลลอฮฺนั้น ทรงรอบรู้",
+            "replacement": "อัลลอฮฺนั้นทรงรอบรู้",
+            "reason": "De-Overkill Spacing."
+        },
+        {
+            "ayah": "2:234",
+            "target": "พวกนางเอง[FN:1] สี่เดือนกับสิบวัน",
+            "replacement": "พวกนางเอง[FN:1]สี่เดือนกับสิบวัน",
+            "reason": "No mechanical spacing after footnote within continuous clause."
+        },
+        {
+            "ayah": "2:240",
+            "target": "โดยไม่มีการขับไล่ใด[FN:1] ๆ แต่",
+            "replacement": "โดยไม่มีการขับไล่ใด ๆ[FN:1] แต่",
+            "reason": "Move footnote tag after maiyamok 'ๆ'."
+        },
+        {
+            "ayah": "2:249",
+            "target": "จากแม่น้ำนั้นนอกจากส่วนน้อย",
+            "replacement": "จากแม่น้ำนั้น นอกจากส่วนน้อย",
+            "reason": "Cadence spacing before 'นอกจาก'."
+        },
+        {
+            "ayah": "2:249",
+            "target": "กับญาลูต[FN:2]และไพร่พล",
+            "replacement": "กับญาลูต[FN:2] และไพร่พล",
+            "reason": "Footnote spacing before conjunction 'และ'."
+        },
+        {
+            "ayah": "2:250",
+            "target": "และโปรดทรงให้มั่นคงซึ่งเท้าของข้าพระองค์",
+            "replacement": "และโปรดทรงให้มั่นคงซึ่งเท้าของพวกข้าพระองค์",
+            "reason": "Correct pronoun in prayer to plural 'ของพวกข้าพระองค์' for أَقۡدَامَنَا."
         },
         {
             "ayah": "2:268",
