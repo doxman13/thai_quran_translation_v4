@@ -2774,6 +2774,15 @@
     "timestamp": "2026-10-24T06:52:28.728579+00:00"
   },
   {
+    "ayah": "4:66",
+    "type": "SPACING",
+    "target": "กำหนดแก่พวกเขาว่าพวกเจ้าจงฆ่า",
+    "replacement": "กำหนดแก่พวกเขาว่า พวกเจ้าจงฆ่า",
+    "reason": "เว้นวรรค 1 เคาะหลังคำว่า 'ว่า' เปิดคำสั่งตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 198 บรรทัดที่ 1",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491185+00:00"
+  },
+  {
     "ayah": "4:71",
     "type": "TYPO",
     "target": "หรืออกไปโดยรวม",
@@ -2781,6 +2790,51 @@
     "reason": "แก้ไขคำสะกดผิด หรืออกไป เป็น หรือออกไป ตามฉบับพิมพ์ King Fahd 1990",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-23T17:33:55.185248+00:00"
+  },
+  {
+    "ayah": "4:72",
+    "type": "FN_PLACEMENT",
+    "target": "ทำชักช้า[FN:1]อยู่",
+    "replacement": "ทำชักช้าอยู่[FN:1]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้ท้ายคำสมบูรณ์ 'ทำชักช้าอยู่' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 199 บรรทัดที่ 4 และเกณฑ์ Footnote Placement",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491422+00:00"
+  },
+  {
+    "ayah": "4:72",
+    "type": "SPACING",
+    "target": "หากมีเหตุร้ายใด[FN:2]ประสบแก่พวกเจ้า",
+    "replacement": "หากมีเหตุร้ายใด[FN:2] ประสบแก่พวกเจ้า",
+    "reason": "เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 199 บรรทัดที่ 4",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491431+00:00"
+  },
+  {
+    "ayah": "4:74",
+    "type": "SPACING",
+    "target": "และเขาถูกฆ่าหรือได้รับชัยชนะ",
+    "replacement": "และเขาถูกฆ่า หรือได้รับชัยชนะ",
+    "reason": "เว้นวรรค 1 เคาะหน้า 'หรือ' แยกทางเลือกตามจังหวะร้อยแก้ว (คงคำว่า 'และ' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 199 บรรทัดที่ 10)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491438+00:00"
+  },
+  {
+    "ayah": "4:75",
+    "type": "SPACING",
+    "target": "มีเหตุใดเกิดขึ้นแก่พวกเจ้ากระนั้นหรือที่พวกเจ้าไม่สู้รบ",
+    "replacement": "มีเหตุใดเกิดขึ้นแก่พวกเจ้ากระนั้นหรือ ที่พวกเจ้าไม่สู้รบ",
+    "reason": "เว้นวรรค 1 เคาะหน้ารอยต่ออนุประโยคตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 199 บรรทัดที่ 13",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491445+00:00"
+  },
+  {
+    "ayah": "4:75",
+    "type": "SPACING",
+    "target": "จากเมืองนี้[FN:1]ซึ่งชาวเมือง",
+    "replacement": "จากเมืองนี้[FN:1] ซึ่งชาวเมือง",
+    "reason": "เว้นวรรค 1 เคาะหน้ารอยต่อประภานุประโยค 'ซึ่งชาวเมือง...' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 200 บรรทัดที่ 2",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491452+00:00"
   },
   {
     "ayah": "4:76",
@@ -2792,12 +2846,84 @@
     "timestamp": "2026-10-23T17:43:12.328392+00:00"
   },
   {
+    "ayah": "4:77",
+    "type": "SPACING",
+    "target": "แก่พวกเขา[FN:1]ว่า จงระงับมือ",
+    "replacement": "แก่พวกเขา[FN:1] ว่า จงระงับมือ",
+    "reason": "เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถหน้าคำว่า 'ว่า' เปิดข้อความตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 200 บรรทัดที่ 11",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491459+00:00"
+  },
+  {
+    "ayah": "4:77",
+    "type": "SPACING",
+    "target": "แห่งโลกนี้นั้นเล็กน้อย[FN:5]เท่านั้น",
+    "replacement": "แห่งโลกนี้นั้นเล็กน้อย[FN:5] เท่านั้น",
+    "reason": "เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 201 บรรทัดที่ 5",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491466+00:00"
+  },
+  {
+    "ayah": "4:78",
+    "type": "SPACING",
+    "target": "มีเหตุใดเกิดขึ้นแก่กลุ่มชนเหล่านี้กระนั้นหรือที่พวกเขาห่างไกล",
+    "replacement": "มีเหตุใดเกิดขึ้นแก่กลุ่มชนเหล่านี้ กระนั้นหรือ ที่พวกเขาห่างไกล",
+    "reason": "เว้นวรรคคั่นรอยต่อประโยคตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 201 บรรทัดที่ 12-13",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491473+00:00"
+  },
+  {
+    "ayah": "4:81",
+    "type": "SPACING",
+    "target": "วางแผนในเวลากลางคืนอื่นจากสิ่งที่เจ้ากล่าว",
+    "replacement": "วางแผนในเวลากลางคืน อื่นจากสิ่งที่เจ้ากล่าว",
+    "reason": "เว้นวรรค 1 เคาะหน้าบุพบทวลี 'อื่นจาก...' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 202 บรรทัดที่ 6",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491480+00:00"
+  },
+  {
     "ayah": "4:83",
     "type": "CLERICAL_OMISSION",
     "target": "และหากมิใช่ความเมตตาของอัลลอฮฺที่มีต่อพวกเจ้าแล้ว",
     "replacement": "และหากมิใช่ความเมตตาของอัลลอฮฺ และความกรุณาของพระองค์ที่มีต่อพวกเจ้าแล้ว",
     "reason": "Restore dropped phrase 'และความกรุณาของพระองค์' for وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ.",
     "source": "Layer 0 Pre-Patcher (Baseline Scan)"
+  },
+  {
+    "ayah": "4:84",
+    "type": "SPACING",
+    "target": "เจ้า[FN:1]จงสู้รบในทางของอัลลอฮฺเถิด",
+    "replacement": "เจ้า[FN:1] จงสู้รบในทางของอัลลอฮฺเถิด",
+    "reason": "เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 203 บรรทัดที่ 9",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491486+00:00"
+  },
+  {
+    "ayah": "4:85",
+    "type": "SPACING",
+    "target": "ก็จะเป็นของเขาซึ่งส่วนหนึ่งจากความดีนั้น[FN:1]",
+    "replacement": "ก็จะเป็นของเขา ซึ่งส่วนหนึ่งจากความดีนั้น[FN:1]",
+    "reason": "เว้นวรรค 1 เคาะหน้ากรรม 'ซึ่งส่วนหนึ่ง...' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 204 บรรทัดที่ 1",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491493+00:00"
+  },
+  {
+    "ayah": "4:85",
+    "type": "SPACING",
+    "target": "ก็จะเป็นของเขาซึ่งส่วนหนึ่งจากความชั่วนั้น[FN:2]",
+    "replacement": "ก็จะเป็นของเขา ซึ่งส่วนหนึ่งจากความชั่วนั้น[FN:2]",
+    "reason": "เว้นวรรค 1 เคาะหน้ากรรม 'ซึ่งส่วนหนึ่ง...' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 204 บรรทัดที่ 3",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491499+00:00"
+  },
+  {
+    "ayah": "4:89",
+    "type": "SPACING",
+    "target": "พวกเขาชอบหากว่าพวกเจ้าจะปฏิเสธศรัทธา",
+    "replacement": "พวกเขาชอบหากว่า พวกเจ้าจะปฏิเสธศรัทธา",
+    "reason": "เว้นวรรค 1 เคาะหลังคำเชื่อม 'หากว่า' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 205 บรรทัดที่ 1",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491506+00:00"
   },
   {
     "ayah": "4:90",
@@ -2809,6 +2935,15 @@
     "timestamp": "2026-10-23T17:33:55.185456+00:00"
   },
   {
+    "ayah": "4:90",
+    "type": "SPACING",
+    "target": "ติดต่ออยู่[FN:1]กับพวกหนึ่ง",
+    "replacement": "ติดต่ออยู่[FN:1] กับพวกหนึ่ง",
+    "reason": "เว้นวรรค 1 เคาะหน้ารอยต่อบุพบทวลี 'กับพวกหนึ่ง' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 206 บรรทัดที่ 1",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491512+00:00"
+  },
+  {
     "ayah": "4:94",
     "type": "OMISSION",
     "target": "ดังนั้น จงให้ประจักษ์เสียก่อน[FN:6]",
@@ -2816,6 +2951,24 @@
     "reason": "คืนคำว่า พวกเจ้า ตามฉบับพิมพ์ King Fahd 1990 และตัวบทอาหรับ فَتَبَيَّنُوا",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-23T17:33:55.185464+00:00"
+  },
+  {
+    "ayah": "4:95",
+    "type": "TYPO",
+    "target": "เหนือกว่าบรรดาผู้ที่นั่งอยู่[FN:2]ขั้นหนึ่ง",
+    "replacement": "เหนือกว่าบรรดาผู้ที่นั่งอยู่[FN:2] ชั้นหนึ่ง",
+    "reason": "แก้ไขคำผิด OCR จาก 'ขั้นหนึ่ง' เป็น 'ชั้นหนึ่ง' ตามตัวบทอาหรับ دَرَجَةً และต้นฉบับพิมพ์ King Fahd 1990 หน้า 209 บรรทัดที่ 12 พร้อมเว้นวรรค 1 เคาะ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491520+00:00"
+  },
+  {
+    "ayah": "4:96",
+    "type": "TYPO",
+    "target": "หลายขั้น[FN:1]จากพระองค์",
+    "replacement": "หลายชั้น[FN:1] จากพระองค์",
+    "reason": "แก้ไขคำผิด OCR จาก 'หลายขั้น' เป็น 'หลายชั้น' ตามตัวบทอาหรับ دَرَجَاتٍ และต้นฉบับพิมพ์ King Fahd 1990 หน้า 210 บรรทัดที่ 1 พร้อมเว้นวรรค 1 เคาะหน้า 'จาก'",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491526+00:00"
   },
   {
     "ayah": "4:97",
@@ -2827,6 +2980,15 @@
     "timestamp": "2026-10-23T17:33:55.185471+00:00"
   },
   {
+    "ayah": "4:97",
+    "type": "SPACING",
+    "target": "ผู้ที่ถูกนับว่าอ่อนแอ[FN:3]ในแผ่นดิน[FN:4]",
+    "replacement": "ผู้ที่ถูกนับว่าอ่อนแอ[FN:3] ในแผ่นดิน[FN:4]",
+    "reason": "เว้นวรรค 1 เคาะหน้ารอยต่อบุพบทวลี 'ในแผ่นดิน' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 210 บรรทัดที่ 9",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491533+00:00"
+  },
+  {
     "ayah": "4:102",
     "type": "THEOLOGICAL",
     "target": "และเมื่อพวกเจ้า[FN:1]อยู่ในหมู่พวกเขา",
@@ -2834,6 +2996,33 @@
     "reason": "แก้คำสรรพนาม พวกเจ้า เป็น เจ้า ตามตัวบทอาหรับ كُنْتَ (เอกพจน์ มุ่งถึงท่านนบี) และฉบับพิมพ์ King Fahd 1990",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-23T17:33:55.185480+00:00"
+  },
+  {
+    "ayah": "4:102",
+    "type": "SPACING",
+    "target": "และเมื่อเจ้า[FN:1]อยู่ในหมู่พวกเขา",
+    "replacement": "และเมื่อเจ้า[FN:1] อยู่ในหมู่พวกเขา",
+    "reason": "เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 211 บรรทัดที่ 13",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491540+00:00"
+  },
+  {
+    "ayah": "4:102",
+    "type": "SPACING",
+    "target": "การระมัดระวัง[FN:4]ของพวกเขา",
+    "replacement": "การระมัดระวัง[FN:4] ของพวกเขา",
+    "reason": "เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 212 บรรทัดที่ 5",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491547+00:00"
+  },
+  {
+    "ayah": "4:102",
+    "type": "SPACING",
+    "target": "วางอาวุธ[FN:5]ของพวกเจ้า",
+    "replacement": "วางอาวุธ[FN:5] ของพวกเจ้า",
+    "reason": "เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 212 บรรทัดที่ 12",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T07:10:05.491557+00:00"
   },
   {
     "ayah": "4:103",
