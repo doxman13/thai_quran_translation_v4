@@ -99,7 +99,7 @@ def main():
                 "target": f["target"],
                 "replacement": f["replacement"],
                 "reason": f.get("reason", ""),
-                "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+                "source": f.get("source") or "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
                 "timestamp": f.get("timestamp", "")
             })
 
