@@ -84,12 +84,48 @@
     "source": "Layer 0 Pre-Patcher (Baseline Scan)"
   },
   {
+    "ayah": "2:48",
+    "type": "OMISSION",
+    "target": "แทนอีกชีวิตได้",
+    "replacement": "แทนอีกชีวิตหนึ่งได้",
+    "reason": "คืนคำว่า หนึ่ง ใน แทนอีกชีวิตหนึ่งได้ ตามฉบับพิมพ์ King Fahd 1990 และตัวบทอาหรับ عَن نَّفْسٍ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T03:40:15.141944+00:00"
+  },
+  {
     "ayah": "2:49",
     "type": "OCR_TYPO",
     "target": "และไว้ชีวิตบรรดาลูกผู้หญิงของพวกเจ้า และไว้ชีวิตบรรดาลูกผู้หญิงของพวกเจ้า",
     "replacement": "และไว้ชีวิตบรรดาลูกผู้หญิงของพวกเจ้า",
     "reason": "De-duplicate repeated clause in v3.",
     "source": "Layer 0 Pre-Patcher (Baseline Scan)"
+  },
+  {
+    "ayah": "2:53",
+    "type": "TYPO",
+    "target": "แก่มูซา หวังว่าพวกเจ้า",
+    "replacement": "แก่มูซา เพื่อว่าพวกเจ้า",
+    "reason": "แก้คำว่า หวังว่า เป็น เพื่อว่า ตามฉบับพิมพ์ King Fahd 1990 และตัวบทอาหรับ لَعَلَّكُمْ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T03:40:15.142147+00:00"
+  },
+  {
+    "ayah": "2:55",
+    "type": "TYPO",
+    "target": "สายฟ้าฟาดก็ได้คร่าพวกเจ้า",
+    "replacement": "สายฟ้าผ่าก็ได้คร่าพวกเจ้า",
+    "reason": "แก้คำว่า สายฟ้าฟาด เป็น สายฟ้าผ่า ตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T03:40:15.142152+00:00"
+  },
+  {
+    "ayah": "2:61",
+    "type": "OMISSION",
+    "target": "พระองค์จะทรงให้ออกมาแก่เรา",
+    "replacement": "พระองค์ก็จะทรงให้ออกมาแก่เรา",
+    "reason": "คืนคำว่า ก็ ใน พระองค์ก็จะทรงให้ออกมาแก่เรา ตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T03:40:15.142158+00:00"
   },
   {
     "ayah": "2:61",
@@ -100,12 +136,66 @@
     "source": "Layer 0 Pre-Patcher (Baseline Scan)"
   },
   {
+    "ayah": "2:63",
+    "type": "TYPO",
+    "target": "หวังว่าพวกเจ้าจะเกรงกลัว",
+    "replacement": "เพื่อว่าพวกเจ้าจะได้เกรงกลัว",
+    "reason": "แก้คำว่า หวังว่า... เป็น เพื่อว่าพวกเจ้าจะได้เกรงกลัว ตามฉบับพิมพ์ King Fahd 1990 และตัวบทอาหรับ لَعَلَّكُمْ تَتَّقُونَ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T03:40:15.142162+00:00"
+  },
+  {
+    "ayah": "2:70",
+    "type": "OMISSION",
+    "target": "ให้แก่เราเถิด พระองค์ก็จะทรงแจ้งแก่พวกเรา",
+    "replacement": "ให้แก่พวกเราเถิด พระองค์ก็จะทรงแจ้งแก่พวกเรา",
+    "reason": "คืนคำว่า พวก ใน ให้แก่พวกเราเถิด ตามฉบับพิมพ์ King Fahd 1990 และตัวบทอาหรับ ادْعُ لَنَا",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T03:40:15.142169+00:00"
+  },
+  {
     "ayah": "2:70",
     "type": "OCR_TYPO",
     "target": "หากอัลลอฮฺทรงประสงค์แน่นอนพวกเรา",
     "replacement": "หากอัลลอฮฺทรงประสงค์ แน่นอนพวกเรา",
     "reason": "Add natural clause space between conditional clause and main clause.",
     "source": "Layer 0 Pre-Patcher (Baseline Scan)"
+  },
+  {
+    "ayah": "2:73",
+    "type": "OMISSION",
+    "target": "ให้ผู้ตาย[FN:2]มีชีวิตขึ้นมา",
+    "replacement": "ให้ผู้ที่ตาย[FN:2] มีชีวิตขึ้นมา",
+    "reason": "คืนคำว่า ที่ ใน ผู้ที่ตาย และเว้นวรรค 1 เคาะตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T03:40:15.142173+00:00"
+  },
+  {
+    "ayah": "2:74",
+    "type": "OMISSION",
+    "target": "บรรดาธารน้ำพุ่งออกจากมัน",
+    "replacement": "บรรดาธารน้ำพวยพุ่งออกจากมัน",
+    "reason": "คืนคำว่า พวย ใน พวยพุ่ง ตามฉบับพิมพ์ King Fahd 1990 และตัวบทอาหรับ يَتَفَجَّرُ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T03:40:15.142177+00:00"
+  },
+  {
+    "ayah": "2:75",
+    "type": "OMISSION",
+    "target": "เคยสดับฟังดำรัสอัลลอฮฺ แล้วพวกเขาก็บิดเบือน",
+    "replacement": "เคยสดับฟังดำรัสของอัลลอฮฺแล้ว พวกเขาก็บิดเบือน",
+    "reason": "คืนคำว่า ของ ใน ดำรัสของอัลลอฮฺแล้ว ตามฉบับพิมพ์ King Fahd 1990 และตัวบทอาหรับ كَلَامَ اللَّهِ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T03:40:15.142181+00:00"
+  },
+  {
+    "ayah": "2:81",
+    "type": "SPACING",
+    "target": "คือชาวนรกโดยที่พวกเขา",
+    "replacement": "คือชาวนรก โดยที่พวกเขา",
+    "reason": "เว้นวรรค 1 เคาะคั่นรอยต่อประโยคหน้า โดยที่ ตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T03:40:15.142185+00:00"
   },
   {
     "ayah": "2:82",
@@ -123,6 +213,15 @@
     "reason": "แก้ไขข้อผิดพลาดจากการแปลงไฟล์ OCR: 'ได้ให้ในการรับรอง' แก้เป็น 'ได้ให้การรับรอง' และ 'ยังยืนอยู่' แก้เป็น 'ยืนยันอยู่' ตามตัวบทภาษาอาหรับ وَأَنتُمۡ تَشۡهَدُونَ",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-23T10:59:29.382489+00:00"
+  },
+  {
+    "ayah": "2:84",
+    "type": "OMISSION",
+    "target": "และทั้งพวกเจ้าก็ยืนยันอยู่",
+    "replacement": "และทั้งพวกเจ้าก็ยังยืนยันอยู่",
+    "reason": "คืนคำว่า ยัง ใน และทั้งพวกเจ้าก็ยังยืนยันอยู่ ตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T03:40:15.142189+00:00"
   },
   {
     "ayah": "2:87",
@@ -149,6 +248,15 @@
     "reason": "ตัดช่องว่างที่ไม่จำเป็นระหว่างประธานกับคำกริยาในอนุประโยคเดียวกันตามเกณฑ์ De-Overkill Spacing",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-23T10:59:29.382741+00:00"
+  },
+  {
+    "ayah": "2:91",
+    "type": "TYPO",
+    "target": "ปฏิเสธความศรัทธาต่อสิ่งอื่นจากนั้น",
+    "replacement": "ปฏิเสธศรัทธาต่อสิ่งอื่นจากนั้น",
+    "reason": "ตัดคำเกิน ความ ออกเป็น ปฏิเสธศรัทธา ตามฉบับพิมพ์ King Fahd 1990 และตัวบทอาหรับ وَيَكْفُرُونَ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T03:40:15.142192+00:00"
   },
   {
     "ayah": "2:93",
