@@ -2,7 +2,7 @@ chunk_id	juz	chunk_in_juz	range	verses	filename	status	fix_count	fixes_summary	u
 1	1	1	1:1-2:43	45	juz_01_part1_1_1_to_2_43.txt	DONE	0	100% PDF verified (2:11, 2:13, 2:17, 2:24 confirmed)	2026-10-24 03:28 UTC
 2	1	2	2:44-2:91	48	juz_01_part2_2_44_to_2_91.txt	DONE	12	12 fixes applied (2:48, 2:53, 2:55, 2:61, 2:63, 2:70, 2:73, 2:74, 2:75, 2:81, 2:84, 2:91) via 1990 PDF ref	2026-10-24 03:40 UTC
 3	1	3	2:92-2:141	50	juz_01_part3_2_92_to_2_141.txt	DONE	13	13 fixes applied (2:93, 2:101, 2:103, 2:118, 2:122, 2:125, 2:128, 2:129, 2:132, 2:133, 2:136, 2:139, 2:140) via 1990 PDF ref	2026-10-24 03:47 UTC
-4	2	1	2:142-2:176	35	juz_02_part1_2_142_to_2_176.txt	PENDING	0	Pending re-audit with PDF ref	2026-10-23 13:08 UTC
+4	2	1	2:142-2:176	35	juz_02_part1_2_142_to_2_176.txt	DONE	12	12 fixes applied (2:143, 2:145, 2:148, 2:153, 2:154, 2:155, 2:162, 2:163, 2:170x2, 2:173x2) via 1990 PDF ref	2026-10-24 03:59 UTC
 5	2	2	2:177-2:218	42	juz_02_part2_2_177_to_2_218.txt	PENDING	0	Pending re-audit with PDF ref	2026-10-23 12:17 UTC
 6	2	3	2:219-2:252	34	juz_02_part3_2_219_to_2_252.txt	PENDING	0	Pending re-audit with PDF ref	2026-10-23 13:08 UTC
 7	3	1	2:253-2:286	34	juz_03_part1_2_253_to_2_286.txt	PENDING	0	Pending re-audit with PDF ref	2026-10-23 13:43 UTC
