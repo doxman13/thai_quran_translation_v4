@@ -1254,6 +1254,15 @@
     "timestamp": "2026-10-23T14:04:43.272286+00:00"
   },
   {
+    "ayah": "3:3",
+    "type": "SPACING",
+    "target": "เป็นครั้งคราวพร้อมด้วยความจริง",
+    "replacement": "เป็นครั้งคราว พร้อมด้วยความจริง",
+    "reason": "เว้นวรรค 1 เคาะคั่นระหว่างวลีกริยาวิเศษณ์และบุพบทวลีตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 101 บรรทัดที่ 6",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.983863+00:00"
+  },
+  {
     "ayah": "3:4",
     "type": "SPACING",
     "target": "แท้จริง บรรดาผู้ปฏิเสธศรัทธา",
@@ -1273,11 +1282,83 @@
   },
   {
     "ayah": "3:13",
+    "type": "FN_PLACEMENT",
+    "target": "แก่ผู้มีดวงตา[FN:4]ทั้งหลาย",
+    "replacement": "แก่ผู้มีดวงตาทั้งหลาย[FN:4]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้ท้ายสุดของนามวลีสมบูรณ์ ไม่แทรกคั่นหน้าคำขยายพหูพจน์ 'ทั้งหลาย' ตามเกณฑ์ Footnote Placement",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984056+00:00"
+  },
+  {
+    "ayah": "3:13",
     "type": "OCR_TYPO",
     "target": "ปรากฎ",
     "replacement": "ปรากฏ",
     "reason": "Correct Royal Thai dictionary spelling ('ปรากฎ' -> 'ปรากฏ').",
     "source": "Layer 0 Pre-Patcher (Baseline Scan)"
+  },
+  {
+    "ayah": "3:16",
+    "type": "THEOLOGICAL",
+    "target": "โอ้พระเจ้าแห่งพวกข้าพระองค์",
+    "replacement": "โอ้พระผู้เป็นเจ้าของข้าพระองค์",
+    "reason": "แก้ไขสำนวนและคำเชื่อมที่ผิดรูปเป็น 'โอ้พระผู้เป็นเจ้าของข้าพระองค์' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 105 บรรทัดที่ 11-12",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984066+00:00"
+  },
+  {
+    "ayah": "3:19",
+    "type": "SPACING",
+    "target": "แท้จริงศาสนา ณ อัลลอฮฺ นั้นคือ",
+    "replacement": "แท้จริงศาสนา ณ อัลลอฮฺนั้นคือ",
+    "reason": "ปลดเคาะวรรคเกินที่ไม่จำเป็น (De-overkill spacing) ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 106 บรรทัดที่ 8",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984076+00:00"
+  },
+  {
+    "ayah": "3:19",
+    "type": "FN_PLACEMENT",
+    "target": "ระหว่างพวกเขา[FN:4]เอง",
+    "replacement": "ระหว่างพวกเขาเอง[FN:4]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้ท้ายกลุ่มคำ 'ระหว่างพวกเขาเอง' (بَيْنَهُمْ) ตามเกณฑ์ Footnote Placement",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984084+00:00"
+  },
+  {
+    "ayah": "3:20",
+    "type": "SPACING",
+    "target": "ของฉัน[FN:1]แด่อัลลอฮฺแล้ว",
+    "replacement": "ของฉัน[FN:1] แด่อัลลอฮฺแล้ว",
+    "reason": "เว้นวรรค 1 เคาะหน้าบุพบท 'แด่' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 106 บรรทัดที่ 16",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984090+00:00"
+  },
+  {
+    "ayah": "3:20",
+    "type": "SPACING",
+    "target": "เขียนอ่านไม่เป็น[FN:2]ว่า พวกท่าน",
+    "replacement": "เขียนอ่านไม่เป็น[FN:2] ว่า พวกท่าน",
+    "reason": "เว้นวรรค 1 เคาะหน้าคำว่า 'ว่า' เปิดประโยคคำถามตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 106 บรรทัดที่ 19",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984095+00:00"
+  },
+  {
+    "ayah": "3:20",
+    "type": "TYPO",
+    "target": "(ใบหน้าแด่อัลลอฮฺ) แล้วหรือ ถ้าหาก",
+    "replacement": "(ใบหน้าแด่อัลลอฮฺ) แล้วหรือ? ถ้าหาก",
+    "reason": "ใส่เครื่องหมายปรัศนี (?) ท้ายประโยคคำถามตามตัวบทอาหรับ ءَأَسْلَمْتُمْ และต้นฉบับพิมพ์ King Fahd 1990 หน้า 106 บรรทัดที่ 20",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984100+00:00"
+  },
+  {
+    "ayah": "3:24",
+    "type": "SPACING",
+    "target": "ในศาสนาของพวกเขา[FN:2]นั้น ได้หลอกลวง",
+    "replacement": "ในศาสนาของพวกเขา[FN:2] นั้น ได้หลอกลวง",
+    "reason": "เว้นวรรค 1 เคาะหน้าคำเชื่อม 'นั้น' ซึ่งเป็นรอยต่ออนุประโยคประธานกับภาคแสดงตามเกณฑ์ Spacing และต้นฉบับพิมพ์หน้า 108 บรรทัดที่ 7",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984105+00:00"
   },
   {
     "ayah": "3:25",
@@ -1287,6 +1368,15 @@
     "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้ท้ายคำซ้ำ (หลังไม้ยมก 'ๆ') เพื่อมิให้วางคั่นกลางคำว่า 'ใด ๆ' ตามเกณฑ์ Footnote Placement[span_3](start_span)[span_3](end_span)",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-23T14:04:43.272743+00:00"
+  },
+  {
+    "ayah": "3:29",
+    "type": "TYPO",
+    "target": "อัลลอฮฺก็ย่อมรู้ถึงสิ่งนั้นดี",
+    "replacement": "อัลลอฮฺก็ย่อมรู้สิ่งนั้นดี",
+    "reason": "ตัดคำว่า 'ถึง' ออกให้ตรงตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 110 บรรทัดที่ 3",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984110+00:00"
   },
   {
     "ayah": "3:33",
@@ -1307,6 +1397,42 @@
     "timestamp": "2026-10-23T14:04:43.272756+00:00"
   },
   {
+    "ayah": "3:35",
+    "type": "SPACING",
+    "target": "ของข้าพระองค์[FN:2]ถูกเจาะจง",
+    "replacement": "ของข้าพระองค์[FN:2] ถูกเจาะจง",
+    "reason": "เว้นวรรค 1 เคาะหน้ารอยต่อกริยาภาคแสดงตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 111 บรรทัดที่ 6",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984115+00:00"
+  },
+  {
+    "ayah": "3:36",
+    "type": "TYPO",
+    "target": "ได้ตั้งชื่อเขาว่า มัรฺยัม แล้วข้าพระองค์",
+    "replacement": "ได้ตั้งชื่อนางว่า “มัรฺยัม” แล้วข้าพระองค์",
+    "reason": "แก้ไขสรรพนามเป็น 'ตั้งชื่อนางว่า' ตามตัวบทอาหรับ سَمَّيْتُهَا (สรรพนามเพศหญิง -هَا) และใส่อัญประกาศ “มัรฺยัม” ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 111 บรรทัดที่ 15",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984120+00:00"
+  },
+  {
+    "ayah": "3:37",
+    "type": "TYPO",
+    "target": "เขากล่าวว่า มัรฺยัมเอ๋ย เธอได้สิ่งนี้มาอย่างไร นางกล่าวว่า",
+    "replacement": "เขากล่าวว่า มัรฺยัมเอ๋ย! เธอได้สิ่งนี้มาอย่างไร? นางกล่าวว่า",
+    "reason": "ใส่เครื่องหมายอัศเจรีย์ (!) และปรัศนี (?) ในบทสนทนาตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 112 บรรทัดที่ 6-7",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984126+00:00"
+  },
+  {
+    "ayah": "3:38",
+    "type": "FN_PLACEMENT",
+    "target": "ที่โน่น[FN:1]แหละ",
+    "replacement": "ที่โน่นแหละ[FN:1]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้ท้ายคำประสม 'ที่โน่นแหละ' ไม่ตัดคั่นกลางคำตามเกณฑ์ Footnote Placement",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984130+00:00"
+  },
+  {
     "ayah": "3:39",
     "type": "FN_PLACEMENT",
     "target": "อยู่ในอัลมิหฺรอบว่า[FN:2] แท้จริง",
@@ -1314,6 +1440,60 @@
     "reason": "ย้ายแท็กเชิงอรรถ [FN:2] ไปติดท้ายคำศัพท์ 'อัลมิหฺรอบ' โดยให้คำเชื่อม 'ว่า' ติดท้ายแท็กอย่างต่อเนื่องตามธรรมชาติภาษาไทย และคงการเว้นวรรค 1 เคาะหลัง 'ว่า' หน้าพระดำรัส[span_6](start_span)[span_6](end_span)",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-23T14:04:43.272763+00:00"
+  },
+  {
+    "ayah": "3:39",
+    "type": "SPACING",
+    "target": "อยู่ในอัลมิหฺรอบ[FN:2]ว่า แท้จริง",
+    "replacement": "อยู่ในอัลมิหฺรอบ[FN:2] ว่า แท้จริง",
+    "reason": "เว้นวรรค 1 เคาะหน้าคำว่า 'ว่า' เปิดประโยคแจ้งข่าวตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 112 บรรทัดที่ 16",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984135+00:00"
+  },
+  {
+    "ayah": "3:40",
+    "type": "FN_PLACEMENT",
+    "target": "เขา[FN:1]กล่าวว่า",
+    "replacement": "เขากล่าวว่า[FN:1]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้ท้ายกริยาวลี 'เขากล่าวว่า' ไม่ตัดคั่นกลางคำตามเกณฑ์ Footnote Placement",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984140+00:00"
+  },
+  {
+    "ayah": "3:42",
+    "type": "TYPO",
+    "target": "มัรฺยัมเอ๋ย แท้จริง",
+    "replacement": "มัรฺยัมเอ๋ย! แท้จริง",
+    "reason": "ใส่เครื่องหมายอัศเจรีย์ (!) หลังคำร้องเรียกตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 113 บรรทัดที่ 18",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984144+00:00"
+  },
+  {
+    "ayah": "3:44",
+    "type": "TYPO",
+    "target": "จะได้รับอุปการะมัรฺยัม",
+    "replacement": "จะได้อุปการะมัรฺยัม",
+    "reason": "แก้ไขคำผิดตามตัวบทอาหรับ أَيُّهُمْ يَكْفُلُ และต้นฉบับพิมพ์ King Fahd 1990 หน้า 114 บรรทัดที่ 8 เป็น 'จะได้อุปการะ' (ไม่ใช่ ได้รับอุปการะ ซึ่งทำให้ความหมายคลาดเคลื่อนเป็นผู้ถูกดูแล)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984149+00:00"
+  },
+  {
+    "ayah": "3:45",
+    "type": "TYPO",
+    "target": "มัรฺยัมเอ๋ย แท้จริง",
+    "replacement": "มัรฺยัมเอ๋ย! แท้จริง",
+    "reason": "ใส่เครื่องหมายอัศเจรีย์ (!) หลังคำร้องเรียกตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 114 บรรทัดที่ 11-12",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984154+00:00"
+  },
+  {
+    "ayah": "3:45",
+    "type": "SPACING",
+    "target": "ซึ่งพจมานหนึ่ง[FN:1]จากพระองค์",
+    "replacement": "ซึ่งพจมานหนึ่ง[FN:1] จากพระองค์",
+    "reason": "เว้นวรรค 1 เคาะหน้าบุพบท 'จาก' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 114 บรรทัดที่ 13",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T04:40:42.984159+00:00"
   },
   {
     "ayah": "3:49",
