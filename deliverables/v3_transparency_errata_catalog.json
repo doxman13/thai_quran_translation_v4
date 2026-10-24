@@ -5481,6 +5481,159 @@
     "timestamp": "2026-10-24T13:54:10.251976+00:00"
   },
   {
+    "ayah": "7:149",
+    "type": "TYPO",
+    "target": "และเมื่อได้ถูกตกลงในเมืองของพวกเขา[FN:1]",
+    "replacement": "และเมื่อได้ถูกตกลงในมือของพวกเขา[FN:1]",
+    "reason": "แก้ไขคำผิดจาก OCR: ในเมือง -> ในมือ ตามต้นฉบับพิมพ์ King Fahd 1990 และตัวบทอาหรับ فِي أَيْدِيهِمْ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.893451+00:00"
+  },
+  {
+    "ayah": "7:155",
+    "type": "FN_PLACEMENT",
+    "target": "สำหรับกำหนดเวลาของ[FN:2]เรา",
+    "replacement": "สำหรับกำหนดเวลาของเรา[FN:2]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้ท้ายคำสมบูรณ์ ไม่ให้คั่นกลางกลุ่มคำ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.893992+00:00"
+  },
+  {
+    "ayah": "7:160",
+    "type": "FN_PLACEMENT",
+    "target": "จากก้อนหิน[FN:1]นั้น",
+    "replacement": "จากหินก้อนนั้น[FN:1]",
+    "reason": "ปรับลำดับคำตามฉบับพิมพ์ King Fahd 1990 (จากหินก้อนนั้น) และย้ายเครื่องหมายเชิงอรรถไปไว้ท้ายกลุ่มคำ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894004+00:00"
+  },
+  {
+    "ayah": "7:166",
+    "type": "OMISSION",
+    "target": "พวกเจ้าจงเป็นสิ่งที่ถูกขับไล่ให้ห่างไกล[FN:1]",
+    "replacement": "พวกเจ้าจงเป็นลิง[FN:1] ที่ถูกขับไล่ให้ห่างไกล",
+    "reason": "กอบกู้คำแปลที่ตกหล่น: 'ลิง' ตามตัวบทอาหรับ قِرَدَةً และฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894014+00:00"
+  },
+  {
+    "ayah": "7:173",
+    "type": "OMISSION",
+    "target": "ได้ให้ภาคีขึ้นมาก่อน",
+    "replacement": "ได้ให้มีภาคีขึ้นมาก่อน",
+    "reason": "เติมคำว่า 'มี' (ได้ให้มีภาคี) ตามฉบับพิมพ์ King Fahd 1990 และสำนวนมาตรฐาน",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894023+00:00"
+  },
+  {
+    "ayah": "7:176",
+    "type": "TYPO",
+    "target": "ยกเขาขึ้น[FN:1] และด้วยบรรดาโองการเหล่านั้น",
+    "replacement": "ยกเขาขึ้น[FN:1] ด้วยบรรดาโองการเหล่านั้น",
+    "reason": "ตัดคำว่า 'และ' ที่เกินมาออกตามไวยากรณ์และความหมายตัวบทอาหรับ لَرَفَعْنَاهُ بِهَا",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894033+00:00"
+  },
+  {
+    "ayah": "7:179",
+    "type": "TYPO",
+    "target": "และพวกเขามีตาซึ่งพวกเขาไม่ได้ใช้มันมอง",
+    "replacement": "และพวกเขามีตา ซึ่งพวกเขาไม่ใช่มันมอง",
+    "reason": "ปรับให้ตรงกับฉบับพิมพ์ King Fahd 1990 (ไม่ใช่มันมอง) เพื่อรักษาโครงสร้างประโยคคู่ขนานตามตัวบทอาหรับ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894042+00:00"
+  },
+  {
+    "ayah": "7:187",
+    "type": "FN_PLACEMENT",
+    "target": "เป็นผู้ที่รู้ในเรื่องนั้น[FN:3]ดี",
+    "replacement": "เป็นผู้ที่รู้ในเรื่องนั้นดี[FN:3]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้ท้ายกลุ่มคำสมบูรณ์ตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894051+00:00"
+  },
+  {
+    "ayah": "7:188",
+    "type": "TYPO",
+    "target": "จงกล่าวเถิดว่า (มุฮัมมัด) ว่า",
+    "replacement": "จงกล่าวเถิด (มุฮัมมัด) ว่า",
+    "reason": "ตัดคำว่า 'ว่า' ที่ซ้ำซ้อนออกตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894060+00:00"
+  },
+  {
+    "ayah": "7:189",
+    "type": "FN_PLACEMENT",
+    "target": "อย่างเบา[FN:3] ๆ",
+    "replacement": "อย่างเบา ๆ[FN:3]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้หลังไม้ยมก (ๆ) ไม่ให้ผ่ากลางคำซ้ำ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894069+00:00"
+  },
+  {
+    "ayah": "7:189",
+    "type": "OMISSION",
+    "target": "แน่นอนข้าพระองค์ก็อยู่ในหมู่ผู้ขอบคุณ",
+    "replacement": "แน่นอนข้าพระองค์ก็จะอยู่ในหมู่ผู้ขอบคุณ",
+    "reason": "เติมคำว่า 'จะ' (ก็จะอยู่ในหมู่) ตามฉบับพิมพ์ King Fahd 1990 และตัวบทอาหรับ لَنَكُونَنَّ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894078+00:00"
+  },
+  {
+    "ayah": "7:191",
+    "type": "OMISSION",
+    "target": "จะให้สิ่งที่บังเกิดอันใดมีหุ้นส่วน",
+    "replacement": "จะให้สิ่งที่ไม่บังเกิดอันใดมีหุ้นส่วน",
+    "reason": "เติมคำปฏิเสธ 'ไม่' (สิ่งที่ไม่บังเกิดอันใด) ที่ตกหล่นตามตัวบทอาหรับ مَا لَا يَخْلُقُ شَيْئًا และฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894087+00:00"
+  },
+  {
+    "ayah": "7:193",
+    "type": "FN_PLACEMENT",
+    "target": "ไม่ปฏิบัติตาม[FN:2]พวกเจ้า",
+    "replacement": "ไม่ปฏิบัติตามพวกเจ้า[FN:2]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้ท้ายกลุ่มคำสมบูรณ์ตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894095+00:00"
+  },
+  {
+    "ayah": "7:195",
+    "type": "OMISSION",
+    "target": "หรือว่าพวกมันมีตาที่ใช้มอง",
+    "replacement": "หรือว่าพวกมันมีตาที่ใช้มันมอง",
+    "reason": "เติมคำว่า 'มัน' (ที่ใช้มันมอง) ให้ครบถ้วนตามโครงสร้างคู่ขนานในตัวบทอาหรับและฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894104+00:00"
+  },
+  {
+    "ayah": "7:203",
+    "type": "TYPO",
+    "target": "เมื่อมิได้มีอายะฮฺ[FN:1]ได้มายังพวกเขา",
+    "replacement": "เมื่อมิได้มีอายะฮฺใด[FN:1] มายังพวกเขา",
+    "reason": "แก้ไขคำผิดจาก OCR: ได้ -> ใด (อายะฮฺใด) ตามฉบับพิมพ์ King Fahd 1990 และตัวบทอาหรับ بِآيَةٍ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894113+00:00"
+  },
+  {
+    "ayah": "7:203",
+    "type": "TYPO",
+    "target": "และ (นี้คือ) ข้อแนะนำ",
+    "replacement": "และ (นี่คือ) ข้อแนะนำ",
+    "reason": "ปรับรูปคำตามฉบับพิมพ์ King Fahd 1990 (นี่คือ)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894122+00:00"
+  },
+  {
+    "ayah": "7:206",
+    "type": "FN_PLACEMENT",
+    "target": "แท้จริงบรรดา[FN:1]ผู้ที่อยู่ที่พระเจ้าของเจ้านั้น",
+    "replacement": "แท้จริงบรรดาผู้ที่อยู่ที่พระเจ้าของเจ้านั้น[FN:1]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้ท้ายกลุ่มประธานสมบูรณ์ ไม่ให้ผ่ากลางคำว่า บรรดาผู้ที่",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-24T14:11:00.894131+00:00"
+  },
+  {
     "ayah": "9:118",
     "type": "OCR_TYPO",
     "target": "เพื่อให้พ้นจากอัลลอฮฺไปได้ นอกจากกลับไปหาพระองค์ แล้วพระองค์ก็ทรงอภัยโทษให้พ้นจากอัลลอฮฺไปได้ นอกจากกลับไปหาพระองค์ แล้วพระองค์ก็ทรงอภัยโทษให้แก่พวกเขา",
