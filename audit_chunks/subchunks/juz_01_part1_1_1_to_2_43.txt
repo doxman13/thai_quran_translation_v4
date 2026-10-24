@@ -7,19 +7,20 @@ CRITICAL AUDIT INSTRUCTIONS (READ CAREFULLY):
 2. DE-OVERKILL SPACING: Remove unnecessary, unnatural, or chopped-up spaces.
    Thai is written continuously without spaces between words.
    Keep spaces ONLY for natural breath pauses, dialogue breaks, list items, or clause boundaries.
-3. BASE TEXT IS V3. V4 (AUDITED REF) IS THE SCHOLAR-AUDITED KNOWLEDGE BASE:
-   - V3 (BASE) is our clean, authentic King Fahd text base.
-   - V4 (AUDITED REF) is our previous scholar-audited reference containing verified printed corrections, restored omissions, and clean footnote placements.
-   - Look closely at V4 (AUDITED REF): When V3 drops a word or has an OCR glitch, V4 often contains the authentic printed reading (e.g. 3:99 'คดเคี้ยว', 2:165, 2:284).
-   - If V4 fixes an omission, typo, or footnote placement from the printed Mushaf: ADOPT V4's fix into V3!
-   - Apply Rule Zero: If V3 is already accurate and V4 is merely a synonym rewrite, PRESERVE V3.
+3. MULTIMODAL PRINTED MUSHAF (1990) & V4 (AJARN ASMAN / THAIQURAN SCHOLAR REF):
+   - BASE: V3 is our clean King Fahd digital base.
+   - PRINTED MUSHAF (PDF): The attached PDF slice is from the authentic 1990 King Fahd Printed Quran.
+     Cross-check against the scanned pages! If V3 dropped a word/syllable (e.g. 3:99 'คดเคี้ยว', 2:174 'ของ'), RESTORE IT!
+   - V4 SCHOLAR REF: V4 represents the scholar-reviewed edition by ThaiQuran in consultation with Ajarn Asman Meesomboon.
+     When V4 remedies ambiguities, grammar, or awkward phrasing from the 1990 print (e.g. 3:156 'อยู่ ณ ที่เรา', 3:169 'หามิได้', 3:196 'ล่อลวง'), ADOPT V4's enhancement!
+   - VOCABULARY FIDELITY: Strictly preserve King Fahd's classical vocabulary ('พระเจ้า' / 'พระผู้เป็นเจ้า'). Do NOT change 'พระเจ้า' to 'พระผู้อภิบาล' in running prose (word-by-word root meaning is already provided in the app's WBW layer).
 4. FOOTNOTE PLACEMENT & SPACING:
    - Placement: Verify that [FN:N] markers sit at the END of the concept/phrase they explain (e.g. after the full term 'อะลิฟ ลาม มีม[FN:1]', not mid-word or awkwardly placed).
    - No Space Before: [FN:N] must be glued directly to the preceding word without spaces.
-   - NO MECHANICAL SPACING AFTER: Thai is written continuously. Do NOT mechanically insert spaces after [FN:N] if the sentence continues naturally in Thai (e.g. DO NOT space in 'ตัวของพวกเจ้าเอง[FN:1]ออกจากหมู่บ้าน' or 'อาหารชนิดเดียว[FN:1]อีกต่อไปได้'). Add/keep spaces after [FN:N] ONLY for natural clause/sentence boundaries (e.g. before 'และ', 'หรือ', 'ดังนั้น', 'เพื่อว่า', 'ครั้งเมื่อ', or dialogue quotes '“...”').
+   - NO MECHANICAL SPACING AFTER: Thai is written continuously. Do NOT mechanically insert spaces after [FN:N] if the sentence continues naturally in Thai. Add/keep spaces after [FN:N] ONLY for natural clause/sentence boundaries (e.g. before 'และ', 'หรือ', 'ดังนั้น', 'เพื่อว่า', 'ครั้งเมื่อ', or dialogue quotes '“...”').
 5. CANONICAL TRANSLITERATION & TYPO CHECKLIST:
-   - Standardize transliteration: 'ชัยฏอน' (always use ฏ-ปฏัก, never ฎ-ชฎา), 'มลาอิกะฮฺ', 'อิบรอฮีม', 'อิสมาอีล', 'อิสฮาก', 'ยะอฺกูบ', 'มูซา', 'อีซา', 'นูฮฺ'.
-   - Fix historical OCR typos: 'กระนั้นหรือ' (never 'กระนั่นหรือ'), 'ดื้อรั้น' (never 'ดื้อดัน'), 'ผาสุก' (never 'ผาสุข'), 'กัมปนาท' (never 'กำปนาท'), 'บิดพลิ้ว' (never 'บิดพริ้ว'), 'นัยน์ตา' (never 'นัยตา'), 'ศีรษะ' (never 'ศรีษะ').
+   - Standardize transliteration: 'ชัยฏอน' (always use ฏ-ปฏัก, never ฎ-ชฎา), 'มลาอิกะฮฺ', 'อิบรอฮีม', 'อิสมาอีล', 'อิสฮาก', 'ยะอฺกูบ', 'มูซา', 'อีซา', 'นูฮฺ', 'ซะบูร' (no pinthu).
+   - Fix historical OCR typos: 'กระนั้นหรือ' (never 'กระนั่นหรือ'), 'ดื้อรั้น' (never 'ดื้อดัน'), 'ผาสุก' (never 'ผาสุข'), 'กัมปนาท' (never 'กำปนาท'), 'บิดพลิ้ว' (never 'บิดพริ้ว'), 'นัยน์ตา' (never 'นัยตา'), 'ศีรษะ' (never 'ศรีษะ'), 'อินทผลัม' (never 'อินทผาลัม' with สระอา per Royal Institute Thai Dictionary).
 6. OUTPUT STRICT JSON FORMAT ONLY:
 [
   {
@@ -31,6 +32,24 @@ CRITICAL AUDIT INSTRUCTIONS (READ CAREFULLY):
   }
 ]
 If all verses in this chunk are accurate and readable, output: []
+
+================================================================================
+AUTOMATED PRE-AUDIT WATCH LIST (PRE-SCANNED FOR THIS CHUNK):
+The automated scanner flagged 13 potential items to verify:
+  - [2:1] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'อัลลอฮทรงทราบความหมายของอักษรย่อนี้' absent in V3. Verify against Arabic text.
+  - [2:5] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'บนคำแนะนำ[FN:...]ท'
+  - [2:9] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'วของพวกเขาเอง[FN:...]เท'
+  - [2:10] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ง[FN:...]ให'
+  - [2:13] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ประชาชน[FN:...]เขาศร'
+  - [2:19] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'อม[FN:...]พวกปฏ'
+  - [2:22] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'นอาคาร[FN:...]แก'
+  - [2:22] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'พระองค์' absent in V3. Verify against Arabic text.
+  - [2:23] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ง[FN:...]ท'
+  - [2:26] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'น[FN:...]ค'
+  - [2:30] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ง[FN:...]ในพ'
+  - [2:34] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ด[FN:...]แก'
+  - [2:38] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'งหมด[FN:...]จากสวนน'
+--> INSTRUCTION: Explicitly verify these flagged items against the attached printed PDF and Arabic text!
 ================================================================================
 [1:1]
 AR: بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ | ١
@@ -185,7 +204,7 @@ FN[2]: โรคแห่งความดื้นรั้นและปฏ�
 --------------------------------------------------------------------------------
 [2:11]
 AR: وَإِذَا قِيلَ لَهُمۡ لَا تُفۡسِدُواْ فِي ٱلۡأَرۡضِ قَالُوٓاْ إِنَّمَا نَحۡنُ مُصۡلِحُونَ | ١١
-V3 (BASE): และเมื่อได้ถูกกล่าวแก่พวกเขาว่า พวกท่านจงอย่าก่อความเสียหายแก่แผ่นดินซิ พวกเขาก็กล่าวว่า ที่จริงนั้นเราเป็นผู้ปรับปรุงให้ดีต่างหาก[FN:1]
+V3 (BASE): และเมื่อได้ถูกกล่าวแก่พวกเขาว่า พวกท่านจงอย่าก่อความเสียหายในแผ่นดินซิ พวกเขาก็กล่าวว่า ที่จริงนั้นเราเป็นผู้ปรับปรุงให้ดีต่างหาก[FN:1]
 V4 (AUDITED REF) [PROSE_SENTENCE_UPGRADE]: และเมื่อได้ถูกกล่าวแก่พวกเขาว่า พวกท่านจงอย่าก่อความเสียหายแก่แผ่นดิน พวกเขาก็กล่าวว่า ที่จริงนั้นเราเป็นผู้ปรับปรุงให้ดีต่างหาก[FN:1]
 TQ (RAW REF):  และเมื่อได้ถูกกล่าวแก่พวกเขาว่า พวกท่านจงอย่าก่อความเสียหาแก่แผ่นดิน พวกเขาก็กล่าวว่า ที่จริงนั้นเราเป็นผู้ปรับปรุงให้ดีต่างหาก[FN:16]
 EN1 (Saheeh): And when it is said to them, "Do not cause corruption on the earth," they say, "We are but reformers."
@@ -203,7 +222,7 @@ FN[1]: เพราะพวกเขาประพฤติและปฏิ�
 --------------------------------------------------------------------------------
 [2:13]
 AR: وَإِذَا قِيلَ لَهُمۡ ءَامِنُواْ كَمَآ ءَامَنَ ٱلنَّاسُ قَالُوٓاْ أَنُؤۡمِنُ كَمَآ ءَامَنَ ٱلسُّفَهَآءُۗ أَلَآ إِنَّهُمۡ هُمُ ٱلسُّفَهَآءُ وَلَٰكِن لَّا يَعۡلَمُونَ | ١٣
-V3 (BASE): และเมื่อได้ถูกกล่าวแก่พวกเขาว่า พวกท่านจงศรัทธาเยี่ยงที่ประชาชน[FN:1]เขาศรัทธากันซิ พวกเขาก็กล่าวว่า จะให้เราศรัทธาเยี่ยงผู้โฉดเขลาเหล่านั้นศรัทธา[FN:2]กันกระนั้นหรือ พึงรู้เถิดว่าพวกเขาเองนั่นแหละเป็นผู้ที่โฉดเขลา แต่พวกเขาหารู้ไม่
+V3 (BASE): และเมื่อได้ถูกกล่าวแก่พวกเขาว่า พวกท่านจงศรัทธาเยี่ยงที่ประชาชน[FN:1]เขาศรัทธากันซิ พวกเขาก็กล่าวว่า จะให้เราศรัทธาเยี่ยงผู้โฉดเขลาเหล่านั้นศรัทธากัน[FN:2] กระนั้นหรือ พึงรู้เถิดว่าพวกเขาเองนั่นแหละเป็นผู้ที่โฉดเขลา แต่พวกเขาหารู้ไม่
 V4 (AUDITED REF) [PROSE_SENTENCE_UPGRADE]: และเมื่อได้ถูกกล่าวแก่พวกเขาว่า พวกท่านจงศรัทธาเยี่ยงที่ประชาชน[FN:1]เขาศรัทธาเถิด พวกเขากล่าวว่า จะให้เราศรัทธาเยี่ยงผู้โฉดเขลาเหล่านั้นศรัทธา[FN:2] กระนั้นหรือ? พึงรู้เถิดว่าพวกเขาเองนั่นแหละเป็นผู้ที่โฉดเขลา แต่พวกเขาหารู้ไม่
 TQ (RAW REF):  และเมื่อได้ถูกล่าวแก่พวกเขาว่า พวกท่านจงศรัทธาเยี่ยงที่ประชาชน[FN:18] เขาศรัทธาเถิด พวกเขากล่าวว่าจะให้เราศรัทธาเยี่ยงผู้โฉดเขลาเหล่านั้นศรัทธา[FN:19] กระนั่นหรือ? พึงรู้เถิดว่า พวกเขาเองนั่นแหละเป็นผู้ที่โฉดเขลาแต่พวกเขาหารู้ไม่
 EN1 (Saheeh): And when it is said to them, "Believe as the people have believed," they say, "Should we believe as the foolish have believed?" Unquestionably, it is they who are the foolish, but they know [it] not.
@@ -241,7 +260,7 @@ FN[2]: อัลลอฮฺทรงเปรียบเทียบการ�
 --------------------------------------------------------------------------------
 [2:17]
 AR: مَثَلُهُمۡ كَمَثَلِ ٱلَّذِي ٱسۡتَوۡقَدَ نَارٗا فَلَمَّآ أَضَآءَتۡ مَا حَوۡلَهُۥ ذَهَبَ ٱللَّهُ بِنُورِهِمۡ وَتَرَكَهُمۡ فِي ظُلُمَٰتٖ لَّا يُبۡصِرُونَ | ١٧
-V3 (BASE): อุปมาพวกเขานั้น ดังผู้ที่จุดไฟขึ้น[FN:1] ครั้งเมื่อไฟได้ให้แสงสว่างแก่สิ่งที่อยู่รอบ ๆ ตัวเขา[FN:2] อัลลอฮฺก็ทรงนำเอาแสงสว่างของพวกเขาไป[FN:3] และปล่อยพวกเขาไว้ในบรรดาความมืด ซึ่งพวกเขาไม่สามารถจะมองเห็นได้
+V3 (BASE): อุปมาพวกเขานั้น ดังผู้ที่จุดไฟขึ้น[FN:1] ครั้นเมื่อไฟได้ให้แสงสว่างแก่สิ่งที่อยู่รอบ ๆ ตัวเขา[FN:2] อัลลอฮฺก็ทรงนำเอาแสงสว่างของพวกเขาไป[FN:3] และปล่อยพวกเขาไว้ในบรรดาความมืด ซึ่งพวกเขาไม่สามารถจะมองเห็นได้
 V4 (AUDITED REF) [PROSE_SENTENCE_UPGRADE]: อุปมาพวกเขา ดังผู้ที่จุดไฟขึ้น[FN:1] ครั้งเมื่อไฟได้ให้แสงสว่างแก่สิ่งที่อยู่รอบ ๆ ตัวเขา[FN:2] อัลลอฮฺก็ทรงนำเอาแสงสว่างของพวกเขาไป[FN:3] และปล่อยพวกเขาไว้ในบรรดาความมืด ซึ่งพวกเขาไม่สามารถจะมองเห็นได้
 TQ (RAW REF):  อุปมาพวกเขา ดังผู้ที่จุดไฟขึ้น[FN:24] ครั้งเมื่อไฟได้ให้แสงสว่างแก่สิ่งที่อยู่รอบๆ ตัวเขา[FN:25] อัลลอฮ์ก็ทรงนำเอาแสงสว่างของพวกเขาไป[FN:26] และปล่อยพวกเขาไว้ในบรรดาความมืด ซึ่งพวกเขาไม่สามารถจะมองเห็นได้
 EN1 (Saheeh): Their example is that of one who kindled a fire, but when it illuminated what was around him, Allāh took away their light and left them in darkness [so] they could not see.
@@ -314,7 +333,7 @@ FN[4]: อัลลอฮฺทรงใช้ให้พวกเขาชั�
 --------------------------------------------------------------------------------
 [2:24]
 AR: فَإِن لَّمۡ تَفۡعَلُواْ وَلَن تَفۡعَلُواْ فَٱتَّقُواْ ٱلنَّارَ ٱلَّتِي وَقُودُهَا ٱلنَّاسُ وَٱلۡحِجَارَةُۖ أُعِدَّتۡ لِلۡكَٰفِرِينَ | ٢٤
-V3 (BASE): แต่พวกเจ้าก็ยังมิได้ทำ และจะไม่กระทำตลอดไปแล้ว ก็จงระวังไฟนรก ซึ่งเชื้อเพลิงของมันนั้นคือมนุษย์และหิน[FN:1] โดยที่มันได้ถูกเตรียมไว้สำหรับบรรดาผู้ปฏิเสธศรัทธา
+V3 (BASE): แต่ถ้าพวกเจ้ายังมิได้ทำ และจะไม่กระทำตลอดไปแล้ว ก็จงระวังไฟนรก ซึ่งเชื้อเพลิงของมันนั้นคือมนุษย์และหิน[FN:1] โดยที่มันได้ถูกเตรียมไว้สำหรับบรรดาผู้ปฏิเสธศรัทธา
 V4 (AUDITED REF): แต่พวกเจ้าก็ยังมิได้ทำ และจะไม่กระทำตลอดไปแล้ว ก็จงระวังไฟนรก ซึ่งเชื้อเพลิงของมันนั้นคือมนุษย์และหิน[FN:1] โดยที่มันได้ถูกเตรียมไว้สำหรับบรรดาผู้ปฏิเสธศรัทธา
 TQ (RAW REF):  แต่พวกเจ้าก็ยังมิได้ทำและจะไม่กระทำตลอดไปแล้วก็จงระวังไฟนรกซึ่งเชื้อเพลิงของมันนั้นคือ มนุษย์และหิน[FN:41] โดยที่มันได้ถูกเตรียมไว้สำหรับบรรดาผู้ปฏิเสธศรัทธา
 EN1 (Saheeh): But if you do not - and you will never be able to - then fear the Fire, whose fuel is people and stones, prepared for the disbelievers.

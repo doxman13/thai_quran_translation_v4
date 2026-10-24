@@ -7,19 +7,20 @@ CRITICAL AUDIT INSTRUCTIONS (READ CAREFULLY):
 2. DE-OVERKILL SPACING: Remove unnecessary, unnatural, or chopped-up spaces.
    Thai is written continuously without spaces between words.
    Keep spaces ONLY for natural breath pauses, dialogue breaks, list items, or clause boundaries.
-3. BASE TEXT IS V3. V4 (AUDITED REF) IS THE SCHOLAR-AUDITED KNOWLEDGE BASE:
-   - V3 (BASE) is our clean, authentic King Fahd text base.
-   - V4 (AUDITED REF) is our previous scholar-audited reference containing verified printed corrections, restored omissions, and clean footnote placements.
-   - Look closely at V4 (AUDITED REF): When V3 drops a word or has an OCR glitch, V4 often contains the authentic printed reading (e.g. 3:99 'คดเคี้ยว', 2:165, 2:284).
-   - If V4 fixes an omission, typo, or footnote placement from the printed Mushaf: ADOPT V4's fix into V3!
-   - Apply Rule Zero: If V3 is already accurate and V4 is merely a synonym rewrite, PRESERVE V3.
+3. MULTIMODAL PRINTED MUSHAF (1990) & V4 (AJARN ASMAN / THAIQURAN SCHOLAR REF):
+   - BASE: V3 is our clean King Fahd digital base.
+   - PRINTED MUSHAF (PDF): The attached PDF slice is from the authentic 1990 King Fahd Printed Quran.
+     Cross-check against the scanned pages! If V3 dropped a word/syllable (e.g. 3:99 'คดเคี้ยว', 2:174 'ของ'), RESTORE IT!
+   - V4 SCHOLAR REF: V4 represents the scholar-reviewed edition by ThaiQuran in consultation with Ajarn Asman Meesomboon.
+     When V4 remedies ambiguities, grammar, or awkward phrasing from the 1990 print (e.g. 3:156 'อยู่ ณ ที่เรา', 3:169 'หามิได้', 3:196 'ล่อลวง'), ADOPT V4's enhancement!
+   - VOCABULARY FIDELITY: Strictly preserve King Fahd's classical vocabulary ('พระเจ้า' / 'พระผู้เป็นเจ้า'). Do NOT change 'พระเจ้า' to 'พระผู้อภิบาล' in running prose (word-by-word root meaning is already provided in the app's WBW layer).
 4. FOOTNOTE PLACEMENT & SPACING:
    - Placement: Verify that [FN:N] markers sit at the END of the concept/phrase they explain (e.g. after the full term 'อะลิฟ ลาม มีม[FN:1]', not mid-word or awkwardly placed).
    - No Space Before: [FN:N] must be glued directly to the preceding word without spaces.
-   - NO MECHANICAL SPACING AFTER: Thai is written continuously. Do NOT mechanically insert spaces after [FN:N] if the sentence continues naturally in Thai (e.g. DO NOT space in 'ตัวของพวกเจ้าเอง[FN:1]ออกจากหมู่บ้าน' or 'อาหารชนิดเดียว[FN:1]อีกต่อไปได้'). Add/keep spaces after [FN:N] ONLY for natural clause/sentence boundaries (e.g. before 'และ', 'หรือ', 'ดังนั้น', 'เพื่อว่า', 'ครั้งเมื่อ', or dialogue quotes '“...”').
+   - NO MECHANICAL SPACING AFTER: Thai is written continuously. Do NOT mechanically insert spaces after [FN:N] if the sentence continues naturally in Thai. Add/keep spaces after [FN:N] ONLY for natural clause/sentence boundaries (e.g. before 'และ', 'หรือ', 'ดังนั้น', 'เพื่อว่า', 'ครั้งเมื่อ', or dialogue quotes '“...”').
 5. CANONICAL TRANSLITERATION & TYPO CHECKLIST:
-   - Standardize transliteration: 'ชัยฏอน' (always use ฏ-ปฏัก, never ฎ-ชฎา), 'มลาอิกะฮฺ', 'อิบรอฮีม', 'อิสมาอีล', 'อิสฮาก', 'ยะอฺกูบ', 'มูซา', 'อีซา', 'นูฮฺ'.
-   - Fix historical OCR typos: 'กระนั้นหรือ' (never 'กระนั่นหรือ'), 'ดื้อรั้น' (never 'ดื้อดัน'), 'ผาสุก' (never 'ผาสุข'), 'กัมปนาท' (never 'กำปนาท'), 'บิดพลิ้ว' (never 'บิดพริ้ว'), 'นัยน์ตา' (never 'นัยตา'), 'ศีรษะ' (never 'ศรีษะ').
+   - Standardize transliteration: 'ชัยฏอน' (always use ฏ-ปฏัก, never ฎ-ชฎา), 'มลาอิกะฮฺ', 'อิบรอฮีม', 'อิสมาอีล', 'อิสฮาก', 'ยะอฺกูบ', 'มูซา', 'อีซา', 'นูฮฺ', 'ซะบูร' (no pinthu).
+   - Fix historical OCR typos: 'กระนั้นหรือ' (never 'กระนั่นหรือ'), 'ดื้อรั้น' (never 'ดื้อดัน'), 'ผาสุก' (never 'ผาสุข'), 'กัมปนาท' (never 'กำปนาท'), 'บิดพลิ้ว' (never 'บิดพริ้ว'), 'นัยน์ตา' (never 'นัยตา'), 'ศีรษะ' (never 'ศรีษะ'), 'อินทผลัม' (never 'อินทผาลัม' with สระอา per Royal Institute Thai Dictionary).
 6. OUTPUT STRICT JSON FORMAT ONLY:
 [
   {
@@ -31,6 +32,34 @@ CRITICAL AUDIT INSTRUCTIONS (READ CAREFULLY):
   }
 ]
 If all verses in this chunk are accurate and readable, output: []
+
+================================================================================
+AUTOMATED PRE-AUDIT WATCH LIST (PRE-SCANNED FOR THIS CHUNK):
+The automated scanner flagged 23 potential items to verify:
+  - [2:45] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'สำหรับ' absent in V3. Verify against Arabic text.
+  - [2:47] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'ให้ความ' absent in V3. Verify against Arabic text.
+  - [2:47] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'เกียรติ' absent in V3. Verify against Arabic text.
+  - [2:48] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'น[FN:...]ด'
+  - [2:49] [V4_SCHOLAR_CATEGORY_ALERT] V4 categorized as [REVERSE_REPAIR_OVER_V3]. Potential restored clause or correction over V3.
+  - [2:49] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'พวกเจ้า' absent in V3. Verify against Arabic text.
+  - [2:50] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'พวกเจ้า' absent in V3. Verify against Arabic text.
+  - [2:57] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ลวา[FN:...]แก'
+  - [2:58] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'น[FN:...]ไปในสภาพผ'
+  - [2:61] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ยว[FN:...]อ'
+  - [2:62] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'น[FN:...]น'
+  - [2:67] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'ผู้หนึ่งจาก' absent in V3. Verify against Arabic text.
+  - [2:71] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'เพราะหายากและราคาแพง' absent in V3. Verify against Arabic text.
+  - [2:73] [FOOTNOTE_SYNTAX_ANOMALY] Footnote tag adjacent to or splitting mai-yamok (ๆ): ['ๆ[FN:3] เพ']
+  - [2:73] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ตาย[FN:...]ม'
+  - [2:75] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'พวกเขา[FN:...]ศร'
+  - [2:82] [V4_SCHOLAR_CATEGORY_ALERT] V4 categorized as [REVERSE_REPAIR_OVER_V3]. Potential restored clause or correction over V3.
+  - [2:84] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'าเอง[FN:...]ออกจากหม'
+  - [2:85] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'นเอาชนะพวกเขา[FN:...]ด'
+  - [2:85] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'าพวกเขา[FN:...]มาย'
+  - [2:87] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ดเจน[FN:...]แก'
+  - [2:89] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ต[FN:...]ของอ'
+  - [2:91] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'ศรัทธาต่อสิ่งอื่นจากนั้นทั้งๆที่สิ่งนั้น' absent in V3. Verify against Arabic text.
+--> INSTRUCTION: Explicitly verify these flagged items against the attached printed PDF and Arabic text!
 ================================================================================
 [2:44]
 AR: ۞ أَتَأۡمُرُونَ ٱلنَّاسَ بِٱلۡبِرِّ وَتَنسَوۡنَ أَنفُسَكُمۡ وَأَنتُمۡ تَتۡلُونَ ٱلۡكِتَٰبَۚ أَفَلَا تَعۡقِلُونَ | ٤٤

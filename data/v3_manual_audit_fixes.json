@@ -925,5 +925,41 @@
     "reason": "เว้นวรรค 1 เคาะคั่นรอยต่อหน้าประโยคเงื่อนไข หากพวกเจ้า... ตามฉบับพิมพ์ King Fahd 1990",
     "match_in_ann": true,
     "timestamp": "2026-10-23T17:43:25.675921+00:00"
+  },
+  {
+    "ayah": "2:11",
+    "type": "TYPO",
+    "target": "อย่าก่อความเสียหายแก่แผ่นดินซิ",
+    "replacement": "อย่าก่อความเสียหายในแผ่นดินซิ",
+    "reason": "แก้ไขคำว่า แก่ เป็น ใน ตามฉบับพิมพ์ King Fahd 1990 และตัวบทอาหรับ فِي ٱلۡأَرۡضِ[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span)",
+    "match_in_ann": true,
+    "timestamp": "2026-10-24T03:22:03.583387+00:00"
+  },
+  {
+    "ayah": "2:13",
+    "type": "FN_PLACEMENT",
+    "target": "เหล่านั้นศรัทธา[FN:2]กันกระนั้นหรือ",
+    "replacement": "เหล่านั้นศรัทธากัน[FN:2] กระนั้นหรือ",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้ท้ายคำว่า ศรัทธากัน และเว้นวรรคหน้า กระนั้นหรือ ตามฉบับพิมพ์ King Fahd 1990[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span)[span_4](start_span)[span_4](end_span)",
+    "match_in_ann": true,
+    "timestamp": "2026-10-24T03:22:03.583614+00:00"
+  },
+  {
+    "ayah": "2:17",
+    "type": "TYPO",
+    "target": "ครั้งเมื่อไฟได้ให้แสงสว่าง",
+    "replacement": "ครั้นเมื่อไฟได้ให้แสงสว่าง",
+    "reason": "แก้คำสะกดผิด ครั้งเมื่อ เป็น ครั้นเมื่อ ตามฉบับพิมพ์ King Fahd 1990 และตัวบทอาหรับ فَلَمَّآ[span_5](start_span)[span_5](end_span)[span_6](start_span)[span_6](end_span)",
+    "match_in_ann": true,
+    "timestamp": "2026-10-24T03:22:03.583620+00:00"
+  },
+  {
+    "ayah": "2:24",
+    "type": "OMISSION",
+    "target": "แต่พวกเจ้าก็ยังมิได้ทำ",
+    "replacement": "แต่ถ้าพวกเจ้ายังมิได้ทำ",
+    "reason": "คืนคำว่า ถ้า ใน แต่ถ้าพวกเจ้า... ตามตัวบทอาหรับ فَإِنْ และฉบับพิมพ์ King Fahd 1990[span_7](start_span)[span_7](end_span)[span_8](start_span)[span_8](end_span)",
+    "match_in_ann": true,
+    "timestamp": "2026-10-24T03:22:03.583625+00:00"
   }
 ]
