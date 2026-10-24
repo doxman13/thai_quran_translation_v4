@@ -7,19 +7,20 @@ CRITICAL AUDIT INSTRUCTIONS (READ CAREFULLY):
 2. DE-OVERKILL SPACING: Remove unnecessary, unnatural, or chopped-up spaces.
    Thai is written continuously without spaces between words.
    Keep spaces ONLY for natural breath pauses, dialogue breaks, list items, or clause boundaries.
-3. BASE TEXT IS V3. V4 (AUDITED REF) IS THE SCHOLAR-AUDITED KNOWLEDGE BASE:
-   - V3 (BASE) is our clean, authentic King Fahd text base.
-   - V4 (AUDITED REF) is our previous scholar-audited reference containing verified printed corrections, restored omissions, and clean footnote placements.
-   - Look closely at V4 (AUDITED REF): When V3 drops a word or has an OCR glitch, V4 often contains the authentic printed reading (e.g. 3:99 'คดเคี้ยว', 2:165, 2:284).
-   - If V4 fixes an omission, typo, or footnote placement from the printed Mushaf: ADOPT V4's fix into V3!
-   - Apply Rule Zero: If V3 is already accurate and V4 is merely a synonym rewrite, PRESERVE V3.
+3. MULTIMODAL PRINTED MUSHAF (1990) & V4 (AJARN ASMAN / THAIQURAN SCHOLAR REF):
+   - BASE: V3 is our clean King Fahd digital base.
+   - PRINTED MUSHAF (PDF): The attached PDF slice is from the authentic 1990 King Fahd Printed Quran.
+     Cross-check against the scanned pages! If V3 dropped a word/syllable (e.g. 3:99 'คดเคี้ยว', 2:174 'ของ'), RESTORE IT!
+   - V4 SCHOLAR REF: V4 represents the scholar-reviewed edition by ThaiQuran in consultation with Ajarn Asman Meesomboon.
+     When V4 remedies ambiguities, grammar, or awkward phrasing from the 1990 print (e.g. 3:156 'อยู่ ณ ที่เรา', 3:169 'หามิได้', 3:196 'ล่อลวง'), ADOPT V4's enhancement!
+   - VOCABULARY FIDELITY: Strictly preserve King Fahd's classical vocabulary ('พระเจ้า' / 'พระผู้เป็นเจ้า'). Do NOT change 'พระเจ้า' to 'พระผู้อภิบาล' in running prose (word-by-word root meaning is already provided in the app's WBW layer).
 4. FOOTNOTE PLACEMENT & SPACING:
    - Placement: Verify that [FN:N] markers sit at the END of the concept/phrase they explain (e.g. after the full term 'อะลิฟ ลาม มีม[FN:1]', not mid-word or awkwardly placed).
    - No Space Before: [FN:N] must be glued directly to the preceding word without spaces.
-   - NO MECHANICAL SPACING AFTER: Thai is written continuously. Do NOT mechanically insert spaces after [FN:N] if the sentence continues naturally in Thai (e.g. DO NOT space in 'ตัวของพวกเจ้าเอง[FN:1]ออกจากหมู่บ้าน' or 'อาหารชนิดเดียว[FN:1]อีกต่อไปได้'). Add/keep spaces after [FN:N] ONLY for natural clause/sentence boundaries (e.g. before 'และ', 'หรือ', 'ดังนั้น', 'เพื่อว่า', 'ครั้งเมื่อ', or dialogue quotes '“...”').
+   - NO MECHANICAL SPACING AFTER: Thai is written continuously. Do NOT mechanically insert spaces after [FN:N] if the sentence continues naturally in Thai. Add/keep spaces after [FN:N] ONLY for natural clause/sentence boundaries (e.g. before 'และ', 'หรือ', 'ดังนั้น', 'เพื่อว่า', 'ครั้งเมื่อ', or dialogue quotes '“...”').
 5. CANONICAL TRANSLITERATION & TYPO CHECKLIST:
-   - Standardize transliteration: 'ชัยฏอน' (always use ฏ-ปฏัก, never ฎ-ชฎา), 'มลาอิกะฮฺ', 'อิบรอฮีม', 'อิสมาอีล', 'อิสฮาก', 'ยะอฺกูบ', 'มูซา', 'อีซา', 'นูฮฺ'.
-   - Fix historical OCR typos: 'กระนั้นหรือ' (never 'กระนั่นหรือ'), 'ดื้อรั้น' (never 'ดื้อดัน'), 'ผาสุก' (never 'ผาสุข'), 'กัมปนาท' (never 'กำปนาท'), 'บิดพลิ้ว' (never 'บิดพริ้ว'), 'นัยน์ตา' (never 'นัยตา'), 'ศีรษะ' (never 'ศรีษะ').
+   - Standardize transliteration: 'ชัยฏอน' (always use ฏ-ปฏัก, never ฎ-ชฎา), 'มลาอิกะฮฺ', 'อิบรอฮีม', 'อิสมาอีล', 'อิสฮาก', 'ยะอฺกูบ', 'มูซา', 'อีซา', 'นูฮฺ', 'ซะบูร' (no pinthu).
+   - Fix historical OCR typos: 'กระนั้นหรือ' (never 'กระนั่นหรือ'), 'ดื้อรั้น' (never 'ดื้อดัน'), 'ผาสุก' (never 'ผาสุข'), 'กัมปนาท' (never 'กำปนาท'), 'บิดพลิ้ว' (never 'บิดพริ้ว'), 'นัยน์ตา' (never 'นัยตา'), 'ศีรษะ' (never 'ศรีษะ'), 'อินทผลัม' (never 'อินทผาลัม' with สระอา per Royal Institute Thai Dictionary).
 6. OUTPUT STRICT JSON FORMAT ONLY:
 [
   {
@@ -31,6 +32,65 @@ CRITICAL AUDIT INSTRUCTIONS (READ CAREFULLY):
   }
 ]
 If all verses in this chunk are accurate and readable, output: []
+
+================================================================================
+AUTOMATED PRE-AUDIT WATCH LIST (PRE-SCANNED FOR THIS CHUNK):
+The automated scanner flagged 54 potential items to verify:
+  - [7:88] [V4_SCHOLAR_CATEGORY_ALERT] V4 categorized as [CLAUSE_OMISSION_RESTORED]. Potential restored clause or correction over V3.
+  - [7:88] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'เขา[FN:...]กล'
+  - [7:88] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ตาม[FN:...]กระน'
+  - [7:90] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ของเขา[FN:...]ได'
+  - [7:93] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'วเขา[FN:...]ห'
+  - [7:95] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ง[FN:...]ได'
+  - [7:95] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'ความเดือดร้อนและความสุขสบาย' absent in V3. Verify against Arabic text.
+  - [7:96] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'า[FN:...]และแผ'
+  - [7:100] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'บทอด[FN:...]หล'
+  - [7:100] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'แผ่นดิน' absent in V3. Verify against Arabic text.
+  - [7:101] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'า[FN:...]ทราบถ'
+  - [7:102] [FOOTNOTE_SYNTAX_ANOMALY] Footnote tag adjacent to or splitting mai-yamok (ๆ): ['ญญาใด[FN:1] ๆ']
+  - [7:103] [FOOTNOTE_SYNTAX_ANOMALY] Footnote tag adjacent to or splitting mai-yamok (ๆ): ['าง[FN:2] ๆ']
+  - [7:103] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'งจากพวกเขา[FN:...]เราได'
+  - [7:105] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'า[FN:...]มาย'
+  - [7:105] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'น[FN:...]เถ'
+  - [7:106] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'เขา[FN:...]กล'
+  - [7:107] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'วเขา[FN:...]ได'
+  - [7:111] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'งคนไปรวบรวม[FN:...]ในเม'
+  - [7:111] [POTENTIAL_OMISSION_ALERT] TQ has extra phrase 'เอาไว้' absent in V3. Verify against Arabic text.
+  - [7:112] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'พวกเขา[FN:...]ก'
+  - [7:114] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'เขา[FN:...]กล'
+  - [7:116] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'เขา[FN:...]กล'
+  - [7:116] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'โยน[FN:...]ออกไป'
+  - [7:117] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'นใด[FN:...]ม'
+  - [7:118] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ง[FN:...]ก'
+  - [7:118] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'พวกเขากระทำ[FN:...]ก'
+  - [7:119] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'พวกเขา[FN:...]ก'
+  - [7:123] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'าน[FN:...]ได'
+  - [7:123] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'อง[FN:...]ให'
+  - [7:126] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'าน[FN:...]จะไม'
+  - [7:126] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ญญาณ[FN:...]แห'
+  - [7:126] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'โปรดเทความอดทน[FN:...]ลงมาบนพวกเราด'
+  - [7:127] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'อง[FN:...]ของเขาไว'
+  - [7:127] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'าน[FN:...]และบรรดาท'
+  - [7:127] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'เขา[FN:...]กล'
+  - [7:127] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'กชายของพวกเขา[FN:...]และไว'
+  - [7:129] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ณ[FN:...]ท'
+  - [7:129] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'เขา[FN:...]กล'
+  - [7:129] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'วง[FN:...]แทนในแผ'
+  - [7:133] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ง[FN:...]น'
+  - [7:133] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ญญาณ[FN:...]อ'
+  - [7:134] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'การลงโทษ[FN:...]เก'
+  - [7:136] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ญญาณ[FN:...]ต'
+  - [7:137] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'นมรดก[FN:...]แก'
+  - [7:137] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ว[FN:...]แก'
+  - [7:141] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'น[FN:...]ค'
+  - [7:143] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'เขา[FN:...]ได'
+  - [7:143] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'เขา[FN:...]น'
+  - [7:145] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ง[FN:...]และการแจกแจงในท'
+  - [7:145] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'าง[FN:...]ไว'
+  - [7:145] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'า[FN:...]จงย'
+  - [7:145] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'ด[FN:...]ท'
+  - [7:146] [FOOTNOTE_MID_WORD_SPLIT] Footnote tag appears inside word/compound: 'นเห[FN:...]ออกจากบรรดาโองการของข'
+--> INSTRUCTION: Explicitly verify these flagged items against the attached printed PDF and Arabic text!
 ================================================================================
 [7:88]
 AR: ۞ قَالَ ٱلۡمَلَأُ ٱلَّذِينَ ٱسۡتَكۡبَرُواْ مِن قَوۡمِهِۦ لَنُخۡرِجَنَّكَ يَٰشُعَيۡبُ وَٱلَّذِينَ ءَامَنُواْ مَعَكَ مِن قَرۡيَتِنَآ أَوۡ لَتَعُودُنَّ فِي مِلَّتِنَاۚ قَالَ أَوَلَوۡ كُنَّا كَٰرِهِينَ | ٨٨
@@ -377,7 +437,7 @@ TQ (RAW REF):  ข้าสาบานว่า ข้าจะตัดมื�
 EN1 (Saheeh): I will surely cut off your hands and your feet on opposite sides; then I will surely crucify you all."
 EN2 (Hilali-Khan): "Surely, I will cut off your hands and your feet from opposite sides, then I will crucify you all."
 FN[1]: คือตัดมือขวาและเท้าซ้าย
-FN[2]: คำว่า “ลำต้นอินทผาลัม” นั้น ในอายะฮฺนี้มิได้ระบุไว้ หากแต่ได้ระบุไว้ในอายะฮฺที่ 20:71 ดังนั้นจึงได้นำมาขยายในอายะฮฺนี้ด้วย เพื่อให้ข้อความสมบูรณ์
+FN[2]: คำว่า “ลำต้นอินทผลัม” นั้น ในอายะฮฺนี้มิได้ระบุไว้ หากแต่ได้ระบุไว้ในอายะฮฺที่ 20:71 ดังนั้นจึงได้นำมาขยายในอายะฮฺนี้ด้วย เพื่อให้ข้อความสมบูรณ์
 --------------------------------------------------------------------------------
 [7:125]
 AR: قَالُوٓاْ إِنَّآ إِلَىٰ رَبِّنَا مُنقَلِبُونَ | ١٢٥
