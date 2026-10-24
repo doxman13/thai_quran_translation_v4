@@ -93,12 +93,17 @@ def main():
         key = (f["ayah"], f["target"].strip(), f["replacement"].strip())
         if key not in seen:
             seen.add(key)
+            item_type = f.get("type", "SCHOLAR_FIX")
+            reason = f.get("reason", "")
+            if "Supreme Truth" in reason or item_type == "SUPREME_TRUTH":
+                item_type = "SUPREME_TRUTH"
+
             combined.append({
                 "ayah": f["ayah"],
-                "type": f.get("type", "SCHOLAR_FIX"),
+                "type": item_type,
                 "target": f["target"],
                 "replacement": f["replacement"],
-                "reason": f.get("reason", ""),
+                "reason": reason,
                 "source": f.get("source") or "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
                 "timestamp": f.get("timestamp", "")
             })
@@ -125,19 +130,22 @@ def main():
 
     # Generate Human-Readable Markdown Report
     categories = {
-        "THEOLOGICAL": "1. การแก้ไขสรรพนามและหลักเตาฮีด (Theological Purity & Divine Pronouns)",
-        "OMISSION": "2. การกู้คืนตัวบทภาษาอาหรับที่ตกหล่น (Restoration of Dropped Arabic Clauses)",
-        "CLERICAL_OMISSION": "2. การกู้คืนตัวบทภาษาอาหรับที่ตกหล่น (Restoration of Dropped Arabic Clauses)",
-        "TYPO": "3. การแก้ไขข้อผิดพลาดจากการสแกน OCR และคำสะกดผิด (Severe OCR Misreads & Typo Fixes)",
-        "OCR_TYPO": "3. การแก้ไขข้อผิดพลาดจากการสแกน OCR และคำสะกดผิด (Severe OCR Misreads & Typo Fixes)",
-        "FN_PLACEMENT": "4. การจัดตำแหน่งเชิงอรรถที่ตัดกลางคำ (Footnote Placement & Word Repair)",
-        "SPACING": "5. การปรับปรุงจังหวะการอ่านและการเว้นวรรค (Cadence & Natural Spacing)"
+        "SUPREME_TRUTH": "1. 🌟 ข้อผิดพลาดวิกฤต: กู้คืนตัวบทอัลกุรอานที่ตกหล่นจากทุกฉบับพิมพ์ดั้งเดิม (Supreme Truth: Critical Arabic Restorations Missing From All Historical Sources)",
+        "THEOLOGICAL": "2. การแก้ไขสรรพนามและหลักเตาฮีด (Theological Purity & Divine Pronouns)",
+        "OMISSION": "3. การกู้คืนตัวบทที่ตกหล่นจากระบบดิจิทัล/OCR (Restoration of Dropped Clauses Found in 1990 Print)",
+        "CLERICAL_OMISSION": "3. การกู้คืนตัวบทที่ตกหล่นจากระบบดิจิทัล/OCR (Restoration of Dropped Clauses Found in 1990 Print)",
+        "TYPO": "4. การแก้ไขข้อผิดพลาดจากการสแกน OCR และคำสะกดผิด (Severe OCR Misreads & Typo Fixes)",
+        "OCR_TYPO": "4. การแก้ไขข้อผิดพลาดจากการสแกน OCR และคำสะกดผิด (Severe OCR Misreads & Typo Fixes)",
+        "FN_PLACEMENT": "5. การจัดตำแหน่งเชิงอรรถที่ตัดกลางคำ (Footnote Placement & Word Repair)",
+        "SPACING": "6. การปรับปรุงจังหวะการอ่านและการเว้นวรรค (Cadence & Natural Spacing)"
     }
 
     by_cat = {}
     for item in combined:
         cat_key = item.get("type", "TYPO")
-        cat_title = categories.get(cat_key, "6. การแก้ไขอื่น ๆ (Other Scholarly Corrections)")
+        if "Supreme Truth" in item.get("reason", ""):
+            cat_key = "SUPREME_TRUTH"
+        cat_title = categories.get(cat_key, "7. การแก้ไขอื่น ๆ (Other Scholarly Corrections)")
         by_cat.setdefault(cat_title, []).append(item)
 
     md = []
@@ -147,6 +155,10 @@ def main():
     md.append(f"> **สถิติรวม:** ตรวจพบและแก้ไขข้อผิดพลาดที่ตกค้างในระบบดิจิทัล/ฉบับพิมพ์เดิมแล้วทั้งสิ้น **{len(combined)} รายการ**")
     md.append(f"> **วันที่จัดทำรายงาน:** {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC')}")
     md.append("> **วัตถุประสงค์:** เพื่อเผยแพร่แก่สาธารณชน นักวิชาการ และผู้ใช้งานทั่วไป ให้ทราบถึงที่มาและเหตุผลของการแก้ไขตัวบทแปลอัลกุรอานภาษาไทย โดยเทียบเคียงกับตัวบทภาษาอาหรับอุษมานีย์เป็นมาตรฐานสูงสุด")
+    md.append("")
+    md.append("> [!IMPORTANT]")
+    md.append("> **ข้อผิดพลาดระดับวิกฤตสูงสุด (Supreme Truth Restorations):**")
+    md.append("> รายการในหมวดที่ 1 (🌟) คือกรณีที่ **ตัวบทภาษาอาหรับเดิมของอัลกุรอานมีข้อความอยู่จริง แต่ตกหล่นหายไปจากต้นฉบับพิมพ์ดั้งเดิมปี 1990 และฉบับดิจิทัลทุกแห่งในประเทศไทย** โครงการนี้ได้ทำการกู้คืนข้อความตามตัวบทอัลกุรอานอุษมานีย์โดยตรง เพื่อคงความบริสุทธิ์สมบูรณ์สูงสุดของพระดำรัสของอัลลอฮฺ")
     md.append("")
     md.append("---")
     md.append("")
