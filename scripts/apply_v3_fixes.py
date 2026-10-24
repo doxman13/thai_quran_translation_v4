@@ -304,6 +304,13 @@ def main():
             errors.append(f"Fix #{idx} ({ak}): Unbalanced parentheses in modified verse: '('={simulated.count('(')} ')'={simulated.count(')')}")
             continue
 
+        # Enclitic Post-Modifier Spacing Lint Check (e.g. [FN:1] ด้วย -> [FN:1]ด้วย)
+        enclitic_match = re.search(r"\[FN:\d+\]\s+(ด้วย|เอง|นั้น|นี้|โน้น|อีก|ก่อน|เท่านั้น)\b", replacement)
+        if enclitic_match:
+            print(f"[LINT WARNING] {ak}: Space detected after [FN:X] before enclitic particle '{enclitic_match.group(1)}':")
+            print(f"    '{replacement}'")
+            print(f"    -> Per Zero Whitespace Rule, glue directly (e.g. '[FN:X]{enclitic_match.group(1)}') if it modifies the preceding noun/word directly.\n")
+
         # Passed all gates
         validated_fixes.append({
             "ayah": ak,

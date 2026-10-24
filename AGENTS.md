@@ -101,7 +101,9 @@ pix.save('/tmp/check_page.png')
    - Tag format: `[FN:N]`.
    - Must affix tightly to the preceding word without spaces (e.g. `คำศัพท์[FN:1]`).
    - Move after maiyamok (e.g. `ต่าง ๆ[FN:1]`).
-   - **No Mechanical Spacing After:** Thai is written continuously. Do NOT mechanically add a space after `[FN:N]` if the sentence continues naturally. Keep/add spaces only for natural clause boundaries, dialogues, or breath pauses.
+   - **No Mechanical Spacing After (Thai Continuity):** Thai is written continuously.
+     - ❌ **Zero Whitespace for Enclitic Post-Modifiers:** If the word following `[FN:N]` is an attached particle or post-modifier like `ด้วย`, `เอง`, `นี้`, `นั้น`, `อีก`, `ก่อน`, or `เท่านั้น`, it MUST be glued directly to the tag with zero whitespace (e.g. `สวนสวรรค์[FN:1]ด้วย`, `พวกเขา[FN:6]เอง`, `พวกเขา[FN:2]นี้`, `อัลลอฮฺ[FN:2]นั้น`).
+     - ✅ Keep/add spaces ONLY for genuine clause boundaries (`และ`, `หรือ`, `แต่`, `ดังนั้น`), relative clauses (`ซึ่ง`, `โดยที่`), dialogues (`“...”`), or breath pauses.
 5. **De-Overkill Spacing:**
    - Remove unnatural spaces between words or broken compounds. Thai does not use inter-word spaces.
 
