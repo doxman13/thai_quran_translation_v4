@@ -7880,6 +7880,105 @@
     "timestamp": "2026-10-25T10:04:07.883004+00:00"
   },
   {
+    "ayah": "18:77",
+    "type": "FN_PLACEMENT",
+    "target": "พบชาวเมืองหนึ่งทั้งสองได้ขออาหารจากชาวเมืองนั้น[FN:1]",
+    "replacement": "พบชาวเมืองหนึ่ง[FN:1] ทั้งสองได้ขออาหารจากชาวเมืองนั้น",
+    "reason": "ย้ายตำแหน่งเชิงอรรถไปไว้หลังคำว่า ชาวเมืองหนึ่ง ตามคำอธิบายในเชิงอรรถและต้นฉบับสแกน 1990 หน้า 709 และเคาะวรรค 1 เคาะหน้าประโยคถัดไป",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:23:59.934866+00:00"
+  },
+  {
+    "ayah": "18:86",
+    "type": "TYPO",
+    "target": "เจ้าจงลงโทษพวกเขา[FN:2]หรือทำความดี",
+    "replacement": "เจ้าจะลงโทษพวกเขา[FN:2] หรือทำความดี",
+    "reason": "แก้ไข จงลงโทษ เป็น จะลงโทษ และเว้นวรรค 1 เคาะหน้าคำเชื่อม หรือ ตามต้นฉบับสแกน King Fahd 1990 หน้า 712",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:23:59.935099+00:00"
+  },
+  {
+    "ayah": "18:87",
+    "type": "SPACING",
+    "target": "ส่วนผู้ที่อธรรมนั้น เราจะลงโทษเขา",
+    "replacement": "ส่วนผู้ที่อธรรมนั้นเราจะลงโทษเขา",
+    "reason": "ลบการเคาะวรรคเกินให้คำเชื่อมต่อกันตามต้นฉบับสแกน King Fahd 1990 หน้า 712",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:23:59.935114+00:00"
+  },
+  {
+    "ayah": "18:91",
+    "type": "SPACING",
+    "target": "เราหยั่งรู้ข่าวคราว",
+    "replacement": "เราหยั่งรู้ ข่าวคราว",
+    "reason": "เว้นวรรค 1 เคาะคั่นระหว่างกริยากับกรรมตามต้นฉบับสแกน King Fahd 1990 หน้า 712",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:23:59.935128+00:00"
+  },
+  {
+    "ayah": "18:95",
+    "type": "SPACING",
+    "target": "ดังนั้น พวกท่านจงช่วยฉัน",
+    "replacement": "ดังนั้นพวกท่านจงช่วยฉัน",
+    "reason": "ปรับลดการเคาะวรรคเกินหลังคำว่า ดังนั้น ตามต้นฉบับสแกน King Fahd 1990 หน้า 713",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:23:59.935141+00:00"
+  },
+  {
+    "ayah": "18:104",
+    "type": "SPACING",
+    "target": "สูญสิ้นไปในการมีชีวิต",
+    "replacement": "สูญสิ้นไป ในการมีชีวิต",
+    "reason": "เว้นวรรค 1 เคาะหน้ารอยต่อบุพบทบอกสภาพการณ์ตามต้นฉบับสแกน King Fahd 1990 หน้า 715",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:23:59.935154+00:00"
+  },
+  {
+    "ayah": "18:105",
+    "type": "SPACING",
+    "target": "ดังนั้น การงานของพวกเขาจึงไร้ผล",
+    "replacement": "ดังนั้นการงานของพวกเขาจึงไร้ผล",
+    "reason": "ปรับลดการเคาะวรรคเกินหลังคำว่า ดังนั้น ตามต้นฉบับสแกน King Fahd 1990 หน้า 715",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:23:59.935167+00:00"
+  },
+  {
+    "ayah": "18:107",
+    "type": "SPACING",
+    "target": "แท้จริงบรรดาผู้ศรัทธา",
+    "replacement": "แท้จริง บรรดาผู้ศรัทธา",
+    "reason": "เว้นวรรค 1 เคาะหลังคำว่า แท้จริง ตามต้นฉบับสแกน King Fahd 1990 หน้า 715",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:23:59.935180+00:00"
+  },
+  {
+    "ayah": "18:110",
+    "type": "SPACING",
+    "target": "แท้จริงฉันเป็นเพียง",
+    "replacement": "แท้จริง ฉันเป็นเพียง",
+    "reason": "เว้นวรรค 1 เคาะหลังคำว่า แท้จริง ตามต้นฉบับสแกน King Fahd 1990 หน้า 716",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:23:59.935193+00:00"
+  },
+  {
+    "ayah": "18:110",
+    "type": "SPACING",
+    "target": "แท้จริงพระเจ้าของ",
+    "replacement": "แท้จริง พระเจ้าของ",
+    "reason": "เว้นวรรค 1 เคาะหลังคำว่า แท้จริง ตามต้นฉบับสแกน King Fahd 1990 หน้า 716",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:23:59.935206+00:00"
+  },
+  {
+    "ayah": "18:110",
+    "type": "SPACING",
+    "target": "ดังนั้นผู้ใดหวัง",
+    "replacement": "ดังนั้น ผู้ใดหวัง",
+    "reason": "เว้นวรรค 1 เคาะหลังคำว่า ดังนั้น ตามต้นฉบับสแกน King Fahd 1990 หน้า 716",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:23:59.935218+00:00"
+  },
+  {
     "ayah": "19:6",
     "type": "OCR_TYPO",
     "target": "ยะอ์กูบ",
