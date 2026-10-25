@@ -9292,6 +9292,60 @@
     "timestamp": "2026-10-25T15:08:32.065657+00:00"
   },
   {
+    "ayah": "23:20",
+    "type": "SPACING",
+    "target": "ที่ภูเขาซีนาย[FN:1]ซึ่งมันได้ผลิตออกมา",
+    "replacement": "ที่ภูเขาซีนาย[FN:1] ซึ่งมันได้ผลิตออกมา",
+    "reason": "เว้นวรรค 1 เคาะหลังเครื่องหมายเชิงอรรถหน้าคำเชื่อม 'ซึ่ง' ที่ขึ้นอนุประโยคใหม่ตามเกณฑ์ข้อ 2.4",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T15:27:25.261193+00:00"
+  },
+  {
+    "ayah": "23:23",
+    "type": "TYPO",
+    "target": "นูหฺไปยัง",
+    "replacement": "นูฮฺไปยัง",
+    "reason": "ปรับสะกดชื่อนบีเป็น นูฮฺ ตามเกณฑ์มาตรฐานศัพท์ทับศัพท์ที่มีพินทุ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T15:27:25.261436+00:00"
+  },
+  {
+    "ayah": "23:26",
+    "type": "TYPO",
+    "target": "นูหฺได้กล่าวว่า",
+    "replacement": "นูฮฺได้กล่าวว่า",
+    "reason": "ปรับสะกดชื่อนบีเป็น นูฮฺ ตามเกณฑ์มาตรฐานศัพท์ทับศัพท์ที่มีพินทุ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T15:27:25.261452+00:00"
+  },
+  {
+    "ayah": "23:27",
+    "type": "FN_PLACEMENT",
+    "target": "ในหมู่พวกเขา ([FN:4]ที่ไม่ยอมศรัทธา)",
+    "replacement": "ในหมู่พวกเขา[FN:4] (ที่ไม่ยอมศรัทธา)",
+    "reason": "แก้ไขตำแหน่งเชิงอรรถ [FN:4] ให้อยู่ติดท้ายคำว่า ในหมู่พวกเขา หน้าวงเล็บตามต้นฉบับพิมพ์",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T15:27:25.261468+00:00"
+  },
+  {
+    "ayah": "23:50",
+    "type": "TYPO",
+    "target": "บุตรของมัรยัม",
+    "replacement": "บุตรของมัรฺยัม",
+    "reason": "ปรับสะกด มัรฺยัม ให้มีเครื่องหมายพินทุ (ฺ) ตามเกณฑ์มาตรฐานศัพท์ทับศัพท์",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T15:27:25.261482+00:00"
+  },
+  {
+    "ayah": "23:58",
+    "type": "FN_PLACEMENT",
+    "target": "สัญญาณต่าง[FN:1] ๆ แห่งพระเจ้าของพวกเขา",
+    "replacement": "สัญญาณต่าง ๆ[FN:1] แห่งพระเจ้าของพวกเขา",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถ [FN:1] ไปไว้ท้ายคำหลังไม้ยมก (สัญญาณต่าง ๆ) ตามต้นฉบับพิมพ์",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T15:27:25.261497+00:00"
+  },
+  {
     "ayah": "28:29",
     "type": "CLERICAL_OMISSION",
     "target": "เขาจึงพูดกับครอบครัวของเขาว่า จงอยู่ที่นี่ก่อน แท้จริงฉันเห็นไฟ",
