@@ -9401,5 +9401,15 @@
     "match_in_ann": true,
     "match_in_fn_idx": null,
     "timestamp": "2026-10-25T16:06:39.537448+00:00"
+  },
+  {
+    "ayah": "25:12",
+    "type": "FN_PLACEMENT",
+    "target": "จากที่ไกล[FN:1] ๆ",
+    "replacement": "จากที่ไกล ๆ[FN:1]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถ [FN:1] ไปไว้หลังไม้ยมก (ไกล ๆ) ตามฉบับพิมพ์ดั้งเดิม King Fahd 1990 หน้า 873 และหลักเกณฑ์การวางเครื่องหมายวรรคตอน",
+    "match_in_ann": true,
+    "match_in_fn_idx": null,
+    "timestamp": "2026-10-25T16:17:54.898226+00:00"
   }
 ]
