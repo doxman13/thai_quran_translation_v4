@@ -9346,6 +9346,69 @@
     "timestamp": "2026-10-25T15:27:25.261497+00:00"
   },
   {
+    "ayah": "23:73",
+    "type": "TYPO",
+    "target": "เป็นพวกชักชวนพวกเขา",
+    "replacement": "เป็นผู้ชักชวนพวกเขา",
+    "reason": "แก้ไขคำผิดตามฉบับพิมพ์ดั้งเดิม King Fahd 1990 หน้า 834 จาก 'เป็นพวกชักชวน' เป็น 'เป็นผู้ชักชวน'",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T15:41:24.705760+00:00"
+  },
+  {
+    "ayah": "23:75",
+    "type": "OMISSION",
+    "target": "และหากเราเมตตาพวกเขา",
+    "replacement": "และหากเราเมตตาต่อพวกเขา",
+    "reason": "คืนคำว่า 'ต่อ' ใน 'เมตตาต่อพวกเขา' ตามฉบับพิมพ์ดั้งเดิม King Fahd 1990 หน้า 834",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T15:41:24.705979+00:00"
+  },
+  {
+    "ayah": "23:79",
+    "type": "OMISSION",
+    "target": "ผู้ทรงแพร่พันธุ์ของพวกเจ้า",
+    "replacement": "ผู้ทรงแพร่เผ่าพันธุ์ของพวกเจ้า",
+    "reason": "คืนคำว่า 'เผ่า' ใน 'แพร่เผ่าพันธุ์' ตามฉบับพิมพ์ดั้งเดิม King Fahd 1990 หน้า 835",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T15:41:24.705996+00:00"
+  },
+  {
+    "ayah": "23:80",
+    "type": "OMISSION",
+    "target": "กลางคืนกลางวัน[FN:1]",
+    "replacement": "กลางคืนและกลางวัน[FN:1]",
+    "reason": "คืนคำว่า 'และ' ใน 'กลางคืนและกลางวัน' ตามฉบับพิมพ์ดั้งเดิม King Fahd 1990 หน้า 835",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T15:41:24.706011+00:00"
+  },
+  {
+    "ayah": "23:88",
+    "type": "OMISSION",
+    "target": "อำนาจอันกว้างใหญ่ไพศาลทุกสิ่งอย่างนี้",
+    "replacement": "อำนาจอันกว้างใหญ่ไพศาลของทุกสิ่งทุกอย่างนี้",
+    "reason": "คืนคำว่า 'ของ' และ 'ทุก' ใน 'ของทุกสิ่งทุกอย่างนี้' ตามฉบับพิมพ์ดั้งเดิม King Fahd 1990 หน้า 836",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T15:41:24.706026+00:00"
+  },
+  {
+    "ayah": "23:88",
+    "type": "FN_PLACEMENT",
+    "target": "และจะไม่มีใครปกป้องคุ้มครองพระองค์ หากพวกท่านรู้[FN:2]",
+    "replacement": "และจะไม่มีใครปกป้องคุ้มครองพระองค์[FN:2] หากพวกท่านรู้",
+    "reason": "ย้ายตำแหน่งเชิงอรรถ [FN:2] มาไว้หลัง 'พระองค์' หน้า 'หากพวกท่านรู้' ตามฉบับพิมพ์จริง King Fahd 1990 หน้า 836",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T15:41:24.706041+00:00"
+  },
+  {
+    "ayah": "23:103",
+    "type": "OMISSION",
+    "target": "และผู้ใดตราชูของเบา[FN:1]",
+    "replacement": "และผู้ใดตราชูของเขาเบา[FN:1]",
+    "reason": "คืนคำว่า 'เขา' ใน 'ตราชูของเขาเบา' ตามฉบับพิมพ์ดั้งเดิม King Fahd 1990 หน้า 840",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T15:41:24.706055+00:00"
+  },
+  {
     "ayah": "28:29",
     "type": "CLERICAL_OMISSION",
     "target": "เขาจึงพูดกับครอบครัวของเขาว่า จงอยู่ที่นี่ก่อน แท้จริงฉันเห็นไฟ",
