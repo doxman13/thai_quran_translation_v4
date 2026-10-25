@@ -274,7 +274,8 @@ def main():
         ann_text = rec.get("translation_annotated") or rec.get("translation_v3", "")
         plain_text = rec.get("translation_v3", "")
 
-        # Check whether target matches in annotated (as displayed to auditor with [FN:X]) or plain
+        # Check whether target matches in annotated (as displayed to auditor with [FN:X]), plain, or footnotes
+        match_in_fn_idx = None
         if target in ann_text:
             cur_text = ann_text
             match_in_ann = True
@@ -282,11 +283,28 @@ def main():
             cur_text = plain_text
             match_in_ann = False
         else:
-            if replacement in ann_text or replacement in plain_text:
-                print(f"[ALREADY APPLIED] {ak} [{fix_type}]: '{replacement}' is already present in this verse.")
+            # Check footnotes
+            found_fn = False
+            for fn_i, fn_item in enumerate(rec.get("footnotes", [])):
+                if target in fn_item.get("text", ""):
+                    cur_text = fn_item["text"]
+                    match_in_ann = False
+                    match_in_fn_idx = fn_i
+                    found_fn = True
+                    break
+            if not found_fn:
+                for fn_item in rec.get("footnotes", []):
+                    if replacement in fn_item.get("text", ""):
+                        print(f"[ALREADY APPLIED] {ak} [{fix_type}]: '{replacement}' is already present in footnote.")
+                        found_fn = True
+                        break
+                if found_fn:
+                    continue
+                if replacement in ann_text or replacement in plain_text:
+                    print(f"[ALREADY APPLIED] {ak} [{fix_type}]: '{replacement}' is already present in this verse.")
+                    continue
+                errors.append(f"Fix #{idx} ({ak}): Target substring '{target}' not found in current verse text or footnotes:\n    Actual text: '{ann_text}'")
                 continue
-            errors.append(f"Fix #{idx} ({ak}): Target substring '{target}' not found in current verse text:\n    Actual: '{ann_text}'")
-            continue
 
         # Check Uniqueness
         target_occurrences = cur_text.count(target)
@@ -319,6 +337,7 @@ def main():
             "replacement": replacement,
             "reason": reason,
             "match_in_ann": match_in_ann,
+            "match_in_fn_idx": match_in_fn_idx,
             "timestamp": datetime.now(timezone.utc).isoformat(),
         })
         affected_juzs.add(find_juz(ak))
@@ -346,7 +365,10 @@ def main():
     for vf in validated_fixes:
         ak = vf["ayah"]
         rec = v3_map[ak]
-        if vf.get("match_in_ann", True):
+        if vf.get("match_in_fn_idx") is not None:
+            fn_i = vf["match_in_fn_idx"]
+            rec["footnotes"][fn_i]["text"] = rec["footnotes"][fn_i]["text"].replace(vf["target"], vf["replacement"], 1)
+        elif vf.get("match_in_ann", True):
             rec["translation_annotated"] = rec["translation_annotated"].replace(vf["target"], vf["replacement"], 1)
             # Synchronize translation_v3 by stripping footnote markers
             rec["translation_v3"] = re.sub(r"\[FN:\d+\]", "", rec["translation_annotated"])
