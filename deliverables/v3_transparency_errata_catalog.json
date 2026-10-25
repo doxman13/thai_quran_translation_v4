@@ -8266,6 +8266,393 @@
     "timestamp": "2026-10-25T10:53:13.823792+00:00"
   },
   {
+    "ayah": "20:4",
+    "type": "OMISSION",
+    "target": "เป็นการประทานลงจากพระผู้สร้าง",
+    "replacement": "เป็นการประทานลงมาจากพระผู้สร้าง",
+    "reason": "เติมคำว่า 'มา' ที่ตกหล่นให้ครบตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536380+00:00"
+  },
+  {
+    "ayah": "20:7",
+    "type": "THEOLOGICAL",
+    "target": "แท้จริงอัลลอฮฺทรงรอบรู้",
+    "replacement": "แท้จริงพระองค์ทรงรอบรู้",
+    "reason": "แก้ไขสรรพนามให้ตรงตามต้นฉบับ 1990 (พระองค์)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536634+00:00"
+  },
+  {
+    "ayah": "20:11",
+    "type": "SPACING",
+    "target": "โอ้มูซาเอ๋ย",
+    "replacement": "โอ้ มูซาเอ๋ย",
+    "reason": "เว้นวรรคหลังคำเรียกร้อง (โอ้) เพื่อความสละสลวย",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536651+00:00"
+  },
+  {
+    "ayah": "20:13",
+    "type": "OMISSION",
+    "target": "สิ่งที่ถูกวะฮียฺ",
+    "replacement": "สิ่งที่จะถูกวะฮียฺ",
+    "reason": "เติมคำว่า 'จะ' ที่ตกหล่นไปตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536665+00:00"
+  },
+  {
+    "ayah": "20:14",
+    "type": "OMISSION",
+    "target": "ไม่มีพระเจ้าอื่นใดนอกจากข้า ดังนั้นเจ้าจงเคารพภักดีต่อข้า และจงดำรงไว้",
+    "replacement": "ไม่มีพระเจ้าอื่นใดที่เที่ยงแท้นอกจากข้า ดังนั้นเจ้าจงเคารพภักดีต่อข้าและจงดำรงไว้",
+    "reason": "เติมคำว่า 'ที่เที่ยงแท้' ที่ตกหล่น และลบการเคาะวรรคหน้าคำเชื่อม (และ) ตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536680+00:00"
+  },
+  {
+    "ayah": "20:16",
+    "type": "SPACING",
+    "target": "ต่อมัน จะต้องไม่ทำให้",
+    "replacement": "ต่อมันจะต้องไม่ทำให้",
+    "reason": "ลบการเคาะวรรคที่ตัดกลางประโยคให้ต่อเนื่องกัน",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536693+00:00"
+  },
+  {
+    "ayah": "20:22",
+    "type": "FN_PLACEMENT",
+    "target": "อันตรายใด[FN:1] ๆ",
+    "replacement": "อันตรายใด ๆ[FN:1]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้หลังไม้ยมกให้ถูกต้องตามหลักไวยากรณ์ไทย",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536708+00:00"
+  },
+  {
+    "ayah": "20:22",
+    "type": "SPACING",
+    "target": "เอามันออกมา มันจะ",
+    "replacement": "เอามันออกมามันจะ",
+    "reason": "ลบการเคาะวรรคเพื่อความต่อเนื่องของประโยค",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536722+00:00"
+  },
+  {
+    "ayah": "20:25",
+    "type": "SPACING",
+    "target": "ข้าพระองค์ ให้แก่ข้าพระองค์",
+    "replacement": "ข้าพระองค์ให้แก่ข้าพระองค์",
+    "reason": "ลบการเคาะวรรคที่คั่นกริยาและกรรม",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536736+00:00"
+  },
+  {
+    "ayah": "20:27",
+    "type": "SPACING",
+    "target": "แก้ปม จากลิ้น",
+    "replacement": "แก้ปมจากลิ้น",
+    "reason": "ลบการเคาะวรรคเพื่อให้กลุ่มคำเชื่อมกันตามหน้าสแกน",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536749+00:00"
+  },
+  {
+    "ayah": "20:29",
+    "type": "TYPO",
+    "target": "ผู้ช่วยเหลือข้าพระองค์ด้วย",
+    "replacement": "ผู้ช่วยแก่ข้าพระองค์ด้วย",
+    "reason": "แก้ไขคำให้ตรงกับหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536763+00:00"
+  },
+  {
+    "ayah": "20:31",
+    "type": "TYPO",
+    "target": "ด้วยเถิด[FN:1]",
+    "replacement": "ด้วย[FN:1]",
+    "reason": "ลบคำว่า 'เถิด' ออกให้ตรงกับหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536776+00:00"
+  },
+  {
+    "ayah": "20:33",
+    "type": "TYPO",
+    "target": "ถวายการแซ่ซ้องสดุดีต่อพระองค์อย่างมากมาย[FN:1]",
+    "replacement": "ถวายการแซ่ซ้องสดุดีต่อพระองค์ท่านอย่างมากมาย[FN:1]",
+    "reason": "เติมคำว่า 'ท่าน' เข้าไปให้ครบถ้วนตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536790+00:00"
+  },
+  {
+    "ayah": "20:34",
+    "type": "OMISSION",
+    "target": "ถึงพระองค์อย่างมากมาย",
+    "replacement": "ถึงพระองค์ท่านอย่างมากมาย",
+    "reason": "เติมคำว่า 'ท่าน' เข้าไปให้ครบถ้วนตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536804+00:00"
+  },
+  {
+    "ayah": "20:35",
+    "type": "OMISSION",
+    "target": "พระองค์เป็นผู้ทรงเห็นเรา",
+    "replacement": "พระองค์ท่านเป็นผู้ทรงเห็นเรา",
+    "reason": "เติมคำว่า 'ท่าน' เข้าไปให้ครบถ้วนตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536817+00:00"
+  },
+  {
+    "ayah": "20:38",
+    "type": "SPACING",
+    "target": "ของเจ้า ถึงสิ่ง",
+    "replacement": "ของเจ้าถึงสิ่ง",
+    "reason": "ลบการเคาะวรรคที่ตัดกลางประโยค",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536831+00:00"
+  },
+  {
+    "ayah": "20:39",
+    "type": "OMISSION",
+    "target": "เขาก็เก็บเอาเขาไป",
+    "replacement": "เขาก็จะเก็บเอาเขาไป",
+    "reason": "เติมคำว่า 'จะ' ที่ตกหล่นให้ครบตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536847+00:00"
+  },
+  {
+    "ayah": "20:39",
+    "type": "TYPO",
+    "target": "ภายใต้การดูแลของข้า",
+    "replacement": "ภายใต้สายตาของข้า",
+    "reason": "แก้ไขสำนวนให้ตรงตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536864+00:00"
+  },
+  {
+    "ayah": "20:40",
+    "type": "OMISSION",
+    "target": "ผู้ที่เลี้ยงดูเขา",
+    "replacement": "ผู้ที่จะเลี้ยงดูเขา",
+    "reason": "เติมคำว่า 'จะ' ที่ตกหล่นให้ตรงกับหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536884+00:00"
+  },
+  {
+    "ayah": "20:41",
+    "type": "TYPO",
+    "target": "และเราได้เลือกเจ้า (เป็นศาสนทูต) สำหรับตัวข้า",
+    "replacement": "และข้าได้คัดเลือกเจ้าไว้ (เป็นศาสนทูต) สำหรับตัวข้า",
+    "reason": "ปรับแก้สำนวนสรรพนามให้ตรงตามต้นฉบับ 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536901+00:00"
+  },
+  {
+    "ayah": "20:44",
+    "type": "TYPO",
+    "target": "บางทีเขาอาจจะ",
+    "replacement": "เพื่อว่าเขาอาจจะ",
+    "reason": "แก้ไขคำให้ตรงกับหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536914+00:00"
+  },
+  {
+    "ayah": "20:44",
+    "type": "SPACING",
+    "target": "มา[FN:1]หรือเกิด",
+    "replacement": "มา[FN:1] หรือเกิด",
+    "reason": "เว้นวรรคหน้าคำเชื่อม (หรือ) เพื่อให้อ่านได้จังหวะที่ถูกต้อง",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536928+00:00"
+  },
+  {
+    "ayah": "20:45",
+    "type": "SPACING",
+    "target": "กลัวว่า[FN:1]เขาจะล่วงเกินเรา",
+    "replacement": "กลัวว่า[FN:1] เขาจะล่วงเกินเรา",
+    "reason": "เว้นวรรคหลังคำว่า ว่า/หลังเชิงอรรถ ตามจังหวะประโยค",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536944+00:00"
+  },
+  {
+    "ayah": "20:46",
+    "type": "TYPO",
+    "target": "เจ้าทั้งสองจงอย่ากลัว",
+    "replacement": "เจ้าทั้งสองอย่ากลัว",
+    "reason": "ตัดคำว่า 'จง' ออกให้ตรงกับหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536962+00:00"
+  },
+  {
+    "ayah": "20:47",
+    "type": "OMISSION",
+    "target": "ปล่อยวงศ์วานอิสรออีล",
+    "replacement": "ปล่อยวงศ์วานของอิสรออีล",
+    "reason": "เติมคำว่า 'ของ' ที่ตกหล่นไปตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536977+00:00"
+  },
+  {
+    "ayah": "20:47",
+    "type": "SPACING",
+    "target": "มากับเราเถิด และอย่า",
+    "replacement": "มากับเราเถิดและอย่า",
+    "reason": "ลบการเคาะวรรคหน้าคำเชื่อมให้ตรงกับหน้าสแกน",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.536991+00:00"
+  },
+  {
+    "ayah": "20:47",
+    "type": "SPACING",
+    "target": "สัญญาณ[FN:3]จากพระเจ้า",
+    "replacement": "สัญญาณ[FN:3] จากพระเจ้า",
+    "reason": "เว้นวรรคหน้าบุพบท 'จาก' ตามความเหมาะสมของการอ่าน",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537005+00:00"
+  },
+  {
+    "ayah": "20:49",
+    "type": "SPACING",
+    "target": "ดังนั้นใครเล่า",
+    "replacement": "ดังนั้น ใครเล่า",
+    "reason": "เว้นวรรคหลังคำเชื่อม ดังนั้น",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537021+00:00"
+  },
+  {
+    "ayah": "20:50",
+    "type": "SPACING",
+    "target": "คือผู้ทรงประทาน",
+    "replacement": "คือ ผู้ทรงประทาน",
+    "reason": "เว้นวรรคหลังคำว่า คือ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537039+00:00"
+  },
+  {
+    "ayah": "20:52",
+    "type": "SPACING",
+    "target": "เรื่องนั้น[FN:1]อยู่ที่",
+    "replacement": "เรื่องนั้น[FN:1] อยู่ที่",
+    "reason": "เว้นวรรคหลังเชิงอรรถเมื่อขึ้นกลุ่มคำใหม่",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537057+00:00"
+  },
+  {
+    "ayah": "20:53",
+    "type": "SPACING",
+    "target": "ฟากฟ้า และเราได้ให้",
+    "replacement": "ฟากฟ้าและเราได้ให้",
+    "reason": "ลบการเคาะวรรคหน้าคำเชื่อมตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537070+00:00"
+  },
+  {
+    "ayah": "20:54",
+    "type": "TYPO",
+    "target": "แน่นอนย่อมเป็นสัญญาณมากมาย",
+    "replacement": "แน่นอน ย่อมเป็นสัญญาณมากหลาย",
+    "reason": "แก้ไข 'มากมาย' เป็น 'มากหลาย' และเว้นวรรคให้ตรงกับสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537084+00:00"
+  },
+  {
+    "ayah": "20:58",
+    "type": "SPACING",
+    "target": "ดังนั้นเราก็จะนำมาซึ่งเล่ห์กลนั้นแก่เจ้าเช่นเดียวกัน[FN:1] ฉะนั้นเจ้าจง",
+    "replacement": "ดังนั้น เราก็จะนำมาซึ่งเล่ห์กลนั้นแก่เจ้าเช่นเดียวกัน[FN:1] ฉะนั้น เจ้าจง",
+    "reason": "เว้นวรรคหลังคำเชื่อม (ดังนั้น, ฉะนั้น)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537098+00:00"
+  },
+  {
+    "ayah": "20:61",
+    "type": "OMISSION",
+    "target": "แก่พวกเขา ความหายนะ",
+    "replacement": "แก่พวกเขาว่า ความหายนะ",
+    "reason": "เติมคำเชื่อม 'ว่า' ที่ตกหล่นไปให้ครบถ้วน",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537112+00:00"
+  },
+  {
+    "ayah": "20:61",
+    "type": "SPACING",
+    "target": "มิฉะนั้นพระองค์",
+    "replacement": "มิฉะนั้น พระองค์",
+    "reason": "เว้นวรรคหลังคำเชื่อม มิฉะนั้น",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537124+00:00"
+  },
+  {
+    "ayah": "20:63",
+    "type": "SPACING",
+    "target": "อื่นใด นอกจาก",
+    "replacement": "อื่นใดนอกจาก",
+    "reason": "ลบการเคาะวรรคที่ไม่จำเป็นให้ประโยคมีความต่อเนื่อง",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537137+00:00"
+  },
+  {
+    "ayah": "20:65",
+    "type": "TYPO",
+    "target": "ท่านจะเป็นผู้โยนก่อน หรือว่าพวกเรา",
+    "replacement": "ท่านจะเป็นผู้โยนหรือว่าพวกเรา",
+    "reason": "ลบคำว่า 'ก่อน' ออก และลบการเคาะวรรค เพื่อให้ตรงกับหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537150+00:00"
+  },
+  {
+    "ayah": "20:66",
+    "type": "TYPO",
+    "target": "พวกท่านจงโยนก่อนเถิด",
+    "replacement": "หามิได้ พวกท่านจงโยนก่อนซิ",
+    "reason": "แก้ไขสำนวนทั้งหมดให้ตรงตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537162+00:00"
+  },
+  {
+    "ayah": "20:68",
+    "type": "SPACING",
+    "target": "แท้จริงเจ้าอยู่",
+    "replacement": "แท้จริง เจ้าอยู่",
+    "reason": "เว้นวรรคหลังคำว่า แท้จริง",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537174+00:00"
+  },
+  {
+    "ayah": "20:71",
+    "type": "TYPO",
+    "target": "ก่อนที่ฉันจะขออนุญาตให้แก่พวกท่านกระนั้นหรือ",
+    "replacement": "ก่อนที่ฉันจะอนุญาตให้แก่พวกท่านกระนั้นหรือ",
+    "reason": "ตัดคำว่า 'ขอ' ออก ให้ตรงกับสำนวนหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537186+00:00"
+  },
+  {
+    "ayah": "20:73",
+    "type": "SPACING",
+    "target": "แท้จริงเราได้ศรัทธา",
+    "replacement": "แท้จริง เราได้ศรัทธา",
+    "reason": "เว้นวรรคหลังคำว่า แท้จริง ตามต้นฉบับ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537199+00:00"
+  },
+  {
+    "ayah": "20:74",
+    "type": "SPACING",
+    "target": "แน่นอนเขาจะได้รับนรก",
+    "replacement": "แน่นอน เขาจะได้รับนรก",
+    "reason": "เว้นวรรคหลังคำว่า แน่นอน เพื่อความสละสลวย",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537211+00:00"
+  },
+  {
+    "ayah": "20:76",
+    "type": "OMISSION",
+    "target": "อันสถาพร[FN:1] เบื้องล่างของมัน",
+    "replacement": "อันสถาพร[FN:1] ณ เบื้องล่างของมัน",
+    "reason": "เติมคำว่า 'ณ' ที่ตกหล่นให้ครบถ้วนตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T11:11:36.537223+00:00"
+  },
+  {
     "ayah": "28:29",
     "type": "CLERICAL_OMISSION",
     "target": "เขาจึงพูดกับครอบครัวของเขาว่า จงอยู่ที่นี่ก่อน แท้จริงฉันเห็นไฟ",
