@@ -41,7 +41,7 @@ chunk_id	juz	chunk_in_juz	range	verses	filename	status	fix_count	fixes_summary	u
 40	13	3	14:1-14:52	52	juz_13_part3_14_1_to_14_52.txt	DONE	9		2026-10-25T07:09:31.979106+00:00
 41	14	1	15:1-15:99	99	juz_14_part1_15_1_to_15_99.txt	DONE	6		2026-10-25T07:22:12.837352+00:00
 42	14	2	16:1-16:64	64	juz_14_part2_16_1_to_16_64.txt	DONE	5		2026-10-25T07:34:28.309116+00:00
-43	14	3	16:65-16:128	64	juz_14_part3_16_65_to_16_128.txt	PENDING	0		
+43	14	3	16:65-16:128	64	juz_14_part3_16_65_to_16_128.txt	DONE	1		
 44	15	1	17:1-17:55	55	juz_15_part1_17_1_to_17_55.txt	PENDING	0		
 45	15	2	17:56-17:111	56	juz_15_part2_17_56_to_17_111.txt	PENDING	0		
 46	15	3	18:1-18:74	74	juz_15_part3_18_1_to_18_74.txt	PENDING	0		
