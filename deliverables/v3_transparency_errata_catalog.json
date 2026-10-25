@@ -7979,12 +7979,291 @@
     "timestamp": "2026-10-25T10:23:59.935218+00:00"
   },
   {
+    "ayah": "19:4",
+    "type": "SPACING",
+    "target": "ไร้ผล[FN:2] โอ้ ข้าแต่พระเจ้าของข้าพระองค์",
+    "replacement": "ไร้ผล[FN:2] โอ้ข้าแต่พระเจ้าของข้าพระองค์",
+    "reason": "ลบการเคาะวรรคหลังคำว่า โอ้ เพื่อให้ชิดกับคำว่า ข้าแต่ ตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823159+00:00"
+  },
+  {
+    "ayah": "19:6",
+    "type": "SPACING",
+    "target": "แทนข้าพระองค์ และสืบทายาทจากตระกูล",
+    "replacement": "แทนข้าพระองค์และสืบทายาทจากตระกูล",
+    "reason": "ลบการเคาะวรรคหน้าคำเชื่อม (และ) เพื่อให้ประโยคต่อเนื่องตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823413+00:00"
+  },
+  {
     "ayah": "19:6",
     "type": "OCR_TYPO",
     "target": "ยะอ์กูบ",
     "replacement": "ยะอฺกูบ",
     "reason": "Standardize transliteration of Ayn.",
     "source": "Layer 0 Pre-Patcher (Baseline Scan)"
+  },
+  {
+    "ayah": "19:12",
+    "type": "OMISSION",
+    "target": "ให้แก่เขา ตั้งแต่เขายังเป็นเด็กอยู่",
+    "replacement": "ให้เขา ตั้งแต่ยังเป็นเด็กอยู่",
+    "reason": "ลบคำที่เพิ่มเข้ามาเกินความจำเป็น (แก่, เขา) เพื่อให้กระชับและตรงตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823428+00:00"
+  },
+  {
+    "ayah": "19:17",
+    "type": "OMISSION",
+    "target": "แก่นางให้เป็นชายอย่างสมบูรณ์[FN:1]",
+    "replacement": "แก่นางให้เห็นเป็นชายอย่างสมบูรณ์[FN:1]",
+    "reason": "เติมคำว่า 'เห็น' ที่ตกหล่นไป เพื่อให้ตรงกับหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823443+00:00"
+  },
+  {
+    "ayah": "19:18",
+    "type": "SPACING",
+    "target": "แท้จริงฉันขอความคุ้มครอง",
+    "replacement": "แท้จริง ฉันขอความคุ้มครอง",
+    "reason": "เว้นวรรคหลังคำว่า แท้จริง เพื่อแยกส่วนประธานตามหลักไวยากรณ์และหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823456+00:00"
+  },
+  {
+    "ayah": "19:24",
+    "type": "SPACING",
+    "target": "ดังนั้นเขา (มะลัก)",
+    "replacement": "ดังนั้น เขา (มะลัก)",
+    "reason": "เว้นวรรคหลังคำเชื่อมประโยค (ดังนั้น)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823469+00:00"
+  },
+  {
+    "ayah": "19:28",
+    "type": "OMISSION",
+    "target": "หญิงที่ไม่บริสุทธิ์[FN:1]",
+    "replacement": "หญิงไม่บริสุทธิ์[FN:1]",
+    "reason": "ตัดคำว่า 'ที่' ออก เพื่อให้ตรงตามสำนวนในหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823482+00:00"
+  },
+  {
+    "ayah": "19:31",
+    "type": "SPACING",
+    "target": "ซะกาต ตราบที่ฉัน",
+    "replacement": "ซะกาตตราบที่ฉัน",
+    "reason": "ลบการเคาะวรรคเพื่อให้ประโยคเชื่อมกันต่อเนื่องตามหน้าสแกน",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823494+00:00"
+  },
+  {
+    "ayah": "19:36",
+    "type": "SPACING",
+    "target": "ของฉันและพระเจ้าของพวกท่าน",
+    "replacement": "ของฉัน และพระเจ้าของพวกท่าน",
+    "reason": "เว้นวรรคหน้านิบาตเชื่อม (และ) เพื่อความสละสลวยตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823507+00:00"
+  },
+  {
+    "ayah": "19:38",
+    "type": "OMISSION",
+    "target": "อย่างชัดแจ้งและเห็นอย่างชัดอะไรอย่างนั้น",
+    "replacement": "อย่างชัดและเห็นอย่างชัดอะไรอย่างนั้น",
+    "reason": "ตัดคำว่า 'แจ้ง' ออก เพื่อให้ตรงกับสำนวนของหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823520+00:00"
+  },
+  {
+    "ayah": "19:39",
+    "type": "SPACING",
+    "target": "แห่งความเสียใจ[FN:1]เมื่อกิจการนั้นถูกตัดสิน และพวกเขาอยู่ในหลงลืม",
+    "replacement": "แห่งความเสียใจ[FN:1] เมื่อกิจการนั้นถูกตัดสิน และพวกเขาอยู่ในการหลงลืม",
+    "reason": "เว้นวรรคหน้าคำว่า 'เมื่อ' และเติมคำว่า 'การ' ที่ตกหล่นไปใน 'การหลงลืม' ตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823534+00:00"
+  },
+  {
+    "ayah": "19:40",
+    "type": "SPACING",
+    "target": "แท้จริงเราเป็นผู้ครอบครองมรดกแผ่นดินและที่อยู่บนแผ่นดิน",
+    "replacement": "แท้จริง เราเป็นผู้ครอบครองมรดกแผ่นดิน และที่อยู่บนแผ่นดิน",
+    "reason": "เว้นวรรคหลังคำว่า แท้จริง และเว้นวรรคหน้าคำเชื่อม (และ) ตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823546+00:00"
+  },
+  {
+    "ayah": "19:45",
+    "type": "SPACING",
+    "target": "แท้จริงฉันกลัวว่า",
+    "replacement": "แท้จริง ฉันกลัวว่า",
+    "reason": "เว้นวรรคหลังคำว่า แท้จริง เพื่อแยกส่วนประธานตามหน้าสแกน",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823559+00:00"
+  },
+  {
+    "ayah": "19:49",
+    "type": "SPACING",
+    "target": "จากพวกเขาและสิ่งที่พวกเขาเคารพบูชา",
+    "replacement": "จากพวกเขา และสิ่งที่พวกเขาเคารพบูชา",
+    "reason": "เว้นวรรคหน้านิบาตเชื่อม (และ) ตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823572+00:00"
+  },
+  {
+    "ayah": "19:49",
+    "type": "SPACING",
+    "target": "ให้แก่เขาอิสฮากและยะอฺกูบ",
+    "replacement": "ให้แก่เขา อิสฮาก และยะอฺกูบ",
+    "reason": "เว้นวรรคเพื่อแยกรายการชื่อเฉพาะให้ชัดเจนตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823584+00:00"
+  },
+  {
+    "ayah": "19:51",
+    "type": "SPACING",
+    "target": "รอซูล เป็นนบี",
+    "replacement": "รอซูลเป็นนบี",
+    "reason": "ลบการเคาะวรรคระหว่างคำที่เป็นสถานะเดียวกันตามต้นฉบับพิมพ์",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823597+00:00"
+  },
+  {
+    "ayah": "19:53",
+    "type": "OMISSION",
+    "target": "โดยให้พี่ชายของเขาคือฮารูน เป็นศาสดา[FN:1]",
+    "replacement": "คือพี่ชายของเขา ฮารูน เป็นนบี[FN:1]",
+    "reason": "ปรับสำนวนให้ตรงกับหน้าสแกน 1990 (ใช้คำว่า คือ แทน โดยให้ และ นบี แทน ศาสดา)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823610+00:00"
+  },
+  {
+    "ayah": "19:54",
+    "type": "SPACING",
+    "target": "รอซูล เป็นนบี",
+    "replacement": "รอซูลเป็นนบี",
+    "reason": "ลบการเคาะวรรคระหว่างคำที่เป็นสถานะเดียวกันตามต้นฉบับพิมพ์",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823622+00:00"
+  },
+  {
+    "ayah": "19:57",
+    "type": "SPACING",
+    "target": "เขา ซึ่งตำแหน่ง",
+    "replacement": "เขาซึ่งตำแหน่ง",
+    "reason": "ลบการเคาะวรรคเพื่อให้คำเชื่อมชิดกับคำนาม",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823635+00:00"
+  },
+  {
+    "ayah": "19:58",
+    "type": "SPACING",
+    "target": "เป็นนบี[FN:1]ที่มีเชื้อสาย",
+    "replacement": "เป็นนบี[FN:1] ที่มีเชื้อสาย",
+    "reason": "เว้นวรรคหลังเชิงอรรถเนื่องจากเป็นการขึ้นอนุประโยคขยายความ",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823649+00:00"
+  },
+  {
+    "ayah": "19:59",
+    "type": "SPACING",
+    "target": "ทิ้งละหมาดและปฏิบัติตามความใคร่",
+    "replacement": "ทิ้งละหมาด และปฏิบัติตามความใคร่",
+    "reason": "เว้นวรรคแยกระหว่างการกระทำสองอย่างตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823662+00:00"
+  },
+  {
+    "ayah": "19:61",
+    "type": "SPACING",
+    "target": "แท้จริงสัญญาของพระองค์",
+    "replacement": "แท้จริง สัญญาของพระองค์",
+    "reason": "เว้นวรรคหลังคำว่า แท้จริง เพื่อแยกส่วนขยาย",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823675+00:00"
+  },
+  {
+    "ayah": "19:62",
+    "type": "SPACING",
+    "target": "ในนั้น นอกจากคำทักทาย",
+    "replacement": "ในนั้นนอกจากคำทักทาย",
+    "reason": "ลบการเคาะวรรคหน้าคำว่า 'นอกจาก' ให้ประโยคต่อเนื่องตามสแกน",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823687+00:00"
+  },
+  {
+    "ayah": "19:64",
+    "type": "SPACING",
+    "target": "สำหรับพระองค์นั้นสิ่งที่อยู่ระหว่างเบื้องหน้าของเราและสิ่งที่อยู่เบื้องหลังของเรา และสิ่งที่อยู่ระหว่างทั้งสอง และพระเจ้าของท่านนั้นมิทรงหลงลืมสิ่งใดเลย",
+    "replacement": "สำหรับพระองค์นั้น สิ่งที่อยู่ระหว่างเบื้องหน้าของเรา และสิ่งที่อยู่เบื้องหลังของเรา และสิ่งที่อยู่ระหว่างทั้งสองและพระเจ้าของท่านนั้นมิทรงหลงลืมสิ่งใดเลย",
+    "reason": "ปรับตำแหน่งการเว้นวรรคให้ตรงกับจังหวะของต้นฉบับ 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823702+00:00"
+  },
+  {
+    "ayah": "19:65",
+    "type": "SPACING",
+    "target": "พระองค์ สูเจ้ารู้หรือว่า",
+    "replacement": "พระองค์สูเจ้ารู้หรือว่า",
+    "reason": "ลบการเคาะวรรคที่ตัดจังหวะประโยคให้ต่อเนื่องกัน",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823715+00:00"
+  },
+  {
+    "ayah": "19:66",
+    "type": "SPACING",
+    "target": "ออกมา[FN:1]ในสภาพมีชีวิต",
+    "replacement": "ออกมา[FN:1] ในสภาพมีชีวิต",
+    "reason": "เว้นวรรคหลังเชิงอรรถเมื่อขึ้นกลุ่มคำใหม่ (ในสภาพ)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823728+00:00"
+  },
+  {
+    "ayah": "19:78",
+    "type": "SPACING",
+    "target": "สิ่งเร้นลับ หรือว่าเขาได้รับคำมั่นสัญญา",
+    "replacement": "สิ่งเร้นลับหรือว่าเขาได้รับคำมั่นสัญญา",
+    "reason": "ลบการเคาะวรรคหน้าคำเชื่อม (หรือว่า) ตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823741+00:00"
+  },
+  {
+    "ayah": "19:79",
+    "type": "SPACING",
+    "target": "เขากล่าว และเราจะเพิ่มการลงโทษ",
+    "replacement": "เขากล่าวและเราจะเพิ่มการลงโทษ",
+    "reason": "ลบการเคาะวรรคเพื่อให้ประโยคเชื่อมต่อกันตามหน้าสแกน",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823754+00:00"
+  },
+  {
+    "ayah": "19:84",
+    "type": "SPACING",
+    "target": "ดังนั้นเจ้าอย่าได้เร่งร้อน",
+    "replacement": "ดังนั้น เจ้าอย่าได้เร่งร้อน",
+    "reason": "เว้นวรรคหลังคำว่า ดังนั้น เพื่อความสละสลวยในการอ่าน",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823766+00:00"
+  },
+  {
+    "ayah": "19:88",
+    "type": "SPACING",
+    "target": "ปรานีทรงตั้งพระบุตรขึ้น",
+    "replacement": "ปรานี ทรงตั้งพระบุตรขึ้น",
+    "reason": "เว้นวรรคแยกระหว่างพระนามและคำกริยาเพื่อให้เกิดจังหวะการอ่านที่เหมาะสม",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823779+00:00"
+  },
+  {
+    "ayah": "19:97",
+    "type": "SPACING",
+    "target": "แท้จริงเราได้ทำให้อัลกุรอาน",
+    "replacement": "แท้จริง เราได้ทำให้อัลกุรอาน",
+    "reason": "เว้นวรรคหลังคำว่า แท้จริง ตามหน้าสแกน 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-25T10:53:13.823792+00:00"
   },
   {
     "ayah": "28:29",
