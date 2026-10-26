@@ -385,6 +385,15 @@
     "timestamp": "2026-10-24T03:47:07.082976+00:00"
   },
   {
+    "ayah": "2:128",
+    "type": "THEOLOGICAL",
+    "target": "ข้าแต่พระผู้เป็นเจ้าของพวกข้าพระองค์ โปรดให้ข้าพระองค์ทั้งสองเป็นผู้นอบน้อมต่อพระองค์ และโปรดให้มีขึ้นจากลูกหลานของพวกข้าพระองค์ ซึ่งประชาชาติที่นอบน้อมต่อพระองค์ และโปรดแสดงแก่พวกข้าพระองค์ ซึ่งพิธีการทำฮัจญ์",
+    "replacement": "ข้าแต่พระผู้เป็นเจ้าของข้าพระองค์ โปรดให้ข้าพระองค์ทั้งสองเป็นผู้นอบน้อมต่อพระองค์ และโปรดให้มีขึ้นจากลูกหลานของพวกข้าพระองค์ ซึ่งประชาชาติที่นอบน้อมต่อพระองค์ และโปรดแสดงแก่ข้าพระองค์ ซึ่งพิธีการทำฮัจญ์",
+    "reason": "คืนสำนวนสรรพนาม 'ของข้าพระองค์' และ 'แก่ข้าพระองค์' ตามต้นฉบับพิมพ์จริง King Fahd 1990 หน้า 40 บรรทัดที่ 6 และ 8 (คงสำนวนเดิมตามหลัก Rule Zero)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621255+00:00"
+  },
+  {
     "ayah": "2:129",
     "type": "OMISSION",
     "target": "และความมุ่งหมายแห่งบัญญัติให้พวกเขาทราบ",
@@ -581,6 +590,15 @@
     "reason": "ย้ายเครื่องหมายเชิงอรรถ [FN:1] ที่วางคั่นกลางคำกริยา 'ส่งเสียงตวาด' ไปไว้ท้ายวลี 'สิ่งที่มันฟังไม่รู้เรื่อง' ซึ่งเป็นเป้าหมายที่เชิงอรรถอธิบาย (หมายถึงสัตว์)",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-23T13:03:57.625622+00:00"
+  },
+  {
+    "ayah": "2:171",
+    "type": "FN_PLACEMENT",
+    "target": "ตวาดสิ่งที่มันฟังไม่รู้เรื่อง[FN:1]",
+    "replacement": "ตวาดสิ่งที่[FN:1]มันฟังไม่รู้เรื่อง",
+    "reason": "คืนตำแหน่งเครื่องหมายเชิงอรรถไว้หลังคำว่า 'สิ่งที่' ตามต้นฉบับพิมพ์จริง King Fahd 1990 หน้า 51 บรรทัดที่ 7-8 (เชิงอรรถอธิบายคำว่า สัตว์)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621274+00:00"
   },
   {
     "ayah": "2:173",
@@ -780,6 +798,15 @@
     "timestamp": "2026-10-24T04:07:48.902801+00:00"
   },
   {
+    "ayah": "2:198",
+    "type": "FN_PLACEMENT",
+    "target": "ครั้นเมื่อพวกเจ้าได้หลั่งไหลกันออกจากอะเราะฟาตแล้ว[FN:1]",
+    "replacement": "ครั้นเมื่อพวกเจ้าได้หลั่งไหล[FN:1]กันออกจากอะเราะฟาตแล้ว",
+    "reason": "คืนตำแหน่งเครื่องหมายเชิงอรรถไว้หลังคำว่า 'ได้หลั่งไหล' ตามต้นฉบับพิมพ์จริง King Fahd 1990 หน้า 63 บรรทัดที่ 12-13",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621279+00:00"
+  },
+  {
     "ayah": "2:204",
     "type": "SPACING",
     "target": "และเขาจะอ้างอัลลอฮฺเป็นพยานซึ่งสิ่งที่อยู่ในหัวใจของเขา[FN:2]",
@@ -879,6 +906,15 @@
     "timestamp": "2026-10-24T04:17:07.789821+00:00"
   },
   {
+    "ayah": "2:233",
+    "type": "FN_PLACEMENT",
+    "target": "สำหรับผู้ที่ต้องการจะให้ครบถ้วนในการให้นม และหน้าที่ของพ่อเด็กนั้น[FN:2] คือ",
+    "replacement": "สำหรับผู้ที่ต้องการ[FN:2]จะให้ครบถ้วนในการให้นม และหน้าที่ของพ่อเด็กนั้นคือ",
+    "reason": "คืนตำแหน่งเครื่องหมายเชิงอรรถไว้หลังคำว่า 'สำหรับผู้ที่ต้องการ' ตามต้นฉบับพิมพ์จริง King Fahd 1990 หน้า 76 บรรทัดที่ 2 (เชิงอรรถอธิบายคำว่า พ่อของเด็ก)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621286+00:00"
+  },
+  {
     "ayah": "2:234",
     "type": "SPACING",
     "target": "พวกนางเอง[FN:1] สี่เดือนกับสิบวัน",
@@ -895,6 +931,15 @@
     "reason": "ย้ายเครื่องหมายเชิงอรรถ [FN:1] ไปไว้ท้ายวลี สี่เดือนกับสิบวัน ตามฉบับพิมพ์ King Fahd 1990 (เชิงอรรถอธิบายระยะเวลาอิดดะฮฺวะฟาต)",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T04:17:07.789832+00:00"
+  },
+  {
+    "ayah": "2:234",
+    "type": "FN_PLACEMENT",
+    "target": "พวกนางจะต้องรอคอยตัวของพวกนางเอง สี่เดือนกับสิบวัน[FN:1]",
+    "replacement": "พวกนางจะต้องรอคอยตัวของพวกนางเอง[FN:1] สี่เดือนกับสิบวัน",
+    "reason": "คืนตำแหน่งเครื่องหมายเชิงอรรถไว้หลังคำว่า 'ของพวกนางเอง' ตามต้นฉบับพิมพ์จริง King Fahd 1990 หน้า 77 บรรทัดที่ 3",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621292+00:00"
   },
   {
     "ayah": "2:240",
@@ -977,6 +1022,15 @@
     "timestamp": "2026-10-23T12:53:27.729286+00:00"
   },
   {
+    "ayah": "2:250",
+    "type": "THEOLOGICAL",
+    "target": "และโปรดทรงให้มั่นคงซึ่งเท้าของพวกข้าพระองค์ และโปรดทรงช่วยพวกข้าพระองค์",
+    "replacement": "และโปรดทรงให้มั่นคงซึ่งเท้าของข้าพระองค์ และโปรดทรงช่วยพวกข้าพระองค์",
+    "reason": "คืนสรรพนาม 'เท้าของข้าพระองค์' ตามต้นฉบับพิมพ์จริง King Fahd 1990 หน้า 83 บรรทัดที่ 5-6 (ไม่ดัดแปลงตามไวยากรณ์อาหรับตามหลัก Rule Zero)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621261+00:00"
+  },
+  {
     "ayah": "2:251",
     "type": "SPACING",
     "target": "ยังความปราชัยให้แก่พวกนั้น[FN:1]ด้วยอนุมัติของอัลลอฮฺ",
@@ -984,6 +1038,15 @@
     "reason": "เว้นวรรค 1 เคาะหลังเครื่องหมายเชิงอรรถตามฉบับพิมพ์ King Fahd 1990",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T04:17:07.789861+00:00"
+  },
+  {
+    "ayah": "2:251",
+    "type": "SPACING",
+    "target": "ยังความปราชัยให้แก่พวกนั้น[FN:1] ด้วยอนุมัติของอัลลอฮฺ",
+    "replacement": "ยังความปราชัยให้แก่พวกนั้น[FN:1]ด้วยอนุมัติของอัลลอฮฺ",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'ด้วย' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621326+00:00"
   },
   {
     "ayah": "2:252",
@@ -1092,6 +1155,15 @@
     "reason": "เว้นวรรค 1 เคาะหน้าคำเชื่อม 'นั้น' ซึ่งเป็นรอยต่อวรรคประธานกับภาคแสดงตามต้นฉบับพิมพ์หน้า 90 บรรทัดที่ 21",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T04:29:32.984991+00:00"
+  },
+  {
+    "ayah": "2:265",
+    "type": "SPACING",
+    "target": "แก่ตัวของพวกเขาเอง[FN:2] นั้น ดังอุปมัยสวน",
+    "replacement": "แก่ตัวของพวกเขาเอง[FN:2]นั้น ดังอุปมัยสวน",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'นั้น' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621331+00:00"
   },
   {
     "ayah": "2:266",
@@ -1245,6 +1317,15 @@
     "timestamp": "2026-10-23T13:39:27.860625+00:00"
   },
   {
+    "ayah": "2:286",
+    "type": "THEOLOGICAL",
+    "target": "โปรดอย่าเอาโทษแก่พวกเราเลย หากพวกเราลืม",
+    "replacement": "โปรดอย่าเอาโทษแก่เราเลย หากพวกเราลืม",
+    "reason": "คืนสรรพนาม 'แก่เราเลย' ตามต้นฉบับพิมพ์จริง King Fahd 1990 หน้า 100 บรรทัดที่ 6 (ไม่ดัดแปลงตามไวยากรณ์อาหรับตามหลัก Rule Zero)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621267+00:00"
+  },
+  {
     "ayah": "3:3",
     "type": "FN_PLACEMENT",
     "target": "เพื่อยืนยันคัมภีร์ที่อยู่เบื้องหน้า[FN:2]คัมภีร์นั้น และ",
@@ -1261,6 +1342,15 @@
     "reason": "เว้นวรรค 1 เคาะคั่นระหว่างวลีกริยาวิเศษณ์และบุพบทวลีตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 101 บรรทัดที่ 6",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T04:40:42.983863+00:00"
+  },
+  {
+    "ayah": "3:3",
+    "type": "FN_PLACEMENT",
+    "target": "เพื่อยืนยันคัมภีร์ที่อยู่เบื้องหน้าคัมภีร์นั้น[FN:2] และ",
+    "replacement": "เพื่อยืนยันคัมภีร์ที่อยู่เบื้องหน้า[FN:2]คัมภีร์นั้น และ",
+    "reason": "คืนตำแหน่งเครื่องหมายเชิงอรรถไว้หลังคำว่า 'ที่อยู่เบื้องหน้า' ตามต้นฉบับพิมพ์จริง King Fahd 1990 หน้า 101 บรรทัดที่ 10 (เชิงอรรถอธิบายคัมภีร์ที่ถูกประทานมาก่อน)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621297+00:00"
   },
   {
     "ayah": "3:4",
@@ -1305,6 +1395,15 @@
     "reason": "แก้ไขสำนวนและคำเชื่อมที่ผิดรูปเป็น 'โอ้พระผู้เป็นเจ้าของข้าพระองค์' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 105 บรรทัดที่ 11-12",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T04:40:42.984066+00:00"
+  },
+  {
+    "ayah": "3:16",
+    "type": "THEOLOGICAL",
+    "target": "โอ้พระผู้เป็นเจ้าของข้าพระองค์ แท้จริงพวกข้าพระองค์",
+    "replacement": "โอ้พระเจ้าแห่งพวกข้าพระองค์ แท้จริงพวกข้าพระองค์",
+    "reason": "คืนสำนวน 'โอ้พระเจ้าแห่งพวกข้าพระองค์' ตามต้นฉบับพิมพ์จริง King Fahd 1990 หน้า 105 บรรทัดที่ 11-12 และเกณฑ์ Vocabulary Fidelity (Option A)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621238+00:00"
   },
   {
     "ayah": "3:19",
@@ -1361,6 +1460,15 @@
     "timestamp": "2026-10-24T04:40:42.984105+00:00"
   },
   {
+    "ayah": "3:24",
+    "type": "SPACING",
+    "target": "ในศาสนาของพวกเขา[FN:2] นั้น ได้หลอกลวง",
+    "replacement": "ในศาสนาของพวกเขา[FN:2]นั้น ได้หลอกลวง",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'นั้น' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621337+00:00"
+  },
+  {
     "ayah": "3:25",
     "type": "FN_PLACEMENT",
     "target": "ไม่มีการสงสัยใด[FN:2] ๆ",
@@ -1415,6 +1523,15 @@
     "timestamp": "2026-10-24T04:40:42.984120+00:00"
   },
   {
+    "ayah": "3:36",
+    "type": "TYPO",
+    "target": "ได้ตั้งชื่อนางว่า “มัรฺยัม” แล้วข้าพระองค์",
+    "replacement": "ได้ตั้งชื่อเขาว่า “มัรฺยัม” แล้วข้าพระองค์",
+    "reason": "คืนสรรพนาม 'เขา' ตามต้นฉบับพิมพ์จริง King Fahd 1990 หน้า 111 บรรทัดที่ 15 (ไม่ดัดแปลงตามไวยากรณ์อาหรับตามหลัก Rule Zero)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621246+00:00"
+  },
+  {
     "ayah": "3:37",
     "type": "TYPO",
     "target": "เขากล่าวว่า มัรฺยัมเอ๋ย เธอได้สิ่งนี้มาอย่างไร นางกล่าวว่า",
@@ -1431,6 +1548,15 @@
     "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้ท้ายคำประสม 'ที่โน่นแหละ' ไม่ตัดคั่นกลางคำตามเกณฑ์ Footnote Placement",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T04:40:42.984130+00:00"
+  },
+  {
+    "ayah": "3:38",
+    "type": "FN_PLACEMENT",
+    "target": "ที่โน่นแหละ[FN:1] ซะกะรียา",
+    "replacement": "ที่โน่น[FN:1]แหละ ซะกะรียา",
+    "reason": "คืนตำแหน่งเครื่องหมายเชิงอรรถไว้หลังคำว่า 'ที่โน่น' ตามต้นฉบับพิมพ์จริง King Fahd 1990 หน้า 112 บรรทัดที่ 10",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621302+00:00"
   },
   {
     "ayah": "3:39",
@@ -1458,6 +1584,15 @@
     "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้ท้ายกริยาวลี 'เขากล่าวว่า' ไม่ตัดคั่นกลางคำตามเกณฑ์ Footnote Placement",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T04:40:42.984140+00:00"
+  },
+  {
+    "ayah": "3:40",
+    "type": "FN_PLACEMENT",
+    "target": "เขากล่าวว่า[FN:1] ข้าแต่",
+    "replacement": "เขา[FN:1]กล่าวว่า ข้าแต่",
+    "reason": "คืนตำแหน่งเครื่องหมายเชิงอรรถไว้หลังสรรพนาม 'เขา' ตามต้นฉบับพิมพ์จริง King Fahd 1990 หน้า 113 บรรทัดที่ 4 (เชิงอรรถอธิบายว่าหมายถึงซะกะรียา)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621308+00:00"
   },
   {
     "ayah": "3:42",
@@ -1703,6 +1838,15 @@
     "timestamp": "2026-10-24T04:49:45.105582+00:00"
   },
   {
+    "ayah": "3:86",
+    "type": "SPACING",
+    "target": "แท้จริงรอซูล[FN:1] นั้นเป็นความจริง",
+    "replacement": "แท้จริงรอซูล[FN:1]นั้นเป็นความจริง",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'นั้น' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621343+00:00"
+  },
+  {
     "ayah": "3:87",
     "type": "TYPO",
     "target": "จากมะอิกะฮฺ",
@@ -1829,6 +1973,15 @@
     "timestamp": "2026-10-24T05:06:56.206861+00:00"
   },
   {
+    "ayah": "3:110",
+    "type": "SPACING",
+    "target": "พวกเจ้า[FN:1] นั้นเป็นประชาชาติ",
+    "replacement": "พวกเจ้า[FN:1]นั้นเป็นประชาชาติ",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'นั้น' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621353+00:00"
+  },
+  {
     "ayah": "3:111",
     "type": "SPACING",
     "target": "พวกเขา[FN:1]จะไม่ทำอันตราย",
@@ -1946,6 +2099,15 @@
     "timestamp": "2026-10-24T05:06:56.206924+00:00"
   },
   {
+    "ayah": "3:125",
+    "type": "FN_PLACEMENT",
+    "target": "และพวกเขา[FN:2] จะมายังพวกเจ้า",
+    "replacement": "และพวกเขาจะ[FN:2]มายังพวกเจ้า",
+    "reason": "คืนตำแหน่งเครื่องหมายเชิงอรรถไว้หลังคำว่า 'จะ' ตามต้นฉบับพิมพ์จริง King Fahd 1990 หน้า 139 บรรทัดที่ 9",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621313+00:00"
+  },
+  {
     "ayah": "3:127",
     "type": "SPACING",
     "target": "ส่วนหนึ่ง[FN:1]ออกจากบรรดาผู้ปฏิเสธศรัทธา",
@@ -1971,6 +2133,15 @@
     "reason": "เว้นวรรค 1 เคาะหน้าคำเชื่อม 'นั้น' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 142 บรรทัดที่ 10",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T05:06:56.206941+00:00"
+  },
+  {
+    "ayah": "3:136",
+    "type": "SPACING",
+    "target": "และรางวัลของผู้ทำงาน[FN:1] นั้นช่างเลิศจริง ๆ",
+    "replacement": "และรางวัลของผู้ทำงาน[FN:1]นั้นช่างเลิศจริง ๆ",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'นั้น' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621360+00:00"
   },
   {
     "ayah": "3:137",
@@ -2054,6 +2225,15 @@
     "timestamp": "2026-10-24T05:06:56.206989+00:00"
   },
   {
+    "ayah": "3:143",
+    "type": "SPACING",
+    "target": "ความตาย[FN:2] ก่อนจากที่พวกเจ้าจะได้พบมัน",
+    "replacement": "ความตาย[FN:2]ก่อนจากที่พวกเจ้าจะได้พบมัน",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'ก่อน' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621366+00:00"
+  },
+  {
     "ayah": "3:152",
     "type": "SPACING",
     "target": "และพวกเจ้าได้ฝ่าฝืน[FN:4]หลังจากที่พระองค์",
@@ -2126,6 +2306,15 @@
     "timestamp": "2026-10-24T06:29:59.433676+00:00"
   },
   {
+    "ayah": "3:167",
+    "type": "SPACING",
+    "target": "ผู้ที่กลับกลอก[FN:1] ด้วย และได้ถูกกล่าว",
+    "replacement": "ผู้ที่กลับกลอก[FN:1]ด้วย และได้ถูกกล่าว",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'ด้วย' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621373+00:00"
+  },
+  {
     "ayah": "3:168",
     "type": "SPACING",
     "target": "โดยที่พวกเขานั่งเฉยอยู่[FN:1]ว่า ถ้าหากพวกเขา",
@@ -2160,6 +2349,15 @@
     "reason": "เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถหน้าคำเชื่อม ว่า เปิดอนุประโยคตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 157 บรรทัดที่ 8",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T06:29:59.433688+00:00"
+  },
+  {
+    "ayah": "3:170",
+    "type": "FN_PLACEMENT",
+    "target": "ต่อสิ่งที่[FN:1]อัลลอฮฺ",
+    "replacement": "ต่อสิ่ง[FN:1]ที่อัลลอฮฺ",
+    "reason": "คืนตำแหน่งเครื่องหมายเชิงอรรถไว้หลังคำว่า 'ต่อสิ่ง' ตามต้นฉบับพิมพ์จริง King Fahd 1990 หน้า 157 บรรทัดที่ 5",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621320+00:00"
   },
   {
     "ayah": "3:173",
@@ -2198,6 +2396,15 @@
     "timestamp": "2026-10-24T06:29:59.433711+00:00"
   },
   {
+    "ayah": "3:177",
+    "type": "SPACING",
+    "target": "ด้วยการอีมาน[FN:1] นั้น พวกเขาจะไม่ก่อให้เกิด",
+    "replacement": "ด้วยการอีมาน[FN:1]นั้น พวกเขาจะไม่ก่อให้เกิด",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'นั้น' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621379+00:00"
+  },
+  {
     "ayah": "3:178",
     "type": "SPACING",
     "target": "ที่เราประวิง[FN:1]ให้แก่พวกเขานั้น เป็นการดีแก่ตัวของพวกเขา แท้จริงที่เราประวิงให้แก่พวกเขานั้น เพื่อพวกเขาจะได้เพิ่มพูนซึ่งบาปกรรม[FN:2]เท่านั้น",
@@ -2205,6 +2412,15 @@
     "reason": "เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 160 บรรทัดที่ 8, 10",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T06:29:59.433718+00:00"
+  },
+  {
+    "ayah": "3:178",
+    "type": "SPACING",
+    "target": "ซึ่งบาปกรรม[FN:2] เท่านั้น",
+    "replacement": "ซึ่งบาปกรรม[FN:2]เท่านั้น",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'เท่านั้น' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621386+00:00"
   },
   {
     "ayah": "3:179",
@@ -2259,6 +2475,15 @@
     "reason": "เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 164 บรรทัดที่ 3",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T06:29:59.433750+00:00"
+  },
+  {
+    "ayah": "3:185",
+    "type": "SPACING",
+    "target": "แห่งการหลอกลวง[FN:4] เท่านั้น",
+    "replacement": "แห่งการหลอกลวง[FN:4]เท่านั้น",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'เท่านั้น' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621395+00:00"
   },
   {
     "ayah": "3:186",
@@ -2349,6 +2574,15 @@
     "reason": "เว้นวรรค 1 เคาะหน้ารอยต่อกริยาวิเศษณ์ ด้วยความเต็มใจ ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 171 บรรทัดที่ 12",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T06:42:30.815852+00:00"
+  },
+  {
+    "ayah": "4:4",
+    "type": "SPACING",
+    "target": "ของนาง[FN:1] ด้วยความเต็มใจ",
+    "replacement": "ของนาง[FN:1]ด้วยความเต็มใจ",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'ด้วย' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621402+00:00"
   },
   {
     "ayah": "4:5",
@@ -2484,6 +2718,15 @@
     "reason": "เว้นวรรค 1 เคาะหน้าคำเชื่อม นั้น คั่นรอยต่อประธานกับภาคแสดงตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 177 บรรทัดที่ 4-5",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T06:42:30.815927+00:00"
+  },
+  {
+    "ayah": "4:16",
+    "type": "SPACING",
+    "target": "ที่กระทำการลามก[FN:1] นั้น พวกเจ้าจงลงโทษ",
+    "replacement": "ที่กระทำการลามก[FN:1]นั้น พวกเจ้าจงลงโทษ",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'นั้น' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621408+00:00"
   },
   {
     "ayah": "4:17",
@@ -2711,6 +2954,15 @@
     "timestamp": "2026-10-24T07:04:20.260058+00:00"
   },
   {
+    "ayah": "4:47",
+    "type": "OMISSION",
+    "target": "ก่อนจากที่เราจะลบใบหน้า[FN:3] แล้วให้มัน",
+    "replacement": "ก่อนจากที่เราจะลบใบหน้าของพวกเขา[FN:3] แล้วให้มัน",
+    "reason": "คืนคำว่า 'ของพวกเขา' หน้า [FN:3] ให้ตรงตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 191 บรรทัดที่ 12-13 (คงสำนวนเดิมตามหลัก Rule Zero Strict Minimal Invasive)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621032+00:00"
+  },
+  {
     "ayah": "4:48",
     "type": "SPACING",
     "target": "สิ่งอื่นจากนั้น[FN:2]สำหรับผู้ที่พระองค์ทรงประสงค์",
@@ -2862,6 +3114,15 @@
     "reason": "เว้นวรรค 1 เคาะหลังแท็กเชิงอรรถตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 201 บรรทัดที่ 5",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T07:10:05.491466+00:00"
+  },
+  {
+    "ayah": "4:77",
+    "type": "SPACING",
+    "target": "แห่งโลกนี้นั้นเล็กน้อย[FN:5] เท่านั้น",
+    "replacement": "แห่งโลกนี้นั้นเล็กน้อย[FN:5]เท่านั้น",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'เท่านั้น' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621416+00:00"
   },
   {
     "ayah": "4:78",
@@ -3142,6 +3403,15 @@
     "timestamp": "2026-10-24T07:17:17.213517+00:00"
   },
   {
+    "ayah": "4:115",
+    "type": "SPACING",
+    "target": "ของบรรดาผู้ศรัทธา[FN:1] นั้น เราก็จะให้เขา",
+    "replacement": "ของบรรดาผู้ศรัทธา[FN:1]นั้น เราก็จะให้เขา",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'นั้น' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621422+00:00"
+  },
+  {
     "ayah": "4:116",
     "type": "OMISSION",
     "target": "สำหรับผู้ที่พระองค์ประสงค์",
@@ -3283,6 +3553,15 @@
     "reason": "เว้นวรรค 1 เคาะหน้าคำเชื่อม 'นั้นว่า' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 224 บรรทัดที่ 2",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-24T07:17:17.213594+00:00"
+  },
+  {
+    "ayah": "4:140",
+    "type": "SPACING",
+    "target": "ในคัมภีร์[FN:1] นั้นว่า",
+    "replacement": "ในคัมภีร์[FN:1]นั้นว่า",
+    "reason": "ตัดช่องว่างที่ไม่ถูกต้องหลังแท็กเชิงอรรถหน้าคำว่า 'นั้น' ตามเกณฑ์ Zero Whitespace for Enclitic Post-Modifiers (Rule 5.4)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T07:45:41.621430+00:00"
   },
   {
     "ayah": "4:141",
