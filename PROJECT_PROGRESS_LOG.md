@@ -83,7 +83,7 @@
 
 ### [P8] Master V3 Synthesis Audit & Tri-Repo Production Synchronization
 * **Pipeline:** Master V3 Synthesis (King Fahd 1990 Base + ThaiQuran / Ajarn Asman Meesomboon Scholar Fixer + Multimodal Printed Scan Verification)
-* **Status:** In Progress — **81 / 127 chunks DONE (63.8%)**, **4,089 / 6,236 verses cumulative** audited and synchronized to `thai-quran-web` and `thai-quran-app`.
+* **Status:** In Progress — **82 / 127 chunks DONE (64.6%)**, **4,133 / 6,236 verses cumulative** audited and synchronized to `thai-quran-web` and `thai-quran-app`.
 * **Completed Milestones (Forward Audit):**
   - **Juz 1–20 (Chunks 1–67):** 100% `[ ✓ ]` completed and synchronized across tri-repo ecosystem.
   - **Juz 21 (Chunks 68–72):** 100% `[ ✓ ]` completed.
@@ -98,7 +98,9 @@
     - **Chunk 79 (37:83–37:182, 100 verses):** 21 verified fixes applied (37:84 spacing, 37:85 '?', 37:86 '?', 37:87 '?', 37:91 '?', 37:92 '?', 37:95 '?', 37:102 '!' & '?' & '!', 37:104 '!', 37:124 '?', 37:125 moved [FN:1] to '(เจว็ด)[FN:1]' + de-spaced + '?', 37:138 '?', 37:139 spacing, 37:149 spacing & '?', 37:152 '!', 37:153 spacing & '?', 37:154 '!', 37:155 '?', 37:156 '?', 37:176 '?', 37:177 '!'). **Surah As-Saffat 100% COMPLETE!**
     - **Chunk 80 (38:1–38:88, 88 verses):** 14 verified fixes applied (38:2 de-spacing, 38:5 de-spacing & '?', 38:6 de-spacing & '!', 38:8 '?' & '!' & '!', 38:11 'พ่ายแพ้' & de-spacing, 38:21 '?', 38:26 '!', 38:28 de-spacing & '?' & '?', 38:37 'ชัยฏอน', 38:41 'ชัยฏอน', 38:45 'อิสฮาก', 38:62 '?', 38:70 'วะฮียฺ', 38:86 de-spacing). **Surah Sad 100% COMPLETE!**
     - **Chunk 81 (39:1–39:31, 31 verses):** 14 verified fixes applied (39:3 'กับ' & restored 'ใน' + de-spacing, 39:5 omitted 'ว่า', 39:6 '!', 39:7 spacing, 39:9 '?' & '?', 39:10 '!', 39:15 de-spacing, 39:16 '!', 39:17 spacing, 39:19 '?' & '?', 39:22 spacing & '?', 39:24 '?', 39:29 '?').
-  - **Chunk 82 (39:32–39:75, 44 verses):** `UP NEXT` (Surah Az-Zumar Part 2 to end, starting Juz 24!).
+  - **Juz 24 (Chunks 82–86):** In Progress
+    - **Chunk 82 (39:32–39:75, 44 verses):** 16 verified fixes applied (39:38 '?' & restored 'ที่', 39:39 '!', 39:42 'สัญญาณ', 39:43 '?', 39:46 'จงกล่าวเถิดมุฮัมมัด', 39:49 omitted 'จะ', 39:53 '!', 39:59 '!', 39:60 'ผู้หยิ่งยโส' & '?', 39:62 de-spacing, 39:64 '?' & '!', 39:71 moved [FN:1] to 'กลุ่ม ๆ[FN:1]' & '?' & maintained [FN:4] at end, 39:72 restored 'ช่าง' & 'ผู้หยิ่งยโส', 39:73 moved [FN:1] to 'กลุ่ม ๆ[FN:1]', 39:74 spacing). **Surah Az-Zumar 100% COMPLETE!**
+  - **Chunk 83 (40:1–40:40, 40 verses):** `UP NEXT` (Surah Ghafir Part 1, Juz 24 Chunk 2).
 * **Retroactive Visual Scan Audit Status:**
   - **Juz 1–5 (Chunks 1–15):** `COMPLETED` `[ ✓ ]` — Full visual re-audit against 1990 printed scans completed (32 fixes/reversions applied: 6 restored original wording/omissions, 9 restored original footnote placements, 17 enclitic whitespace corrections).
   - **Juz 6–10 (Chunks 16–33):** `PENDING RETROACTIVE AUDIT` `[ ⏳ ]` — Queued for retroactive log & physical scan verification.
