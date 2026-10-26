@@ -83,7 +83,7 @@
 
 ### [P8] Master V3 Synthesis Audit & Tri-Repo Production Synchronization
 * **Pipeline:** Master V3 Synthesis (King Fahd 1990 Base + ThaiQuran / Ajarn Asman Meesomboon Scholar Fixer + Multimodal Printed Scan Verification)
-* **Status:** In Progress — **83 / 127 chunks DONE (65.4%)**, **4,173 / 6,236 verses cumulative** audited and synchronized to `thai-quran-web` and `thai-quran-app`.
+* **Status:** In Progress — **84 / 127 chunks DONE (66.1%)**, **4,218 / 6,236 verses cumulative** audited and synchronized to `thai-quran-web` and `thai-quran-app`.
 * **Completed Milestones (Forward Audit):**
   - **Juz 1–20 (Chunks 1–67):** 100% `[ ✓ ]` completed and synchronized across tri-repo ecosystem.
   - **Juz 21 (Chunks 68–72):** 100% `[ ✓ ]` completed.
@@ -101,7 +101,8 @@
   - **Juz 24 (Chunks 82–86):** In Progress
     - **Chunk 82 (39:32–39:75, 44 verses):** 16 verified fixes applied (39:38 '?' & restored 'ที่', 39:39 '!', 39:42 'สัญญาณ', 39:43 '?', 39:46 'จงกล่าวเถิดมุฮัมมัด', 39:49 omitted 'จะ', 39:53 '!', 39:59 '!', 39:60 'ผู้หยิ่งยโส' & '?', 39:62 de-spacing, 39:64 '?' & '!', 39:71 moved [FN:1] to 'กลุ่ม ๆ[FN:1]' & '?' & maintained [FN:4] at end, 39:72 restored 'ช่าง' & 'ผู้หยิ่งยโส', 39:73 moved [FN:1] to 'กลุ่ม ๆ[FN:1]', 39:74 spacing). **Surah Az-Zumar 100% COMPLETE!**
     - **Chunk 83 (40:1–40:40, 40 verses):** 10 verified fixes applied (40:5 'นูฮฺ' & spacing, 40:7 'ไฟนรก', 40:8 cut 'มี' -> 'เป็นผู้ทรงอำนาจ', 40:20 de-spacing, 40:23 corrected OCR glitch 'โดยไม่แน่นอน' -> 'โดยแน่นอน', 40:31 'นูฮฺ' & de-spacing, 40:38 de-spacing 'โอ้หมู่ชน', 40:39 de-spacing 'โอ้หมู่ชน' & cut 'แค่').
-  - **Chunk 84 (40:41–40:85, 45 verses):** `UP NEXT` (Surah Ghafir Part 2 to end, Juz 24 Chunk 3).
+    - **Chunk 84 (40:41–40:85, 45 verses):** 6 verified fixes applied (40:42 spacing between attributes 'ผู้ทรงอำนาจ ผู้ทรงอภัย' & rejected modern alteration of 'โดยที่', 40:44 'รำลึก', 40:46 restored 'ใน' -> 'และในวันกิยามะฮฺ', 40:47 rejected hallucination contrary to physical scan proof, 40:51 cut 'ซึ่ง' -> 'และวันที่ปวงพยาน', 40:71 restored 'คอ' -> 'ต้นคอของพวกเขา', 40:75 'โดยไม่ชอบธรรม'). **Surah Ghafir 100% COMPLETE!**
+  - **Chunk 85 (41:1–41:46, 46 verses):** `UP NEXT` (Surah Fussilat Part 1, Juz 24 Chunk 4).
 * **Retroactive Visual Scan Audit Status:**
   - **Juz 1–5 (Chunks 1–15):** `COMPLETED` `[ ✓ ]` — Full visual re-audit against 1990 printed scans completed (32 fixes/reversions applied: 6 restored original wording/omissions, 9 restored original footnote placements, 17 enclitic whitespace corrections).
   - **Juz 6–10 (Chunks 16–33):** `PENDING RETROACTIVE AUDIT` `[ ⏳ ]` — Queued for retroactive log & physical scan verification.
