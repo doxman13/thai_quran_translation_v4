@@ -83,10 +83,11 @@
 
 ### [P8] Master V3 Synthesis Audit & Tri-Repo Production Synchronization
 * **Pipeline:** Master V3 Synthesis (King Fahd 1990 Base + ThaiQuran / Ajarn Asman Meesomboon Scholar Fixer + Multimodal Printed Scan Verification)
-* **Status:** In Progress — **67 / 127 chunks DONE (54.28%)**, **3,385 / 6,236 verses cumulative** audited and synchronized to `thai-quran-web` and `thai-quran-app`.
+* **Status:** In Progress — **68 / 127 chunks DONE (53.54%)**, **3,409 / 6,236 verses cumulative** audited and synchronized to `thai-quran-web` and `thai-quran-app`.
 * **Completed Milestones (Forward Audit):**
   - **Juz 1–20 (Chunks 1–67):** 100% `[ ✓ ]` completed and synchronized across tri-repo ecosystem.
-  - **Juz 21 (Chunk 68, 29:46–29:69):** `IN PROGRESS`.
+  - **Juz 21 (Chunk 68, 29:46–29:69):** 100% `[ ✓ ]` completed (3 verified fixes applied: 29:50 FN_PLACEMENT maiyamok rule, 29:56 TYPO 1990 scan restoration, 29:60 SPACING divine attribute separation).
+  - **Juz 21 (Chunk 69, 30:1–30:60):** `UP NEXT`.
 * **Retroactive Visual Scan Audit Status:**
   - **Juz 1–5 (Chunks 1–15):** `COMPLETED` `[ ✓ ]` — Full visual re-audit against 1990 printed scans completed (32 fixes/reversions applied: 6 restored original wording/omissions, 9 restored original footnote placements, 17 enclitic whitespace corrections).
   - **Juz 6–10 (Chunks 16–33):** `PENDING RETROACTIVE AUDIT` `[ ⏳ ]` — Queued for retroactive log & physical scan verification.
