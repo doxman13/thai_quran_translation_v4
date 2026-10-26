@@ -11260,6 +11260,195 @@
     "timestamp": "2026-10-26T15:04:15.913370+00:00"
   },
   {
+    "ayah": "37:84",
+    "type": "SPACING",
+    "target": "เมื่อเขาได้เข้าหาพระเจ้าของเขา ด้วยจิตใจที่บริสุทธิ์[FN:1]",
+    "replacement": "เมื่อเขาได้เข้าหาพระเจ้าของเขาด้วยจิตใจที่บริสุทธิ์[FN:1]",
+    "reason": "ปลดการเคาะวรรคหน้าบุพบท ด้วย เชื่อมวลีให้ข้อความเขียนติดต่อกันตามต้นฉบับพิมพ์ King Fahd 1990 (De-Overkill Spacing)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.260868+00:00"
+  },
+  {
+    "ayah": "37:85",
+    "type": "TYPO",
+    "target": "พวกท่านเคารพภักดีอะไรกัน",
+    "replacement": "พวกท่านเคารพภักดีอะไรกัน?",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261112+00:00"
+  },
+  {
+    "ayah": "37:86",
+    "type": "TYPO",
+    "target": "พระเจ้าอื่นจากอัลลอฮฺ",
+    "replacement": "พระเจ้าอื่นจากอัลลอฮฺ?",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261131+00:00"
+  },
+  {
+    "ayah": "37:87",
+    "type": "TYPO",
+    "target": "จะเป็นอย่างไร[FN:1]",
+    "replacement": "จะเป็นอย่างไร?[FN:1]",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261148+00:00"
+  },
+  {
+    "ayah": "37:91",
+    "type": "TYPO",
+    "target": "พวกเจ้าไม่กิน (อาหารเหล่านี้) บ้างหรือ",
+    "replacement": "พวกเจ้าไม่กิน (อาหารเหล่านี้) บ้างหรือ?",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261166+00:00"
+  },
+  {
+    "ayah": "37:92",
+    "type": "TYPO",
+    "target": "ทำไมพวกเจ้าจึงไม่พูดเล่า",
+    "replacement": "ทำไมพวกเจ้าจึงไม่พูดเล่า?",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261183+00:00"
+  },
+  {
+    "ayah": "37:95",
+    "type": "TYPO",
+    "target": "สิ่งที่พวกท่านแกะสลัก (มัน) กระนั้นหรือ",
+    "replacement": "สิ่งที่พวกท่านแกะสลัก (มัน) กระนั้นหรือ?",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261200+00:00"
+  },
+  {
+    "ayah": "37:102",
+    "type": "TYPO",
+    "target": "โอ้ลูกเอ๋ย แท้จริงพ่อได้เห็นในขณะฝันว่า[FN:2] พ่อได้เชือดเจ้า จงคิดดูซิว่าเจ้าจะเห็นเป็นอย่างไร เขากล่าวว่า โอ้พ่อจ๋า พ่อจงปฏิบัติตาม",
+    "replacement": "โอ้ลูกเอ๋ย! แท้จริงพ่อได้เห็นในขณะฝันว่า[FN:2] พ่อได้เชือดเจ้า จงคิดดูซิว่าเจ้าจะเห็นเป็นอย่างไร? เขากล่าวว่า โอ้พ่อจ๋า! พ่อจงปฏิบัติตาม",
+    "reason": "เติมเครื่องหมายอัศเจรีย์ (!) และคำถาม (?) ในบทสนทนาตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261220+00:00"
+  },
+  {
+    "ayah": "37:104",
+    "type": "TYPO",
+    "target": "โอ้ อิบรอฮีมเอ๋ย",
+    "replacement": "โอ้ อิบรอฮีมเอ๋ย!",
+    "reason": "เติมเครื่องหมายอัศเจรีย์ (!) หลังคำร้องเรียกตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261237+00:00"
+  },
+  {
+    "ayah": "37:124",
+    "type": "TYPO",
+    "target": "อัลลอฮฺหรือ[FN:1]",
+    "replacement": "อัลลอฮฺหรือ?[FN:1]",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261254+00:00"
+  },
+  {
+    "ayah": "37:125",
+    "type": "FN_PLACEMENT",
+    "target": "พวกท่านเคารพสักการะบะอฺลฺ (เจว็ด) และพวกท่านทอดทิ้งผู้ทรงเลิศยิ่งแห่งปวงผู้สร้าง กระนั้นหรือ[FN:1]",
+    "replacement": "พวกท่านเคารพสักการะบะอฺลฺ (เจว็ด)[FN:1] และพวกท่านทอดทิ้งผู้ทรงเลิศยิ่งแห่งปวงผู้สร้างกระนั้นหรือ?",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถ [FN:1] มาไว้ท้ายคำศัพท์ บะอฺลฺ (เจว็ด) ปลดวรรคหน้า กระนั้นหรือ และเติมเครื่องหมายคำถาม (?) ตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261271+00:00"
+  },
+  {
+    "ayah": "37:138",
+    "type": "TYPO",
+    "target": "พิจารณาดูดอกหรือ[FN:1]",
+    "replacement": "พิจารณาดูดอกหรือ?[FN:1]",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261288+00:00"
+  },
+  {
+    "ayah": "37:139",
+    "type": "SPACING",
+    "target": "ยูนุสนั้น อยู่ในหมู่",
+    "replacement": "ยูนุสนั้นอยู่ในหมู่",
+    "reason": "ปลดการเคาะวรรคที่ตัดประธานออกจากคำกริยาให้ข้อความเขียนติดต่อกันตามต้นฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261304+00:00"
+  },
+  {
+    "ayah": "37:149",
+    "type": "SPACING",
+    "target": "มีบุตรชายหลายคน กระนั้นหรือ",
+    "replacement": "มีบุตรชายหลายคนกระนั้นหรือ?",
+    "reason": "ปลดการเคาะวรรคหน้าสำนวนคำถาม กระนั้นหรือ และเติมเครื่องหมายคำถาม (?) ตามต้นฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261321+00:00"
+  },
+  {
+    "ayah": "37:152",
+    "type": "TYPO",
+    "target": "อัลลอฮฺทรงให้กำเนิดบุตรชาย และแท้จริง",
+    "replacement": "อัลลอฮฺทรงให้กำเนิดบุตรชาย! และแท้จริง",
+    "reason": "เติมเครื่องหมายอัศเจรีย์ (!) ตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261337+00:00"
+  },
+  {
+    "ayah": "37:153",
+    "type": "SPACING",
+    "target": "แทนบุตรชาย กระนั้นหรือ[FN:1]",
+    "replacement": "แทนบุตรชายกระนั้นหรือ?[FN:1]",
+    "reason": "ปลดการเคาะวรรคหน้าสำนวนคำถาม กระนั้นหรือ และเติมเครื่องหมายคำถาม (?) ตามต้นฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261354+00:00"
+  },
+  {
+    "ayah": "37:154",
+    "type": "TYPO",
+    "target": "เกิดอะไรขึ้นแก่พวกเจ้า ทำไมพวกเจ้า",
+    "replacement": "เกิดอะไรขึ้นแก่พวกเจ้า! ทำไมพวกเจ้า",
+    "reason": "เติมเครื่องหมายอัศเจรีย์ (!) หลัง แก่พวกเจ้า ตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261370+00:00"
+  },
+  {
+    "ayah": "37:155",
+    "type": "TYPO",
+    "target": "พวกเจ้ามิได้ใคร่ครวญดูบ้างหรือ",
+    "replacement": "พวกเจ้ามิได้ใคร่ครวญดูบ้างหรือ?",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261386+00:00"
+  },
+  {
+    "ayah": "37:156",
+    "type": "TYPO",
+    "target": "หรือว่าพวกเจ้ามีหลักฐานอันชัดแจ้ง",
+    "replacement": "หรือว่าพวกเจ้ามีหลักฐานอันชัดแจ้ง?",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261402+00:00"
+  },
+  {
+    "ayah": "37:176",
+    "type": "TYPO",
+    "target": "ของเรากระนั้นหรือ",
+    "replacement": "ของเรากระนั้นหรือ?",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261419+00:00"
+  },
+  {
+    "ayah": "37:177",
+    "type": "TYPO",
+    "target": "เสียนี่กระไร[FN:1]",
+    "replacement": "เสียนี่กระไร![FN:1]",
+    "reason": "เติมเครื่องหมายอัศเจรีย์ (!) หลังคำอุทานตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T15:23:25.261436+00:00"
+  },
+  {
     "ayah": "41:43",
     "type": "OCR_TYPO",
     "target": "พระองค์ทรงเป็นผู้อภัย และทรงเป็นผู้อภัย และทรงเป็นผู้ลงโทษอย่างเจ็บปวด",
