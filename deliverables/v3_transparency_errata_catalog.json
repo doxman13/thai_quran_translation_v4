@@ -10981,6 +10981,150 @@
     "timestamp": "2026-10-26T12:05:46.981482+00:00"
   },
   {
+    "ayah": "36:35",
+    "type": "SPACING",
+    "target": "ผลไม้ของมันและจากสิ่งที่",
+    "replacement": "ผลไม้ของมัน และจากสิ่งที่",
+    "reason": "เว้นวรรคคั่นระหว่างวลีตามต้นฉบับพิมพ์ King Fahd 1990 ปลดคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.903765+00:00"
+  },
+  {
+    "ayah": "36:35",
+    "type": "TYPO",
+    "target": "ขอบคุณกระนั้นหรือ[FN:1]",
+    "replacement": "ขอบคุณกระนั้นหรือ?[FN:1]",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.903984+00:00"
+  },
+  {
+    "ayah": "36:47",
+    "type": "TYPO",
+    "target": "แก่เขากระนั้นหรือ พวกท่านมิใช่อื่นใดเลยนอกจากอยู่ในการหลงผิดอย่างชัดแจ้ง[FN:1]",
+    "replacement": "แก่เขากระนั้นหรือ? พวกท่านมิใช่อื่นใดเลย นอกจากอยู่ในการหลงผิดอย่างชัดแจ้ง[FN:1]",
+    "reason": "เติมเครื่องหมายคำถาม (?) หลังกระนั้นหรือ และเว้นวรรคหน้า นอกจาก ตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.904005+00:00"
+  },
+  {
+    "ayah": "36:52",
+    "type": "TYPO",
+    "target": "โอ้ความหายนะที่ประสบแก่เรา ใครเล่า",
+    "replacement": "โอ้ความหายนะที่ประสบแก่เรา! ใครเล่า",
+    "reason": "เติมเครื่องหมายอัศเจรีย์ (!) หลัง แก่เรา ตามต้นฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.904023+00:00"
+  },
+  {
+    "ayah": "36:58",
+    "type": "TYPO",
+    "target": "ความศานติ พระดำรัสหนึ่ง",
+    "replacement": "“ความศานติ!” พระดำรัสหนึ่ง",
+    "reason": "ใส่อัญประกาศและเครื่องหมายอัศเจรีย์ตามต้นฉบับพิมพ์ King Fahd 1990 เพื่อระบุพระดำรัสทักทายอย่างชัดเจน",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.904040+00:00"
+  },
+  {
+    "ayah": "36:59",
+    "type": "TYPO",
+    "target": "โอ้บรรดาอาชญากรทั้งหลายเอ๋ย วันนี้",
+    "replacement": "โอ้บรรดาอาชญากรทั้งหลายเอ๋ย! วันนี้",
+    "reason": "เติมเครื่องหมายอัศเจรีย์ (!) หลัง ทั้งหลายเอ๋ย ตามต้นฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.904057+00:00"
+  },
+  {
+    "ayah": "36:60",
+    "type": "TYPO",
+    "target": "อย่าได้เคารพบูชาชัยตอนมารร้าย",
+    "replacement": "อย่าได้เคารพบูชาชัยฏอนมารร้าย",
+    "reason": "แก้ไขคำทับศัพท์ ชัยตอน เป็น ชัยฏอน (ใช้ ฏ-ปฏัก) ตามมาตรฐานอักขรวิธีอิสลามและต้นฉบับพิมพ์",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.904075+00:00"
+  },
+  {
+    "ayah": "36:60",
+    "type": "TYPO",
+    "target": "โอ้ลูกหลานของอาดัมเอ๋ย ว่าพวกเจ้า",
+    "replacement": "โอ้ลูกหลานของอาดัมเอ๋ย! ว่าพวกเจ้า",
+    "reason": "เติมเครื่องหมายอัศเจรีย์ (!) หลัง อาดัมเอ๋ย ตามต้นฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.904092+00:00"
+  },
+  {
+    "ayah": "36:62",
+    "type": "TYPO",
+    "target": "ทำไมพวกเจ้าจึงไม่ใช้สติปัญญาใคร่ครวญเล่า[FN:1]",
+    "replacement": "ทำไมพวกเจ้าจึงไม่ใช้สติปัญญาใคร่ครวญเล่า?[FN:1]",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.904108+00:00"
+  },
+  {
+    "ayah": "36:66",
+    "type": "TYPO",
+    "target": "แต่พวกเขาจะเห็นได้อย่างไร[FN:1]",
+    "replacement": "แต่พวกเขาจะเห็นได้อย่างไร?[FN:1]",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.904125+00:00"
+  },
+  {
+    "ayah": "36:68",
+    "type": "TYPO",
+    "target": "แล้วพวกเขาไม่ใช้สติปัญญาใคร่ครวญบ้างหรือ[FN:1]",
+    "replacement": "แล้วพวกเขาไม่ใช้สติปัญญาใคร่ครวญบ้างหรือ?[FN:1]",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.904142+00:00"
+  },
+  {
+    "ayah": "36:73",
+    "type": "TYPO",
+    "target": "แล้วพวกเขาจะยังไม่ขอบคุณอีกหรือ[FN:1]",
+    "replacement": "แล้วพวกเขาจะยังไม่ขอบคุณอีกหรือ?[FN:1]",
+    "reason": "เติมเครื่องหมายคำถาม (?) ท้ายประโยคคำถามตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.904159+00:00"
+  },
+  {
+    "ayah": "36:78",
+    "type": "SPACING",
+    "target": "ขึ้นมาอีกในเมื่อมันเป็นผุยผงไปแล้ว",
+    "replacement": "ขึ้นมาอีก ในเมื่อมันเป็นผุยผงไปแล้ว",
+    "reason": "เว้นวรรคคั่นระหว่างอนุประโยคตามต้นฉบับพิมพ์ King Fahd 1990 เพื่อจังหวะอ่านที่ถูกต้อง (OCR Glue)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.904178+00:00"
+  },
+  {
+    "ayah": "36:79",
+    "type": "TYPO",
+    "target": "จงกล่าวเถิดมุฮัมมัด พระผู้ทรงให้กำเนิด",
+    "replacement": "จงกล่าวเถิด (มุฮัมมัด) พระผู้ทรงให้กำเนิด",
+    "reason": "ใส่วงเล็บรอบชื่อ (มุฮัมมัด) ตามต้นฉบับพิมพ์ King Fahd 1990 เพื่อแยกส่วนอธิบายออกจากตัวบทแปล",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.904195+00:00"
+  },
+  {
+    "ayah": "36:81",
+    "type": "TYPO",
+    "target": "กับพวกเขากระนั้นหรือ แน่นอน",
+    "replacement": "กับพวกเขากระนั้นหรือ? แน่นอน",
+    "reason": "เติมเครื่องหมายคำถาม (?) หลังกระนั้นหรือ ตามฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.904212+00:00"
+  },
+  {
+    "ayah": "36:83",
+    "type": "SPACING",
+    "target": "แด่พระองค์ซึ่งในพระหัตถ์",
+    "replacement": "แด่พระองค์ ซึ่งในพระหัตถ์",
+    "reason": "เว้นวรรคหน้าคำเชื่อม ซึ่งใน... ตามต้นฉบับพิมพ์ King Fahd 1990 ปลดคำที่พิมพ์ติดกันเป็นพรืด (OCR Glue)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T14:42:08.904228+00:00"
+  },
+  {
     "ayah": "41:43",
     "type": "OCR_TYPO",
     "target": "พระองค์ทรงเป็นผู้อภัย และทรงเป็นผู้อภัย และทรงเป็นผู้ลงโทษอย่างเจ็บปวด",
