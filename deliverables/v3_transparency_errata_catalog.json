@@ -9796,12 +9796,66 @@
     "timestamp": "2026-10-26T06:11:15.578475+00:00"
   },
   {
+    "ayah": "28:4",
+    "type": "FN_PLACEMENT",
+    "target": "แตกแยกเป็นกลุ่ม[FN:1] ๆ",
+    "replacement": "แตกแยกเป็นกลุ่ม ๆ[FN:1]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้หลังไม้ยมกตามฉบับพิมพ์ 1990 และหลักเกณฑ์อักขรวิธีไทย",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T06:20:40.992269+00:00"
+  },
+  {
+    "ayah": "28:13",
+    "type": "OMISSION",
+    "target": "แต่ส่วนมากพวกเขาไม่รู้[FN:2]",
+    "replacement": "แต่ส่วนมากของพวกเขาไม่รู้[FN:2]",
+    "reason": "เติมคำว่า 'ของ' ให้ตรงตามตัวบทภาษาอาหรับ (أَكْثَرَهُمْ) และฉบับพิมพ์จริง King Fahd 1990 ('แต่ส่วนมากของพวกเขาไม่รู้')",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T06:20:40.992485+00:00"
+  },
+  {
+    "ayah": "28:15",
+    "type": "TYPO",
+    "target": "การกระทำของชัยตอน[FN:5]",
+    "replacement": "การกระทำของชัยฏอน[FN:5]",
+    "reason": "แก้ไขตัวสะกดคำทับศัพท์มาตรฐาน 'ชัยฏอน' (ใช้ ฏ-ปฏัก) ให้ตรงตามฉบับพิมพ์จริง King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T06:20:40.992503+00:00"
+  },
+  {
+    "ayah": "28:29",
+    "type": "TYPO",
+    "target": "ว่า \"จงอยู่ที่นี่ก่อน แท้จริงฉันเห็นไฟ\" บางที",
+    "replacement": "ว่า จงอยู่ที่นี่ก่อน แท้จริงฉันเห็นไฟ บางที",
+    "reason": "ปลดเครื่องหมายอัญประกาศตรงที่แปลกปลอมออก ให้ตรงตามฉบับพิมพ์จริง King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T06:20:40.992519+00:00"
+  },
+  {
     "ayah": "28:29",
     "type": "CLERICAL_OMISSION",
     "target": "เขาจึงพูดกับครอบครัวของเขาว่า จงอยู่ที่นี่ก่อน แท้จริงฉันเห็นไฟ",
     "replacement": "เขาจึงพูดกับครอบครัวของเขาว่า \"จงอยู่ที่นี่ก่อน แท้จริงฉันเห็นไฟ\" บางทีฉันจะนำข่าวจากที่นั่นมาให้พวกท่าน หรือเอาดุ่นไฟมาเพื่อพวกท่านจะได้อบอุ่นขึ้น",
     "reason": "Restore missing second half of verse dropped in King Fahd print (لَّعَلِّىٓ ءَاتِيكُم مِّنْهَا بِขَبَرٍ أَوْ جَذْوَةٍۢ مِّنَ ٱلنَّารِ لَعَلَّكُمْ تَصْطَلُونَ).",
     "source": "Layer 0 Pre-Patcher (Baseline Scan)"
+  },
+  {
+    "ayah": "28:32",
+    "type": "FN_PLACEMENT",
+    "target": "ปราศจากอันตรายใด[FN:1] ๆ",
+    "replacement": "ปราศจากอันตรายใด ๆ[FN:1]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้หลังไม้ยมกตามฉบับพิมพ์ 1990 และหลักเกณฑ์อักขรวิธีไทย",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T06:20:40.992535+00:00"
+  },
+  {
+    "ayah": "28:43",
+    "type": "FN_PLACEMENT",
+    "target": "ในรุ่นก่อน[FN:2] ๆ",
+    "replacement": "ในรุ่นก่อน ๆ[FN:2]",
+    "reason": "ย้ายเครื่องหมายเชิงอรรถไปไว้หลังไม้ยมกตามฉบับพิมพ์ 1990 และหลักเกณฑ์อักขรวิธีไทย",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T06:20:40.992551+00:00"
   },
   {
     "ayah": "34:15",
