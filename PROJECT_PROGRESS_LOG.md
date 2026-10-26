@@ -83,14 +83,16 @@
 
 ### [P8] Master V3 Synthesis Audit & Tri-Repo Production Synchronization
 * **Pipeline:** Master V3 Synthesis (King Fahd 1990 Base + ThaiQuran / Ajarn Asman Meesomboon Scholar Fixer + Multimodal Printed Scan Verification)
-* **Status:** In Progress — **71 / 127 chunks DONE (55.91%)**, **3,533 / 6,236 verses cumulative** audited and synchronized to `thai-quran-web` and `thai-quran-app`.
+* **Status:** In Progress — **72 / 127 chunks DONE (56.7%)**, **3,563 / 6,236 verses cumulative** audited and synchronized to `thai-quran-web` and `thai-quran-app`.
 * **Completed Milestones (Forward Audit):**
   - **Juz 1–20 (Chunks 1–67):** 100% `[ ✓ ]` completed and synchronized across tri-repo ecosystem.
-  - **Juz 21 (Chunk 68, 29:46–29:69):** 100% `[ ✓ ]` completed (3 verified fixes applied: 29:50 FN_PLACEMENT maiyamok rule, 29:56 TYPO 1990 scan restoration, 29:60 SPACING divine attribute separation).
-  - **Juz 21 (Chunk 69, 30:1–30:60):** 100% `[ ✓ ]` completed (5 verified fixes applied: 30:21 FN_PLACEMENT หลัง 'เอง', 30:28 TYPO 'อุทาหรณ์', 30:48 SPACING หน้า 'เท่าที่', 30:56 TYPO 'โต้ตอบ', 30:58 OMISSION ตัด 'ซึ่ง' ส่วนเกิน).
-  - **Juz 21 (Chunk 70, 31:1–31:34):** 100% `[ ✓ ]` completed (11 verified fixes applied: 31:27 Category 1 Supreme Truth restoration of 'พจนารถ' (كَلِمَاتُ), 31:13,16,17,18,19,25 Luqman speech dialogue quotes, 31:21,33 'ชัยฏอน' typo fixes, 31:30 footnote placement, 31:14 spacing).
-  - **Juz 21 (Chunk 71, 32:1–32:30):** 100% `[ ✓ ]` completed (6 verified fixes applied: 32:3 dialogue quotes + 'เพื่อว่า', 32:4 & 32:18 question marks '?', 32:20 speech dialogue quotes, 32:26 pronoun 'ก่อนหน้าพวกเขา', 32:27 footnote placement).
-  - **Juz 21 (Chunk 72, 33:1–33:30):** `UP NEXT`.
+  - **Juz 21 (Chunks 68–72):** 100% `[ ✓ ]` completed:
+    - **Chunk 68 (29:46–29:69):** 3 verified fixes applied (29:50 FN_PLACEMENT maiyamok rule, 29:56 TYPO 1990 scan restoration, 29:60 SPACING divine attribute separation).
+    - **Chunk 69 (30:1–30:60):** 5 verified fixes applied (30:21 FN_PLACEMENT หลัง 'เอง', 30:28 TYPO 'อุทาหรณ์', 30:48 SPACING หน้า 'เท่าที่', 30:56 TYPO 'โต้ตอบ', 30:58 OMISSION ตัด 'ซึ่ง' ส่วนเกิน).
+    - **Chunk 70 (31:1–31:34):** 11 verified fixes applied (31:27 Category 1 Supreme Truth restoration of 'พจนารถ' (كَلِمَاتُ), 31:13,16,17,18,19,25 Luqman speech dialogue quotes, 31:21,33 'ชัยฏอน' typo fixes, 31:30 footnote placement, 31:14 spacing).
+    - **Chunk 71 (32:1–32:30):** 6 verified fixes applied (32:3 dialogue quotes + 'เพื่อว่า', 32:4 & 32:18 question marks '?', 32:20 speech dialogue quotes, 32:26 pronoun 'ก่อนหน้าพวกเขา', 32:27 footnote placement).
+    - **Chunk 72 (33:1–33:30):** 6 verified fixes applied (33:5 footnote 1 placement to 'พ่อของพวกเขา', 33:5 OCR glitch 'ต่างห[FN:4]าก' -> 'ต่างหาก[FN:4]', 33:6 spacing before clause 'บางคน', 33:7 typos 'อิซา' -> 'อีซา', 'นูหฺ' -> 'นูฮฺ', 'อิบนฺ มัรยัม' -> 'อิบนุมัรฺยัม', 33:10 spacing before 'เกี่ยวกับ', 33:19 bracket footnote unswallow 'ทรัพย์สิน[FN:3] (ของที่ยึดมา...)').
+  - **Juz 22 (Chunk 73, 33:31–33:50):** `UP NEXT`.
 * **Retroactive Visual Scan Audit Status:**
   - **Juz 1–5 (Chunks 1–15):** `COMPLETED` `[ ✓ ]` — Full visual re-audit against 1990 printed scans completed (32 fixes/reversions applied: 6 restored original wording/omissions, 9 restored original footnote placements, 17 enclitic whitespace corrections).
   - **Juz 6–10 (Chunks 16–33):** `PENDING RETROACTIVE AUDIT` `[ ⏳ ]` — Queued for retroactive log & physical scan verification.
