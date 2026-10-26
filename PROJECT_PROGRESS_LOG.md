@@ -83,12 +83,13 @@
 
 ### [P8] Master V3 Synthesis Audit & Tri-Repo Production Synchronization
 * **Pipeline:** Master V3 Synthesis (King Fahd 1990 Base + ThaiQuran / Ajarn Asman Meesomboon Scholar Fixer + Multimodal Printed Scan Verification)
-* **Status:** In Progress — **73 / 127 chunks DONE (57.5%)**, **3,606 / 6,236 verses cumulative** audited and synchronized to `thai-quran-web` and `thai-quran-app`.
+* **Status:** In Progress — **74 / 127 chunks DONE (58.3%)**, **3,660 / 6,236 verses cumulative** audited and synchronized to `thai-quran-web` and `thai-quran-app`.
 * **Completed Milestones (Forward Audit):**
   - **Juz 1–20 (Chunks 1–67):** 100% `[ ✓ ]` completed and synchronized across tri-repo ecosystem.
   - **Juz 21 (Chunks 68–72):** 100% `[ ✓ ]` completed.
-  - **Juz 22 (Chunk 73, 33:31–33:73, 43 verses):** 100% `[ ✓ ]` completed (8 verified fixes applied: 33:33 TYPO 'โอ้อวด', 33:42 OMISSION เติม 'จง' + 'สดุดี', 33:52 FN_PLACEMENT 'อื่น ๆ[FN:2]', 33:55 Category 1 Supreme Truth restoration of missing phrase 'และลูกชายของพี่น้องผู้ชายของพวกนาง' (وَلَا أَبْنَاءِ إِخْوَانِهِنَّ) omitted from 1990 print, 33:63, 66, 67, 68 verified dialogue quotes and exclamation marks). Complete Surah Al-Ahzab!
-  - **Juz 22 (Chunk 74, 34:1–34:54):** `UP NEXT`.
+  - **Juz 22 (Chunk 73, 33:31–33:73, 43 verses):** 100% `[ ✓ ]` completed (8 verified fixes applied). Complete Surah Al-Ahzab!
+  - **Juz 22 (Chunk 74, 34:1–34:54, 54 verses):** 100% `[ ✓ ]` completed (20 verified fixes applied: 34:1 spacing before 'ซึ่ง', 34:7 dialogue quotes '“', 34:8 '?”' and '!', 34:10, 13 'ดาวู้ด', 34:13 'เอ๋ย!', 34:19 'แล้วพวกเขาได้พูดว่า “...ยืดยาวขึ้น”' and cut 'อัน', 34:22 remove duplicate 'เพียง', 34:25 correct 'ที่พวกท่าน', 34:27 'ไม่ดอก!', 34:32 restore 'มี', 34:33 'มิใช่เช่นนั้นดอก!', 34:34 correct 'ผู้ตักเตือนคนใด', 34:38 'ชนเหล่านี้', 34:39 restore 'คับแคบ' and 'จาก', 34:40 '?', 34:45 '!', 34:48 spacing before 'เพราะ', 34:51 'ขณะที่', 34:52 Category 1 Supreme Truth theological correction 'อันไกล' (بَعِيد)). Complete Surah Saba!
+  - **Juz 22 (Chunk 75, 35:1–35:45):** `UP NEXT`.
 * **Retroactive Visual Scan Audit Status:**
   - **Juz 1–5 (Chunks 1–15):** `COMPLETED` `[ ✓ ]` — Full visual re-audit against 1990 printed scans completed (32 fixes/reversions applied: 6 restored original wording/omissions, 9 restored original footnote placements, 17 enclitic whitespace corrections).
   - **Juz 6–10 (Chunks 16–33):** `PENDING RETROACTIVE AUDIT` `[ ⏳ ]` — Queued for retroactive log & physical scan verification.
