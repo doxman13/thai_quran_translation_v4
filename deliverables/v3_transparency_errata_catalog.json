@@ -11989,11 +11989,110 @@
     "timestamp": "2026-10-26T17:08:21.340439+00:00"
   },
   {
+    "ayah": "41:9",
+    "type": "TYPO",
+    "target": "และพวกท่านตั้งภาคีคู่เคียงกับพระองค์กระนั้นหรือ นั่นคือ",
+    "replacement": "และพวกท่านตั้งภาคีคู่เคียงกับพระองค์กระนั้นหรือ? นั่นคือ",
+    "reason": "เติมเครื่องหมายคำถาม (?) หลัง 'กระนั้นหรือ?' ตามต้นฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T17:25:19.933146+00:00"
+  },
+  {
+    "ayah": "41:13",
+    "type": "TYPO",
+    "target": "พวกอ๊าดและพวกซะมูด",
+    "replacement": "พวกอ๊าดและพวกษะมูด",
+    "reason": "ปรับตัวสะกดทับศัพท์ 'ซะมูด' เป็น 'ษะมูด' (ใช้ ษ-ฤๅษี) ตามมาตรฐานอักขรวิธีทับศัพท์อิสลาม",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T17:25:19.933386+00:00"
+  },
+  {
+    "ayah": "41:16",
+    "type": "OMISSION",
+    "target": "ลิ้มการลงโทษอันน่าอับยศ",
+    "replacement": "ลิ้มรสการลงโทษอันน่าอัปยศ",
+    "reason": "กอบกู้คำว่า 'รส' ที่ตกหล่นตามตัวบท (لِّنُذِيقَهُمۡ) และแก้ไขคำสะกดผิด 'อับยศ' เป็น 'อัปยศ' (ใช้ ป-ปลา) ตามต้นฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T17:25:19.933406+00:00"
+  },
+  {
+    "ayah": "41:17",
+    "type": "TYPO",
+    "target": "และส่วนพวกซะมูดนั้น",
+    "replacement": "และส่วนพวกษะมูดนั้น",
+    "reason": "ปรับตัวสะกดทับศัพท์ 'ซะมูด' เป็น 'ษะมูด' (ใช้ ษ-ฤๅษี) ตามมาตรฐานอักขรวิธีทับศัพท์อิสลาม",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T17:25:19.933425+00:00"
+  },
+  {
+    "ayah": "41:22",
+    "type": "TYPO",
+    "target": "ไม่เคยปิดปัง",
+    "replacement": "ไม่เคยปิดบัง",
+    "reason": "แก้ไขคำสะกดผิดจาก OCR 'ปิดปัง' เป็น 'ปิดบัง' ตามต้นฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T17:25:19.933443+00:00"
+  },
+  {
+    "ayah": "41:25",
+    "type": "OMISSION",
+    "target": "แล้วพวกเขาก็ทำให้สิ่งที่",
+    "replacement": "แล้วพวกเขาก็ได้ทำให้สิ่งที่",
+    "reason": "เติมคำว่า 'ได้' ที่ตกหล่นตามตัวบท (فَزَيَّنُوا) และต้นฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T17:25:19.933461+00:00"
+  },
+  {
+    "ayah": "41:30",
+    "type": "SPACING",
+    "target": "อัลลอฮฺคือพระเจ้าของพวกเราแล้วพวกเขาก็ยืนหยัด",
+    "replacement": "อัลลอฮฺคือพระเจ้าของพวกเรา แล้วพวกเขาก็ยืนหยัด",
+    "reason": "เว้นวรรคคั่นอนุประโยค '...ของพวกเรา แล้วพวกเขาก็ยืนหยัด' ตามจังหวะอ่าน (คง 'ของพวกเรา' ตามหลักฐานสแกนจริงหน้า 1230 ปฏิเสธการเปลี่ยนเป็น 'ของเรา')",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T17:25:19.933479+00:00"
+  },
+  {
+    "ayah": "41:33",
+    "type": "TYPO",
+    "target": "จะมีคำพูดที่ดีเลิศยิ่งไปกว่า",
+    "replacement": "จะมีคำพูดดีเลิศยิ่งไปกว่า",
+    "reason": "ตัดคำว่า 'ที่' เกินมาออกให้ตรงตามต้นฉบับพิมพ์ King Fahd 1990 (Physical Ground Truth Anchor)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T17:25:19.933496+00:00"
+  },
+  {
+    "ayah": "41:40",
+    "type": "SUPREME_TRUTH",
+    "target": "แท้จริงบรรดาผู้บิดเบือนทั้งหลายของเรา",
+    "replacement": "แท้จริงบรรดาผู้บิดเบือนอายาตทั้งหลายของเรา",
+    "reason": "เติมคำว่า 'อายาต' ที่ตกหล่นตามตัวบทภาษาอาหรับ (فِي ءَايَاتِنَا) และคำอธิบายในเชิงอรรถ เพื่อให้ความหมายสมบูรณ์ถูกต้องตามหลัก Supreme Truth Principle",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T17:25:19.933514+00:00"
+  },
+  {
+    "ayah": "41:43",
+    "type": "SPACING",
+    "target": "แก่บรรดารอซูล ก่อนหน้าเจ้า",
+    "replacement": "แก่บรรดารอซูลก่อนหน้าเจ้า",
+    "reason": "ปลดการเคาะวรรคกลางกลุ่มคำตามต้นฉบับพิมพ์ King Fahd 1990 (De-Overkill Spacing)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T17:25:19.933531+00:00"
+  },
+  {
     "ayah": "41:43",
     "type": "OCR_TYPO",
     "target": "พระองค์ทรงเป็นผู้อภัย และทรงเป็นผู้อภัย และทรงเป็นผู้ลงโทษอย่างเจ็บปวด",
     "replacement": "พระองค์ทรงเป็นผู้อภัย และทรงเป็นผู้ลงโทษอย่างเจ็บปวด",
     "reason": "De-duplicate printed duplication in King Fahd text.",
     "source": "Layer 0 Pre-Patcher (Baseline Scan)"
+  },
+  {
+    "ayah": "41:44",
+    "type": "TYPO",
+    "target": "จึงไม่ชัดแจ้งเล่า (อัลกุรอาน) เป็นภาษาต่างชาติ และ (นบี) เป็นคนอาหรับกระนั้นหรือ จงกล่าวเถิด",
+    "replacement": "จึงไม่ชัดแจ้งเล่า? (อัลกุรอาน) เป็นภาษาต่างชาติ และ (นบี) เป็นคนอาหรับกระนั้นหรือ? จงกล่าวเถิด",
+    "reason": "เติมเครื่องหมายคำถาม (?) สองตำแหน่งหลังประโยคคำถามตามต้นฉบับพิมพ์ King Fahd 1990",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-26T17:25:19.933550+00:00"
   }
 ]
