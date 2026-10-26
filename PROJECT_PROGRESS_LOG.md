@@ -83,15 +83,15 @@
 
 ### [P8] Master V3 Synthesis Audit & Tri-Repo Production Synchronization
 * **Pipeline:** Master V3 Synthesis (King Fahd 1990 Base + ThaiQuran / Ajarn Asman Meesomboon Scholar Fixer + Multimodal Printed Scan Verification)
-* **Status:** In Progress — **15 / 127 chunks DONE (11.8%)**, **640 verses cumulative** audited and synchronized to `thai-quran-web` and `thai-quran-app`.
-* **Completed Milestones:**
-  - **Juz 1 (1:1 - 2:141):** 100% `[ ✓ ]` (Chunks 1, 2, 3)
-  - **Juz 2 (2:142 - 2:252):** 100% `[ ✓ ]` (Chunks 4, 5, 6)
-  - **Juz 3 (2:253 - 3:92):** 100% `[ ✓ ]` (Chunks 7, 8, 9)
-  - **Juz 4 (3:93 - 4:23):** 100% `[ ✓ ]` (Chunks 10, 11, 12)
-  - **Juz 5 (4:24 - 4:147):** 100% `[ ✓ ]` (Chunks 13, 14, 15)
+* **Status:** In Progress — **67 / 127 chunks DONE (54.28%)**, **3,385 / 6,236 verses cumulative** audited and synchronized to `thai-quran-web` and `thai-quran-app`.
+* **Completed Milestones (Forward Audit):**
+  - **Juz 1–20 (Chunks 1–67):** 100% `[ ✓ ]` completed and synchronized across tri-repo ecosystem.
+  - **Juz 21 (Chunk 68, 29:46–29:69):** `IN PROGRESS`.
+* **Retroactive Visual Scan Audit Status:**
+  - **Juz 1–5 (Chunks 1–15):** `COMPLETED` `[ ✓ ]` — Full visual re-audit against 1990 printed scans completed (32 fixes/reversions applied: 6 restored original wording/omissions, 9 restored original footnote placements, 17 enclitic whitespace corrections).
+  - **Juz 6–10 (Chunks 16–33):** `PENDING RETROACTIVE AUDIT` `[ ⏳ ]` — Queued for retroactive log & physical scan verification.
 * **Key Architectural Standards Solidified:**
   - **127 Sliced Reference PDFs:** Sliced the 1,794-page authentic 1990 King Fahd printed scan into all 127 standalone subchunk PDFs (`audit_chunks/printed_pdf/`) for 1-click drag & drop audit in Gemini.
   - **Vocabulary Fidelity (Rule Zero):** 100% consistent retention of King Fahd classical vocabulary (`พระเจ้า` / `พระผู้เป็นเจ้า`) in the running prose translation. Word-by-word root meaning (`ر-บ-บ` = พระผู้อภิบาล) is cleanly handled in the app's WBW layer.
   - **Canonical Date Palm Spelling:** Standardized to Royal Institute Thai Dictionary standard **`อินทผลัม`** (no sara-aa) across 100% of the Quran (31/31 verses and all footnotes).
-  - **Transparency Errata Catalog:** Automated generation of `deliverables/v3_transparency_errata_catalog.json` and `.md` (currently tracking 130 verified corrections).
+  - **Transparency Errata Catalog:** Automated generation of `deliverables/v3_transparency_errata_catalog.json` and `.md` (tracking 1,146 verified corrections).
