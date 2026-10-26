@@ -83,7 +83,7 @@
 
 ### [P8] Master V3 Synthesis Audit & Tri-Repo Production Synchronization
 * **Pipeline:** Master V3 Synthesis (King Fahd 1990 Base + ThaiQuran / Ajarn Asman Meesomboon Scholar Fixer + Multimodal Printed Scan Verification)
-* **Status:** In Progress — **77 / 127 chunks DONE (60.6%)**, **3,788 / 6,236 verses cumulative** audited and synchronized to `thai-quran-web` and `thai-quran-app`.
+* **Status:** In Progress — **78 / 127 chunks DONE (61.4%)**, **3,870 / 6,236 verses cumulative** audited and synchronized to `thai-quran-web` and `thai-quran-app`.
 * **Completed Milestones (Forward Audit):**
   - **Juz 1–20 (Chunks 1–67):** 100% `[ ✓ ]` completed and synchronized across tri-repo ecosystem.
   - **Juz 21 (Chunks 68–72):** 100% `[ ✓ ]` completed.
@@ -94,7 +94,8 @@
     - **Chunk 76 (36:1–36:27, 27 verses):** 6 verified fixes applied (36:1 compound 'ยาซีน', 36:19 '?', 36:20 restored 'เขากล่าวว่า' (قَالَ) and 'บรรดา' with '!', 36:23 '?', 36:25 'ซิ!', 36:26 restored 'สวนสวรรค์' (ٱلۡجَنَّةَ)).
   - **Juz 23 (Chunks 77–80):** In Progress
     - **Chunk 77 (36:28–36:83, 56 verses):** 16 verified fixes applied (36:35 spacing & '?', 36:47 '?' & spacing, 36:52 '!', 36:58 quotes & '!', 36:59 '!', 36:60 'ชัยฏอน' & '!', 36:62 '?', 36:66 '?', 36:68 '?', 36:73 '?', 36:78 spacing, 36:79 '(มุฮัมมัด)', 36:81 '?', 36:83 spacing). **Surah Ya-Sin 100% COMPLETE!**
-  - **Chunk 78 (37:1–37:82, 82 verses):** `UP NEXT`.
+    - **Chunk 78 (37:1–37:82, 82 verses):** 15 verified fixes applied (37:6 spacing, 37:11 '?', 37:16 '?', 37:17 '?', 37:29 '!', 37:36 '?', 37:37 '!', 37:52 '?', 37:53 '?', 37:54 '?', 37:59 '?', 37:64 spacing, 37:69 spacing, 37:73 '?', 37:79 spacing).
+  - **Chunk 79 (37:83–37:182, 100 verses):** `UP NEXT`.
 * **Retroactive Visual Scan Audit Status:**
   - **Juz 1–5 (Chunks 1–15):** `COMPLETED` `[ ✓ ]` — Full visual re-audit against 1990 printed scans completed (32 fixes/reversions applied: 6 restored original wording/omissions, 9 restored original footnote placements, 17 enclitic whitespace corrections).
   - **Juz 6–10 (Chunks 16–33):** `PENDING RETROACTIVE AUDIT` `[ ⏳ ]` — Queued for retroactive log & physical scan verification.
