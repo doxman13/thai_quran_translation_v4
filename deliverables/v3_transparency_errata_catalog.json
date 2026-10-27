@@ -12967,5 +12967,41 @@
     "reason": "แก้ไขคำทับศัพท์ ชัยฏอน (เดิมสะกดผิดเป็น ซัยฏอน) ตามฉบับพิมพ์ King Fahd 1990 หน้า 1362 และมาตรฐานศัพท์ทับศัพท์",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-27T09:07:31.853177+00:00"
+  },
+  {
+    "ayah": "51:4",
+    "type": "SPACING",
+    "target": "ขอสาบานต่อมลาอิกะฮฺผู้จัดสรรการงาน[FN:1]",
+    "replacement": "ขอสาบานต่อมลาอิกะฮฺ ผู้จัดสรรการงาน[FN:1]",
+    "reason": "เว้นวรรค 1 เคาะหลัง 'มลาอิกะฮฺ' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 1370",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T09:18:49.297415+00:00"
+  },
+  {
+    "ayah": "51:17",
+    "type": "SPACING",
+    "target": "พวกเขาเคยหลับนอน แต่เพียงส่วนน้อย",
+    "replacement": "พวกเขาเคยหลับนอนแต่เพียงส่วนน้อย",
+    "reason": "ลบการเว้นวรรคผิดธรรมชาติคั่นกลางประโยค ให้เขียนชิดติดกัน 'หลับนอนแต่' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 1372",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T09:18:49.297647+00:00"
+  },
+  {
+    "ayah": "51:25",
+    "type": "TYPO",
+    "target": "เขากล่าวว่า (ตอบ) ว่าศานติ",
+    "replacement": "เขากล่าว (ตอบ) ว่า ศานติ",
+    "reason": "ตัดคำว่า 'ว่า' ที่ซ้ำซ้อนหน้าวงเล็บออก และเว้นวรรค 1 เคาะหลัง 'ว่า' หน้าคำทักทายตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 1373",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T09:18:49.297668+00:00"
+  },
+  {
+    "ayah": "51:30",
+    "type": "SPACING",
+    "target": "ผู้ทรงปรีชาญาณผู้ทรงรอบรู้เสมอ",
+    "replacement": "ผู้ทรงปรีชาญาณ ผู้ทรงรอบรู้เสมอ",
+    "reason": "เว้นวรรคคั่นระหว่างพระนามคุณลักษณะ (Asma' wa Sifat) ที่พิมพ์ติดกันเป็นพรืดตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 1374",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T09:18:49.297687+00:00"
   }
 ]
