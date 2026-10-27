@@ -13003,5 +13003,41 @@
     "reason": "เว้นวรรคคั่นระหว่างพระนามคุณลักษณะ (Asma' wa Sifat) ที่พิมพ์ติดกันเป็นพรืดตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 1374",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-27T09:18:49.297687+00:00"
+  },
+  {
+    "ayah": "51:31",
+    "type": "SPACING",
+    "target": "โอ้ บรรดาทูตเอ๋ย",
+    "replacement": "โอ้บรรดาทูตเอ๋ย",
+    "reason": "ลบการเว้นวรรคที่ไม่จำเป็นระหว่างคำเรียกขาน 'โอ้' กับคำนามตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 1372",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T09:41:11.348060+00:00"
+  },
+  {
+    "ayah": "51:46",
+    "type": "TYPO",
+    "target": "ของนูหฺก่อนหน้านี้",
+    "replacement": "ของนูฮฺก่อนหน้านี้",
+    "reason": "ปรับการสะกดชื่อนบี นูฮฺ ตามเกณฑ์มาตรฐานศัพท์ทับศัพท์ (ใช้ ฮ-นกฮูก มีพินทุ)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T09:41:11.348340+00:00"
+  },
+  {
+    "ayah": "51:47",
+    "type": "OMISSION",
+    "target": "เราได้สร้างมันด้วยความแข็งแกร่ง",
+    "replacement": "เราได้สร้างมันด้วยพระหัตถ์ของเรา",
+    "reason": "แก้ไขข้อความให้ตรงตามฉบับพิมพ์ทางการ King Fahd 1990 หน้า 1375 (ด้วยพระหัตถ์ของเรา)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T09:41:11.348362+00:00"
+  },
+  {
+    "ayah": "51:60",
+    "type": "TYPO",
+    "target": "ความหายนะจะประสบแด่บรรดา",
+    "replacement": "ความหายนะจงประสบแด่บรรดา",
+    "reason": "แก้ไขคำผิดจาก OCR (จะ -> จง) ให้ตรงตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 1377",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T09:41:11.348382+00:00"
   }
 ]
