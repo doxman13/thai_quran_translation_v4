@@ -12094,5 +12094,14 @@
     "reason": "เติมเครื่องหมายคำถาม (?) สองตำแหน่งหลังประโยคคำถามตามต้นฉบับพิมพ์ King Fahd 1990",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-26T17:25:19.933550+00:00"
+  },
+  {
+    "ayah": "41:53",
+    "type": "OMISSION",
+    "target": "จนกระทั่งจะเป็นประจักษ์แก่พวกเขาว่า",
+    "replacement": "จนกระทั่งจะเป็นที่ประจักษ์แก่พวกเขาว่า",
+    "reason": "กอบกู้คำว่า 'ที่' ('จะเป็นที่ประจักษ์') ที่ตกหล่นไปจาก V3 ให้ตรงตามต้นฉบับสแกนเล่มจริง King Fahd 1990 หน้า 1238",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T03:33:37.702269+00:00"
   }
 ]
