@@ -12913,5 +12913,59 @@
     "reason": "เว้นวรรค 1 เคาะหน้าคำเชื่อม 'และ' เพื่อแยกวลีตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 1354",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-27T07:48:27.261314+00:00"
+  },
+  {
+    "ayah": "50:1",
+    "type": "TYPO",
+    "target": "กอฟ[FN:1]",
+    "replacement": "ก็อฟ[FN:1]",
+    "reason": "แก้ไขการสะกดชื่ออักษร ก็อฟ ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 1358",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T09:07:31.852884+00:00"
+  },
+  {
+    "ayah": "50:4",
+    "type": "SPACING",
+    "target": "และณ ที่เรานั้น",
+    "replacement": "และ ณ ที่เรานั้น",
+    "reason": "เคาะวรรคแยกคำที่พิมพ์ติดกัน (OCR Glue) ระหว่างคำเชื่อม และ กับคำบุพบท ณ ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 1358",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T09:07:31.853100+00:00"
+  },
+  {
+    "ayah": "50:10",
+    "type": "SPACING",
+    "target": "และต้นอินทผลัมอย่างสูงตระหง่าน",
+    "replacement": "และต้นอินทผลัม อย่างสูงตระหง่าน",
+    "reason": "เว้นวรรค 1 เคาะหลัง 'และต้นอินทผลัม' ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 1359",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T09:07:31.853121+00:00"
+  },
+  {
+    "ayah": "50:12",
+    "type": "TYPO",
+    "target": "ของนูหฺได้ปฏิเสธ",
+    "replacement": "ของนูฮฺได้ปฏิเสธ",
+    "reason": "ปรับการสะกดชื่อนบี นูฮฺ ตามเกณฑ์มาตรฐานศัพท์ทับศัพท์ (ใช้ ฮ-นกฮูก มีพินทุ)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T09:07:31.853140+00:00"
+  },
+  {
+    "ayah": "50:13",
+    "type": "TYPO",
+    "target": "และพี่น้องของลู๊ฎ",
+    "replacement": "และพี่น้องของลู๊ฏ",
+    "reason": "แก้ไขตัวสะกดทับศัพท์ชื่อนบี ลู๊ฏ (ใช้ ฏ-ปฏัก) ตามต้นฉบับพิมพ์ King Fahd 1990 หน้า 1360 และมาตรฐานชื่อนบี",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T09:07:31.853159+00:00"
+  },
+  {
+    "ayah": "50:27",
+    "type": "TYPO",
+    "target": "(ซัยฏอน)",
+    "replacement": "(ชัยฏอน)",
+    "reason": "แก้ไขคำทับศัพท์ ชัยฏอน (เดิมสะกดผิดเป็น ซัยฏอน) ตามฉบับพิมพ์ King Fahd 1990 หน้า 1362 และมาตรฐานศัพท์ทับศัพท์",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-27T09:07:31.853177+00:00"
   }
 ]
