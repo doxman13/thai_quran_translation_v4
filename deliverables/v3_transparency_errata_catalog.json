@@ -13606,5 +13606,41 @@
     "reason": "แก้ไขรูปสะกด 'ความหยิ่งยะโส' เป็น 'ความหยิ่งยโส' ตามพจนานุกรมฉบับราชบัณฑิตยสถานและต้นฉบับพิมพ์คัมภีร์ King Fahd 1990 (หน้า 1535)",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-28T08:16:30.329194+00:00"
+  },
+  {
+    "ayah": "68:8",
+    "type": "SPACING",
+    "target": "ดังนั้น เจ้าอย่าได้ปฏิบัติตาม",
+    "replacement": "ดังนั้นเจ้าอย่าได้ปฏิบัติตาม",
+    "reason": "ลบการเคาะวรรคที่ไม่จำเป็นหลัง 'ดังนั้น' ให้เขียนติดต่อกันตามธรรมชาติภาษาไทยและตรงตามต้นฉบับพิมพ์คัมภีร์ King Fahd 1990 (หน้า 1541)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T08:43:14.571971+00:00"
+  },
+  {
+    "ayah": "68:10",
+    "type": "SPACING",
+    "target": "ทุกคน ที่เป็นนักสาบาน",
+    "replacement": "ทุกคนที่เป็นนักสาบาน",
+    "reason": "ลบการเคาะวรรคกลางกลุ่มคำขยาย 'ทุกคนที่เป็น' ตามต้นฉบับพิมพ์คัมภีร์ King Fahd 1990 (หน้า 1541)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T08:43:14.572219+00:00"
+  },
+  {
+    "ayah": "68:18",
+    "type": "TYPO",
+    "target": "คำว่า อินชา อัลลอฮฺ",
+    "replacement": "คำว่า “อินชา อัลลอฮฺ”",
+    "reason": "ใส่อัญประกาศ “...” ล้อมรอบคำพูดตามต้นฉบับพิมพ์คัมภีร์ King Fahd 1990 (หน้า 1542)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T08:43:14.572241+00:00"
+  },
+  {
+    "ayah": "68:30",
+    "type": "TYPO",
+    "target": "ซึ่งกันแล้วกัน",
+    "replacement": "ซึ่งกันและกัน",
+    "reason": "แก้ไขคำสะกดผิดจาก OCR 'ซึ่งกันแล้วกัน' เป็น 'ซึ่งกันและกัน' ตามต้นฉบับพิมพ์คัมภีร์ King Fahd 1990 (หน้า 1543)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T08:43:14.572261+00:00"
   }
 ]
