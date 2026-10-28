@@ -117,7 +117,7 @@ chunk_id	juz	chunk_in_juz	range	verses	filename	status	fix_count	fixes_summary	u
 116	29	4	70:1-70:44	44	juz_29_part4_70_1_to_70_44.txt	DONE	4		
 117	29	5	71:1-71:28	28	juz_29_part5_71_1_to_71_28.txt	DONE	15		
 118	29	6	72:1-72:28	28	juz_29_part6_72_1_to_72_28.txt	DONE	4		
-119	29	7	73:1-73:20	20	juz_29_part7_73_1_to_73_20.txt	PENDING	0		
+119	29	7	73:1-73:20	20	juz_29_part7_73_1_to_73_20.txt	DONE	2		
 120	29	8	74:1-74:56	56	juz_29_part8_74_1_to_74_56.txt	PENDING	0		
 121	29	9	75:1-75:40	40	juz_29_part9_75_1_to_75_40.txt	PENDING	0		
 122	29	10	76:1-76:31	31	juz_29_part10_76_1_to_76_31.txt	PENDING	0		
