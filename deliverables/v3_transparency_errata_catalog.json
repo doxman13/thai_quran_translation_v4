@@ -14254,5 +14254,212 @@
     "reason": "เติมคำว่า 'ใน' ('อยู่ในโลกนี้') ให้ตรงตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1641) และปลดการเว้นวรรคที่ไม่จำเป็นหลังคำว่า 'ชั่วครู่หนึ่ง'",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-28T11:00:31.693008+00:00"
+  },
+  {
+    "ayah": "80:24",
+    "type": "SPACING",
+    "target": "ดู อาหารของเขาซิ",
+    "replacement": "ดูอาหารของเขาซิ",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) ระหว่างคำว่า 'ดู' กับ 'อาหาร' ตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1646)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368111+00:00"
+  },
+  {
+    "ayah": "80:40",
+    "type": "SPACING",
+    "target": "และหลายใบหน้า ในวันนั้น มีฝุ่นจับ",
+    "replacement": "และหลายใบหน้าในวันนั้นมีฝุ่นจับ",
+    "reason": "ปลดการเว้นวรรคย่อยที่ตัดคำสะเปะสะปะ (De-Overkill Spacing) ให้เขียนต่อเนื่องตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1648)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368360+00:00"
+  },
+  {
+    "ayah": "81:9",
+    "type": "TYPO",
+    "target": "เขาจงถูกฆ่า",
+    "replacement": "เขาจึงถูกฆ่า",
+    "reason": "แก้ไขคำผิดจาก OCR 'เขาจงถูกฆ่า' เป็น 'เขาจึงถูกฆ่า' ตามตัวบทภาษาอาหรับ بِأَيِّ ذَنبٍ قُتِلَتْ และตรงตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1651)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368383+00:00"
+  },
+  {
+    "ayah": "81:25",
+    "type": "TYPO",
+    "target": "ชัยตอนที่ถูกสาปแช่ง",
+    "replacement": "ชัยฏอนที่ถูกสาปแช่ง",
+    "reason": "แก้ไขคำทับศัพท์ 'ชัยตอน' เป็น 'ชัยฏอน' (ใช้ ฏ-ปฏัก) ตามเกณฑ์มาตรฐานอักขรวิธีและตรงตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1653)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368405+00:00"
+  },
+  {
+    "ayah": "83:2",
+    "type": "SPACING",
+    "target": "คือบรรดาผู้ที่ เมื่อพวกเขาตวงเอาจากคนอื่น ก็ตวงเอาเต็ม",
+    "replacement": "คือบรรดาผู้ที่เมื่อพวกเขาตวงเอาจากคนอื่นก็ตวงเอาเต็ม",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) ให้เขียนต่อเนื่องตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1662)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368426+00:00"
+  },
+  {
+    "ayah": "83:3",
+    "type": "SPACING",
+    "target": "คนอื่น ก็ทำให้ขาด[FN:1]",
+    "replacement": "คนอื่นก็ทำให้ขาด[FN:1]",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) หน้าคำว่า 'ก็ทำให้ขาด' ตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1662)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368449+00:00"
+  },
+  {
+    "ayah": "83:13",
+    "type": "TYPO",
+    "target": "นิยายเหลวไหวสมัยก่อน[FN:1]",
+    "replacement": "นิยายเหลวไหลสมัยก่อน[FN:1]",
+    "reason": "แก้ไขคำสะกดผิดจาก OCR 'เหลวไหว' เป็น 'เหลวไหล' ตามพจนานุกรมและตรงตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1663)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368470+00:00"
+  },
+  {
+    "ayah": "83:14",
+    "type": "SPACING",
+    "target": "ไว้นั้น ได้เป็นสนิม",
+    "replacement": "ไว้นั้นได้เป็นสนิม",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) หลังคำว่า 'ไว้นั้น' ให้เขียนต่อเนื่องตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1663)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368491+00:00"
+  },
+  {
+    "ayah": "83:16",
+    "type": "TYPO",
+    "target": "เปลวไฟลุกโซน",
+    "replacement": "เปลวไฟลุกโชน",
+    "reason": "แก้ไขคำสะกดผิด 'ลุกโซน' เป็น 'ลุกโชน' ตามพจนานุกรมฉบับราชบัณฑิตยสถาน และตรงตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1663)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368512+00:00"
+  },
+  {
+    "ayah": "83:26",
+    "type": "SPACING",
+    "target": "และในการนี้ บรรดาผู้แข่งขัน",
+    "replacement": "และในการนี้บรรดาผู้แข่งขัน",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) หลังคำว่า 'และในการนี้' ตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1665)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368533+00:00"
+  },
+  {
+    "ayah": "83:27",
+    "type": "SPACING",
+    "target": "ที่ใช้ผสมสุรานั้น มาจากตัสนีม",
+    "replacement": "ที่ใช้ผสมสุรานั้นมาจากตัสนีม",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) หลังคำว่า 'สุรานั้น' ตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1665)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368553+00:00"
+  },
+  {
+    "ayah": "83:32",
+    "type": "SPACING",
+    "target": "เห็นบรรดาผู้ศรัทธาพวกเขาก็กล่าวว่า",
+    "replacement": "เห็นบรรดาผู้ศรัทธา พวกเขาก็กล่าวว่า",
+    "reason": "เว้นวรรค 1 เคาะเพื่อแยกช่วงใจความที่พิมพ์ติดกันเป็นพรืด (OCR Glued Words) ตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1665)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368574+00:00"
+  },
+  {
+    "ayah": "83:36",
+    "type": "OMISSION",
+    "target": "ตามที่ได้ปฏิบัติมา มิใช่หรือ[FN:1]",
+    "replacement": "ตามที่เขาได้ปฏิบัติมามิใช่หรือ[FN:1]",
+    "reason": "กอบกู้คำสรรพนาม 'เขา' ('ตามที่เขาได้ปฏิบัติมา') ที่ตกหล่นไปตามตัวบทอาหรับ كَانُوا และตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1666)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368596+00:00"
+  },
+  {
+    "ayah": "84:18",
+    "type": "SPACING",
+    "target": "และด้วยดวงจันทร์ เมื่อมันเต็มดวง[FN:1]",
+    "replacement": "และด้วยดวงจันทร์เมื่อมันเต็มดวง[FN:1]",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) หลังคำว่า 'และด้วยดวงจันทร์' ตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1671)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368617+00:00"
+  },
+  {
+    "ayah": "84:19",
+    "type": "SPACING",
+    "target": "แน่นอน พวกเจ้าจะต้องเผชิญกับสภาพหนึ่ง หลังจากอีกสภาพหนึ่ง[FN:1]",
+    "replacement": "แน่นอนพวกเจ้าจะต้องเผชิญกับสภาพหนึ่งหลังจากอีกสภาพหนึ่ง[FN:1]",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) ตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1671)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368638+00:00"
+  },
+  {
+    "ayah": "85:12",
+    "type": "OMISSION",
+    "target": "แห่งพระเจ้านั้นแข็งกร้าวยิ่งนัก[FN:1]",
+    "replacement": "แห่งพระเจ้าของเจ้านั้นแข็งกร้าวยิ่งนัก[FN:1]",
+    "reason": "กอบกู้คำว่า 'ของเจ้า' ('แห่งพระเจ้าของเจ้านั้น') ที่ตกหล่นไปตามตัวบทอาหรับ رَبِّكَ และตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1677)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368659+00:00"
+  },
+  {
+    "ayah": "87:5",
+    "type": "OMISSION",
+    "target": "แล้วทรงทำให้มันซังแห้งสีคล้ำมอซอ[FN:1]",
+    "replacement": "แล้วทรงทำให้มันเป็นซังแห้งสีคล้ำมอซอ[FN:1]",
+    "reason": "เติมคำว่า 'เป็น' ('ทำให้มันเป็นซังแห้ง') ที่ตกหล่นไป ให้ครบถ้วนตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1686)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368679+00:00"
+  },
+  {
+    "ayah": "88:17",
+    "type": "SPACING",
+    "target": "ดอกหรือ ว่ามันถูกบังเกิดมาอย่างไร",
+    "replacement": "ดอกหรือว่ามันถูกบังเกิดมาอย่างไร",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) ระหว่างคำว่า 'ดอกหรือ' กับ 'ว่ามัน' ตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1691)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368701+00:00"
+  },
+  {
+    "ayah": "88:18",
+    "type": "TYPO",
+    "target": "และ (ไม่พิจารณาดู) ยังท้องฟ้าบ้างหรือว่า มันถูกยกให้สูงขึ้นอย่างไร",
+    "replacement": "และ (ไม่พิจารณาดู) ท้องฟ้าบ้างหรือว่ามันถูกยกให้สูงขึ้นอย่างไร",
+    "reason": "ตัดคำว่า 'ยัง' ที่พิมพ์เกินมาออก และปลดการเว้นวรรคที่ไม่จำเป็นตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1691)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368720+00:00"
+  },
+  {
+    "ayah": "88:19",
+    "type": "TYPO",
+    "target": "และ (ไม่พิจารณาดู) ยังภูเขา",
+    "replacement": "และ (ไม่พิจารณาดู) ภูเขา",
+    "reason": "ตัดคำว่า 'ยัง' ที่พิมพ์เกินมาออก ให้ตรงตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1691)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368739+00:00"
+  },
+  {
+    "ayah": "88:20",
+    "type": "TYPO",
+    "target": "และ (ไม่พิจารณาดู) ยังแผ่นดิน",
+    "replacement": "และ (ไม่พิจารณาดู) แผ่นดิน",
+    "reason": "ตัดคำว่า 'ยัง' ที่พิมพ์เกินมาออก ให้ตรงตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1692)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368759+00:00"
+  },
+  {
+    "ayah": "89:16",
+    "type": "TYPO",
+    "target": "แต่ครั้งเมื่อพระองค์ทรงทดสอบเขา",
+    "replacement": "แต่ครั้นเมื่อพระองค์ทรงทดสอบเขา",
+    "reason": "แก้ไขคำผิดจาก OCR 'แต่ครั้งเมื่อ' เป็น 'แต่ครั้นเมื่อ' ให้ถูกต้องตามหลักภาษาและตรงตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1697)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368779+00:00"
+  },
+  {
+    "ayah": "89:24",
+    "type": "TYPO",
+    "target": "โอ้ ถ้าฉันได้ทำความดีไว้ล่วงหน้า",
+    "replacement": "โอ้ ฉันน่าจะได้ทำความดีไว้ล่วงหน้า",
+    "reason": "แก้ไขข้อความ 'ถ้าฉันได้ทำความดีไว้' เป็น 'ฉันน่าจะได้ทำความดีไว้' ให้ตรงตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1698)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T12:15:27.368798+00:00"
   }
 ]
