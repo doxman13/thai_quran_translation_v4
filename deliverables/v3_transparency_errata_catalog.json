@@ -13444,5 +13444,41 @@
     "reason": "เว้นวรรคคั่นรอยต่อประโยคเงื่อนไขตามต้นฉบับพิมพ์คัมภีร์ King Fahd 1990 (หน้า 1497) 'สำหรับพวกเจ้า หากพวกเจ้ารู้'",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-28T07:42:07.217646+00:00"
+  },
+  {
+    "ayah": "63:2",
+    "type": "SPACING",
+    "target": "เป็นโล่แล้วกีดกัน",
+    "replacement": "เป็นโล่ แล้วกีดกัน",
+    "reason": "เว้นวรรคคั่นรอยต่ออนุประโยคตามต้นฉบับพิมพ์คัมภีร์ King Fahd 1990 (หน้า 1502)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T07:48:14.062348+00:00"
+  },
+  {
+    "ayah": "63:5",
+    "type": "SPACING",
+    "target": "ผินหลังออกไปทั้ง ๆ ที่",
+    "replacement": "ผินหลังออกไป ทั้ง ๆ ที่",
+    "reason": "เว้นวรรคคั่นรอยต่อประโยคหน้า 'ทั้ง ๆ ที่' ตามจังหวะวรรคตอนและต้นฉบับพิมพ์ King Fahd 1990 (หน้า 1503)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T07:48:14.062612+00:00"
+  },
+  {
+    "ayah": "63:6",
+    "type": "TYPO",
+    "target": "หรือไม่ขออภัยโทษให้แก่พวกเขาก็ตาม",
+    "replacement": "หรือไม่ขออภัยโทษแก่พวกเขาก็ตาม",
+    "reason": "ตัดคำว่า 'ให้' ที่เกินมาออก ให้ตรงตามต้นฉบับพิมพ์คัมภีร์ King Fahd 1990 (หน้า 1503) 'หรือไม่ขออภัยโทษแก่พวกเขาก็ตาม'",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T07:48:14.062634+00:00"
+  },
+  {
+    "ayah": "63:11",
+    "type": "SPACING",
+    "target": "ให้แก่ชีวิตใดเมื่อกำหนด",
+    "replacement": "ให้แก่ชีวิตใด เมื่อกำหนด",
+    "reason": "เว้นวรรคคั่นรอยต่อประโยค (Clause Cadence) ตามต้นฉบับพิมพ์คัมภีร์ King Fahd 1990 (หน้า 1505) 'ให้แก่ชีวิตใด เมื่อกำหนดของมันได้มาถึงแล้ว'",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T07:48:14.062654+00:00"
   }
 ]
