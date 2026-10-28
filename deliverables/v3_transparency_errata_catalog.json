@@ -14677,5 +14677,176 @@
     "reason": "กอบกู้เครื่องหมายเชิงอรรถ [FN:1] ที่ตกหล่นไป เพื่อเชื่อมโยงกับคำอธิบายเชิงอรรถตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1741)",
     "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
     "timestamp": "2026-10-28T14:31:38.114049+00:00"
+  },
+  {
+    "ayah": "101:3",
+    "type": "TYPO",
+    "target": "ทำให้เจ้าได้รู้ว่า",
+    "replacement": "ทำให้เจ้ารู้ได้ว่า",
+    "reason": "แก้ไขคำสลับตำแหน่งจาก OCR 'เจ้าได้รู้ว่า' เป็น 'เจ้ารู้ได้ว่า' ให้ตรงตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1743)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.258768+00:00"
+  },
+  {
+    "ayah": "101:4",
+    "type": "SPACING",
+    "target": "แมลงเม่า ที่กระจายว่อน",
+    "replacement": "แมลงเม่าที่กระจายว่อน",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) ให้เขียนต่อเนื่องตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1743)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259040+00:00"
+  },
+  {
+    "ayah": "102:6",
+    "type": "TYPO",
+    "target": "แล้วแน่นอน พวกเจ้าจะเห็นไฟที่ลุกโชน",
+    "replacement": "แน่นอน พวกเจ้าจะเห็นไฟที่ลุกโชน",
+    "reason": "ตัดคำว่า 'แล้ว' เกินออก ให้ตรงตามตัวบทภาษาอาหรับ لَتَرَوُنَّ และตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1746)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259062+00:00"
+  },
+  {
+    "ayah": "102:7",
+    "type": "SPACING",
+    "target": "แล้วแน่นอน พวกเจ้า",
+    "replacement": "แล้วแน่นอนพวกเจ้า",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) ให้เขียนต่อเนื่องตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1747)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259083+00:00"
+  },
+  {
+    "ayah": "102:8",
+    "type": "SPACING",
+    "target": "แล้วในวันนั้น พวกเจ้า",
+    "replacement": "แล้วในวันนั้นพวกเจ้า",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) ให้เขียนต่อเนื่องตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1747)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259104+00:00"
+  },
+  {
+    "ayah": "104:1",
+    "type": "SPACING",
+    "target": "ทุกผู้นินทา และผู้ใส่ร้ายผู้อื่น",
+    "replacement": "ทุกผู้นินทาและผู้ใส่ร้ายผู้อื่น",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) หน้าคำเชื่อม 'และ' ให้เขียนต่อเนื่องตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1751)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259125+00:00"
+  },
+  {
+    "ayah": "104:2",
+    "type": "SPACING",
+    "target": "ซึ่งเขาสะสมทรัพย์สมบัติ และหมั่นนับมันอยู่เสมอ",
+    "replacement": "ซึ่งเขาสะสมทรัพย์สมบัติและหมั่นนับมันอยู่เสมอ",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) หน้าคำเชื่อม 'และ' ให้เขียนต่อเนื่องตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1751)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259145+00:00"
+  },
+  {
+    "ayah": "105:1",
+    "type": "SPACING",
+    "target": "หรือว่าพระเจ้าของเจ้า",
+    "replacement": "หรือว่า พระเจ้าของเจ้า",
+    "reason": "เว้นวรรค 1 เคาะเพื่อแยกช่วงใจความและจังหวะอ่านตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1754)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259166+00:00"
+  },
+  {
+    "ayah": "105:2",
+    "type": "TYPO",
+    "target": "แผนการณ์ของพวกเขาสูญสิ้นดอกหรือ[FN:1]",
+    "replacement": "แผนการของพวกเขาสูญสิ้นดอกหรือ[FN:1]",
+    "reason": "แก้ไขคำสะกดผิด 'แผนการณ์' เป็น 'แผนการ' ให้ตรงตามพจนานุกรมและต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1754)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259187+00:00"
+  },
+  {
+    "ayah": "106:2",
+    "type": "SPACING",
+    "target": "แก่พวกเขา ในการเดินทาง",
+    "replacement": "แก่พวกเขาในการเดินทาง",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) ให้เขียนต่อเนื่องตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1756)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259208+00:00"
+  },
+  {
+    "ayah": "107:7",
+    "type": "TYPO",
+    "target": "เล็ก ๆ น้อย (แก่เพื่อนบ้าน)[FN:1]",
+    "replacement": "เล็ก ๆ น้อย ๆ (แก่เพื่อนบ้าน)[FN:1]",
+    "reason": "เติมไม้ยมก (ๆ) หลังคำว่า 'น้อย' ('เล็ก ๆ น้อย ๆ') ให้สมบูรณ์ตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1759)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259229+00:00"
+  },
+  {
+    "ayah": "108:2",
+    "type": "SPACING",
+    "target": "พระเจ้าของเจ้า และจงเชือดสัตว์พลี[FN:1]",
+    "replacement": "พระเจ้าของเจ้าและจงเชือดสัตว์พลี[FN:1]",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) หน้าคำเชื่อม 'และ' ให้เขียนต่อเนื่องตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1761)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259250+00:00"
+  },
+  {
+    "ayah": "108:3",
+    "type": "SPACING",
+    "target": "เจ้านั้น เขาเป็นผู้ถูกตัดขาด[FN:1]",
+    "replacement": "เจ้านั้นเขาเป็นผู้ถูกตัดขาด[FN:1]",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) ให้เขียนต่อเนื่องตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1761)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259270+00:00"
+  },
+  {
+    "ayah": "109:2",
+    "type": "SPACING",
+    "target": "ฉันจะไม่เคารพภักดี สิ่งที่",
+    "replacement": "ฉันจะไม่เคารพภักดีสิ่งที่",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) ระหว่างกริยากับกรรม ให้เขียนต่อเนื่องตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1763)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259290+00:00"
+  },
+  {
+    "ayah": "109:4",
+    "type": "SPACING",
+    "target": "ผู้เคารพภักดี สิ่งที่",
+    "replacement": "ผู้เคารพภักดีสิ่งที่",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) ให้เขียนต่อเนื่องตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1763)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259311+00:00"
+  },
+  {
+    "ayah": "110:1",
+    "type": "SPACING",
+    "target": "ของอัลลอฮฺและการพิชิต",
+    "replacement": "ของอัลลอฮฺ และการพิชิต",
+    "reason": "เว้นวรรค 1 เคาะเพื่อแยกช่วงใจความตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1765)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259331+00:00"
+  },
+  {
+    "ayah": "111:2",
+    "type": "SPACING",
+    "target": "ทรัพย์สมบัติของเขาและสิ่งที่เขาได้ขวนขวายเอาไว้นั้น มิได้อำนวยประโยชน์",
+    "replacement": "ทรัพย์สมบัติของเขา และสิ่งที่เขาได้ขวนขวายเอาไว้นั้นมิได้อำนวยประโยชน์",
+    "reason": "ปรับการเว้นวรรคให้ตรงตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1767)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259352+00:00"
+  },
+  {
+    "ayah": "111:3",
+    "type": "SPACING",
+    "target": "ในนรก ที่มีไฟลุกโชน[FN:1]",
+    "replacement": "ในนรกที่มีไฟลุกโชน[FN:1]",
+    "reason": "ปลดการเว้นวรรคที่ไม่จำเป็น (De-Overkill Spacing) ให้เขียนต่อเนื่องตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1767)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259373+00:00"
+  },
+  {
+    "ayah": "113:3",
+    "type": "TYPO",
+    "target": "ของกาลเวลากลางคืน เมื่อมันแผ่คลุม",
+    "replacement": "ของเวลากลางคืนเมื่อมันแผ่คลุม",
+    "reason": "แก้ไขคำเกิน 'กาล' เป็น 'ของเวลากลางคืน' และปลดการเว้นวรรคที่ไม่จำเป็นให้ตรงตามต้นฉบับพิมพ์ King Fahd 1990 (หน้าที่ 1771)",
+    "source": "Scholarly LLM Audit (Gemini + Uthmani Cross-Check)",
+    "timestamp": "2026-10-28T14:44:42.259392+00:00"
   }
 ]

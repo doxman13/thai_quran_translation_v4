@@ -125,4 +125,4 @@ chunk_id	juz	chunk_in_juz	range	verses	filename	status	fix_count	fixes_summary	u
 124	30	1	78:1-79:46	86	juz_30_part1_78_1_to_79_46.txt	DONE	13		
 125	30	2	80:1-89:30	265	juz_30_part2_80_1_to_89_30.txt	DONE	23		
 126	30	3	90:1-100:11	134	juz_30_part3_90_1_to_100_11.txt	DONE	24		
-127	30	4	101:1-114:6	79	juz_30_part4_101_1_to_114_6.txt	PENDING	0		
+127	30	4	101:1-114:6	79	juz_30_part4_101_1_to_114_6.txt	DONE	19		
